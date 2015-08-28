@@ -1,0 +1,60 @@
+{
+   "checksum": "c75c21fe1b7cf983366c25874bea6a31",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13068597790828441",
+            "id": "2",
+            "name": "Production Siebel",
+            "type": "url",
+            "url": "javascript:window.open(\"http://siebelprd1.wellpoint.com/consumer_oui\")"
+         }, {
+            "date_added": "13068597805116425",
+            "id": "3",
+            "name": "Citrix",
+            "type": "url",
+            "url": "http://citrixvendor2.wellpoint.com/Vendors/auth/login.aspx"
+         }, {
+            "date_added": "13068597805116425",
+            "id": "4",
+            "name": "Monet Anywhere",
+            "type": "url",
+            "url": "https://monetanywhere.wfmlive.com/login/login.aspx"
+         }, {
+            "date_added": "13068597826876426",
+            "id": "5",
+            "name": "Anthem.com",
+            "type": "url",
+            "url": "https://www.anthem.com/shop"
+         }, {
+            "date_added": "13068597851155333",
+            "id": "6",
+            "name": "ADP",
+            "type": "url",
+            "url": "https://workforcenow.adp.com/public/index.htm"
+         } ],
+         "date_added": "13068597726749265",
+         "date_modified": "13068658608525450",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13068597726749274",
+         "date_modified": "0",
+         "id": "7",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13068597726749275",
+         "date_modified": "0",
+         "id": "8",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

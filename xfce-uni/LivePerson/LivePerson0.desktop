@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LivePerson
+Comment=Launch LivePerson
+Exec=env WINEPREFIX="/home/matt/.wine" wine C:\\\\Program\\ Files\\ \\(x86\\)\\\\LivePersonAgent\\\\\\\\LivePerson.exe
+Icon=/home/matt/Desktop/Linux/xfce/preferences/DesktopShortcut.png
+Path=/home/matt/.wine/dosdevices/c:/Program Files (x86)/LivePersonAgent/
+Terminal=false
+StartupNotify=true

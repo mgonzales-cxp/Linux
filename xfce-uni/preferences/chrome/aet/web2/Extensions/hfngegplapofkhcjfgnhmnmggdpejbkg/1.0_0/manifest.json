@@ -1,0 +1,16 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "description": "Connexion Point Chat",
+   "icons": {
+      "64": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3FsXlfARRQ4kPWglfmZt/LbzBicfW2euuSdWApqxlm1QiQOMsArIv8tw8BrfOw6UL47EETt59MPoT6uIAOUZpCptq/TeqvvqU6DjM9Zl/UQ1d439+DiPBKJ47vGlofb5O2sESV+ribkHYeuMOpiWDO5IJUn3k5FfZWlhRlmdo6ShqsroifsUKyHs9NwCjO/iLC5i9v1DhmDEA4D8t0NBnAbXxyFH6HigC4kQVlc/MvlhV2crKi/kKX7Ys+B5JfuoldVqu+544bVAoJSYMA26/jzWdNIcslUbDubt3MgsmGKvILJLwZ8JydSwsl2ovj+5oDbL1yqtuAmFd+9ORdRY2wIDAQAB",
+   "manifest_version": 2,
+   "name": "Connexion Point Chat",
+   "permissions": [ "fullscreen", "alwaysOnTopWindows", "webview", "https://cxpxe.net/" ],
+   "version": "1.0"
+}

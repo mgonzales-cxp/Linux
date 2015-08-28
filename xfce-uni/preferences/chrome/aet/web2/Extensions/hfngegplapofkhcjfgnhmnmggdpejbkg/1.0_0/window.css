@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+}
+webview{
+	width: 350px;
+	height: 450px;
+}
+img {
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+  cursor: pointer;
+}
+.title-area {
+    -webkit-app-region: drag;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999999999999;
+    font-weight: bold;
+    width: 346px;
+	padding: 2px 2px;
+	height: 20px;
+}
+.title-button {
+    -webkit-app-region: no-drag;
+    display: inline-block;
+	float: right;
+}
