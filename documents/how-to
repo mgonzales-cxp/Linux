@@ -1,0 +1,5 @@
+1. Copy initial_setup.sh, profile_select.sh, and client_setup.sh to the desktop.
+2. Right click on desktop and click "Open in Terminal"
+3. Enter:
+	sudo chmod +x initial_setup profile_select.sh client_setup.sh
+4. sudo ./initial_setup.sh

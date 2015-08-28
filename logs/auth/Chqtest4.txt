@@ -1,0 +1,1280 @@
+Apr 21 11:00:05 Chqtest4 sshd[3980]: Accepted password for tech from 192.168.1.83 port 57068 ssh2
+Apr 21 11:00:05 Chqtest4 sshd[3980]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 21 11:05:36 Chqtest4 mdm[1841]: pam_unix(mdm:session): session closed for user tech
+Apr 21 11:05:36 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 11:05:36 Chqtest4 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 21 11:05:38 Chqtest4 mdm[4121]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 21 11:05:38 Chqtest4 mdm[4121]: PAM adding faulty module: pam_kwallet.so
+Apr 21 11:06:01 Chqtest4 sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/reboot
+Apr 21 11:06:01 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 21 11:06:01 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 11:06:44 Chqtest4 sshd[1559]: Server listening on 0.0.0.0 port 22.
+Apr 21 11:06:44 Chqtest4 sshd[1559]: Server listening on :: port 22.
+Apr 21 11:06:45 Chqtest4 CRON[1642]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 11:06:45 Chqtest4 CRON[1643]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 11:06:49 Chqtest4 CRON[1643]: pam_unix(cron:session): session closed for user root
+Apr 21 11:06:49 Chqtest4 CRON[1642]: pam_unix(cron:session): session closed for user root
+Apr 21 11:06:50 Chqtest4 mdm[1853]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 21 11:06:50 Chqtest4 mdm[1853]: PAM adding faulty module: pam_kwallet.so
+Apr 21 11:06:54 Chqtest4 mdm[1853]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 21 11:06:55 Chqtest4 mdm[1853]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 21 11:06:55 Chqtest4 mdm[1853]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 21 11:07:00 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 21 11:08:56 Chqtest4 sshd[3236]: Accepted password for tech from 192.168.1.83 port 57155 ssh2
+Apr 21 11:08:56 Chqtest4 sshd[3236]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 21 11:10:23 Chqtest4 mdm[1853]: pam_unix(mdm:session): session closed for user tech
+Apr 21 11:10:23 Chqtest4 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 21 11:10:24 Chqtest4 mdm[3502]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 21 11:10:24 Chqtest4 mdm[3502]: PAM adding faulty module: pam_kwallet.so
+Apr 21 11:11:17 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/reboot
+Apr 21 11:11:17 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 21 11:11:17 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 11:11:59 Chqtest4 sshd[1562]: Server listening on 0.0.0.0 port 22.
+Apr 21 11:11:59 Chqtest4 sshd[1562]: Server listening on :: port 22.
+Apr 21 11:11:59 Chqtest4 CRON[1645]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 11:11:59 Chqtest4 CRON[1646]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 11:12:03 Chqtest4 CRON[1646]: pam_unix(cron:session): session closed for user root
+Apr 21 11:12:04 Chqtest4 CRON[1645]: pam_unix(cron:session): session closed for user root
+Apr 21 11:12:05 Chqtest4 mdm[1855]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 21 11:12:05 Chqtest4 mdm[1855]: PAM adding faulty module: pam_kwallet.so
+Apr 21 11:12:08 Chqtest4 mdm[1855]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 21 11:12:09 Chqtest4 mdm[1855]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 21 11:12:10 Chqtest4 mdm[1855]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 21 11:12:14 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 21 11:14:32 Chqtest4 polkitd(authority=local): Operator of unix-session:c1 successfully authenticated as unix-user:tech to gain ONE-SHOT authorization for action com.ubuntu.pkexec.synaptic for unix-process:3149:17970 [/bin/sh -c pkexec /usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 44040223 -o Synaptic::closeZvt=true --progress-str "Please wait, this can take some time" --finish-str "Update is complete" --set-selections-file /tmp/tmp6WkXSb] (owned by unix-user:tech)
+Apr 21 11:14:32 Chqtest4 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 21 11:14:32 Chqtest4 pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Apr 21 11:14:32 Chqtest4 pkexec[3150]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/home/tech] [COMMAND=/usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 44040223 -o Synaptic::closeZvt=true --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmp6WkXSb]
+Apr 21 11:16:32 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/sbin/service Xorg stop
+Apr 21 11:16:32 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 21 11:16:32 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 11:16:40 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/Xorg restart
+Apr 21 11:16:40 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 21 11:16:40 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 11:16:57 Chqtest4 sshd[3563]: Accepted password for tech from 192.168.1.83 port 57221 ssh2
+Apr 21 11:16:57 Chqtest4 sshd[3563]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 21 11:17:01 Chqtest4 CRON[3615]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 11:17:01 Chqtest4 CRON[3615]: pam_unix(cron:session): session closed for user root
+Apr 21 11:18:28 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/X :0
+Apr 21 11:18:28 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 21 11:18:28 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 11:18:31 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/X :0 restart
+Apr 21 11:18:31 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 21 11:18:31 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 11:18:46 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/X :0 -nocursor
+Apr 21 11:18:46 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 21 11:18:46 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 11:19:13 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/X :0 -noloc
+Apr 21 11:19:13 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 21 11:19:13 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 11:19:15 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/X :0 -nolock
+Apr 21 11:19:15 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 21 11:19:15 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 11:19:19 Chqtest4 su[3635]: Successful su for root by tech
+Apr 21 11:19:19 Chqtest4 su[3635]: + /dev/pts/0 tech:root
+Apr 21 11:19:19 Chqtest4 su[3635]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 21 11:38:04 Chqtest4 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 21 11:40:36 Chqtest4 sshd[3563]: pam_unix(sshd:session): session closed for user tech
+Apr 21 11:42:14 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 21 11:42:14 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 21 11:42:25 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 11:57:38 Chqtest4 sshd[3857]: Accepted password for tech from 192.168.1.83 port 57901 ssh2
+Apr 21 11:57:38 Chqtest4 sshd[3857]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 21 11:58:13 Chqtest4 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 21 12:02:14 Chqtest4 sshd[3857]: pam_unix(sshd:session): session closed for user tech
+Apr 21 12:06:22 Chqtest4 sshd[3965]: Accepted password for tech from 192.168.1.83 port 58014 ssh2
+Apr 21 12:06:22 Chqtest4 sshd[3965]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 21 12:07:25 Chqtest4 sshd[3965]: pam_unix(sshd:session): session closed for user tech
+Apr 21 12:07:40 Chqtest4 sshd[4054]: Accepted password for tech from 192.168.1.83 port 58034 ssh2
+Apr 21 12:07:40 Chqtest4 sshd[4054]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 21 12:08:46 Chqtest4 su[4120]: Successful su for root by tech
+Apr 21 12:08:46 Chqtest4 su[4120]: + /dev/pts/2 tech:root
+Apr 21 12:08:46 Chqtest4 su[4120]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 21 12:11:10 Chqtest4 sshd[4599]: Accepted password for tech from 192.168.1.20 port 52685 ssh2
+Apr 21 12:11:10 Chqtest4 sshd[4599]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 21 12:11:56 Chqtest4 sshd[4599]: pam_unix(sshd:session): session closed for user tech
+Apr 21 12:12:14 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 21 12:12:14 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 21 12:12:30 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 12:14:13 Chqtest4 sshd[4723]: Accepted password for tech from 192.168.1.20 port 52793 ssh2
+Apr 21 12:14:13 Chqtest4 sshd[4723]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 21 12:14:29 Chqtest4 su[4776]: Successful su for root by tech
+Apr 21 12:14:29 Chqtest4 su[4776]: + /dev/pts/8 tech:root
+Apr 21 12:14:29 Chqtest4 su[4776]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 21 12:15:21 Chqtest4 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 21 12:15:47 Chqtest4 sshd[4723]: pam_unix(sshd:session): session closed for user tech
+Apr 21 12:15:47 Chqtest4 su[4776]: pam_unix(su:session): session closed for user root
+Apr 21 12:17:01 Chqtest4 CRON[4995]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 12:17:01 Chqtest4 CRON[4995]: pam_unix(cron:session): session closed for user root
+Apr 21 12:18:58 Chqtest4 sshd[5002]: Accepted password for tech from 192.168.1.75 port 59632 ssh2
+Apr 21 12:18:58 Chqtest4 sshd[5002]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 21 12:20:40 Chqtest4 sshd[5002]: pam_unix(sshd:session): session closed for user tech
+Apr 21 12:31:18 Chqtest4 su[4120]: pam_unix(su:session): session closed for user root
+Apr 21 12:42:14 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 21 12:42:14 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 21 12:42:29 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 12:51:00 Chqtest4 sshd[4054]: pam_unix(sshd:session): session closed for user tech
+Apr 21 12:58:52 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Apr 21 12:58:52 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Apr 21 12:58:52 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr 21 12:58:52 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr 21 13:12:14 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 21 13:12:14 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 21 13:12:28 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 13:17:01 Chqtest4 CRON[5351]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 13:17:01 Chqtest4 CRON[5351]: pam_unix(cron:session): session closed for user root
+Apr 21 13:17:40 Chqtest4 su[3635]: pam_unix(su:session): session closed for user root
+Apr 21 13:17:40 Chqtest4 mdm[1855]: pam_unix(mdm:session): session closed for user tech
+Apr 21 13:17:41 Chqtest4 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.34, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 21 13:17:42 Chqtest4 mdm[5371]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 21 13:17:42 Chqtest4 mdm[5371]: PAM adding faulty module: pam_kwallet.so
+Apr 21 13:18:47 Chqtest4 sshd[5412]: Accepted password for tech from 192.168.1.83 port 50109 ssh2
+Apr 21 13:18:47 Chqtest4 sshd[5412]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 21 13:18:52 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/reboot
+Apr 21 13:18:52 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 21 13:18:52 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 13:19:34 Chqtest4 sshd[1565]: Server listening on 0.0.0.0 port 22.
+Apr 21 13:19:34 Chqtest4 sshd[1565]: Server listening on :: port 22.
+Apr 21 13:19:34 Chqtest4 CRON[1659]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 13:19:34 Chqtest4 CRON[1658]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 13:19:38 Chqtest4 CRON[1659]: pam_unix(cron:session): session closed for user root
+Apr 21 13:19:39 Chqtest4 CRON[1658]: pam_unix(cron:session): session closed for user root
+Apr 21 13:19:40 Chqtest4 mdm[1854]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 21 13:19:40 Chqtest4 mdm[1854]: PAM adding faulty module: pam_kwallet.so
+Apr 21 14:17:01 Chqtest4 CRON[2165]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 14:17:01 Chqtest4 CRON[2165]: pam_unix(cron:session): session closed for user root
+Apr 21 15:17:01 Chqtest4 CRON[2248]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 15:17:01 Chqtest4 CRON[2248]: pam_unix(cron:session): session closed for user root
+Apr 21 16:17:01 Chqtest4 CRON[2331]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 16:17:01 Chqtest4 CRON[2331]: pam_unix(cron:session): session closed for user root
+Apr 21 17:17:01 Chqtest4 CRON[2413]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 17:17:01 Chqtest4 CRON[2413]: pam_unix(cron:session): session closed for user root
+Apr 21 18:17:01 Chqtest4 CRON[2500]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 18:17:01 Chqtest4 CRON[2500]: pam_unix(cron:session): session closed for user root
+Apr 21 19:17:01 Chqtest4 CRON[2582]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 19:17:01 Chqtest4 CRON[2582]: pam_unix(cron:session): session closed for user root
+Apr 21 20:17:01 Chqtest4 CRON[2665]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 20:17:01 Chqtest4 CRON[2665]: pam_unix(cron:session): session closed for user root
+Apr 21 21:17:01 Chqtest4 CRON[2747]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 21:17:01 Chqtest4 CRON[2747]: pam_unix(cron:session): session closed for user root
+Apr 21 22:17:01 Chqtest4 CRON[2837]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 22:17:01 Chqtest4 CRON[2837]: pam_unix(cron:session): session closed for user root
+Apr 21 23:17:01 Chqtest4 CRON[2918]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 23:17:01 Chqtest4 CRON[2918]: pam_unix(cron:session): session closed for user root
+Apr 22 00:17:01 Chqtest4 CRON[2999]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 00:17:01 Chqtest4 CRON[2999]: pam_unix(cron:session): session closed for user root
+Apr 22 01:17:01 Chqtest4 CRON[3089]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 01:17:01 Chqtest4 CRON[3089]: pam_unix(cron:session): session closed for user root
+Apr 22 02:17:01 Chqtest4 CRON[3172]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 02:17:01 Chqtest4 CRON[3172]: pam_unix(cron:session): session closed for user root
+Apr 22 03:00:01 Chqtest4 CRON[3235]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 03:17:01 Chqtest4 CRON[3455]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 03:17:01 Chqtest4 CRON[3455]: pam_unix(cron:session): session closed for user root
+Apr 22 03:17:03 Chqtest4 CRON[3235]: pam_unix(cron:session): session closed for user root
+Apr 22 03:17:46 Chqtest4 sshd[1540]: Server listening on 0.0.0.0 port 22.
+Apr 22 03:17:46 Chqtest4 sshd[1540]: Server listening on :: port 22.
+Apr 22 03:17:46 Chqtest4 CRON[1624]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 03:17:46 Chqtest4 CRON[1625]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 03:17:49 Chqtest4 CRON[1625]: pam_unix(cron:session): session closed for user root
+Apr 22 03:17:51 Chqtest4 CRON[1624]: pam_unix(cron:session): session closed for user root
+Apr 22 03:17:52 Chqtest4 mdm[1833]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 22 03:17:52 Chqtest4 mdm[1833]: PAM adding faulty module: pam_kwallet.so
+Apr 22 03:22:49 Chqtest4 su[2238]: Successful su for nobody by root
+Apr 22 03:22:49 Chqtest4 su[2238]: + ??? root:nobody
+Apr 22 03:22:49 Chqtest4 su[2238]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr 22 03:22:49 Chqtest4 su[2238]: pam_unix(su:session): session closed for user nobody
+Apr 22 03:22:49 Chqtest4 su[2312]: Successful su for nobody by root
+Apr 22 03:22:49 Chqtest4 su[2312]: + ??? root:nobody
+Apr 22 03:22:49 Chqtest4 su[2312]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr 22 03:22:49 Chqtest4 su[2312]: pam_unix(su:session): session closed for user nobody
+Apr 22 03:22:49 Chqtest4 su[2326]: Successful su for nobody by root
+Apr 22 03:22:49 Chqtest4 su[2326]: + ??? root:nobody
+Apr 22 03:22:49 Chqtest4 su[2326]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr 22 03:23:15 Chqtest4 su[2326]: pam_unix(su:session): session closed for user nobody
+Apr 22 04:17:01 Chqtest4 CRON[2473]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 04:17:01 Chqtest4 CRON[2473]: pam_unix(cron:session): session closed for user root
+Apr 22 05:17:01 Chqtest4 CRON[2557]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 05:17:01 Chqtest4 CRON[2557]: pam_unix(cron:session): session closed for user root
+Apr 22 06:17:01 Chqtest4 CRON[2647]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 06:17:01 Chqtest4 CRON[2647]: pam_unix(cron:session): session closed for user root
+Apr 22 06:25:01 Chqtest4 CRON[2660]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 06:25:01 Chqtest4 CRON[2660]: pam_unix(cron:session): session closed for user root
+Apr 22 07:17:01 Chqtest4 CRON[2731]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 07:17:01 Chqtest4 CRON[2731]: pam_unix(cron:session): session closed for user root
+Apr 22 07:25:19 Chqtest4 mdm[1833]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 22 07:25:20 Chqtest4 mdm[1833]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 22 07:25:20 Chqtest4 mdm[1833]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 22 07:25:24 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c4 (system bus name :1.61 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 22 07:30:01 Chqtest4 CRON[3723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 07:30:01 Chqtest4 CRON[3723]: pam_unix(cron:session): session closed for user root
+Apr 22 07:30:13 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py --use-synaptic 33554462
+Apr 22 07:30:13 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 22 07:30:14 Chqtest4 sudo:     root : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/sbin/synaptic --hide-main-window --update-at-startup --non-interactive --parent-window-id 33554462
+Apr 22 07:30:14 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 22 07:30:40 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 07:30:42 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 07:31:26 Chqtest4 sshd[3819]: Accepted password for tech from 192.168.1.83 port 52991 ssh2
+Apr 22 07:31:26 Chqtest4 sshd[3819]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 22 07:31:29 Chqtest4 sshd[3830]: error: connect_to 127.0.0.1 port 5901: failed.
+Apr 22 07:31:35 Chqtest4 su[3872]: Successful su for root by tech
+Apr 22 07:31:35 Chqtest4 su[3872]: + /dev/pts/0 tech:root
+Apr 22 07:31:35 Chqtest4 su[3872]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 22 07:32:26 Chqtest4 su[4100]: Successful su for root by tech
+Apr 22 07:32:26 Chqtest4 su[4100]: + /dev/pts/2 tech:root
+Apr 22 07:32:26 Chqtest4 su[4100]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 22 07:32:40 Chqtest4 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/chrome_fix.sh
+Apr 22 07:32:40 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 07:33:10 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 07:34:04 Chqtest4 sshd[1554]: Server listening on 0.0.0.0 port 22.
+Apr 22 07:34:04 Chqtest4 sshd[1554]: Server listening on :: port 22.
+Apr 22 07:34:04 Chqtest4 CRON[1609]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 07:34:04 Chqtest4 CRON[1610]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 07:34:10 Chqtest4 CRON[1609]: pam_unix(cron:session): session closed for user root
+Apr 22 07:34:11 Chqtest4 mdm[1843]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 22 07:34:11 Chqtest4 mdm[1843]: PAM adding faulty module: pam_kwallet.so
+Apr 22 07:34:17 Chqtest4 CRON[1610]: pam_unix(cron:session): session closed for user root
+Apr 22 07:34:26 Chqtest4 sshd[2118]: Accepted password for tech from 192.168.1.83 port 53035 ssh2
+Apr 22 07:34:26 Chqtest4 sshd[2118]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 22 07:34:34 Chqtest4 mdm[1843]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 22 07:34:36 Chqtest4 mdm[1843]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 22 07:34:36 Chqtest4 mdm[1843]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 22 07:34:40 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 22 07:54:28 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Apr 22 07:54:28 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Apr 22 07:54:28 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr 22 07:54:28 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr 22 07:54:31 Chqtest4 sshd[2118]: pam_unix(sshd:session): session closed for user tech
+Apr 22 08:04:40 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 22 08:04:40 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 22 08:04:55 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 08:07:41 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Apr 22 08:07:41 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Apr 22 08:07:41 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr 22 08:07:41 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr 22 08:17:01 Chqtest4 CRON[3459]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 08:17:01 Chqtest4 CRON[3459]: pam_unix(cron:session): session closed for user root
+Apr 22 08:34:40 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 22 08:34:40 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 22 08:34:55 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 09:04:40 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 22 09:04:40 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 22 09:04:55 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 09:17:01 Chqtest4 CRON[3695]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 09:17:01 Chqtest4 CRON[3695]: pam_unix(cron:session): session closed for user root
+Apr 22 09:18:01 Chqtest4 sshd[3702]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.83  user=tech
+Apr 22 09:18:01 Chqtest4 sshd[3702]: pam_sss(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.83 user=tech
+Apr 22 09:18:01 Chqtest4 sshd[3702]: pam_sss(sshd:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr 22 09:18:02 Chqtest4 sshd[3702]: Failed password for tech from 192.168.1.83 port 55236 ssh2
+Apr 22 09:18:04 Chqtest4 sshd[3702]: Accepted password for tech from 192.168.1.83 port 55236 ssh2
+Apr 22 09:18:04 Chqtest4 sshd[3702]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 22 09:18:08 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/reboot
+Apr 22 09:18:08 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 09:18:08 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 09:53:04 Chqtest4 sshd[1548]: Server listening on 0.0.0.0 port 22.
+Apr 22 09:53:04 Chqtest4 sshd[1548]: Server listening on :: port 22.
+Apr 22 09:53:05 Chqtest4 CRON[1635]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 09:53:05 Chqtest4 CRON[1634]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 09:53:08 Chqtest4 CRON[1635]: pam_unix(cron:session): session closed for user root
+Apr 22 09:53:09 Chqtest4 CRON[1634]: pam_unix(cron:session): session closed for user root
+Apr 22 09:53:10 Chqtest4 mdm[1826]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 22 09:53:10 Chqtest4 mdm[1826]: PAM adding faulty module: pam_kwallet.so
+Apr 22 09:56:38 Chqtest4 sshd[2083]: Accepted password for tech from 192.168.1.83 port 55974 ssh2
+Apr 22 09:56:38 Chqtest4 sshd[2083]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 22 09:56:45 Chqtest4 sshd[2083]: pam_unix(sshd:session): session closed for user tech
+Apr 22 10:17:01 Chqtest4 CRON[2202]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 10:17:01 Chqtest4 CRON[2202]: pam_unix(cron:session): session closed for user root
+Apr 22 10:50:40 Chqtest4 mdm[1826]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 22 10:50:41 Chqtest4 mdm[1826]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 22 10:50:41 Chqtest4 mdm[1826]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 22 10:50:45 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.43 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 22 10:50:59 Chqtest4 dbus[705]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.9" (uid=0 pid=988 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=876 comm="NetworkManager ")
+Apr 22 10:51:06 Chqtest4 dbus[705]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.9" (uid=0 pid=988 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=876 comm="NetworkManager ")
+Apr 22 10:57:15 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/reboot
+Apr 22 10:57:15 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 10:57:15 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 10:57:58 Chqtest4 sshd[1551]: Server listening on 0.0.0.0 port 22.
+Apr 22 10:57:58 Chqtest4 sshd[1551]: Server listening on :: port 22.
+Apr 22 10:57:59 Chqtest4 CRON[1634]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 10:57:59 Chqtest4 CRON[1633]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 10:58:01 Chqtest4 CRON[1634]: pam_unix(cron:session): session closed for user root
+Apr 22 10:58:04 Chqtest4 CRON[1633]: pam_unix(cron:session): session closed for user root
+Apr 22 10:58:06 Chqtest4 mdm[1913]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 22 10:58:06 Chqtest4 mdm[1913]: PAM adding faulty module: pam_kwallet.so
+Apr 22 10:58:10 Chqtest4 mdm[1913]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 22 10:58:12 Chqtest4 mdm[1913]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 22 10:58:12 Chqtest4 mdm[1913]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 22 10:58:16 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 22 10:59:56 Chqtest4 mdm[2981]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 22 10:59:56 Chqtest4 mdm[2981]: PAM adding faulty module: pam_kwallet.so
+Apr 22 10:59:58 Chqtest4 mdm[2981]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+Apr 22 11:00:00 Chqtest4 mdm[2981]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost=  user=mgonzales
+Apr 22 11:00:01 Chqtest4 mdm[2981]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=mgonzales
+Apr 22 11:00:02 Chqtest4 mdm[2981]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+Apr 22 11:00:02 Chqtest4 mdm[2981]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :20
+Apr 22 11:00:03 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.51 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 22 11:00:15 Chqtest4 mdm[2981]: pam_unix(mdm:session): session closed for user mgonzales
+Apr 22 11:00:15 Chqtest4 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.51, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 22 11:00:20 Chqtest4 unix_chkpwd[3958]: password check failed for user (tech)
+Apr 22 11:00:20 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost=  user=tech
+Apr 22 11:00:20 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr 22 11:00:20 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr 22 11:00:22 Chqtest4 xscreensaver[2362]: FAILED LOGIN 1 ON DISPLAY ":0.0", FOR "tech"
+Apr 22 11:15:04 Chqtest4 xscreensaver[2362]: pam_ecryptfs: seteuid error
+Apr 22 11:15:04 Chqtest4 xscreensaver[2362]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 22 11:17:01 Chqtest4 CRON[3982]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 11:17:01 Chqtest4 CRON[3982]: pam_unix(cron:session): session closed for user root
+Apr 22 11:28:16 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 22 11:28:16 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 22 11:28:28 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 11:30:52 Chqtest4 unix_chkpwd[4049]: password check failed for user (tech)
+Apr 22 11:30:52 Chqtest4 xscreensaver[2362]: pam_unix(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost=  user=tech
+Apr 22 11:30:52 Chqtest4 xscreensaver[2362]: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr 22 11:30:52 Chqtest4 xscreensaver[2362]: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr 22 11:30:54 Chqtest4 xscreensaver[2362]: FAILED LOGIN 1 ON DISPLAY ":0.0", FOR "tech"
+Apr 22 11:30:56 Chqtest4 xscreensaver[2362]: pam_ecryptfs: seteuid error
+Apr 22 11:30:56 Chqtest4 xscreensaver[2362]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 22 11:58:16 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 22 11:58:16 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 22 11:58:27 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 12:02:24 Chqtest4 xscreensaver[2362]: pam_ecryptfs: seteuid error
+Apr 22 12:02:24 Chqtest4 xscreensaver[2362]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 22 12:02:48 Chqtest4 su[4154]: Successful su for root by tech
+Apr 22 12:02:48 Chqtest4 su[4154]: + /dev/pts/2 tech:root
+Apr 22 12:02:48 Chqtest4 su[4154]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 22 12:03:15 Chqtest4 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback#012#011#011#011iface eth0 inet static#012#011#011#011#011#011address 192.168.1.24#012#011#011#011#011#011netmask 255.255.252.0#012#011#011#011#011#011gateway 192.168.106.1#012#011#011#011#011#011broadcast 192.168.1.255#012#011#011#011#011#011dns-nameservers 192.168.128.239 8.8.8.8
+Apr 22 12:03:15 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 12:03:15 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 12:03:15 Chqtest4 dbus[691]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.9" (uid=0 pid=989 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=876 comm="NetworkManager ")
+Apr 22 12:04:01 Chqtest4 sudo:     tech : TTY=pts/5 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/ifup -a
+Apr 22 12:04:01 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 12:04:01 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 12:05:04 Chqtest4 su[4154]: pam_unix(su:session): session closed for user root
+Apr 22 12:07:46 Chqtest4 sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/gedit /etc/network/interfaces
+Apr 22 12:07:46 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 12:07:54 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 12:08:02 Chqtest4 sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/ifdown -a
+Apr 22 12:08:02 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 12:08:02 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 12:08:06 Chqtest4 sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/ifup -a
+Apr 22 12:08:06 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 12:08:06 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 12:09:25 Chqtest4 sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/reboot
+Apr 22 12:09:25 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 12:09:25 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 12:10:08 Chqtest4 sshd[1508]: Server listening on 0.0.0.0 port 22.
+Apr 22 12:10:08 Chqtest4 sshd[1508]: Server listening on :: port 22.
+Apr 22 12:10:08 Chqtest4 CRON[1597]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 12:10:08 Chqtest4 CRON[1596]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 12:10:13 Chqtest4 CRON[1597]: pam_unix(cron:session): session closed for user root
+Apr 22 12:10:13 Chqtest4 CRON[1596]: pam_unix(cron:session): session closed for user root
+Apr 22 12:10:14 Chqtest4 mdm[1798]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 22 12:10:14 Chqtest4 mdm[1798]: PAM adding faulty module: pam_kwallet.so
+Apr 22 12:10:16 Chqtest4 mdm[1798]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 22 12:10:18 Chqtest4 mdm[1798]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 22 12:10:18 Chqtest4 mdm[1798]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 22 12:10:22 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 22 12:10:45 Chqtest4 su[2962]: Successful su for root by tech
+Apr 22 12:10:45 Chqtest4 su[2962]: + /dev/pts/0 tech:root
+Apr 22 12:10:45 Chqtest4 su[2962]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 22 12:11:46 Chqtest4 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback#012#011#011#011iface eth0 inet static#012#011#011#011#011#011address 192.168.1.24#012#011#011#011#011#011netmask 255.255.252.0#012#011#011#011#011#011gateway 192.168.1.1#012#011#011#011#011#011#broadcast 192.168.1.255#012#011#011#011#011#011#dns-nameservers 192.168.128.239 8.8.8.8
+Apr 22 12:11:46 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 12:11:46 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 13:03:03 Chqtest4 sshd[1500]: Server listening on 0.0.0.0 port 22.
+Apr 22 13:03:03 Chqtest4 sshd[1500]: Server listening on :: port 22.
+Apr 22 13:03:03 Chqtest4 CRON[1575]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 13:03:03 Chqtest4 CRON[1576]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 13:03:06 Chqtest4 CRON[1576]: pam_unix(cron:session): session closed for user root
+Apr 22 13:03:08 Chqtest4 CRON[1575]: pam_unix(cron:session): session closed for user root
+Apr 22 13:03:10 Chqtest4 mdm[1867]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 22 13:03:10 Chqtest4 mdm[1867]: PAM adding faulty module: pam_kwallet.so
+Apr 22 13:03:16 Chqtest4 mdm[1867]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 22 13:03:18 Chqtest4 mdm[1867]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 22 13:03:18 Chqtest4 mdm[1867]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 22 13:03:22 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 22 13:05:05 Chqtest4 su[2832]: Successful su for root by tech
+Apr 22 13:05:05 Chqtest4 su[2832]: + /dev/pts/0 tech:root
+Apr 22 13:05:05 Chqtest4 su[2832]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 22 13:10:27 Chqtest4 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012auto lo#012iface lo inet loopback#012iface eth0 inet static#012#011#011address 192.168.1.24#012#011#011netmask 255.255.255.0#012#011#011gateway 192.168.1.1#012#011#011#broadcast 192.168.1.255#012#011#011#dns-nameservers 192.168.128.239 8.8.8.8
+Apr 22 13:10:27 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 13:10:27 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 13:11:57 Chqtest4 sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/gedit /etc/network/interfaces
+Apr 22 13:11:57 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 13:12:13 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 13:12:28 Chqtest4 sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/sbin/service network-manager restart
+Apr 22 13:12:28 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 13:12:29 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 13:12:36 Chqtest4 sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/sbin/service networking restart
+Apr 22 13:12:36 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 13:12:36 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 13:12:43 Chqtest4 sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/sbin/service resolvconf
+Apr 22 13:12:43 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 13:12:43 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 13:12:49 Chqtest4 sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/sbin/service resolvconf force-reload
+Apr 22 13:12:49 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 13:12:49 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 13:12:54 Chqtest4 sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/sbin/service resolvconf restart
+Apr 22 13:12:54 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 22 13:12:54 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 13:15:46 Chqtest4 gnome-keyring-daemon[3382]: couldn't access control socket: /run/user/1000/keyring-UUqwAx/control: No such file or directory
+Apr 22 13:15:46 Chqtest4 gnome-keyring-daemon[3382]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Apr 22 13:15:46 Chqtest4 gnome-keyring-daemon[3382]: keyring alias directory: /home/tech/.local/share/keyrings
+Apr 22 13:17:02 Chqtest4 sshd[1488]: Server listening on 0.0.0.0 port 22.
+Apr 22 13:17:02 Chqtest4 sshd[1488]: Server listening on :: port 22.
+Apr 22 13:17:02 Chqtest4 CRON[1580]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 13:17:02 Chqtest4 CRON[1581]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 13:17:06 Chqtest4 CRON[1581]: pam_unix(cron:session): session closed for user root
+Apr 22 13:17:06 Chqtest4 CRON[1580]: pam_unix(cron:session): session closed for user root
+Apr 22 13:17:07 Chqtest4 mdm[1785]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 22 13:17:07 Chqtest4 mdm[1785]: PAM adding faulty module: pam_kwallet.so
+Apr 22 13:17:59 Chqtest4 mdm[1785]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 22 13:18:00 Chqtest4 mdm[1785]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 22 13:18:00 Chqtest4 mdm[1785]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 22 13:18:04 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.31 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 22 13:37:00 Chqtest4 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 22 13:48:04 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 22 13:48:04 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 22 13:48:20 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 14:17:01 Chqtest4 CRON[3171]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 14:17:02 Chqtest4 CRON[3171]: pam_unix(cron:session): session closed for user root
+Apr 22 14:18:04 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 22 14:18:04 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 22 14:18:15 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 14:18:59 Chqtest4 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 22 14:48:04 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 22 14:48:04 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 22 14:48:18 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 15:17:01 Chqtest4 CRON[3327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 22 15:17:01 Chqtest4 CRON[3327]: pam_unix(cron:session): session closed for user root
+Apr 22 15:18:04 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 22 15:18:04 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 22 15:18:15 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 22 15:33:06 Chqtest4 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 23 08:21:29 Chqtest4 sshd[1460]: Server listening on 0.0.0.0 port 22.
+Apr 23 08:21:29 Chqtest4 sshd[1460]: Server listening on :: port 22.
+Apr 23 08:21:30 Chqtest4 CRON[1550]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 08:21:30 Chqtest4 CRON[1549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 08:21:35 Chqtest4 CRON[1549]: pam_unix(cron:session): session closed for user root
+Apr 23 08:21:36 Chqtest4 CRON[1550]: pam_unix(cron:session): session closed for user root
+Apr 23 08:21:36 Chqtest4 mdm[1707]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 23 08:21:36 Chqtest4 mdm[1707]: PAM adding faulty module: pam_kwallet.so
+Apr 23 08:26:32 Chqtest4 su[2146]: Successful su for nobody by root
+Apr 23 08:26:32 Chqtest4 su[2146]: + ??? root:nobody
+Apr 23 08:26:32 Chqtest4 su[2146]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr 23 08:26:32 Chqtest4 su[2146]: pam_unix(su:session): session closed for user nobody
+Apr 23 08:26:32 Chqtest4 su[2220]: Successful su for nobody by root
+Apr 23 08:26:32 Chqtest4 su[2220]: + ??? root:nobody
+Apr 23 08:26:32 Chqtest4 su[2220]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr 23 08:26:32 Chqtest4 su[2220]: pam_unix(su:session): session closed for user nobody
+Apr 23 08:26:32 Chqtest4 su[2235]: Successful su for nobody by root
+Apr 23 08:26:32 Chqtest4 su[2235]: + ??? root:nobody
+Apr 23 08:26:32 Chqtest4 su[2235]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr 23 08:27:00 Chqtest4 su[2235]: pam_unix(su:session): session closed for user nobody
+Apr 23 09:07:07 Chqtest4 mdm[1707]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 23 09:07:09 Chqtest4 mdm[1707]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 23 09:07:09 Chqtest4 mdm[1707]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 23 09:07:13 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c4 (system bus name :1.40 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 23 09:07:38 Chqtest4 polkit-agent-helper-1[3105]: pam_unix(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=tech rhost=  user=tech
+Apr 23 09:07:38 Chqtest4 polkit-agent-helper-1[3105]: pam_sss(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=tech rhost= user=tech
+Apr 23 09:07:38 Chqtest4 polkit-agent-helper-1[3105]: pam_sss(polkit-1:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr 23 09:07:42 Chqtest4 polkitd(authority=local): Operator of unix-session:c4 successfully authenticated as unix-user:tech to gain ONE-SHOT authorization for action com.ubuntu.pkexec.synaptic for unix-process:3102:279360 [/bin/sh -c pkexec /usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 54525983 -o Synaptic::closeZvt=true --progress-str "Please wait, this can take some time" --finish-str "Update is complete" --set-selections-file /tmp/tmp8yglys] (owned by unix-user:tech)
+Apr 23 09:07:42 Chqtest4 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 23 09:07:42 Chqtest4 pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Apr 23 09:07:42 Chqtest4 pkexec[3103]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/home/tech] [COMMAND=/usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 54525983 -o Synaptic::closeZvt=true --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmp8yglys]
+Apr 23 09:15:31 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/X :2 -configure
+Apr 23 09:15:31 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 09:15:31 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 09:15:56 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/X :0 -configure
+Apr 23 09:15:56 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 09:15:56 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 09:16:03 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/X :1 -configure
+Apr 23 09:16:03 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 09:16:03 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 09:16:50 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/Xorg -configure
+Apr 23 09:16:50 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 09:16:50 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 09:17:01 Chqtest4 CRON[5098]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 09:17:01 Chqtest4 CRON[5098]: pam_unix(cron:session): session closed for user root
+Apr 23 09:18:41 Chqtest4 login[1983]: pam_unix(login:session): session opened for user tech by LOGIN(uid=0)
+Apr 23 09:18:54 Chqtest4 sudo:     tech : TTY=tty1 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/sbin/service lightdm stop
+Apr 23 09:18:54 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 09:18:54 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 09:18:59 Chqtest4 sudo:     tech : TTY=tty1 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/sbin/service gdm stop
+Apr 23 09:18:59 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 09:18:59 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 09:19:02 Chqtest4 sudo:     tech : TTY=tty1 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/sbin/service mdm stop
+Apr 23 09:19:02 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 09:19:02 Chqtest4 mdm[1707]: pam_unix(mdm:session): session closed for user tech
+Apr 23 09:19:02 Chqtest4 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c4 (system bus name :1.40, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 23 09:19:02 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 09:19:10 Chqtest4 sudo:     tech : TTY=tty1 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/X -configure
+Apr 23 09:19:10 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 09:19:11 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 09:19:36 Chqtest4 sudo:     tech : TTY=tty1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mv xorg.conf.new /etc/X11/xorg.conf
+Apr 23 09:19:36 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 09:19:36 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 09:19:40 Chqtest4 sudo:     tech : TTY=tty1 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/start mdm
+Apr 23 09:19:40 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 09:19:41 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 09:19:41 Chqtest4 mdm[5227]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 23 09:19:41 Chqtest4 mdm[5227]: PAM adding faulty module: pam_kwallet.so
+Apr 23 09:19:42 Chqtest4 mdm[5227]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 23 09:19:44 Chqtest4 mdm[5227]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 23 09:19:44 Chqtest4 mdm[5227]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 23 09:19:46 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c6 (system bus name :1.69 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 23 09:19:57 Chqtest4 su[6001]: Successful su for root by tech
+Apr 23 09:19:57 Chqtest4 su[6001]: + /dev/pts/0 tech:root
+Apr 23 09:19:57 Chqtest4 su[6001]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 23 09:24:58 Chqtest4 sshd[6701]: Accepted password for tech from 192.168.1.83 port 54805 ssh2
+Apr 23 09:24:58 Chqtest4 sshd[6701]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 23 09:25:04 Chqtest4 sshd[6712]: error: connect_to 127.0.0.1 port 5901: failed.
+Apr 23 09:25:10 Chqtest4 su[6763]: Successful su for root by tech
+Apr 23 09:25:10 Chqtest4 su[6763]: + /dev/pts/2 tech:root
+Apr 23 09:25:10 Chqtest4 su[6763]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 23 09:26:30 Chqtest4 sshd[1517]: Server listening on 0.0.0.0 port 22.
+Apr 23 09:26:30 Chqtest4 sshd[1517]: Server listening on :: port 22.
+Apr 23 09:26:30 Chqtest4 CRON[1609]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 09:26:30 Chqtest4 CRON[1610]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 09:26:33 Chqtest4 CRON[1610]: pam_unix(cron:session): session closed for user root
+Apr 23 09:26:35 Chqtest4 CRON[1609]: pam_unix(cron:session): session closed for user root
+Apr 23 09:26:36 Chqtest4 mdm[1817]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 23 09:26:36 Chqtest4 mdm[1817]: PAM adding faulty module: pam_kwallet.so
+Apr 23 09:28:46 Chqtest4 mdm[1817]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 23 09:28:48 Chqtest4 mdm[1817]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 23 09:28:48 Chqtest4 mdm[1817]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 23 09:28:52 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.31 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 23 09:58:52 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 09:58:52 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 09:59:03 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 10:11:08 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Apr 23 10:11:08 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Apr 23 10:11:08 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr 23 10:11:08 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr 23 10:17:01 Chqtest4 CRON[3528]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 10:17:01 Chqtest4 CRON[3528]: pam_unix(cron:session): session closed for user root
+Apr 23 10:18:43 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Apr 23 10:18:43 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Apr 23 10:18:43 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr 23 10:18:43 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr 23 10:19:17 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Apr 23 10:19:17 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Apr 23 10:19:17 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr 23 10:19:17 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr 23 10:24:15 Chqtest4 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 23 10:24:43 Chqtest4 mdm[3676]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 23 10:24:43 Chqtest4 mdm[3676]: PAM adding faulty module: pam_kwallet.so
+Apr 23 10:24:46 Chqtest4 mdm[3676]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent"
+Apr 23 10:24:47 Chqtest4 mdm[3676]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost=  user=tagent
+Apr 23 10:24:48 Chqtest4 mdm[3676]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=tagent
+Apr 23 10:24:48 Chqtest4 mdm[3676]: pam_unix(mdm:session): session opened for user tagent by (uid=0)
+Apr 23 10:24:48 Chqtest4 mdm[3676]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :20
+Apr 23 10:24:51 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.52 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 23 10:26:03 Chqtest4 polkitd(authority=local): Operator of unix-session:c2 successfully authenticated as unix-user:tech to gain ONE-SHOT authorization for action com.ubuntu.pkexec.synaptic for unix-process:4600:359970 [/bin/sh -c pkexec /usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 48234527 -o Synaptic::closeZvt=true --progress-str "Please wait, this can take some time" --finish-str "Update is complete" --set-selections-file /tmp/tmpmUW78W] (owned by unix-user:tagent)
+Apr 23 10:26:03 Chqtest4 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=2114)
+Apr 23 10:26:03 Chqtest4 pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Apr 23 10:26:03 Chqtest4 pkexec[4601]: tagent: Executing command [USER=root] [TTY=unknown] [CWD=/home/tagent] [COMMAND=/usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 48234527 -o Synaptic::closeZvt=true --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmpmUW78W]
+Apr 23 10:27:34 Chqtest4 sshd[4881]: Accepted password for tech from 192.168.1.20 port 54534 ssh2
+Apr 23 10:27:34 Chqtest4 sshd[4881]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 23 10:27:46 Chqtest4 sshd[4892]: error: connect_to 127.0.0.1 port 5901: failed.
+Apr 23 10:27:55 Chqtest4 su[4971]: Successful su for root by tech
+Apr 23 10:27:55 Chqtest4 su[4971]: + /dev/pts/0 tech:root
+Apr 23 10:27:55 Chqtest4 su[4971]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 23 10:28:46 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Apr 23 10:28:46 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Apr 23 10:28:46 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr 23 10:28:46 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr 23 10:28:52 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 10:28:52 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 10:28:57 Chqtest4 mdm[3676]: pam_unix(mdm:session): session closed for user tagent
+Apr 23 10:28:57 Chqtest4 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.52, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 23 10:28:59 Chqtest4 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 23 10:29:03 Chqtest4 mdm[1817]: pam_unix(mdm:session): session closed for user tech
+Apr 23 10:29:03 Chqtest4 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.31, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 23 10:29:04 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 10:29:05 Chqtest4 mdm[5261]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 23 10:29:05 Chqtest4 mdm[5261]: PAM adding faulty module: pam_kwallet.so
+Apr 23 10:29:07 Chqtest4 mdm[5261]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent"
+Apr 23 10:29:08 Chqtest4 mdm[5261]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tagent
+Apr 23 10:29:09 Chqtest4 mdm[5261]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tagent
+Apr 23 10:29:09 Chqtest4 mdm[5261]: pam_unix(mdm:session): session opened for user tagent by (uid=0)
+Apr 23 10:29:09 Chqtest4 mdm[5261]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 23 10:29:11 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c3 (system bus name :1.84 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 23 10:29:20 Chqtest4 su[6005]: Successful su for root by tagent
+Apr 23 10:29:20 Chqtest4 su[6005]: + /dev/pts/2 tagent:root
+Apr 23 10:29:20 Chqtest4 su[6005]: pam_unix(su:session): session opened for user root by tagent(uid=2114)
+Apr 23 10:29:24 Chqtest4 su[6005]: pam_unix(su:session): session closed for user root
+Apr 23 10:30:56 Chqtest4 sshd[4881]: pam_unix(sshd:session): session closed for user tech
+Apr 23 10:30:56 Chqtest4 su[4971]: pam_unix(su:session): session closed for user root
+Apr 23 10:31:11 Chqtest4 sshd[6439]: Accepted password for tech from 192.168.1.20 port 54594 ssh2
+Apr 23 10:31:11 Chqtest4 sshd[6439]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 23 10:31:31 Chqtest4 sshd[6439]: pam_unix(sshd:session): session closed for user tech
+Apr 23 10:42:26 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost=  user=tagent
+Apr 23 10:42:27 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+Apr 23 10:42:27 Chqtest4 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 23 10:59:12 Chqtest4 sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 10:59:12 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 10:59:27 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 11:17:01 Chqtest4 CRON[6667]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 11:17:01 Chqtest4 CRON[6667]: pam_unix(cron:session): session closed for user root
+Apr 23 11:29:12 Chqtest4 sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 11:29:12 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 11:29:23 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 11:59:12 Chqtest4 sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 11:59:12 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 11:59:23 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 12:17:01 Chqtest4 CRON[6822]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 12:17:01 Chqtest4 CRON[6822]: pam_unix(cron:session): session closed for user root
+Apr 23 12:29:13 Chqtest4 sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 12:29:13 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 12:29:24 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 12:30:51 Chqtest4 sshd[6881]: Accepted password for tech from 192.168.1.20 port 60860 ssh2
+Apr 23 12:30:51 Chqtest4 sshd[6881]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 23 12:31:14 Chqtest4 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost=  user=tagent
+Apr 23 12:31:14 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+Apr 23 12:31:14 Chqtest4 xscreensaver: pam_sss(xscreensaver:auth): received for user tagent: 4 (System error)
+Apr 23 12:31:16 Chqtest4 xscreensaver[5536]: FAILED LOGIN 1 ON DISPLAY ":0.0", FOR "tagent"
+Apr 23 12:31:27 Chqtest4 xscreensaver[5536]: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost=  user=tagent
+Apr 23 12:31:27 Chqtest4 xscreensaver[5536]: pam_sss(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+Apr 23 12:31:27 Chqtest4 xscreensaver[5536]: pam_sss(xscreensaver:auth): received for user tagent: 4 (System error)
+Apr 23 12:31:29 Chqtest4 xscreensaver[5536]: FAILED LOGIN 2 ON DISPLAY ":0.0", FOR "tagent"
+Apr 23 12:31:35 Chqtest4 xscreensaver[5536]: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost=  user=tagent
+Apr 23 12:31:35 Chqtest4 xscreensaver[5536]: pam_sss(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+Apr 23 12:31:35 Chqtest4 xscreensaver[5536]: pam_sss(xscreensaver:auth): received for user tagent: 4 (System error)
+Apr 23 12:31:37 Chqtest4 xscreensaver[5536]: FAILED LOGIN 3 ON DISPLAY ":0.0", FOR "tagent"
+Apr 23 12:31:47 Chqtest4 xscreensaver[5536]: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost=  user=tagent
+Apr 23 12:31:48 Chqtest4 xscreensaver[5536]: pam_sss(xscreensaver:auth): authentication success; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+Apr 23 12:31:48 Chqtest4 xscreensaver[5536]: pam_ecryptfs: seteuid error
+Apr 23 12:31:48 Chqtest4 xscreensaver[5536]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 23 12:32:20 Chqtest4 sshd[6881]: pam_unix(sshd:session): session closed for user tech
+Apr 23 12:33:17 Chqtest4 sshd[6985]: Accepted password for tech from 192.168.1.20 port 51416 ssh2
+Apr 23 12:33:17 Chqtest4 sshd[6985]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 23 12:33:56 Chqtest4 sshd[6985]: pam_unix(sshd:session): session closed for user tech
+Apr 23 12:59:13 Chqtest4 sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 12:59:13 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 12:59:27 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 13:17:01 Chqtest4 CRON[7172]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 13:17:01 Chqtest4 CRON[7172]: pam_unix(cron:session): session closed for user root
+Apr 23 13:29:13 Chqtest4 sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 13:29:13 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 13:29:25 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 13:45:05 Chqtest4 sshd[7250]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Apr 23 13:45:07 Chqtest4 sshd[7257]: fatal: no hostkey alg [preauth]
+Apr 23 13:45:07 Chqtest4 sshd[7259]: fatal: no hostkey alg [preauth]
+Apr 23 13:45:07 Chqtest4 sshd[7253]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 13:45:07 Chqtest4 sshd[7251]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 13:45:07 Chqtest4 sshd[7255]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 13:46:35 Chqtest4 sshd[7262]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Apr 23 13:54:08 Chqtest4 sshd[7274]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Apr 23 13:55:41 Chqtest4 sshd[7277]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Apr 23 13:55:42 Chqtest4 sshd[7284]: fatal: no hostkey alg [preauth]
+Apr 23 13:55:42 Chqtest4 sshd[7286]: fatal: no hostkey alg [preauth]
+Apr 23 13:55:43 Chqtest4 sshd[7280]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 13:55:43 Chqtest4 sshd[7282]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 13:55:43 Chqtest4 sshd[7278]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 13:59:13 Chqtest4 sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 13:59:13 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 13:59:28 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 14:08:29 Chqtest4 xscreensaver[5536]: pam_unix(xscreensaver:auth): conversation failed
+Apr 23 14:08:29 Chqtest4 xscreensaver[5536]: pam_unix(xscreensaver:auth): auth could not identify password for [tagent]
+Apr 23 14:08:29 Chqtest4 xscreensaver[5536]: pam_sss(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+Apr 23 14:08:29 Chqtest4 xscreensaver[5536]: pam_sss(xscreensaver:auth): received for user tagent: 7 (Authentication failure)
+Apr 23 14:09:56 Chqtest4 sshd[7346]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Apr 23 14:09:57 Chqtest4 sshd[7353]: fatal: no hostkey alg [preauth]
+Apr 23 14:09:58 Chqtest4 sshd[7355]: fatal: no hostkey alg [preauth]
+Apr 23 14:09:58 Chqtest4 sshd[7349]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 14:09:58 Chqtest4 sshd[7347]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 14:09:58 Chqtest4 sshd[7351]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 14:10:31 Chqtest4 sshd[7357]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Apr 23 14:17:01 Chqtest4 CRON[7366]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 14:17:01 Chqtest4 CRON[7366]: pam_unix(cron:session): session closed for user root
+Apr 23 14:29:13 Chqtest4 sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 14:29:13 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 14:29:25 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 14:36:26 Chqtest4 sshd[7430]: Accepted password for tech from 192.168.1.21 port 64017 ssh2
+Apr 23 14:36:26 Chqtest4 sshd[7430]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 23 14:36:42 Chqtest4 xscreensaver[5536]: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost=  user=tagent
+Apr 23 14:36:43 Chqtest4 xscreensaver[5536]: pam_sss(xscreensaver:auth): authentication success; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+Apr 23 14:36:43 Chqtest4 xscreensaver[5536]: pam_ecryptfs: seteuid error
+Apr 23 14:36:43 Chqtest4 xscreensaver[5536]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 23 14:36:49 Chqtest4 sshd[7430]: pam_unix(sshd:session): session closed for user tech
+Apr 23 14:59:13 Chqtest4 sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 14:59:13 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 14:59:27 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:00:38 Chqtest4 sshd[7760]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Apr 23 15:00:39 Chqtest4 sshd[7767]: fatal: no hostkey alg [preauth]
+Apr 23 15:00:39 Chqtest4 sshd[7769]: fatal: no hostkey alg [preauth]
+Apr 23 15:00:39 Chqtest4 sshd[7765]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 15:00:39 Chqtest4 sshd[7763]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 15:00:39 Chqtest4 sshd[7761]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 15:01:48 Chqtest4 sshd[7773]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Apr 23 15:05:44 Chqtest4 xscreensaver[5536]: pam_unix(xscreensaver:auth): conversation failed
+Apr 23 15:05:44 Chqtest4 xscreensaver[5536]: pam_unix(xscreensaver:auth): auth could not identify password for [tagent]
+Apr 23 15:05:44 Chqtest4 xscreensaver[5536]: pam_sss(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+Apr 23 15:05:44 Chqtest4 xscreensaver[5536]: pam_sss(xscreensaver:auth): received for user tagent: 7 (Authentication failure)
+Apr 23 15:11:19 Chqtest4 xscreensaver[5536]: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost=  user=tagent
+Apr 23 15:11:20 Chqtest4 xscreensaver[5536]: pam_sss(xscreensaver:auth): authentication success; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+Apr 23 15:11:20 Chqtest4 xscreensaver[5536]: pam_ecryptfs: seteuid error
+Apr 23 15:11:20 Chqtest4 xscreensaver[5536]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 23 15:11:25 Chqtest4 mdm[5261]: pam_unix(mdm:session): session closed for user tagent
+Apr 23 15:11:25 Chqtest4 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c3 (system bus name :1.84, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 23 15:11:27 Chqtest4 mdm[7840]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 23 15:11:27 Chqtest4 mdm[7840]: PAM adding faulty module: pam_kwallet.so
+Apr 23 15:11:28 Chqtest4 mdm[7840]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 23 15:11:30 Chqtest4 mdm[7840]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 23 15:11:30 Chqtest4 mdm[7840]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 23 15:11:32 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c4 (system bus name :1.130 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 23 15:12:34 Chqtest4 gnome-keyring-daemon[7863]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Apr 23 15:12:34 Chqtest4 gnome-keyring-daemon[7863]: keyring alias directory: /home/tech/.local/share/keyrings
+Apr 23 15:13:23 Chqtest4 su[8699]: pam_unix(su:auth): authentication failure; logname=tech uid=1000 euid=0 tty=/dev/pts/0 ruser=tech rhost=  user=root
+Apr 23 15:13:24 Chqtest4 su[8699]: pam_authenticate: Authentication failure
+Apr 23 15:13:24 Chqtest4 su[8699]: FAILED su for root by tech
+Apr 23 15:13:24 Chqtest4 su[8699]: - /dev/pts/0 tech:root
+Apr 23 15:13:27 Chqtest4 su[8700]: Successful su for root by tech
+Apr 23 15:13:27 Chqtest4 su[8700]: + /dev/pts/0 tech:root
+Apr 23 15:13:27 Chqtest4 su[8700]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 23 15:17:01 Chqtest4 CRON[8729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 15:17:01 Chqtest4 CRON[8729]: pam_unix(cron:session): session closed for user root
+Apr 23 15:20:57 Chqtest4 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback
+Apr 23 15:20:57 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 15:20:57 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:21:27 Chqtest4 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012auto lo#012iface lo inet loopback#012iface eth0 inet static#012#011#011address 192.168.1.24#012#011#011netmask 255.255.255.0#012#011#011gateway 192.168.1.1#012#011#011broadcast 192.168.1.255#012#011#011dns-nameservers 192.168.128.239 8.8.8.8
+Apr 23 15:21:27 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 15:21:27 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:22:30 Chqtest4 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/sbin/service networking restart
+Apr 23 15:22:30 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 15:22:30 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:26:23 Chqtest4 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback
+Apr 23 15:26:23 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 15:26:23 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:26:30 Chqtest4 dbus[825]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.180" (uid=0 pid=9681 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.175" (uid=0 pid=9600 comm="NetworkManager ")
+Apr 23 15:27:15 Chqtest4 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012auto lo#012iface lo inet loopback#012iface eth0 inet static#012#011#011address 192.168.1.24#012#011#011netmask 255.255.255.0#012#011#011gateway 192.168.1.1#012#011#011broadcast 192.168.1.255#012#011#011dns-nameservers 192.168.128.239 8.8.8.8
+Apr 23 15:27:15 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 15:27:15 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:27:15 Chqtest4 dbus[825]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.180" (uid=0 pid=9681 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.175" (uid=0 pid=9600 comm="NetworkManager ")
+Apr 23 15:31:31 Chqtest4 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback
+Apr 23 15:31:31 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 15:31:31 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:31:37 Chqtest4 dbus[825]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.180" (uid=0 pid=9681 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.189" (uid=0 pid=10441 comm="NetworkManager ")
+Apr 23 15:38:41 Chqtest4 sudo:     tech : TTY=pts/10 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/gedit /etc/fstab
+Apr 23 15:38:41 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 15:41:33 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 15:41:33 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 15:41:44 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:42:26 Chqtest4 sudo:     tech : TTY=pts/12 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/gedit /etc/network/interfaces
+Apr 23 15:42:26 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 15:42:26 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:42:37 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:42:43 Chqtest4 sudo:     tech : TTY=pts/12 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/gedit /etc/NetworkManager/NetworkManager.conf
+Apr 23 15:42:43 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 15:42:47 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:43:03 Chqtest4 sudo:     tech : TTY=pts/10 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/umount -a
+Apr 23 15:43:03 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 15:43:04 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:43:10 Chqtest4 sudo:     tech : TTY=pts/10 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -a
+Apr 23 15:43:10 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 15:43:10 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:43:25 Chqtest4 sudo:     tech : TTY=pts/10 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/gedit /etc/fstab
+Apr 23 15:43:25 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 15:43:41 Chqtest4 sudo:     tech : TTY=pts/11 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -a
+Apr 23 15:43:41 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 15:43:46 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:44:47 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:44:49 Chqtest4 sudo:     tech : TTY=pts/11 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -a
+Apr 23 15:44:49 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 15:45:03 Chqtest4 sudo:     tech : TTY=pts/10 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/gedit /etc/fstab
+Apr 23 15:45:03 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 15:45:07 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:45:27 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:46:16 Chqtest4 systemd-logind[924]: New seat seat0.
+Apr 23 15:46:20 Chqtest4 sshd[1322]: Server listening on 0.0.0.0 port 22.
+Apr 23 15:46:20 Chqtest4 sshd[1322]: Server listening on :: port 22.
+Apr 23 15:46:21 Chqtest4 CRON[1413]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 15:46:21 Chqtest4 CRON[1412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 15:46:21 Chqtest4 CRON[1413]: pam_unix(cron:session): session closed for user root
+Apr 23 15:46:25 Chqtest4 CRON[1412]: pam_unix(cron:session): session closed for user root
+Apr 23 15:46:25 Chqtest4 dbus[734]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1588 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=967 comm="NetworkManager ")
+Apr 23 15:46:26 Chqtest4 mdm[1572]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 23 15:46:26 Chqtest4 mdm[1572]: PAM adding faulty module: pam_kwallet.so
+Apr 23 15:46:29 Chqtest4 mdm[1572]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 23 15:46:31 Chqtest4 mdm[1572]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 23 15:46:31 Chqtest4 systemd-logind[924]: New session c1 of user tech.
+Apr 23 15:46:31 Chqtest4 systemd-logind[924]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr 23 15:46:31 Chqtest4 mdm[1572]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 23 15:46:36 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 23 15:46:57 Chqtest4 su[2824]: Successful su for root by tech
+Apr 23 15:46:57 Chqtest4 su[2824]: + /dev/pts/0 tech:root
+Apr 23 15:46:57 Chqtest4 su[2824]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 23 15:47:25 Chqtest4 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012auto lo#012iface lo inet loopback#012iface eth0 inet static#012#011#011address 192.168.1.24#012#011#011netmask 255.255.255.0#012#011#011gateway 192.168.1.1#012#011#011broadcast 192.168.1.255#012#011#011dns-nameservers 192.168.128.239 8.8.8.8
+Apr 23 15:47:25 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 15:47:25 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 15:47:25 Chqtest4 dbus[734]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1588 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=967 comm="NetworkManager ")
+Apr 23 15:48:18 Chqtest4 systemd-logind[943]: New seat seat0.
+Apr 23 15:48:23 Chqtest4 sshd[1317]: Server listening on 0.0.0.0 port 22.
+Apr 23 15:48:23 Chqtest4 sshd[1317]: Server listening on :: port 22.
+Apr 23 15:48:23 Chqtest4 CRON[1411]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 15:48:23 Chqtest4 CRON[1412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 15:48:23 Chqtest4 CRON[1412]: pam_unix(cron:session): session closed for user root
+Apr 23 15:48:27 Chqtest4 CRON[1411]: pam_unix(cron:session): session closed for user root
+Apr 23 15:48:28 Chqtest4 mdm[1569]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 23 15:48:28 Chqtest4 mdm[1569]: PAM adding faulty module: pam_kwallet.so
+Apr 23 15:49:18 Chqtest4 sshd[1863]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Apr 23 15:50:00 Chqtest4 mdm[1569]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 23 15:50:02 Chqtest4 mdm[1569]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 23 15:50:02 Chqtest4 systemd-logind[943]: New session c1 of user tech.
+Apr 23 15:50:02 Chqtest4 systemd-logind[943]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr 23 15:50:02 Chqtest4 mdm[1569]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 23 15:50:06 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 23 15:53:06 Chqtest4 systemd-logind[943]: System is rebooting.
+Apr 23 15:53:06 Chqtest4 systemd-logind[943]: Operation finished.
+Apr 23 15:54:05 Chqtest4 systemd-logind[933]: New seat seat0.
+Apr 23 15:54:10 Chqtest4 sshd[1311]: Server listening on 0.0.0.0 port 22.
+Apr 23 15:54:10 Chqtest4 sshd[1311]: Server listening on :: port 22.
+Apr 23 15:54:10 Chqtest4 CRON[1400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 15:54:10 Chqtest4 CRON[1399]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 15:54:10 Chqtest4 CRON[1400]: pam_unix(cron:session): session closed for user root
+Apr 23 15:54:14 Chqtest4 CRON[1399]: pam_unix(cron:session): session closed for user root
+Apr 23 15:54:15 Chqtest4 mdm[1555]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 23 15:54:15 Chqtest4 mdm[1555]: PAM adding faulty module: pam_kwallet.so
+Apr 23 15:54:18 Chqtest4 mdm[1555]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 23 15:54:20 Chqtest4 mdm[1555]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 23 15:54:20 Chqtest4 systemd-logind[933]: New session c1 of user tech.
+Apr 23 15:54:20 Chqtest4 systemd-logind[933]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr 23 15:54:20 Chqtest4 mdm[1555]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 23 15:54:24 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 23 15:54:25 Chqtest4 sshd[2528]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Apr 23 15:54:27 Chqtest4 sshd[2725]: fatal: no hostkey alg [preauth]
+Apr 23 15:54:27 Chqtest4 sshd[2742]: fatal: no hostkey alg [preauth]
+Apr 23 15:54:27 Chqtest4 sshd[2717]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 15:54:27 Chqtest4 sshd[2662]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 15:54:27 Chqtest4 sshd[2575]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 15:54:45 Chqtest4 sshd[2791]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Apr 23 15:54:46 Chqtest4 sshd[2798]: fatal: no hostkey alg [preauth]
+Apr 23 15:54:47 Chqtest4 sshd[2800]: fatal: no hostkey alg [preauth]
+Apr 23 15:54:47 Chqtest4 sshd[2794]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 15:54:47 Chqtest4 sshd[2792]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 15:54:47 Chqtest4 sshd[2796]: Connection closed by 192.168.1.9 [preauth]
+Apr 23 15:54:55 Chqtest4 su[2819]: Successful su for root by tech
+Apr 23 15:54:55 Chqtest4 su[2819]: + /dev/pts/0 tech:root
+Apr 23 15:54:55 Chqtest4 su[2819]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 23 15:55:47 Chqtest4 sshd[2949]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Apr 23 16:01:41 Chqtest4 systemd-logind[933]: System is rebooting.
+Apr 23 16:01:41 Chqtest4 systemd-logind[933]: Operation finished.
+Apr 23 16:02:14 Chqtest4 systemd-logind[923]: New seat seat0.
+Apr 23 16:02:18 Chqtest4 sshd[1309]: Server listening on 0.0.0.0 port 22.
+Apr 23 16:02:18 Chqtest4 sshd[1309]: Server listening on :: port 22.
+Apr 23 16:02:19 Chqtest4 CRON[1402]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 16:02:19 Chqtest4 CRON[1403]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 16:02:19 Chqtest4 CRON[1403]: pam_unix(cron:session): session closed for user root
+Apr 23 16:02:23 Chqtest4 CRON[1402]: pam_unix(cron:session): session closed for user root
+Apr 23 16:02:24 Chqtest4 mdm[1563]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 23 16:02:24 Chqtest4 mdm[1563]: PAM adding faulty module: pam_kwallet.so
+Apr 23 16:02:25 Chqtest4 mdm[1563]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 23 16:02:26 Chqtest4 mdm[1563]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 23 16:02:26 Chqtest4 systemd-logind[923]: New session c1 of user tech.
+Apr 23 16:02:26 Chqtest4 systemd-logind[923]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr 23 16:02:26 Chqtest4 mdm[1563]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 23 16:02:33 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 23 16:03:55 Chqtest4 su[2723]: Successful su for root by tech
+Apr 23 16:03:55 Chqtest4 su[2723]: + /dev/pts/0 tech:root
+Apr 23 16:03:55 Chqtest4 su[2723]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 23 16:04:10 Chqtest4 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback
+Apr 23 16:04:10 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 23 16:04:10 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 16:04:17 Chqtest4 dbus[795]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.56" (uid=0 pid=2889 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.51" (uid=0 pid=2810 comm="NetworkManager ")
+Apr 23 16:06:00 Chqtest4 gnome-keyring-daemon[3121]: couldn't access control socket: /run/user/1000/keyring-F0xD85/control: No such file or directory
+Apr 23 16:06:00 Chqtest4 gnome-keyring-daemon[3121]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Apr 23 16:06:00 Chqtest4 gnome-keyring-daemon[3121]: keyring alias directory: /home/tech/.local/share/keyrings
+Apr 23 16:06:04 Chqtest4 su[2723]: pam_unix(su:session): session closed for user root
+Apr 23 16:06:04 Chqtest4 systemd-logind[923]: System is rebooting.
+Apr 23 16:06:04 Chqtest4 systemd-logind[923]: Operation finished.
+Apr 23 16:06:38 Chqtest4 systemd-logind[933]: New seat seat0.
+Apr 23 16:06:43 Chqtest4 sshd[1324]: Server listening on 0.0.0.0 port 22.
+Apr 23 16:06:43 Chqtest4 sshd[1324]: Server listening on :: port 22.
+Apr 23 16:06:43 Chqtest4 CRON[1413]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 16:06:43 Chqtest4 CRON[1414]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 16:06:43 Chqtest4 CRON[1414]: pam_unix(cron:session): session closed for user root
+Apr 23 16:06:47 Chqtest4 dbus[844]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.9" (uid=0 pid=1585 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=967 comm="NetworkManager ")
+Apr 23 16:06:47 Chqtest4 CRON[1413]: pam_unix(cron:session): session closed for user root
+Apr 23 16:06:48 Chqtest4 mdm[1571]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 23 16:06:48 Chqtest4 mdm[1571]: PAM adding faulty module: pam_kwallet.so
+Apr 23 16:06:53 Chqtest4 mdm[1571]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 23 16:06:55 Chqtest4 mdm[1571]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 23 16:06:55 Chqtest4 systemd-logind[933]: New session c1 of user tech.
+Apr 23 16:06:55 Chqtest4 systemd-logind[933]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr 23 16:06:55 Chqtest4 mdm[1571]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 23 16:06:59 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.32 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 23 16:14:33 Chqtest4 gnome-keyring-daemon[2750]: couldn't access control socket: /run/user/1000/keyring-yPsFnT/control: No such file or directory
+Apr 23 16:14:33 Chqtest4 gnome-keyring-daemon[2750]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Apr 23 16:14:33 Chqtest4 gnome-keyring-daemon[2750]: keyring alias directory: /home/tech/.local/share/keyrings
+Apr 23 16:14:38 Chqtest4 dbus[844]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.9" (uid=0 pid=1585 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=967 comm="NetworkManager ")
+Apr 23 16:14:46 Chqtest4 dbus[844]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.9" (uid=0 pid=1585 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=967 comm="NetworkManager ")
+Apr 23 16:16:35 Chqtest4 systemd-logind[933]: System is rebooting.
+Apr 23 16:16:35 Chqtest4 systemd-logind[933]: Operation finished.
+Apr 23 16:17:09 Chqtest4 systemd-logind[933]: New seat seat0.
+Apr 23 16:17:14 Chqtest4 sshd[1321]: Server listening on 0.0.0.0 port 22.
+Apr 23 16:17:14 Chqtest4 sshd[1321]: Server listening on :: port 22.
+Apr 23 16:17:14 Chqtest4 CRON[1383]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 16:17:14 Chqtest4 CRON[1382]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 16:17:14 Chqtest4 CRON[1383]: pam_unix(cron:session): session closed for user root
+Apr 23 16:17:18 Chqtest4 dbus[843]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1587 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=967 comm="NetworkManager ")
+Apr 23 16:17:19 Chqtest4 CRON[1382]: pam_unix(cron:session): session closed for user root
+Apr 23 16:17:20 Chqtest4 mdm[1573]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 23 16:17:20 Chqtest4 mdm[1573]: PAM adding faulty module: pam_kwallet.so
+Apr 23 16:29:47 Chqtest4 mdm[1573]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 23 16:29:49 Chqtest4 mdm[1573]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 23 16:29:49 Chqtest4 systemd-logind[933]: New session c1 of user tech.
+Apr 23 16:29:49 Chqtest4 systemd-logind[933]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr 23 16:29:49 Chqtest4 mdm[1573]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 23 16:29:53 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 23 16:59:53 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 16:59:53 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 17:00:09 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 17:17:01 Chqtest4 CRON[2917]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 17:17:01 Chqtest4 CRON[2917]: pam_unix(cron:session): session closed for user root
+Apr 23 17:29:53 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 17:29:53 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 17:30:04 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 17:59:53 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 17:59:53 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 18:00:06 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 18:17:01 Chqtest4 CRON[3078]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 18:17:01 Chqtest4 CRON[3078]: pam_unix(cron:session): session closed for user root
+Apr 23 18:29:53 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 18:29:53 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 18:30:05 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 18:59:53 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 18:59:53 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 19:00:08 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 19:17:01 Chqtest4 CRON[3242]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 19:17:01 Chqtest4 CRON[3242]: pam_unix(cron:session): session closed for user root
+Apr 23 19:29:53 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 19:29:53 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 19:30:06 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 19:59:53 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 19:59:53 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 20:00:09 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 20:17:01 Chqtest4 CRON[3403]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 20:17:01 Chqtest4 CRON[3403]: pam_unix(cron:session): session closed for user root
+Apr 23 20:29:53 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 20:29:53 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 20:30:03 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 20:59:53 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 20:59:53 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 21:00:04 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 21:17:01 Chqtest4 CRON[3565]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 21:17:01 Chqtest4 CRON[3565]: pam_unix(cron:session): session closed for user root
+Apr 23 21:29:53 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 21:29:53 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 21:30:04 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 21:59:54 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 21:59:54 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 22:00:08 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 22:17:01 Chqtest4 CRON[3724]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 22:17:01 Chqtest4 CRON[3724]: pam_unix(cron:session): session closed for user root
+Apr 23 22:29:54 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 22:29:54 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 22:30:04 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 22:59:54 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 22:59:54 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 23:00:09 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 23:17:01 Chqtest4 CRON[3884]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 23 23:17:01 Chqtest4 CRON[3884]: pam_unix(cron:session): session closed for user root
+Apr 23 23:29:54 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 23:29:54 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 23 23:30:04 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 23 23:59:54 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 23 23:59:54 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 24 00:00:04 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 00:17:01 Chqtest4 CRON[4049]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 00:17:01 Chqtest4 CRON[4049]: pam_unix(cron:session): session closed for user root
+Apr 24 00:29:54 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 24 00:29:54 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 24 00:30:10 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 00:59:54 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 24 00:59:54 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 24 01:00:04 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 01:17:01 Chqtest4 CRON[4209]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 01:17:01 Chqtest4 CRON[4209]: pam_unix(cron:session): session closed for user root
+Apr 24 01:29:54 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 24 01:29:54 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 24 01:30:05 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 01:59:54 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 24 01:59:54 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 24 02:00:09 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 02:17:01 Chqtest4 CRON[4369]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 02:17:01 Chqtest4 CRON[4369]: pam_unix(cron:session): session closed for user root
+Apr 24 02:29:54 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 24 02:29:54 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 24 02:30:10 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 02:59:55 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 24 02:59:55 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 24 03:00:01 Chqtest4 CRON[4504]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 03:00:09 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 03:17:01 Chqtest4 CRON[4713]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 03:17:01 Chqtest4 CRON[4713]: pam_unix(cron:session): session closed for user root
+Apr 24 03:17:10 Chqtest4 CRON[4504]: pam_unix(cron:session): session closed for user root
+Apr 24 03:17:43 Chqtest4 systemd-logind[944]: New seat seat0.
+Apr 24 03:17:47 Chqtest4 sshd[1325]: Server listening on 0.0.0.0 port 22.
+Apr 24 03:17:47 Chqtest4 sshd[1325]: Server listening on :: port 22.
+Apr 24 03:17:47 Chqtest4 CRON[1413]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 03:17:47 Chqtest4 CRON[1412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 03:17:47 Chqtest4 CRON[1413]: pam_unix(cron:session): session closed for user root
+Apr 24 03:17:52 Chqtest4 CRON[1412]: pam_unix(cron:session): session closed for user root
+Apr 24 03:17:53 Chqtest4 mdm[1568]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 24 03:17:53 Chqtest4 mdm[1568]: PAM adding faulty module: pam_kwallet.so
+Apr 24 03:18:06 Chqtest4 dbus[866]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=1584 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=965 comm="NetworkManager ")
+Apr 24 03:22:50 Chqtest4 su[1995]: Successful su for nobody by root
+Apr 24 03:22:50 Chqtest4 su[1995]: + ??? root:nobody
+Apr 24 03:22:51 Chqtest4 su[1995]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr 24 03:22:51 Chqtest4 systemd-logind[944]: New session c1 of user nobody.
+Apr 24 03:22:51 Chqtest4 su[1995]: pam_unix(su:session): session closed for user nobody
+Apr 24 03:22:51 Chqtest4 su[2069]: Successful su for nobody by root
+Apr 24 03:22:51 Chqtest4 su[2069]: + ??? root:nobody
+Apr 24 03:22:51 Chqtest4 su[2069]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr 24 03:22:51 Chqtest4 systemd-logind[944]: Removed session c1.
+Apr 24 03:22:51 Chqtest4 systemd-logind[944]: New session c2 of user nobody.
+Apr 24 03:22:51 Chqtest4 su[2069]: pam_unix(su:session): session closed for user nobody
+Apr 24 03:22:51 Chqtest4 su[2083]: Successful su for nobody by root
+Apr 24 03:22:51 Chqtest4 su[2083]: + ??? root:nobody
+Apr 24 03:22:51 Chqtest4 su[2083]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr 24 03:22:51 Chqtest4 systemd-logind[944]: Removed session c2.
+Apr 24 03:22:51 Chqtest4 systemd-logind[944]: New session c3 of user nobody.
+Apr 24 03:23:15 Chqtest4 su[2083]: pam_unix(su:session): session closed for user nobody
+Apr 24 04:17:01 Chqtest4 CRON[2222]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 04:17:01 Chqtest4 CRON[2222]: pam_unix(cron:session): session closed for user root
+Apr 24 05:17:01 Chqtest4 CRON[2295]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 05:17:01 Chqtest4 CRON[2295]: pam_unix(cron:session): session closed for user root
+Apr 24 06:17:01 Chqtest4 CRON[2367]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 06:17:01 Chqtest4 CRON[2367]: pam_unix(cron:session): session closed for user root
+Apr 24 06:25:01 Chqtest4 CRON[2379]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 06:25:01 Chqtest4 CRON[2379]: pam_unix(cron:session): session closed for user root
+Apr 24 07:17:01 Chqtest4 CRON[2443]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 07:17:01 Chqtest4 CRON[2443]: pam_unix(cron:session): session closed for user root
+Apr 24 07:30:01 Chqtest4 CRON[2462]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 07:30:01 Chqtest4 CRON[2462]: pam_unix(cron:session): session closed for user root
+Apr 24 07:39:00 Chqtest4 mdm[1568]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 24 07:39:01 Chqtest4 mdm[1568]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 24 07:39:01 Chqtest4 systemd-logind[944]: Removed session c3.
+Apr 24 07:39:01 Chqtest4 systemd-logind[944]: New session c4 of user tech.
+Apr 24 07:39:01 Chqtest4 systemd-logind[944]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr 24 07:39:01 Chqtest4 mdm[1568]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 24 07:39:05 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c4 (system bus name :1.41 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 24 07:39:19 Chqtest4 dbus[866]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=1584 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=965 comm="NetworkManager ")
+Apr 24 07:39:20 Chqtest4 dbus[866]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=1584 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=965 comm="NetworkManager ")
+Apr 24 07:39:28 Chqtest4 mdm[1568]: pam_unix(mdm:session): session closed for user tech
+Apr 24 07:39:29 Chqtest4 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c4 (system bus name :1.41, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 24 07:39:31 Chqtest4 mdm[3535]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 24 07:39:31 Chqtest4 mdm[3535]: PAM adding faulty module: pam_kwallet.so
+Apr 24 07:39:33 Chqtest4 mdm[3535]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 24 07:39:34 Chqtest4 mdm[3535]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 24 07:39:34 Chqtest4 systemd-logind[944]: New session c5 of user tech.
+Apr 24 07:39:34 Chqtest4 mdm[3535]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 24 07:39:35 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c5 (system bus name :1.61 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 24 07:41:59 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mkdir /media/IT_Files
+Apr 24 07:41:59 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:41:59 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:42:12 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -t nfs4 ucs-fs.connexionpoint.local:/IT_Files /media/IT_Files
+Apr 24 07:42:12 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:42:12 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:42:40 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -t nfs4 ucs-fs.connexionpoint.local:/IT_Files /media/IT_Files
+Apr 24 07:42:40 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:42:40 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:42:58 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -t nfs4 ucs-fs.connexionpoint.local:/IT_Files /media/IT_Files
+Apr 24 07:42:58 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:42:58 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:43:08 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -t ucs-fs.connexionpoint.local:/IT_Files /media/IT_Files
+Apr 24 07:43:08 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:43:08 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:43:36 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/apt-get install autofs
+Apr 24 07:43:36 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:43:49 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:44:52 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/gedit /etc/auto.master
+Apr 24 07:44:52 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:49:40 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/touch /etc/auto.IT_Files
+Apr 24 07:49:40 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:49:40 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:49:46 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/gedit /etc/auto.IT_Files
+Apr 24 07:49:46 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:49:46 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:51:11 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/etc/init.d/autofs restart
+Apr 24 07:51:11 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:51:11 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:51:28 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/ld /media/IT_Files
+Apr 24 07:51:28 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:51:28 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:51:31 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/ls /media/IT_Files
+Apr 24 07:51:31 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:51:31 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:51:41 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/ls /media/IT_Files/test
+Apr 24 07:51:41 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:51:41 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:51:45 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/ls /media/IT_Files/Test
+Apr 24 07:51:45 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:51:45 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:52:09 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mkdir /media/IT_Files/test
+Apr 24 07:52:09 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:52:09 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:52:14 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/etc/init.d/autofs restart
+Apr 24 07:52:14 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:52:14 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:52:22 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/ls /media/IT_Files/Test
+Apr 24 07:52:22 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:52:22 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:52:24 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/ls /media/IT_Files/test
+Apr 24 07:52:24 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:52:24 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:52:42 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/apt-get install nfs-common
+Apr 24 07:52:42 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:52:53 Chqtest4 useradd[5999]: new user: name=statd, UID=117, GID=65534, home=/var/lib/nfs, shell=/bin/false
+Apr 24 07:52:53 Chqtest4 usermod[6004]: change user 'statd' password
+Apr 24 07:52:54 Chqtest4 chage[6009]: changed password expiry for statd
+Apr 24 07:52:56 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:53:24 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/gedit /etc/default/nfs-common
+Apr 24 07:53:24 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:53:24 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:54:05 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/etc/init.d/autofs restart
+Apr 24 07:54:05 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:54:05 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:54:12 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/ls /media/IT
+Apr 24 07:54:12 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:54:12 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:54:15 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/ls /media/IT_Files
+Apr 24 07:54:15 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:54:15 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:54:17 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/ls /media/IT_Files/test
+Apr 24 07:54:17 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:54:17 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:54:56 Chqtest4 gnome-keyring-daemon[6291]: couldn't access control socket: /run/user/1000/keyring-W9LPRK/control: No such file or directory
+Apr 24 07:54:56 Chqtest4 gnome-keyring-daemon[6291]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Apr 24 07:54:56 Chqtest4 gnome-keyring-daemon[6291]: keyring alias directory: /home/tech/.local/share/keyrings
+Apr 24 07:56:02 Chqtest4 sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/gedit /etc/fstab
+Apr 24 07:56:02 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:56:02 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:56:26 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:56:34 Chqtest4 sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/gedit /etc/fstab
+Apr 24 07:56:34 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:57:15 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/rm -r /media/IT_Files/test
+Apr 24 07:57:15 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:57:15 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:58:07 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -a
+Apr 24 07:58:07 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:58:07 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:58:48 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -a
+Apr 24 07:58:48 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:58:48 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:58:58 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -a
+Apr 24 07:58:58 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:58:58 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:58:59 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -a
+Apr 24 07:58:59 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:58:59 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 07:59:28 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -a
+Apr 24 07:59:28 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 07:59:28 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 08:00:02 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -a
+Apr 24 08:00:02 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 08:00:02 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 08:00:12 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -a
+Apr 24 08:00:12 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 08:00:12 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 08:00:33 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -a
+Apr 24 08:00:33 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 08:00:33 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 08:00:34 Chqtest4 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -a
+Apr 24 08:00:34 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 08:00:34 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 08:03:12 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 08:09:37 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 24 08:09:37 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 24 08:09:49 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 08:17:01 Chqtest4 CRON[6641]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 08:17:01 Chqtest4 CRON[6641]: pam_unix(cron:session): session closed for user root
+Apr 24 08:24:50 Chqtest4 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 24 08:24:59 Chqtest4 mdm[3535]: pam_unix(mdm:session): session closed for user tech
+Apr 24 08:24:59 Chqtest4 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c5 (system bus name :1.61, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 24 08:25:00 Chqtest4 mdm[6676]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 24 08:25:00 Chqtest4 mdm[6676]: PAM adding faulty module: pam_kwallet.so
+Apr 24 08:25:03 Chqtest4 mdm[6676]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+Apr 24 08:25:04 Chqtest4 mdm[6676]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+Apr 24 08:25:05 Chqtest4 mdm[6676]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+Apr 24 08:25:05 Chqtest4 mdm[6676]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+Apr 24 08:25:05 Chqtest4 systemd-logind[944]: New session c6 of user mgonzales.
+Apr 24 08:25:05 Chqtest4 systemd-logind[944]: Linked /tmp/.X11-unix/X0 to /run/user/2009/X11-display.
+Apr 24 08:25:05 Chqtest4 mdm[6676]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 24 08:25:08 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c6 (system bus name :1.95 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 24 08:25:08 Chqtest4 systemd-logind[944]: Removed session c5.
+Apr 24 08:31:00 Chqtest4 systemd-logind[944]: Removed session c4.
+Apr 24 08:31:00 Chqtest4 mdm[6676]: pam_unix(mdm:session): session closed for user mgonzales
+Apr 24 08:31:00 Chqtest4 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c6 (system bus name :1.95, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 24 08:31:02 Chqtest4 mdm[7386]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 24 08:31:02 Chqtest4 mdm[7386]: PAM adding faulty module: pam_kwallet.so
+Apr 24 08:31:02 Chqtest4 mdm[7386]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 24 08:31:04 Chqtest4 mdm[7386]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 24 08:31:04 Chqtest4 systemd-logind[944]: New session c7 of user tech.
+Apr 24 08:31:04 Chqtest4 systemd-logind[944]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr 24 08:31:04 Chqtest4 mdm[7386]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 24 08:31:06 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c7 (system bus name :1.121 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 24 08:31:14 Chqtest4 su[8119]: Successful su for root by tech
+Apr 24 08:31:14 Chqtest4 su[8119]: + /dev/pts/0 tech:root
+Apr 24 08:31:14 Chqtest4 su[8119]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 24 08:32:37 Chqtest4 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012auto lo#012iface lo inet loopback#012iface eth0 inet static#012#011#011address 192.168.1.24#012#011#011netmask 255.255.255.0#012#011#011gateway 192.168.1.1#012#011#011broadcast 192.168.1.255#012#011#011dns-nameservers 192.168.128.239 8.8.8.8
+Apr 24 08:32:37 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 08:32:37 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 08:32:38 Chqtest4 dbus[866]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=1584 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=965 comm="NetworkManager ")
+Apr 24 08:32:42 Chqtest4 systemd-logind[944]: Removed session c6.
+Apr 24 08:33:13 Chqtest4 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/reboot
+Apr 24 08:33:13 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 08:33:13 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 08:35:01 Chqtest4 systemd-logind[645]: New seat seat0.
+Apr 24 08:35:19 Chqtest4 sshd[1422]: Server listening on 0.0.0.0 port 22.
+Apr 24 08:35:19 Chqtest4 sshd[1422]: Server listening on :: port 22.
+Apr 24 08:35:20 Chqtest4 CRON[1526]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 08:35:20 Chqtest4 CRON[1525]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 08:35:28 Chqtest4 CRON[1525]: pam_unix(cron:session): session closed for user root
+Apr 24 08:35:48 Chqtest4 mdm[1919]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 24 08:35:48 Chqtest4 mdm[1919]: PAM adding faulty module: pam_kwallet.so
+Apr 24 08:35:49 Chqtest4 CRON[1526]: pam_unix(cron:session): session closed for user root
+Apr 24 08:35:50 Chqtest4 mdm[1919]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 24 08:35:51 Chqtest4 mdm[1919]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 24 08:35:51 Chqtest4 systemd-logind[645]: New session c1 of user tech.
+Apr 24 08:35:51 Chqtest4 systemd-logind[645]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr 24 08:35:51 Chqtest4 mdm[1919]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 24 08:36:00 Chqtest4 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.23 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 24 08:36:40 Chqtest4 su[2970]: Successful su for root by tech
+Apr 24 08:36:40 Chqtest4 su[2970]: + /dev/pts/0 tech:root
+Apr 24 08:36:40 Chqtest4 su[2970]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 24 08:38:27 Chqtest4 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012auto lo#012iface lo inet loopback#012iface eth0 inet static#012#011#011address 192.168.1.24#012#011#011netmask 255.255.255.0#012#011#011gateway 192.168.1.1#012#011#011broadcast 192.168.1.255#012#011#011dns-nameservers 192.168.128.239 8.8.8.8
+Apr 24 08:38:27 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 08:38:27 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 08:40:03 Chqtest4 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback
+Apr 24 08:40:03 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 08:40:03 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 08:40:08 Chqtest4 dbus[564]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.56" (uid=0 pid=3533 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.52" (uid=0 pid=3328 comm="NetworkManager ")
+Apr 24 08:49:51 Chqtest4 sshd[3678]: Accepted password for tech from 192.168.1.35 port 60386 ssh2
+Apr 24 08:49:51 Chqtest4 sshd[3678]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 24 08:49:51 Chqtest4 systemd-logind[645]: New session 1 of user tech.
+Apr 24 08:50:10 Chqtest4 sshd[3689]: error: connect_to 127.0.0.1 port 5901: failed.
+Apr 24 08:51:03 Chqtest4 su[3738]: Successful su for root by tech
+Apr 24 08:51:03 Chqtest4 su[3738]: + /dev/pts/2 tech:root
+Apr 24 08:51:03 Chqtest4 su[3738]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 24 08:57:10 Chqtest4 sshd[3678]: pam_unix(sshd:session): session closed for user tech
+Apr 24 08:57:10 Chqtest4 su[3738]: pam_unix(su:session): session closed for user root
+Apr 24 08:59:52 Chqtest4 sshd[3968]: Accepted password for tech from 192.168.1.35 port 60417 ssh2
+Apr 24 08:59:52 Chqtest4 sshd[3968]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Apr 24 08:59:52 Chqtest4 systemd-logind[645]: New session 2 of user tech.
+Apr 24 09:03:20 Chqtest4 sshd[3968]: pam_unix(sshd:session): session closed for user tech
+Apr 24 09:06:08 Chqtest4 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 24 09:06:08 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 24 09:06:23 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 09:17:01 Chqtest4 CRON[4146]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 24 09:17:01 Chqtest4 CRON[4146]: pam_unix(cron:session): session closed for user root
+Apr 24 09:31:08 Chqtest4 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 24 09:31:11 Chqtest4 su[2970]: pam_unix(su:session): session closed for user root
+Apr 24 09:31:26 Chqtest4 su[4273]: Successful su for root by tech
+Apr 24 09:31:26 Chqtest4 su[4273]: + /dev/pts/0 tech:root
+Apr 24 09:31:26 Chqtest4 su[4273]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 24 09:31:26 Chqtest4 systemd-logind[645]: Removed session 2.
+Apr 24 09:31:33 Chqtest4 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_on.sh - Linux Config Menu
+Apr 24 09:31:33 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 24 09:31:33 Chqtest4 sudo: pam_unix(sudo:session): session closed for user root
+Apr 24 09:32:12 Chqtest4 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_off.sh - Linux Config Menu
+Apr 24 09:32:12 Chqtest4 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)

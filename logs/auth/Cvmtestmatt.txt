@@ -1,0 +1,1443 @@
+May  4 07:52:02 Cvmtestmatt sudo:     root : TTY=pts/0 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/tagent/Desktop
+May  4 07:52:02 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+May  4 07:52:02 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 07:54:39 Cvmtestmatt sudo:     root : TTY=pts/0 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/tagent/Desktop
+May  4 07:54:39 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+May  4 07:54:39 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 07:55:18 Cvmtestmatt su[2872]: pam_unix(su:session): session closed for user root
+May  4 07:55:18 Cvmtestmatt mdm[1832]: pam_unix(mdm:session): session closed for user mgonzales
+May  4 07:55:18 Cvmtestmatt polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.30, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  4 07:55:22 Cvmtestmatt mdm[3486]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  4 07:55:22 Cvmtestmatt mdm[3486]: PAM adding faulty module: pam_kwallet.so
+May  4 07:55:23 Cvmtestmatt mdm[3486]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May  4 07:55:24 Cvmtestmatt mdm[3486]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May  4 07:55:24 Cvmtestmatt mdm[3486]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  4 07:55:28 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c5 (system bus name :1.53 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  4 07:55:50 Cvmtestmatt su[4120]: Successful su for root by tech
+May  4 07:55:50 Cvmtestmatt su[4120]: + /dev/pts/0 tech:root
+May  4 07:55:50 Cvmtestmatt su[4120]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May  4 07:55:58 Cvmtestmatt sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/tagent/Desktop
+May  4 07:55:58 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 07:55:58 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 07:57:25 Cvmtestmatt su[4120]: pam_unix(su:session): session closed for user root
+May  4 07:57:39 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/tagent/Desktop
+May  4 07:57:39 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 07:57:39 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 07:58:00 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/tagent/Desktop
+May  4 07:58:00 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 07:58:00 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:00:04 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/rm /home/tagent/Desktop/CallProXE.desktop
+May  4 08:00:04 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:00:04 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:01:13 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/tagent/Desktop
+May  4 08:01:13 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:01:13 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:01:25 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/mgonzales/Desktop
+May  4 08:01:25 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:01:25 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:04:11 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/mgonzales/Desktop
+May  4 08:04:11 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:04:11 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:04:21 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/mgonzales/Desktop
+May  4 08:04:21 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:04:21 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:04:53 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/mgonzales/Desktop
+May  4 08:04:53 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:04:53 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:04:53 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/rm /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/mgonzales/Desktop
+May  4 08:04:53 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:04:53 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:05:20 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/mgonzales/Desktop
+May  4 08:05:20 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:05:20 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:05:20 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/rm /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop
+May  4 08:05:20 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:05:20 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:10:31 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/mgonzales/Desktop
+May  4 08:10:31 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:10:31 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:10:31 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/rm /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop
+May  4 08:10:31 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:10:31 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:12:36 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/mgonzales/Desktop
+May  4 08:12:36 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:12:36 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:12:36 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/rm /home//home/mgonzales/Desktop/CallProXE.desktop
+May  4 08:12:36 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:12:36 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:15:32 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/mgonzales/Desktop
+May  4 08:15:32 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:15:32 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:15:32 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/rm /home//home/mgonzales/Desktop/CallProXE.desktop
+May  4 08:15:32 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:15:32 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:15:51 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/mgonzales/Desktop
+May  4 08:15:51 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:15:51 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:15:51 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/rm /home//home/mgonzales/Desktop/CallProXE.desktop
+May  4 08:15:51 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:15:51 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:15:57 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/mgonzales/Desktop
+May  4 08:15:57 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:15:57 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:15:57 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/rm /home//home/mgonzales/Desktop/CallProXE.desktop
+May  4 08:15:57 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:15:57 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:16:18 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/mgonzales/Desktop
+May  4 08:16:18 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:16:18 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:16:18 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/rm /home//home/mgonzales/Desktop/CallProXE.desktop
+May  4 08:16:18 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:16:18 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:17:01 Cvmtestmatt CRON[4467]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  4 08:17:01 Cvmtestmatt CRON[4467]: pam_unix(cron:session): session closed for user root
+May  4 08:24:40 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/mgonzales/Desktop
+May  4 08:24:40 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 08:24:40 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:25:29 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  4 08:25:29 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  4 08:25:42 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 08:55:30 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  4 08:55:30 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  4 08:55:42 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 09:09:54 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 09:09:54 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 09:09:54 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 09:09:54 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 09:10:31 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 09:10:31 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 09:10:31 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 09:10:31 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 09:12:51 Cvmtestmatt xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May  4 09:14:01 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/mgonzales/Desktop
+May  4 09:14:01 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 09:14:01 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 09:17:01 Cvmtestmatt CRON[4656]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  4 09:17:01 Cvmtestmatt CRON[4656]: pam_unix(cron:session): session closed for user root
+May  4 09:17:41 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/mgonzales/Desktop
+May  4 09:17:41 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 09:17:41 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 09:18:32 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/rm /home/mgonzales/Desktop/CallProXE.desktop /home/tagent/Desktop/CallProXE.desktop
+May  4 09:18:32 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 09:18:32 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 09:18:45 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/cpxe/TLS/web1/CallProXE.desktop /home/mgonzales/Desktop
+May  4 09:18:45 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 09:18:45 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 09:20:06 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/rm /home/mgonzales/Desktop/CallProXE.desktop
+May  4 09:20:06 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  4 09:20:06 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 09:25:29 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  4 09:25:29 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  4 09:25:43 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 09:55:30 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  4 09:55:30 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  4 09:55:46 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 09:57:51 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 09:57:51 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 09:57:51 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 09:57:51 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 09:58:21 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 09:58:21 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 09:58:21 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 09:58:21 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 09:58:55 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 09:58:55 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 09:58:55 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 09:58:55 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 09:59:27 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 09:59:27 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 09:59:27 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 09:59:27 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:00:28 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:00:28 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:00:28 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:00:28 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:03:36 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:03:36 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:03:36 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:03:36 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:04:28 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:04:28 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:04:28 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:04:28 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:08:08 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:08:08 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:08:08 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:08:08 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:08:49 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:08:49 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:08:49 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:08:49 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:10:19 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:10:19 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:10:19 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:10:19 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:11:51 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:11:51 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:11:51 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:11:51 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:12:57 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:12:57 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:12:57 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:12:57 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:13:52 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:13:52 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:13:52 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:13:52 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:15:03 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:15:03 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:15:03 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:15:03 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:16:02 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:16:02 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:16:02 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:16:02 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:16:33 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:16:33 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:16:33 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:16:33 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:17:01 Cvmtestmatt CRON[4989]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  4 10:17:01 Cvmtestmatt CRON[4989]: pam_unix(cron:session): session closed for user root
+May  4 10:17:41 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:17:41 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:17:41 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:17:41 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:20:17 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:20:17 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:20:17 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:20:17 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:23:27 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:23:27 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:23:27 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:23:27 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:25:30 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  4 10:25:30 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  4 10:25:48 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 10:34:25 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:34:25 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:34:25 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:34:25 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:35:28 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:35:28 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:35:28 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:35:28 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:40:17 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:40:17 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:40:17 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:40:17 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:41:07 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:41:07 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:41:07 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:41:07 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:41:43 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:41:43 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:41:43 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:41:43 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:42:33 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:42:33 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:42:33 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:42:33 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:43:27 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:43:27 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:43:27 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:43:27 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:44:02 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:44:02 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:44:02 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:44:02 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:49:04 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:49:04 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:49:04 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:49:04 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:50:19 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:50:19 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:50:19 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:50:19 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:51:27 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:51:27 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:51:27 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:51:27 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:55:30 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  4 10:55:30 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  4 10:55:42 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 10:58:50 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:58:50 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:58:50 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:58:50 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:59:23 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:59:23 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:59:23 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:59:23 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 10:59:58 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 10:59:58 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 10:59:58 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 10:59:58 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:01:01 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:01:01 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:01:01 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:01:01 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:03:19 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:03:19 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:03:19 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:03:19 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:05:46 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:05:46 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:05:46 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:05:46 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:10:55 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:10:55 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:10:55 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:10:55 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:12:01 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:12:01 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:12:01 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:12:01 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:13:09 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:13:09 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:13:09 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:13:09 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:15:25 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:15:25 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:15:25 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:15:25 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:17:01 Cvmtestmatt CRON[5164]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  4 11:17:01 Cvmtestmatt CRON[5164]: pam_unix(cron:session): session closed for user root
+May  4 11:18:23 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:18:23 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:18:23 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:18:23 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:19:37 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:19:37 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:19:37 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:19:37 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:25:30 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  4 11:25:30 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  4 11:25:46 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 11:26:51 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:26:51 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:26:52 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:26:52 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:27:22 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:27:22 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:27:22 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:27:22 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:28:00 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:28:00 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:28:00 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:28:00 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:28:50 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:28:50 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:28:50 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:28:50 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:29:24 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:29:24 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:29:24 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:29:24 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:30:14 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:30:14 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:30:14 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:30:14 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:31:29 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:31:29 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:31:29 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:31:29 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:32:25 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:32:25 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:32:25 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:32:25 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:33:29 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 11:33:29 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 11:33:29 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 11:33:29 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 11:55:31 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  4 11:55:31 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  4 11:55:49 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 12:03:48 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 12:03:48 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 12:03:48 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 12:03:48 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 12:04:51 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 12:04:51 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 12:04:51 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 12:04:51 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 12:17:01 Cvmtestmatt CRON[5329]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  4 12:17:01 Cvmtestmatt CRON[5329]: pam_unix(cron:session): session closed for user root
+May  4 12:25:30 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  4 12:25:30 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  4 12:25:50 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 12:28:55 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 12:28:55 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 12:28:55 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 12:28:55 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 12:30:09 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 12:30:09 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 12:30:09 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 12:30:09 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 12:32:43 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 12:32:43 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 12:32:43 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 12:32:43 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 12:42:44 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 12:42:44 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 12:42:44 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 12:42:44 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 12:46:03 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 12:46:03 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 12:46:03 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 12:46:03 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 12:47:20 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 12:47:20 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 12:47:20 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 12:47:20 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 12:47:52 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 12:47:52 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 12:47:52 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 12:47:52 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 12:50:15 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 12:50:15 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 12:50:15 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 12:50:15 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 12:55:30 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  4 12:55:30 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  4 12:55:45 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 13:07:01 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 13:07:01 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 13:07:01 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 13:07:01 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 13:12:14 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 13:12:14 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 13:12:14 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 13:12:14 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 13:15:17 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 13:15:17 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 13:15:17 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 13:15:17 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 13:17:01 Cvmtestmatt CRON[5492]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  4 13:17:01 Cvmtestmatt CRON[5492]: pam_unix(cron:session): session closed for user root
+May  4 13:19:29 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 13:19:29 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 13:19:29 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 13:19:29 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 13:25:06 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 13:25:06 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 13:25:06 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 13:25:06 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 13:25:30 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  4 13:25:30 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  4 13:25:42 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 13:26:28 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 13:26:28 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 13:26:28 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 13:26:28 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 13:27:24 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 13:27:24 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 13:27:24 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 13:27:24 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 13:29:04 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 13:29:04 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 13:29:04 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 13:29:04 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 13:55:30 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  4 13:55:30 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  4 13:55:52 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 14:08:49 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 14:08:49 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 14:08:49 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 14:08:49 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 14:09:30 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 14:09:30 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 14:09:30 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 14:09:30 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 14:11:34 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 14:11:34 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 14:11:34 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 14:11:34 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 14:12:25 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  4 14:12:25 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  4 14:12:25 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  4 14:12:25 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  4 14:13:47 Cvmtestmatt xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May  4 14:14:10 Cvmtestmatt mdm[5657]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  4 14:14:10 Cvmtestmatt mdm[5657]: PAM adding faulty module: pam_kwallet.so
+May  4 14:14:13 Cvmtestmatt mdm[5657]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent"
+May  4 14:14:13 Cvmtestmatt mdm[5657]: pam_unix(mdm:auth): conversation failed
+May  4 14:14:13 Cvmtestmatt mdm[5657]: pam_unix(mdm:auth): auth could not identify password for [tagent]
+May  4 14:14:14 Cvmtestmatt mdm[5657]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=tagent
+May  4 14:14:14 Cvmtestmatt mdm[5657]: pam_sss(mdm:auth): received for user tagent: 7 (Authentication failure)
+May  4 14:14:14 Cvmtestmatt mdm[5657]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  4 14:14:14 Cvmtestmatt mdm[5657]: PAM adding faulty module: pam_kwallet.so
+May  4 14:14:15 Cvmtestmatt mdm[5657]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent2"
+May  4 14:14:17 Cvmtestmatt mdm[5657]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost=  user=tagent2
+May  4 14:14:18 Cvmtestmatt mdm[5657]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=tagent2
+May  4 14:14:18 Cvmtestmatt mdm[5657]: pam_unix(mdm:session): session opened for user tagent2 by (uid=0)
+May  4 14:14:18 Cvmtestmatt mdm[5657]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :20
+May  4 14:14:24 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c6 (system bus name :1.84 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  4 14:15:28 Cvmtestmatt su[6747]: Successful su for root by tagent2
+May  4 14:15:28 Cvmtestmatt su[6747]: + /dev/pts/1 tagent2:root
+May  4 14:15:28 Cvmtestmatt su[6747]: pam_unix(su:session): session opened for user root by tagent2(uid=2230)
+May  4 14:17:04 Cvmtestmatt sshd[1514]: Server listening on 0.0.0.0 port 22.
+May  4 14:17:04 Cvmtestmatt sshd[1514]: Server listening on :: port 22.
+May  4 14:17:04 Cvmtestmatt CRON[1572]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  4 14:17:07 Cvmtestmatt CRON[1572]: pam_unix(cron:session): session closed for user root
+May  4 14:17:07 Cvmtestmatt mdm[1860]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  4 14:17:07 Cvmtestmatt mdm[1860]: PAM adding faulty module: pam_kwallet.so
+May  4 14:17:41 Cvmtestmatt mdm[1860]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent2"
+May  4 14:17:43 Cvmtestmatt mdm[1860]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tagent2
+May  4 14:17:43 Cvmtestmatt mdm[1860]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tagent2
+May  4 14:17:43 Cvmtestmatt mdm[1860]: pam_unix(mdm:session): session opened for user tagent2 by (uid=0)
+May  4 14:17:43 Cvmtestmatt mdm[1860]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  4 14:17:47 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  4 14:47:47 Cvmtestmatt sudo:  tagent2 : TTY=unknown ; PWD=/home/tagent2 ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  4 14:47:47 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  4 14:48:04 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 15:17:01 Cvmtestmatt CRON[3775]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  4 15:17:01 Cvmtestmatt CRON[3775]: pam_unix(cron:session): session closed for user root
+May  4 15:17:47 Cvmtestmatt sudo:  tagent2 : TTY=unknown ; PWD=/home/tagent2 ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  4 15:17:47 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  4 15:32:30 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  4 15:47:47 Cvmtestmatt sudo:  tagent2 : TTY=unknown ; PWD=/home/tagent2 ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  4 15:47:47 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  4 15:48:02 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 10:39:57 Cvmtestmatt sshd[1495]: Server listening on 0.0.0.0 port 22.
+May  5 10:39:57 Cvmtestmatt sshd[1495]: Server listening on :: port 22.
+May  5 10:39:57 Cvmtestmatt CRON[1543]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 10:39:59 Cvmtestmatt CRON[1543]: pam_unix(cron:session): session closed for user root
+May  5 10:40:02 Cvmtestmatt mdm[1838]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 10:40:02 Cvmtestmatt mdm[1838]: PAM adding faulty module: pam_kwallet.so
+May  5 10:40:05 Cvmtestmatt mdm[1838]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May  5 10:40:06 Cvmtestmatt mdm[1838]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May  5 10:40:13 Cvmtestmatt mdm[1838]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  5 10:40:21 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 10:44:58 Cvmtestmatt su[3959]: Successful su for nobody by root
+May  5 10:44:58 Cvmtestmatt su[3959]: + ??? root:nobody
+May  5 10:44:58 Cvmtestmatt su[3959]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May  5 10:44:58 Cvmtestmatt su[3959]: pam_unix(su:session): session closed for user nobody
+May  5 10:44:58 Cvmtestmatt su[3978]: Successful su for nobody by root
+May  5 10:44:58 Cvmtestmatt su[3978]: + ??? root:nobody
+May  5 10:44:58 Cvmtestmatt su[3978]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May  5 10:44:59 Cvmtestmatt su[3978]: pam_unix(su:session): session closed for user nobody
+May  5 10:44:59 Cvmtestmatt su[3993]: Successful su for nobody by root
+May  5 10:44:59 Cvmtestmatt su[3993]: + ??? root:nobody
+May  5 10:44:59 Cvmtestmatt su[3993]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May  5 10:45:56 Cvmtestmatt su[3993]: pam_unix(su:session): session closed for user nobody
+May  5 10:51:28 Cvmtestmatt su[4890]: pam_unix(su:auth): authentication failure; logname=tech uid=1000 euid=0 tty=/dev/pts/0 ruser=tech rhost=  user=root
+May  5 10:51:31 Cvmtestmatt su[4890]: pam_authenticate: Authentication failure
+May  5 10:51:31 Cvmtestmatt su[4890]: FAILED su for root by tech
+May  5 10:51:31 Cvmtestmatt su[4890]: - /dev/pts/0 tech:root
+May  5 10:51:34 Cvmtestmatt su[4891]: Successful su for root by tech
+May  5 10:51:34 Cvmtestmatt su[4891]: + /dev/pts/0 tech:root
+May  5 10:51:34 Cvmtestmatt su[4891]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May  5 10:52:48 Cvmtestmatt su[4891]: pam_unix(su:session): session closed for user root
+May  5 10:52:53 Cvmtestmatt su[5054]: Successful su for root by tech
+May  5 10:52:53 Cvmtestmatt su[5054]: + /dev/pts/0 tech:root
+May  5 10:52:53 Cvmtestmatt su[5054]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May  5 10:53:11 Cvmtestmatt su[5054]: pam_unix(su:session): session closed for user root
+May  5 10:53:22 Cvmtestmatt mdm[1838]: pam_unix(mdm:session): session closed for user tech
+May  5 10:53:23 Cvmtestmatt polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.28, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  5 10:53:28 Cvmtestmatt mdm[5160]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 10:53:28 Cvmtestmatt mdm[5160]: PAM adding faulty module: pam_kwallet.so
+May  5 10:53:30 Cvmtestmatt mdm[5160]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent"
+May  5 10:53:32 Cvmtestmatt mdm[5160]: pam_unix(mdm:auth): conversation failed
+May  5 10:53:32 Cvmtestmatt mdm[5160]: pam_unix(mdm:auth): auth could not identify password for [tagent]
+May  5 10:53:32 Cvmtestmatt mdm[5160]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tagent
+May  5 10:53:32 Cvmtestmatt mdm[5160]: pam_sss(mdm:auth): received for user tagent: 7 (Authentication failure)
+May  5 10:53:32 Cvmtestmatt mdm[5160]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 10:53:32 Cvmtestmatt mdm[5160]: PAM adding faulty module: pam_kwallet.so
+May  5 10:53:33 Cvmtestmatt mdm[5160]: pam_nologin(mdm:auth): cannot determine username
+May  5 10:53:33 Cvmtestmatt mdm[5160]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 10:53:33 Cvmtestmatt mdm[5160]: PAM adding faulty module: pam_kwallet.so
+May  5 10:53:34 Cvmtestmatt mdm[5160]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+May  5 10:53:36 Cvmtestmatt mdm[5160]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+May  5 10:53:37 Cvmtestmatt mdm[5160]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+May  5 10:53:37 Cvmtestmatt mdm[5160]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+May  5 10:53:37 Cvmtestmatt mdm[5160]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  5 10:53:41 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c5 (system bus name :1.53 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 10:53:52 Cvmtestmatt su[5781]: Successful su for root by mgonzales
+May  5 10:53:52 Cvmtestmatt su[5781]: + /dev/pts/0 mgonzales:root
+May  5 10:53:52 Cvmtestmatt su[5781]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+May  5 10:55:38 Cvmtestmatt systemd-logind[907]: New seat seat0.
+May  5 10:55:41 Cvmtestmatt sshd[1485]: Server listening on 0.0.0.0 port 22.
+May  5 10:55:41 Cvmtestmatt sshd[1485]: Server listening on :: port 22.
+May  5 10:55:41 Cvmtestmatt CRON[1545]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 10:55:44 Cvmtestmatt CRON[1545]: pam_unix(cron:session): session closed for user root
+May  5 10:55:47 Cvmtestmatt mdm[1833]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 10:55:47 Cvmtestmatt mdm[1833]: PAM adding faulty module: pam_kwallet.so
+May  5 10:55:55 Cvmtestmatt mdm[1833]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+May  5 10:55:57 Cvmtestmatt mdm[1833]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+May  5 10:55:58 Cvmtestmatt mdm[1833]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+May  5 10:55:58 Cvmtestmatt mdm[1833]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+May  5 10:55:58 Cvmtestmatt systemd-logind[907]: New session c1 of user mgonzales.
+May  5 10:55:58 Cvmtestmatt systemd-logind[907]: Linked /tmp/.X11-unix/X0 to /run/user/2009/X11-display.
+May  5 10:55:58 Cvmtestmatt mdm[1833]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  5 10:56:01 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 10:56:41 Cvmtestmatt sudo: pam_unix(sudo:auth): authentication failure; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/0 ruser=mgonzales rhost=  user=mgonzales
+May  5 10:56:41 Cvmtestmatt sudo: pam_sss(sudo:auth): authentication success; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/0 ruser=mgonzales rhost= user=mgonzales
+May  5 10:56:41 Cvmtestmatt sudo: mgonzales : command not allowed ; TTY=pts/0 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/preferences/panel-test.sh mgonzales
+May  5 10:56:44 Cvmtestmatt su[2943]: Successful su for root by mgonzales
+May  5 10:56:44 Cvmtestmatt su[2943]: + /dev/pts/0 mgonzales:root
+May  5 10:56:44 Cvmtestmatt su[2943]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+May  5 10:58:00 Cvmtestmatt su[2943]: pam_unix(su:session): session closed for user root
+May  5 10:58:00 Cvmtestmatt mdm[1833]: pam_unix(mdm:session): session closed for user mgonzales
+May  5 10:58:00 Cvmtestmatt polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.28, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  5 10:58:02 Cvmtestmatt mdm[2996]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 10:58:02 Cvmtestmatt mdm[2996]: PAM adding faulty module: pam_kwallet.so
+May  5 10:58:07 Cvmtestmatt mdm[2996]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May  5 10:58:09 Cvmtestmatt mdm[2996]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May  5 10:58:09 Cvmtestmatt systemd-logind[907]: New session c2 of user tech.
+May  5 10:58:09 Cvmtestmatt systemd-logind[907]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+May  5 10:58:09 Cvmtestmatt mdm[2996]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  5 10:58:11 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.50 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 11:01:25 Cvmtestmatt su[4080]: Successful su for root by tech
+May  5 11:01:25 Cvmtestmatt su[4080]: + /dev/pts/0 tech:root
+May  5 11:01:25 Cvmtestmatt su[4080]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May  5 11:01:25 Cvmtestmatt systemd-logind[907]: Removed session c1.
+May  5 11:03:42 Cvmtestmatt su[4080]: pam_unix(su:session): session closed for user root
+May  5 11:03:42 Cvmtestmatt mdm[2996]: pam_unix(mdm:session): session closed for user tech
+May  5 11:03:43 Cvmtestmatt polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.50, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  5 11:03:45 Cvmtestmatt mdm[4369]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:03:45 Cvmtestmatt mdm[4369]: PAM adding faulty module: pam_kwallet.so
+May  5 11:03:47 Cvmtestmatt mdm[4369]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+May  5 11:03:49 Cvmtestmatt mdm[4369]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+May  5 11:03:49 Cvmtestmatt mdm[4369]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+May  5 11:03:49 Cvmtestmatt mdm[4369]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+May  5 11:03:49 Cvmtestmatt systemd-logind[907]: New session c3 of user mgonzales.
+May  5 11:03:49 Cvmtestmatt systemd-logind[907]: Linked /tmp/.X11-unix/X0 to /run/user/2009/X11-display.
+May  5 11:03:49 Cvmtestmatt mdm[4369]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  5 11:03:52 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c3 (system bus name :1.69 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 11:05:53 Cvmtestmatt systemd-logind[907]: Removed session c2.
+May  5 11:05:53 Cvmtestmatt mdm[4369]: pam_unix(mdm:session): session closed for user mgonzales
+May  5 11:05:53 Cvmtestmatt polkitd(authority=local): Unregistered Authentication Agent for unix-session:c3 (system bus name :1.69, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  5 11:05:54 Cvmtestmatt mdm[5425]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:05:54 Cvmtestmatt mdm[5425]: PAM adding faulty module: pam_kwallet.so
+May  5 11:05:55 Cvmtestmatt mdm[5425]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May  5 11:05:56 Cvmtestmatt mdm[5425]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May  5 11:05:56 Cvmtestmatt systemd-logind[907]: New session c4 of user tech.
+May  5 11:05:56 Cvmtestmatt systemd-logind[907]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+May  5 11:05:56 Cvmtestmatt mdm[5425]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  5 11:05:58 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c4 (system bus name :1.95 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 11:06:10 Cvmtestmatt mdm[5425]: pam_unix(mdm:session): session closed for user tech
+May  5 11:06:10 Cvmtestmatt polkitd(authority=local): Unregistered Authentication Agent for unix-session:c4 (system bus name :1.95, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  5 11:06:12 Cvmtestmatt mdm[6204]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:06:12 Cvmtestmatt mdm[6204]: PAM adding faulty module: pam_kwallet.so
+May  5 11:06:14 Cvmtestmatt mdm[6204]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+May  5 11:06:15 Cvmtestmatt mdm[6204]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+May  5 11:06:16 Cvmtestmatt mdm[6204]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+May  5 11:06:16 Cvmtestmatt mdm[6204]: pam_sss(mdm:auth): received for user mgonzales: 4 (System error)
+May  5 11:06:19 Cvmtestmatt mdm[6204]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:06:19 Cvmtestmatt mdm[6204]: PAM adding faulty module: pam_kwallet.so
+May  5 11:06:21 Cvmtestmatt mdm[6204]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+May  5 11:06:23 Cvmtestmatt mdm[6204]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+May  5 11:06:23 Cvmtestmatt mdm[6204]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+May  5 11:06:23 Cvmtestmatt mdm[6204]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+May  5 11:06:23 Cvmtestmatt systemd-logind[907]: Removed session c3.
+May  5 11:06:23 Cvmtestmatt systemd-logind[907]: New session c5 of user mgonzales.
+May  5 11:06:23 Cvmtestmatt systemd-logind[907]: Linked /tmp/.X11-unix/X0 to /run/user/2009/X11-display.
+May  5 11:06:23 Cvmtestmatt mdm[6204]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  5 11:06:25 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c5 (system bus name :1.117 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 11:06:31 Cvmtestmatt su[6855]: Successful su for root by mgonzales
+May  5 11:06:31 Cvmtestmatt su[6855]: + /dev/pts/0 mgonzales:root
+May  5 11:06:31 Cvmtestmatt su[6855]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+May  5 11:06:31 Cvmtestmatt systemd-logind[907]: Removed session c4.
+May  5 11:07:06 Cvmtestmatt su[6855]: pam_unix(su:session): session closed for user root
+May  5 11:07:06 Cvmtestmatt mdm[6204]: pam_unix(mdm:session): session closed for user mgonzales
+May  5 11:07:06 Cvmtestmatt polkitd(authority=local): Unregistered Authentication Agent for unix-session:c5 (system bus name :1.117, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  5 11:07:08 Cvmtestmatt mdm[7043]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:07:08 Cvmtestmatt mdm[7043]: PAM adding faulty module: pam_kwallet.so
+May  5 11:07:11 Cvmtestmatt mdm[7043]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+May  5 11:07:13 Cvmtestmatt mdm[7043]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+May  5 11:07:13 Cvmtestmatt mdm[7043]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+May  5 11:07:13 Cvmtestmatt mdm[7043]: pam_sss(mdm:auth): received for user mgonzales: 4 (System error)
+May  5 11:07:16 Cvmtestmatt mdm[7043]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:07:16 Cvmtestmatt mdm[7043]: PAM adding faulty module: pam_kwallet.so
+May  5 11:07:19 Cvmtestmatt mdm[7043]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+May  5 11:07:21 Cvmtestmatt mdm[7043]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+May  5 11:07:21 Cvmtestmatt mdm[7043]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+May  5 11:07:21 Cvmtestmatt mdm[7043]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+May  5 11:07:21 Cvmtestmatt systemd-logind[907]: New session c6 of user mgonzales.
+May  5 11:07:21 Cvmtestmatt mdm[7043]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  5 11:07:23 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c6 (system bus name :1.135 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 11:07:35 Cvmtestmatt su[7719]: Successful su for root by mgonzales
+May  5 11:07:35 Cvmtestmatt su[7719]: + /dev/pts/0 mgonzales:root
+May  5 11:07:35 Cvmtestmatt su[7719]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+May  5 11:08:13 Cvmtestmatt su[7719]: pam_unix(su:session): session closed for user root
+May  5 11:08:13 Cvmtestmatt mdm[7043]: pam_unix(mdm:session): session closed for user mgonzales
+May  5 11:08:13 Cvmtestmatt polkitd(authority=local): Unregistered Authentication Agent for unix-session:c6 (system bus name :1.135, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  5 11:08:15 Cvmtestmatt mdm[7766]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:08:15 Cvmtestmatt mdm[7766]: PAM adding faulty module: pam_kwallet.so
+May  5 11:08:17 Cvmtestmatt mdm[7766]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+May  5 11:08:19 Cvmtestmatt mdm[7766]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+May  5 11:08:19 Cvmtestmatt mdm[7766]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+May  5 11:08:19 Cvmtestmatt mdm[7766]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+May  5 11:08:19 Cvmtestmatt systemd-logind[907]: New session c7 of user mgonzales.
+May  5 11:08:19 Cvmtestmatt mdm[7766]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  5 11:08:21 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c7 (system bus name :1.152 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 11:10:05 Cvmtestmatt sudo: pam_unix(sudo:auth): conversation failed
+May  5 11:10:05 Cvmtestmatt sudo: pam_unix(sudo:auth): auth could not identify password for [mgonzales]
+May  5 11:10:05 Cvmtestmatt sudo: pam_sss(sudo:auth): authentication failure; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/0 ruser=mgonzales rhost= user=mgonzales
+May  5 11:10:05 Cvmtestmatt sudo: pam_sss(sudo:auth): received for user mgonzales: 7 (Authentication failure)
+May  5 11:10:05 Cvmtestmatt sudo: mgonzales : command not allowed ; TTY=pts/0 ; PWD=/usr/src/IT_Files/Linux ; USER=root ; COMMAND=/bin/cp CXP Chat.crx /home/mgonzales/Desktop/
+May  5 11:10:07 Cvmtestmatt su[8624]: Successful su for root by mgonzales
+May  5 11:10:07 Cvmtestmatt su[8624]: + /dev/pts/0 mgonzales:root
+May  5 11:10:07 Cvmtestmatt su[8624]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+May  5 11:10:07 Cvmtestmatt systemd-logind[907]: Removed session c6.
+May  5 11:11:10 Cvmtestmatt su[8624]: pam_unix(su:session): session closed for user root
+May  5 11:11:10 Cvmtestmatt mdm[7766]: pam_unix(mdm:session): session closed for user mgonzales
+May  5 11:11:10 Cvmtestmatt polkitd(authority=local): Unregistered Authentication Agent for unix-session:c7 (system bus name :1.152, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  5 11:11:12 Cvmtestmatt mdm[8919]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:11:12 Cvmtestmatt mdm[8919]: PAM adding faulty module: pam_kwallet.so
+May  5 11:11:14 Cvmtestmatt mdm[8919]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+May  5 11:11:16 Cvmtestmatt mdm[8919]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+May  5 11:11:16 Cvmtestmatt mdm[8919]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+May  5 11:11:16 Cvmtestmatt mdm[8919]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+May  5 11:11:16 Cvmtestmatt systemd-logind[907]: Removed session c7.
+May  5 11:11:16 Cvmtestmatt systemd-logind[907]: New session c8 of user mgonzales.
+May  5 11:11:16 Cvmtestmatt mdm[8919]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  5 11:11:18 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c8 (system bus name :1.171 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 11:15:20 Cvmtestmatt su[10322]: Successful su for root by mgonzales
+May  5 11:15:20 Cvmtestmatt su[10322]: + /dev/pts/0 mgonzales:root
+May  5 11:15:20 Cvmtestmatt su[10322]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+May  5 11:16:40 Cvmtestmatt su[10466]: Successful su for root by mgonzales
+May  5 11:16:40 Cvmtestmatt su[10466]: + /dev/pts/1 mgonzales:root
+May  5 11:16:40 Cvmtestmatt su[10466]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+May  5 11:17:01 Cvmtestmatt CRON[10530]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 11:17:01 Cvmtestmatt CRON[10530]: pam_unix(cron:session): session closed for user root
+May  5 11:18:51 Cvmtestmatt systemd-logind[868]: New seat seat0.
+May  5 11:18:54 Cvmtestmatt sshd[1489]: Server listening on 0.0.0.0 port 22.
+May  5 11:18:54 Cvmtestmatt sshd[1489]: Server listening on :: port 22.
+May  5 11:18:54 Cvmtestmatt CRON[1593]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 11:18:57 Cvmtestmatt CRON[1593]: pam_unix(cron:session): session closed for user root
+May  5 11:19:01 Cvmtestmatt mdm[1840]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:19:01 Cvmtestmatt mdm[1840]: PAM adding faulty module: pam_kwallet.so
+May  5 11:19:06 Cvmtestmatt mdm[1840]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+May  5 11:19:08 Cvmtestmatt mdm[1840]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+May  5 11:19:12 Cvmtestmatt mdm[1840]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+May  5 11:19:12 Cvmtestmatt mdm[1840]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+May  5 11:19:12 Cvmtestmatt systemd-logind[868]: New session c1 of user mgonzales.
+May  5 11:19:12 Cvmtestmatt systemd-logind[868]: Linked /tmp/.X11-unix/X0 to /run/user/2009/X11-display.
+May  5 11:19:12 Cvmtestmatt mdm[1840]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  5 11:19:16 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 11:20:04 Cvmtestmatt su[3197]: Successful su for root by mgonzales
+May  5 11:20:04 Cvmtestmatt su[3197]: + /dev/pts/0 mgonzales:root
+May  5 11:20:04 Cvmtestmatt su[3197]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+May  5 11:20:46 Cvmtestmatt systemd-logind[876]: New seat seat0.
+May  5 11:20:49 Cvmtestmatt sshd[1497]: Server listening on 0.0.0.0 port 22.
+May  5 11:20:49 Cvmtestmatt sshd[1497]: Server listening on :: port 22.
+May  5 11:20:49 Cvmtestmatt CRON[1550]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 11:20:52 Cvmtestmatt CRON[1550]: pam_unix(cron:session): session closed for user root
+May  5 11:20:54 Cvmtestmatt mdm[1844]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:20:54 Cvmtestmatt mdm[1844]: PAM adding faulty module: pam_kwallet.so
+May  5 11:20:57 Cvmtestmatt mdm[1844]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+May  5 11:20:58 Cvmtestmatt mdm[1844]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+May  5 11:20:59 Cvmtestmatt mdm[1844]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+May  5 11:20:59 Cvmtestmatt mdm[1844]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+May  5 11:20:59 Cvmtestmatt systemd-logind[876]: New session c1 of user mgonzales.
+May  5 11:20:59 Cvmtestmatt systemd-logind[876]: Linked /tmp/.X11-unix/X0 to /run/user/2009/X11-display.
+May  5 11:20:59 Cvmtestmatt mdm[1844]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  5 11:21:04 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 11:21:34 Cvmtestmatt mdm[2834]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:21:34 Cvmtestmatt mdm[2834]: PAM adding faulty module: pam_kwallet.so
+May  5 11:21:36 Cvmtestmatt mdm[2834]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May  5 11:21:37 Cvmtestmatt mdm[2834]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May  5 11:21:37 Cvmtestmatt systemd-logind[876]: New session c2 of user tech.
+May  5 11:21:37 Cvmtestmatt systemd-logind[876]: Linked /tmp/.X11-unix/X20 to /run/user/1000/X11-display.
+May  5 11:21:37 Cvmtestmatt mdm[2834]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :20
+May  5 11:21:39 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.46 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 11:26:14 Cvmtestmatt mdm[4085]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:26:14 Cvmtestmatt mdm[4085]: PAM adding faulty module: pam_kwallet.so
+May  5 11:26:22 Cvmtestmatt mdm[4085]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent"
+May  5 11:26:24 Cvmtestmatt mdm[4085]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:21 ruser= rhost=  user=tagent
+May  5 11:26:24 Cvmtestmatt mdm[4085]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:21 ruser= rhost= user=tagent
+May  5 11:26:24 Cvmtestmatt mdm[4085]: pam_unix(mdm:session): session opened for user tagent by (uid=0)
+May  5 11:26:24 Cvmtestmatt systemd-logind[876]: New session c3 of user tagent.
+May  5 11:26:24 Cvmtestmatt systemd-logind[876]: Linked /tmp/.X11-unix/X21 to /run/user/2114/X11-display.
+May  5 11:26:24 Cvmtestmatt mdm[4085]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :21
+May  5 11:26:27 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c3 (system bus name :1.64 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 11:27:04 Cvmtestmatt su[4835]: Successful su for root by tagent
+May  5 11:27:04 Cvmtestmatt su[4835]: + /dev/pts/0 tagent:root
+May  5 11:27:04 Cvmtestmatt su[4835]: pam_unix(su:session): session opened for user root by tagent(uid=2114)
+May  5 11:30:01 Cvmtestmatt systemd-logind[831]: New seat seat0.
+May  5 11:30:04 Cvmtestmatt sshd[1522]: Server listening on 0.0.0.0 port 22.
+May  5 11:30:04 Cvmtestmatt sshd[1522]: Server listening on :: port 22.
+May  5 11:30:04 Cvmtestmatt CRON[1583]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 11:30:07 Cvmtestmatt CRON[1583]: pam_unix(cron:session): session closed for user root
+May  5 11:30:09 Cvmtestmatt mdm[1870]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:30:09 Cvmtestmatt mdm[1870]: PAM adding faulty module: pam_kwallet.so
+May  5 11:30:13 Cvmtestmatt mdm[1870]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent"
+May  5 11:30:15 Cvmtestmatt mdm[1870]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tagent
+May  5 11:30:15 Cvmtestmatt mdm[1870]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tagent
+May  5 11:30:15 Cvmtestmatt mdm[1870]: pam_unix(mdm:session): session opened for user tagent by (uid=0)
+May  5 11:30:15 Cvmtestmatt systemd-logind[831]: New session c1 of user tagent.
+May  5 11:30:15 Cvmtestmatt systemd-logind[831]: Linked /tmp/.X11-unix/X0 to /run/user/2114/X11-display.
+May  5 11:30:15 Cvmtestmatt mdm[1870]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  5 11:30:19 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 11:30:58 Cvmtestmatt su[3277]: Successful su for root by tagent
+May  5 11:30:58 Cvmtestmatt su[3277]: + /dev/pts/0 tagent:root
+May  5 11:30:58 Cvmtestmatt su[3277]: pam_unix(su:session): session opened for user root by tagent(uid=2114)
+May  5 11:34:12 Cvmtestmatt mdm[3670]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:34:12 Cvmtestmatt mdm[3670]: PAM adding faulty module: pam_kwallet.so
+May  5 11:34:13 Cvmtestmatt mdm[3670]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May  5 11:34:14 Cvmtestmatt mdm[3670]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May  5 11:34:14 Cvmtestmatt systemd-logind[831]: New session c2 of user tech.
+May  5 11:34:14 Cvmtestmatt systemd-logind[831]: Linked /tmp/.X11-unix/X20 to /run/user/1000/X11-display.
+May  5 11:34:14 Cvmtestmatt mdm[3670]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :20
+May  5 11:34:17 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.43 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 11:35:01 Cvmtestmatt su[4529]: Successful su for root by tech
+May  5 11:35:01 Cvmtestmatt su[4529]: + /dev/pts/1 tech:root
+May  5 11:35:01 Cvmtestmatt su[4529]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May  5 11:39:31 Cvmtestmatt sudo: pam_unix(sudo:auth): conversation failed
+May  5 11:39:31 Cvmtestmatt sudo: pam_unix(sudo:auth): auth could not identify password for [tech]
+May  5 11:39:31 Cvmtestmatt sudo: pam_sss(sudo:auth): authentication failure; logname=tech uid=1000 euid=0 tty=/dev/pts/2 ruser=tech rhost= user=tech
+May  5 11:39:31 Cvmtestmatt sudo: pam_sss(sudo:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  5 11:39:37 Cvmtestmatt sudo:     tech : TTY=pts/2 ; PWD=/usr/src/IT_Files/Linux/xfce-uni/preferences/chrome/wlp/web1/chat ; USER=root ; COMMAND=/bin/cp -r Extension Cookies Extension Cookies-journal Extensions Extension State Preferences /home/tech/.config/google-chrome/Default/
+May  5 11:39:37 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  5 11:39:47 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 11:42:12 Cvmtestmatt sudo:     tech : TTY=pts/2 ; PWD=/usr/src/IT_Files/Linux/xfce-uni/preferences/chrome/wlp/web1/chat ; USER=root ; COMMAND=/bin/cp -r Extension Cookies Extension Cookies-journal Extensions Extension State Preferences /home/tech/.config/google-chrome/Default/
+May  5 11:42:12 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  5 11:42:20 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 11:44:17 Cvmtestmatt sudo:     tech : TTY=pts/2 ; PWD=/usr/src/IT_Files/Linux/xfce-uni/preferences/chrome/wlp/web1/chat ; USER=root ; COMMAND=/bin/cp -r Bookmarks Extension Cookies Extension Cookies-journal Extensions Extension State Preferences /home/tech/.config/google-chrome/Default/
+May  5 11:44:17 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  5 11:44:24 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 11:45:50 Cvmtestmatt mdm[5370]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:45:50 Cvmtestmatt mdm[5370]: PAM adding faulty module: pam_kwallet.so
+May  5 11:45:53 Cvmtestmatt mdm[5370]: pam_unix(mdm:auth): conversation failed
+May  5 11:45:53 Cvmtestmatt mdm[5370]: pam_unix(mdm:auth): auth could not identify password for [tage]
+May  5 11:45:53 Cvmtestmatt mdm[5370]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:21 ruser= rhost= user=tage
+May  5 11:45:53 Cvmtestmatt mdm[5370]: pam_sss(mdm:auth): received for user tage: 10 (User not known to the underlying authentication module)
+May  5 11:45:53 Cvmtestmatt mdm[5370]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:45:53 Cvmtestmatt mdm[5370]: PAM adding faulty module: pam_kwallet.so
+May  5 11:45:55 Cvmtestmatt mdm[5370]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent"
+May  5 11:45:56 Cvmtestmatt mdm[5370]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:21 ruser= rhost=  user=tagent
+May  5 11:45:57 Cvmtestmatt mdm[5370]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:21 ruser= rhost= user=tagent
+May  5 11:46:01 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost=  user=tagent
+May  5 11:46:01 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+May  5 11:46:01 Cvmtestmatt xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May  5 11:46:17 Cvmtestmatt mdm[5525]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 11:46:17 Cvmtestmatt mdm[5525]: PAM adding faulty module: pam_kwallet.so
+May  5 11:46:18 Cvmtestmatt mdm[5525]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May  5 11:46:21 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost=  user=tech
+May  5 11:46:21 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  5 11:46:21 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  5 11:46:26 Cvmtestmatt xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May  5 11:47:08 Cvmtestmatt sudo:     tech : TTY=pts/2 ; PWD=/usr/src/IT_Files/Linux/xfce-uni/preferences/chrome/wlp/web1/chat ; USER=root ; COMMAND=/bin/cp -r Bookmarks Extension Cookies Extension Cookies-journal Extensions Extension State Preferences /home/tech/.config/google-chrome/Default/
+May  5 11:47:08 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  5 11:47:16 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 11:47:31 Cvmtestmatt sudo:     tech : TTY=pts/2 ; PWD=/usr/src/IT_Files/Linux/xfce-uni/preferences/chrome/wlp/web1/chat ; USER=root ; COMMAND=/bin/cp -r Bookmarks Extension Cookies Extension Cookies-journal Extensions Extension State Preferences /home/tech/.config/google-chrome/Default/
+May  5 11:47:31 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  5 11:47:39 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 11:56:32 Cvmtestmatt sudo:     tech : TTY=pts/3 ; PWD=/usr/src/IT_Files/Linux/xfce-uni/preferences/chrome/wlp/web2/chat ; USER=root ; COMMAND=/bin/cp Bookmarks Extension Cookies Extension Cookies-journal Extensions Extension State Preferences /home/tech/.config/google-chrome/Default/
+May  5 11:56:32 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  5 11:56:32 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 11:56:38 Cvmtestmatt sudo:     tech : TTY=pts/3 ; PWD=/usr/src/IT_Files/Linux/xfce-uni/preferences/chrome/wlp/web2/chat ; USER=root ; COMMAND=/bin/cp -r Bookmarks Extension Cookies Extension Cookies-journal Extensions Extension State Preferences /home/tech/.config/google-chrome/Default/
+May  5 11:56:38 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  5 11:56:45 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 12:00:19 Cvmtestmatt sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  5 12:00:19 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  5 12:00:47 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 12:04:19 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  5 12:04:19 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  5 12:04:35 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 12:08:24 Cvmtestmatt sudo: pam_unix(sudo:auth): conversation failed
+May  5 12:08:24 Cvmtestmatt sudo: pam_unix(sudo:auth): auth could not identify password for [tech]
+May  5 12:08:24 Cvmtestmatt sudo: pam_sss(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=tech rhost= user=tech
+May  5 12:08:24 Cvmtestmatt sudo: pam_sss(sudo:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  5 12:09:07 Cvmtestmatt mdm[6636]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 12:09:07 Cvmtestmatt mdm[6636]: PAM adding faulty module: pam_kwallet.so
+May  5 12:09:10 Cvmtestmatt mdm[6636]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent2"
+May  5 12:09:12 Cvmtestmatt mdm[6636]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:21 ruser= rhost=  user=tagent2
+May  5 12:09:12 Cvmtestmatt mdm[6636]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:21 ruser= rhost= user=tagent2
+May  5 12:09:12 Cvmtestmatt mdm[6636]: pam_unix(mdm:session): session opened for user tagent2 by (uid=0)
+May  5 12:09:12 Cvmtestmatt systemd-logind[831]: New session c3 of user tagent2.
+May  5 12:09:12 Cvmtestmatt systemd-logind[831]: Linked /tmp/.X11-unix/X21 to /run/user/2230/X11-display.
+May  5 12:09:12 Cvmtestmatt mdm[6636]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :21
+May  5 12:09:21 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c3 (system bus name :1.79 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 12:09:59 Cvmtestmatt su[7354]: Successful su for root by tagent2
+May  5 12:09:59 Cvmtestmatt su[7354]: + /dev/pts/2 tagent2:root
+May  5 12:09:59 Cvmtestmatt su[7354]: pam_unix(su:session): session opened for user root by tagent2(uid=2230)
+May  5 12:12:08 Cvmtestmatt systemd-logind[841]: New seat seat0.
+May  5 12:12:12 Cvmtestmatt sshd[1492]: Server listening on 0.0.0.0 port 22.
+May  5 12:12:12 Cvmtestmatt sshd[1492]: Server listening on :: port 22.
+May  5 12:12:12 Cvmtestmatt CRON[1555]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 12:12:14 Cvmtestmatt CRON[1555]: pam_unix(cron:session): session closed for user root
+May  5 12:12:16 Cvmtestmatt mdm[1838]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 12:12:16 Cvmtestmatt mdm[1838]: PAM adding faulty module: pam_kwallet.so
+May  5 12:12:58 Cvmtestmatt mdm[1838]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent2"
+May  5 12:13:00 Cvmtestmatt mdm[1838]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tagent2
+May  5 12:13:00 Cvmtestmatt mdm[1838]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tagent2
+May  5 12:13:00 Cvmtestmatt mdm[1838]: pam_unix(mdm:session): session opened for user tagent2 by (uid=0)
+May  5 12:13:00 Cvmtestmatt systemd-logind[841]: New session c1 of user tagent2.
+May  5 12:13:00 Cvmtestmatt systemd-logind[841]: Linked /tmp/.X11-unix/X0 to /run/user/2230/X11-display.
+May  5 12:13:00 Cvmtestmatt mdm[1838]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  5 12:13:04 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 12:14:14 Cvmtestmatt su[3004]: Successful su for root by tagent2
+May  5 12:14:14 Cvmtestmatt su[3004]: + /dev/pts/0 tagent2:root
+May  5 12:14:14 Cvmtestmatt su[3004]: pam_unix(su:session): session opened for user root by tagent2(uid=2230)
+May  5 12:17:01 Cvmtestmatt CRON[3273]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 12:17:01 Cvmtestmatt CRON[3273]: pam_unix(cron:session): session closed for user root
+May  5 12:28:27 Cvmtestmatt sudo:     root : TTY=pts/1 ; PWD=/usr/src/IT_Files/Linux ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/fixfstab.sh
+May  5 12:28:27 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  5 12:28:27 Cvmtestmatt sudo:     root : TTY=pts/1 ; PWD=/usr/src/IT_Files/Linux ; USER=root ; COMMAND=/bin/rm -r /home/tagent
+May  5 12:28:27 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  5 12:28:28 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 12:28:28 Cvmtestmatt sudo:     root : TTY=pts/1 ; PWD=/usr/src/IT_Files/Linux ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/creds/wlp/.smbcredentials /home/tagent2
+May  5 12:28:28 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  5 12:28:28 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 12:28:30 Cvmtestmatt sudo:     root : TTY=pts/1 ; PWD=/usr/src/IT_Files/Linux ; USER=root ; COMMAND=/bin/mount -a
+May  5 12:28:30 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  5 12:28:30 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 12:28:30 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 12:32:44 Cvmtestmatt sudo:     root : TTY=pts/1 ; PWD=/usr/src/IT_Files/Linux ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/fixfstab.sh
+May  5 12:32:44 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  5 12:32:44 Cvmtestmatt sudo:     root : TTY=pts/1 ; PWD=/usr/src/IT_Files/Linux ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/creds/wlp/.smbcredentials /home/tagent2
+May  5 12:32:44 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  5 12:32:44 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 12:32:46 Cvmtestmatt sudo:     root : TTY=pts/1 ; PWD=/usr/src/IT_Files/Linux ; USER=root ; COMMAND=/bin/mount -a
+May  5 12:32:46 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  5 12:32:46 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 12:32:46 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 12:43:04 Cvmtestmatt sudo:  tagent2 : TTY=unknown ; PWD=/home/tagent2 ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  5 12:43:04 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  5 12:43:18 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 12:43:27 Cvmtestmatt sudo:     root : TTY=pts/1 ; PWD=/usr/src/IT_Files/Linux ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/fixfstab.sh
+May  5 12:43:27 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  5 12:43:27 Cvmtestmatt sudo:     root : TTY=pts/1 ; PWD=/usr/src/IT_Files/Linux ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/creds/wlp/.smbcredentials /home/tagent2
+May  5 12:43:27 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  5 12:43:27 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 12:43:29 Cvmtestmatt sudo:     root : TTY=pts/1 ; PWD=/usr/src/IT_Files/Linux ; USER=root ; COMMAND=/bin/mount -a
+May  5 12:43:29 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+May  5 12:43:29 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 12:43:29 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 13:07:32 Cvmtestmatt mdm[1838]: pam_unix(mdm:session): session closed for user tagent2
+May  5 13:07:32 Cvmtestmatt polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.28, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  5 13:07:33 Cvmtestmatt su[3004]: pam_unix(su:session): session closed for user root
+May  5 13:07:36 Cvmtestmatt mdm[3925]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 13:07:36 Cvmtestmatt mdm[3925]: PAM adding faulty module: pam_kwallet.so
+May  5 13:08:42 Cvmtestmatt mdm[3925]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent2"
+May  5 13:08:44 Cvmtestmatt mdm[3925]: pam_unix(mdm:auth): conversation failed
+May  5 13:08:44 Cvmtestmatt mdm[3925]: pam_unix(mdm:auth): auth could not identify password for [tagent2]
+May  5 13:08:44 Cvmtestmatt mdm[3925]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tagent2
+May  5 13:08:44 Cvmtestmatt mdm[3925]: pam_sss(mdm:auth): received for user tagent2: 7 (Authentication failure)
+May  5 13:08:44 Cvmtestmatt mdm[3925]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 13:08:44 Cvmtestmatt mdm[3925]: PAM adding faulty module: pam_kwallet.so
+May  5 13:08:44 Cvmtestmatt mdm[3925]: pam_nologin(mdm:auth): cannot determine username
+May  5 13:08:44 Cvmtestmatt mdm[3925]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 13:08:44 Cvmtestmatt mdm[3925]: PAM adding faulty module: pam_kwallet.so
+May  5 13:08:45 Cvmtestmatt mdm[3925]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May  5 13:08:46 Cvmtestmatt mdm[3925]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May  5 13:08:46 Cvmtestmatt systemd-logind[841]: Removed session c1.
+May  5 13:08:46 Cvmtestmatt systemd-logind[841]: New session c2 of user tech.
+May  5 13:08:46 Cvmtestmatt systemd-logind[841]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+May  5 13:08:46 Cvmtestmatt mdm[3925]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  5 13:08:51 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.44 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 13:09:21 Cvmtestmatt su[4604]: Successful su for root by tech
+May  5 13:09:21 Cvmtestmatt su[4604]: + /dev/pts/0 tech:root
+May  5 13:09:21 Cvmtestmatt su[4604]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May  5 13:17:01 Cvmtestmatt CRON[4883]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 13:17:01 Cvmtestmatt CRON[4883]: pam_unix(cron:session): session closed for user root
+May  5 13:18:17 Cvmtestmatt mdm[4897]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 13:18:17 Cvmtestmatt mdm[4897]: PAM adding faulty module: pam_kwallet.so
+May  5 13:18:20 Cvmtestmatt mdm[4897]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent"
+May  5 13:18:22 Cvmtestmatt mdm[4897]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost=  user=tagent
+May  5 13:18:23 Cvmtestmatt mdm[4897]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=tagent
+May  5 13:18:23 Cvmtestmatt mdm[4897]: pam_unix(mdm:session): session opened for user tagent by (uid=0)
+May  5 13:18:23 Cvmtestmatt systemd-logind[841]: New session c3 of user tagent.
+May  5 13:18:23 Cvmtestmatt systemd-logind[841]: Linked /tmp/.X11-unix/X20 to /run/user/2114/X11-display.
+May  5 13:18:23 Cvmtestmatt mdm[4897]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :20
+May  5 13:18:26 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c3 (system bus name :1.67 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 13:19:49 Cvmtestmatt su[6285]: Successful su for root by tagent
+May  5 13:19:49 Cvmtestmatt su[6285]: + /dev/pts/2 tagent:root
+May  5 13:19:49 Cvmtestmatt su[6285]: pam_unix(su:session): session opened for user root by tagent(uid=2114)
+May  5 13:21:54 Cvmtestmatt systemd-logind[870]: New seat seat0.
+May  5 13:21:57 Cvmtestmatt sshd[1488]: Server listening on 0.0.0.0 port 22.
+May  5 13:21:57 Cvmtestmatt sshd[1488]: Server listening on :: port 22.
+May  5 13:21:57 Cvmtestmatt CRON[1531]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 13:22:00 Cvmtestmatt CRON[1531]: pam_unix(cron:session): session closed for user root
+May  5 13:22:00 Cvmtestmatt mdm[1836]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  5 13:22:00 Cvmtestmatt mdm[1836]: PAM adding faulty module: pam_kwallet.so
+May  5 13:22:50 Cvmtestmatt mdm[1836]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent"
+May  5 13:22:52 Cvmtestmatt mdm[1836]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tagent
+May  5 13:22:52 Cvmtestmatt mdm[1836]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tagent
+May  5 13:22:52 Cvmtestmatt mdm[1836]: pam_unix(mdm:session): session opened for user tagent by (uid=0)
+May  5 13:22:52 Cvmtestmatt systemd-logind[870]: New session c1 of user tagent.
+May  5 13:22:52 Cvmtestmatt systemd-logind[870]: Linked /tmp/.X11-unix/X0 to /run/user/2114/X11-display.
+May  5 13:22:52 Cvmtestmatt mdm[1836]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  5 13:22:56 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  5 13:43:13 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  5 13:43:13 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tagent]
+May  5 13:43:13 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+May  5 13:43:13 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tagent: 7 (Authentication failure)
+May  5 13:51:41 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  5 13:51:41 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tagent]
+May  5 13:51:41 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+May  5 13:51:41 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tagent: 7 (Authentication failure)
+May  5 13:52:57 Cvmtestmatt sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  5 13:52:57 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  5 13:53:17 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 13:58:00 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  5 13:58:00 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tagent]
+May  5 13:58:00 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+May  5 13:58:00 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tagent: 7 (Authentication failure)
+May  5 14:02:45 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  5 14:02:45 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tagent]
+May  5 14:02:45 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+May  5 14:02:45 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tagent: 7 (Authentication failure)
+May  5 14:06:50 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  5 14:06:50 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tagent]
+May  5 14:06:50 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+May  5 14:06:50 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tagent: 7 (Authentication failure)
+May  5 14:11:25 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  5 14:11:25 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tagent]
+May  5 14:11:25 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+May  5 14:11:25 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tagent: 7 (Authentication failure)
+May  5 14:15:51 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost=  user=tagent
+May  5 14:15:52 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+May  5 14:15:52 Cvmtestmatt xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May  5 14:17:01 Cvmtestmatt CRON[3628]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 14:17:01 Cvmtestmatt CRON[3628]: pam_unix(cron:session): session closed for user root
+May  5 14:18:07 Cvmtestmatt su[3678]: Successful su for root by tagent
+May  5 14:18:07 Cvmtestmatt su[3678]: + /dev/pts/0 tagent:root
+May  5 14:18:07 Cvmtestmatt su[3678]: pam_unix(su:session): session opened for user root by tagent(uid=2114)
+May  5 14:22:57 Cvmtestmatt sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  5 14:22:57 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  5 14:23:14 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 14:40:58 Cvmtestmatt sudo:     root : TTY=pts/0 ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/bin/add-apt-repository ppa:maarten-baert/simplescreenrecorder
+May  5 14:40:58 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tagent(uid=0)
+May  5 14:41:02 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 14:41:08 Cvmtestmatt sudo:     root : TTY=pts/0 ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/bin/apt-get update
+May  5 14:41:08 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tagent(uid=0)
+May  5 14:41:25 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 14:41:25 Cvmtestmatt sudo:     root : TTY=pts/0 ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/bin/apt-get install simplescreenrecorder
+May  5 14:41:25 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tagent(uid=0)
+May  5 14:41:46 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 14:42:07 Cvmtestmatt su[3678]: pam_unix(su:session): session closed for user root
+May  5 14:51:50 Cvmtestmatt su[4702]: Successful su for root by tagent
+May  5 14:51:50 Cvmtestmatt su[4702]: + /dev/pts/0 tagent:root
+May  5 14:51:50 Cvmtestmatt su[4702]: pam_unix(su:session): session opened for user root by tagent(uid=2114)
+May  5 14:52:57 Cvmtestmatt sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  5 14:52:57 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  5 14:53:18 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 15:17:01 Cvmtestmatt CRON[5243]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 15:17:01 Cvmtestmatt CRON[5243]: pam_unix(cron:session): session closed for user root
+May  5 15:22:57 Cvmtestmatt sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  5 15:22:57 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  5 15:23:11 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 15:50:42 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  5 15:50:42 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tagent]
+May  5 15:50:42 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+May  5 15:50:42 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tagent: 7 (Authentication failure)
+May  5 15:52:57 Cvmtestmatt sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  5 15:52:57 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  5 15:53:11 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 16:17:01 Cvmtestmatt CRON[5499]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 16:17:01 Cvmtestmatt CRON[5499]: pam_unix(cron:session): session closed for user root
+May  5 16:22:57 Cvmtestmatt sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  5 16:22:57 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  5 16:23:14 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 16:52:57 Cvmtestmatt sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  5 16:52:57 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  5 16:53:14 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 17:10:21 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost=  user=tagent
+May  5 17:10:21 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+May  5 17:10:21 Cvmtestmatt xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May  5 17:17:02 Cvmtestmatt CRON[5820]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 17:17:02 Cvmtestmatt CRON[5820]: pam_unix(cron:session): session closed for user root
+May  5 17:22:57 Cvmtestmatt sudo:   tagent : TTY=unknown ; PWD=/home/tagent ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  5 17:22:57 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  5 17:23:11 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  5 17:23:26 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost=  user=tagent
+May  5 17:23:26 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=2114 euid=2114 tty=:0.0 ruser= rhost= user=tagent
+May  5 17:23:26 Cvmtestmatt xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May  5 17:24:02 Cvmtestmatt su[4702]: pam_unix(su:session): session closed for user root
+May  5 17:24:02 Cvmtestmatt systemd-logind[870]: System is powering down.
+May  5 17:24:03 Cvmtestmatt systemd-logind[870]: Operation finished.
+May  6 14:22:52 Cvmtestmatt systemd-logind[858]: New seat seat0.
+May  6 14:22:55 Cvmtestmatt sshd[1488]: Server listening on 0.0.0.0 port 22.
+May  6 14:22:55 Cvmtestmatt sshd[1488]: Server listening on :: port 22.
+May  6 14:22:56 Cvmtestmatt CRON[1564]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 14:22:58 Cvmtestmatt CRON[1564]: pam_unix(cron:session): session closed for user root
+May  6 14:23:05 Cvmtestmatt mdm[1832]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  6 14:23:05 Cvmtestmatt mdm[1832]: PAM adding faulty module: pam_kwallet.so
+May  6 14:23:19 Cvmtestmatt mdm[1832]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May  6 14:23:20 Cvmtestmatt mdm[1832]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May  6 14:23:20 Cvmtestmatt systemd-logind[858]: New session c1 of user tech.
+May  6 14:23:20 Cvmtestmatt systemd-logind[858]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+May  6 14:23:20 Cvmtestmatt mdm[1832]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  6 14:23:24 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  6 14:28:00 Cvmtestmatt su[3120]: Successful su for nobody by root
+May  6 14:28:00 Cvmtestmatt su[3120]: + ??? root:nobody
+May  6 14:28:00 Cvmtestmatt su[3120]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May  6 14:28:00 Cvmtestmatt systemd-logind[858]: New session c2 of user nobody.
+May  6 14:28:00 Cvmtestmatt su[3120]: pam_unix(su:session): session closed for user nobody
+May  6 14:28:00 Cvmtestmatt su[3154]: Successful su for nobody by root
+May  6 14:28:00 Cvmtestmatt su[3154]: + ??? root:nobody
+May  6 14:28:00 Cvmtestmatt su[3154]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May  6 14:28:00 Cvmtestmatt systemd-logind[858]: Removed session c2.
+May  6 14:28:00 Cvmtestmatt systemd-logind[858]: New session c3 of user nobody.
+May  6 14:28:00 Cvmtestmatt su[3154]: pam_unix(su:session): session closed for user nobody
+May  6 14:28:00 Cvmtestmatt su[3162]: Successful su for nobody by root
+May  6 14:28:00 Cvmtestmatt su[3162]: + ??? root:nobody
+May  6 14:28:00 Cvmtestmatt su[3162]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May  6 14:28:00 Cvmtestmatt systemd-logind[858]: Removed session c3.
+May  6 14:28:00 Cvmtestmatt systemd-logind[858]: New session c4 of user nobody.
+May  6 14:28:51 Cvmtestmatt su[3162]: pam_unix(su:session): session closed for user nobody
+May  6 14:34:25 Cvmtestmatt su[3249]: Successful su for root by tech
+May  6 14:34:25 Cvmtestmatt su[3249]: + /dev/pts/0 tech:root
+May  6 14:34:25 Cvmtestmatt su[3249]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May  6 14:34:25 Cvmtestmatt systemd-logind[858]: Removed session c4.
+May  6 14:42:03 Cvmtestmatt mdm[3742]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  6 14:42:03 Cvmtestmatt mdm[3742]: PAM adding faulty module: pam_kwallet.so
+May  6 14:42:04 Cvmtestmatt mdm[3742]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+May  6 14:42:06 Cvmtestmatt mdm[3742]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost=  user=mgonzales
+May  6 14:42:07 Cvmtestmatt mdm[3742]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=mgonzales
+May  6 14:42:07 Cvmtestmatt mdm[3742]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+May  6 14:42:07 Cvmtestmatt systemd-logind[858]: New session c5 of user mgonzales.
+May  6 14:42:07 Cvmtestmatt systemd-logind[858]: Linked /tmp/.X11-unix/X20 to /run/user/2009/X11-display.
+May  6 14:42:07 Cvmtestmatt mdm[3742]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :20
+May  6 14:42:11 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c5 (system bus name :1.49 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  6 14:53:24 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  6 14:53:24 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  6 14:53:38 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  6 15:12:19 Cvmtestmatt sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  6 15:12:19 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  6 15:12:29 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  6 15:16:04 Cvmtestmatt su[5092]: Successful su for root by mgonzales
+May  6 15:16:04 Cvmtestmatt su[5092]: + /dev/pts/2 mgonzales:root
+May  6 15:16:04 Cvmtestmatt su[5092]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+May  6 15:17:01 Cvmtestmatt CRON[5193]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 15:17:01 Cvmtestmatt CRON[5193]: pam_unix(cron:session): session closed for user root
+May  6 15:18:46 Cvmtestmatt sudo: pam_unix(sudo:auth): authentication failure; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/3 ruser=mgonzales rhost=  user=mgonzales
+May  6 15:18:46 Cvmtestmatt sudo: pam_sss(sudo:auth): authentication failure; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/3 ruser=mgonzales rhost= user=mgonzales
+May  6 15:18:46 Cvmtestmatt sudo: pam_sss(sudo:auth): received for user mgonzales: 4 (System error)
+May  6 15:18:53 Cvmtestmatt su[5387]: Successful su for root by mgonzales
+May  6 15:18:53 Cvmtestmatt su[5387]: + /dev/pts/7 mgonzales:root
+May  6 15:18:53 Cvmtestmatt su[5387]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+May  6 15:19:25 Cvmtestmatt sudo: pam_sss(sudo:auth): authentication failure; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/3 ruser=mgonzales rhost= user=mgonzales
+May  6 15:19:25 Cvmtestmatt sudo: pam_sss(sudo:auth): received for user mgonzales: 4 (System error)
+May  6 15:19:32 Cvmtestmatt sudo: pam_sss(sudo:auth): authentication success; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/3 ruser=mgonzales rhost= user=mgonzales
+May  6 15:19:32 Cvmtestmatt sudo: mgonzales : command not allowed ; TTY=pts/3 ; PWD=/home/mgonzales/.config/xfce4/panel ; USER=root ; COMMAND=/bin/cp -r launcher-2 /usr/src/IT_Files/Linux/xfce-uni/preferences/
+May  6 15:19:39 Cvmtestmatt sudo: pam_unix(sudo:auth): authentication failure; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/3 ruser=mgonzales rhost=  user=mgonzales
+May  6 15:19:39 Cvmtestmatt sudo: pam_sss(sudo:auth): authentication success; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/3 ruser=mgonzales rhost= user=mgonzales
+May  6 15:19:39 Cvmtestmatt sudo: mgonzales : TTY=pts/3 ; PWD=/home/mgonzales/.config/xfce4/panel ; USER=root ; COMMAND=/bin/cp -r launcher-2 /usr/src/IT_Files/Linux/xfce-uni/preferences/
+May  6 15:19:39 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+May  6 15:19:39 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  6 15:20:36 Cvmtestmatt su[5387]: pam_unix(su:session): session closed for user root
+May  6 15:20:37 Cvmtestmatt su[5092]: pam_unix(su:session): session closed for user root
+May  6 15:20:42 Cvmtestmatt su[5523]: Successful su for root by mgonzales
+May  6 15:20:42 Cvmtestmatt su[5523]: + /dev/pts/2 mgonzales:root
+May  6 15:20:42 Cvmtestmatt su[5523]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+May  6 15:21:16 Cvmtestmatt su[5523]: pam_unix(su:session): session closed for user root
+May  6 15:21:16 Cvmtestmatt mdm[3742]: pam_unix(mdm:session): session closed for user mgonzales
+May  6 15:21:17 Cvmtestmatt polkitd(authority=local): Unregistered Authentication Agent for unix-session:c5 (system bus name :1.49, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  6 15:21:21 Cvmtestmatt xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May  6 15:21:28 Cvmtestmatt su[3249]: pam_unix(su:session): session closed for user root
+May  6 15:21:28 Cvmtestmatt mdm[1832]: pam_unix(mdm:session): session closed for user tech
+May  6 15:21:28 Cvmtestmatt polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.28, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  6 15:21:31 Cvmtestmatt mdm[5691]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  6 15:21:31 Cvmtestmatt mdm[5691]: PAM adding faulty module: pam_kwallet.so
+May  6 15:21:33 Cvmtestmatt mdm[5691]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+May  6 15:21:34 Cvmtestmatt mdm[5691]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+May  6 15:21:35 Cvmtestmatt mdm[5691]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+May  6 15:21:35 Cvmtestmatt mdm[5691]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+May  6 15:21:35 Cvmtestmatt systemd-logind[858]: New session c6 of user mgonzales.
+May  6 15:21:35 Cvmtestmatt mdm[5691]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  6 15:21:39 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c6 (system bus name :1.76 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  6 15:22:45 Cvmtestmatt su[6365]: Successful su for root by mgonzales
+May  6 15:22:45 Cvmtestmatt su[6365]: + /dev/pts/0 mgonzales:root
+May  6 15:22:45 Cvmtestmatt su[6365]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+May  6 15:22:46 Cvmtestmatt systemd-logind[858]: Removed session c1.
+May  6 15:23:07 Cvmtestmatt su[6365]: pam_unix(su:session): session closed for user root
+May  6 15:23:08 Cvmtestmatt mdm[5691]: pam_unix(mdm:session): session closed for user mgonzales
+May  6 15:23:08 Cvmtestmatt polkitd(authority=local): Unregistered Authentication Agent for unix-session:c6 (system bus name :1.76, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  6 15:23:09 Cvmtestmatt mdm[6441]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  6 15:23:09 Cvmtestmatt mdm[6441]: PAM adding faulty module: pam_kwallet.so
+May  6 15:23:16 Cvmtestmatt mdm[6441]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+May  6 15:23:18 Cvmtestmatt mdm[6441]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+May  6 15:23:19 Cvmtestmatt mdm[6441]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+May  6 15:23:19 Cvmtestmatt mdm[6441]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+May  6 15:23:19 Cvmtestmatt systemd-logind[858]: Removed session c6.
+May  6 15:23:19 Cvmtestmatt systemd-logind[858]: New session c7 of user mgonzales.
+May  6 15:23:19 Cvmtestmatt mdm[6441]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  6 15:23:21 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c7 (system bus name :1.96 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  6 15:23:50 Cvmtestmatt mdm[6441]: pam_unix(mdm:session): session closed for user mgonzales
+May  6 15:23:50 Cvmtestmatt polkitd(authority=local): Unregistered Authentication Agent for unix-session:c7 (system bus name :1.96, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  6 15:23:52 Cvmtestmatt mdm[7159]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  6 15:23:52 Cvmtestmatt mdm[7159]: PAM adding faulty module: pam_kwallet.so
+May  6 15:23:53 Cvmtestmatt mdm[7159]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May  6 15:23:54 Cvmtestmatt mdm[7159]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May  6 15:23:54 Cvmtestmatt systemd-logind[858]: New session c8 of user tech.
+May  6 15:23:54 Cvmtestmatt systemd-logind[858]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+May  6 15:23:54 Cvmtestmatt mdm[7159]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  6 15:23:56 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c8 (system bus name :1.117 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  6 15:27:00 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech/.config/xfce4/panel ; USER=root ; COMMAND=/bin/cp -r launcher-2 /usr/src/IT_Files/Linux/xfce-uni/preferences/
+May  6 15:27:00 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  6 15:27:00 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  6 15:28:28 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech/.config/xfce4/xfconf/xfce-perchannel-xml ; USER=root ; COMMAND=/usr/bin/gedit xfce4-panel.xml
+May  6 15:28:28 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  6 15:29:16 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  6 15:29:41 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech/.config/xfce4/xfconf/xfce-perchannel-xml ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/preferences/panel-test.sh tech
+May  6 15:29:41 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  6 15:29:41 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  6 15:29:47 Cvmtestmatt systemd-logind[858]: Removed session c7.
+May  6 15:29:47 Cvmtestmatt systemd-logind[858]: Removed session c5.
+May  6 15:29:47 Cvmtestmatt mdm[7159]: pam_unix(mdm:session): session closed for user tech
+May  6 15:29:47 Cvmtestmatt polkitd(authority=local): Unregistered Authentication Agent for unix-session:c8 (system bus name :1.117, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  6 15:29:49 Cvmtestmatt mdm[8118]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  6 15:29:49 Cvmtestmatt mdm[8118]: PAM adding faulty module: pam_kwallet.so
+May  6 15:29:51 Cvmtestmatt mdm[8118]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May  6 15:29:53 Cvmtestmatt mdm[8118]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May  6 15:29:53 Cvmtestmatt systemd-logind[858]: New session c9 of user tech.
+May  6 15:29:53 Cvmtestmatt mdm[8118]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  6 15:29:55 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c9 (system bus name :1.133 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  6 15:30:10 Cvmtestmatt su[8765]: Successful su for root by tech
+May  6 15:30:10 Cvmtestmatt su[8765]: + /dev/pts/0 tech:root
+May  6 15:30:10 Cvmtestmatt su[8765]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May  6 15:31:03 Cvmtestmatt sshd[1500]: Server listening on 0.0.0.0 port 22.
+May  6 15:31:03 Cvmtestmatt sshd[1500]: Server listening on :: port 22.
+May  6 15:31:03 Cvmtestmatt CRON[1582]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 15:31:07 Cvmtestmatt CRON[1582]: pam_unix(cron:session): session closed for user root
+May  6 15:31:09 Cvmtestmatt mdm[1847]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  6 15:31:09 Cvmtestmatt mdm[1847]: PAM adding faulty module: pam_kwallet.so
+May  6 15:31:20 Cvmtestmatt mdm[1847]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+May  6 15:31:22 Cvmtestmatt mdm[1847]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+May  6 15:31:22 Cvmtestmatt mdm[1847]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+May  6 15:31:22 Cvmtestmatt mdm[1847]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+May  6 15:31:22 Cvmtestmatt mdm[1847]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  6 15:31:27 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  6 15:31:58 Cvmtestmatt mdm[1847]: pam_unix(mdm:session): session closed for user mgonzales
+May  6 15:31:58 Cvmtestmatt polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.28, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  6 15:32:01 Cvmtestmatt mdm[2972]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  6 15:32:01 Cvmtestmatt mdm[2972]: PAM adding faulty module: pam_kwallet.so
+May  6 15:32:04 Cvmtestmatt mdm[2972]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May  6 15:32:05 Cvmtestmatt mdm[2972]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May  6 15:32:05 Cvmtestmatt mdm[2972]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  6 15:32:07 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.42 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  6 16:02:01 Cvmtestmatt su[4108]: Successful su for root by tech
+May  6 16:02:01 Cvmtestmatt su[4108]: + /dev/pts/0 tech:root
+May  6 16:02:01 Cvmtestmatt su[4108]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May  6 16:02:09 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  6 16:02:09 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  6 16:02:21 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  6 16:06:38 Cvmtestmatt systemd-logind[730]: New seat seat0.
+May  6 16:06:41 Cvmtestmatt sshd[1491]: Server listening on 0.0.0.0 port 22.
+May  6 16:06:41 Cvmtestmatt sshd[1491]: Server listening on :: port 22.
+May  6 16:06:41 Cvmtestmatt CRON[1560]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 16:06:44 Cvmtestmatt CRON[1560]: pam_unix(cron:session): session closed for user root
+May  6 16:06:47 Cvmtestmatt mdm[1840]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  6 16:06:47 Cvmtestmatt mdm[1840]: PAM adding faulty module: pam_kwallet.so
+May  6 16:06:49 Cvmtestmatt mdm[1840]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May  6 16:06:50 Cvmtestmatt mdm[1840]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May  6 16:06:50 Cvmtestmatt systemd-logind[730]: New session c1 of user tech.
+May  6 16:06:50 Cvmtestmatt systemd-logind[730]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+May  6 16:06:50 Cvmtestmatt mdm[1840]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  6 16:06:54 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  6 16:08:34 Cvmtestmatt su[2970]: Successful su for root by tech
+May  6 16:08:34 Cvmtestmatt su[2970]: + /dev/pts/0 tech:root
+May  6 16:08:34 Cvmtestmatt su[2970]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May  6 16:17:01 Cvmtestmatt CRON[3380]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 16:17:01 Cvmtestmatt CRON[3380]: pam_unix(cron:session): session closed for user root
+May  6 16:33:06 Cvmtestmatt su[2970]: pam_unix(su:session): session closed for user root
+May  6 16:36:54 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  6 16:36:54 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  6 16:37:14 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  6 16:44:42 Cvmtestmatt su[3683]: Successful su for root by tech
+May  6 16:44:42 Cvmtestmatt su[3683]: + /dev/pts/0 tech:root
+May  6 16:44:42 Cvmtestmatt su[3683]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May  6 16:50:31 Cvmtestmatt su[3683]: pam_unix(su:session): session closed for user root
+May  6 17:03:23 Cvmtestmatt systemd-logind[730]: System is powering down.
+May  6 17:03:23 Cvmtestmatt systemd-logind[730]: Operation finished.
+May  7 08:25:11 Cvmtestmatt systemd-logind[819]: New seat seat0.
+May  7 08:25:15 Cvmtestmatt sshd[1495]: Server listening on 0.0.0.0 port 22.
+May  7 08:25:15 Cvmtestmatt sshd[1495]: Server listening on :: port 22.
+May  7 08:25:15 Cvmtestmatt CRON[1596]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 08:25:18 Cvmtestmatt CRON[1596]: pam_unix(cron:session): session closed for user root
+May  7 08:25:38 Cvmtestmatt mdm[1836]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  7 08:25:38 Cvmtestmatt mdm[1836]: PAM adding faulty module: pam_kwallet.so
+May  7 08:25:52 Cvmtestmatt mdm[1836]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May  7 08:25:54 Cvmtestmatt mdm[1836]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May  7 08:25:54 Cvmtestmatt systemd-logind[819]: New session c1 of user tech.
+May  7 08:25:54 Cvmtestmatt systemd-logind[819]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+May  7 08:25:54 Cvmtestmatt mdm[1836]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  7 08:25:57 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  7 08:30:34 Cvmtestmatt su[3140]: Successful su for nobody by root
+May  7 08:30:34 Cvmtestmatt su[3140]: + ??? root:nobody
+May  7 08:30:34 Cvmtestmatt su[3140]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May  7 08:30:34 Cvmtestmatt systemd-logind[819]: New session c2 of user nobody.
+May  7 08:30:34 Cvmtestmatt su[3140]: pam_unix(su:session): session closed for user nobody
+May  7 08:30:34 Cvmtestmatt su[3174]: Successful su for nobody by root
+May  7 08:30:34 Cvmtestmatt su[3174]: + ??? root:nobody
+May  7 08:30:34 Cvmtestmatt su[3174]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May  7 08:30:34 Cvmtestmatt systemd-logind[819]: Removed session c2.
+May  7 08:30:34 Cvmtestmatt systemd-logind[819]: New session c3 of user nobody.
+May  7 08:30:34 Cvmtestmatt su[3174]: pam_unix(su:session): session closed for user nobody
+May  7 08:30:34 Cvmtestmatt su[3182]: Successful su for nobody by root
+May  7 08:30:34 Cvmtestmatt su[3182]: + ??? root:nobody
+May  7 08:30:34 Cvmtestmatt su[3182]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May  7 08:30:34 Cvmtestmatt systemd-logind[819]: Removed session c3.
+May  7 08:30:34 Cvmtestmatt systemd-logind[819]: New session c4 of user nobody.
+May  7 08:31:22 Cvmtestmatt su[3182]: pam_unix(su:session): session closed for user nobody
+May  7 08:39:56 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/satdns.sh
+May  7 08:39:56 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  7 08:39:56 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 08:44:26 Cvmtestmatt su[3373]: Successful su for root by tech
+May  7 08:44:26 Cvmtestmatt su[3373]: + /dev/pts/0 tech:root
+May  7 08:44:27 Cvmtestmatt su[3373]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May  7 08:44:27 Cvmtestmatt systemd-logind[819]: Removed session c4.
+May  7 08:44:32 Cvmtestmatt sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/satdns.sh
+May  7 08:44:32 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  7 08:44:32 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 08:45:11 Cvmtestmatt sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/satdns.sh
+May  7 08:45:11 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  7 08:45:11 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 08:45:37 Cvmtestmatt sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/satdns.sh
+May  7 08:45:37 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  7 08:45:37 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 08:45:46 Cvmtestmatt sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/satdns.sh
+May  7 08:45:46 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  7 08:45:46 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 08:45:56 Cvmtestmatt sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/satdns.sh
+May  7 08:45:56 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  7 08:45:56 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 08:55:57 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  7 08:55:57 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  7 08:56:14 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 09:17:02 Cvmtestmatt CRON[3742]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 09:17:02 Cvmtestmatt CRON[3742]: pam_unix(cron:session): session closed for user root
+May  7 09:25:58 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  7 09:25:58 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  7 09:26:18 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 11:46:38 Cvmtestmatt systemd-logind[1142]: New seat seat0.
+May  7 11:46:40 Cvmtestmatt sshd[1448]: Server listening on 0.0.0.0 port 22.
+May  7 11:46:40 Cvmtestmatt sshd[1448]: Server listening on :: port 22.
+May  7 11:46:40 Cvmtestmatt CRON[1514]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 11:46:45 Cvmtestmatt CRON[1514]: pam_unix(cron:session): session closed for user root
+May  7 11:46:46 Cvmtestmatt mdm[1681]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  7 11:46:46 Cvmtestmatt mdm[1681]: PAM adding faulty module: pam_kwallet.so
+May  7 11:47:02 Cvmtestmatt mdm[1681]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May  7 11:47:04 Cvmtestmatt mdm[1681]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May  7 11:47:04 Cvmtestmatt systemd-logind[1142]: New session c1 of user tech.
+May  7 11:47:04 Cvmtestmatt systemd-logind[1142]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+May  7 11:47:04 Cvmtestmatt mdm[1681]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May  7 11:47:12 Cvmtestmatt polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  7 12:17:02 Cvmtestmatt CRON[3102]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 12:17:02 Cvmtestmatt CRON[3102]: pam_unix(cron:session): session closed for user root
+May  7 12:17:14 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  7 12:17:14 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  7 12:17:33 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 12:46:37 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 12:46:37 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 12:46:37 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 12:46:37 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 12:47:14 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  7 12:47:14 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  7 12:47:30 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 12:48:02 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 12:48:02 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 12:48:02 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 12:48:02 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 12:51:39 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 12:51:39 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 12:51:39 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 12:51:39 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 12:52:49 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 12:52:49 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 12:52:49 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 12:52:49 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 12:55:17 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 12:55:17 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 12:55:17 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 12:55:17 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 13:01:27 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 13:01:27 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 13:01:27 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 13:01:27 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 13:06:52 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 13:06:52 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 13:06:52 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 13:06:52 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 13:07:28 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 13:07:28 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 13:07:28 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 13:07:28 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 13:09:21 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 13:09:21 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 13:09:21 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 13:09:21 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 13:11:04 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 13:11:04 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 13:11:04 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 13:11:04 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 13:12:59 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 13:12:59 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 13:12:59 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 13:12:59 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 13:15:07 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 13:15:07 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 13:15:07 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 13:15:07 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 13:17:01 Cvmtestmatt CRON[3271]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 13:17:01 Cvmtestmatt CRON[3271]: pam_unix(cron:session): session closed for user root
+May  7 13:17:14 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  7 13:17:14 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  7 13:17:31 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 13:19:05 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 13:19:05 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 13:19:05 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 13:19:05 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 13:19:59 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 13:19:59 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 13:19:59 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 13:19:59 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 13:21:49 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 13:21:49 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 13:21:49 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 13:21:49 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 13:25:59 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 13:25:59 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 13:25:59 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 13:25:59 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 13:47:14 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  7 13:47:14 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  7 13:47:28 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 13:50:16 Cvmtestmatt xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May  7 14:11:35 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 14:11:35 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 14:11:35 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 14:11:35 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 14:17:01 Cvmtestmatt CRON[3501]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 14:17:01 Cvmtestmatt CRON[3501]: pam_unix(cron:session): session closed for user root
+May  7 14:17:14 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  7 14:17:14 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  7 14:17:33 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 14:29:21 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 14:29:21 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 14:29:21 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 14:29:21 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 14:47:14 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  7 14:47:14 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  7 14:47:32 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 15:17:02 Cvmtestmatt CRON[3680]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 15:17:02 Cvmtestmatt CRON[3680]: pam_unix(cron:session): session closed for user root
+May  7 15:17:15 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  7 15:17:15 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  7 15:17:32 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 15:35:47 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May  7 15:35:47 Cvmtestmatt xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May  7 15:35:47 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May  7 15:35:47 Cvmtestmatt xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May  7 15:39:31 Cvmtestmatt xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May  7 15:47:15 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  7 15:47:15 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  7 15:47:27 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 16:17:02 Cvmtestmatt CRON[3864]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 16:17:02 Cvmtestmatt CRON[3864]: pam_unix(cron:session): session closed for user root
+May  7 16:17:15 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  7 16:17:15 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  7 16:17:34 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 16:44:17 Cvmtestmatt xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May  7 16:47:15 Cvmtestmatt sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May  7 16:47:15 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May  7 16:47:29 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 16:48:13 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_on.sh - Linux Config Menu
+May  7 16:48:13 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May  7 16:48:14 Cvmtestmatt sudo: pam_unix(sudo:session): session closed for user root
+May  7 16:48:18 Cvmtestmatt sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_off.sh - Linux Config Menu
+May  7 16:48:18 Cvmtestmatt sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)

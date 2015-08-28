@@ -1,0 +1,168 @@
+Jul 22 10:31:51 tech systemd-logind[729]: New seat seat0.
+Jul 22 10:32:14 tech dbus[636]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=1442 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=745 comm="NetworkManager ")
+Jul 22 10:32:16 tech mdm[1316]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 22 10:32:16 tech mdm[1316]: PAM adding faulty module: pam_kwallet.so
+Jul 22 10:32:40 tech mdm[1316]: pam_unix(mdm:auth): conversation failed
+Jul 22 10:32:40 tech mdm[1316]: pam_unix(mdm:auth): auth could not identify password for [!@12QWqw]
+Jul 22 10:32:40 tech mdm[1316]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 22 10:32:40 tech mdm[1316]: PAM adding faulty module: pam_kwallet.so
+Jul 22 10:32:40 tech mdm[1316]: pam_nologin(mdm:auth): cannot determine username
+Jul 22 10:32:40 tech mdm[1316]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 22 10:32:40 tech mdm[1316]: PAM adding faulty module: pam_kwallet.so
+Jul 22 10:32:40 tech mdm[1316]: pam_nologin(mdm:auth): cannot determine username
+Jul 22 10:32:40 tech mdm[1316]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 22 10:32:40 tech mdm[1316]: PAM adding faulty module: pam_kwallet.so
+Jul 22 10:32:42 tech mdm[1316]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jul 22 10:32:44 tech mdm[1316]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jul 22 10:32:44 tech systemd-logind[729]: New session c1 of user tech.
+Jul 22 10:32:44 tech systemd-logind[729]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jul 22 10:32:44 tech mdm[1316]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 22 10:32:50 tech polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 22 10:34:27 tech su[2681]: Successful su for root by tech
+Jul 22 10:34:27 tech su[2681]: + /dev/pts/2 tech:root
+Jul 22 10:34:27 tech su[2681]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jul 22 10:34:31 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /usr/src/IT_Files
+Jul 22 10:34:31 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 22 10:34:31 tech sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 10:34:31 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/sed -i /IT_Files/d /etc/fstab
+Jul 22 10:34:31 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 22 10:34:31 tech sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 10:34:31 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo //hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8,nobootwait  0  0
+Jul 22 10:34:31 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 22 10:34:31 tech sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 10:34:31 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mount -a
+Jul 22 10:34:31 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 22 10:34:32 tech sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 10:37:00 tech su[2895]: Successful su for nobody by root
+Jul 22 10:37:00 tech su[2895]: + ??? root:nobody
+Jul 22 10:37:00 tech su[2895]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 22 10:37:00 tech systemd-logind[729]: New session c2 of user nobody.
+Jul 22 10:37:00 tech su[2895]: pam_unix(su:session): session closed for user nobody
+Jul 22 10:37:00 tech su[2908]: Successful su for nobody by root
+Jul 22 10:37:00 tech su[2908]: + ??? root:nobody
+Jul 22 10:37:00 tech su[2908]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 22 10:37:00 tech systemd-logind[729]: Removed session c2.
+Jul 22 10:37:00 tech systemd-logind[729]: New session c3 of user nobody.
+Jul 22 10:37:00 tech su[2908]: pam_unix(su:session): session closed for user nobody
+Jul 22 10:37:00 tech su[2935]: Successful su for nobody by root
+Jul 22 10:37:00 tech su[2935]: + ??? root:nobody
+Jul 22 10:37:00 tech su[2935]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 22 10:37:00 tech systemd-logind[729]: Removed session c3.
+Jul 22 10:37:00 tech systemd-logind[729]: New session c4 of user nobody.
+Jul 22 10:37:14 tech su[2935]: pam_unix(su:session): session closed for user nobody
+Jul 22 10:59:48 tech smbd[6894]: pam_unix(samba:session): session closed for user nobody
+Jul 22 10:59:48 tech smbd[6915]: pam_unix(samba:session): session closed for user nobody
+Jul 22 11:07:22 tech systemd-logind[21341]: New seat seat0.
+Jul 22 11:07:22 tech systemd-logind[21341]: New session c1 of user tech.
+Jul 22 11:07:22 tech systemd-logind[21341]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jul 22 11:10:39 tech groupadd[3557]: group added to /etc/group: name=clamav, GID=125
+Jul 22 11:10:39 tech groupadd[3557]: group added to /etc/gshadow: name=clamav
+Jul 22 11:10:39 tech groupadd[3557]: new group: name=clamav, GID=125
+Jul 22 11:10:39 tech useradd[3561]: new user: name=clamav, UID=115, GID=125, home=/var/lib/clamav, shell=/bin/false
+Jul 22 11:10:40 tech chage[3566]: changed password expiry for clamav
+Jul 22 11:10:43 tech useradd[3797]: new user: name=sshd, UID=116, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Jul 22 11:10:43 tech usermod[3802]: change user 'sshd' password
+Jul 22 11:10:43 tech chage[3807]: changed password expiry for sshd
+Jul 22 11:10:44 tech sshd[3862]: Server listening on 0.0.0.0 port 22.
+Jul 22 11:10:44 tech sshd[3862]: Server listening on :: port 22.
+Jul 22 11:13:10 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jul 22 11:13:10 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 22 11:13:10 tech sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 11:13:10 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.9-x86.msi /usr/share/wine/gecko/
+Jul 22 11:13:10 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 22 11:13:10 tech sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 11:13:56 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jul 22 11:13:56 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 22 11:13:56 tech sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 11:13:56 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86.msi /usr/share/wine/gecko/
+Jul 22 11:13:56 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 22 11:13:56 tech sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 11:14:05 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jul 22 11:14:05 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 22 11:14:05 tech sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 11:14:57 tech systemd-logind[752]: New seat seat0.
+Jul 22 11:15:04 tech sshd[1170]: Server listening on 0.0.0.0 port 22.
+Jul 22 11:15:04 tech sshd[1170]: Server listening on :: port 22.
+Jul 22 11:15:08 tech mdm[1381]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 22 11:15:08 tech mdm[1381]: PAM adding faulty module: pam_kwallet.so
+Jul 22 11:15:15 tech dbus[710]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=1531 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=804 comm="NetworkManager ")
+Jul 22 11:15:22 tech mdm[1381]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jul 22 11:15:25 tech mdm[1381]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jul 22 11:15:25 tech systemd-logind[752]: New session c1 of user tech.
+Jul 22 11:15:25 tech systemd-logind[752]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jul 22 11:15:25 tech mdm[1381]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 22 11:15:32 tech polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.24 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 22 11:17:01 tech CRON[2537]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 11:17:01 tech CRON[2537]: pam_unix(cron:session): session closed for user root
+Jul 22 11:19:26 tech su[3428]: Successful su for root by tech
+Jul 22 11:19:26 tech su[3428]: + /dev/pts/2 tech:root
+Jul 22 11:19:26 tech su[3428]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jul 22 11:19:49 tech su[3428]: pam_unix(su:session): session closed for user root
+Jul 22 11:20:02 tech sudo:     tech : unable to resolve host Cbwesemann
+Jul 22 11:20:06 tech sudo: pam_ecryptfs: pam_sm_authenticate: /home/tech is already mounted
+Jul 22 11:20:06 tech sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/apt-get install skype
+Jul 22 11:20:06 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 22 11:20:37 tech dbus[710]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=1531 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=804 comm="NetworkManager ")
+Jul 22 11:20:38 tech dbus[710]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=1531 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=804 comm="NetworkManager ")
+Jul 22 11:21:36 tech sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 11:21:44 tech sudo:     tech : unable to resolve host Cbwesemann
+Jul 22 11:21:44 tech sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/apt-get install skype
+Jul 22 11:21:44 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 22 11:22:07 tech sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 11:27:45 tech sudo:     tech : unable to resolve host Cbwesemann
+Jul 22 11:27:54 tech sudo: pam_ecryptfs: pam_sm_authenticate: /home/tech is already mounted
+Jul 22 11:27:54 tech sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/apt-get install exfat
+Jul 22 11:27:54 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 22 11:27:55 tech sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 11:28:05 tech sudo:     tech : unable to resolve host Cbwesemann
+Jul 22 11:28:05 tech sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/bash
+Jul 22 11:28:05 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 22 11:34:36 Cbwesemann systemd-logind[651]: New seat seat0.
+Jul 22 11:34:40 Cbwesemann sshd[1133]: Server listening on 0.0.0.0 port 22.
+Jul 22 11:34:40 Cbwesemann sshd[1133]: Server listening on :: port 22.
+Jul 22 11:34:41 Cbwesemann dbus[556]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=1403 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=761 comm="NetworkManager ")
+Jul 22 11:34:42 Cbwesemann mdm[1372]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 22 11:34:42 Cbwesemann mdm[1372]: PAM adding faulty module: pam_kwallet.so
+Jul 22 11:35:04 Cbwesemann mdm[1372]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jul 22 11:35:06 Cbwesemann mdm[1372]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jul 22 11:35:06 Cbwesemann systemd-logind[651]: New session c1 of user tech.
+Jul 22 11:35:06 Cbwesemann systemd-logind[651]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jul 22 11:35:06 Cbwesemann mdm[1372]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 22 11:35:09 Cbwesemann polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 22 11:37:24 Cbwesemann su[2775]: Successful su for root by tech
+Jul 22 11:37:24 Cbwesemann su[2775]: + /dev/pts/2 tech:root
+Jul 22 11:37:24 Cbwesemann su[2775]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jul 22 11:40:56 Cbwesemann systemd-logind[610]: New seat seat0.
+Jul 22 11:40:59 Cbwesemann sshd[1130]: Server listening on 0.0.0.0 port 22.
+Jul 22 11:40:59 Cbwesemann sshd[1130]: Server listening on :: port 22.
+Jul 22 11:41:01 Cbwesemann dbus[544]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1454 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=773 comm="NetworkManager ")
+Jul 22 11:41:02 Cbwesemann mdm[1372]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 22 11:41:02 Cbwesemann mdm[1372]: PAM adding faulty module: pam_kwallet.so
+Jul 22 11:41:52 Cbwesemann mdm[1372]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jul 22 11:41:55 Cbwesemann mdm[1372]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jul 22 11:41:55 Cbwesemann systemd-logind[610]: New session c1 of user tech.
+Jul 22 11:41:55 Cbwesemann systemd-logind[610]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jul 22 11:41:55 Cbwesemann mdm[1372]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 22 11:41:59 Cbwesemann polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 22 11:45:16 Cbwesemann systemd-logind[610]: System is rebooting.
+Jul 22 11:45:16 Cbwesemann systemd-logind[610]: Operation finished.
+Jul 22 11:54:07 Cbwesemann systemd-logind[753]: New seat seat0.
+Jul 22 11:54:10 Cbwesemann sshd[1129]: Server listening on 0.0.0.0 port 22.
+Jul 22 11:54:10 Cbwesemann sshd[1129]: Server listening on :: port 22.
+Jul 22 11:54:12 Cbwesemann dbus[673]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1469 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=768 comm="NetworkManager ")
+Jul 22 11:54:13 Cbwesemann mdm[1375]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 22 11:54:13 Cbwesemann mdm[1375]: PAM adding faulty module: pam_kwallet.so
+Jul 22 11:54:18 Cbwesemann mdm[1375]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jul 22 11:54:21 Cbwesemann mdm[1375]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jul 22 11:54:21 Cbwesemann systemd-logind[753]: New session c1 of user tech.
+Jul 22 11:54:21 Cbwesemann systemd-logind[753]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jul 22 11:54:21 Cbwesemann mdm[1375]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 22 11:54:24 Cbwesemann polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 22 11:56:41 Cbwesemann sudo:     tech : unable to resolve host Cbwesemann
+Jul 22 11:56:44 Cbwesemann sudo: pam_ecryptfs: pam_sm_authenticate: /home/tech is already mounted
+Jul 22 11:56:44 Cbwesemann sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/bash
+Jul 22 11:56:44 Cbwesemann sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 22 12:03:24 Cbwesemann sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 12:03:53 Cbwesemann su[2932]: Successful su for root by tech
+Jul 22 12:03:53 Cbwesemann su[2932]: + /dev/pts/2 tech:root
+Jul 22 12:03:53 Cbwesemann su[2932]: pam_unix(su:session): session opened for user root by tech(uid=1000)

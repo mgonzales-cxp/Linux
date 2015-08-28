@@ -1,0 +1,422 @@
+Jul  6 14:17:01 C8001 CRON[4662]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 14:17:01 C8001 CRON[4662]: pam_unix(cron:session): session closed for user root
+Jul  6 14:23:40 C8001 systemd-logind[14304]: New seat seat0.
+Jul  6 14:23:40 C8001 systemd-logind[14304]: New session c1 of user tech.
+Jul  6 14:23:40 C8001 systemd-logind[14304]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jul  6 14:26:28 C8001 groupadd[27237]: group added to /etc/group: name=clamav, GID=125
+Jul  6 14:26:28 C8001 groupadd[27237]: group added to /etc/gshadow: name=clamav
+Jul  6 14:26:28 C8001 groupadd[27237]: new group: name=clamav, GID=125
+Jul  6 14:26:28 C8001 useradd[27241]: new user: name=clamav, UID=115, GID=125, home=/var/lib/clamav, shell=/bin/false
+Jul  6 14:26:28 C8001 chage[27246]: changed password expiry for clamav
+Jul  6 14:26:32 C8001 useradd[27478]: new user: name=sshd, UID=116, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Jul  6 14:26:33 C8001 usermod[27483]: change user 'sshd' password
+Jul  6 14:26:33 C8001 chage[27488]: changed password expiry for sshd
+Jul  6 14:26:33 C8001 sshd[27543]: Server listening on 0.0.0.0 port 22.
+Jul  6 14:26:33 C8001 sshd[27543]: Server listening on :: port 22.
+Jul  6 14:30:02 C8001 CRON[29071]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 14:30:10 C8001 CRON[29071]: pam_unix(cron:session): session closed for user root
+Jul  6 14:30:26 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get remove network-manager -y
+Jul  6 14:30:26 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul  6 14:30:29 C8001 dbus[776]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.9" (uid=0 pid=932 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=814 comm="NetworkManager ")
+Jul  6 14:30:40 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jul  6 14:30:40 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012auto lo#012auto eth0#012#012iface lo inet loopback#012iface eth0 inet dhcp
+Jul  6 14:30:40 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul  6 14:30:40 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jul  6 14:30:45 C8001 sshd[27543]: Received signal 15; terminating.
+Jul  6 14:30:45 C8001 sshd[30215]: Server listening on 0.0.0.0 port 22.
+Jul  6 14:30:45 C8001 sshd[30215]: Server listening on :: port 22.
+Jul  6 14:30:46 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jul  6 14:30:46 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul  6 14:30:46 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jul  6 14:31:03 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jul  6 14:31:31 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/missing.sh
+Jul  6 14:31:31 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul  6 14:31:31 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jul  6 14:31:31 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul  6 14:33:37 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jul  6 14:34:01 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/preferences/bash.bashrc /etc/
+Jul  6 14:34:01 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul  6 14:34:01 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jul  6 14:34:10 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/satdns.sh
+Jul  6 14:34:10 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul  6 14:34:10 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jul  6 14:34:21 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jul  6 14:35:01 C8001 CRON[31155]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 14:35:06 C8001 CRON[31155]: pam_unix(cron:session): session closed for user root
+Jul  6 14:35:17 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/preferences/bash.bashrc /etc/
+Jul  6 14:35:17 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul  6 14:35:17 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jul  6 14:35:25 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/ln -s /usr/share/ca-certificates/mozilla/ACCVRAIZ1.crt /usr/share/ca-certificates/mozilla/ACEDICOM_Root.crt /usr/share/ca-certificates/mozilla/AC_Raíz_Certicámara_S.A..crt /usr/share/ca-certificates/mozilla/Actalis_Authentication_Root_CA.crt /usr/share/ca-certificates/mozilla/AddTrust_External_Root.crt /usr/share/ca-certificates/mozilla/AddTrust_Low-Value_Services_Root.crt /usr/share/ca-certificates/mozilla/AddTrust_Public_Services_Root.crt /usr/share/ca-certificates/mozilla/AddTrust_Qualified_Certificates_Root.crt /usr/share/ca-certificates/mozilla/AffirmTrust_Commercial.crt /usr/share/ca-certificates/mozilla/AffirmTrust_Networking.crt /usr/share/ca-certificates/mozilla/AffirmTrust_Premium.crt /usr/share/ca-certificates/mozilla/AffirmTrust_Premium_ECC.crt /usr/share/ca-certificates/mozilla/America_Online_Root_Certification_Authority_1.crt
+Jul  6 14:35:25 C8001 sudo:     root : (command continued) /usr/share/ca-certificates/mozilla/America_Online_Root_Certification_Authority_2.crt /usr/share/ca-certificates/mozilla/ApplicationCA_-_Japanese_Government.crt /usr/share/ca-certificates/mozilla/Atos_TrustedRoot_2011.crt /usr/share/ca-certificates/mozilla/A-Trust-nQual-03.crt /usr/share/ca-certificates/mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt /usr/share/ca-certificates/mozilla/Baltimore_CyberTrust_Root.crt /usr/share/ca-certificates/mozilla/Buypass_Class_2_CA_1.crt /usr/share/ca-certificates/mozilla/Buypass_Class_2_Root_CA.crt /usr/share/ca-certificates/mozilla/Buypass_Class_3_CA_1.crt /usr/share/ca-certificates/mozilla/Buypass_Class_3_Root_CA.crt /usr/share/ca-certificates/mozilla/CA_Disig.crt /usr/share/ca-certificates/mozilla/CA_Disig_Root_R1.crt /usr/share/ca-certificates/mozilla/CA_Disig_Root_R2.crt /usr/share/ca-certificates/mozilla/Camerfirma_Chambers_of_Commerce_Root.crt
+Jul  6 14:35:25 C8001 sudo:     root : (command continued) /usr/share/ca-certificates/mozilla/Camerfirma_Global_Chambersign_Root.crt /usr/share/ca-certificates/mozilla/Certigna.crt /usr/share/ca-certificates/mozilla/Certinomis_-_Autorité_Racine.crt /usr/share/ca-certificates/mozilla/Certplus_Class_2_Primary_CA.crt /usr/share/ca-certificates/mozilla/certSIGN_ROOT_CA.crt /usr/share/ca-certificates/mozilla/Certum_Root_CA.crt /usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA.crt /usr/share/ca-certificates/mozilla/Chambers_of_Commerce_Root_-_2008.crt /usr/share/ca-certificates/mozilla/China_Internet_Network_Information_Center_EV_Certificates_Root.crt /usr/share/ca-certificates/mozilla/CNNIC_ROOT.crt /usr/share/ca-certificates/mozilla/Comodo_AAA_Services_root.crt /usr/share/ca-certificates/mozilla/COMODO_Certification_Authority.crt /usr/share/ca-certificates/mozilla/COMODO_ECC_Certification_Authority.crt /usr/share/ca-certificates/mozilla/Comodo_Secure_Services_root.c
+Jul  6 14:35:25 C8001 sudo:     root : (command continued) /usr/share/ca-certificates/mozilla/Comodo_Trusted_Services_root.crt /usr/share/ca-certificates/mozilla/ComSign_CA.crt /usr/share/ca-certificates/mozilla/ComSign_Secured_CA.crt /usr/share/ca-certificates/mozilla/Cybertrust_Global_Root.crt /usr/share/ca-certificates/mozilla/Deutsche_Telekom_Root_CA_2.crt /usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_CA.crt /usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G2.crt /usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G3.crt /usr/share/ca-certificates/mozilla/DigiCert_Global_Root_CA.crt /usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G2.crt /usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G3.crt /usr/share/ca-certificates/mozilla/DigiCert_High_Assurance_EV_Root_CA.crt /usr/share/ca-certificates/mozilla/DigiCert_Trusted_Root_G4.crt /usr/share/ca-certificates/mozilla/Digital_Signature_Trust_Co._Global_CA_1.crt
+Jul  6 14:35:25 C8001 sudo:     root : (command continued) /usr/share/ca-certificates/mozilla/Digital_Signature_Trust_Co._Global_CA_3.crt /usr/share/ca-certificates/mozilla/DST_ACES_CA_X6.crt /usr/share/ca-certificates/mozilla/DST_Root_CA_X3.crt /usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_2009.crt /usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_EV_2009.crt /usr/share/ca-certificates/mozilla/EBG_Elektronik_Sertifika_Hizmet_Sağlayıcısı.crt /usr/share/ca-certificates/mozilla/EC-ACC.crt /usr/share/ca-certificates/mozilla/EE_Certification_Centre_Root_CA.crt /usr/share/ca-certificates/mozilla/E-Guven_Kok_Elektronik_Sertifika_Hizmet_Saglayicisi.crt /usr/share/ca-certificates/mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt /usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority.crt /usr/share/ca-certificates/mozilla/ePKI_Root_Certification_Authority.crt /usr/share/ca-certificates/mozilla/Equifax_Secure_CA.crt
+Jul  6 14:35:25 C8001 sudo:     root : (command continued) /usr/share/ca-certificates/mozilla/Equifax_Secure_eBusiness_CA_1.crt /usr/share/ca-certificates/mozilla/Equifax_Secure_Global_eBusiness_CA.crt /usr/share/ca-certificates/mozilla/E-Tugra_Certification_Authority.crt /usr/share/ca-certificates/mozilla/GeoTrust_Global_CA_2.crt /usr/share/ca-certificates/mozilla/GeoTrust_Global_CA.crt /usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority.crt /usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority_-_G2.crt /usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority_-_G3.crt /usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA_2.crt /usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA.crt /usr/share/ca-certificates/mozilla/Global_Chambersign_Root_-_2008.crt /usr/share/ca-certificates/mozilla/GlobalSign_Root_CA.crt /usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R2.crt
+Jul  6 14:35:25 C8001 sudo:     root : (command continued) /usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R3.crt /usr/share/ca-certificates/mozilla/Go_Daddy_Class_2_CA.crt /usr/share/ca-certificates/mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt /usr/share/ca-certificates/mozilla/GTE_CyberTrust_Global_Root.crt /usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2011.crt /usr/share/ca-certificates/mozilla/Hongkong_Post_Root_CA_1.crt /usr/share/ca-certificates/mozilla/IGC_A.crt /usr/share/ca-certificates/mozilla/Izenpe.com.crt /usr/share/ca-certificates/mozilla/Juur-SK.crt /usr/share/ca-certificates/mozilla/Microsec_e-Szigno_Root_CA_2009.crt /usr/share/ca-certificates/mozilla/Microsec_e-Szigno_Root_CA.crt /usr/share/ca-certificates/mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt /usr/share/ca-certificates/mozilla/NetLock_Business_=Class_B=_Root.crt /usr/share/ca-certificates/mozilla/NetLock_Express_=Class_C=_Root.crt
+Jul  6 14:35:25 C8001 sudo:     root : (command continued) /usr/share/ca-certificates/mozilla/NetLock_Notary_=Class_A=_Root.crt /usr/share/ca-certificates/mozilla/NetLock_Qualified_=Class_QA=_Root.crt /usr/share/ca-certificates/mozilla/Network_Solutions_Certificate_Authority.crt /usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GA_CA.crt /usr/share/ca-certificates/mozilla/PSCProcert.crt /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_1_G3.crt /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2.crt /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2_G3.crt /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3.crt /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3_G3.crt /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA.crt /usr/share/ca-certificates/mozilla/Root_CA_Generalitat_Valenciana.crt /usr/share/ca-certificates/mozilla/RSA_Security_2048_v3.crt /usr/share/ca-certificates/mozilla/Secure_Global_CA.crt
+Jul  6 14:35:25 C8001 sudo:     root : (command continued) /usr/share/ca-certificates/mozilla/SecureSign_RootCA11.crt /usr/share/ca-certificates/mozilla/SecureTrust_CA.crt /usr/share/ca-certificates/mozilla/Security_Communication_EV_RootCA1.crt /usr/share/ca-certificates/mozilla/Security_Communication_RootCA2.crt /usr/share/ca-certificates/mozilla/Security_Communication_Root_CA.crt /usr/share/ca-certificates/mozilla/SG_TRUST_SERVICES_RACINE.crt /usr/share/ca-certificates/mozilla/Sonera_Class_1_Root_CA.crt /usr/share/ca-certificates/mozilla/Sonera_Class_2_Root_CA.crt /usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA.crt /usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA_-_G2.crt /usr/share/ca-certificates/mozilla/Starfield_Class_2_CA.crt /usr/share/ca-certificates/mozilla/Starfield_Root_Certificate_Authority_-_G2.crt /usr/share/ca-certificates/mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt
+Jul  6 14:35:25 C8001 sudo:     root : (command continued) /usr/share/ca-certificates/mozilla/StartCom_Certification_Authority_2.crt /usr/share/ca-certificates/mozilla/StartCom_Certification_Authority.crt /usr/share/ca-certificates/mozilla/StartCom_Certification_Authority_G2.crt /usr/share/ca-certificates/mozilla/S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.crt /usr/share/ca-certificates/mozilla/Swisscom_Root_CA_1.crt /usr/share/ca-certificates/mozilla/Swisscom_Root_CA_2.crt /usr/share/ca-certificates/mozilla/Swisscom_Root_EV_CA_2.crt /usr/share/ca-certificates/mozilla/SwissSign_Gold_CA_-_G2.crt /usr/share/ca-certificates/mozilla/SwissSign_Platinum_CA_-_G2.crt /usr/share/ca-certificates/mozilla/SwissSign_Silver_CA_-_G2.crt /usr/share/ca-certificates/mozilla/Taiwan_GRCA.crt /usr/share/ca-certificates/mozilla/TC_TrustCenter_Class_2_CA_II.crt /usr/share/ca-certificates/mozilla/TC_TrustCenter_Class_3_CA_II.crt
+Jul  6 14:35:25 C8001 sudo:     root : (command continued) /usr/share/ca-certificates/mozilla/TC_TrustCenter_Universal_CA_I.crt /usr/share/ca-certificates/mozilla/TeliaSonera_Root_CA_v1.crt /usr/share/ca-certificates/mozilla/Thawte_Premium_Server_CA.crt /usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA.crt /usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA_-_G2.crt /usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA_-_G3.crt /usr/share/ca-certificates/mozilla/Thawte_Server_CA.crt /usr/share/ca-certificates/mozilla/Trustis_FPS_Root_CA.crt /usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt /usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_3.crt /usr/share/ca-certificates/mozilla/TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.crt /usr/share/ca-certificates/mozilla/TURKTRUST_Certificate_Services_Provider_Root_1.crt /usr/share/ca-certificates/mozilla/TURKTRUST_Certificate_Services_Provider_Root_2007.crt
+Jul  6 14:35:25 C8001 sudo:     root : (command continued) /usr/share/ca-certificates/mozilla/TURKTRUST_Certificate_Services_Provider_Root_2.crt /usr/share/ca-certificates/mozilla/TWCA_Global_Root_CA.crt /usr/share/ca-certificates/mozilla/TWCA_Root_Certification_Authority.crt /usr/share/ca-certificates/mozilla/UTN_DATACorp_SGC_Root_CA.crt /usr/share/ca-certificates/mozilla/UTN_USERFirst_Email_Root_CA.crt /usr/share/ca-certificates/mozilla/UTN_USERFirst_Hardware_Root_CA.crt /usr/share/ca-certificates/mozilla/Verisign_Class_1_Public_Primary_Certification_Authority.crt /usr/share/ca-certificates/mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G2.crt /usr/share/ca-certificates/mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.crt /usr/share/ca-certificates/mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G2.crt /usr/share/ca-certificates/mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.crt
+Jul  6 14:35:25 C8001 sudo:     root : (command continued) /usr/share/ca-certificates/mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_2.crt /usr/share/ca-certificates/mozilla/Verisign_Class_3_Public_Primary_Certification_Authority.crt /usr/share/ca-certificates/mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G2.crt /usr/share/ca-certificates/mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.crt /usr/share/ca-certificates/mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.crt /usr/share/ca-certificates/mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.crt /usr/share/ca-certificates/mozilla/Verisign_Class_4_Public_Primary_Certification_Authority_-_G3.crt /usr/share/ca-certificates/mozilla/VeriSign_Universal_Root_Certification_Authority.crt /usr/share/ca-certificates/mozilla/Visa_eCommerce_Root.crt /usr/share/ca-certificates/mozilla/WellsSecure_Public_Root_Certificate_Authority.crt
+Jul  6 14:35:25 C8001 sudo:     root : (command continued) /usr/share/ca-certificates/mozilla/WoSign_China.crt /usr/share/ca-certificates/mozilla/WoSign.crt /usr/share/ca-certificates/mozilla/XRamp_Global_CA_Root.crt /opt/Citrix/ICAClient/keystore/cacerts
+Jul  6 14:35:25 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul  6 14:35:25 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jul  6 14:35:34 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/fixfstab.sh
+Jul  6 14:35:34 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul  6 14:35:38 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jul  6 14:35:38 C8001 su[2455]: pam_unix(su:session): session closed for user root
+Jul  6 14:35:48 C8001 mdm[1590]: pam_unix(mdm:session): session closed for user tech
+Jul  6 14:35:48 C8001 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.24, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jul  6 14:35:51 C8001 mdm[31391]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul  6 14:35:51 C8001 mdm[31391]: PAM adding faulty module: pam_kwallet.so
+Jul  6 14:35:54 C8001 mdm[31391]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jul  6 14:35:56 C8001 mdm[31391]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jul  6 14:35:56 C8001 mdm[31391]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul  6 14:36:01 C8001 polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.70 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul  6 14:40:01 C8001 CRON[31894]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 14:40:08 C8001 CRON[31894]: pam_unix(cron:session): session closed for user root
+Jul  6 14:44:59 C8001 sshd[32076]: Accepted password for tech from 192.168.0.76 port 42843 ssh2
+Jul  6 14:44:59 C8001 sshd[32076]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Jul  6 14:45:01 C8001 CRON[32102]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 14:45:02 C8001 su[32101]: pam_unix(su:auth): authentication failure; logname=tech uid=1000 euid=0 tty=/dev/pts/0 ruser=tech rhost=  user=root
+Jul  6 14:45:04 C8001 su[32101]: pam_authenticate: Authentication failure
+Jul  6 14:45:04 C8001 su[32101]: FAILED su for root by tech
+Jul  6 14:45:04 C8001 su[32101]: - /dev/pts/0 tech:root
+Jul  6 14:45:06 C8001 CRON[32102]: pam_unix(cron:session): session closed for user root
+Jul  6 14:45:07 C8001 su[32266]: Successful su for root by tech
+Jul  6 14:45:07 C8001 su[32266]: + /dev/pts/0 tech:root
+Jul  6 14:45:07 C8001 su[32266]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jul  6 14:45:39 C8001 sshd[32301]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.76  user=tech
+Jul  6 14:45:39 C8001 sshd[32301]: pam_sss(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.76 user=tech
+Jul  6 14:45:39 C8001 sshd[32301]: pam_sss(sshd:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Jul  6 14:45:42 C8001 sshd[32301]: Failed password for tech from 192.168.0.76 port 42852 ssh2
+Jul  6 14:45:42 C8001 sshd[32301]: Connection closed by 192.168.0.76 [preauth]
+Jul  6 14:50:01 C8001 CRON[1382]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 14:50:05 C8001 CRON[1382]: pam_unix(cron:session): session closed for user root
+Jul  6 14:55:01 C8001 CRON[1589]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 14:55:04 C8001 CRON[1589]: pam_unix(cron:session): session closed for user root
+Jul  6 15:00:01 C8001 CRON[1833]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 15:00:08 C8001 CRON[1833]: pam_unix(cron:session): session closed for user root
+Jul  6 15:01:55 C8001 mdm[31391]: pam_unix(mdm:session): session closed for user tech
+Jul  6 15:01:55 C8001 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.70, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jul  6 15:01:57 C8001 mdm[2034]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul  6 15:01:57 C8001 mdm[2034]: PAM adding faulty module: pam_kwallet.so
+Jul  6 15:05:01 C8001 CRON[2060]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 15:05:04 C8001 CRON[2060]: pam_unix(cron:session): session closed for user root
+Jul  6 15:10:01 C8001 CRON[2245]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 15:10:07 C8001 CRON[2245]: pam_unix(cron:session): session closed for user root
+Jul  6 15:15:01 C8001 CRON[2429]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 15:15:04 C8001 CRON[2429]: pam_unix(cron:session): session closed for user root
+Jul  6 15:17:01 C8001 CRON[2607]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 15:17:01 C8001 CRON[2607]: pam_unix(cron:session): session closed for user root
+Jul  6 15:20:01 C8001 CRON[2613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 15:20:07 C8001 CRON[2613]: pam_unix(cron:session): session closed for user root
+Jul  6 15:25:01 C8001 CRON[2795]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 15:25:07 C8001 CRON[2795]: pam_unix(cron:session): session closed for user root
+Jul  6 15:30:01 C8001 CRON[2975]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 15:30:06 C8001 CRON[2975]: pam_unix(cron:session): session closed for user root
+Jul  6 15:35:01 C8001 CRON[3157]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 15:35:07 C8001 CRON[3157]: pam_unix(cron:session): session closed for user root
+Jul  6 15:40:01 C8001 CRON[3337]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 15:40:07 C8001 CRON[3337]: pam_unix(cron:session): session closed for user root
+Jul  6 15:45:01 C8001 CRON[3519]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 15:45:07 C8001 CRON[3519]: pam_unix(cron:session): session closed for user root
+Jul  6 15:50:01 C8001 CRON[3698]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 15:50:07 C8001 CRON[3698]: pam_unix(cron:session): session closed for user root
+Jul  6 15:55:01 C8001 CRON[3881]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 15:55:05 C8001 CRON[3881]: pam_unix(cron:session): session closed for user root
+Jul  6 16:00:01 C8001 CRON[4061]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 16:00:06 C8001 CRON[4061]: pam_unix(cron:session): session closed for user root
+Jul  6 16:05:01 C8001 CRON[4242]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 16:05:04 C8001 CRON[4242]: pam_unix(cron:session): session closed for user root
+Jul  6 16:10:01 C8001 CRON[4424]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 16:10:07 C8001 CRON[4424]: pam_unix(cron:session): session closed for user root
+Jul  6 16:15:01 C8001 CRON[4604]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 16:15:07 C8001 CRON[4604]: pam_unix(cron:session): session closed for user root
+Jul  6 16:17:01 C8001 CRON[4780]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 16:17:01 C8001 CRON[4780]: pam_unix(cron:session): session closed for user root
+Jul  6 16:20:01 C8001 CRON[4787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 16:20:07 C8001 CRON[4787]: pam_unix(cron:session): session closed for user root
+Jul  6 16:25:01 C8001 CRON[4969]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 16:25:07 C8001 CRON[4969]: pam_unix(cron:session): session closed for user root
+Jul  6 16:30:01 C8001 CRON[5149]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 16:30:07 C8001 CRON[5149]: pam_unix(cron:session): session closed for user root
+Jul  6 16:35:01 C8001 CRON[5331]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 16:35:06 C8001 CRON[5331]: pam_unix(cron:session): session closed for user root
+Jul  6 16:40:01 C8001 CRON[5513]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 16:40:07 C8001 CRON[5513]: pam_unix(cron:session): session closed for user root
+Jul  6 16:45:01 C8001 CRON[5693]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 16:45:05 C8001 CRON[5693]: pam_unix(cron:session): session closed for user root
+Jul  6 16:50:01 C8001 CRON[5875]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 16:50:04 C8001 CRON[5875]: pam_unix(cron:session): session closed for user root
+Jul  6 16:55:01 C8001 CRON[6055]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 16:55:05 C8001 CRON[6055]: pam_unix(cron:session): session closed for user root
+Jul  6 16:56:34 C8001 sshd[32076]: pam_unix(sshd:session): session closed for user tech
+Jul  6 16:56:34 C8001 su[32266]: pam_unix(su:session): session closed for user root
+Jul  6 17:00:01 C8001 CRON[6243]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 17:00:06 C8001 CRON[6243]: pam_unix(cron:session): session closed for user root
+Jul  6 17:05:01 C8001 CRON[6423]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 17:05:06 C8001 CRON[6423]: pam_unix(cron:session): session closed for user root
+Jul  6 17:10:01 C8001 CRON[6604]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 17:10:06 C8001 CRON[6604]: pam_unix(cron:session): session closed for user root
+Jul  6 17:15:01 C8001 CRON[6786]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 17:15:04 C8001 CRON[6786]: pam_unix(cron:session): session closed for user root
+Jul  6 17:17:01 C8001 CRON[6965]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 17:17:01 C8001 CRON[6965]: pam_unix(cron:session): session closed for user root
+Jul  6 17:20:01 C8001 CRON[6971]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 17:20:07 C8001 CRON[6971]: pam_unix(cron:session): session closed for user root
+Jul  6 17:25:01 C8001 CRON[7152]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 17:25:04 C8001 CRON[7152]: pam_unix(cron:session): session closed for user root
+Jul  6 17:30:01 C8001 CRON[7334]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 17:30:07 C8001 CRON[7334]: pam_unix(cron:session): session closed for user root
+Jul  6 17:35:01 C8001 CRON[7516]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 17:35:04 C8001 CRON[7516]: pam_unix(cron:session): session closed for user root
+Jul  6 17:40:01 C8001 CRON[7699]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 17:40:06 C8001 CRON[7699]: pam_unix(cron:session): session closed for user root
+Jul  6 17:45:01 C8001 CRON[7881]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 17:45:06 C8001 CRON[7881]: pam_unix(cron:session): session closed for user root
+Jul  6 17:50:01 C8001 CRON[8061]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 17:50:04 C8001 CRON[8061]: pam_unix(cron:session): session closed for user root
+Jul  6 17:55:01 C8001 CRON[8244]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 17:55:07 C8001 CRON[8244]: pam_unix(cron:session): session closed for user root
+Jul  6 18:00:01 C8001 CRON[8424]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 18:00:07 C8001 CRON[8424]: pam_unix(cron:session): session closed for user root
+Jul  6 18:05:01 C8001 CRON[8607]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 18:05:06 C8001 CRON[8607]: pam_unix(cron:session): session closed for user root
+Jul  6 18:10:01 C8001 CRON[8788]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 18:10:04 C8001 CRON[8788]: pam_unix(cron:session): session closed for user root
+Jul  6 18:15:01 C8001 CRON[8969]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 18:15:06 C8001 CRON[8969]: pam_unix(cron:session): session closed for user root
+Jul  6 18:17:01 C8001 CRON[9148]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 18:17:01 C8001 CRON[9148]: pam_unix(cron:session): session closed for user root
+Jul  6 18:20:01 C8001 CRON[9154]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 18:20:06 C8001 CRON[9154]: pam_unix(cron:session): session closed for user root
+Jul  6 18:25:01 C8001 CRON[9336]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 18:25:04 C8001 CRON[9336]: pam_unix(cron:session): session closed for user root
+Jul  6 18:30:01 C8001 CRON[9518]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 18:30:07 C8001 CRON[9518]: pam_unix(cron:session): session closed for user root
+Jul  6 18:35:01 C8001 CRON[9700]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 18:35:05 C8001 CRON[9700]: pam_unix(cron:session): session closed for user root
+Jul  6 18:40:01 C8001 CRON[9881]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 18:40:04 C8001 CRON[9881]: pam_unix(cron:session): session closed for user root
+Jul  6 18:45:01 C8001 CRON[10064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 18:45:06 C8001 CRON[10064]: pam_unix(cron:session): session closed for user root
+Jul  6 18:50:01 C8001 CRON[10244]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 18:50:04 C8001 CRON[10244]: pam_unix(cron:session): session closed for user root
+Jul  6 18:55:01 C8001 CRON[10426]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 18:55:07 C8001 CRON[10426]: pam_unix(cron:session): session closed for user root
+Jul  6 19:00:01 C8001 CRON[10608]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 19:00:04 C8001 CRON[10608]: pam_unix(cron:session): session closed for user root
+Jul  6 19:05:01 C8001 CRON[10791]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 19:05:07 C8001 CRON[10791]: pam_unix(cron:session): session closed for user root
+Jul  6 19:10:01 C8001 CRON[10972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 19:10:04 C8001 CRON[10972]: pam_unix(cron:session): session closed for user root
+Jul  6 19:15:01 C8001 CRON[11155]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 19:15:06 C8001 CRON[11155]: pam_unix(cron:session): session closed for user root
+Jul  6 19:17:01 C8001 CRON[11332]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 19:17:01 C8001 CRON[11332]: pam_unix(cron:session): session closed for user root
+Jul  6 19:20:01 C8001 CRON[11338]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 19:20:04 C8001 CRON[11338]: pam_unix(cron:session): session closed for user root
+Jul  6 19:25:01 C8001 CRON[11519]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 19:25:06 C8001 CRON[11519]: pam_unix(cron:session): session closed for user root
+Jul  6 19:30:01 C8001 CRON[11699]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 19:30:05 C8001 CRON[11699]: pam_unix(cron:session): session closed for user root
+Jul  6 19:35:01 C8001 CRON[11883]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 19:35:04 C8001 CRON[11883]: pam_unix(cron:session): session closed for user root
+Jul  6 19:40:01 C8001 CRON[12064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 19:40:06 C8001 CRON[12064]: pam_unix(cron:session): session closed for user root
+Jul  6 19:45:01 C8001 CRON[12246]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 19:45:04 C8001 CRON[12246]: pam_unix(cron:session): session closed for user root
+Jul  6 19:50:01 C8001 CRON[12429]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 19:50:06 C8001 CRON[12429]: pam_unix(cron:session): session closed for user root
+Jul  6 19:55:01 C8001 CRON[12610]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 19:55:06 C8001 CRON[12610]: pam_unix(cron:session): session closed for user root
+Jul  6 20:00:01 C8001 CRON[12792]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 20:00:06 C8001 CRON[12792]: pam_unix(cron:session): session closed for user root
+Jul  6 20:05:01 C8001 CRON[12975]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 20:05:05 C8001 CRON[12975]: pam_unix(cron:session): session closed for user root
+Jul  6 20:10:01 C8001 CRON[13155]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 20:10:04 C8001 CRON[13155]: pam_unix(cron:session): session closed for user root
+Jul  6 20:15:01 C8001 CRON[13337]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 20:15:06 C8001 CRON[13337]: pam_unix(cron:session): session closed for user root
+Jul  6 20:17:01 C8001 CRON[13515]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 20:17:01 C8001 CRON[13515]: pam_unix(cron:session): session closed for user root
+Jul  6 20:20:01 C8001 CRON[13521]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 20:20:06 C8001 CRON[13521]: pam_unix(cron:session): session closed for user root
+Jul  6 20:25:01 C8001 CRON[13702]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 20:25:05 C8001 CRON[13702]: pam_unix(cron:session): session closed for user root
+Jul  6 20:30:01 C8001 CRON[13884]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 20:30:06 C8001 CRON[13884]: pam_unix(cron:session): session closed for user root
+Jul  6 20:35:01 C8001 CRON[14065]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 20:35:05 C8001 CRON[14065]: pam_unix(cron:session): session closed for user root
+Jul  6 20:40:01 C8001 CRON[14251]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 20:40:06 C8001 CRON[14251]: pam_unix(cron:session): session closed for user root
+Jul  6 20:45:01 C8001 CRON[14432]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 20:45:04 C8001 CRON[14432]: pam_unix(cron:session): session closed for user root
+Jul  6 20:50:01 C8001 CRON[14613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 20:50:07 C8001 CRON[14613]: pam_unix(cron:session): session closed for user root
+Jul  6 20:55:01 C8001 CRON[14796]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 20:55:05 C8001 CRON[14796]: pam_unix(cron:session): session closed for user root
+Jul  6 21:00:01 C8001 CRON[14980]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 21:00:05 C8001 CRON[14980]: pam_unix(cron:session): session closed for user root
+Jul  6 21:05:01 C8001 CRON[15160]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 21:05:05 C8001 CRON[15160]: pam_unix(cron:session): session closed for user root
+Jul  6 21:10:01 C8001 CRON[15342]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 21:10:04 C8001 CRON[15342]: pam_unix(cron:session): session closed for user root
+Jul  6 21:15:01 C8001 CRON[15522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 21:15:06 C8001 CRON[15522]: pam_unix(cron:session): session closed for user root
+Jul  6 21:17:01 C8001 CRON[15701]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 21:17:01 C8001 CRON[15701]: pam_unix(cron:session): session closed for user root
+Jul  6 21:20:01 C8001 CRON[15708]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 21:20:05 C8001 CRON[15708]: pam_unix(cron:session): session closed for user root
+Jul  6 21:25:01 C8001 CRON[15896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 21:25:04 C8001 CRON[15896]: pam_unix(cron:session): session closed for user root
+Jul  6 21:30:01 C8001 CRON[16085]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 21:30:05 C8001 CRON[16085]: pam_unix(cron:session): session closed for user root
+Jul  6 21:35:01 C8001 CRON[16267]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 21:35:06 C8001 CRON[16267]: pam_unix(cron:session): session closed for user root
+Jul  6 21:40:01 C8001 CRON[16450]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 21:40:04 C8001 CRON[16450]: pam_unix(cron:session): session closed for user root
+Jul  6 21:45:01 C8001 CRON[16632]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 21:45:05 C8001 CRON[16632]: pam_unix(cron:session): session closed for user root
+Jul  6 21:50:01 C8001 CRON[16813]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 21:50:04 C8001 CRON[16813]: pam_unix(cron:session): session closed for user root
+Jul  6 21:55:01 C8001 CRON[16994]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 21:55:06 C8001 CRON[16994]: pam_unix(cron:session): session closed for user root
+Jul  6 22:00:01 C8001 CRON[17177]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 22:00:04 C8001 CRON[17177]: pam_unix(cron:session): session closed for user root
+Jul  6 22:05:01 C8001 CRON[17358]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 22:05:06 C8001 CRON[17358]: pam_unix(cron:session): session closed for user root
+Jul  6 22:10:01 C8001 CRON[17540]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 22:10:06 C8001 CRON[17540]: pam_unix(cron:session): session closed for user root
+Jul  6 22:15:01 C8001 CRON[17722]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 22:15:05 C8001 CRON[17722]: pam_unix(cron:session): session closed for user root
+Jul  6 22:17:01 C8001 CRON[17901]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 22:17:01 C8001 CRON[17901]: pam_unix(cron:session): session closed for user root
+Jul  6 22:20:01 C8001 CRON[17907]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 22:20:05 C8001 CRON[17907]: pam_unix(cron:session): session closed for user root
+Jul  6 22:25:01 C8001 CRON[18088]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 22:25:05 C8001 CRON[18088]: pam_unix(cron:session): session closed for user root
+Jul  6 22:30:01 C8001 CRON[18267]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 22:30:04 C8001 CRON[18267]: pam_unix(cron:session): session closed for user root
+Jul  6 22:35:01 C8001 CRON[18448]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 22:35:06 C8001 CRON[18448]: pam_unix(cron:session): session closed for user root
+Jul  6 22:40:01 C8001 CRON[18629]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 22:40:04 C8001 CRON[18629]: pam_unix(cron:session): session closed for user root
+Jul  6 22:45:01 C8001 CRON[18809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 22:45:05 C8001 CRON[18809]: pam_unix(cron:session): session closed for user root
+Jul  6 22:50:01 C8001 CRON[18991]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 22:50:06 C8001 CRON[18991]: pam_unix(cron:session): session closed for user root
+Jul  6 22:55:01 C8001 CRON[19173]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 22:55:04 C8001 CRON[19173]: pam_unix(cron:session): session closed for user root
+Jul  6 23:00:01 C8001 CRON[19354]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 23:00:06 C8001 CRON[19354]: pam_unix(cron:session): session closed for user root
+Jul  6 23:05:01 C8001 CRON[19536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 23:05:06 C8001 CRON[19536]: pam_unix(cron:session): session closed for user root
+Jul  6 23:10:01 C8001 CRON[19716]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 23:10:06 C8001 CRON[19716]: pam_unix(cron:session): session closed for user root
+Jul  6 23:15:01 C8001 CRON[19898]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 23:15:05 C8001 CRON[19898]: pam_unix(cron:session): session closed for user root
+Jul  6 23:17:01 C8001 CRON[20076]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 23:17:01 C8001 CRON[20076]: pam_unix(cron:session): session closed for user root
+Jul  6 23:20:01 C8001 CRON[20082]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 23:20:04 C8001 CRON[20082]: pam_unix(cron:session): session closed for user root
+Jul  6 23:25:01 C8001 CRON[20264]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 23:25:05 C8001 CRON[20264]: pam_unix(cron:session): session closed for user root
+Jul  6 23:30:01 C8001 CRON[20444]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 23:30:04 C8001 CRON[20444]: pam_unix(cron:session): session closed for user root
+Jul  6 23:35:01 C8001 CRON[20625]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 23:35:06 C8001 CRON[20625]: pam_unix(cron:session): session closed for user root
+Jul  6 23:40:01 C8001 CRON[20807]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 23:40:04 C8001 CRON[20807]: pam_unix(cron:session): session closed for user root
+Jul  6 23:45:01 C8001 CRON[20989]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 23:45:07 C8001 CRON[20989]: pam_unix(cron:session): session closed for user root
+Jul  6 23:50:01 C8001 CRON[21169]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 23:50:04 C8001 CRON[21169]: pam_unix(cron:session): session closed for user root
+Jul  6 23:55:01 C8001 CRON[21351]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 23:55:05 C8001 CRON[21351]: pam_unix(cron:session): session closed for user root
+Jul  7 00:00:01 C8001 CRON[21531]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 00:00:06 C8001 CRON[21531]: pam_unix(cron:session): session closed for user root
+Jul  7 00:05:01 C8001 CRON[21712]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 00:05:04 C8001 CRON[21712]: pam_unix(cron:session): session closed for user root
+Jul  7 00:10:01 C8001 CRON[21892]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 00:10:06 C8001 CRON[21892]: pam_unix(cron:session): session closed for user root
+Jul  7 00:15:02 C8001 CRON[22073]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 00:15:06 C8001 CRON[22073]: pam_unix(cron:session): session closed for user root
+Jul  7 00:17:01 C8001 CRON[22250]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 00:17:01 C8001 CRON[22250]: pam_unix(cron:session): session closed for user root
+Jul  7 00:20:01 C8001 CRON[22256]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 00:20:04 C8001 CRON[22256]: pam_unix(cron:session): session closed for user root
+Jul  7 00:25:01 C8001 CRON[22439]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 00:25:05 C8001 CRON[22439]: pam_unix(cron:session): session closed for user root
+Jul  7 00:30:01 C8001 CRON[22618]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 00:30:05 C8001 CRON[22618]: pam_unix(cron:session): session closed for user root
+Jul  7 00:35:01 C8001 CRON[22801]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 00:35:04 C8001 CRON[22801]: pam_unix(cron:session): session closed for user root
+Jul  7 00:40:01 C8001 CRON[22981]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 00:40:05 C8001 CRON[22981]: pam_unix(cron:session): session closed for user root
+Jul  7 00:45:01 C8001 CRON[23163]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 00:45:04 C8001 CRON[23163]: pam_unix(cron:session): session closed for user root
+Jul  7 00:50:01 C8001 CRON[23344]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 00:50:05 C8001 CRON[23344]: pam_unix(cron:session): session closed for user root
+Jul  7 00:55:01 C8001 CRON[23525]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 00:55:04 C8001 CRON[23525]: pam_unix(cron:session): session closed for user root
+Jul  7 01:00:01 C8001 CRON[23706]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 01:00:05 C8001 CRON[23706]: pam_unix(cron:session): session closed for user root
+Jul  7 01:05:01 C8001 CRON[23889]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 01:05:05 C8001 CRON[23889]: pam_unix(cron:session): session closed for user root
+Jul  7 01:10:01 C8001 CRON[24070]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 01:10:05 C8001 CRON[24070]: pam_unix(cron:session): session closed for user root
+Jul  7 01:15:01 C8001 CRON[24252]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 01:15:04 C8001 CRON[24252]: pam_unix(cron:session): session closed for user root
+Jul  7 01:17:01 C8001 CRON[24428]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 01:17:01 C8001 CRON[24428]: pam_unix(cron:session): session closed for user root
+Jul  7 01:20:01 C8001 CRON[24434]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 01:20:05 C8001 CRON[24434]: pam_unix(cron:session): session closed for user root
+Jul  7 01:25:01 C8001 CRON[24615]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 01:25:05 C8001 CRON[24615]: pam_unix(cron:session): session closed for user root
+Jul  7 01:30:01 C8001 CRON[24796]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 01:30:04 C8001 CRON[24796]: pam_unix(cron:session): session closed for user root
+Jul  7 01:35:01 C8001 CRON[24977]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 01:35:05 C8001 CRON[24977]: pam_unix(cron:session): session closed for user root
+Jul  7 01:40:01 C8001 CRON[25158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 01:40:06 C8001 CRON[25158]: pam_unix(cron:session): session closed for user root
+Jul  7 01:45:01 C8001 CRON[25340]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 01:45:04 C8001 CRON[25340]: pam_unix(cron:session): session closed for user root
+Jul  7 01:50:01 C8001 CRON[25519]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 01:50:07 C8001 CRON[25519]: pam_unix(cron:session): session closed for user root
+Jul  7 01:55:01 C8001 CRON[25701]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 01:55:04 C8001 CRON[25701]: pam_unix(cron:session): session closed for user root
+Jul  7 02:00:01 C8001 CRON[25881]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 02:00:05 C8001 CRON[25881]: pam_unix(cron:session): session closed for user root
+Jul  7 02:05:01 C8001 CRON[26066]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 02:05:05 C8001 CRON[26066]: pam_unix(cron:session): session closed for user root
+Jul  7 02:10:01 C8001 CRON[26246]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 02:10:05 C8001 CRON[26246]: pam_unix(cron:session): session closed for user root
+Jul  7 02:15:01 C8001 CRON[26427]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 02:15:04 C8001 CRON[26427]: pam_unix(cron:session): session closed for user root
+Jul  7 02:17:01 C8001 CRON[26605]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 02:17:01 C8001 CRON[26605]: pam_unix(cron:session): session closed for user root
+Jul  7 02:20:01 C8001 CRON[26612]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 02:20:05 C8001 CRON[26612]: pam_unix(cron:session): session closed for user root
+Jul  7 02:25:01 C8001 CRON[26792]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 02:25:05 C8001 CRON[26792]: pam_unix(cron:session): session closed for user root
+Jul  7 02:30:01 C8001 CRON[26973]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 02:30:04 C8001 CRON[26973]: pam_unix(cron:session): session closed for user root
+Jul  7 02:35:01 C8001 CRON[27159]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 02:35:05 C8001 CRON[27159]: pam_unix(cron:session): session closed for user root
+Jul  7 02:40:01 C8001 CRON[27338]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 02:40:04 C8001 CRON[27338]: pam_unix(cron:session): session closed for user root
+Jul  7 02:45:01 C8001 CRON[27521]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 02:45:05 C8001 CRON[27521]: pam_unix(cron:session): session closed for user root
+Jul  7 02:50:01 C8001 CRON[27702]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 02:50:05 C8001 CRON[27702]: pam_unix(cron:session): session closed for user root
+Jul  7 02:55:01 C8001 CRON[27884]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 02:55:05 C8001 CRON[27884]: pam_unix(cron:session): session closed for user root
+Jul  7 03:00:01 C8001 CRON[28064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 03:00:01 C8001 CRON[28065]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  7 03:00:07 C8001 CRON[28064]: pam_unix(cron:session): session closed for user root
+Jul  7 03:00:08 C8001 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jul  7 03:00:08 C8001 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  7 03:00:08 C8001 sudo: pam_unix(sudo:session): session closed for user root

@@ -1,0 +1,149 @@
+Jun  4 14:23:03 Mint-Image systemd-logind[704]: New seat seat0.
+Jun  4 14:23:11 Mint-Image dbus[590]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=980 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=847 comm="NetworkManager ")
+Jun  4 14:24:26 Mint-Image mdm[1565]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun  4 14:24:26 Mint-Image mdm[1565]: PAM adding faulty module: pam_kwallet.so
+Jun  4 14:25:19 Mint-Image mdm[1565]: pam_nologin(mdm:auth): cannot determine username
+Jun  4 14:25:19 Mint-Image mdm[1565]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun  4 14:25:19 Mint-Image mdm[1565]: PAM adding faulty module: pam_kwallet.so
+Jun  4 14:25:19 Mint-Image mdm[1565]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jun  4 14:25:22 Mint-Image mdm[1565]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jun  4 14:25:22 Mint-Image systemd-logind[704]: New session c1 of user tech.
+Jun  4 14:25:22 Mint-Image systemd-logind[704]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jun  4 14:25:22 Mint-Image mdm[1565]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun  4 14:25:35 Mint-Image polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun  4 14:28:05 Mint-Image sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod +x config.sh
+Jun  4 14:28:05 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 14:28:05 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 14:28:42 Mint-Image su[8348]: Successful su for root by tech
+Jun  4 14:28:42 Mint-Image su[8348]: + /dev/pts/0 tech:root
+Jun  4 14:28:42 Mint-Image su[8348]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jun  4 14:28:53 Mint-Image su[10164]: Successful su for nobody by root
+Jun  4 14:28:53 Mint-Image su[10164]: + ??? root:nobody
+Jun  4 14:28:53 Mint-Image su[10164]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jun  4 14:28:53 Mint-Image systemd-logind[704]: New session c2 of user nobody.
+Jun  4 14:28:53 Mint-Image su[10164]: pam_unix(su:session): session closed for user nobody
+Jun  4 14:28:53 Mint-Image su[10178]: Successful su for nobody by root
+Jun  4 14:28:53 Mint-Image su[10178]: + ??? root:nobody
+Jun  4 14:28:53 Mint-Image su[10178]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jun  4 14:28:53 Mint-Image systemd-logind[704]: Removed session c2.
+Jun  4 14:28:53 Mint-Image systemd-logind[704]: New session c3 of user nobody.
+Jun  4 14:28:53 Mint-Image su[10178]: pam_unix(su:session): session closed for user nobody
+Jun  4 14:28:53 Mint-Image su[10205]: Successful su for nobody by root
+Jun  4 14:28:53 Mint-Image su[10205]: + ??? root:nobody
+Jun  4 14:28:53 Mint-Image su[10205]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jun  4 14:28:53 Mint-Image systemd-logind[704]: Removed session c3.
+Jun  4 14:28:53 Mint-Image systemd-logind[704]: New session c4 of user nobody.
+Jun  4 14:29:05 Mint-Image su[10205]: pam_unix(su:session): session closed for user nobody
+Jun  4 14:29:59 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /usr/src/IT_Files
+Jun  4 14:29:59 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 14:29:59 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 14:29:59 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/sed -i /IT_Files/d /etc/fstab
+Jun  4 14:29:59 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 14:29:59 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 14:29:59 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo //hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8,nobootwait  0  0
+Jun  4 14:29:59 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 14:29:59 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 14:29:59 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mount -a
+Jun  4 14:29:59 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 14:29:59 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:09:35 Mint-Image systemd-logind[26424]: New seat seat0.
+Jun  4 15:09:35 Mint-Image systemd-logind[26424]: New session c1 of user tech.
+Jun  4 15:09:35 Mint-Image systemd-logind[26424]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jun  4 15:15:38 Mint-Image groupadd[8379]: group added to /etc/group: name=clamav, GID=125
+Jun  4 15:15:38 Mint-Image groupadd[8379]: group added to /etc/gshadow: name=clamav
+Jun  4 15:15:38 Mint-Image groupadd[8379]: new group: name=clamav, GID=125
+Jun  4 15:15:38 Mint-Image useradd[8383]: new user: name=clamav, UID=115, GID=125, home=/var/lib/clamav, shell=/bin/false
+Jun  4 15:15:39 Mint-Image chage[8388]: changed password expiry for clamav
+Jun  4 15:15:42 Mint-Image useradd[8620]: new user: name=sshd, UID=116, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Jun  4 15:15:42 Mint-Image usermod[8625]: change user 'sshd' password
+Jun  4 15:15:43 Mint-Image chage[8630]: changed password expiry for sshd
+Jun  4 15:15:43 Mint-Image sshd[8685]: Server listening on 0.0.0.0 port 22.
+Jun  4 15:15:43 Mint-Image sshd[8685]: Server listening on :: port 22.
+Jun  4 15:17:03 Mint-Image CRON[8774]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  4 15:17:03 Mint-Image CRON[8774]: pam_unix(cron:session): session closed for user root
+Jun  4 15:21:59 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun  4 15:21:59 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:21:59 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:21:59 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.9-x86.msi /usr/share/wine/gecko/
+Jun  4 15:21:59 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:22:01 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:22:06 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun  4 15:22:06 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:22:06 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:22:06 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86.msi /usr/share/wine/gecko/
+Jun  4 15:22:06 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:22:06 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:22:33 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun  4 15:22:33 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:22:33 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:22:33 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86.msi /usr/share/wine/gecko/
+Jun  4 15:22:33 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:22:33 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:22:42 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun  4 15:22:42 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:22:42 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:22:42 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86.msi /usr/share/wine/gecko/
+Jun  4 15:22:42 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:22:42 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:22:52 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun  4 15:22:52 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:22:52 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:22:52 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86_64.msi /usr/share/wine/gecko/
+Jun  4 15:22:52 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:22:52 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:22:58 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun  4 15:22:58 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:22:58 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:22:58 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86_64.msi /usr/share/wine/gecko/
+Jun  4 15:22:58 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:23:02 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:23:16 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun  4 15:23:16 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:23:16 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:23:16 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.6-x86_64.msi /usr/share/wine/gecko/
+Jun  4 15:23:16 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:23:16 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:23:30 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun  4 15:23:30 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:23:30 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:23:30 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.5-x86_64.msi /usr/share/wine/gecko/
+Jun  4 15:23:30 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:23:30 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:23:45 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun  4 15:23:45 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:23:45 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:23:45 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86_64.msi /usr/share/wine/gecko/
+Jun  4 15:23:45 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:23:45 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:23:56 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun  4 15:23:56 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:23:56 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:23:56 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.3-x86_64.msi /usr/share/wine/gecko/
+Jun  4 15:23:56 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:23:56 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:24:11 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Jun  4 15:24:11 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:24:11 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:24:11 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.4.msi /usr/share/wine/mono
+Jun  4 15:24:11 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:24:11 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:25:01 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Jun  4 15:25:01 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:25:01 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:25:01 Mint-Image sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.8.msi /usr/share/wine/mono
+Jun  4 15:25:01 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun  4 15:25:01 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:25:42 Mint-Image sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun  4 15:25:42 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun  4 15:26:27 Mint-Image sudo: pam_unix(sudo:session): session closed for user root
+Jun  4 15:51:12 Mint-Image sshd[10899]: Did not receive identification string from 192.168.1.9
+Jun  4 15:52:53 Mint-Image sshd[10909]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jun  4 15:54:03 Mint-Image sshd[10912]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jun  4 15:54:05 Mint-Image sshd[10919]: fatal: no hostkey alg [preauth]
+Jun  4 15:54:05 Mint-Image sshd[10921]: fatal: no hostkey alg [preauth]
+Jun  4 15:54:05 Mint-Image sshd[10913]: Connection closed by 192.168.1.9 [preauth]
+Jun  4 15:54:05 Mint-Image sshd[10915]: Connection closed by 192.168.1.9 [preauth]
+Jun  4 15:54:05 Mint-Image sshd[10917]: Connection closed by 192.168.1.9 [preauth]
+Jun  4 15:55:42 Mint-Image sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun  4 15:55:42 Mint-Image sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun  4 15:56:08 Mint-Image sudo: pam_unix(sudo:session): session closed for user root

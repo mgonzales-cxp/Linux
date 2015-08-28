@@ -1,0 +1,944 @@
+Aug 24 07:00:01 T4145 CRON[3146]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 07:00:02 T4145 CRON[3146]: pam_unix(cron:session): session closed for user root
+Aug 24 07:05:01 T4145 CRON[3182]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 07:05:03 T4145 CRON[3182]: pam_unix(cron:session): session closed for user root
+Aug 24 07:10:01 T4145 CRON[3209]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 07:10:01 T4145 CRON[3209]: pam_unix(cron:session): session closed for user root
+Aug 24 07:15:01 T4145 CRON[3235]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 07:15:03 T4145 CRON[3235]: pam_unix(cron:session): session closed for user root
+Aug 24 07:17:01 T4145 CRON[3250]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 07:17:01 T4145 CRON[3250]: pam_unix(cron:session): session closed for user root
+Aug 24 07:20:01 T4145 CRON[3260]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 07:20:02 T4145 CRON[3260]: pam_unix(cron:session): session closed for user root
+Aug 24 07:24:03 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 07:24:03 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 07:24:35 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 07:25:01 T4145 CRON[3328]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 07:25:02 T4145 CRON[3328]: pam_unix(cron:session): session closed for user root
+Aug 24 07:30:01 T4145 CRON[3347]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 07:30:01 T4145 CRON[3346]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 07:30:01 T4145 CRON[3347]: pam_unix(cron:session): session closed for user root
+Aug 24 07:30:01 T4145 CRON[3346]: pam_unix(cron:session): session closed for user root
+Aug 24 07:35:01 T4145 CRON[3377]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 07:35:03 T4145 CRON[3377]: pam_unix(cron:session): session closed for user root
+Aug 24 07:40:01 T4145 CRON[3409]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 07:40:54 T4145 CRON[3409]: pam_unix(cron:session): session closed for user root
+Aug 24 07:45:01 T4145 CRON[3421]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 07:45:11 T4145 CRON[3421]: pam_unix(cron:session): session closed for user root
+Aug 24 07:50:01 T4145 CRON[3432]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 07:50:11 T4145 CRON[3432]: pam_unix(cron:session): session closed for user root
+Aug 24 07:53:45 T4145 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=1003 euid=1003 tty=:0.0 ruser= rhost=  user=anthem-training
+Aug 24 07:53:54 T4145 unix_chkpwd[3446]: password check failed for user (anthem-training)
+Aug 24 07:53:54 T4145 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=1003 euid=1003 tty=:0.0 ruser= rhost=  user=anthem-training
+Aug 24 07:53:56 T4145 xscreensaver[2342]: FAILED LOGIN 1 ON DISPLAY ":0.0", FOR "anthem-training"
+Aug 24 07:54:03 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 07:54:03 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 07:54:08 T4145 unix_chkpwd[3466]: password check failed for user (anthem-training)
+Aug 24 07:54:08 T4145 xscreensaver[2342]: pam_unix(xscreensaver:auth): authentication failure; logname= uid=1003 euid=1003 tty=:0.0 ruser= rhost=  user=anthem-training
+Aug 24 07:54:10 T4145 xscreensaver[2342]: FAILED LOGIN 2 ON DISPLAY ":0.0", FOR "anthem-training"
+Aug 24 07:54:31 T4145 xscreensaver[2342]: pam_ecryptfs: seteuid error
+Aug 24 07:54:39 T4145 polkitd(authority=local): Operator of unix-session:c1 FAILED to authenticate to gain authorization for action org.freedesktop.NetworkManager.settings.modify.system for system-bus-name::1.34 [nm-applet] (owned by unix-user:anthem-training)
+Aug 24 07:54:39 T4145 gnome-keyring-daemon[3474]: couldn't access control socket: /run/user/1003/keyring-F5cTXg/control: No such file or directory
+Aug 24 07:54:39 T4145 gnome-keyring-daemon[3474]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Aug 24 07:54:39 T4145 gnome-keyring-daemon[3474]: keyring alias directory: /home/anthem-training/.local/share/keyrings
+Aug 24 07:54:48 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 07:55:01 T4145 CRON[3738]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 07:55:20 T4145 CRON[3738]: pam_unix(cron:session): session closed for user root
+Aug 24 07:56:39 T4145 dbus[842]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1641 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=1025 comm="NetworkManager ")
+Aug 24 08:00:01 T4145 CRON[3836]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:00:11 T4145 CRON[3836]: pam_unix(cron:session): session closed for user root
+Aug 24 08:05:01 T4145 CRON[3849]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:05:11 T4145 CRON[3849]: pam_unix(cron:session): session closed for user root
+Aug 24 08:10:01 T4145 CRON[3859]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:10:11 T4145 CRON[3859]: pam_unix(cron:session): session closed for user root
+Aug 24 08:15:01 T4145 CRON[3872]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:15:11 T4145 CRON[3872]: pam_unix(cron:session): session closed for user root
+Aug 24 08:17:01 T4145 CRON[3877]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:17:01 T4145 CRON[3877]: pam_unix(cron:session): session closed for user root
+Aug 24 08:20:01 T4145 CRON[3884]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:20:11 T4145 CRON[3884]: pam_unix(cron:session): session closed for user root
+Aug 24 08:24:03 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 08:24:03 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 08:24:08 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 08:25:01 T4145 CRON[3915]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:25:11 T4145 CRON[3915]: pam_unix(cron:session): session closed for user root
+Aug 24 08:30:01 T4145 CRON[3924]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:30:11 T4145 CRON[3924]: pam_unix(cron:session): session closed for user root
+Aug 24 08:35:01 T4145 CRON[3936]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:35:11 T4145 CRON[3936]: pam_unix(cron:session): session closed for user root
+Aug 24 08:40:01 T4145 CRON[3948]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:40:11 T4145 CRON[3948]: pam_unix(cron:session): session closed for user root
+Aug 24 08:45:01 T4145 CRON[3965]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:45:11 T4145 CRON[3965]: pam_unix(cron:session): session closed for user root
+Aug 24 08:50:01 T4145 CRON[3976]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:50:11 T4145 CRON[3976]: pam_unix(cron:session): session closed for user root
+Aug 24 08:54:04 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 08:54:04 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 08:54:08 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 08:55:01 T4145 CRON[4006]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:55:11 T4145 CRON[4006]: pam_unix(cron:session): session closed for user root
+Aug 24 09:00:01 T4145 CRON[4015]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:00:11 T4145 CRON[4015]: pam_unix(cron:session): session closed for user root
+Aug 24 09:05:01 T4145 CRON[4027]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:05:11 T4145 CRON[4027]: pam_unix(cron:session): session closed for user root
+Aug 24 09:10:01 T4145 CRON[4038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:10:11 T4145 CRON[4038]: pam_unix(cron:session): session closed for user root
+Aug 24 09:15:01 T4145 CRON[4050]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:15:11 T4145 CRON[4050]: pam_unix(cron:session): session closed for user root
+Aug 24 09:17:01 T4145 CRON[4057]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:17:01 T4145 CRON[4057]: pam_unix(cron:session): session closed for user root
+Aug 24 09:20:01 T4145 CRON[4063]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:20:11 T4145 CRON[4063]: pam_unix(cron:session): session closed for user root
+Aug 24 09:24:04 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 09:24:04 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 09:24:08 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 09:25:01 T4145 CRON[4093]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:25:11 T4145 CRON[4093]: pam_unix(cron:session): session closed for user root
+Aug 24 09:30:01 T4145 CRON[4104]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:30:11 T4145 CRON[4104]: pam_unix(cron:session): session closed for user root
+Aug 24 09:35:01 T4145 CRON[4115]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:35:11 T4145 CRON[4115]: pam_unix(cron:session): session closed for user root
+Aug 24 09:40:01 T4145 CRON[4125]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:40:11 T4145 CRON[4125]: pam_unix(cron:session): session closed for user root
+Aug 24 09:45:01 T4145 CRON[4138]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:45:11 T4145 CRON[4138]: pam_unix(cron:session): session closed for user root
+Aug 24 09:50:01 T4145 CRON[4148]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:50:11 T4145 CRON[4148]: pam_unix(cron:session): session closed for user root
+Aug 24 09:54:04 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 09:54:04 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 09:54:08 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 09:55:01 T4145 CRON[4188]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:55:11 T4145 CRON[4188]: pam_unix(cron:session): session closed for user root
+Aug 24 10:00:01 T4145 CRON[4198]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:00:11 T4145 CRON[4198]: pam_unix(cron:session): session closed for user root
+Aug 24 10:05:01 T4145 CRON[4209]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:05:11 T4145 CRON[4209]: pam_unix(cron:session): session closed for user root
+Aug 24 10:10:01 T4145 CRON[4219]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:10:11 T4145 CRON[4219]: pam_unix(cron:session): session closed for user root
+Aug 24 10:15:01 T4145 CRON[4231]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:15:11 T4145 CRON[4231]: pam_unix(cron:session): session closed for user root
+Aug 24 10:17:01 T4145 CRON[4237]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:17:01 T4145 CRON[4237]: pam_unix(cron:session): session closed for user root
+Aug 24 10:20:01 T4145 CRON[4244]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:20:11 T4145 CRON[4244]: pam_unix(cron:session): session closed for user root
+Aug 24 10:24:04 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 10:24:04 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 10:24:08 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 10:25:01 T4145 CRON[4274]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:25:11 T4145 CRON[4274]: pam_unix(cron:session): session closed for user root
+Aug 24 10:30:01 T4145 CRON[4285]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:30:11 T4145 CRON[4285]: pam_unix(cron:session): session closed for user root
+Aug 24 10:35:02 T4145 CRON[4297]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:35:12 T4145 CRON[4297]: pam_unix(cron:session): session closed for user root
+Aug 24 10:40:01 T4145 CRON[4307]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:40:11 T4145 CRON[4307]: pam_unix(cron:session): session closed for user root
+Aug 24 10:45:01 T4145 CRON[4319]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:45:11 T4145 CRON[4319]: pam_unix(cron:session): session closed for user root
+Aug 24 10:50:01 T4145 CRON[4331]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:50:11 T4145 CRON[4331]: pam_unix(cron:session): session closed for user root
+Aug 24 10:54:04 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 10:54:04 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 10:54:09 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 10:55:01 T4145 CRON[4361]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:55:11 T4145 CRON[4361]: pam_unix(cron:session): session closed for user root
+Aug 24 11:00:01 T4145 CRON[4372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 11:00:11 T4145 CRON[4372]: pam_unix(cron:session): session closed for user root
+Aug 24 11:05:01 T4145 CRON[4383]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 11:05:11 T4145 CRON[4383]: pam_unix(cron:session): session closed for user root
+Aug 24 11:10:01 T4145 CRON[4392]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 11:10:11 T4145 CRON[4392]: pam_unix(cron:session): session closed for user root
+Aug 24 11:15:01 T4145 CRON[4405]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 11:15:11 T4145 CRON[4405]: pam_unix(cron:session): session closed for user root
+Aug 24 11:17:01 T4145 CRON[4411]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 11:17:01 T4145 CRON[4411]: pam_unix(cron:session): session closed for user root
+Aug 24 11:20:01 T4145 CRON[4417]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 11:20:11 T4145 CRON[4417]: pam_unix(cron:session): session closed for user root
+Aug 24 11:24:04 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 11:24:04 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 11:24:09 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 11:25:01 T4145 CRON[4447]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 11:25:11 T4145 CRON[4447]: pam_unix(cron:session): session closed for user root
+Aug 24 11:30:01 T4145 CRON[4458]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 11:30:11 T4145 CRON[4458]: pam_unix(cron:session): session closed for user root
+Aug 24 11:35:01 T4145 CRON[4469]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 11:35:11 T4145 CRON[4469]: pam_unix(cron:session): session closed for user root
+Aug 24 11:40:01 T4145 CRON[4480]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 11:40:11 T4145 CRON[4480]: pam_unix(cron:session): session closed for user root
+Aug 24 11:45:01 T4145 CRON[4492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 11:45:11 T4145 CRON[4492]: pam_unix(cron:session): session closed for user root
+Aug 24 11:50:01 T4145 CRON[4502]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 11:50:11 T4145 CRON[4502]: pam_unix(cron:session): session closed for user root
+Aug 24 11:54:04 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 11:54:04 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 11:54:09 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 11:55:01 T4145 CRON[4542]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 11:55:11 T4145 CRON[4542]: pam_unix(cron:session): session closed for user root
+Aug 24 12:00:01 T4145 CRON[4553]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 12:00:11 T4145 CRON[4553]: pam_unix(cron:session): session closed for user root
+Aug 24 12:05:01 T4145 CRON[4565]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 12:05:11 T4145 CRON[4565]: pam_unix(cron:session): session closed for user root
+Aug 24 12:10:01 T4145 CRON[4575]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 12:10:11 T4145 CRON[4575]: pam_unix(cron:session): session closed for user root
+Aug 24 12:15:01 T4145 CRON[4587]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 12:15:11 T4145 CRON[4587]: pam_unix(cron:session): session closed for user root
+Aug 24 12:17:01 T4145 CRON[4592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 12:17:01 T4145 CRON[4592]: pam_unix(cron:session): session closed for user root
+Aug 24 12:20:01 T4145 CRON[4601]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 12:20:11 T4145 CRON[4601]: pam_unix(cron:session): session closed for user root
+Aug 24 12:24:04 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 12:24:04 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 12:24:09 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 12:25:01 T4145 CRON[4631]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 12:25:11 T4145 CRON[4631]: pam_unix(cron:session): session closed for user root
+Aug 24 12:30:01 T4145 CRON[4641]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 12:30:11 T4145 CRON[4641]: pam_unix(cron:session): session closed for user root
+Aug 24 12:35:01 T4145 CRON[4653]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 12:35:11 T4145 CRON[4653]: pam_unix(cron:session): session closed for user root
+Aug 24 12:40:01 T4145 CRON[4664]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 12:40:11 T4145 CRON[4664]: pam_unix(cron:session): session closed for user root
+Aug 24 12:45:01 T4145 CRON[4677]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 12:45:11 T4145 CRON[4677]: pam_unix(cron:session): session closed for user root
+Aug 24 12:50:01 T4145 CRON[4688]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 12:50:11 T4145 CRON[4688]: pam_unix(cron:session): session closed for user root
+Aug 24 12:54:05 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 12:54:05 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 12:54:09 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 12:55:01 T4145 CRON[4718]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 12:55:11 T4145 CRON[4718]: pam_unix(cron:session): session closed for user root
+Aug 24 13:00:01 T4145 CRON[4729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 13:00:11 T4145 CRON[4729]: pam_unix(cron:session): session closed for user root
+Aug 24 13:05:01 T4145 CRON[4741]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 13:05:11 T4145 CRON[4741]: pam_unix(cron:session): session closed for user root
+Aug 24 13:10:01 T4145 CRON[4752]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 13:10:11 T4145 CRON[4752]: pam_unix(cron:session): session closed for user root
+                                                                                                                                                                                         Aug 24 13:17:10 T4145 systemd-logind[1001]: New seat seat0.
+Aug 24 13:17:14 T4145 sshd[1359]: Server listening on 0.0.0.0 port 22.
+Aug 24 13:17:14 T4145 sshd[1359]: Server listening on :: port 22.
+Aug 24 13:17:14 T4145 CRON[1456]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 13:17:14 T4145 CRON[1456]: pam_unix(cron:session): session closed for user root
+Aug 24 13:17:18 T4145 mdm[1613]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 24 13:17:18 T4145 mdm[1613]: PAM adding faulty module: pam_kwallet.so
+Aug 24 13:17:29 T4145 dbus[879]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=1785 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=1048 comm="NetworkManager ")
+Aug 24 13:17:40 T4145 mdm[1613]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "anthem-training"
+Aug 24 13:17:45 T4145 mdm[1613]: pam_unix(mdm:session): session opened for user anthem-training by (uid=0)
+Aug 24 13:17:45 T4145 systemd-logind[1001]: New session c1 of user anthem-training.
+Aug 24 13:17:45 T4145 systemd-logind[1001]: Linked /tmp/.X11-unix/X0 to /run/user/1003/X11-display.
+Aug 24 13:17:45 T4145 mdm[1613]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Aug 24 13:17:51 T4145 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug 24 13:20:01 T4145 CRON[2838]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 13:20:02 T4145 CRON[2838]: pam_unix(cron:session): session closed for user root
+Aug 24 13:25:01 T4145 CRON[3097]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 13:25:01 T4145 CRON[3097]: pam_unix(cron:session): session closed for user root
+Aug 24 13:30:01 T4145 CRON[3119]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 13:30:06 T4145 CRON[3119]: pam_unix(cron:session): session closed for user root
+Aug 24 13:35:01 T4145 CRON[3342]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 13:35:02 T4145 CRON[3342]: pam_unix(cron:session): session closed for user root
+Aug 24 13:40:01 T4145 CRON[3559]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 13:40:04 T4145 CRON[3559]: pam_unix(cron:session): session closed for user root
+Aug 24 13:45:01 T4145 CRON[3783]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 13:45:03 T4145 CRON[3783]: pam_unix(cron:session): session closed for user root
+Aug 24 13:45:51 T4145 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Aug 24 13:45:51 T4145 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [anthem-training]
+Aug 24 13:47:55 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 13:47:55 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 13:50:01 T4145 CRON[4032]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 13:50:02 T4145 CRON[4032]: pam_unix(cron:session): session closed for user root
+Aug 24 13:52:35 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 13:55:01 T4145 CRON[4257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 13:55:03 T4145 CRON[4257]: pam_unix(cron:session): session closed for user root
+Aug 24 14:00:01 T4145 CRON[4475]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 14:00:03 T4145 CRON[4475]: pam_unix(cron:session): session closed for user root
+Aug 24 14:05:01 T4145 CRON[4693]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 14:05:03 T4145 CRON[4693]: pam_unix(cron:session): session closed for user root
+Aug 24 14:10:01 T4145 CRON[4917]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 14:10:03 T4145 CRON[4917]: pam_unix(cron:session): session closed for user root
+Aug 24 14:11:45 T4145 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Aug 24 14:11:45 T4145 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [anthem-training]
+Aug 24 14:15:01 T4145 CRON[5135]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 14:15:05 T4145 CRON[5135]: pam_unix(cron:session): session closed for user root
+Aug 24 14:17:01 T4145 CRON[5350]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 14:17:01 T4145 CRON[5350]: pam_unix(cron:session): session closed for user root
+Aug 24 14:17:30 T4145 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Aug 24 14:17:30 T4145 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [anthem-training]
+Aug 24 14:17:55 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 14:17:55 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 14:18:02 T4145 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Aug 24 14:18:02 T4145 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [anthem-training]
+Aug 24 14:20:01 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 14:20:01 T4145 CRON[5397]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 14:20:02 T4145 CRON[5397]: pam_unix(cron:session): session closed for user root
+Aug 24 14:25:01 T4145 CRON[5614]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 14:25:05 T4145 CRON[5614]: pam_unix(cron:session): session closed for user root
+Aug 24 14:30:01 T4145 CRON[5833]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 14:30:04 T4145 CRON[5833]: pam_unix(cron:session): session closed for user root
+Aug 24 14:35:01 T4145 CRON[6128]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 14:35:02 T4145 CRON[6128]: pam_unix(cron:session): session closed for user root
+Aug 24 14:40:01 T4145 CRON[6362]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 14:40:02 T4145 CRON[6362]: pam_unix(cron:session): session closed for user root
+Aug 24 14:45:01 T4145 CRON[6601]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 14:45:04 T4145 CRON[6601]: pam_unix(cron:session): session closed for user root
+Aug 24 14:47:55 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 14:47:55 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 14:50:01 T4145 CRON[6852]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 14:50:04 T4145 CRON[6852]: pam_unix(cron:session): session closed for user root
+Aug 24 14:52:35 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 14:55:01 T4145 CRON[7085]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 14:55:03 T4145 CRON[7085]: pam_unix(cron:session): session closed for user root
+Aug 24 15:00:01 T4145 CRON[7306]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 15:00:07 T4145 CRON[7306]: pam_unix(cron:session): session closed for user root
+Aug 24 15:05:01 T4145 CRON[7524]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 15:05:04 T4145 CRON[7524]: pam_unix(cron:session): session closed for user root
+Aug 24 15:10:01 T4145 CRON[7742]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 15:10:05 T4145 CRON[7742]: pam_unix(cron:session): session closed for user root
+Aug 24 15:15:01 T4145 CRON[7962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 15:15:03 T4145 CRON[7962]: pam_unix(cron:session): session closed for user root
+Aug 24 15:17:01 T4145 CRON[8175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 15:17:01 T4145 CRON[8175]: pam_unix(cron:session): session closed for user root
+Aug 24 15:17:55 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 15:17:55 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 15:20:01 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 15:20:01 T4145 CRON[8221]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 15:20:04 T4145 CRON[8221]: pam_unix(cron:session): session closed for user root
+Aug 24 15:25:01 T4145 CRON[8493]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 15:25:02 T4145 CRON[8493]: pam_unix(cron:session): session closed for user root
+Aug 24 15:30:01 T4145 CRON[8744]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 15:30:05 T4145 CRON[8744]: pam_unix(cron:session): session closed for user root
+Aug 24 15:35:01 T4145 CRON[8960]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 15:35:05 T4145 CRON[8960]: pam_unix(cron:session): session closed for user root
+Aug 24 15:40:01 T4145 CRON[9181]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 15:40:02 T4145 CRON[9181]: pam_unix(cron:session): session closed for user root
+Aug 24 15:45:01 T4145 CRON[9398]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 15:45:07 T4145 CRON[9398]: pam_unix(cron:session): session closed for user root
+Aug 24 15:47:55 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 15:47:55 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 15:50:01 T4145 CRON[9653]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 15:50:04 T4145 CRON[9653]: pam_unix(cron:session): session closed for user root
+Aug 24 15:52:35 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 15:55:01 T4145 CRON[9891]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 15:55:04 T4145 CRON[9891]: pam_unix(cron:session): session closed for user root
+Aug 24 16:00:01 T4145 CRON[10113]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 16:00:06 T4145 CRON[10113]: pam_unix(cron:session): session closed for user root
+Aug 24 16:05:01 T4145 CRON[10335]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 16:05:05 T4145 CRON[10335]: pam_unix(cron:session): session closed for user root
+Aug 24 16:10:01 T4145 CRON[10555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 16:10:04 T4145 CRON[10555]: pam_unix(cron:session): session closed for user root
+Aug 24 16:15:01 T4145 CRON[10774]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 16:15:05 T4145 CRON[10774]: pam_unix(cron:session): session closed for user root
+Aug 24 16:17:01 T4145 CRON[11045]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 16:17:01 T4145 CRON[11045]: pam_unix(cron:session): session closed for user root
+Aug 24 16:17:56 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 16:17:56 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 16:20:01 T4145 CRON[11106]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 16:20:02 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 16:20:03 T4145 CRON[11106]: pam_unix(cron:session): session closed for user root
+Aug 24 16:25:01 T4145 CRON[11324]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 16:25:03 T4145 CRON[11324]: pam_unix(cron:session): session closed for user root
+Aug 24 16:30:01 T4145 CRON[11543]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 16:30:05 T4145 CRON[11543]: pam_unix(cron:session): session closed for user root
+Aug 24 16:35:01 T4145 CRON[11773]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 16:35:02 T4145 CRON[11773]: pam_unix(cron:session): session closed for user root
+Aug 24 16:40:01 T4145 CRON[11992]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 16:40:03 T4145 CRON[11992]: pam_unix(cron:session): session closed for user root
+Aug 24 16:45:01 T4145 CRON[12216]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 16:45:06 T4145 CRON[12216]: pam_unix(cron:session): session closed for user root
+Aug 24 16:47:56 T4145 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 16:47:56 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 16:50:01 T4145 CRON[12465]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 16:50:02 T4145 CRON[12465]: pam_unix(cron:session): session closed for user root
+Aug 24 16:52:02 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 16:55:01 T4145 CRON[12685]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 16:55:03 T4145 CRON[12685]: pam_unix(cron:session): session closed for user root
+Aug 24 17:00:01 T4145 CRON[12904]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 17:00:06 T4145 CRON[12904]: pam_unix(cron:session): session closed for user root
+Aug 24 17:05:01 T4145 CRON[13128]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 17:05:03 T4145 CRON[13128]: pam_unix(cron:session): session closed for user root
+Aug 24 17:10:01 T4145 CRON[13347]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 17:10:04 T4145 CRON[13347]: pam_unix(cron:session): session closed for user root
+Aug 24 17:15:01 T4145 CRON[13852]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 17:15:03 T4145 CRON[13852]: pam_unix(cron:session): session closed for user root
+Aug 24 17:16:51 T4145 mdm[1613]: pam_unix(mdm:session): session closed for user anthem-training
+Aug 24 17:16:51 T4145 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.33, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Aug 24 17:16:54 T4145 mdm[14224]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 24 17:16:54 T4145 mdm[14224]: PAM adding faulty module: pam_kwallet.so
+Aug 24 17:17:01 T4145 CRON[14246]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 17:17:01 T4145 CRON[14246]: pam_unix(cron:session): session closed for user root
+Aug 24 17:20:01 T4145 CRON[14259]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 17:20:04 T4145 CRON[14259]: pam_unix(cron:session): session closed for user root
+Aug 24 17:25:01 T4145 CRON[14481]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 17:25:03 T4145 CRON[14481]: pam_unix(cron:session): session closed for user root
+Aug 24 17:30:01 T4145 CRON[14701]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 17:30:02 T4145 CRON[14701]: pam_unix(cron:session): session closed for user root
+Aug 24 17:35:01 T4145 CRON[14923]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 17:35:03 T4145 CRON[14923]: pam_unix(cron:session): session closed for user root
+Aug 24 17:40:01 T4145 CRON[15142]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 17:40:04 T4145 CRON[15142]: pam_unix(cron:session): session closed for user root
+Aug 24 17:45:01 T4145 CRON[15361]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 17:45:03 T4145 CRON[15361]: pam_unix(cron:session): session closed for user root
+Aug 24 17:50:01 T4145 CRON[15580]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 17:50:03 T4145 CRON[15580]: pam_unix(cron:session): session closed for user root
+Aug 24 17:55:01 T4145 CRON[15796]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 17:55:02 T4145 CRON[15796]: pam_unix(cron:session): session closed for user root
+Aug 24 18:00:01 T4145 CRON[16020]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 18:00:04 T4145 CRON[16020]: pam_unix(cron:session): session closed for user root
+Aug 24 18:05:01 T4145 CRON[16237]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 18:05:04 T4145 CRON[16237]: pam_unix(cron:session): session closed for user root
+Aug 24 18:10:01 T4145 CRON[16455]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 18:10:03 T4145 CRON[16455]: pam_unix(cron:session): session closed for user root
+Aug 24 18:15:01 T4145 CRON[16672]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 18:15:06 T4145 CRON[16672]: pam_unix(cron:session): session closed for user root
+Aug 24 18:17:01 T4145 CRON[16887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 18:17:01 T4145 CRON[16887]: pam_unix(cron:session): session closed for user root
+Aug 24 18:20:01 T4145 CRON[16895]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 18:20:03 T4145 CRON[16895]: pam_unix(cron:session): session closed for user root
+Aug 24 18:25:01 T4145 CRON[17114]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 18:25:04 T4145 CRON[17114]: pam_unix(cron:session): session closed for user root
+Aug 24 18:30:01 T4145 CRON[17332]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 18:30:03 T4145 CRON[17332]: pam_unix(cron:session): session closed for user root
+Aug 24 18:35:01 T4145 CRON[17549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 18:35:04 T4145 CRON[17549]: pam_unix(cron:session): session closed for user root
+Aug 24 18:40:01 T4145 CRON[17769]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 18:40:02 T4145 CRON[17769]: pam_unix(cron:session): session closed for user root
+Aug 24 18:45:01 T4145 CRON[17987]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 18:45:03 T4145 CRON[17987]: pam_unix(cron:session): session closed for user root
+Aug 24 18:50:01 T4145 CRON[18205]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 18:50:04 T4145 CRON[18205]: pam_unix(cron:session): session closed for user root
+Aug 24 18:55:01 T4145 CRON[18427]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 18:55:02 T4145 CRON[18427]: pam_unix(cron:session): session closed for user root
+Aug 24 19:00:01 T4145 CRON[18645]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 19:00:06 T4145 CRON[18645]: pam_unix(cron:session): session closed for user root
+Aug 24 19:05:01 T4145 CRON[18861]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 19:05:02 T4145 CRON[18861]: pam_unix(cron:session): session closed for user root
+Aug 24 19:10:01 T4145 CRON[19080]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 19:10:03 T4145 CRON[19080]: pam_unix(cron:session): session closed for user root
+Aug 24 19:15:01 T4145 CRON[19296]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 19:15:05 T4145 CRON[19296]: pam_unix(cron:session): session closed for user root
+Aug 24 19:17:01 T4145 CRON[19509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 19:17:01 T4145 CRON[19509]: pam_unix(cron:session): session closed for user root
+Aug 24 19:20:01 T4145 CRON[19519]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 19:20:03 T4145 CRON[19519]: pam_unix(cron:session): session closed for user root
+Aug 24 19:25:01 T4145 CRON[19742]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 19:25:03 T4145 CRON[19742]: pam_unix(cron:session): session closed for user root
+Aug 24 19:30:01 T4145 CRON[19962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 19:30:05 T4145 CRON[19962]: pam_unix(cron:session): session closed for user root
+Aug 24 19:35:01 T4145 CRON[20180]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 19:35:02 T4145 CRON[20180]: pam_unix(cron:session): session closed for user root
+Aug 24 19:40:01 T4145 CRON[20398]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 19:40:03 T4145 CRON[20398]: pam_unix(cron:session): session closed for user root
+Aug 24 19:45:01 T4145 CRON[20615]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 19:45:04 T4145 CRON[20615]: pam_unix(cron:session): session closed for user root
+Aug 24 19:50:01 T4145 CRON[20839]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 19:50:02 T4145 CRON[20839]: pam_unix(cron:session): session closed for user root
+Aug 24 19:55:01 T4145 CRON[21057]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 19:55:03 T4145 CRON[21057]: pam_unix(cron:session): session closed for user root
+Aug 24 20:00:01 T4145 CRON[21276]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 20:00:04 T4145 CRON[21276]: pam_unix(cron:session): session closed for user root
+Aug 24 20:05:02 T4145 CRON[21492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 20:05:04 T4145 CRON[21492]: pam_unix(cron:session): session closed for user root
+Aug 24 20:10:01 T4145 CRON[21709]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 20:10:02 T4145 CRON[21709]: pam_unix(cron:session): session closed for user root
+Aug 24 20:15:01 T4145 CRON[21931]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 20:15:04 T4145 CRON[21931]: pam_unix(cron:session): session closed for user root
+Aug 24 20:17:01 T4145 CRON[22144]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 20:17:01 T4145 CRON[22144]: pam_unix(cron:session): session closed for user root
+Aug 24 20:20:01 T4145 CRON[22152]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 20:20:03 T4145 CRON[22152]: pam_unix(cron:session): session closed for user root
+Aug 24 20:25:01 T4145 CRON[22369]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 20:25:04 T4145 CRON[22369]: pam_unix(cron:session): session closed for user root
+Aug 24 20:30:01 T4145 CRON[22586]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 20:30:03 T4145 CRON[22586]: pam_unix(cron:session): session closed for user root
+Aug 24 20:35:01 T4145 CRON[22802]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 20:35:04 T4145 CRON[22802]: pam_unix(cron:session): session closed for user root
+Aug 24 20:40:01 T4145 CRON[23022]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 20:40:02 T4145 CRON[23022]: pam_unix(cron:session): session closed for user root
+Aug 24 20:45:01 T4145 CRON[23243]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 20:45:05 T4145 CRON[23243]: pam_unix(cron:session): session closed for user root
+Aug 24 20:50:01 T4145 CRON[23461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 20:50:03 T4145 CRON[23461]: pam_unix(cron:session): session closed for user root
+Aug 24 20:55:01 T4145 CRON[23678]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 20:55:02 T4145 CRON[23678]: pam_unix(cron:session): session closed for user root
+Aug 24 21:00:01 T4145 CRON[23896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 21:00:03 T4145 CRON[23896]: pam_unix(cron:session): session closed for user root
+Aug 24 21:05:01 T4145 CRON[24113]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 21:05:03 T4145 CRON[24113]: pam_unix(cron:session): session closed for user root
+Aug 24 21:10:01 T4145 CRON[24336]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 21:10:03 T4145 CRON[24336]: pam_unix(cron:session): session closed for user root
+Aug 24 21:15:01 T4145 CRON[24553]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 21:15:05 T4145 CRON[24553]: pam_unix(cron:session): session closed for user root
+Aug 24 21:17:01 T4145 CRON[24767]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 21:17:01 T4145 CRON[24767]: pam_unix(cron:session): session closed for user root
+Aug 24 21:20:01 T4145 CRON[24776]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 21:20:03 T4145 CRON[24776]: pam_unix(cron:session): session closed for user root
+Aug 24 21:25:01 T4145 CRON[24992]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 21:25:03 T4145 CRON[24992]: pam_unix(cron:session): session closed for user root
+Aug 24 21:30:01 T4145 CRON[25210]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 21:30:04 T4145 CRON[25210]: pam_unix(cron:session): session closed for user root
+Aug 24 21:35:01 T4145 CRON[25433]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 21:35:03 T4145 CRON[25433]: pam_unix(cron:session): session closed for user root
+Aug 24 21:40:01 T4145 CRON[25651]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 21:40:03 T4145 CRON[25651]: pam_unix(cron:session): session closed for user root
+Aug 24 21:45:01 T4145 CRON[25867]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 21:45:05 T4145 CRON[25867]: pam_unix(cron:session): session closed for user root
+Aug 24 21:50:01 T4145 CRON[26084]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 21:50:02 T4145 CRON[26084]: pam_unix(cron:session): session closed for user root
+Aug 24 21:55:01 T4145 CRON[26301]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 21:55:03 T4145 CRON[26301]: pam_unix(cron:session): session closed for user root
+Aug 24 22:00:01 T4145 CRON[26525]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 22:00:04 T4145 CRON[26525]: pam_unix(cron:session): session closed for user root
+Aug 24 22:05:01 T4145 CRON[26743]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 22:05:02 T4145 CRON[26743]: pam_unix(cron:session): session closed for user root
+Aug 24 22:10:01 T4145 CRON[26961]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 22:10:02 T4145 CRON[26961]: pam_unix(cron:session): session closed for user root
+Aug 24 22:15:01 T4145 CRON[27178]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 22:15:05 T4145 CRON[27178]: pam_unix(cron:session): session closed for user root
+Aug 24 22:17:01 T4145 CRON[27392]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 22:17:01 T4145 CRON[27392]: pam_unix(cron:session): session closed for user root
+Aug 24 22:20:01 T4145 CRON[27400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 22:20:03 T4145 CRON[27400]: pam_unix(cron:session): session closed for user root
+Aug 24 22:25:01 T4145 CRON[27623]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 22:25:02 T4145 CRON[27623]: pam_unix(cron:session): session closed for user root
+Aug 24 22:30:01 T4145 CRON[27842]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 22:30:04 T4145 CRON[27842]: pam_unix(cron:session): session closed for user root
+Aug 24 22:35:01 T4145 CRON[28058]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 22:35:02 T4145 CRON[28058]: pam_unix(cron:session): session closed for user root
+Aug 24 22:40:01 T4145 CRON[28276]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 22:40:03 T4145 CRON[28276]: pam_unix(cron:session): session closed for user root
+Aug 24 22:41:14 T4145 dbus[879]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=1785 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=1048 comm="NetworkManager ")
+Aug 24 22:45:01 T4145 CRON[28522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 22:45:21 T4145 CRON[28522]: pam_unix(cron:session): session closed for user root
+Aug 24 22:50:01 T4145 CRON[28534]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 22:50:11 T4145 CRON[28534]: pam_unix(cron:session): session closed for user root
+Aug 24 22:55:01 T4145 CRON[28544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 22:55:11 T4145 CRON[28544]: pam_unix(cron:session): session closed for user root
+Aug 24 23:00:01 T4145 CRON[28553]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 23:00:11 T4145 CRON[28553]: pam_unix(cron:session): session closed for user root
+Aug 24 23:05:01 T4145 CRON[28564]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 23:05:11 T4145 CRON[28564]: pam_unix(cron:session): session closed for user root
+Aug 24 23:10:01 T4145 CRON[28573]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 23:10:11 T4145 CRON[28573]: pam_unix(cron:session): session closed for user root
+Aug 24 23:15:01 T4145 CRON[28583]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 23:15:11 T4145 CRON[28583]: pam_unix(cron:session): session closed for user root
+Aug 24 23:17:01 T4145 CRON[28588]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 23:17:01 T4145 CRON[28588]: pam_unix(cron:session): session closed for user root
+Aug 24 23:20:01 T4145 CRON[28596]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 23:20:11 T4145 CRON[28596]: pam_unix(cron:session): session closed for user root
+Aug 24 23:25:01 T4145 CRON[28606]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 23:25:11 T4145 CRON[28606]: pam_unix(cron:session): session closed for user root
+Aug 24 23:26:11 T4145 dbus[879]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=1785 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=1048 comm="NetworkManager ")
+Aug 24 23:30:01 T4145 CRON[28704]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 23:30:05 T4145 CRON[28704]: pam_unix(cron:session): session closed for user root
+Aug 24 23:35:01 T4145 CRON[28920]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 23:35:01 T4145 CRON[28920]: pam_unix(cron:session): session closed for user root
+Aug 24 23:40:01 T4145 CRON[29138]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 23:40:30 T4145 CRON[29138]: pam_unix(cron:session): session closed for user root
+Aug 24 23:45:01 T4145 CRON[29147]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 23:45:11 T4145 CRON[29147]: pam_unix(cron:session): session closed for user root
+Aug 24 23:50:01 T4145 CRON[29158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 23:50:11 T4145 CRON[29158]: pam_unix(cron:session): session closed for user root
+Aug 24 23:55:01 T4145 CRON[29169]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 23:55:11 T4145 CRON[29169]: pam_unix(cron:session): session closed for user root
+Aug 25 00:00:01 T4145 CRON[29178]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 00:00:11 T4145 CRON[29178]: pam_unix(cron:session): session closed for user root
+Aug 25 00:05:01 T4145 CRON[29187]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 00:05:11 T4145 CRON[29187]: pam_unix(cron:session): session closed for user root
+Aug 25 00:10:01 T4145 CRON[29197]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 00:10:11 T4145 CRON[29197]: pam_unix(cron:session): session closed for user root
+Aug 25 00:15:01 T4145 CRON[29206]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 00:15:11 T4145 CRON[29206]: pam_unix(cron:session): session closed for user root
+Aug 25 00:17:01 T4145 CRON[29212]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 00:17:01 T4145 CRON[29212]: pam_unix(cron:session): session closed for user root
+Aug 25 00:20:01 T4145 CRON[29220]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 00:20:11 T4145 CRON[29220]: pam_unix(cron:session): session closed for user root
+Aug 25 00:25:01 T4145 CRON[29228]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 00:25:11 T4145 CRON[29228]: pam_unix(cron:session): session closed for user root
+Aug 25 00:30:01 T4145 CRON[29239]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 00:30:11 T4145 CRON[29239]: pam_unix(cron:session): session closed for user root
+Aug 25 00:30:41 T4145 dbus[879]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=1785 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=1048 comm="NetworkManager ")
+Aug 25 00:35:01 T4145 CRON[29277]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 00:35:11 T4145 CRON[29277]: pam_unix(cron:session): session closed for user root
+Aug 25 00:40:01 T4145 CRON[29302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 00:40:11 T4145 CRON[29302]: pam_unix(cron:session): session closed for user root
+Aug 25 00:45:01 T4145 CRON[29312]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 00:45:11 T4145 CRON[29312]: pam_unix(cron:session): session closed for user root
+Aug 25 00:45:17 T4145 dbus[879]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=1785 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=1048 comm="NetworkManager ")
+Aug 25 00:50:01 T4145 CRON[29407]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 00:50:02 T4145 CRON[29407]: pam_unix(cron:session): session closed for user root
+Aug 25 00:55:01 T4145 CRON[29623]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 00:55:02 T4145 CRON[29623]: pam_unix(cron:session): session closed for user root
+Aug 25 01:00:01 T4145 CRON[29841]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 01:00:02 T4145 CRON[29841]: pam_unix(cron:session): session closed for user root
+Aug 25 01:05:01 T4145 CRON[30059]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 01:05:02 T4145 CRON[30059]: pam_unix(cron:session): session closed for user root
+Aug 25 01:10:01 T4145 CRON[30281]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 01:10:02 T4145 CRON[30281]: pam_unix(cron:session): session closed for user root
+Aug 25 01:15:01 T4145 CRON[30498]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 01:15:02 T4145 CRON[30498]: pam_unix(cron:session): session closed for user root
+Aug 25 01:17:01 T4145 CRON[30712]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 01:17:01 T4145 CRON[30712]: pam_unix(cron:session): session closed for user root
+Aug 25 01:20:01 T4145 CRON[30719]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 01:20:01 T4145 CRON[30719]: pam_unix(cron:session): session closed for user root
+Aug 25 01:25:01 T4145 CRON[30940]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 01:25:03 T4145 CRON[30940]: pam_unix(cron:session): session closed for user root
+Aug 25 01:30:01 T4145 CRON[31158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 01:30:03 T4145 CRON[31158]: pam_unix(cron:session): session closed for user root
+Aug 25 01:35:01 T4145 CRON[31379]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 01:35:02 T4145 CRON[31379]: pam_unix(cron:session): session closed for user root
+Aug 25 01:40:01 T4145 CRON[31598]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 01:40:03 T4145 CRON[31598]: pam_unix(cron:session): session closed for user root
+Aug 25 01:45:01 T4145 CRON[31817]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 01:45:04 T4145 CRON[31817]: pam_unix(cron:session): session closed for user root
+Aug 25 01:50:01 T4145 CRON[32034]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 01:50:03 T4145 CRON[32034]: pam_unix(cron:session): session closed for user root
+Aug 25 01:55:01 T4145 CRON[32252]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 01:55:02 T4145 CRON[32252]: pam_unix(cron:session): session closed for user root
+Aug 25 02:00:01 T4145 CRON[32469]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 02:00:03 T4145 CRON[32469]: pam_unix(cron:session): session closed for user root
+Aug 25 02:05:01 T4145 CRON[32690]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 02:05:02 T4145 CRON[32690]: pam_unix(cron:session): session closed for user root
+Aug 25 02:10:01 T4145 CRON[442]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 02:10:03 T4145 CRON[442]: pam_unix(cron:session): session closed for user root
+Aug 25 02:15:01 T4145 CRON[668]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 02:15:02 T4145 CRON[668]: pam_unix(cron:session): session closed for user root
+Aug 25 02:17:01 T4145 CRON[887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 02:17:01 T4145 CRON[887]: pam_unix(cron:session): session closed for user root
+Aug 25 02:20:01 T4145 CRON[895]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 02:20:03 T4145 CRON[895]: pam_unix(cron:session): session closed for user root
+Aug 25 02:25:01 T4145 CRON[1133]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 02:25:02 T4145 CRON[1133]: pam_unix(cron:session): session closed for user root
+Aug 25 02:30:01 T4145 CRON[1362]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 02:30:03 T4145 CRON[1362]: pam_unix(cron:session): session closed for user root
+Aug 25 02:35:01 T4145 CRON[1582]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 02:35:03 T4145 CRON[1582]: pam_unix(cron:session): session closed for user root
+Aug 25 02:40:01 T4145 CRON[1809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 02:40:02 T4145 CRON[1809]: pam_unix(cron:session): session closed for user root
+Aug 25 02:45:01 T4145 CRON[2095]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 02:45:02 T4145 CRON[2095]: pam_unix(cron:session): session closed for user root
+Aug 25 02:50:01 T4145 CRON[2314]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 02:50:02 T4145 CRON[2314]: pam_unix(cron:session): session closed for user root
+Aug 25 02:55:01 T4145 CRON[2542]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 02:55:03 T4145 CRON[2542]: pam_unix(cron:session): session closed for user root
+Aug 25 03:00:01 T4145 CRON[2768]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 03:00:01 T4145 CRON[2769]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 03:00:04 T4145 CRON[2768]: pam_unix(cron:session): session closed for user root
+Aug 25 03:05:01 T4145 CRON[3297]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 03:05:02 T4145 CRON[3297]: pam_unix(cron:session): session closed for user root
+Aug 25 03:10:01 T4145 CRON[3814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 03:10:03 T4145 CRON[3814]: pam_unix(cron:session): session closed for user root
+Aug 25 03:15:01 T4145 CRON[4331]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 03:15:03 T4145 CRON[4331]: pam_unix(cron:session): session closed for user root
+Aug 25 03:17:01 T4145 CRON[4664]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 03:17:01 T4145 CRON[4664]: pam_unix(cron:session): session closed for user root
+Aug 25 03:20:01 T4145 CRON[4856]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 03:20:02 T4145 CRON[4856]: pam_unix(cron:session): session closed for user root
+Aug 25 03:25:01 T4145 CRON[5373]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 03:25:02 T4145 CRON[5373]: pam_unix(cron:session): session closed for user root
+Aug 25 03:30:01 T4145 CRON[5889]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 03:30:04 T4145 CRON[5889]: pam_unix(cron:session): session closed for user root
+Aug 25 03:32:09 T4145 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Aug 25 03:32:09 T4145 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 25 03:32:09 T4145 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 03:35:01 T4145 CRON[7057]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 03:35:03 T4145 CRON[7057]: pam_unix(cron:session): session closed for user root
+Aug 25 03:40:02 T4145 CRON[7279]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 03:40:07 T4145 CRON[7279]: pam_unix(cron:session): session closed for user root
+Aug 25 03:45:01 T4145 CRON[7509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 03:45:09 T4145 CRON[7509]: pam_unix(cron:session): session closed for user root
+Aug 25 03:50:01 T4145 CRON[7747]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 03:50:06 T4145 CRON[7747]: pam_unix(cron:session): session closed for user root
+Aug 25 03:55:01 T4145 CRON[7968]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 03:55:05 T4145 CRON[7968]: pam_unix(cron:session): session closed for user root
+Aug 25 04:00:01 T4145 CRON[8202]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 04:00:07 T4145 CRON[8202]: pam_unix(cron:session): session closed for user root
+Aug 25 04:05:01 T4145 CRON[8431]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 04:05:06 T4145 CRON[8431]: pam_unix(cron:session): session closed for user root
+Aug 25 04:10:01 T4145 CRON[8654]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 04:10:07 T4145 CRON[8654]: pam_unix(cron:session): session closed for user root
+Aug 25 04:15:01 T4145 CRON[8870]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 04:15:06 T4145 CRON[8870]: pam_unix(cron:session): session closed for user root
+Aug 25 04:17:01 T4145 CRON[9089]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 04:17:01 T4145 CRON[9089]: pam_unix(cron:session): session closed for user root
+Aug 25 04:20:01 T4145 CRON[9101]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 04:20:08 T4145 CRON[9101]: pam_unix(cron:session): session closed for user root
+Aug 25 04:25:01 T4145 CRON[9324]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 04:25:07 T4145 CRON[9324]: pam_unix(cron:session): session closed for user root
+Aug 25 04:30:01 T4145 CRON[9548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 04:30:09 T4145 CRON[9548]: pam_unix(cron:session): session closed for user root
+Aug 25 04:35:01 T4145 CRON[9769]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 04:35:11 T4145 CRON[9769]: pam_unix(cron:session): session closed for user root
+Aug 25 04:40:01 T4145 CRON[9988]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 04:40:06 T4145 CRON[9988]: pam_unix(cron:session): session closed for user root
+Aug 25 04:45:01 T4145 CRON[10216]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 04:45:10 T4145 CRON[10216]: pam_unix(cron:session): session closed for user root
+Aug 25 04:50:01 T4145 CRON[10439]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 04:50:06 T4145 CRON[10439]: pam_unix(cron:session): session closed for user root
+Aug 25 04:55:01 T4145 CRON[10662]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 04:55:09 T4145 CRON[10662]: pam_unix(cron:session): session closed for user root
+Aug 25 05:00:01 T4145 CRON[10894]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 05:00:14 T4145 CRON[10894]: pam_unix(cron:session): session closed for user root
+Aug 25 05:05:01 T4145 CRON[11133]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 05:05:19 T4145 CRON[11133]: pam_unix(cron:session): session closed for user root
+Aug 25 05:10:01 T4145 CRON[11367]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 05:10:41 T4145 CRON[11367]: pam_unix(cron:session): session closed for user root
+Aug 25 05:15:01 T4145 CRON[11599]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 05:15:08 T4145 CRON[11599]: pam_unix(cron:session): session closed for user root
+Aug 25 05:17:01 T4145 CRON[11820]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 05:17:01 T4145 CRON[11820]: pam_unix(cron:session): session closed for user root
+Aug 25 05:20:01 T4145 CRON[11834]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 05:20:45 T4145 CRON[11834]: pam_unix(cron:session): session closed for user root
+Aug 25 05:25:01 T4145 CRON[12053]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 05:25:37 T4145 CRON[12053]: pam_unix(cron:session): session closed for user root
+Aug 25 05:30:01 T4145 CRON[12273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 05:30:39 T4145 CRON[12273]: pam_unix(cron:session): session closed for user root
+Aug 25 05:35:01 T4145 CRON[12497]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 05:35:06 T4145 CRON[12497]: pam_unix(cron:session): session closed for user root
+Aug 25 05:40:01 T4145 CRON[12730]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 05:40:16 T4145 CRON[12730]: pam_unix(cron:session): session closed for user root
+Aug 25 05:45:01 T4145 CRON[12958]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 05:45:11 T4145 CRON[12958]: pam_unix(cron:session): session closed for user root
+Aug 25 05:50:01 T4145 CRON[13177]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 05:50:37 T4145 CRON[13177]: pam_unix(cron:session): session closed for user root
+Aug 25 05:55:01 T4145 CRON[13395]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 05:55:09 T4145 CRON[13395]: pam_unix(cron:session): session closed for user root
+Aug 25 06:00:01 T4145 CRON[13614]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 06:00:35 T4145 CRON[13614]: pam_unix(cron:session): session closed for user root
+Aug 25 06:05:01 T4145 CRON[13831]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 06:05:23 T4145 CRON[13831]: pam_unix(cron:session): session closed for user root
+Aug 25 06:10:01 T4145 CRON[14049]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 06:10:14 T4145 CRON[14049]: pam_unix(cron:session): session closed for user root
+Aug 25 06:15:01 T4145 CRON[14290]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 06:15:21 T4145 CRON[14290]: pam_unix(cron:session): session closed for user root
+Aug 25 06:17:01 T4145 CRON[14508]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 06:17:01 T4145 CRON[14508]: pam_unix(cron:session): session closed for user root
+Aug 25 06:20:01 T4145 CRON[14515]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 06:20:34 T4145 CRON[14515]: pam_unix(cron:session): session closed for user root
+Aug 25 06:25:01 T4145 CRON[14738]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 06:25:01 T4145 CRON[14739]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 06:25:01 T4145 CRON[14739]: pam_unix(cron:session): session closed for user root
+Aug 25 06:25:44 T4145 CRON[14738]: pam_unix(cron:session): session closed for user root
+Aug 25 06:30:01 T4145 CRON[14960]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 06:30:20 T4145 CRON[14960]: pam_unix(cron:session): session closed for user root
+Aug 25 06:35:01 T4145 CRON[15184]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 06:35:12 T4145 CRON[15184]: pam_unix(cron:session): session closed for user root
+Aug 25 06:40:02 T4145 CRON[15406]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 06:40:16 T4145 CRON[15406]: pam_unix(cron:session): session closed for user root
+Aug 25 06:45:01 T4145 CRON[15624]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 06:45:20 T4145 CRON[15624]: pam_unix(cron:session): session closed for user root
+Aug 25 06:50:01 T4145 CRON[15846]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 06:50:16 T4145 CRON[15846]: pam_unix(cron:session): session closed for user root
+Aug 25 06:55:02 T4145 CRON[16064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 06:55:25 T4145 CRON[16064]: pam_unix(cron:session): session closed for user root
+Aug 25 07:00:02 T4145 CRON[16287]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 07:00:11 T4145 CRON[16287]: pam_unix(cron:session): session closed for user root
+Aug 25 07:05:01 T4145 CRON[16511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 07:05:06 T4145 CRON[16511]: pam_unix(cron:session): session closed for user root
+Aug 25 07:08:41 T4145 CRON[2769]: pam_unix(cron:session): session closed for user root
+Aug 25 07:10:01 T4145 CRON[16737]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 07:10:09 T4145 CRON[16737]: pam_unix(cron:session): session closed for user root
+Aug 25 07:15:01 T4145 CRON[16961]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 07:15:06 T4145 CRON[16961]: pam_unix(cron:session): session closed for user root
+Aug 25 07:17:01 T4145 CRON[17175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 07:17:01 T4145 CRON[17175]: pam_unix(cron:session): session closed for user root
+Aug 25 07:20:01 T4145 CRON[17183]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 07:20:06 T4145 CRON[17183]: pam_unix(cron:session): session closed for user root
+Aug 25 07:25:01 T4145 CRON[17404]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 07:25:07 T4145 CRON[17404]: pam_unix(cron:session): session closed for user root
+Aug 25 07:30:01 T4145 CRON[17625]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 07:30:01 T4145 CRON[17626]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 07:30:01 T4145 CRON[17626]: pam_unix(cron:session): session closed for user root
+Aug 25 07:30:10 T4145 CRON[17625]: pam_unix(cron:session): session closed for user root
+Aug 25 07:35:01 T4145 CRON[17852]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 07:35:03 T4145 CRON[17852]: pam_unix(cron:session): session closed for user root
+Aug 25 07:35:06 T4145 su[18208]: Successful su for nobody by root
+Aug 25 07:35:06 T4145 su[18208]: + ??? root:nobody
+Aug 25 07:35:06 T4145 su[18208]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Aug 25 07:35:06 T4145 systemd-logind[1001]: Removed session c1.
+Aug 25 07:35:06 T4145 systemd-logind[1001]: New session c2 of user nobody.
+Aug 25 07:35:06 T4145 su[18208]: pam_unix(su:session): session closed for user nobody
+Aug 25 07:35:06 T4145 su[18216]: Successful su for nobody by root
+Aug 25 07:35:06 T4145 su[18216]: + ??? root:nobody
+Aug 25 07:35:06 T4145 su[18216]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Aug 25 07:35:06 T4145 systemd-logind[1001]: Removed session c2.
+Aug 25 07:35:06 T4145 systemd-logind[1001]: New session c3 of user nobody.
+Aug 25 07:35:06 T4145 su[18216]: pam_unix(su:session): session closed for user nobody
+Aug 25 07:35:06 T4145 su[18230]: Successful su for nobody by root
+Aug 25 07:35:06 T4145 su[18230]: + ??? root:nobody
+Aug 25 07:35:06 T4145 su[18230]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Aug 25 07:35:06 T4145 systemd-logind[1001]: Removed session c3.
+Aug 25 07:35:06 T4145 systemd-logind[1001]: New session c4 of user nobody.
+Aug 25 07:35:30 T4145 su[18230]: pam_unix(su:session): session closed for user nobody
+Aug 25 07:40:01 T4145 CRON[18312]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 07:40:07 T4145 CRON[18312]: pam_unix(cron:session): session closed for user root
+Aug 25 07:45:01 T4145 CRON[18531]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 07:45:07 T4145 CRON[18531]: pam_unix(cron:session): session closed for user root
+Aug 25 07:50:01 T4145 CRON[18750]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 07:50:03 T4145 CRON[18750]: pam_unix(cron:session): session closed for user root
+Aug 25 07:55:01 T4145 CRON[18974]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 07:55:04 T4145 CRON[18974]: pam_unix(cron:session): session closed for user root
+Aug 25 08:00:01 T4145 CRON[19192]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 08:00:07 T4145 CRON[19192]: pam_unix(cron:session): session closed for user root
+Aug 25 08:05:01 T4145 CRON[19410]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 08:05:04 T4145 CRON[19410]: pam_unix(cron:session): session closed for user root
+Aug 25 08:10:01 T4145 CRON[19631]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 08:10:04 T4145 CRON[19631]: pam_unix(cron:session): session closed for user root
+Aug 25 08:15:01 T4145 CRON[19847]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 08:15:05 T4145 CRON[19847]: pam_unix(cron:session): session closed for user root
+Aug 25 08:17:01 T4145 CRON[20060]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 08:17:01 T4145 CRON[20060]: pam_unix(cron:session): session closed for user root
+Aug 25 08:20:01 T4145 CRON[20073]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 08:20:04 T4145 CRON[20073]: pam_unix(cron:session): session closed for user root
+Aug 25 08:25:01 T4145 CRON[20291]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 08:25:06 T4145 CRON[20291]: pam_unix(cron:session): session closed for user root
+Aug 25 08:30:01 T4145 CRON[20507]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 08:30:05 T4145 CRON[20507]: pam_unix(cron:session): session closed for user root
+Aug 25 08:35:01 T4145 CRON[20725]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 08:35:04 T4145 CRON[20725]: pam_unix(cron:session): session closed for user root
+Aug 25 08:40:01 T4145 CRON[20942]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 08:40:06 T4145 CRON[20942]: pam_unix(cron:session): session closed for user root
+Aug 25 08:45:01 T4145 CRON[21164]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 08:45:06 T4145 CRON[21164]: pam_unix(cron:session): session closed for user root
+Aug 25 08:50:01 T4145 CRON[21383]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 08:50:06 T4145 CRON[21383]: pam_unix(cron:session): session closed for user root
+Aug 25 08:55:01 T4145 CRON[21599]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 08:55:05 T4145 CRON[21599]: pam_unix(cron:session): session closed for user root
+Aug 25 09:00:01 T4145 CRON[21815]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 09:00:05 T4145 CRON[21815]: pam_unix(cron:session): session closed for user root
+Aug 25 09:05:01 T4145 CRON[22035]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 09:05:04 T4145 CRON[22035]: pam_unix(cron:session): session closed for user root
+Aug 25 09:10:01 T4145 CRON[22258]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 09:10:04 T4145 CRON[22258]: pam_unix(cron:session): session closed for user root
+Aug 25 09:15:01 T4145 CRON[22475]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 09:15:08 T4145 CRON[22475]: pam_unix(cron:session): session closed for user root
+Aug 25 09:17:01 T4145 CRON[22687]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 09:17:01 T4145 CRON[22687]: pam_unix(cron:session): session closed for user root
+Aug 25 09:20:01 T4145 CRON[22694]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 09:20:06 T4145 CRON[22694]: pam_unix(cron:session): session closed for user root
+Aug 25 09:25:01 T4145 CRON[22909]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 09:25:06 T4145 CRON[22909]: pam_unix(cron:session): session closed for user root
+Aug 25 09:30:01 T4145 CRON[23128]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 09:30:08 T4145 CRON[23128]: pam_unix(cron:session): session closed for user root
+Aug 25 09:35:01 T4145 CRON[23351]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 09:35:03 T4145 CRON[23351]: pam_unix(cron:session): session closed for user root
+Aug 25 09:40:01 T4145 CRON[23571]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 09:40:06 T4145 CRON[23571]: pam_unix(cron:session): session closed for user root
+Aug 25 09:45:01 T4145 CRON[23786]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 09:45:04 T4145 CRON[23786]: pam_unix(cron:session): session closed for user root
+Aug 25 09:50:01 T4145 CRON[24005]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 09:50:06 T4145 CRON[24005]: pam_unix(cron:session): session closed for user root
+Aug 25 09:55:01 T4145 CRON[24224]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 09:55:06 T4145 CRON[24224]: pam_unix(cron:session): session closed for user root
+Aug 25 10:00:01 T4145 CRON[24441]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 10:00:07 T4145 CRON[24441]: pam_unix(cron:session): session closed for user root
+Aug 25 10:05:01 T4145 CRON[24662]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 10:05:03 T4145 CRON[24662]: pam_unix(cron:session): session closed for user root
+Aug 25 10:10:01 T4145 CRON[24881]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 10:10:04 T4145 CRON[24881]: pam_unix(cron:session): session closed for user root
+Aug 25 10:15:01 T4145 CRON[25098]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 10:15:07 T4145 CRON[25098]: pam_unix(cron:session): session closed for user root
+Aug 25 10:17:01 T4145 CRON[25312]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 10:17:01 T4145 CRON[25312]: pam_unix(cron:session): session closed for user root
+Aug 25 10:20:01 T4145 CRON[25320]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 10:20:05 T4145 CRON[25320]: pam_unix(cron:session): session closed for user root
+Aug 25 10:25:01 T4145 CRON[25535]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 10:25:03 T4145 CRON[25535]: pam_unix(cron:session): session closed for user root
+Aug 25 10:30:01 T4145 CRON[25759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 10:30:07 T4145 CRON[25759]: pam_unix(cron:session): session closed for user root
+Aug 25 10:35:01 T4145 CRON[25978]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 10:35:05 T4145 CRON[25978]: pam_unix(cron:session): session closed for user root
+Aug 25 10:40:01 T4145 CRON[26196]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 10:40:05 T4145 CRON[26196]: pam_unix(cron:session): session closed for user root
+Aug 25 10:45:01 T4145 CRON[26415]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 10:45:07 T4145 CRON[26415]: pam_unix(cron:session): session closed for user root
+Aug 25 10:50:01 T4145 CRON[26634]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 10:50:05 T4145 CRON[26634]: pam_unix(cron:session): session closed for user root
+Aug 25 10:55:01 T4145 CRON[26855]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 10:55:06 T4145 CRON[26855]: pam_unix(cron:session): session closed for user root
+Aug 25 11:00:01 T4145 CRON[27074]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 11:00:06 T4145 CRON[27074]: pam_unix(cron:session): session closed for user root
+Aug 25 11:05:01 T4145 CRON[27291]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 11:05:05 T4145 CRON[27291]: pam_unix(cron:session): session closed for user root
+Aug 25 11:10:01 T4145 CRON[27508]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 11:10:05 T4145 CRON[27508]: pam_unix(cron:session): session closed for user root
+Aug 25 11:15:01 T4145 CRON[27725]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 11:15:07 T4145 CRON[27725]: pam_unix(cron:session): session closed for user root
+Aug 25 11:17:01 T4145 CRON[27944]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 11:17:01 T4145 CRON[27944]: pam_unix(cron:session): session closed for user root
+Aug 25 11:20:01 T4145 CRON[27951]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 11:20:05 T4145 CRON[27951]: pam_unix(cron:session): session closed for user root
+Aug 25 11:25:01 T4145 CRON[28170]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 11:25:05 T4145 CRON[28170]: pam_unix(cron:session): session closed for user root
+Aug 25 11:30:01 T4145 CRON[28390]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 11:30:05 T4145 CRON[28390]: pam_unix(cron:session): session closed for user root
+Aug 25 11:35:01 T4145 CRON[28607]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 11:35:04 T4145 CRON[28607]: pam_unix(cron:session): session closed for user root
+Aug 25 11:40:01 T4145 CRON[28825]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 11:40:04 T4145 CRON[28825]: pam_unix(cron:session): session closed for user root
+Aug 25 11:45:01 T4145 CRON[29048]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 11:45:07 T4145 CRON[29048]: pam_unix(cron:session): session closed for user root
+Aug 25 11:50:01 T4145 CRON[29266]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 11:50:05 T4145 CRON[29266]: pam_unix(cron:session): session closed for user root
+Aug 25 11:55:01 T4145 CRON[29484]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 11:55:05 T4145 CRON[29484]: pam_unix(cron:session): session closed for user root
+Aug 25 12:00:01 T4145 CRON[29701]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 12:00:07 T4145 CRON[29701]: pam_unix(cron:session): session closed for user root
+Aug 25 12:05:01 T4145 CRON[29917]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 12:05:05 T4145 CRON[29917]: pam_unix(cron:session): session closed for user root
+Aug 25 12:10:01 T4145 CRON[30141]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 12:10:03 T4145 CRON[30141]: pam_unix(cron:session): session closed for user root
+Aug 25 12:15:01 T4145 CRON[30356]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 12:15:07 T4145 CRON[30356]: pam_unix(cron:session): session closed for user root
+Aug 25 12:17:01 T4145 CRON[30570]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 12:17:01 T4145 CRON[30570]: pam_unix(cron:session): session closed for user root
+Aug 25 12:20:01 T4145 CRON[30577]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 12:20:06 T4145 CRON[30577]: pam_unix(cron:session): session closed for user root
+Aug 25 12:25:01 T4145 CRON[30794]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 12:25:03 T4145 CRON[30794]: pam_unix(cron:session): session closed for user root
+Aug 25 12:30:01 T4145 CRON[31012]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 12:30:05 T4145 CRON[31012]: pam_unix(cron:session): session closed for user root
+Aug 25 12:35:01 T4145 CRON[31228]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 12:35:04 T4145 CRON[31228]: pam_unix(cron:session): session closed for user root
+Aug 25 12:40:01 T4145 CRON[31449]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 12:40:04 T4145 CRON[31449]: pam_unix(cron:session): session closed for user root
+Aug 25 12:45:01 T4145 CRON[31668]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 12:45:07 T4145 CRON[31668]: pam_unix(cron:session): session closed for user root
+Aug 25 12:50:01 T4145 CRON[31887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 12:50:06 T4145 CRON[31887]: pam_unix(cron:session): session closed for user root
+Aug 25 12:55:01 T4145 CRON[32104]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 12:55:04 T4145 CRON[32104]: pam_unix(cron:session): session closed for user root
+Aug 25 13:00:01 T4145 CRON[32322]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 13:00:06 T4145 CRON[32322]: pam_unix(cron:session): session closed for user root
+Aug 25 13:05:01 T4145 CRON[32544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 13:05:06 T4145 CRON[32544]: pam_unix(cron:session): session closed for user root
+Aug 25 13:10:01 T4145 CRON[32763]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 13:10:03 T4145 CRON[32763]: pam_unix(cron:session): session closed for user root
+Aug 25 13:15:01 T4145 CRON[522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 13:15:05 T4145 CRON[522]: pam_unix(cron:session): session closed for user root
+Aug 25 13:17:01 T4145 CRON[740]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 13:17:01 T4145 CRON[740]: pam_unix(cron:session): session closed for user root
+Aug 25 13:20:01 T4145 CRON[748]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 13:20:03 T4145 CRON[748]: pam_unix(cron:session): session closed for user root
+Aug 25 13:21:00 T4145 mdm[14224]: pam_nologin(mdm:auth): cannot determine username
+Aug 25 13:21:00 T4145 systemd-logind[1001]: Removed session c4.
+Aug 25 18:18:11 T4145 systemd-logind[945]: New seat seat0.
+Aug 25 18:18:19 T4145 sshd[1315]: Server listening on 0.0.0.0 port 22.
+Aug 25 18:18:19 T4145 sshd[1315]: Server listening on :: port 22.
+Aug 25 18:18:19 T4145 CRON[1452]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 18:18:19 T4145 CRON[1452]: pam_unix(cron:session): session closed for user root
+Aug 25 18:18:22 T4145 dbus[681]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1669 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=1018 comm="NetworkManager ")
+Aug 25 18:18:26 T4145 mdm[1655]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 25 18:18:26 T4145 mdm[1655]: PAM adding faulty module: pam_kwallet.so
+Aug 25 18:18:33 T4145 mdm[1655]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "anthem-training"
+Aug 25 18:18:37 T4145 mdm[1655]: pam_unix(mdm:session): session opened for user anthem-training by (uid=0)
+Aug 25 18:18:37 T4145 systemd-logind[945]: New session c1 of user anthem-training.
+Aug 25 18:18:37 T4145 systemd-logind[945]: Linked /tmp/.X11-unix/X0 to /run/user/1003/X11-display.
+Aug 25 18:18:37 T4145 mdm[1655]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Aug 25 18:18:44 T4145 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.30 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug 25 18:20:01 T4145 CRON[2925]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 18:20:05 T4145 CRON[2925]: pam_unix(cron:session): session closed for user root
+Aug 25 18:21:00 T4145 su[3160]: pam_unix(su:auth): authentication failure; logname=anthem-training uid=1003 euid=0 tty=/dev/pts/1 ruser=anthem-training rhost=  user=root
+Aug 25 18:21:02 T4145 su[3160]: pam_authenticate: Authentication failure
+Aug 25 18:21:02 T4145 su[3160]: FAILED su for root by anthem-training
+Aug 25 18:21:02 T4145 su[3160]: - /dev/pts/1 anthem-training:root
+Aug 25 18:21:18 T4145 su[3161]: Successful su for root by anthem-training
+Aug 25 18:21:18 T4145 su[3161]: + /dev/pts/1 anthem-training:root
+Aug 25 18:21:18 T4145 su[3161]: pam_unix(su:session): session opened for user root by anthem-training(uid=1003)
+Aug 25 18:21:35 T4145 sudo:     root : TTY=pts/1 ; PWD=/home/anthem-training/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_on.sh - Linux Config Menu
+Aug 25 18:21:35 T4145 sudo: pam_unix(sudo:session): session opened for user root by anthem-training(uid=0)

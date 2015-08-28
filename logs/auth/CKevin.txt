@@ -1,0 +1,522 @@
+Jul 27 10:50:01 CKevin CRON[3148]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:50:05 CKevin CRON[3148]: pam_unix(cron:session): session closed for user root
+Jul 27 10:55:02 CKevin CRON[3522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:55:07 CKevin CRON[3522]: pam_unix(cron:session): session closed for user root
+Jul 27 11:00:01 CKevin CRON[4609]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:00:07 CKevin CRON[4609]: pam_unix(cron:session): session closed for user root
+Jul 27 11:05:01 CKevin CRON[5103]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:05:07 CKevin CRON[5103]: pam_unix(cron:session): session closed for user root
+Jul 27 11:10:01 CKevin CRON[5599]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:10:03 CKevin CRON[5599]: pam_unix(cron:session): session closed for user root
+Jul 27 11:13:22 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 11:13:22 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 11:13:28 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:15:02 CKevin CRON[5828]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:15:08 CKevin CRON[5828]: pam_unix(cron:session): session closed for user root
+Jul 27 11:17:01 CKevin CRON[6012]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:17:01 CKevin CRON[6012]: pam_unix(cron:session): session closed for user root
+Jul 27 11:20:01 CKevin CRON[6029]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:20:06 CKevin CRON[6029]: pam_unix(cron:session): session closed for user root
+Jul 27 11:25:01 CKevin CRON[6219]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:25:05 CKevin CRON[6219]: pam_unix(cron:session): session closed for user root
+Jul 27 11:30:01 CKevin CRON[6414]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:30:04 CKevin CRON[6414]: pam_unix(cron:session): session closed for user root
+Jul 27 11:35:01 CKevin CRON[6727]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:35:04 CKevin CRON[6727]: pam_unix(cron:session): session closed for user root
+Jul 27 11:40:01 CKevin CRON[6922]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:40:04 CKevin CRON[6922]: pam_unix(cron:session): session closed for user root
+Jul 27 11:43:22 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 11:43:22 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 11:43:45 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:45:01 CKevin CRON[7162]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:45:02 CKevin CRON[7162]: pam_unix(cron:session): session closed for user root
+Jul 27 11:50:01 CKevin CRON[7360]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:50:06 CKevin CRON[7360]: pam_unix(cron:session): session closed for user root
+Jul 27 11:55:01 CKevin CRON[7549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:55:07 CKevin CRON[7549]: pam_unix(cron:session): session closed for user root
+Jul 27 12:00:01 CKevin CRON[7746]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:00:02 CKevin CRON[7746]: pam_unix(cron:session): session closed for user root
+Jul 27 12:05:01 CKevin CRON[7944]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:05:07 CKevin CRON[7944]: pam_unix(cron:session): session closed for user root
+Jul 27 12:10:01 CKevin CRON[8141]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:10:05 CKevin CRON[8141]: pam_unix(cron:session): session closed for user root
+Jul 27 12:13:22 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 12:13:22 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 12:13:39 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 12:15:01 CKevin CRON[8376]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:15:05 CKevin CRON[8376]: pam_unix(cron:session): session closed for user root
+Jul 27 12:17:01 CKevin CRON[8559]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:17:01 CKevin CRON[8559]: pam_unix(cron:session): session closed for user root
+Jul 27 12:20:01 CKevin CRON[8574]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:20:05 CKevin CRON[8574]: pam_unix(cron:session): session closed for user root
+Jul 27 12:25:01 CKevin CRON[8762]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:25:04 CKevin CRON[8762]: pam_unix(cron:session): session closed for user root
+Jul 27 12:30:01 CKevin CRON[8959]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:30:04 CKevin CRON[8959]: pam_unix(cron:session): session closed for user root
+Jul 27 12:35:01 CKevin CRON[9156]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:35:05 CKevin CRON[9156]: pam_unix(cron:session): session closed for user root
+Jul 27 12:40:01 CKevin CRON[9352]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:40:07 CKevin CRON[9352]: pam_unix(cron:session): session closed for user root
+Jul 27 12:43:22 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 12:43:22 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 12:43:34 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 12:45:01 CKevin CRON[9588]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:45:01 CKevin CRON[9588]: pam_unix(cron:session): session closed for user root
+Jul 27 12:50:01 CKevin CRON[9789]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:50:04 CKevin CRON[9789]: pam_unix(cron:session): session closed for user root
+Jul 27 12:55:01 CKevin CRON[9986]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:55:05 CKevin CRON[9986]: pam_unix(cron:session): session closed for user root
+Jul 27 13:00:01 CKevin CRON[10182]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:00:02 CKevin CRON[10182]: pam_unix(cron:session): session closed for user root
+Jul 27 13:05:01 CKevin CRON[10380]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:05:03 CKevin CRON[10380]: pam_unix(cron:session): session closed for user root
+Jul 27 13:10:01 CKevin CRON[10576]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:10:04 CKevin CRON[10576]: pam_unix(cron:session): session closed for user root
+Jul 27 13:13:22 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 13:13:22 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 13:13:35 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 13:15:01 CKevin CRON[10811]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:15:04 CKevin CRON[10811]: pam_unix(cron:session): session closed for user root
+Jul 27 13:17:01 CKevin CRON[10994]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:17:01 CKevin CRON[10994]: pam_unix(cron:session): session closed for user root
+Jul 27 13:20:01 CKevin CRON[11011]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:20:07 CKevin CRON[11011]: pam_unix(cron:session): session closed for user root
+Jul 27 13:25:01 CKevin CRON[11201]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:25:07 CKevin CRON[11201]: pam_unix(cron:session): session closed for user root
+Jul 27 13:30:01 CKevin CRON[11397]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:30:06 CKevin CRON[11397]: pam_unix(cron:session): session closed for user root
+Jul 27 13:35:01 CKevin CRON[11594]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:35:06 CKevin CRON[11594]: pam_unix(cron:session): session closed for user root
+Jul 27 13:40:01 CKevin CRON[11790]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:40:03 CKevin CRON[11790]: pam_unix(cron:session): session closed for user root
+Jul 27 13:43:22 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 13:43:22 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 13:43:39 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 13:45:01 CKevin CRON[12028]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:45:06 CKevin CRON[12028]: pam_unix(cron:session): session closed for user root
+Jul 27 13:50:01 CKevin CRON[12224]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:50:05 CKevin CRON[12224]: pam_unix(cron:session): session closed for user root
+Jul 27 13:55:01 CKevin CRON[12412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:55:07 CKevin CRON[12412]: pam_unix(cron:session): session closed for user root
+Jul 27 14:00:01 CKevin CRON[12609]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:00:02 CKevin CRON[12609]: pam_unix(cron:session): session closed for user root
+Jul 27 14:05:01 CKevin CRON[12807]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:05:06 CKevin CRON[12807]: pam_unix(cron:session): session closed for user root
+Jul 27 14:10:01 CKevin CRON[13003]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:10:05 CKevin CRON[13003]: pam_unix(cron:session): session closed for user root
+Jul 27 14:13:22 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 14:13:22 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 14:13:34 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 14:15:01 CKevin CRON[13239]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:15:06 CKevin CRON[13239]: pam_unix(cron:session): session closed for user root
+Jul 27 14:17:01 CKevin CRON[13422]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:17:01 CKevin CRON[13422]: pam_unix(cron:session): session closed for user root
+Jul 27 14:20:01 CKevin CRON[13428]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:20:05 CKevin CRON[13428]: pam_unix(cron:session): session closed for user root
+Jul 27 14:25:01 CKevin CRON[13628]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:25:05 CKevin CRON[13628]: pam_unix(cron:session): session closed for user root
+Jul 27 14:30:01 CKevin CRON[13824]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:30:02 CKevin CRON[13824]: pam_unix(cron:session): session closed for user root
+Jul 27 14:35:01 CKevin CRON[14020]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:35:03 CKevin CRON[14020]: pam_unix(cron:session): session closed for user root
+Jul 27 14:40:01 CKevin CRON[14219]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:40:06 CKevin CRON[14219]: pam_unix(cron:session): session closed for user root
+Jul 27 14:43:22 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 14:43:22 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 14:43:34 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 14:45:01 CKevin CRON[14453]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:45:05 CKevin CRON[14453]: pam_unix(cron:session): session closed for user root
+Jul 27 14:50:01 CKevin CRON[14642]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:50:06 CKevin CRON[14642]: pam_unix(cron:session): session closed for user root
+Jul 27 14:55:02 CKevin CRON[14849]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:55:06 CKevin CRON[14849]: pam_unix(cron:session): session closed for user root
+Jul 27 15:00:01 CKevin CRON[15047]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:00:04 CKevin CRON[15047]: pam_unix(cron:session): session closed for user root
+Jul 27 15:05:01 CKevin CRON[15245]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:05:04 CKevin CRON[15245]: pam_unix(cron:session): session closed for user root
+Jul 27 15:10:01 CKevin CRON[15450]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:10:05 CKevin CRON[15450]: pam_unix(cron:session): session closed for user root
+Jul 27 15:13:22 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 15:13:22 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 15:15:01 CKevin CRON[15676]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:15:02 CKevin CRON[15676]: pam_unix(cron:session): session closed for user root
+Jul 27 15:17:01 CKevin CRON[15863]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:17:01 CKevin CRON[15863]: pam_unix(cron:session): session closed for user root
+Jul 27 15:20:01 CKevin CRON[15870]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:20:04 CKevin CRON[15870]: pam_unix(cron:session): session closed for user root
+Jul 27 15:25:01 CKevin CRON[16067]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:25:01 CKevin CRON[16067]: pam_unix(cron:session): session closed for user root
+Jul 27 15:30:02 CKevin CRON[16264]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:30:05 CKevin CRON[16264]: pam_unix(cron:session): session closed for user root
+Jul 27 15:31:31 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 15:35:01 CKevin CRON[16470]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:35:04 CKevin CRON[16470]: pam_unix(cron:session): session closed for user root
+Jul 27 15:40:01 CKevin CRON[16665]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:40:04 CKevin CRON[16665]: pam_unix(cron:session): session closed for user root
+Jul 27 15:43:22 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 15:43:22 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 15:43:36 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 15:45:01 CKevin CRON[16902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:45:03 CKevin CRON[16902]: pam_unix(cron:session): session closed for user root
+Jul 27 15:50:01 CKevin CRON[17092]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:50:06 CKevin CRON[17092]: pam_unix(cron:session): session closed for user root
+Jul 27 15:55:01 CKevin CRON[17292]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:55:05 CKevin CRON[17292]: pam_unix(cron:session): session closed for user root
+Jul 27 16:00:01 CKevin CRON[17487]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:00:03 CKevin CRON[17487]: pam_unix(cron:session): session closed for user root
+Jul 27 16:05:01 CKevin CRON[17684]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:05:03 CKevin CRON[17684]: pam_unix(cron:session): session closed for user root
+Jul 27 16:10:01 CKevin CRON[17881]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:10:05 CKevin CRON[17881]: pam_unix(cron:session): session closed for user root
+Jul 27 16:13:22 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 16:13:22 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 16:13:35 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 16:15:01 CKevin CRON[18118]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:15:05 CKevin CRON[18118]: pam_unix(cron:session): session closed for user root
+Jul 27 16:17:01 CKevin CRON[18301]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:17:01 CKevin CRON[18301]: pam_unix(cron:session): session closed for user root
+Jul 27 16:20:01 CKevin CRON[18308]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:20:03 CKevin CRON[18308]: pam_unix(cron:session): session closed for user root
+Jul 27 16:25:01 CKevin CRON[18506]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:25:04 CKevin CRON[18506]: pam_unix(cron:session): session closed for user root
+Jul 27 16:30:01 CKevin CRON[18703]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:30:04 CKevin CRON[18703]: pam_unix(cron:session): session closed for user root
+Jul 27 16:35:01 CKevin CRON[18907]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:35:05 CKevin CRON[18907]: pam_unix(cron:session): session closed for user root
+Jul 27 16:40:01 CKevin CRON[19102]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:40:04 CKevin CRON[19102]: pam_unix(cron:session): session closed for user root
+Jul 27 16:43:22 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 16:43:22 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 16:43:35 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 16:45:01 CKevin CRON[19337]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:45:03 CKevin CRON[19337]: pam_unix(cron:session): session closed for user root
+Jul 27 16:50:01 CKevin CRON[19525]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:50:03 CKevin CRON[19525]: pam_unix(cron:session): session closed for user root
+Jul 27 16:55:01 CKevin CRON[19736]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:55:06 CKevin CRON[19736]: pam_unix(cron:session): session closed for user root
+Jul 27 17:00:01 CKevin CRON[19932]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:00:02 CKevin CRON[19932]: pam_unix(cron:session): session closed for user root
+Jul 27 17:05:01 CKevin CRON[20128]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:05:03 CKevin CRON[20128]: pam_unix(cron:session): session closed for user root
+Jul 27 17:10:01 CKevin CRON[20326]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:10:02 CKevin CRON[20326]: pam_unix(cron:session): session closed for user root
+Jul 27 17:13:23 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 17:13:23 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 17:13:39 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 17:15:01 CKevin CRON[20553]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:15:04 CKevin CRON[20553]: pam_unix(cron:session): session closed for user root
+Jul 27 17:17:01 CKevin CRON[20745]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:17:01 CKevin CRON[20745]: pam_unix(cron:session): session closed for user root
+Jul 27 17:20:01 CKevin CRON[20752]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:20:05 CKevin CRON[20752]: pam_unix(cron:session): session closed for user root
+Jul 27 17:25:01 CKevin CRON[20948]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:25:03 CKevin CRON[20948]: pam_unix(cron:session): session closed for user root
+Jul 27 17:30:01 CKevin CRON[21145]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:30:05 CKevin CRON[21145]: pam_unix(cron:session): session closed for user root
+Jul 27 17:35:01 CKevin CRON[21340]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:35:05 CKevin CRON[21340]: pam_unix(cron:session): session closed for user root
+Jul 27 17:40:01 CKevin CRON[21538]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:40:02 CKevin CRON[21538]: pam_unix(cron:session): session closed for user root
+Jul 27 17:43:23 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 17:43:23 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 17:43:35 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 17:45:01 CKevin CRON[21761]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:45:01 CKevin CRON[21761]: pam_unix(cron:session): session closed for user root
+Jul 27 17:50:01 CKevin CRON[21959]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:50:04 CKevin CRON[21959]: pam_unix(cron:session): session closed for user root
+Jul 27 17:55:01 CKevin CRON[22157]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:55:04 CKevin CRON[22157]: pam_unix(cron:session): session closed for user root
+Jul 27 18:00:01 CKevin CRON[22353]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:00:05 CKevin CRON[22353]: pam_unix(cron:session): session closed for user root
+Jul 27 18:05:01 CKevin CRON[22546]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:05:03 CKevin CRON[22546]: pam_unix(cron:session): session closed for user root
+Jul 27 18:10:01 CKevin CRON[22745]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:10:05 CKevin CRON[22745]: pam_unix(cron:session): session closed for user root
+Jul 27 18:13:23 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 18:13:23 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 18:13:34 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 18:15:01 CKevin CRON[22970]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:15:06 CKevin CRON[22970]: pam_unix(cron:session): session closed for user root
+Jul 27 18:17:01 CKevin CRON[23163]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:17:01 CKevin CRON[23163]: pam_unix(cron:session): session closed for user root
+Jul 27 18:20:01 CKevin CRON[23170]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:20:03 CKevin CRON[23170]: pam_unix(cron:session): session closed for user root
+Jul 27 18:25:01 CKevin CRON[23366]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:25:05 CKevin CRON[23366]: pam_unix(cron:session): session closed for user root
+Jul 27 18:30:01 CKevin CRON[23561]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:30:02 CKevin CRON[23561]: pam_unix(cron:session): session closed for user root
+Jul 27 18:35:01 CKevin CRON[23759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:35:04 CKevin CRON[23759]: pam_unix(cron:session): session closed for user root
+Jul 27 18:40:01 CKevin CRON[23955]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:40:04 CKevin CRON[23955]: pam_unix(cron:session): session closed for user root
+Jul 27 18:43:23 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 18:43:23 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 18:43:36 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 18:45:01 CKevin CRON[24183]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:45:04 CKevin CRON[24183]: pam_unix(cron:session): session closed for user root
+Jul 27 18:50:01 CKevin CRON[24380]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:50:05 CKevin CRON[24380]: pam_unix(cron:session): session closed for user root
+Jul 27 18:55:01 CKevin CRON[24585]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:55:03 CKevin CRON[24585]: pam_unix(cron:session): session closed for user root
+Jul 27 19:00:01 CKevin CRON[24781]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:00:05 CKevin CRON[24781]: pam_unix(cron:session): session closed for user root
+Jul 27 19:05:01 CKevin CRON[24977]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:05:03 CKevin CRON[24977]: pam_unix(cron:session): session closed for user root
+Jul 27 19:10:01 CKevin CRON[25175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:10:03 CKevin CRON[25175]: pam_unix(cron:session): session closed for user root
+Jul 27 19:13:23 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 19:13:23 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 19:13:34 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 19:15:01 CKevin CRON[25402]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:15:05 CKevin CRON[25402]: pam_unix(cron:session): session closed for user root
+Jul 27 19:17:01 CKevin CRON[25595]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:17:01 CKevin CRON[25595]: pam_unix(cron:session): session closed for user root
+Jul 27 19:20:01 CKevin CRON[25602]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:20:03 CKevin CRON[25602]: pam_unix(cron:session): session closed for user root
+Jul 27 19:25:01 CKevin CRON[25799]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:25:01 CKevin CRON[25799]: pam_unix(cron:session): session closed for user root
+Jul 27 19:30:01 CKevin CRON[25997]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:30:04 CKevin CRON[25997]: pam_unix(cron:session): session closed for user root
+Jul 27 19:35:01 CKevin CRON[26192]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:35:03 CKevin CRON[26192]: pam_unix(cron:session): session closed for user root
+Jul 27 19:40:01 CKevin CRON[26389]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:40:02 CKevin CRON[26389]: pam_unix(cron:session): session closed for user root
+Jul 27 19:43:23 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 19:43:23 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 19:43:36 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 19:45:01 CKevin CRON[26613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:45:03 CKevin CRON[26613]: pam_unix(cron:session): session closed for user root
+Jul 27 19:50:01 CKevin CRON[26811]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:50:01 CKevin CRON[26811]: pam_unix(cron:session): session closed for user root
+Jul 27 19:55:01 CKevin CRON[27009]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:55:03 CKevin CRON[27009]: pam_unix(cron:session): session closed for user root
+Jul 27 20:00:01 CKevin CRON[27223]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:00:03 CKevin CRON[27223]: pam_unix(cron:session): session closed for user root
+Jul 27 20:05:01 CKevin CRON[27420]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:05:01 CKevin CRON[27420]: pam_unix(cron:session): session closed for user root
+Jul 27 20:10:01 CKevin CRON[27607]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:10:02 CKevin CRON[27607]: pam_unix(cron:session): session closed for user root
+Jul 27 20:13:23 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 20:13:23 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 20:13:36 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 20:15:01 CKevin CRON[27842]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:15:02 CKevin CRON[27842]: pam_unix(cron:session): session closed for user root
+Jul 27 20:17:01 CKevin CRON[28036]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:17:01 CKevin CRON[28036]: pam_unix(cron:session): session closed for user root
+Jul 27 20:20:01 CKevin CRON[28042]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:20:01 CKevin CRON[28042]: pam_unix(cron:session): session closed for user root
+Jul 27 20:25:01 CKevin CRON[28240]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:25:02 CKevin CRON[28240]: pam_unix(cron:session): session closed for user root
+Jul 27 20:30:01 CKevin CRON[28437]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:30:02 CKevin CRON[28437]: pam_unix(cron:session): session closed for user root
+Jul 27 20:35:01 CKevin CRON[28635]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:35:02 CKevin CRON[28635]: pam_unix(cron:session): session closed for user root
+Jul 27 20:40:01 CKevin CRON[28822]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:40:03 CKevin CRON[28822]: pam_unix(cron:session): session closed for user root
+Jul 27 20:43:23 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 20:43:23 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 20:43:35 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 20:45:01 CKevin CRON[29059]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:45:01 CKevin CRON[29059]: pam_unix(cron:session): session closed for user root
+Jul 27 20:50:01 CKevin CRON[29257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:50:02 CKevin CRON[29257]: pam_unix(cron:session): session closed for user root
+Jul 27 20:55:01 CKevin CRON[29472]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:55:02 CKevin CRON[29472]: pam_unix(cron:session): session closed for user root
+Jul 27 21:00:01 CKevin CRON[29667]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:00:01 CKevin CRON[29667]: pam_unix(cron:session): session closed for user root
+Jul 27 21:05:01 CKevin CRON[29868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:05:02 CKevin CRON[29868]: pam_unix(cron:session): session closed for user root
+Jul 27 21:10:01 CKevin CRON[30056]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:10:02 CKevin CRON[30056]: pam_unix(cron:session): session closed for user root
+Jul 27 21:13:23 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 21:13:23 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 21:13:35 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 21:15:01 CKevin CRON[30290]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:15:02 CKevin CRON[30290]: pam_unix(cron:session): session closed for user root
+Jul 27 21:17:01 CKevin CRON[30488]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:17:01 CKevin CRON[30488]: pam_unix(cron:session): session closed for user root
+Jul 27 21:20:01 CKevin CRON[30495]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:20:02 CKevin CRON[30495]: pam_unix(cron:session): session closed for user root
+Jul 27 21:25:01 CKevin CRON[30692]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:25:02 CKevin CRON[30692]: pam_unix(cron:session): session closed for user root
+Jul 27 21:30:01 CKevin CRON[30888]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:30:01 CKevin CRON[30888]: pam_unix(cron:session): session closed for user root
+Jul 27 21:35:01 CKevin CRON[31086]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:35:02 CKevin CRON[31086]: pam_unix(cron:session): session closed for user root
+Jul 27 21:40:01 CKevin CRON[31273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:40:02 CKevin CRON[31273]: pam_unix(cron:session): session closed for user root
+Jul 27 21:43:23 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 21:43:23 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 21:43:36 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 21:45:01 CKevin CRON[31506]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:45:03 CKevin CRON[31506]: pam_unix(cron:session): session closed for user root
+Jul 27 21:50:01 CKevin CRON[31705]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:50:01 CKevin CRON[31705]: pam_unix(cron:session): session closed for user root
+Jul 27 21:55:01 CKevin CRON[31900]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:55:02 CKevin CRON[31900]: pam_unix(cron:session): session closed for user root
+Jul 27 22:00:01 CKevin CRON[32097]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:00:02 CKevin CRON[32097]: pam_unix(cron:session): session closed for user root
+Jul 27 22:05:01 CKevin CRON[32292]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:05:01 CKevin CRON[32292]: pam_unix(cron:session): session closed for user root
+Jul 27 22:10:01 CKevin CRON[32481]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:10:02 CKevin CRON[32481]: pam_unix(cron:session): session closed for user root
+Jul 27 22:13:23 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 22:13:23 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 22:13:36 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 22:15:01 CKevin CRON[32717]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:15:02 CKevin CRON[32717]: pam_unix(cron:session): session closed for user root
+Jul 27 22:17:01 CKevin CRON[446]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:17:01 CKevin CRON[446]: pam_unix(cron:session): session closed for user root
+Jul 27 22:20:01 CKevin CRON[454]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:20:02 CKevin CRON[454]: pam_unix(cron:session): session closed for user root
+Jul 27 22:25:01 CKevin CRON[655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:25:02 CKevin CRON[655]: pam_unix(cron:session): session closed for user root
+Jul 27 22:30:01 CKevin CRON[868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:30:02 CKevin CRON[868]: pam_unix(cron:session): session closed for user root
+Jul 27 22:35:01 CKevin CRON[1082]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:35:02 CKevin CRON[1082]: pam_unix(cron:session): session closed for user root
+Jul 27 22:40:01 CKevin CRON[1275]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:40:01 CKevin CRON[1275]: pam_unix(cron:session): session closed for user root
+Jul 27 22:43:23 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 22:43:23 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 22:44:08 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 22:45:01 CKevin CRON[1517]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:45:02 CKevin CRON[1517]: pam_unix(cron:session): session closed for user root
+Jul 27 22:50:01 CKevin CRON[1791]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:50:02 CKevin CRON[1791]: pam_unix(cron:session): session closed for user root
+Jul 27 22:55:01 CKevin CRON[2053]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:55:02 CKevin CRON[2053]: pam_unix(cron:session): session closed for user root
+Jul 27 23:00:01 CKevin CRON[2282]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:00:02 CKevin CRON[2282]: pam_unix(cron:session): session closed for user root
+Jul 27 23:05:01 CKevin CRON[2490]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:05:02 CKevin CRON[2490]: pam_unix(cron:session): session closed for user root
+Jul 27 23:10:01 CKevin CRON[2692]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:10:01 CKevin CRON[2692]: pam_unix(cron:session): session closed for user root
+Jul 27 23:13:24 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 23:13:24 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 23:13:36 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 23:15:01 CKevin CRON[2927]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:15:03 CKevin CRON[2927]: pam_unix(cron:session): session closed for user root
+Jul 27 23:17:01 CKevin CRON[3113]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:17:01 CKevin CRON[3113]: pam_unix(cron:session): session closed for user root
+Jul 27 23:20:01 CKevin CRON[3132]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:20:01 CKevin CRON[3132]: pam_unix(cron:session): session closed for user root
+Jul 27 23:25:01 CKevin CRON[3330]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:25:02 CKevin CRON[3330]: pam_unix(cron:session): session closed for user root
+Jul 27 23:30:01 CKevin CRON[3579]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:30:02 CKevin CRON[3579]: pam_unix(cron:session): session closed for user root
+Jul 27 23:35:01 CKevin CRON[3766]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:35:02 CKevin CRON[3766]: pam_unix(cron:session): session closed for user root
+Jul 27 23:40:01 CKevin CRON[3962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:40:01 CKevin CRON[3962]: pam_unix(cron:session): session closed for user root
+Jul 27 23:43:24 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 23:43:24 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 23:43:57 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 23:45:01 CKevin CRON[4198]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:45:02 CKevin CRON[4198]: pam_unix(cron:session): session closed for user root
+Jul 27 23:50:01 CKevin CRON[4394]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:50:02 CKevin CRON[4394]: pam_unix(cron:session): session closed for user root
+Jul 27 23:55:01 CKevin CRON[4590]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:55:01 CKevin CRON[4590]: pam_unix(cron:session): session closed for user root
+Jul 28 00:00:01 CKevin CRON[4787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:00:02 CKevin CRON[4787]: pam_unix(cron:session): session closed for user root
+Jul 28 00:05:01 CKevin CRON[4976]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:05:01 CKevin CRON[4976]: pam_unix(cron:session): session closed for user root
+Jul 28 00:10:01 CKevin CRON[5173]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:10:02 CKevin CRON[5173]: pam_unix(cron:session): session closed for user root
+Jul 28 00:13:24 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 28 00:13:24 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 28 00:13:41 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 28 00:15:01 CKevin CRON[5407]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:15:01 CKevin CRON[5407]: pam_unix(cron:session): session closed for user root
+Jul 28 00:17:01 CKevin CRON[5590]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:17:01 CKevin CRON[5590]: pam_unix(cron:session): session closed for user root
+Jul 28 00:20:01 CKevin CRON[5605]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:20:02 CKevin CRON[5605]: pam_unix(cron:session): session closed for user root
+Jul 28 00:25:01 CKevin CRON[5805]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:25:02 CKevin CRON[5805]: pam_unix(cron:session): session closed for user root
+Jul 28 00:30:01 CKevin CRON[6001]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:30:02 CKevin CRON[6001]: pam_unix(cron:session): session closed for user root
+Jul 28 00:35:01 CKevin CRON[6189]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:35:02 CKevin CRON[6189]: pam_unix(cron:session): session closed for user root
+Jul 28 00:40:01 CKevin CRON[6384]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:40:02 CKevin CRON[6384]: pam_unix(cron:session): session closed for user root
+Jul 28 00:43:24 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 28 00:43:24 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 28 00:45:01 CKevin CRON[6613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:45:02 CKevin CRON[6613]: pam_unix(cron:session): session closed for user root
+Jul 28 00:46:33 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 28 00:50:01 CKevin CRON[6817]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:50:01 CKevin CRON[6817]: pam_unix(cron:session): session closed for user root
+Jul 28 00:55:01 CKevin CRON[7022]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:55:02 CKevin CRON[7022]: pam_unix(cron:session): session closed for user root
+Jul 28 01:00:01 CKevin CRON[7219]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:00:01 CKevin CRON[7219]: pam_unix(cron:session): session closed for user root
+Jul 28 01:05:01 CKevin CRON[7407]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:05:02 CKevin CRON[7407]: pam_unix(cron:session): session closed for user root
+Jul 28 01:10:01 CKevin CRON[7605]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:10:01 CKevin CRON[7605]: pam_unix(cron:session): session closed for user root
+Jul 28 01:13:24 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 28 01:13:24 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 28 01:13:36 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 28 01:15:01 CKevin CRON[7840]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:15:02 CKevin CRON[7840]: pam_unix(cron:session): session closed for user root
+Jul 28 01:17:01 CKevin CRON[8023]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:17:01 CKevin CRON[8023]: pam_unix(cron:session): session closed for user root
+Jul 28 01:20:01 CKevin CRON[8039]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:20:02 CKevin CRON[8039]: pam_unix(cron:session): session closed for user root
+Jul 28 01:25:01 CKevin CRON[8237]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:25:01 CKevin CRON[8237]: pam_unix(cron:session): session closed for user root
+Jul 28 01:30:01 CKevin CRON[8434]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:30:02 CKevin CRON[8434]: pam_unix(cron:session): session closed for user root
+Jul 28 01:35:01 CKevin CRON[8623]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:35:01 CKevin CRON[8623]: pam_unix(cron:session): session closed for user root
+Jul 28 01:40:01 CKevin CRON[8821]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:40:02 CKevin CRON[8821]: pam_unix(cron:session): session closed for user root
+Jul 28 01:43:24 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 28 01:43:24 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 28 01:43:36 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 28 01:45:01 CKevin CRON[9056]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:45:02 CKevin CRON[9056]: pam_unix(cron:session): session closed for user root
+Jul 28 01:50:01 CKevin CRON[9257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:50:03 CKevin CRON[9257]: pam_unix(cron:session): session closed for user root
+Jul 28 01:55:01 CKevin CRON[9455]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:55:01 CKevin CRON[9455]: pam_unix(cron:session): session closed for user root
+Jul 28 02:00:01 CKevin CRON[9652]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:00:02 CKevin CRON[9652]: pam_unix(cron:session): session closed for user root
+Jul 28 02:05:01 CKevin CRON[9840]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:05:02 CKevin CRON[9840]: pam_unix(cron:session): session closed for user root
+Jul 28 02:10:01 CKevin CRON[10037]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:10:01 CKevin CRON[10037]: pam_unix(cron:session): session closed for user root
+Jul 28 02:13:24 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 28 02:13:24 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 28 02:13:41 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 28 02:15:01 CKevin CRON[10272]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:15:02 CKevin CRON[10272]: pam_unix(cron:session): session closed for user root
+Jul 28 02:17:01 CKevin CRON[10454]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:17:01 CKevin CRON[10454]: pam_unix(cron:session): session closed for user root
+Jul 28 02:20:01 CKevin CRON[10472]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:20:02 CKevin CRON[10472]: pam_unix(cron:session): session closed for user root
+Jul 28 02:25:01 CKevin CRON[10667]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:25:02 CKevin CRON[10667]: pam_unix(cron:session): session closed for user root
+Jul 28 02:30:01 CKevin CRON[10854]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:30:01 CKevin CRON[10854]: pam_unix(cron:session): session closed for user root
+Jul 28 02:35:01 CKevin CRON[11051]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:35:02 CKevin CRON[11051]: pam_unix(cron:session): session closed for user root
+Jul 28 02:40:01 CKevin CRON[11246]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:40:01 CKevin CRON[11246]: pam_unix(cron:session): session closed for user root
+Jul 28 02:43:24 CKevin sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 28 02:43:24 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 28 02:43:36 CKevin sudo: pam_unix(sudo:session): session closed for user root
+Jul 28 02:45:01 CKevin CRON[11483]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:45:02 CKevin CRON[11483]: pam_unix(cron:session): session closed for user root
+Jul 28 02:50:01 CKevin CRON[11680]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:50:02 CKevin CRON[11680]: pam_unix(cron:session): session closed for user root
+Jul 28 02:55:01 CKevin CRON[11885]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:55:01 CKevin CRON[11885]: pam_unix(cron:session): session closed for user root
+Jul 28 03:00:01 CKevin CRON[12076]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 03:00:01 CKevin CRON[12075]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 03:00:04 CKevin CRON[12076]: pam_unix(cron:session): session closed for user root
+Jul 28 03:00:05 CKevin sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jul 28 03:00:05 CKevin sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 28 03:00:05 CKevin sudo: pam_unix(sudo:session): session closed for user root

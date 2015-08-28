@@ -1,0 +1,352 @@
+Apr  7 10:40:29 TestVM mdm[1849]: pam_nologin(mdm:auth): cannot determine username
+Apr  7 12:38:30 TestVM mdm[1744]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  7 12:38:30 TestVM mdm[1744]: PAM adding faulty module: pam_kwallet.so
+Apr  7 12:38:39 TestVM mdm[1744]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "msabin"
+Apr  7 12:38:43 TestVM mdm[1744]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=msabin
+Apr  7 12:38:44 TestVM mdm[1744]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=msabin
+Apr  7 12:38:44 TestVM mdm[1744]: pam_sss(mdm:auth): received for user msabin: 4 (System error)
+Apr  7 12:38:47 TestVM mdm[1744]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  7 12:38:47 TestVM mdm[1744]: PAM adding faulty module: pam_kwallet.so
+Apr  7 12:39:05 TestVM mdm[1744]: pam_unix(mdm:auth): check pass; user unknown
+Apr  7 12:39:05 TestVM mdm[1744]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Apr  7 12:39:05 TestVM mdm[1744]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=$abiN2767
+Apr  7 12:39:05 TestVM mdm[1744]: pam_sss(mdm:auth): received for user $abiN2767: 10 (User not known to the underlying authentication module)
+Apr  7 12:39:09 TestVM mdm[1744]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  7 12:39:09 TestVM mdm[1744]: PAM adding faulty module: pam_kwallet.so
+Apr  7 12:39:11 TestVM mdm[1744]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "msabin"
+Apr  7 12:39:14 TestVM mdm[1744]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=msabin
+Apr  7 12:39:15 TestVM mdm[1744]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=msabin
+Apr  7 12:39:15 TestVM mdm[1744]: pam_unix(mdm:session): session opened for user msabin by (uid=0)
+Apr  7 12:39:15 TestVM mdm[1744]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  7 12:39:21 TestVM polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.22 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  7 13:09:25 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 13:09:25 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 13:09:44 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 13:17:01 TestVM CRON[2867]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 13:17:01 TestVM CRON[2867]: pam_unix(cron:session): session closed for user root
+Apr  7 13:39:25 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 13:39:25 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 13:39:41 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 14:09:25 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 14:09:25 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 14:09:44 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 14:17:01 TestVM CRON[3044]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 14:17:01 TestVM CRON[3044]: pam_unix(cron:session): session closed for user root
+Apr  7 14:39:25 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 14:39:25 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 14:39:46 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:09:25 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 15:09:25 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 15:09:54 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:17:01 TestVM CRON[3247]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 15:17:01 TestVM CRON[3247]: pam_unix(cron:session): session closed for user root
+Apr  7 15:39:25 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 15:39:25 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 15:39:41 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 16:09:25 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 16:09:25 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 16:09:43 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 16:17:01 TestVM CRON[3424]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 16:17:01 TestVM CRON[3424]: pam_unix(cron:session): session closed for user root
+Apr  7 16:39:25 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 16:39:25 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 16:39:45 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 17:09:25 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 17:09:25 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 17:09:43 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 17:17:01 TestVM CRON[3609]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 17:17:01 TestVM CRON[3609]: pam_unix(cron:session): session closed for user root
+Apr  7 17:39:25 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 17:39:25 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 17:39:39 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 18:09:25 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 18:09:25 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 18:09:42 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 18:17:01 TestVM CRON[3797]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 18:17:01 TestVM CRON[3797]: pam_unix(cron:session): session closed for user root
+Apr  7 18:39:26 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 18:39:26 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 18:39:46 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 19:09:25 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 19:09:25 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 19:09:42 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 19:17:01 TestVM CRON[3980]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 19:17:01 TestVM CRON[3980]: pam_unix(cron:session): session closed for user root
+Apr  7 19:39:25 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 19:39:25 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 19:39:45 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 20:09:25 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 20:09:25 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 20:09:53 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 20:17:01 TestVM CRON[4158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 20:17:01 TestVM CRON[4158]: pam_unix(cron:session): session closed for user root
+Apr  7 20:39:25 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 20:39:25 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 20:39:49 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 21:09:26 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 21:09:26 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 21:09:40 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 21:17:01 TestVM CRON[4352]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 21:17:01 TestVM CRON[4352]: pam_unix(cron:session): session closed for user root
+Apr  7 21:39:26 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 21:39:26 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 21:39:45 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 22:09:26 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 22:09:26 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 22:09:43 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 22:17:01 TestVM CRON[4536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 22:17:01 TestVM CRON[4536]: pam_unix(cron:session): session closed for user root
+Apr  7 22:39:26 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 22:39:26 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 22:39:47 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 23:09:26 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 23:09:26 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 23:09:43 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 23:17:01 TestVM CRON[4714]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 23:17:01 TestVM CRON[4714]: pam_unix(cron:session): session closed for user root
+Apr  7 23:39:26 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 23:39:26 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 23:39:40 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 00:09:26 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 00:09:26 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 00:09:42 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 00:17:01 TestVM CRON[4896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 00:17:01 TestVM CRON[4896]: pam_unix(cron:session): session closed for user root
+Apr  8 00:39:26 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 00:39:26 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 00:39:41 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 01:09:26 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 01:09:26 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 01:09:43 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 01:17:01 TestVM CRON[5098]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 01:17:01 TestVM CRON[5098]: pam_unix(cron:session): session closed for user root
+Apr  8 01:39:26 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 01:39:26 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 01:39:48 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 02:09:26 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 02:09:26 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 02:09:43 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 02:17:01 TestVM CRON[5286]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 02:17:01 TestVM CRON[5286]: pam_unix(cron:session): session closed for user root
+Apr  8 02:39:26 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 02:39:26 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 02:39:45 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 03:00:01 TestVM CRON[5404]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 03:09:36 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 03:09:36 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 03:10:49 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 03:17:02 TestVM CRON[5644]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 03:17:02 TestVM CRON[5644]: pam_unix(cron:session): session closed for user root
+Apr  8 03:25:35 TestVM mdm[1764]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  8 03:25:35 TestVM mdm[1764]: PAM adding faulty module: pam_kwallet.so
+Apr  8 03:30:37 TestVM su[2115]: Successful su for nobody by root
+Apr  8 03:30:37 TestVM su[2115]: + ??? root:nobody
+Apr  8 03:30:37 TestVM su[2115]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  8 03:30:37 TestVM su[2115]: pam_unix(su:session): session closed for user nobody
+Apr  8 03:30:37 TestVM su[2190]: Successful su for nobody by root
+Apr  8 03:30:37 TestVM su[2190]: + ??? root:nobody
+Apr  8 03:30:37 TestVM su[2190]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  8 03:30:37 TestVM su[2190]: pam_unix(su:session): session closed for user nobody
+Apr  8 03:30:37 TestVM su[2204]: Successful su for nobody by root
+Apr  8 03:30:37 TestVM su[2204]: + ??? root:nobody
+Apr  8 03:30:37 TestVM su[2204]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  8 03:30:50 TestVM su[2204]: pam_unix(su:session): session closed for user nobody
+Apr  8 04:17:01 TestVM CRON[2375]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 04:17:01 TestVM CRON[2375]: pam_unix(cron:session): session closed for user root
+Apr  8 05:15:49 TestVM mdm[1764]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "heespino"
+Apr  8 05:15:52 TestVM mdm[1764]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=heespino
+Apr  8 05:15:53 TestVM mdm[1764]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=heespino
+Apr  8 05:15:53 TestVM mdm[1764]: pam_sss(mdm:auth): received for user heespino: 4 (System error)
+Apr  8 05:15:55 TestVM mdm[1764]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  8 05:15:55 TestVM mdm[1764]: PAM adding faulty module: pam_kwallet.so
+Apr  8 05:16:10 TestVM mdm[1764]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "heespino"
+Apr  8 05:16:15 TestVM mdm[1764]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=heespino
+Apr  8 05:16:16 TestVM mdm[1764]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=heespino
+Apr  8 05:16:16 TestVM mdm[1764]: pam_unix(mdm:session): session opened for user heespino by (uid=0)
+Apr  8 05:16:16 TestVM mdm[1764]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  8 05:16:23 TestVM polkitd(authority=local): Registered Authentication Agent for unix-session:c4 (system bus name :1.49 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  8 05:17:01 TestVM CRON[3434]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 05:17:01 TestVM CRON[3434]: pam_unix(cron:session): session closed for user root
+Apr  8 05:46:27 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 05:46:27 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 05:46:46 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 06:16:27 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 06:16:27 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 06:16:45 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 06:17:01 TestVM CRON[3655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 06:17:01 TestVM CRON[3655]: pam_unix(cron:session): session closed for user root
+Apr  8 06:25:01 TestVM CRON[3676]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 06:25:01 TestVM CRON[3676]: pam_unix(cron:session): session closed for user root
+Apr  8 06:46:27 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 06:46:27 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 06:46:45 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 07:16:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 07:16:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 07:16:47 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 07:17:01 TestVM CRON[3838]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 07:17:01 TestVM CRON[3838]: pam_unix(cron:session): session closed for user root
+Apr  8 07:30:01 TestVM CRON[3868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 07:30:01 TestVM CRON[3868]: pam_unix(cron:session): session closed for user root
+Apr  8 07:46:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 07:46:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 07:46:46 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 08:16:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 08:16:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 08:16:46 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 08:17:01 TestVM CRON[4029]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 08:17:01 TestVM CRON[4029]: pam_unix(cron:session): session closed for user root
+Apr  8 08:46:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 08:46:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 08:46:49 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 09:16:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 09:16:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 09:16:46 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 09:17:01 TestVM CRON[4210]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 09:17:01 TestVM CRON[4210]: pam_unix(cron:session): session closed for user root
+Apr  8 09:46:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 09:46:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 09:46:44 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:16:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 10:16:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 10:16:43 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:17:01 TestVM CRON[4392]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 10:17:01 TestVM CRON[4392]: pam_unix(cron:session): session closed for user root
+Apr  8 10:46:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 10:46:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 10:46:44 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 11:16:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 11:16:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 11:16:40 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 11:17:01 TestVM CRON[4563]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 11:17:01 TestVM CRON[4563]: pam_unix(cron:session): session closed for user root
+Apr  8 11:46:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 11:46:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 11:46:41 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 12:16:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 12:16:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 12:16:41 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 12:17:01 TestVM CRON[4738]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 12:17:01 TestVM CRON[4738]: pam_unix(cron:session): session closed for user root
+Apr  8 12:46:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 12:46:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 12:46:41 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 13:16:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 13:16:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 13:16:41 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 13:17:01 TestVM CRON[4915]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 13:17:01 TestVM CRON[4915]: pam_unix(cron:session): session closed for user root
+Apr  8 13:46:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 13:46:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 13:46:41 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 14:16:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 14:16:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 14:16:44 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 14:17:01 TestVM CRON[5086]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 14:17:01 TestVM CRON[5086]: pam_unix(cron:session): session closed for user root
+Apr  8 14:46:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 14:46:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 14:46:41 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 15:16:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 15:16:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 15:16:41 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 15:17:01 TestVM CRON[5255]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 15:17:01 TestVM CRON[5255]: pam_unix(cron:session): session closed for user root
+Apr  8 15:46:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 15:46:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 15:46:41 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:16:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 16:16:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 16:16:41 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:17:01 TestVM CRON[5432]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 16:17:02 TestVM CRON[5432]: pam_unix(cron:session): session closed for user root
+Apr  8 16:46:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 16:46:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 16:46:42 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 17:16:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 17:16:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 17:16:41 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 17:17:01 TestVM CRON[5603]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 17:17:01 TestVM CRON[5603]: pam_unix(cron:session): session closed for user root
+Apr  8 17:46:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 17:46:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 17:46:47 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 18:16:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 18:16:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 18:16:43 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 18:17:01 TestVM CRON[5780]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 18:17:01 TestVM CRON[5780]: pam_unix(cron:session): session closed for user root
+Apr  8 18:46:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 18:46:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 18:46:41 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 19:16:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 19:16:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 19:16:42 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 19:17:01 TestVM CRON[5958]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 19:17:01 TestVM CRON[5958]: pam_unix(cron:session): session closed for user root
+Apr  8 19:46:28 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 19:46:28 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 19:46:44 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 20:16:29 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 20:16:29 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 20:16:44 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 20:17:01 TestVM CRON[6134]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 20:17:01 TestVM CRON[6134]: pam_unix(cron:session): session closed for user root
+Apr  8 20:46:29 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 20:46:29 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 20:46:47 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 21:16:29 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 21:16:29 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 21:16:43 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 21:17:01 TestVM CRON[6306]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 21:17:01 TestVM CRON[6306]: pam_unix(cron:session): session closed for user root
+Apr  8 21:46:29 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 21:46:29 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 21:46:48 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 22:16:29 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 22:16:29 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 22:16:44 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 22:17:01 TestVM CRON[6482]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 22:17:01 TestVM CRON[6482]: pam_unix(cron:session): session closed for user root
+Apr  8 22:46:29 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 22:46:29 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 22:46:44 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 23:16:29 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 23:16:29 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 23:16:44 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 23:17:01 TestVM CRON[6653]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 23:17:01 TestVM CRON[6653]: pam_unix(cron:session): session closed for user root
+Apr  8 23:46:29 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 23:46:29 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 23:47:01 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 00:16:29 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 00:16:29 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 00:16:43 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 00:17:01 TestVM CRON[6827]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 00:17:01 TestVM CRON[6827]: pam_unix(cron:session): session closed for user root
+Apr  9 00:46:29 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 00:46:29 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 00:46:43 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 01:16:29 TestVM sudo: heespino : TTY=unknown ; PWD=/home/heespino ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 01:16:29 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 01:16:45 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 01:17:01 TestVM CRON[6998]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 01:17:01 TestVM CRON[6998]: pam_unix(cron:session): session closed for user root
+Apr  9 01:40:41 TestVM mdm[1764]: pam_unix(mdm:session): session closed for user heespino
+Apr  9 01:40:42 TestVM polkitd(authority=local): Unregistered Authentication Agent for unix-session:c4 (system bus name :1.49, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr  9 01:40:48 TestVM mdm[7055]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 01:40:48 TestVM mdm[7055]: PAM adding faulty module: pam_kwallet.so
+Apr  9 01:40:55 TestVM mdm[7055]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "msabin"
+Apr  9 01:40:58 TestVM mdm[7055]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=msabin
+Apr  9 01:40:59 TestVM mdm[7055]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=msabin
+Apr  9 01:40:59 TestVM mdm[7055]: pam_unix(mdm:session): session opened for user msabin by (uid=0)
+Apr  9 01:40:59 TestVM mdm[7055]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  9 01:41:03 TestVM polkitd(authority=local): Registered Authentication Agent for unix-session:c5 (system bus name :1.259 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  9 02:11:11 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 02:11:11 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 02:11:36 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 02:17:02 TestVM CRON[7701]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 02:17:02 TestVM CRON[7701]: pam_unix(cron:session): session closed for user root
+Apr  9 02:41:11 TestVM sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 02:41:11 TestVM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 02:41:40 TestVM sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 03:00:01 TestVM CRON[7820]: pam_unix(cron:session): session opened for user root by (uid=0)

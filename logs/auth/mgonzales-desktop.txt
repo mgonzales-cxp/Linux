@@ -1,0 +1,869 @@
+Jun 24 10:11:40 mgonzales-desktop dbus[488]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1468 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=826 comm="NetworkManager ")
+Jun 24 10:11:44 mgonzales-desktop mdm[1384]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 24 10:11:44 mgonzales-desktop mdm[1384]: PAM adding faulty module: pam_kwallet.so
+Jun 24 10:11:46 mgonzales-desktop mdm[1384]: pam_nologin(mdm:auth): cannot determine username
+Jun 24 10:11:46 mgonzales-desktop mdm[1384]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 24 10:11:46 mgonzales-desktop mdm[1384]: PAM adding faulty module: pam_kwallet.so
+Jun 24 10:11:46 mgonzales-desktop mdm[1384]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "matt"
+Jun 24 10:11:49 mgonzales-desktop mdm[1384]: pam_unix(mdm:session): session opened for user matt by (uid=0)
+Jun 24 10:11:49 mgonzales-desktop mdm[1384]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 24 10:11:55 mgonzales-desktop polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.24 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 24 10:16:04 mgonzales-desktop sudo: pam_unix(sudo:auth): authentication failure; logname=matt uid=1000 euid=0 tty=/dev/pts/2 ruser=matt rhost=  user=matt
+Jun 24 10:16:08 mgonzales-desktop sudo:     matt : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/chmod +x config.sh
+Jun 24 10:16:08 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 10:16:08 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 10:16:12 mgonzales-desktop sudo:     matt : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=./config.sh
+Jun 24 10:16:12 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 10:16:14 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mkdir /usr/src/IT_Files
+Jun 24 10:16:14 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 10:16:14 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 10:16:14 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/sed -i /IT_Files/d /etc/fstab
+Jun 24 10:16:14 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 10:16:14 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 10:16:14 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/echo //hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8,nobootwait  0  0
+Jun 24 10:16:14 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 10:16:14 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 10:16:14 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mount -a
+Jun 24 10:16:14 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 10:16:14 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 10:16:35 mgonzales-desktop su[2887]: Successful su for nobody by root
+Jun 24 10:16:35 mgonzales-desktop su[2887]: + ??? root:nobody
+Jun 24 10:16:35 mgonzales-desktop su[2887]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jun 24 10:16:35 mgonzales-desktop su[2887]: pam_unix(su:session): session closed for user nobody
+Jun 24 10:16:35 mgonzales-desktop su[2900]: Successful su for nobody by root
+Jun 24 10:16:35 mgonzales-desktop su[2900]: + ??? root:nobody
+Jun 24 10:16:35 mgonzales-desktop su[2900]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jun 24 10:16:35 mgonzales-desktop su[2900]: pam_unix(su:session): session closed for user nobody
+Jun 24 10:16:35 mgonzales-desktop su[2926]: Successful su for nobody by root
+Jun 24 10:16:35 mgonzales-desktop su[2926]: + ??? root:nobody
+Jun 24 10:16:35 mgonzales-desktop su[2926]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jun 24 10:16:40 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 10:16:41 mgonzales-desktop sudo:     matt : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=./config.sh
+Jun 24 10:16:41 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 10:16:49 mgonzales-desktop su[2926]: pam_unix(su:session): session closed for user nobody
+Jun 24 10:17:01 mgonzales-desktop CRON[3034]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 10:17:01 mgonzales-desktop CRON[3034]: pam_unix(cron:session): session closed for user root
+Jun 24 10:17:10 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 10:41:58 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 10:41:58 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 10:42:09 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 10:45:52 mgonzales-desktop dbus[488]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.3" (uid=107 pid=611 comm="avahi-daemon: starting up") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.67" (uid=1000 pid=3353 comm="evince /usr/src/IT_Files/Electronic Use Agreement ")
+Jun 24 11:11:58 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 11:11:58 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 11:12:08 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 11:17:01 mgonzales-desktop CRON[3506]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 11:17:01 mgonzales-desktop CRON[3506]: pam_unix(cron:session): session closed for user root
+Jun 24 11:41:58 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 11:41:58 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 11:42:08 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:08:48 mgonzales-desktop sudo:     matt : TTY=pts/3 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/bin/touch /home/matt/Desktop/tech.sh
+Jun 24 12:08:48 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:08:48 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:09:00 mgonzales-desktop sudo:     matt : TTY=pts/3 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/bin/apt-get install vim
+Jun 24 12:09:00 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:09:13 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:11:58 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 12:11:58 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 12:12:09 mgonzales-desktop sudo:     matt : TTY=pts/3 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/usr/bin/vim tech.sh
+Jun 24 12:12:09 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:12:12 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:12:13 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:12:24 mgonzales-desktop sudo:     matt : TTY=pts/3 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/chmod +x tech.sh
+Jun 24 12:12:24 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:12:24 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:12:55 mgonzales-desktop sudo:     matt : TTY=pts/3 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/usr/bin/gedit /usr/src/IT_Files/Linux/xfce-uni/initial_setup.sh
+Jun 24 12:12:55 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:13:42 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:13:48 mgonzales-desktop sudo:     matt : TTY=pts/3 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/usr/bin/gedit /utech.sh
+Jun 24 12:13:48 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:13:56 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:14:09 mgonzales-desktop sudo:     matt : TTY=pts/3 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/chown matt:matt tech
+Jun 24 12:14:09 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:14:09 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:14:11 mgonzales-desktop sudo:     matt : TTY=pts/3 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/chown matt:matt tech.sh
+Jun 24 12:14:11 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:14:11 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:17:01 mgonzales-desktop CRON[4909]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 12:17:01 mgonzales-desktop CRON[4909]: pam_unix(cron:session): session closed for user root
+Jun 24 12:21:24 mgonzales-desktop sudo:     matt : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=./tech.sh
+Jun 24 12:21:24 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 10:45:52 mgonzales-desktop dbus[488]: [system] Rejected send message, 2 matched rules; type="method_return", sender=":1.3" (uid=107 pid=611 comm="avahi-daemon: starting up") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.67" (uid=1000 pid=3353 comm="evince /usr/src/IT_Files/Electronic Use Agreement ")
+Jun 24 12:41:28 mgonzales-desktop systemd-logind[21373]: New seat seat0.
+Jun 24 12:41:28 mgonzales-desktop systemd-logind[21373]: New session c1 of user matt.
+Jun 24 12:41:28 mgonzales-desktop systemd-logind[21373]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jun 24 12:44:03 mgonzales-desktop groupadd[3552]: group added to /etc/group: name=clamav, GID=125
+Jun 24 12:44:03 mgonzales-desktop groupadd[3552]: group added to /etc/gshadow: name=clamav
+Jun 24 12:44:03 mgonzales-desktop groupadd[3552]: new group: name=clamav, GID=125
+Jun 24 12:44:03 mgonzales-desktop useradd[3556]: new user: name=clamav, UID=115, GID=125, home=/var/lib/clamav, shell=/bin/false
+Jun 24 12:44:03 mgonzales-desktop chage[3561]: changed password expiry for clamav
+Jun 24 12:44:06 mgonzales-desktop useradd[3792]: new user: name=sshd, UID=116, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Jun 24 12:44:07 mgonzales-desktop usermod[3797]: change user 'sshd' password
+Jun 24 12:44:07 mgonzales-desktop chage[3802]: changed password expiry for sshd
+Jun 24 12:44:07 mgonzales-desktop sshd[3857]: Server listening on 0.0.0.0 port 22.
+Jun 24 12:44:07 mgonzales-desktop sshd[3857]: Server listening on :: port 22.
+Jun 24 12:45:40 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 24 12:45:40 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:45:40 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:45:40 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.9-x86.msi /usr/share/wine/gecko/
+Jun 24 12:45:40 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:45:40 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:46:23 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 24 12:46:23 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:46:23 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:46:23 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86.msi /usr/share/wine/gecko/
+Jun 24 12:46:23 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:46:23 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:46:54 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 24 12:46:54 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:46:54 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:46:54 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86.msi /usr/share/wine/gecko/
+Jun 24 12:46:54 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:46:54 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:47:06 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 24 12:47:06 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:47:06 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:47:06 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86.msi /usr/share/wine/gecko/
+Jun 24 12:47:06 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:47:06 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:47:18 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 24 12:47:18 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:47:18 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:47:18 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86_64.msi /usr/share/wine/gecko/
+Jun 24 12:47:18 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:47:18 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:47:27 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 24 12:47:27 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:47:27 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:47:27 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86_64.msi /usr/share/wine/gecko/
+Jun 24 12:47:27 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:47:27 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:47:43 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 24 12:47:43 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:47:43 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:47:43 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.6-x86_64.msi /usr/share/wine/gecko/
+Jun 24 12:47:43 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:47:43 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:48:12 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 24 12:48:12 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:48:12 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:48:12 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.5-x86_64.msi /usr/share/wine/gecko/
+Jun 24 12:48:12 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:48:12 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:48:24 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 24 12:48:24 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:48:24 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:48:24 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86_64.msi /usr/share/wine/gecko/
+Jun 24 12:48:24 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:48:24 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:48:49 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 24 12:48:49 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:48:49 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:48:49 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.3-x86_64.msi /usr/share/wine/gecko/
+Jun 24 12:48:49 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:48:49 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:50:05 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Jun 24 12:50:05 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:50:05 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:50:05 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.4.msi /usr/share/wine/mono
+Jun 24 12:50:05 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:50:05 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:50:30 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Jun 24 12:50:30 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:50:30 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:50:30 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.8.msi /usr/share/wine/mono
+Jun 24 12:50:30 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:50:31 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:50:33 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jun 24 12:50:33 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:50:33 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:51:04 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:51:28 mgonzales-desktop systemd-logind[842]: New seat seat0.
+Jun 24 12:51:33 mgonzales-desktop sshd[1205]: Server listening on 0.0.0.0 port 22.
+Jun 24 12:51:33 mgonzales-desktop sshd[1205]: Server listening on :: port 22.
+Jun 24 12:51:35 mgonzales-desktop mdm[1444]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 24 12:51:35 mgonzales-desktop mdm[1444]: PAM adding faulty module: pam_kwallet.so
+Jun 24 12:51:44 mgonzales-desktop dbus[712]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1565 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=872 comm="NetworkManager ")
+Jun 24 12:52:10 mgonzales-desktop mdm[1444]: pam_unix(mdm:auth): check pass; user unknown
+Jun 24 12:52:10 mgonzales-desktop mdm[1444]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Jun 24 12:52:13 mgonzales-desktop mdm[1444]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 24 12:52:13 mgonzales-desktop mdm[1444]: PAM adding faulty module: pam_kwallet.so
+Jun 24 12:52:17 mgonzales-desktop mdm[1444]: pam_unix(mdm:auth): check pass; user unknown
+Jun 24 12:52:17 mgonzales-desktop mdm[1444]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Jun 24 12:52:21 mgonzales-desktop mdm[1444]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 24 12:52:21 mgonzales-desktop mdm[1444]: PAM adding faulty module: pam_kwallet.so
+Jun 24 12:52:22 mgonzales-desktop mdm[1444]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "matt"
+Jun 24 12:52:25 mgonzales-desktop mdm[1444]: pam_unix(mdm:session): session opened for user matt by (uid=0)
+Jun 24 12:52:25 mgonzales-desktop systemd-logind[842]: New session c1 of user matt.
+Jun 24 12:52:25 mgonzales-desktop systemd-logind[842]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jun 24 12:52:25 mgonzales-desktop mdm[1444]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 24 12:52:30 mgonzales-desktop polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 24 12:56:55 mgonzales-desktop sudo:     matt : TTY=pts/4 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=./tech.sh
+Jun 24 12:56:55 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:57:56 mgonzales-desktop sudo:     root : TTY=pts/4 ; PWD=/home/matt/Desktop ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jun 24 12:57:56 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:57:56 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:58:04 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 12:58:28 mgonzales-desktop sshd[1198]: Server listening on 0.0.0.0 port 22.
+Jun 24 12:58:28 mgonzales-desktop sshd[1198]: Server listening on :: port 22.
+Jun 24 12:58:29 mgonzales-desktop mdm[1438]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 24 12:58:29 mgonzales-desktop mdm[1438]: PAM adding faulty module: pam_kwallet.so
+Jun 24 12:58:32 mgonzales-desktop mdm[1438]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "matt"
+Jun 24 12:58:35 mgonzales-desktop mdm[1438]: pam_unix(mdm:session): session opened for user matt by (uid=0)
+Jun 24 12:58:35 mgonzales-desktop mdm[1438]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 24 12:58:37 mgonzales-desktop polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.18 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 24 12:58:40 mgonzales-desktop dbus[543]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.37" (uid=0 pid=2125 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=862 comm="NetworkManager ")
+Jun 24 12:59:18 mgonzales-desktop sudo: pam_unix(sudo:auth): authentication failure; logname=matt uid=1000 euid=0 tty=/dev/pts/2 ruser=matt rhost=  user=matt
+Jun 24 12:59:23 mgonzales-desktop sudo:     matt : TTY=pts/2 ; PWD=/home/matt/.config ; USER=root ; COMMAND=/bin/mkdir autostart
+Jun 24 12:59:23 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 12:59:23 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 13:03:16 mgonzales-desktop sudo:     matt : TTY=pts/2 ; PWD=/home/matt/.config/autostart ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/startup/update.desktop .
+Jun 24 13:03:16 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 13:03:16 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 13:03:22 mgonzales-desktop sudo:     matt : TTY=pts/2 ; PWD=/home/matt/.config/autostart ; USER=root ; COMMAND=/usr/bin/vim update.desktop
+Jun 24 13:03:22 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 13:17:01 mgonzales-desktop CRON[2683]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 13:17:01 mgonzales-desktop CRON[2683]: pam_unix(cron:session): session closed for user root
+Jun 24 13:28:41 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 13:28:41 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 13:28:57 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 13:58:41 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 13:58:41 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 13:58:50 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 14:00:04 mgonzales-desktop unix_chkpwd[3709]: password check failed for user (matt)
+Jun 24 14:00:04 mgonzales-desktop xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost=  user=matt
+Jun 24 14:00:07 mgonzales-desktop xscreensaver[1924]: FAILED LOGIN 1 ON DISPLAY ":0.0", FOR "matt"
+Jun 24 14:00:09 mgonzales-desktop xscreensaver[1924]: pam_ecryptfs: seteuid error
+Jun 24 14:01:54 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 14:09:33 mgonzales-desktop sudo: pam_unix(sudo:auth): authentication failure; logname=matt uid=1000 euid=0 tty=/dev/pts/2 ruser=matt rhost=  user=matt
+Jun 24 14:09:38 mgonzales-desktop sudo:     matt : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/bin/vim
+Jun 24 14:09:38 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 14:09:39 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 14:09:44 mgonzales-desktop sudo:     matt : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/bin/apt-get install geany
+Jun 24 14:09:44 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 14:10:00 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 14:11:20 mgonzales-desktop smbd[4259]: pam_unix(samba:session): session closed for user nobody
+Jun 24 14:13:08 mgonzales-desktop smbd[4749]: pam_unix(samba:session): session closed for user nobody
+Jun 24 14:14:37 mgonzales-desktop polkit-agent-helper-1[4813]: pam_ecryptfs: pam_sm_authenticate: /home/matt is already mounted
+Jun 24 14:14:37 mgonzales-desktop polkitd(authority=local): Operator of unix-session:c1 successfully authenticated as unix-user:matt to gain ONE-SHOT authorization for action com.ubuntu.pkexec.synaptic for unix-process:4810:457059 [/bin/sh -c pkexec /usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 46137376 -o Synaptic::closeZvt=true --progress-str "Please wait, this can take some time" --finish-str "Update is complete" --set-selections-file /tmp/tmpoCqQ5z] (owned by unix-user:matt)
+Jun 24 14:14:37 mgonzales-desktop pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jun 24 14:14:37 mgonzales-desktop pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jun 24 14:14:37 mgonzales-desktop pkexec[4811]: matt: Executing command [USER=root] [TTY=unknown] [CWD=/home/matt] [COMMAND=/usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 46137376 -o Synaptic::closeZvt=true --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmpoCqQ5z]
+Jun 24 14:17:01 mgonzales-desktop CRON[5932]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 14:17:01 mgonzales-desktop CRON[5932]: pam_unix(cron:session): session closed for user root
+Jun 24 14:28:41 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 14:28:41 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 14:28:55 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 14:34:31 mgonzales-desktop su[6183]: pam_unix(su:auth): authentication failure; logname=matt uid=1000 euid=0 tty=/dev/pts/5 ruser=matt rhost=  user=root
+Jun 24 14:34:33 mgonzales-desktop su[6183]: pam_authenticate: Authentication failure
+Jun 24 14:34:33 mgonzales-desktop su[6183]: FAILED su for root by matt
+Jun 24 14:34:33 mgonzales-desktop su[6183]: - /dev/pts/5 matt:root
+Jun 24 14:34:38 mgonzales-desktop su[6185]: Successful su for root by matt
+Jun 24 14:34:38 mgonzales-desktop su[6185]: + /dev/pts/5 matt:root
+Jun 24 14:34:38 mgonzales-desktop su[6185]: pam_unix(su:session): session opened for user root by matt(uid=1000)
+Jun 24 14:41:13 mgonzales-desktop sudo: pam_unix(sudo:auth): authentication failure; logname=matt uid=1000 euid=0 tty=/dev/pts/7 ruser=matt rhost=  user=matt
+Jun 24 14:41:18 mgonzales-desktop sudo:     matt : TTY=pts/7 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/bin/apt-get install xtightvncviewer
+Jun 24 14:41:18 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 14:41:23 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 14:41:28 mgonzales-desktop sudo:     matt : TTY=pts/7 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/bin/vim /etc/bash.bashrc
+Jun 24 14:41:28 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 14:41:59 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 14:42:11 mgonzales-desktop sudo:     matt : TTY=pts/7 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/quickvnc.sh /usr/bin/
+Jun 24 14:42:11 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 24 14:42:11 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 14:52:59 mgonzales-desktop su[6185]: pam_unix(su:session): session closed for user root
+Jun 24 14:53:58 mgonzales-desktop unix_chkpwd[7323]: password check failed for user (matt)
+Jun 24 14:53:58 mgonzales-desktop xscreensaver[1924]: pam_unix(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost=  user=matt
+Jun 24 14:54:00 mgonzales-desktop xscreensaver[1924]: FAILED LOGIN 1 ON DISPLAY ":0.0", FOR "matt"
+Jun 24 14:54:03 mgonzales-desktop xscreensaver[1924]: pam_ecryptfs: seteuid error
+Jun 24 14:58:41 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 14:58:41 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 14:58:50 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 15:17:01 mgonzales-desktop CRON[7417]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 15:17:01 mgonzales-desktop CRON[7417]: pam_unix(cron:session): session closed for user root
+Jun 24 15:28:41 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 15:28:41 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 15:28:56 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 15:58:41 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 15:58:41 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 15:58:56 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 16:17:01 mgonzales-desktop CRON[7571]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 16:17:01 mgonzales-desktop CRON[7571]: pam_unix(cron:session): session closed for user root
+Jun 24 16:28:41 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 16:28:41 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 16:28:56 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 16:58:42 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 16:58:42 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 16:58:56 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 17:17:01 mgonzales-desktop CRON[7725]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 17:17:01 mgonzales-desktop CRON[7725]: pam_unix(cron:session): session closed for user root
+Jun 24 17:28:42 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 17:28:42 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 17:28:53 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 17:58:42 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 17:58:42 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 17:58:56 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 18:17:01 mgonzales-desktop CRON[7880]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 18:17:01 mgonzales-desktop CRON[7880]: pam_unix(cron:session): session closed for user root
+Jun 24 18:28:42 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 18:28:42 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 18:28:51 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 18:58:42 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 18:58:42 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 18:58:56 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 19:17:01 mgonzales-desktop CRON[8035]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 19:17:01 mgonzales-desktop CRON[8035]: pam_unix(cron:session): session closed for user root
+Jun 24 19:28:42 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 19:28:42 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 19:28:51 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 19:58:42 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 19:58:42 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 19:58:56 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 20:17:01 mgonzales-desktop CRON[8190]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 20:17:01 mgonzales-desktop CRON[8190]: pam_unix(cron:session): session closed for user root
+Jun 24 20:28:42 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 20:28:42 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 20:28:53 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 20:58:42 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 20:58:42 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 20:58:55 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 21:17:01 mgonzales-desktop CRON[8346]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 21:17:01 mgonzales-desktop CRON[8346]: pam_unix(cron:session): session closed for user root
+Jun 24 21:28:42 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 21:28:42 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 21:28:55 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 21:58:43 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 21:58:43 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 21:58:54 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 22:17:01 mgonzales-desktop CRON[8499]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 22:17:01 mgonzales-desktop CRON[8499]: pam_unix(cron:session): session closed for user root
+Jun 24 22:28:43 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 22:28:43 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 22:28:54 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 22:58:43 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 22:58:43 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 22:58:53 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 23:17:01 mgonzales-desktop CRON[8654]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 23:17:01 mgonzales-desktop CRON[8654]: pam_unix(cron:session): session closed for user root
+Jun 24 23:28:43 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 23:28:43 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 23:28:52 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 23:58:43 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 24 23:58:43 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 24 23:58:57 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 00:17:01 mgonzales-desktop CRON[8813]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 00:17:01 mgonzales-desktop CRON[8813]: pam_unix(cron:session): session closed for user root
+Jun 25 00:28:43 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 25 00:28:43 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 25 00:28:54 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 00:58:43 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 25 00:58:43 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 25 00:58:52 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 01:17:01 mgonzales-desktop CRON[8967]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 01:17:01 mgonzales-desktop CRON[8967]: pam_unix(cron:session): session closed for user root
+Jun 25 01:28:43 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 25 01:28:43 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 25 01:28:57 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 01:58:43 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 25 01:58:43 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 25 01:58:52 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 02:17:01 mgonzales-desktop CRON[9122]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 02:17:01 mgonzales-desktop CRON[9122]: pam_unix(cron:session): session closed for user root
+Jun 25 02:28:44 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 25 02:28:44 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 25 02:28:58 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 02:58:44 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 25 02:58:44 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 25 02:58:57 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 03:17:01 mgonzales-desktop CRON[9276]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 03:17:01 mgonzales-desktop CRON[9276]: pam_unix(cron:session): session closed for user root
+Jun 25 03:28:44 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 25 03:28:44 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 25 03:28:58 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 03:58:44 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 25 03:58:44 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 25 03:58:56 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 04:17:01 mgonzales-desktop CRON[9432]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 04:17:01 mgonzales-desktop CRON[9432]: pam_unix(cron:session): session closed for user root
+Jun 25 04:28:44 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 25 04:28:44 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 25 04:28:58 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 04:58:44 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 25 04:58:44 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 25 04:58:58 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 05:17:01 mgonzales-desktop CRON[9588]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 05:17:01 mgonzales-desktop CRON[9588]: pam_unix(cron:session): session closed for user root
+Jun 25 05:28:44 mgonzales-desktop sudo:     matt : TTY=unknown ; PWD=/home/matt ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 25 05:28:44 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 25 05:28:53 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 05:56:09 mgonzales-desktop sudo:     matt : TTY=pts/5 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/univentionClientScript2.sh
+Jun 25 05:56:09 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 05:56:09 mgonzales-desktop sudo:     root : TTY=pts/5 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/mkdir /etc/univention
+Jun 25 05:56:09 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 05:56:09 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 05:56:09 mgonzales-desktop sudo:     root : TTY=pts/5 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/mkdir /tmp/key/
+Jun 25 05:56:09 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 05:56:09 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 05:56:09 mgonzales-desktop sudo:     root : TTY=pts/5 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/echo -----BEGIN RSA PRIVATE
+Jun 25 05:56:09 mgonzales-desktop sudo:     root : (command continued) KEY-----#012MIIEowIBAAKCAQEAxxxfc/xj8etUnFZq/2y+dNGAxVaIHjym166+fb5bsNWgt4yt#012XbZ/6PlDXfO5qQ/3lZpX+5045BcQrvKpeN1a5pQA+RpuWW+qrqcDx8yr3WxaJTI4#012K6UDEgee7Cnzz2vSM0+bil3DmsBzUFDY56r8LAvyE30AaYum0ppZItXhFC4xP9gi#0125nsCE7E+5wiV3ZmFJhZPGVUlsKSIfXtHNgo6TIax4fwYJk5qtjayvAcnTuAzI0ih#012+xmPPQUuvnAf/Jdyx8Oa2eSbDJGCdCwZpFU9Yl0UakUZtPJBjwpksa+7CvMGzprr#012+bKTVuT7MOuBQ8uxGJeqiQOdySdESYu+1ZY+9wIDAQABAoIBACdunAzJWDXJ6EjJ#0126IjLTXCvKPRr7asnUdd3GOyoLVp5BEo1hwP/J5fI/al2ojc0HVE4buI6wdCSLNCo#0126B0yoVT2zLaIoH//2GqcUuhXxVWlprilGHC0TkZc0gFtUYarkMZuppwhc6KLKIso#012Z7yBpU1H1Fo9sD421QPyY2K9vsSTA0QRTgCl6Ytj0L+xmAe5/rxuCg0GBNEzsSot#012TLrx2ozpkexNVlLS+UkXZbAx2fW8lZn3N2pk/YQ1nb8vHMKLeYF+arS2Dl8yJRN8#0122/xtlDtglx5rn9mtBRGCHbw0nWAagERagVbkFocu3nnlobzAP1w+ZlpvzDrn7P4f#0129Ev/BjECgYEA/r2356Hc3iAoW5iOq1dbXhPdo7u696FX0mht9MUJ3WNN0qXOrbrm#012GMEU9HqkgwJu2++rB4Bub6h+b7OG/VXE/8mNHZt87jKfP2G0iR52OeEaPM9dCdlc#0124mipV62hzP2Ww9ekDKGsPvANoJruOqN/8BPWqXoXrtiHd3bBRwzEQLkCgYEAyBhG#012VlSdn7HdqN
+Jun 25 05:56:09 mgonzales-desktop sudo:     root : (command continued) QdAcOvJJvevojywwYclyLIl8rTKF/zsMC1a3WpJ2m69qzDzPvH#012tP8Cdre2LwpXag9V+A2KQPvhSvSQU31pq1yi8Mmc5JpmEwcEx2G5udUpxNqcz70t#012UTQjVe9THCnb/RtLz5rR9IRWLJ+OB9ZNhtXAxS8CgYBY5S/GH1AKG8K5pBU1abiy#012rdAMkTh/rcgN3u9wGUqF/V9tAPuM2MnvHYIIhrveE/1Htu1CIulnAa+Nn2KeCU5D#012zLv39wizvuqfnaL4rq6nKAyV5+8ZvsaRI+Dkfe0Wse/oy9mtpsWK+Q5oW2iDAgdl#012aibg4YBePaWYZNKxzpy10QKBgQCqfpSgRuUwB3xZwoEFhPdaY4S+6tl2/HXt2y1N#012UmQdgsM9qdSZDPsIn28MmDioqzkDVp4qCQfuZEcl+efWBU85V0Awcu7a0VyQ51G8#012o+hqxz+aQj0rhVV7FjgMsicvBx+KmyUcBhL9zDjCzKAYIMQOF1tCv+g1iZaZ8u6I#012L2ZcHQKBgFYQ/D8wIJeKKuEsilqzpyhhFvh3Yc0/3DlKZp75TQqZLtVKQAUsFzkA#01208c5TN2e6cyC3vQjqNC6UrADa8d1zdGcRlKoc0qn5rF1RhOTFCdcLHg6+il2gwrc#012QO/7FvsDTADiEYQ/qy5AvS0iTK20Ihu2tfCUG4qBa8eM+RZ7sxeo#012-----END RSA PRIVATE KEY-----
+Jun 25 05:56:09 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 05:56:09 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 05:56:14 mgonzales-desktop sudo:     root : TTY=pts/5 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/chmod 600 /tmp/key/keys
+Jun 25 05:56:14 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 05:56:14 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 05:56:19 mgonzales-desktop sudo:     root : TTY=pts/5 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/echo master_ip=192.168.128.239
+Jun 25 05:56:19 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 05:56:19 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 05:56:19 mgonzales-desktop sudo:     root : TTY=pts/5 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/chmod 660 /etc/univention/ucr_master
+Jun 25 05:56:19 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 05:56:19 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 05:56:19 mgonzales-desktop sudo:     root : TTY=pts/5 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/mkdir -p /etc/univention/ssl/ucsCA/
+Jun 25 05:56:19 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 05:56:19 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 05:56:19 mgonzales-desktop sudo:     root : TTY=pts/5 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/bin/wget -O /etc/univention/ssl/ucsCA/CAcert.pem http://ucs-main.connexionpoint.local/ucs-root-ca.crt
+Jun 25 05:56:19 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 05:56:19 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 05:56:30 mgonzales-desktop sudo:     root : TTY=pts/5 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/bin/printf %s H43vdrs0HaSjzfK10h8u
+Jun 25 05:56:30 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 05:56:30 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 05:56:30 mgonzales-desktop sudo:     root : TTY=pts/5 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/chmod 0400 /etc/ldap.secret
+Jun 25 05:56:30 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 05:56:30 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 05:56:31 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 05:58:32 mgonzales-desktop sudo:     matt : TTY=pts/5 ; PWD=/home/matt ; USER=root ; COMMAND=/sbin/reboot
+Jun 25 05:58:32 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 05:58:32 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 05:58:55 mgonzales-desktop systemd-logind[622]: New seat seat0.
+Jun 25 05:58:56 mgonzales-desktop sshd[1270]: Server listening on 0.0.0.0 port 22.
+Jun 25 05:58:56 mgonzales-desktop sshd[1270]: Server listening on :: port 22.
+Jun 25 05:58:58 mgonzales-desktop mdm[1510]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 25 05:58:58 mgonzales-desktop mdm[1510]: PAM adding faulty module: pam_kwallet.so
+Jun 25 05:59:05 mgonzales-desktop dbus[564]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1624 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=936 comm="NetworkManager ")
+Jun 25 05:59:19 mgonzales-desktop mdm[1510]: pam_unix(mdm:auth): check pass; user unknown
+Jun 25 05:59:19 mgonzales-desktop mdm[1510]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Jun 25 05:59:22 mgonzales-desktop mdm[1510]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 25 05:59:22 mgonzales-desktop mdm[1510]: PAM adding faulty module: pam_kwallet.so
+Jun 25 05:59:53 mgonzales-desktop mdm[1510]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "matt"
+Jun 25 05:59:56 mgonzales-desktop mdm[1510]: pam_unix(mdm:session): session opened for user matt by (uid=0)
+Jun 25 05:59:56 mgonzales-desktop systemd-logind[622]: New session c1 of user matt.
+Jun 25 05:59:56 mgonzales-desktop systemd-logind[622]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jun 25 05:59:56 mgonzales-desktop mdm[1510]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 25 05:59:58 mgonzales-desktop polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.24 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 25 06:00:21 mgonzales-desktop su[2620]: pam_unix(su:auth): authentication failure; logname=matt uid=1000 euid=0 tty=/dev/pts/2 ruser=matt rhost=  user=root
+Jun 25 06:00:23 mgonzales-desktop su[2620]: pam_authenticate: Authentication failure
+Jun 25 06:00:23 mgonzales-desktop su[2620]: FAILED su for root by matt
+Jun 25 06:00:23 mgonzales-desktop su[2620]: - /dev/pts/2 matt:root
+Jun 25 06:00:25 mgonzales-desktop su[2621]: Successful su for root by matt
+Jun 25 06:00:25 mgonzales-desktop su[2621]: + /dev/pts/2 matt:root
+Jun 25 06:00:25 mgonzales-desktop su[2621]: pam_unix(su:session): session opened for user root by matt(uid=1000)
+Jun 25 06:00:33 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/univentionClientScript2.sh
+Jun 25 06:00:33 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:00:33 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/mkdir /etc/univention
+Jun 25 06:00:33 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:00:33 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:00:33 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/mkdir /tmp/key/
+Jun 25 06:00:33 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:00:33 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:00:33 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/echo -----BEGIN RSA PRIVATE
+Jun 25 06:00:33 mgonzales-desktop sudo:     root : (command continued) KEY-----#012MIIEowIBAAKCAQEAxxxfc/xj8etUnFZq/2y+dNGAxVaIHjym166+fb5bsNWgt4yt#012XbZ/6PlDXfO5qQ/3lZpX+5045BcQrvKpeN1a5pQA+RpuWW+qrqcDx8yr3WxaJTI4#012K6UDEgee7Cnzz2vSM0+bil3DmsBzUFDY56r8LAvyE30AaYum0ppZItXhFC4xP9gi#0125nsCE7E+5wiV3ZmFJhZPGVUlsKSIfXtHNgo6TIax4fwYJk5qtjayvAcnTuAzI0ih#012+xmPPQUuvnAf/Jdyx8Oa2eSbDJGCdCwZpFU9Yl0UakUZtPJBjwpksa+7CvMGzprr#012+bKTVuT7MOuBQ8uxGJeqiQOdySdESYu+1ZY+9wIDAQABAoIBACdunAzJWDXJ6EjJ#0126IjLTXCvKPRr7asnUdd3GOyoLVp5BEo1hwP/J5fI/al2ojc0HVE4buI6wdCSLNCo#0126B0yoVT2zLaIoH//2GqcUuhXxVWlprilGHC0TkZc0gFtUYarkMZuppwhc6KLKIso#012Z7yBpU1H1Fo9sD421QPyY2K9vsSTA0QRTgCl6Ytj0L+xmAe5/rxuCg0GBNEzsSot#012TLrx2ozpkexNVlLS+UkXZbAx2fW8lZn3N2pk/YQ1nb8vHMKLeYF+arS2Dl8yJRN8#0122/xtlDtglx5rn9mtBRGCHbw0nWAagERagVbkFocu3nnlobzAP1w+ZlpvzDrn7P4f#0129Ev/BjECgYEA/r2356Hc3iAoW5iOq1dbXhPdo7u696FX0mht9MUJ3WNN0qXOrbrm#012GMEU9HqkgwJu2++rB4Bub6h+b7OG/VXE/8mNHZt87jKfP2G0iR52OeEaPM9dCdlc#0124mipV62hzP2Ww9ekDKGsPvANoJruOqN/8BPWqXoXrtiHd3bBRwzEQLkCgYEAyBhG#012VlSdn7HdqN
+Jun 25 06:00:33 mgonzales-desktop sudo:     root : (command continued) QdAcOvJJvevojywwYclyLIl8rTKF/zsMC1a3WpJ2m69qzDzPvH#012tP8Cdre2LwpXag9V+A2KQPvhSvSQU31pq1yi8Mmc5JpmEwcEx2G5udUpxNqcz70t#012UTQjVe9THCnb/RtLz5rR9IRWLJ+OB9ZNhtXAxS8CgYBY5S/GH1AKG8K5pBU1abiy#012rdAMkTh/rcgN3u9wGUqF/V9tAPuM2MnvHYIIhrveE/1Htu1CIulnAa+Nn2KeCU5D#012zLv39wizvuqfnaL4rq6nKAyV5+8ZvsaRI+Dkfe0Wse/oy9mtpsWK+Q5oW2iDAgdl#012aibg4YBePaWYZNKxzpy10QKBgQCqfpSgRuUwB3xZwoEFhPdaY4S+6tl2/HXt2y1N#012UmQdgsM9qdSZDPsIn28MmDioqzkDVp4qCQfuZEcl+efWBU85V0Awcu7a0VyQ51G8#012o+hqxz+aQj0rhVV7FjgMsicvBx+KmyUcBhL9zDjCzKAYIMQOF1tCv+g1iZaZ8u6I#012L2ZcHQKBgFYQ/D8wIJeKKuEsilqzpyhhFvh3Yc0/3DlKZp75TQqZLtVKQAUsFzkA#01208c5TN2e6cyC3vQjqNC6UrADa8d1zdGcRlKoc0qn5rF1RhOTFCdcLHg6+il2gwrc#012QO/7FvsDTADiEYQ/qy5AvS0iTK20Ihu2tfCUG4qBa8eM+RZ7sxeo#012-----END RSA PRIVATE KEY-----
+Jun 25 06:00:33 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:00:33 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:00:38 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/chmod 600 /tmp/key/keys
+Jun 25 06:00:38 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:00:38 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:00:44 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/echo master_ip=192.168.128.239
+Jun 25 06:00:44 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:00:44 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:00:44 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/chmod 660 /etc/univention/ucr_master
+Jun 25 06:00:44 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:00:44 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:00:44 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/mkdir -p /etc/univention/ssl/ucsCA/
+Jun 25 06:00:44 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:00:44 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:00:44 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/bin/wget -O /etc/univention/ssl/ucsCA/CAcert.pem http://ucs-main.connexionpoint.local/ucs-root-ca.crt
+Jun 25 06:00:44 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:00:44 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:00:54 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/bin/printf %s ORZWr8jsp7ortOLHwODs
+Jun 25 06:00:54 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:00:54 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:00:54 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/chmod 0400 /etc/ldap.secret
+Jun 25 06:00:54 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:00:54 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:00:59 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/cat
+Jun 25 06:00:59 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:00:59 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:00:59 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get -y install sssd
+Jun 25 06:00:59 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:01:27 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:01:32 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get install -qq libnss-sss libpam-sss libsss-sudo
+Jun 25 06:01:32 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:01:41 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:01:51 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:01:51 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/cat
+Jun 25 06:01:51 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:01:51 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:01:56 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:01:56 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/chmod 600 /etc/sssd/sssd.conf
+Jun 25 06:01:56 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:01:56 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:01:56 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:01:56 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get -y install auth-client-config
+Jun 25 06:01:56 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:02:01 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:02:11 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:02:11 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/cat
+Jun 25 06:02:11 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:02:11 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:02:16 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:02:16 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/sbin/auth-client-config -a -p sss
+Jun 25 06:02:16 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:02:16 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:02:21 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:02:21 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/sbin/restart sssd
+Jun 25 06:02:21 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:02:21 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:02:26 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:02:26 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/cat
+Jun 25 06:02:26 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:02:26 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:02:26 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:02:26 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/sbin/pam-auth-update --force
+Jun 25 06:02:26 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:02:26 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:02:26 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:02:26 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/echo Configuring user groups...
+Jun 25 06:02:26 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:02:26 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:02:26 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:02:26 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/echo *;*;*;Al0000-2400;audio,cdrom,dialout,floppy,plugdev,adm
+Jun 25 06:02:26 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:02:26 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:02:26 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:02:26 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/cat
+Jun 25 06:02:26 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:02:26 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:02:26 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:02:26 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/sbin/pam-auth-update --force
+Jun 25 06:02:26 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:02:27 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:02:27 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:02:27 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get install -y heimdal-clients
+Jun 25 06:02:27 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:02:40 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:02:40 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:02:40 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/cat
+Jun 25 06:02:40 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:02:40 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:02:40 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:02:40 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/sbin/stop avahi-daemon
+Jun 25 06:02:40 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:02:40 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:02:45 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:02:45 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/sbin/ntpdate -bu ucs-main.connexionpoint.local
+Jun 25 06:02:45 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:02:53 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:02:53 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:02:53 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/rm -f /tmp/key/keys
+Jun 25 06:02:53 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:02:53 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:02:53 mgonzales-desktop sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/matt ; 
+Jun 25 06:02:53 mgonzales-desktop sudo:     root : TTY=pts/2 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/rmdir /tmp/key/
+Jun 25 06:02:53 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:02:53 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:02:54 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:03:45 mgonzales-desktop systemd-logind[642]: New seat seat0.
+Jun 25 06:03:52 mgonzales-desktop sshd[1304]: Server listening on 0.0.0.0 port 22.
+Jun 25 06:03:52 mgonzales-desktop sshd[1304]: Server listening on :: port 22.
+Jun 25 06:03:53 mgonzales-desktop mdm[1538]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 25 06:03:53 mgonzales-desktop mdm[1538]: PAM adding faulty module: pam_kwallet.so
+Jun 25 06:03:59 mgonzales-desktop mdm[1538]: pam_unix(mdm:auth): check pass; user unknown
+Jun 25 06:03:59 mgonzales-desktop mdm[1538]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Jun 25 06:03:59 mgonzales-desktop mdm[1538]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+Jun 25 06:03:59 mgonzales-desktop mdm[1538]: pam_sss(mdm:auth): received for user mgonzales: 10 (User not known to the underlying authentication module)
+Jun 25 06:03:59 mgonzales-desktop dbus[585]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1637 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=942 comm="NetworkManager ")
+Jun 25 06:04:01 mgonzales-desktop mdm[1538]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 25 06:04:01 mgonzales-desktop mdm[1538]: PAM adding faulty module: pam_kwallet.so
+Jun 25 06:04:06 mgonzales-desktop mdm[1538]: pam_unix(mdm:auth): check pass; user unknown
+Jun 25 06:04:06 mgonzales-desktop mdm[1538]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Jun 25 06:04:06 mgonzales-desktop mdm[1538]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+Jun 25 06:04:06 mgonzales-desktop mdm[1538]: pam_sss(mdm:auth): received for user mgonzales: 10 (User not known to the underlying authentication module)
+Jun 25 06:04:09 mgonzales-desktop mdm[1538]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 25 06:04:09 mgonzales-desktop mdm[1538]: PAM adding faulty module: pam_kwallet.so
+Jun 25 06:04:14 mgonzales-desktop mdm[1538]: pam_unix(mdm:auth): check pass; user unknown
+Jun 25 06:04:14 mgonzales-desktop mdm[1538]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Jun 25 06:04:14 mgonzales-desktop mdm[1538]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+Jun 25 06:04:14 mgonzales-desktop mdm[1538]: pam_sss(mdm:auth): received for user mgonzales: 10 (User not known to the underlying authentication module)
+Jun 25 06:04:17 mgonzales-desktop mdm[1538]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 25 06:04:17 mgonzales-desktop mdm[1538]: PAM adding faulty module: pam_kwallet.so
+Jun 25 06:04:40 mgonzales-desktop mdm[1538]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "matt"
+Jun 25 06:04:41 mgonzales-desktop mdm[1538]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=matt
+Jun 25 06:04:41 mgonzales-desktop mdm[1538]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=matt
+Jun 25 06:04:41 mgonzales-desktop mdm[1538]: pam_sss(mdm:auth): received for user matt: 10 (User not known to the underlying authentication module)
+Jun 25 06:04:44 mgonzales-desktop mdm[1538]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 25 06:04:44 mgonzales-desktop mdm[1538]: PAM adding faulty module: pam_kwallet.so
+Jun 25 06:04:46 mgonzales-desktop mdm[1538]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "matt"
+Jun 25 06:04:49 mgonzales-desktop mdm[1538]: pam_unix(mdm:session): session opened for user matt by (uid=0)
+Jun 25 06:04:49 mgonzales-desktop systemd-logind[642]: New session c1 of user matt.
+Jun 25 06:04:49 mgonzales-desktop systemd-logind[642]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jun 25 06:04:49 mgonzales-desktop mdm[1538]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 25 06:04:52 mgonzales-desktop polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.35 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 25 06:05:04 mgonzales-desktop sudo:     matt : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/univentionClientScript2.sh
+Jun 25 06:05:04 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:04 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/mkdir /etc/univention
+Jun 25 06:05:04 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:04 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:05:04 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/mkdir /tmp/key/
+Jun 25 06:05:04 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:04 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:05:04 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/echo -----BEGIN RSA PRIVATE
+Jun 25 06:05:04 mgonzales-desktop sudo:     root : (command continued) KEY-----#012MIIEowIBAAKCAQEAxxxfc/xj8etUnFZq/2y+dNGAxVaIHjym166+fb5bsNWgt4yt#012XbZ/6PlDXfO5qQ/3lZpX+5045BcQrvKpeN1a5pQA+RpuWW+qrqcDx8yr3WxaJTI4#012K6UDEgee7Cnzz2vSM0+bil3DmsBzUFDY56r8LAvyE30AaYum0ppZItXhFC4xP9gi#0125nsCE7E+5wiV3ZmFJhZPGVUlsKSIfXtHNgo6TIax4fwYJk5qtjayvAcnTuAzI0ih#012+xmPPQUuvnAf/Jdyx8Oa2eSbDJGCdCwZpFU9Yl0UakUZtPJBjwpksa+7CvMGzprr#012+bKTVuT7MOuBQ8uxGJeqiQOdySdESYu+1ZY+9wIDAQABAoIBACdunAzJWDXJ6EjJ#0126IjLTXCvKPRr7asnUdd3GOyoLVp5BEo1hwP/J5fI/al2ojc0HVE4buI6wdCSLNCo#0126B0yoVT2zLaIoH//2GqcUuhXxVWlprilGHC0TkZc0gFtUYarkMZuppwhc6KLKIso#012Z7yBpU1H1Fo9sD421QPyY2K9vsSTA0QRTgCl6Ytj0L+xmAe5/rxuCg0GBNEzsSot#012TLrx2ozpkexNVlLS+UkXZbAx2fW8lZn3N2pk/YQ1nb8vHMKLeYF+arS2Dl8yJRN8#0122/xtlDtglx5rn9mtBRGCHbw0nWAagERagVbkFocu3nnlobzAP1w+ZlpvzDrn7P4f#0129Ev/BjECgYEA/r2356Hc3iAoW5iOq1dbXhPdo7u696FX0mht9MUJ3WNN0qXOrbrm#012GMEU9HqkgwJu2++rB4Bub6h+b7OG/VXE/8mNHZt87jKfP2G0iR52OeEaPM9dCdlc#0124mipV62hzP2Ww9ekDKGsPvANoJruOqN/8BPWqXoXrtiHd3bBRwzEQLkCgYEAyBhG#012VlSdn7HdqN
+Jun 25 06:05:04 mgonzales-desktop sudo:     root : (command continued) QdAcOvJJvevojywwYclyLIl8rTKF/zsMC1a3WpJ2m69qzDzPvH#012tP8Cdre2LwpXag9V+A2KQPvhSvSQU31pq1yi8Mmc5JpmEwcEx2G5udUpxNqcz70t#012UTQjVe9THCnb/RtLz5rR9IRWLJ+OB9ZNhtXAxS8CgYBY5S/GH1AKG8K5pBU1abiy#012rdAMkTh/rcgN3u9wGUqF/V9tAPuM2MnvHYIIhrveE/1Htu1CIulnAa+Nn2KeCU5D#012zLv39wizvuqfnaL4rq6nKAyV5+8ZvsaRI+Dkfe0Wse/oy9mtpsWK+Q5oW2iDAgdl#012aibg4YBePaWYZNKxzpy10QKBgQCqfpSgRuUwB3xZwoEFhPdaY4S+6tl2/HXt2y1N#012UmQdgsM9qdSZDPsIn28MmDioqzkDVp4qCQfuZEcl+efWBU85V0Awcu7a0VyQ51G8#012o+hqxz+aQj0rhVV7FjgMsicvBx+KmyUcBhL9zDjCzKAYIMQOF1tCv+g1iZaZ8u6I#012L2ZcHQKBgFYQ/D8wIJeKKuEsilqzpyhhFvh3Yc0/3DlKZp75TQqZLtVKQAUsFzkA#01208c5TN2e6cyC3vQjqNC6UrADa8d1zdGcRlKoc0qn5rF1RhOTFCdcLHg6+il2gwrc#012QO/7FvsDTADiEYQ/qy5AvS0iTK20Ihu2tfCUG4qBa8eM+RZ7sxeo#012-----END RSA PRIVATE KEY-----
+Jun 25 06:05:04 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:04 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:05:09 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/chmod 600 /tmp/key/keys
+Jun 25 06:05:09 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:09 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:05:15 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/echo master_ip=192.168.128.239
+Jun 25 06:05:15 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:15 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:05:15 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/chmod 660 /etc/univention/ucr_master
+Jun 25 06:05:15 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:15 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:05:15 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/mkdir -p /etc/univention/ssl/ucsCA/
+Jun 25 06:05:15 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:15 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:05:15 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/bin/wget -O /etc/univention/ssl/ucsCA/CAcert.pem http://ucs-main.connexionpoint.local/ucs-root-ca.crt
+Jun 25 06:05:15 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:15 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:05:26 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/bin/printf %s ErZK_YkBLPSeZ6L9ThRi
+Jun 25 06:05:26 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:26 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:05:26 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/chmod 0400 /etc/ldap.secret
+Jun 25 06:05:26 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:26 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:05:31 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/cat
+Jun 25 06:05:31 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:31 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:05:31 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get -y install sssd
+Jun 25 06:05:31 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:32 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:05:37 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get install -qq libnss-sss libpam-sss libsss-sudo
+Jun 25 06:05:37 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:37 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:05:47 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/cat
+Jun 25 06:05:47 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:47 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:05:52 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/chmod 600 /etc/sssd/sssd.conf
+Jun 25 06:05:52 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:52 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:05:52 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get -y install auth-client-config
+Jun 25 06:05:52 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:05:53 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:06:03 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/cat
+Jun 25 06:06:03 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:06:03 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:06:08 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/sbin/auth-client-config -a -p sss
+Jun 25 06:06:08 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:06:08 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:06:13 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/sbin/restart sssd
+Jun 25 06:06:13 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:06:13 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:06:18 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/cat
+Jun 25 06:06:18 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:06:18 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:06:18 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/sbin/pam-auth-update --force
+Jun 25 06:06:18 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:06:19 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:06:19 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/echo Configuring user groups...
+Jun 25 06:06:19 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:06:19 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:06:19 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/echo *;*;*;Al0000-2400;audio,cdrom,dialout,floppy,plugdev,adm
+Jun 25 06:06:19 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:06:19 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:06:19 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/cat
+Jun 25 06:06:19 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:06:19 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:06:19 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/sbin/pam-auth-update --force
+Jun 25 06:06:19 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:06:20 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:06:20 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get install -y heimdal-clients
+Jun 25 06:06:20 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:06:20 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:06:20 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/cat
+Jun 25 06:06:20 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:06:20 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:06:20 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/sbin/stop avahi-daemon
+Jun 25 06:06:20 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:06:20 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:06:25 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/usr/sbin/ntpdate -bu ucs-main.connexionpoint.local
+Jun 25 06:06:25 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:06:34 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:06:34 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/rm -f /tmp/key/keys
+Jun 25 06:06:34 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:06:34 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:06:34 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/bin/rmdir /tmp/key/
+Jun 25 06:06:34 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:06:34 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:06:34 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:07:25 mgonzales-desktop sudo:     matt : TTY=pts/0 ; PWD=/home/matt ; USER=root ; COMMAND=/sbin/reboot
+Jun 25 06:07:25 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by matt(uid=0)
+Jun 25 06:07:25 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:07:50 mgonzales-desktop sshd[1292]: Server listening on 0.0.0.0 port 22.
+Jun 25 06:07:50 mgonzales-desktop sshd[1292]: Server listening on :: port 22.
+Jun 25 06:07:51 mgonzales-desktop mdm[1545]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 25 06:07:51 mgonzales-desktop mdm[1545]: PAM adding faulty module: pam_kwallet.so
+Jun 25 06:08:00 mgonzales-desktop dbus[589]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1635 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=941 comm="NetworkManager ")
+Jun 25 06:08:30 mgonzales-desktop mdm[1545]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+Jun 25 06:08:31 mgonzales-desktop mdm[1545]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+Jun 25 06:08:32 mgonzales-desktop mdm[1545]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+Jun 25 06:08:33 mgonzales-desktop mdm[1545]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+Jun 25 06:08:33 mgonzales-desktop mdm[1545]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 25 06:08:36 mgonzales-desktop polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 25 06:09:24 mgonzales-desktop su[2572]: Successful su for root by mgonzales
+Jun 25 06:09:24 mgonzales-desktop su[2572]: + /dev/pts/0 mgonzales:root
+Jun 25 06:09:24 mgonzales-desktop su[2572]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+Jun 25 06:11:18 mgonzales-desktop sudo:     root : TTY=pts/0 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jun 25 06:11:18 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:11:18 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:12:34 mgonzales-desktop systemd-logind[686]: New seat seat0.
+Jun 25 06:12:36 mgonzales-desktop sshd[1322]: Server listening on 0.0.0.0 port 22.
+Jun 25 06:12:36 mgonzales-desktop sshd[1322]: Server listening on :: port 22.
+Jun 25 06:12:37 mgonzales-desktop mdm[1568]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 25 06:12:37 mgonzales-desktop mdm[1568]: PAM adding faulty module: pam_kwallet.so
+Jun 25 06:12:42 mgonzales-desktop mdm[1568]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+Jun 25 06:12:44 mgonzales-desktop mdm[1568]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+Jun 25 06:12:44 mgonzales-desktop mdm[1568]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+Jun 25 06:12:44 mgonzales-desktop mdm[1568]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+Jun 25 06:12:44 mgonzales-desktop systemd-logind[686]: New session c1 of user mgonzales.
+Jun 25 06:12:44 mgonzales-desktop systemd-logind[686]: Linked /tmp/.X11-unix/X0 to /run/user/2009/X11-display.
+Jun 25 06:12:44 mgonzales-desktop mdm[1568]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 25 06:12:44 mgonzales-desktop dbus[614]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1660 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=924 comm="NetworkManager ")
+Jun 25 06:12:47 mgonzales-desktop polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.24 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 25 06:13:08 mgonzales-desktop sudo: pam_unix(sudo:auth): authentication failure; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/0 ruser=mgonzales rhost=  user=mgonzales
+Jun 25 06:13:08 mgonzales-desktop sudo: pam_sss(sudo:auth): authentication failure; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/0 ruser=mgonzales rhost= user=mgonzales
+Jun 25 06:13:08 mgonzales-desktop sudo: pam_sss(sudo:auth): received for user mgonzales: 4 (System error)
+Jun 25 06:13:15 mgonzales-desktop sudo: pam_sss(sudo:auth): authentication success; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/0 ruser=mgonzales rhost= user=mgonzales
+Jun 25 06:13:15 mgonzales-desktop sudo: mgonzales : TTY=pts/0 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/bin/vim /usr/bin/monitors.sh
+Jun 25 06:13:15 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:13:54 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:14:09 mgonzales-desktop sudo: mgonzales : TTY=pts/0 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/bin/mkdir .config/autostart
+Jun 25 06:14:09 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:14:09 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:14:35 mgonzales-desktop sudo: mgonzales : TTY=pts/0 ; PWD=/home/mgonzales/.config/autostart ; USER=root ; COMMAND=/bin/cp /usr/src/IT_Files/Linux/xfce-uni/startup/update.desktop .
+Jun 25 06:14:35 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:14:35 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:14:40 mgonzales-desktop sudo: mgonzales : TTY=pts/0 ; PWD=/home/mgonzales/.config/autostart ; USER=root ; COMMAND=/usr/bin/vim update.desktop
+Jun 25 06:14:40 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:16:02 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:16:11 mgonzales-desktop sudo: mgonzales : TTY=pts/0 ; PWD=/home/mgonzales/.config/autostart ; USER=root ; COMMAND=/bin/chmod +x /usr/bin/monitors.sh
+Jun 25 06:16:11 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:16:11 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:17:01 mgonzales-desktop CRON[2685]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 06:17:01 mgonzales-desktop CRON[2685]: pam_unix(cron:session): session closed for user root
+Jun 25 06:17:39 mgonzales-desktop su[2845]: Successful su for nobody by root
+Jun 25 06:17:39 mgonzales-desktop su[2845]: + ??? root:nobody
+Jun 25 06:17:39 mgonzales-desktop su[2845]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jun 25 06:17:39 mgonzales-desktop systemd-logind[686]: New session c2 of user nobody.
+Jun 25 06:17:39 mgonzales-desktop su[2845]: pam_unix(su:session): session closed for user nobody
+Jun 25 06:17:39 mgonzales-desktop su[2854]: Successful su for nobody by root
+Jun 25 06:17:39 mgonzales-desktop su[2854]: + ??? root:nobody
+Jun 25 06:17:39 mgonzales-desktop su[2854]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jun 25 06:17:39 mgonzales-desktop systemd-logind[686]: Removed session c2.
+Jun 25 06:17:39 mgonzales-desktop systemd-logind[686]: New session c3 of user nobody.
+Jun 25 06:17:39 mgonzales-desktop su[2854]: pam_unix(su:session): session closed for user nobody
+Jun 25 06:17:39 mgonzales-desktop su[2868]: Successful su for nobody by root
+Jun 25 06:17:39 mgonzales-desktop su[2868]: + ??? root:nobody
+Jun 25 06:17:39 mgonzales-desktop su[2868]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jun 25 06:17:39 mgonzales-desktop systemd-logind[686]: Removed session c3.
+Jun 25 06:17:39 mgonzales-desktop systemd-logind[686]: New session c4 of user nobody.
+Jun 25 06:17:50 mgonzales-desktop su[2868]: pam_unix(su:session): session closed for user nobody
+Jun 25 06:25:01 mgonzales-desktop CRON[4422]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 06:25:01 mgonzales-desktop CRON[4422]: pam_unix(cron:session): session closed for user root
+Jun 25 06:42:51 mgonzales-desktop sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 25 06:42:51 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 25 06:43:02 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:46:20 mgonzales-desktop sudo: pam_unix(sudo:auth): authentication failure; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/8 ruser=mgonzales rhost=  user=mgonzales
+Jun 25 06:46:20 mgonzales-desktop sudo: pam_sss(sudo:auth): authentication failure; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/8 ruser=mgonzales rhost= user=mgonzales
+Jun 25 06:46:20 mgonzales-desktop sudo: pam_sss(sudo:auth): received for user mgonzales: 4 (System error)
+Jun 25 06:46:26 mgonzales-desktop sudo: pam_sss(sudo:auth): authentication success; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/8 ruser=mgonzales rhost= user=mgonzales
+Jun 25 06:46:26 mgonzales-desktop sudo: mgonzales : TTY=pts/8 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/bin/vim /etc/bash.bashrc
+Jun 25 06:46:26 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:47:06 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:53:10 mgonzales-desktop sudo: pam_unix(sudo:auth): authentication failure; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/10 ruser=mgonzales rhost=  user=mgonzales
+Jun 25 06:53:11 mgonzales-desktop sudo: pam_sss(sudo:auth): authentication success; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/10 ruser=mgonzales rhost= user=mgonzales
+Jun 25 06:53:11 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/sbin/ufw disable
+Jun 25 06:53:11 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:53:11 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:53:17 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/sbin/ufw enable
+Jun 25 06:53:17 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:53:18 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:53:41 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/sbin/ufw status
+Jun 25 06:53:41 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:53:41 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:54:04 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/sbin/ufw allow 22
+Jun 25 06:54:04 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:54:04 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:54:09 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/sbin/ufw allow 5901
+Jun 25 06:54:09 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:54:09 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:54:19 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/bin/vim /etc/bash.bashrc
+Jun 25 06:54:19 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:55:27 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:55:37 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/bin/apt-get install -y x11vnc
+Jun 25 06:55:37 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:55:38 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:55:47 mgonzales-desktop su[5373]: Successful su for root by mgonzales
+Jun 25 06:55:47 mgonzales-desktop su[5373]: + /dev/pts/10 mgonzales:root
+Jun 25 06:55:47 mgonzales-desktop su[5373]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+Jun 25 06:55:47 mgonzales-desktop systemd-logind[686]: Removed session c4.
+Jun 25 06:55:59 mgonzales-desktop su[5373]: pam_unix(su:session): session closed for user root
+Jun 25 06:56:10 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales/.config/autostart ; USER=root ; COMMAND=/usr/bin/vim update.desktop
+Jun 25 06:56:10 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:56:14 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:56:35 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales/.config/autostart ; USER=root ; COMMAND=/bin/cp update.desktop ./vnc.desktop
+Jun 25 06:56:35 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:56:35 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:56:39 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales/.config/autostart ; USER=root ; COMMAND=/usr/bin/vim vnc.desktop
+Jun 25 06:56:39 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:57:36 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:57:49 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales/.config/autostart ; USER=root ; COMMAND=/usr/bin/vim /usr/bin/x11vncstart.sh
+Jun 25 06:57:49 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 06:58:45 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 06:59:16 mgonzales-desktop su[5485]: pam_unix(su:auth): authentication failure; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/10 ruser=mgonzales rhost=  user=root
+Jun 25 06:59:18 mgonzales-desktop su[5485]: pam_authenticate: Authentication failure
+Jun 25 06:59:18 mgonzales-desktop su[5485]: FAILED su for root by mgonzales
+Jun 25 06:59:18 mgonzales-desktop su[5485]: - /dev/pts/10 mgonzales:root
+Jun 25 06:59:23 mgonzales-desktop su[5486]: Successful su for root by mgonzales
+Jun 25 06:59:23 mgonzales-desktop su[5486]: + /dev/pts/10 mgonzales:root
+Jun 25 06:59:23 mgonzales-desktop su[5486]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+Jun 25 07:00:20 mgonzales-desktop su[5486]: pam_unix(su:session): session closed for user root
+Jun 25 07:08:35 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales/.config/autostart ; USER=root ; COMMAND=/usr/bin/vim /etc/fstab
+Jun 25 07:08:35 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 07:10:47 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 07:10:54 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales/.config/autostart ; USER=root ; COMMAND=/bin/mkdir /usr/src/UCS_FS
+Jun 25 07:10:54 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 07:10:54 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 07:10:58 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales/.config/autostart ; USER=root ; COMMAND=/bin/mount -a
+Jun 25 07:10:58 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 07:10:58 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 07:11:08 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales/.config/autostart ; USER=root ; COMMAND=/usr/bin/vim /home/mgonzales/.smbcredentials
+Jun 25 07:11:08 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 07:11:24 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 07:11:55 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales/.config/autostart ; USER=root ; COMMAND=/bin/chmod 600 /home/mgonzales/.smbcredentials
+Jun 25 07:11:55 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 07:11:55 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 07:12:02 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales/.config/autostart ; USER=root ; COMMAND=/bin/mount -a
+Jun 25 07:12:02 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Jun 25 07:12:04 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 07:12:51 mgonzales-desktop sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 25 07:12:51 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 25 07:13:04 mgonzales-desktop sudo: pam_unix(sudo:session): session closed for user root
+Jun 25 07:17:01 mgonzales-desktop CRON[5940]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 07:17:01 mgonzales-desktop CRON[5940]: pam_unix(cron:session): session closed for user root
+Jun 25 07:30:01 mgonzales-desktop CRON[5998]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 07:30:01 mgonzales-desktop CRON[5998]: pam_unix(cron:session): session closed for user root
+Jun 25 07:36:12 mgonzales-desktop sudo: pam_unix(sudo:auth): authentication failure; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/10 ruser=mgonzales rhost=  user=mgonzales
+Jun 25 07:36:13 mgonzales-desktop sudo: pam_sss(sudo:auth): authentication success; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/10 ruser=mgonzales rhost= user=mgonzales
+Jun 25 07:36:13 mgonzales-desktop sudo: mgonzales : TTY=pts/10 ; PWD=/home/mgonzales/.config/autostart ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_on.sh - Linux Config Menu
+Jun 25 07:36:13 mgonzales-desktop sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)

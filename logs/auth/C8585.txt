@@ -1,0 +1,1334 @@
+Jul 20 07:55:01 C8585 CRON[3298]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 07:55:10 C8585 CRON[3298]: pam_unix(cron:session): session closed for user root
+Jul 20 07:56:40 C8585 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Jul 20 07:56:40 C8585 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [doroberson]
+Jul 20 07:56:41 C8585 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=3618 euid=3618 tty=:0.0 ruser= rhost= user=doroberson
+Jul 20 07:56:41 C8585 xscreensaver: pam_sss(xscreensaver:auth): received for user doroberson: 7 (Authentication failure)
+Jul 20 07:57:11 C8585 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Jul 20 07:57:11 C8585 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [doroberson]
+Jul 20 07:57:11 C8585 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=3618 euid=3618 tty=:0.0 ruser= rhost= user=doroberson
+Jul 20 07:57:11 C8585 xscreensaver: pam_sss(xscreensaver:auth): received for user doroberson: 7 (Authentication failure)
+Jul 20 08:00:01 C8585 CRON[3532]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:00:13 C8585 CRON[3532]: pam_unix(cron:session): session closed for user root
+Jul 20 08:05:01 C8585 CRON[3732]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:05:14 C8585 CRON[3732]: pam_unix(cron:session): session closed for user root
+Jul 20 08:10:01 C8585 CRON[3929]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:10:12 C8585 CRON[3929]: pam_unix(cron:session): session closed for user root
+Jul 20 08:15:01 C8585 CRON[4126]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:15:13 C8585 CRON[4126]: pam_unix(cron:session): session closed for user root
+Jul 20 08:17:01 C8585 CRON[4318]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:17:01 C8585 CRON[4318]: pam_unix(cron:session): session closed for user root
+Jul 20 08:18:32 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 08:18:32 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 08:19:39 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 08:20:01 C8585 CRON[4366]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:20:11 C8585 CRON[4366]: pam_unix(cron:session): session closed for user root
+Jul 20 08:25:01 C8585 CRON[4562]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:25:12 C8585 CRON[4562]: pam_unix(cron:session): session closed for user root
+Jul 20 08:30:01 C8585 CRON[4762]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:30:12 C8585 CRON[4762]: pam_unix(cron:session): session closed for user root
+Jul 20 08:35:01 C8585 CRON[4957]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:35:20 C8585 CRON[4957]: pam_unix(cron:session): session closed for user root
+Jul 20 08:40:01 C8585 CRON[5156]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:40:12 C8585 CRON[5156]: pam_unix(cron:session): session closed for user root
+Jul 20 08:45:01 C8585 CRON[5353]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:45:13 C8585 CRON[5353]: pam_unix(cron:session): session closed for user root
+Jul 20 08:48:32 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 08:48:32 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 08:49:26 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 08:50:01 C8585 CRON[5592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:50:10 C8585 CRON[5592]: pam_unix(cron:session): session closed for user root
+Jul 20 08:55:01 C8585 CRON[5789]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:55:16 C8585 CRON[5789]: pam_unix(cron:session): session closed for user root
+Jul 20 09:00:01 C8585 CRON[5986]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:00:11 C8585 CRON[5986]: pam_unix(cron:session): session closed for user root
+Jul 20 09:05:01 C8585 CRON[6184]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:05:13 C8585 CRON[6184]: pam_unix(cron:session): session closed for user root
+Jul 20 09:10:01 C8585 CRON[6382]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:10:21 C8585 CRON[6382]: pam_unix(cron:session): session closed for user root
+Jul 20 09:15:01 C8585 CRON[6578]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:15:13 C8585 CRON[6578]: pam_unix(cron:session): session closed for user root
+Jul 20 09:17:01 C8585 CRON[6772]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:17:01 C8585 CRON[6772]: pam_unix(cron:session): session closed for user root
+Jul 20 09:18:32 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 09:18:32 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 09:19:30 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 09:20:02 C8585 CRON[6821]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:20:13 C8585 CRON[6821]: pam_unix(cron:session): session closed for user root
+Jul 20 09:25:01 C8585 CRON[7017]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:25:21 C8585 CRON[7017]: pam_unix(cron:session): session closed for user root
+Jul 20 09:30:01 C8585 CRON[7215]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:30:12 C8585 CRON[7215]: pam_unix(cron:session): session closed for user root
+Jul 20 09:35:01 C8585 CRON[7412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:35:13 C8585 CRON[7412]: pam_unix(cron:session): session closed for user root
+Jul 20 09:40:01 C8585 CRON[7609]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:40:14 C8585 CRON[7609]: pam_unix(cron:session): session closed for user root
+Jul 20 09:45:01 C8585 CRON[7807]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:45:12 C8585 CRON[7807]: pam_unix(cron:session): session closed for user root
+Jul 20 09:48:32 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 09:48:32 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 09:49:06 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 09:50:01 C8585 CRON[8046]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:50:13 C8585 CRON[8046]: pam_unix(cron:session): session closed for user root
+Jul 20 09:55:01 C8585 CRON[8242]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:55:11 C8585 CRON[8242]: pam_unix(cron:session): session closed for user root
+Jul 20 10:00:02 C8585 CRON[8439]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:00:13 C8585 CRON[8439]: pam_unix(cron:session): session closed for user root
+Jul 20 10:05:01 C8585 CRON[8635]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:05:12 C8585 CRON[8635]: pam_unix(cron:session): session closed for user root
+Jul 20 10:10:01 C8585 CRON[8832]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:10:10 C8585 CRON[8832]: pam_unix(cron:session): session closed for user root
+Jul 20 10:15:01 C8585 CRON[9029]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:15:10 C8585 CRON[9029]: pam_unix(cron:session): session closed for user root
+Jul 20 10:17:01 C8585 CRON[9221]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:17:01 C8585 CRON[9221]: pam_unix(cron:session): session closed for user root
+Jul 20 10:18:32 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 10:18:32 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 10:20:01 C8585 CRON[9259]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:20:18 C8585 CRON[9259]: pam_unix(cron:session): session closed for user root
+Jul 20 10:22:37 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 10:25:01 C8585 CRON[9460]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:25:12 C8585 CRON[9460]: pam_unix(cron:session): session closed for user root
+Jul 20 10:30:01 C8585 CRON[9657]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:30:18 C8585 CRON[9657]: pam_unix(cron:session): session closed for user root
+Jul 20 10:35:01 C8585 CRON[9852]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:35:12 C8585 CRON[9852]: pam_unix(cron:session): session closed for user root
+Jul 20 10:40:01 C8585 CRON[10050]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:40:12 C8585 CRON[10050]: pam_unix(cron:session): session closed for user root
+Jul 20 10:45:01 C8585 CRON[10247]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:45:11 C8585 CRON[10247]: pam_unix(cron:session): session closed for user root
+Jul 20 10:48:32 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 10:48:32 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 10:50:01 C8585 CRON[10477]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:50:16 C8585 CRON[10477]: pam_unix(cron:session): session closed for user root
+Jul 20 10:50:45 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 10:55:01 C8585 CRON[10682]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:55:12 C8585 CRON[10682]: pam_unix(cron:session): session closed for user root
+Jul 20 11:00:01 C8585 CRON[10880]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:00:12 C8585 CRON[10880]: pam_unix(cron:session): session closed for user root
+Jul 20 11:05:01 C8585 CRON[11078]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:05:12 C8585 CRON[11078]: pam_unix(cron:session): session closed for user root
+Jul 20 11:10:01 C8585 CRON[11276]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:10:09 C8585 CRON[11276]: pam_unix(cron:session): session closed for user root
+Jul 20 11:15:01 C8585 CRON[11471]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:15:11 C8585 CRON[11471]: pam_unix(cron:session): session closed for user root
+Jul 20 11:17:01 C8585 CRON[11664]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:17:01 C8585 CRON[11664]: pam_unix(cron:session): session closed for user root
+Jul 20 11:18:32 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 11:18:32 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 11:20:01 C8585 CRON[11705]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:20:14 C8585 CRON[11705]: pam_unix(cron:session): session closed for user root
+Jul 20 11:20:37 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 11:25:01 C8585 CRON[11904]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:25:12 C8585 CRON[11904]: pam_unix(cron:session): session closed for user root
+Jul 20 11:30:01 C8585 CRON[12103]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:30:11 C8585 CRON[12103]: pam_unix(cron:session): session closed for user root
+Jul 20 11:35:01 C8585 CRON[12300]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:35:32 C8585 CRON[12300]: pam_unix(cron:session): session closed for user root
+Jul 20 11:40:01 C8585 CRON[12498]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:40:38 C8585 CRON[12498]: pam_unix(cron:session): session closed for user root
+Jul 20 11:45:01 C8585 CRON[12697]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:45:11 C8585 CRON[12697]: pam_unix(cron:session): session closed for user root
+Jul 20 11:48:32 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 11:48:32 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 11:50:01 C8585 CRON[12925]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:50:18 C8585 CRON[12925]: pam_unix(cron:session): session closed for user root
+Jul 20 11:50:45 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 11:55:01 C8585 CRON[13132]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:55:12 C8585 CRON[13132]: pam_unix(cron:session): session closed for user root
+Jul 20 12:00:01 C8585 CRON[13328]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:00:11 C8585 CRON[13328]: pam_unix(cron:session): session closed for user root
+Jul 20 12:05:01 C8585 CRON[13525]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:05:13 C8585 CRON[13525]: pam_unix(cron:session): session closed for user root
+Jul 20 12:10:01 C8585 CRON[13723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:10:09 C8585 CRON[13723]: pam_unix(cron:session): session closed for user root
+Jul 20 12:15:01 C8585 CRON[13920]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:15:08 C8585 CRON[13920]: pam_unix(cron:session): session closed for user root
+Jul 20 12:17:01 C8585 CRON[14115]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:17:01 C8585 CRON[14115]: pam_unix(cron:session): session closed for user root
+Jul 20 12:18:32 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 12:18:32 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 12:20:01 C8585 CRON[14153]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:20:19 C8585 CRON[14153]: pam_unix(cron:session): session closed for user root
+Jul 20 12:20:45 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 12:25:01 C8585 CRON[14359]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:25:12 C8585 CRON[14359]: pam_unix(cron:session): session closed for user root
+Jul 20 12:30:01 C8585 CRON[14556]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:30:08 C8585 CRON[14556]: pam_unix(cron:session): session closed for user root
+Jul 20 12:35:01 C8585 CRON[14754]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:35:13 C8585 CRON[14754]: pam_unix(cron:session): session closed for user root
+Jul 20 12:40:01 C8585 CRON[14950]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:40:09 C8585 CRON[14950]: pam_unix(cron:session): session closed for user root
+Jul 20 12:45:01 C8585 CRON[15147]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:45:10 C8585 CRON[15147]: pam_unix(cron:session): session closed for user root
+Jul 20 12:48:32 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 12:48:32 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 12:50:01 C8585 CRON[15378]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:50:16 C8585 CRON[15378]: pam_unix(cron:session): session closed for user root
+Jul 20 12:50:37 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 12:55:01 C8585 CRON[15577]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:55:08 C8585 CRON[15577]: pam_unix(cron:session): session closed for user root
+Jul 20 13:00:01 C8585 CRON[15775]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:00:11 C8585 CRON[15775]: pam_unix(cron:session): session closed for user root
+Jul 20 13:05:01 C8585 CRON[15972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:05:11 C8585 CRON[15972]: pam_unix(cron:session): session closed for user root
+Jul 20 13:10:01 C8585 CRON[16170]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:10:11 C8585 CRON[16170]: pam_unix(cron:session): session closed for user root
+Jul 20 13:15:01 C8585 CRON[16366]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:15:07 C8585 CRON[16366]: pam_unix(cron:session): session closed for user root
+Jul 20 13:17:01 C8585 CRON[16560]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:17:01 C8585 CRON[16560]: pam_unix(cron:session): session closed for user root
+Jul 20 13:18:32 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 13:18:32 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 13:20:01 C8585 CRON[16601]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:20:18 C8585 CRON[16601]: pam_unix(cron:session): session closed for user root
+Jul 20 13:20:37 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 13:25:01 C8585 CRON[16801]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:25:12 C8585 CRON[16801]: pam_unix(cron:session): session closed for user root
+Jul 20 13:30:01 C8585 CRON[17000]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:30:12 C8585 CRON[17000]: pam_unix(cron:session): session closed for user root
+Jul 20 13:35:01 C8585 CRON[17197]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:35:12 C8585 CRON[17197]: pam_unix(cron:session): session closed for user root
+Jul 20 13:40:01 C8585 CRON[17396]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:40:12 C8585 CRON[17396]: pam_unix(cron:session): session closed for user root
+Jul 20 13:45:01 C8585 CRON[17592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:45:10 C8585 CRON[17592]: pam_unix(cron:session): session closed for user root
+Jul 20 13:48:33 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 13:48:33 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 13:50:01 C8585 CRON[17820]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:50:18 C8585 CRON[17820]: pam_unix(cron:session): session closed for user root
+Jul 20 13:50:45 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 13:55:01 C8585 CRON[18027]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:55:12 C8585 CRON[18027]: pam_unix(cron:session): session closed for user root
+Jul 20 14:00:01 C8585 CRON[18224]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:00:11 C8585 CRON[18224]: pam_unix(cron:session): session closed for user root
+Jul 20 14:05:01 C8585 CRON[18422]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:05:11 C8585 CRON[18422]: pam_unix(cron:session): session closed for user root
+Jul 20 14:10:01 C8585 CRON[18621]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:10:07 C8585 CRON[18621]: pam_unix(cron:session): session closed for user root
+Jul 20 14:15:01 C8585 CRON[18816]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:15:12 C8585 CRON[18816]: pam_unix(cron:session): session closed for user root
+Jul 20 14:17:01 C8585 CRON[19008]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:17:01 C8585 CRON[19008]: pam_unix(cron:session): session closed for user root
+Jul 20 14:18:33 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 14:18:33 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 14:20:01 C8585 CRON[19047]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:20:18 C8585 CRON[19047]: pam_unix(cron:session): session closed for user root
+Jul 20 14:20:45 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 14:25:01 C8585 CRON[19252]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:25:11 C8585 CRON[19252]: pam_unix(cron:session): session closed for user root
+Jul 20 14:30:01 C8585 CRON[19449]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:30:07 C8585 CRON[19449]: pam_unix(cron:session): session closed for user root
+Jul 20 14:35:01 C8585 CRON[19648]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:35:10 C8585 CRON[19648]: pam_unix(cron:session): session closed for user root
+Jul 20 14:40:01 C8585 CRON[19846]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:40:12 C8585 CRON[19846]: pam_unix(cron:session): session closed for user root
+Jul 20 14:45:01 C8585 CRON[20043]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:45:11 C8585 CRON[20043]: pam_unix(cron:session): session closed for user root
+Jul 20 14:48:33 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 14:48:33 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 14:50:01 C8585 CRON[20275]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:50:14 C8585 CRON[20275]: pam_unix(cron:session): session closed for user root
+Jul 20 14:50:37 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 14:55:01 C8585 CRON[20476]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:55:07 C8585 CRON[20476]: pam_unix(cron:session): session closed for user root
+Jul 20 15:00:01 C8585 CRON[20674]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:00:12 C8585 CRON[20674]: pam_unix(cron:session): session closed for user root
+Jul 20 15:05:01 C8585 CRON[20871]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:05:09 C8585 CRON[20871]: pam_unix(cron:session): session closed for user root
+Jul 20 15:10:01 C8585 CRON[21072]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:10:08 C8585 CRON[21072]: pam_unix(cron:session): session closed for user root
+Jul 20 15:15:01 C8585 CRON[21268]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:15:08 C8585 CRON[21268]: pam_unix(cron:session): session closed for user root
+Jul 20 15:17:01 C8585 CRON[21461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:17:01 C8585 CRON[21461]: pam_unix(cron:session): session closed for user root
+Jul 20 15:18:33 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 15:18:33 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 15:20:01 C8585 CRON[21499]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:20:18 C8585 CRON[21499]: pam_unix(cron:session): session closed for user root
+Jul 20 15:20:47 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 15:25:01 C8585 CRON[21706]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:25:10 C8585 CRON[21706]: pam_unix(cron:session): session closed for user root
+Jul 20 15:30:01 C8585 CRON[21904]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:30:11 C8585 CRON[21904]: pam_unix(cron:session): session closed for user root
+Jul 20 15:35:02 C8585 CRON[22101]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:35:11 C8585 CRON[22101]: pam_unix(cron:session): session closed for user root
+Jul 20 15:40:01 C8585 CRON[22299]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:40:07 C8585 CRON[22299]: pam_unix(cron:session): session closed for user root
+Jul 20 15:45:01 C8585 CRON[22495]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:45:08 C8585 CRON[22495]: pam_unix(cron:session): session closed for user root
+Jul 20 15:48:33 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 15:48:33 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 15:50:01 C8585 CRON[22724]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:50:18 C8585 CRON[22724]: pam_unix(cron:session): session closed for user root
+Jul 20 15:50:46 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 15:55:01 C8585 CRON[22931]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:55:12 C8585 CRON[22931]: pam_unix(cron:session): session closed for user root
+Jul 20 16:00:01 C8585 CRON[23129]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:00:12 C8585 CRON[23129]: pam_unix(cron:session): session closed for user root
+Jul 20 16:05:01 C8585 CRON[23326]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:05:09 C8585 CRON[23326]: pam_unix(cron:session): session closed for user root
+Jul 20 16:10:01 C8585 CRON[23523]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:10:07 C8585 CRON[23523]: pam_unix(cron:session): session closed for user root
+Jul 20 16:15:01 C8585 CRON[23720]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:15:11 C8585 CRON[23720]: pam_unix(cron:session): session closed for user root
+Jul 20 16:17:01 C8585 CRON[23913]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:17:01 C8585 CRON[23913]: pam_unix(cron:session): session closed for user root
+Jul 20 16:18:33 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 16:18:33 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 16:20:01 C8585 CRON[23953]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:20:17 C8585 CRON[23953]: pam_unix(cron:session): session closed for user root
+Jul 20 16:25:01 C8585 CRON[24151]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:25:07 C8585 CRON[24151]: pam_unix(cron:session): session closed for user root
+Jul 20 16:30:02 C8585 CRON[24350]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:30:42 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 16:30:44 C8585 CRON[24350]: pam_unix(cron:session): session closed for user root
+Jul 20 16:35:01 C8585 CRON[24549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:35:10 C8585 CRON[24549]: pam_unix(cron:session): session closed for user root
+Jul 20 16:40:01 C8585 CRON[24747]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:40:07 C8585 CRON[24747]: pam_unix(cron:session): session closed for user root
+Jul 20 16:45:01 C8585 CRON[24947]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:45:12 C8585 CRON[24947]: pam_unix(cron:session): session closed for user root
+Jul 20 16:48:33 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 16:48:33 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 16:50:01 C8585 CRON[25175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:50:14 C8585 CRON[25175]: pam_unix(cron:session): session closed for user root
+Jul 20 16:52:38 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 16:55:01 C8585 CRON[25376]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:55:07 C8585 CRON[25376]: pam_unix(cron:session): session closed for user root
+Jul 20 17:00:01 C8585 CRON[25576]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:00:11 C8585 CRON[25576]: pam_unix(cron:session): session closed for user root
+Jul 20 17:05:01 C8585 CRON[25774]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:05:11 C8585 CRON[25774]: pam_unix(cron:session): session closed for user root
+Jul 20 17:10:01 C8585 CRON[25972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:10:11 C8585 CRON[25972]: pam_unix(cron:session): session closed for user root
+Jul 20 17:15:01 C8585 CRON[26170]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:15:11 C8585 CRON[26170]: pam_unix(cron:session): session closed for user root
+Jul 20 17:17:01 C8585 CRON[26364]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:17:01 C8585 CRON[26364]: pam_unix(cron:session): session closed for user root
+Jul 20 17:18:33 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 17:18:33 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 17:20:01 C8585 CRON[26403]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:20:14 C8585 CRON[26403]: pam_unix(cron:session): session closed for user root
+Jul 20 17:20:46 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 17:25:01 C8585 CRON[26607]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:25:10 C8585 CRON[26607]: pam_unix(cron:session): session closed for user root
+Jul 20 17:30:01 C8585 CRON[26806]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:30:09 C8585 CRON[26806]: pam_unix(cron:session): session closed for user root
+Jul 20 17:35:01 C8585 CRON[27002]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:35:09 C8585 CRON[27002]: pam_unix(cron:session): session closed for user root
+Jul 20 17:40:01 C8585 CRON[27198]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:40:07 C8585 CRON[27198]: pam_unix(cron:session): session closed for user root
+Jul 20 17:45:01 C8585 CRON[27394]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:45:09 C8585 CRON[27394]: pam_unix(cron:session): session closed for user root
+Jul 20 17:48:33 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 17:48:33 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 17:50:01 C8585 CRON[27622]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:50:16 C8585 CRON[27622]: pam_unix(cron:session): session closed for user root
+Jul 20 17:52:38 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 17:55:01 C8585 CRON[27822]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:55:10 C8585 CRON[27822]: pam_unix(cron:session): session closed for user root
+Jul 20 18:00:01 C8585 CRON[28021]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:00:08 C8585 CRON[28021]: pam_unix(cron:session): session closed for user root
+Jul 20 18:05:01 C8585 CRON[28216]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:05:08 C8585 CRON[28216]: pam_unix(cron:session): session closed for user root
+Jul 20 18:10:01 C8585 CRON[28414]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:10:07 C8585 CRON[28414]: pam_unix(cron:session): session closed for user root
+Jul 20 18:15:01 C8585 CRON[28611]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:15:11 C8585 CRON[28611]: pam_unix(cron:session): session closed for user root
+Jul 20 18:17:01 C8585 CRON[28803]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:17:01 C8585 CRON[28803]: pam_unix(cron:session): session closed for user root
+Jul 20 18:18:33 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 18:18:33 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 18:20:01 C8585 CRON[28841]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:20:15 C8585 CRON[28841]: pam_unix(cron:session): session closed for user root
+Jul 20 18:22:38 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 18:25:01 C8585 CRON[29043]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:25:07 C8585 CRON[29043]: pam_unix(cron:session): session closed for user root
+Jul 20 18:30:01 C8585 CRON[29240]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:30:11 C8585 CRON[29240]: pam_unix(cron:session): session closed for user root
+Jul 20 18:35:01 C8585 CRON[29436]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:35:07 C8585 CRON[29436]: pam_unix(cron:session): session closed for user root
+Jul 20 18:40:01 C8585 CRON[29633]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:40:10 C8585 CRON[29633]: pam_unix(cron:session): session closed for user root
+Jul 20 18:45:01 C8585 CRON[29830]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:45:08 C8585 CRON[29830]: pam_unix(cron:session): session closed for user root
+Jul 20 18:48:33 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 18:48:33 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 18:50:01 C8585 CRON[30059]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:50:17 C8585 CRON[30059]: pam_unix(cron:session): session closed for user root
+Jul 20 18:52:38 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 18:55:01 C8585 CRON[30263]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:55:08 C8585 CRON[30263]: pam_unix(cron:session): session closed for user root
+Jul 20 19:00:01 C8585 CRON[30460]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:00:08 C8585 CRON[30460]: pam_unix(cron:session): session closed for user root
+Jul 20 19:05:01 C8585 CRON[30656]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:05:08 C8585 CRON[30656]: pam_unix(cron:session): session closed for user root
+Jul 20 19:10:01 C8585 CRON[30853]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:10:09 C8585 CRON[30853]: pam_unix(cron:session): session closed for user root
+Jul 20 19:15:01 C8585 CRON[31049]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:15:07 C8585 CRON[31049]: pam_unix(cron:session): session closed for user root
+Jul 20 19:17:01 C8585 CRON[31245]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:17:01 C8585 CRON[31245]: pam_unix(cron:session): session closed for user root
+Jul 20 19:18:33 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 19:18:33 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 19:20:01 C8585 CRON[31283]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:20:17 C8585 CRON[31283]: pam_unix(cron:session): session closed for user root
+Jul 20 19:20:46 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 19:25:01 C8585 CRON[31490]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:25:07 C8585 CRON[31490]: pam_unix(cron:session): session closed for user root
+Jul 20 19:30:01 C8585 CRON[31689]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:30:10 C8585 CRON[31689]: pam_unix(cron:session): session closed for user root
+Jul 20 19:35:01 C8585 CRON[31885]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:35:10 C8585 CRON[31885]: pam_unix(cron:session): session closed for user root
+Jul 20 19:40:01 C8585 CRON[32083]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:40:09 C8585 CRON[32083]: pam_unix(cron:session): session closed for user root
+Jul 20 19:45:01 C8585 CRON[32279]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:45:08 C8585 CRON[32279]: pam_unix(cron:session): session closed for user root
+Jul 20 19:48:33 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 19:48:33 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 19:50:01 C8585 CRON[32508]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:50:16 C8585 CRON[32508]: pam_unix(cron:session): session closed for user root
+Jul 20 19:52:38 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 19:55:01 C8585 CRON[32709]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:55:10 C8585 CRON[32709]: pam_unix(cron:session): session closed for user root
+Jul 20 20:00:01 C8585 CRON[443]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:00:09 C8585 CRON[443]: pam_unix(cron:session): session closed for user root
+Jul 20 20:05:01 C8585 CRON[644]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:05:11 C8585 CRON[644]: pam_unix(cron:session): session closed for user root
+Jul 20 20:10:01 C8585 CRON[848]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:10:07 C8585 CRON[848]: pam_unix(cron:session): session closed for user root
+Jul 20 20:15:01 C8585 CRON[1053]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:15:10 C8585 CRON[1053]: pam_unix(cron:session): session closed for user root
+Jul 20 20:17:01 C8585 CRON[1258]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:17:01 C8585 CRON[1258]: pam_unix(cron:session): session closed for user root
+Jul 20 20:18:33 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 20:18:33 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 20:20:01 C8585 CRON[1296]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:20:15 C8585 CRON[1296]: pam_unix(cron:session): session closed for user root
+Jul 20 20:20:46 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 20:25:01 C8585 CRON[1513]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:25:08 C8585 CRON[1513]: pam_unix(cron:session): session closed for user root
+Jul 20 20:30:01 C8585 CRON[1719]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:30:07 C8585 CRON[1719]: pam_unix(cron:session): session closed for user root
+Jul 20 20:35:01 C8585 CRON[1985]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:35:08 C8585 CRON[1985]: pam_unix(cron:session): session closed for user root
+Jul 20 20:40:01 C8585 CRON[2220]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:40:10 C8585 CRON[2220]: pam_unix(cron:session): session closed for user root
+Jul 20 20:45:01 C8585 CRON[2441]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:45:08 C8585 CRON[2441]: pam_unix(cron:session): session closed for user root
+Jul 20 20:48:34 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 20:48:34 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 20:50:01 C8585 CRON[2711]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:50:13 C8585 CRON[2711]: pam_unix(cron:session): session closed for user root
+Jul 20 20:50:46 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 20:55:01 C8585 CRON[2916]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:55:09 C8585 CRON[2916]: pam_unix(cron:session): session closed for user root
+Jul 20 21:00:01 C8585 CRON[3112]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:00:09 C8585 CRON[3112]: pam_unix(cron:session): session closed for user root
+Jul 20 21:05:01 C8585 CRON[3313]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:05:08 C8585 CRON[3313]: pam_unix(cron:session): session closed for user root
+Jul 20 21:10:01 C8585 CRON[3509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:10:08 C8585 CRON[3509]: pam_unix(cron:session): session closed for user root
+Jul 20 21:15:01 C8585 CRON[3706]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:15:09 C8585 CRON[3706]: pam_unix(cron:session): session closed for user root
+Jul 20 21:17:01 C8585 CRON[3899]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:17:01 C8585 CRON[3899]: pam_unix(cron:session): session closed for user root
+Jul 20 21:18:34 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 21:18:34 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 21:20:01 C8585 CRON[3937]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:20:14 C8585 CRON[3937]: pam_unix(cron:session): session closed for user root
+Jul 20 21:22:38 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 21:25:01 C8585 CRON[4138]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:25:10 C8585 CRON[4138]: pam_unix(cron:session): session closed for user root
+Jul 20 21:30:01 C8585 CRON[4337]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:30:10 C8585 CRON[4337]: pam_unix(cron:session): session closed for user root
+Jul 20 21:35:01 C8585 CRON[4532]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:35:07 C8585 CRON[4532]: pam_unix(cron:session): session closed for user root
+Jul 20 21:40:01 C8585 CRON[4729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:40:07 C8585 CRON[4729]: pam_unix(cron:session): session closed for user root
+Jul 20 21:45:02 C8585 CRON[4925]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:45:10 C8585 CRON[4925]: pam_unix(cron:session): session closed for user root
+Jul 20 21:48:34 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 21:48:34 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 21:50:01 C8585 CRON[5153]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:50:14 C8585 CRON[5153]: pam_unix(cron:session): session closed for user root
+Jul 20 21:50:47 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 21:55:01 C8585 CRON[5359]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:55:07 C8585 CRON[5359]: pam_unix(cron:session): session closed for user root
+Jul 20 22:00:01 C8585 CRON[5557]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:00:09 C8585 CRON[5557]: pam_unix(cron:session): session closed for user root
+Jul 20 22:05:01 C8585 CRON[5753]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:05:07 C8585 CRON[5753]: pam_unix(cron:session): session closed for user root
+Jul 20 22:10:01 C8585 CRON[5953]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:10:10 C8585 CRON[5953]: pam_unix(cron:session): session closed for user root
+Jul 20 22:15:01 C8585 CRON[6150]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:15:08 C8585 CRON[6150]: pam_unix(cron:session): session closed for user root
+Jul 20 22:17:01 C8585 CRON[6343]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:17:01 C8585 CRON[6343]: pam_unix(cron:session): session closed for user root
+Jul 20 22:18:34 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 22:18:34 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 22:20:01 C8585 CRON[6382]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:20:15 C8585 CRON[6382]: pam_unix(cron:session): session closed for user root
+Jul 20 22:20:46 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 22:25:01 C8585 CRON[6587]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:25:07 C8585 CRON[6587]: pam_unix(cron:session): session closed for user root
+Jul 20 22:30:01 C8585 CRON[6785]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:30:10 C8585 CRON[6785]: pam_unix(cron:session): session closed for user root
+Jul 20 22:35:01 C8585 CRON[6981]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:35:07 C8585 CRON[6981]: pam_unix(cron:session): session closed for user root
+Jul 20 22:40:01 C8585 CRON[7178]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:40:08 C8585 CRON[7178]: pam_unix(cron:session): session closed for user root
+Jul 20 22:45:01 C8585 CRON[7373]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:45:07 C8585 CRON[7373]: pam_unix(cron:session): session closed for user root
+Jul 20 22:48:34 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 22:48:34 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 22:50:01 C8585 CRON[7606]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:50:14 C8585 CRON[7606]: pam_unix(cron:session): session closed for user root
+Jul 20 22:50:38 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 22:55:01 C8585 CRON[7805]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:55:07 C8585 CRON[7805]: pam_unix(cron:session): session closed for user root
+Jul 20 23:00:01 C8585 CRON[8003]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:00:08 C8585 CRON[8003]: pam_unix(cron:session): session closed for user root
+Jul 20 23:05:01 C8585 CRON[8200]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:05:07 C8585 CRON[8200]: pam_unix(cron:session): session closed for user root
+Jul 20 23:10:01 C8585 CRON[8397]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:10:10 C8585 CRON[8397]: pam_unix(cron:session): session closed for user root
+Jul 20 23:15:01 C8585 CRON[8594]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:15:07 C8585 CRON[8594]: pam_unix(cron:session): session closed for user root
+Jul 20 23:17:01 C8585 CRON[8789]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:17:01 C8585 CRON[8789]: pam_unix(cron:session): session closed for user root
+Jul 20 23:18:34 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 23:18:34 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 23:20:01 C8585 CRON[8830]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:20:14 C8585 CRON[8830]: pam_unix(cron:session): session closed for user root
+Jul 20 23:20:39 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 23:25:01 C8585 CRON[9030]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:25:07 C8585 CRON[9030]: pam_unix(cron:session): session closed for user root
+Jul 20 23:30:01 C8585 CRON[9227]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:30:08 C8585 CRON[9227]: pam_unix(cron:session): session closed for user root
+Jul 20 23:35:01 C8585 CRON[9423]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:35:08 C8585 CRON[9423]: pam_unix(cron:session): session closed for user root
+Jul 20 23:40:01 C8585 CRON[9620]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:40:08 C8585 CRON[9620]: pam_unix(cron:session): session closed for user root
+Jul 20 23:45:01 C8585 CRON[9817]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:45:07 C8585 CRON[9817]: pam_unix(cron:session): session closed for user root
+Jul 20 23:48:34 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 23:48:34 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 23:50:01 C8585 CRON[10049]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:50:15 C8585 CRON[10049]: pam_unix(cron:session): session closed for user root
+Jul 20 23:50:39 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 23:55:01 C8585 CRON[10249]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:55:09 C8585 CRON[10249]: pam_unix(cron:session): session closed for user root
+Jul 21 00:00:01 C8585 CRON[10445]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:00:08 C8585 CRON[10445]: pam_unix(cron:session): session closed for user root
+Jul 21 00:05:01 C8585 CRON[10642]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:05:08 C8585 CRON[10642]: pam_unix(cron:session): session closed for user root
+Jul 21 00:10:01 C8585 CRON[10839]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:10:07 C8585 CRON[10839]: pam_unix(cron:session): session closed for user root
+Jul 21 00:15:01 C8585 CRON[11035]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:15:07 C8585 CRON[11035]: pam_unix(cron:session): session closed for user root
+Jul 21 00:17:01 C8585 CRON[11229]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:17:01 C8585 CRON[11229]: pam_unix(cron:session): session closed for user root
+Jul 21 00:18:34 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 00:18:34 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 00:20:01 C8585 CRON[11267]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:20:16 C8585 CRON[11267]: pam_unix(cron:session): session closed for user root
+Jul 21 00:22:39 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 00:25:01 C8585 CRON[11467]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:25:07 C8585 CRON[11467]: pam_unix(cron:session): session closed for user root
+Jul 21 00:30:01 C8585 CRON[11664]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:30:07 C8585 CRON[11664]: pam_unix(cron:session): session closed for user root
+Jul 21 00:35:01 C8585 CRON[11859]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:35:09 C8585 CRON[11859]: pam_unix(cron:session): session closed for user root
+Jul 21 00:40:01 C8585 CRON[12055]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:40:07 C8585 CRON[12055]: pam_unix(cron:session): session closed for user root
+Jul 21 00:45:01 C8585 CRON[12251]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:45:07 C8585 CRON[12251]: pam_unix(cron:session): session closed for user root
+Jul 21 00:48:34 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 00:48:34 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 00:50:01 C8585 CRON[12478]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:50:15 C8585 CRON[12478]: pam_unix(cron:session): session closed for user root
+Jul 21 00:52:39 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 00:55:01 C8585 CRON[12680]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:55:07 C8585 CRON[12680]: pam_unix(cron:session): session closed for user root
+Jul 21 01:00:01 C8585 CRON[12879]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:00:08 C8585 CRON[12879]: pam_unix(cron:session): session closed for user root
+Jul 21 01:05:01 C8585 CRON[13075]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:05:07 C8585 CRON[13075]: pam_unix(cron:session): session closed for user root
+Jul 21 01:10:01 C8585 CRON[13274]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:10:07 C8585 CRON[13274]: pam_unix(cron:session): session closed for user root
+Jul 21 01:15:01 C8585 CRON[13471]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:15:08 C8585 CRON[13471]: pam_unix(cron:session): session closed for user root
+Jul 21 01:17:01 C8585 CRON[13664]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:17:01 C8585 CRON[13664]: pam_unix(cron:session): session closed for user root
+Jul 21 01:18:34 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 01:18:34 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 01:20:01 C8585 CRON[13702]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:20:14 C8585 CRON[13702]: pam_unix(cron:session): session closed for user root
+Jul 21 01:20:46 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 01:25:01 C8585 CRON[13908]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:25:07 C8585 CRON[13908]: pam_unix(cron:session): session closed for user root
+Jul 21 01:30:01 C8585 CRON[14104]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:30:08 C8585 CRON[14104]: pam_unix(cron:session): session closed for user root
+Jul 21 01:35:01 C8585 CRON[14301]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:35:07 C8585 CRON[14301]: pam_unix(cron:session): session closed for user root
+Jul 21 01:40:01 C8585 CRON[14499]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:40:07 C8585 CRON[14499]: pam_unix(cron:session): session closed for user root
+Jul 21 01:45:01 C8585 CRON[14695]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:45:08 C8585 CRON[14695]: pam_unix(cron:session): session closed for user root
+Jul 21 01:48:34 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 01:48:34 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 01:50:01 C8585 CRON[14923]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:50:13 C8585 CRON[14923]: pam_unix(cron:session): session closed for user root
+Jul 21 01:53:51 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 01:55:01 C8585 CRON[15129]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:55:08 C8585 CRON[15129]: pam_unix(cron:session): session closed for user root
+Jul 21 02:00:01 C8585 CRON[15328]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:00:08 C8585 CRON[15328]: pam_unix(cron:session): session closed for user root
+Jul 21 02:05:01 C8585 CRON[15525]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:05:09 C8585 CRON[15525]: pam_unix(cron:session): session closed for user root
+Jul 21 02:10:01 C8585 CRON[15724]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:10:07 C8585 CRON[15724]: pam_unix(cron:session): session closed for user root
+Jul 21 02:15:01 C8585 CRON[15922]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:15:07 C8585 CRON[15922]: pam_unix(cron:session): session closed for user root
+Jul 21 02:17:01 C8585 CRON[16115]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:17:01 C8585 CRON[16115]: pam_unix(cron:session): session closed for user root
+Jul 21 02:18:34 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 02:18:34 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 02:20:01 C8585 CRON[16153]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:20:15 C8585 CRON[16153]: pam_unix(cron:session): session closed for user root
+Jul 21 02:20:47 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 02:25:01 C8585 CRON[16359]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:25:08 C8585 CRON[16359]: pam_unix(cron:session): session closed for user root
+Jul 21 02:30:01 C8585 CRON[16558]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:30:07 C8585 CRON[16558]: pam_unix(cron:session): session closed for user root
+Jul 21 02:35:01 C8585 CRON[16753]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:35:08 C8585 CRON[16753]: pam_unix(cron:session): session closed for user root
+Jul 21 02:40:01 C8585 CRON[16950]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:40:07 C8585 CRON[16950]: pam_unix(cron:session): session closed for user root
+Jul 21 02:45:01 C8585 CRON[17147]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:45:07 C8585 CRON[17147]: pam_unix(cron:session): session closed for user root
+Jul 21 02:48:34 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 02:48:34 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 02:50:01 C8585 CRON[17376]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:50:14 C8585 CRON[17376]: pam_unix(cron:session): session closed for user root
+Jul 21 02:52:39 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 02:55:01 C8585 CRON[17578]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:55:08 C8585 CRON[17578]: pam_unix(cron:session): session closed for user root
+Jul 21 03:00:02 C8585 CRON[17775]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:00:02 C8585 CRON[17774]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:00:07 C8585 CRON[17775]: pam_unix(cron:session): session closed for user root
+Jul 21 03:00:17 C8585 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jul 21 03:00:17 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 03:00:17 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 03:02:28 C8585 sshd[1378]: Server listening on 0.0.0.0 port 22.
+Jul 21 03:02:28 C8585 sshd[1378]: Server listening on :: port 22.
+Jul 21 03:02:29 C8585 CRON[1473]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:02:36 C8585 mdm[1542]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 21 03:02:36 C8585 mdm[1542]: PAM adding faulty module: pam_kwallet.so
+Jul 21 03:02:40 C8585 CRON[1473]: pam_unix(cron:session): session closed for user root
+Jul 21 03:05:01 C8585 CRON[1823]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:05:11 C8585 CRON[1823]: pam_unix(cron:session): session closed for user root
+Jul 21 03:07:30 C8585 su[2163]: Successful su for nobody by root
+Jul 21 03:07:30 C8585 su[2163]: + ??? root:nobody
+Jul 21 03:07:36 C8585 su[2163]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 21 03:07:36 C8585 su[2163]: pam_unix(su:session): session closed for user nobody
+Jul 21 03:07:36 C8585 su[2242]: Successful su for nobody by root
+Jul 21 03:07:36 C8585 su[2242]: + ??? root:nobody
+Jul 21 03:07:36 C8585 su[2242]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 21 03:07:36 C8585 su[2242]: pam_unix(su:session): session closed for user nobody
+Jul 21 03:07:36 C8585 su[2256]: Successful su for nobody by root
+Jul 21 03:07:36 C8585 su[2256]: + ??? root:nobody
+Jul 21 03:07:36 C8585 su[2256]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 21 03:08:05 C8585 su[2256]: pam_unix(su:session): session closed for user nobody
+Jul 21 03:10:01 C8585 CRON[2331]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:10:07 C8585 CRON[2331]: pam_unix(cron:session): session closed for user root
+Jul 21 03:15:01 C8585 CRON[2527]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:15:12 C8585 CRON[2527]: pam_unix(cron:session): session closed for user root
+Jul 21 03:17:01 C8585 CRON[2723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:17:01 C8585 CRON[2723]: pam_unix(cron:session): session closed for user root
+Jul 21 03:20:01 C8585 CRON[2729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:20:08 C8585 CRON[2729]: pam_unix(cron:session): session closed for user root
+Jul 21 03:25:01 C8585 CRON[2926]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:25:11 C8585 CRON[2926]: pam_unix(cron:session): session closed for user root
+Jul 21 03:30:01 C8585 CRON[3123]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:30:10 C8585 CRON[3123]: pam_unix(cron:session): session closed for user root
+Jul 21 03:35:01 C8585 CRON[3318]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:35:08 C8585 CRON[3318]: pam_unix(cron:session): session closed for user root
+Jul 21 03:40:01 C8585 CRON[3513]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:40:10 C8585 CRON[3513]: pam_unix(cron:session): session closed for user root
+Jul 21 03:45:01 C8585 CRON[3711]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:45:09 C8585 CRON[3711]: pam_unix(cron:session): session closed for user root
+Jul 21 03:50:01 C8585 CRON[3906]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:50:10 C8585 CRON[3906]: pam_unix(cron:session): session closed for user root
+Jul 21 03:55:01 C8585 CRON[4103]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:55:09 C8585 CRON[4103]: pam_unix(cron:session): session closed for user root
+Jul 21 04:00:01 C8585 CRON[4300]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:00:10 C8585 CRON[4300]: pam_unix(cron:session): session closed for user root
+Jul 21 04:05:01 C8585 CRON[4496]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:05:11 C8585 CRON[4496]: pam_unix(cron:session): session closed for user root
+Jul 21 04:10:01 C8585 CRON[4694]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:10:10 C8585 CRON[4694]: pam_unix(cron:session): session closed for user root
+Jul 21 04:15:01 C8585 CRON[4889]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:15:08 C8585 CRON[4889]: pam_unix(cron:session): session closed for user root
+Jul 21 04:17:01 C8585 CRON[5084]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:17:01 C8585 CRON[5084]: pam_unix(cron:session): session closed for user root
+Jul 21 04:20:01 C8585 CRON[5090]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:20:15 C8585 CRON[5090]: pam_unix(cron:session): session closed for user root
+Jul 21 04:25:01 C8585 CRON[5287]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:25:10 C8585 CRON[5287]: pam_unix(cron:session): session closed for user root
+Jul 21 04:30:01 C8585 CRON[5484]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:30:10 C8585 CRON[5484]: pam_unix(cron:session): session closed for user root
+Jul 21 04:35:01 C8585 CRON[5683]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:35:13 C8585 CRON[5683]: pam_unix(cron:session): session closed for user root
+Jul 21 04:40:01 C8585 CRON[5880]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:40:13 C8585 CRON[5880]: pam_unix(cron:session): session closed for user root
+Jul 21 04:45:01 C8585 CRON[6078]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:45:13 C8585 CRON[6078]: pam_unix(cron:session): session closed for user root
+Jul 21 04:50:01 C8585 CRON[6276]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:50:12 C8585 CRON[6276]: pam_unix(cron:session): session closed for user root
+Jul 21 04:55:01 C8585 CRON[6471]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:55:14 C8585 CRON[6471]: pam_unix(cron:session): session closed for user root
+Jul 21 05:00:01 C8585 CRON[6672]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:00:12 C8585 CRON[6672]: pam_unix(cron:session): session closed for user root
+Jul 21 05:05:01 C8585 CRON[6870]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:05:12 C8585 CRON[6870]: pam_unix(cron:session): session closed for user root
+Jul 21 05:10:01 C8585 CRON[7066]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:10:13 C8585 CRON[7066]: pam_unix(cron:session): session closed for user root
+Jul 21 05:15:01 C8585 CRON[7263]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:15:13 C8585 CRON[7263]: pam_unix(cron:session): session closed for user root
+Jul 21 05:17:01 C8585 CRON[7456]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:17:01 C8585 CRON[7456]: pam_unix(cron:session): session closed for user root
+Jul 21 05:20:01 C8585 CRON[7462]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:20:12 C8585 CRON[7462]: pam_unix(cron:session): session closed for user root
+Jul 21 05:25:01 C8585 CRON[7657]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:25:13 C8585 CRON[7657]: pam_unix(cron:session): session closed for user root
+Jul 21 05:30:01 C8585 CRON[7854]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:30:09 C8585 CRON[7854]: pam_unix(cron:session): session closed for user root
+Jul 21 05:35:01 C8585 CRON[8050]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:35:12 C8585 CRON[8050]: pam_unix(cron:session): session closed for user root
+Jul 21 05:40:01 C8585 CRON[8249]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:40:14 C8585 CRON[8249]: pam_unix(cron:session): session closed for user root
+Jul 21 05:45:01 C8585 CRON[8444]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:45:12 C8585 CRON[8444]: pam_unix(cron:session): session closed for user root
+Jul 21 05:50:01 C8585 CRON[8639]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:50:11 C8585 CRON[8639]: pam_unix(cron:session): session closed for user root
+Jul 21 05:55:01 C8585 CRON[8836]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:55:13 C8585 CRON[8836]: pam_unix(cron:session): session closed for user root
+Jul 21 06:00:01 C8585 CRON[9032]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:00:12 C8585 CRON[9032]: pam_unix(cron:session): session closed for user root
+Jul 21 06:05:01 C8585 CRON[9230]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:05:09 C8585 CRON[9230]: pam_unix(cron:session): session closed for user root
+Jul 21 06:10:01 C8585 CRON[9425]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:10:15 C8585 CRON[9425]: pam_unix(cron:session): session closed for user root
+Jul 21 06:15:01 C8585 CRON[9620]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:15:13 C8585 CRON[9620]: pam_unix(cron:session): session closed for user root
+Jul 21 06:17:01 C8585 CRON[9816]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:17:01 C8585 CRON[9816]: pam_unix(cron:session): session closed for user root
+Jul 21 06:20:01 C8585 CRON[9823]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:20:13 C8585 CRON[9823]: pam_unix(cron:session): session closed for user root
+Jul 21 06:25:01 C8585 CRON[10021]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:25:01 C8585 CRON[10022]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:25:01 C8585 CRON[10022]: pam_unix(cron:session): session closed for user root
+Jul 21 06:25:15 C8585 CRON[10021]: pam_unix(cron:session): session closed for user root
+Jul 21 06:30:01 C8585 CRON[10219]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:30:13 C8585 CRON[10219]: pam_unix(cron:session): session closed for user root
+Jul 21 06:35:01 C8585 CRON[10416]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:35:11 C8585 CRON[10416]: pam_unix(cron:session): session closed for user root
+Jul 21 06:40:01 C8585 CRON[10613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:40:13 C8585 CRON[10613]: pam_unix(cron:session): session closed for user root
+Jul 21 06:45:01 C8585 CRON[10812]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:45:15 C8585 CRON[10812]: pam_unix(cron:session): session closed for user root
+Jul 21 06:50:01 C8585 CRON[11011]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:50:11 C8585 CRON[11011]: pam_unix(cron:session): session closed for user root
+Jul 21 06:55:01 C8585 CRON[11209]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:55:13 C8585 CRON[11209]: pam_unix(cron:session): session closed for user root
+Jul 21 07:00:01 C8585 CRON[11407]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:00:12 C8585 CRON[11407]: pam_unix(cron:session): session closed for user root
+Jul 21 07:05:01 C8585 CRON[11602]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:05:12 C8585 CRON[11602]: pam_unix(cron:session): session closed for user root
+Jul 21 07:10:01 C8585 CRON[11799]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:10:16 C8585 CRON[11799]: pam_unix(cron:session): session closed for user root
+Jul 21 07:15:01 C8585 CRON[11996]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:15:11 C8585 CRON[11996]: pam_unix(cron:session): session closed for user root
+Jul 21 07:17:01 C8585 CRON[12188]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:17:01 C8585 CRON[12188]: pam_unix(cron:session): session closed for user root
+Jul 21 07:20:01 C8585 CRON[12195]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:20:11 C8585 CRON[12195]: pam_unix(cron:session): session closed for user root
+Jul 21 07:25:01 C8585 CRON[12394]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:25:13 C8585 CRON[12394]: pam_unix(cron:session): session closed for user root
+Jul 21 07:30:01 C8585 CRON[12590]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:30:01 C8585 CRON[12591]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:30:01 C8585 CRON[12591]: pam_unix(cron:session): session closed for user root
+Jul 21 07:30:13 C8585 CRON[12590]: pam_unix(cron:session): session closed for user root
+Jul 21 07:35:01 C8585 CRON[12795]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:35:11 C8585 CRON[12795]: pam_unix(cron:session): session closed for user root
+Jul 21 07:35:51 C8585 mdm[1542]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "doroberson"
+Jul 21 07:35:54 C8585 mdm[1542]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=doroberson
+Jul 21 07:36:01 C8585 mdm[1542]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=doroberson
+Jul 21 07:36:01 C8585 mdm[1542]: pam_unix(mdm:session): session opened for user doroberson by (uid=0)
+Jul 21 07:36:01 C8585 mdm[1542]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 21 07:36:06 C8585 polkitd(authority=local): Registered Authentication Agent for unix-session:c4 (system bus name :1.30 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 21 07:40:01 C8585 CRON[13905]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:40:14 C8585 CRON[13905]: pam_unix(cron:session): session closed for user root
+Jul 21 09:29:33 C8585 sshd[1373]: Server listening on 0.0.0.0 port 22.
+Jul 21 09:29:33 C8585 sshd[1373]: Server listening on :: port 22.
+Jul 21 09:29:33 C8585 CRON[1441]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:29:36 C8585 mdm[1562]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 21 09:29:36 C8585 mdm[1562]: PAM adding faulty module: pam_kwallet.so
+Jul 21 09:29:40 C8585 mdm[1562]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "doroberson"
+Jul 21 09:29:41 C8585 CRON[1441]: pam_unix(cron:session): session closed for user root
+Jul 21 09:29:45 C8585 mdm[1562]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=doroberson
+Jul 21 09:29:47 C8585 mdm[1562]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=doroberson
+Jul 21 09:29:48 C8585 mdm[1562]: pam_unix(mdm:session): session opened for user doroberson by (uid=0)
+Jul 21 09:29:48 C8585 mdm[1562]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 21 09:29:54 C8585 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.21 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 21 09:30:01 C8585 CRON[2522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:30:17 C8585 CRON[2522]: pam_unix(cron:session): session closed for user root
+Jul 21 09:35:01 C8585 CRON[3040]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:35:13 C8585 CRON[3040]: pam_unix(cron:session): session closed for user root
+Jul 21 09:37:28 C8585 mdm[1562]: pam_unix(mdm:session): session closed for user doroberson
+Jul 21 09:37:28 C8585 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.21, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jul 21 09:37:30 C8585 mdm[3267]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 21 09:37:30 C8585 mdm[3267]: PAM adding faulty module: pam_kwallet.so
+Jul 21 09:40:01 C8585 CRON[3291]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:40:14 C8585 CRON[3291]: pam_unix(cron:session): session closed for user root
+Jul 21 09:45:01 C8585 CRON[3488]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:45:13 C8585 CRON[3488]: pam_unix(cron:session): session closed for user root
+Jul 21 09:50:01 C8585 CRON[3684]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:50:14 C8585 CRON[3684]: pam_unix(cron:session): session closed for user root
+Jul 21 09:55:01 C8585 CRON[3880]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:55:11 C8585 CRON[3880]: pam_unix(cron:session): session closed for user root
+Jul 21 10:00:01 C8585 CRON[4078]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:00:10 C8585 CRON[4078]: pam_unix(cron:session): session closed for user root
+Jul 21 10:05:01 C8585 CRON[4273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:05:11 C8585 CRON[4273]: pam_unix(cron:session): session closed for user root
+Jul 21 10:10:01 C8585 CRON[4470]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:10:11 C8585 CRON[4470]: pam_unix(cron:session): session closed for user root
+Jul 21 10:15:01 C8585 CRON[4666]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:15:08 C8585 CRON[4666]: pam_unix(cron:session): session closed for user root
+Jul 21 10:17:01 C8585 CRON[4860]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:17:01 C8585 CRON[4860]: pam_unix(cron:session): session closed for user root
+Jul 21 10:20:01 C8585 CRON[4867]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:20:12 C8585 CRON[4867]: pam_unix(cron:session): session closed for user root
+Jul 21 10:25:01 C8585 CRON[5064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:25:12 C8585 CRON[5064]: pam_unix(cron:session): session closed for user root
+Jul 21 10:30:01 C8585 CRON[5262]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:30:07 C8585 CRON[5262]: pam_unix(cron:session): session closed for user root
+Jul 21 10:35:01 C8585 CRON[5460]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:35:12 C8585 CRON[5460]: pam_unix(cron:session): session closed for user root
+Jul 21 10:40:01 C8585 CRON[5657]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:40:09 C8585 CRON[5657]: pam_unix(cron:session): session closed for user root
+Jul 21 10:45:01 C8585 CRON[5853]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:45:10 C8585 CRON[5853]: pam_unix(cron:session): session closed for user root
+Jul 21 10:50:01 C8585 CRON[6051]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:50:11 C8585 CRON[6051]: pam_unix(cron:session): session closed for user root
+Jul 21 10:55:01 C8585 CRON[6247]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:55:07 C8585 CRON[6247]: pam_unix(cron:session): session closed for user root
+Jul 21 11:00:01 C8585 CRON[6445]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:00:12 C8585 CRON[6445]: pam_unix(cron:session): session closed for user root
+Jul 21 11:05:01 C8585 CRON[6642]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:05:08 C8585 CRON[6642]: pam_unix(cron:session): session closed for user root
+Jul 21 11:10:01 C8585 CRON[6838]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:10:11 C8585 CRON[6838]: pam_unix(cron:session): session closed for user root
+Jul 21 11:15:01 C8585 CRON[7035]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:15:10 C8585 CRON[7035]: pam_unix(cron:session): session closed for user root
+Jul 21 11:17:01 C8585 CRON[7227]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:17:01 C8585 CRON[7227]: pam_unix(cron:session): session closed for user root
+Jul 21 11:20:01 C8585 CRON[7234]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:20:10 C8585 CRON[7234]: pam_unix(cron:session): session closed for user root
+Jul 21 11:25:01 C8585 CRON[7430]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:25:10 C8585 CRON[7430]: pam_unix(cron:session): session closed for user root
+Jul 21 11:30:01 C8585 CRON[7632]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:30:09 C8585 CRON[7632]: pam_unix(cron:session): session closed for user root
+Jul 21 11:35:01 C8585 CRON[7827]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:35:12 C8585 CRON[7827]: pam_unix(cron:session): session closed for user root
+Jul 21 11:40:01 C8585 CRON[8025]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:40:08 C8585 CRON[8025]: pam_unix(cron:session): session closed for user root
+Jul 21 11:45:01 C8585 CRON[8221]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:45:11 C8585 CRON[8221]: pam_unix(cron:session): session closed for user root
+Jul 21 11:50:01 C8585 CRON[8417]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:50:12 C8585 CRON[8417]: pam_unix(cron:session): session closed for user root
+Jul 21 11:55:01 C8585 CRON[8614]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:55:11 C8585 CRON[8614]: pam_unix(cron:session): session closed for user root
+Jul 21 12:00:01 C8585 CRON[8810]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:00:12 C8585 CRON[8810]: pam_unix(cron:session): session closed for user root
+Jul 21 12:05:01 C8585 CRON[9006]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:05:10 C8585 CRON[9006]: pam_unix(cron:session): session closed for user root
+Jul 21 12:10:01 C8585 CRON[9204]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:10:12 C8585 CRON[9204]: pam_unix(cron:session): session closed for user root
+Jul 21 12:15:01 C8585 CRON[9402]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:15:07 C8585 CRON[9402]: pam_unix(cron:session): session closed for user root
+Jul 21 12:17:01 C8585 CRON[9596]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:17:01 C8585 CRON[9596]: pam_unix(cron:session): session closed for user root
+Jul 21 12:20:01 C8585 CRON[9604]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:20:11 C8585 CRON[9604]: pam_unix(cron:session): session closed for user root
+Jul 21 12:25:01 C8585 CRON[9801]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:25:12 C8585 CRON[9801]: pam_unix(cron:session): session closed for user root
+Jul 21 12:30:01 C8585 CRON[9998]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:30:08 C8585 CRON[9998]: pam_unix(cron:session): session closed for user root
+Jul 21 12:35:01 C8585 CRON[10195]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:35:12 C8585 CRON[10195]: pam_unix(cron:session): session closed for user root
+Jul 21 12:40:01 C8585 CRON[10392]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:40:08 C8585 CRON[10392]: pam_unix(cron:session): session closed for user root
+Jul 21 12:45:01 C8585 CRON[10591]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:45:09 C8585 CRON[10591]: pam_unix(cron:session): session closed for user root
+Jul 21 12:50:01 C8585 CRON[10787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:50:11 C8585 CRON[10787]: pam_unix(cron:session): session closed for user root
+Jul 21 12:55:01 C8585 CRON[10984]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:55:12 C8585 CRON[10984]: pam_unix(cron:session): session closed for user root
+Jul 21 13:00:01 C8585 CRON[11182]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:00:10 C8585 CRON[11182]: pam_unix(cron:session): session closed for user root
+Jul 21 13:05:01 C8585 CRON[11381]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:05:07 C8585 CRON[11381]: pam_unix(cron:session): session closed for user root
+Jul 21 13:10:01 C8585 CRON[11578]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:10:11 C8585 CRON[11578]: pam_unix(cron:session): session closed for user root
+Jul 21 13:15:01 C8585 CRON[11776]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:15:11 C8585 CRON[11776]: pam_unix(cron:session): session closed for user root
+Jul 21 13:17:01 C8585 CRON[11970]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:17:01 C8585 CRON[11970]: pam_unix(cron:session): session closed for user root
+Jul 21 13:20:01 C8585 CRON[11977]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:20:11 C8585 CRON[11977]: pam_unix(cron:session): session closed for user root
+Jul 21 13:25:01 C8585 CRON[12176]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:25:12 C8585 CRON[12176]: pam_unix(cron:session): session closed for user root
+Jul 21 13:30:01 C8585 CRON[12372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:30:07 C8585 CRON[12372]: pam_unix(cron:session): session closed for user root
+Jul 21 13:35:01 C8585 CRON[12572]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:35:11 C8585 CRON[12572]: pam_unix(cron:session): session closed for user root
+Jul 21 13:40:01 C8585 CRON[12771]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:40:07 C8585 CRON[12771]: pam_unix(cron:session): session closed for user root
+Jul 21 13:45:01 C8585 CRON[12968]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:45:12 C8585 CRON[12968]: pam_unix(cron:session): session closed for user root
+Jul 21 13:45:58 C8585 mdm[3267]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "doroberson"
+Jul 21 13:46:01 C8585 mdm[3267]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=doroberson
+Jul 21 13:46:02 C8585 mdm[3267]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=doroberson
+Jul 21 13:46:02 C8585 mdm[3267]: pam_unix(mdm:session): session opened for user doroberson by (uid=0)
+Jul 21 13:46:02 C8585 mdm[3267]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 21 13:46:05 C8585 polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.51 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 21 13:50:01 C8585 CRON[14028]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:50:09 C8585 CRON[14028]: pam_unix(cron:session): session closed for user root
+Jul 21 13:55:01 C8585 CRON[14227]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:55:12 C8585 CRON[14227]: pam_unix(cron:session): session closed for user root
+Jul 21 14:00:01 C8585 CRON[14425]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:00:10 C8585 CRON[14425]: pam_unix(cron:session): session closed for user root
+Jul 21 14:05:01 C8585 CRON[14623]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:05:08 C8585 CRON[14623]: pam_unix(cron:session): session closed for user root
+Jul 21 14:10:01 C8585 CRON[14822]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:10:12 C8585 CRON[14822]: pam_unix(cron:session): session closed for user root
+Jul 21 14:15:01 C8585 CRON[15027]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:15:09 C8585 CRON[15027]: pam_unix(cron:session): session closed for user root
+Jul 21 14:16:07 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 14:16:07 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 14:17:01 C8585 CRON[15253]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:17:01 C8585 CRON[15253]: pam_unix(cron:session): session closed for user root
+Jul 21 14:20:01 C8585 CRON[15260]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:20:16 C8585 CRON[15260]: pam_unix(cron:session): session closed for user root
+Jul 21 14:20:19 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 14:25:01 C8585 CRON[15462]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:25:07 C8585 CRON[15462]: pam_unix(cron:session): session closed for user root
+Jul 21 14:30:01 C8585 CRON[15659]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:30:11 C8585 CRON[15659]: pam_unix(cron:session): session closed for user root
+Jul 21 14:35:01 C8585 CRON[15856]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:35:11 C8585 CRON[15856]: pam_unix(cron:session): session closed for user root
+Jul 21 14:40:01 C8585 CRON[16055]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:40:11 C8585 CRON[16055]: pam_unix(cron:session): session closed for user root
+Jul 21 14:45:01 C8585 CRON[16252]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:45:12 C8585 CRON[16252]: pam_unix(cron:session): session closed for user root
+Jul 21 14:46:07 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 14:46:07 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 14:50:01 C8585 CRON[16481]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:50:19 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 14:50:20 C8585 CRON[16481]: pam_unix(cron:session): session closed for user root
+Jul 21 14:55:01 C8585 CRON[16682]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:55:11 C8585 CRON[16682]: pam_unix(cron:session): session closed for user root
+Jul 21 15:00:01 C8585 CRON[16879]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:00:10 C8585 CRON[16879]: pam_unix(cron:session): session closed for user root
+Jul 21 15:05:01 C8585 CRON[17075]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:05:12 C8585 CRON[17075]: pam_unix(cron:session): session closed for user root
+Jul 21 15:10:01 C8585 CRON[17273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:10:07 C8585 CRON[17273]: pam_unix(cron:session): session closed for user root
+Jul 21 15:15:01 C8585 CRON[17469]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:15:11 C8585 CRON[17469]: pam_unix(cron:session): session closed for user root
+Jul 21 15:16:07 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 15:16:07 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 15:17:01 C8585 CRON[17694]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:17:01 C8585 CRON[17694]: pam_unix(cron:session): session closed for user root
+Jul 21 15:20:01 C8585 CRON[17702]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:20:19 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 15:20:20 C8585 CRON[17702]: pam_unix(cron:session): session closed for user root
+Jul 21 15:25:01 C8585 CRON[17907]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:25:11 C8585 CRON[17907]: pam_unix(cron:session): session closed for user root
+Jul 21 15:30:01 C8585 CRON[18103]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:30:11 C8585 CRON[18103]: pam_unix(cron:session): session closed for user root
+Jul 21 15:35:01 C8585 CRON[18300]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:35:11 C8585 CRON[18300]: pam_unix(cron:session): session closed for user root
+Jul 21 15:40:01 C8585 CRON[18496]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:40:12 C8585 CRON[18496]: pam_unix(cron:session): session closed for user root
+Jul 21 15:45:01 C8585 CRON[18693]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:45:07 C8585 CRON[18693]: pam_unix(cron:session): session closed for user root
+Jul 21 15:46:07 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 15:46:07 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 15:50:01 C8585 CRON[18930]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:50:17 C8585 CRON[18930]: pam_unix(cron:session): session closed for user root
+Jul 21 15:50:20 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 15:55:01 C8585 CRON[19131]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:55:11 C8585 CRON[19131]: pam_unix(cron:session): session closed for user root
+Jul 21 16:00:01 C8585 CRON[19329]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:00:07 C8585 CRON[19329]: pam_unix(cron:session): session closed for user root
+Jul 21 16:05:01 C8585 CRON[19526]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:05:09 C8585 CRON[19526]: pam_unix(cron:session): session closed for user root
+Jul 21 16:10:01 C8585 CRON[19725]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:10:08 C8585 CRON[19725]: pam_unix(cron:session): session closed for user root
+Jul 21 16:15:01 C8585 CRON[19923]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:15:08 C8585 CRON[19923]: pam_unix(cron:session): session closed for user root
+Jul 21 16:16:07 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 16:16:07 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 16:17:01 C8585 CRON[20149]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:17:01 C8585 CRON[20149]: pam_unix(cron:session): session closed for user root
+Jul 21 16:18:18 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 16:20:01 C8585 CRON[20164]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:20:08 C8585 CRON[20164]: pam_unix(cron:session): session closed for user root
+Jul 21 16:25:01 C8585 CRON[20359]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:25:11 C8585 CRON[20359]: pam_unix(cron:session): session closed for user root
+Jul 21 16:30:01 C8585 CRON[20558]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:30:11 C8585 CRON[20558]: pam_unix(cron:session): session closed for user root
+Jul 21 16:35:01 C8585 CRON[20753]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:35:07 C8585 CRON[20753]: pam_unix(cron:session): session closed for user root
+Jul 21 16:40:01 C8585 CRON[20952]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:40:11 C8585 CRON[20952]: pam_unix(cron:session): session closed for user root
+Jul 21 16:45:01 C8585 CRON[21148]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:45:11 C8585 CRON[21148]: pam_unix(cron:session): session closed for user root
+Jul 21 16:46:07 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 16:46:07 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 16:50:01 C8585 CRON[21377]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:50:14 C8585 CRON[21377]: pam_unix(cron:session): session closed for user root
+Jul 21 16:50:19 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 16:55:01 C8585 CRON[21581]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:55:10 C8585 CRON[21581]: pam_unix(cron:session): session closed for user root
+Jul 21 17:00:01 C8585 CRON[21778]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:00:09 C8585 CRON[21778]: pam_unix(cron:session): session closed for user root
+Jul 21 17:05:01 C8585 CRON[21976]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:05:10 C8585 CRON[21976]: pam_unix(cron:session): session closed for user root
+Jul 21 17:10:01 C8585 CRON[22174]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:10:11 C8585 CRON[22174]: pam_unix(cron:session): session closed for user root
+Jul 21 17:15:01 C8585 CRON[22369]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:15:09 C8585 CRON[22369]: pam_unix(cron:session): session closed for user root
+Jul 21 17:16:07 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 17:16:07 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 17:17:01 C8585 CRON[22593]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:17:01 C8585 CRON[22593]: pam_unix(cron:session): session closed for user root
+Jul 21 17:20:01 C8585 CRON[22603]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:20:15 C8585 CRON[22603]: pam_unix(cron:session): session closed for user root
+Jul 21 17:20:19 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 17:25:01 C8585 CRON[22806]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:25:11 C8585 CRON[22806]: pam_unix(cron:session): session closed for user root
+Jul 21 17:30:01 C8585 CRON[23003]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:30:08 C8585 CRON[23003]: pam_unix(cron:session): session closed for user root
+Jul 21 17:35:01 C8585 CRON[23202]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:35:07 C8585 CRON[23202]: pam_unix(cron:session): session closed for user root
+Jul 21 17:40:01 C8585 CRON[23400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:40:10 C8585 CRON[23400]: pam_unix(cron:session): session closed for user root
+Jul 21 17:45:01 C8585 CRON[23598]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:45:07 C8585 CRON[23598]: pam_unix(cron:session): session closed for user root
+Jul 21 17:46:07 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 17:46:07 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 17:50:01 C8585 CRON[23838]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:50:17 C8585 CRON[23838]: pam_unix(cron:session): session closed for user root
+Jul 21 17:50:20 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 17:55:01 C8585 CRON[24038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:55:07 C8585 CRON[24038]: pam_unix(cron:session): session closed for user root
+Jul 21 18:00:01 C8585 CRON[24237]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:00:10 C8585 CRON[24237]: pam_unix(cron:session): session closed for user root
+Jul 21 18:05:01 C8585 CRON[24433]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:05:09 C8585 CRON[24433]: pam_unix(cron:session): session closed for user root
+Jul 21 18:10:01 C8585 CRON[24630]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:10:08 C8585 CRON[24630]: pam_unix(cron:session): session closed for user root
+Jul 21 18:15:01 C8585 CRON[24826]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:15:07 C8585 CRON[24826]: pam_unix(cron:session): session closed for user root
+Jul 21 18:16:07 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 18:16:07 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 18:17:01 C8585 CRON[25049]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:17:01 C8585 CRON[25049]: pam_unix(cron:session): session closed for user root
+Jul 21 18:20:01 C8585 CRON[25056]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:20:15 C8585 CRON[25056]: pam_unix(cron:session): session closed for user root
+Jul 21 18:20:19 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 18:25:01 C8585 CRON[25257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:25:09 C8585 CRON[25257]: pam_unix(cron:session): session closed for user root
+Jul 21 18:30:01 C8585 CRON[25454]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:30:09 C8585 CRON[25454]: pam_unix(cron:session): session closed for user root
+Jul 21 18:35:01 C8585 CRON[25651]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:35:09 C8585 CRON[25651]: pam_unix(cron:session): session closed for user root
+Jul 21 18:40:01 C8585 CRON[25848]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:40:09 C8585 CRON[25848]: pam_unix(cron:session): session closed for user root
+Jul 21 18:45:01 C8585 CRON[26044]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:45:10 C8585 CRON[26044]: pam_unix(cron:session): session closed for user root
+Jul 21 18:46:07 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 18:46:07 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 18:50:01 C8585 CRON[26274]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:50:14 C8585 CRON[26274]: pam_unix(cron:session): session closed for user root
+Jul 21 18:50:19 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 18:55:01 C8585 CRON[26477]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:55:07 C8585 CRON[26477]: pam_unix(cron:session): session closed for user root
+Jul 21 19:00:01 C8585 CRON[26674]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:00:08 C8585 CRON[26674]: pam_unix(cron:session): session closed for user root
+Jul 21 19:05:01 C8585 CRON[26870]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:05:08 C8585 CRON[26870]: pam_unix(cron:session): session closed for user root
+Jul 21 19:10:01 C8585 CRON[27067]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:10:09 C8585 CRON[27067]: pam_unix(cron:session): session closed for user root
+Jul 21 19:15:01 C8585 CRON[27265]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:15:08 C8585 CRON[27265]: pam_unix(cron:session): session closed for user root
+Jul 21 19:16:07 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 19:16:07 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 19:17:01 C8585 CRON[27489]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:17:01 C8585 CRON[27489]: pam_unix(cron:session): session closed for user root
+Jul 21 19:20:01 C8585 CRON[27497]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:20:14 C8585 CRON[27497]: pam_unix(cron:session): session closed for user root
+Jul 21 19:20:19 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 19:25:01 C8585 CRON[27697]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:25:08 C8585 CRON[27697]: pam_unix(cron:session): session closed for user root
+Jul 21 19:30:01 C8585 CRON[27896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:30:07 C8585 CRON[27896]: pam_unix(cron:session): session closed for user root
+Jul 21 19:35:01 C8585 CRON[28091]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:35:10 C8585 CRON[28091]: pam_unix(cron:session): session closed for user root
+Jul 21 19:40:01 C8585 CRON[28300]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:40:09 C8585 CRON[28300]: pam_unix(cron:session): session closed for user root
+Jul 21 19:45:01 C8585 CRON[28496]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:45:10 C8585 CRON[28496]: pam_unix(cron:session): session closed for user root
+Jul 21 19:46:07 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 19:46:07 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 19:50:01 C8585 CRON[28738]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:50:17 C8585 CRON[28738]: pam_unix(cron:session): session closed for user root
+Jul 21 19:50:20 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 19:55:01 C8585 CRON[28940]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:55:10 C8585 CRON[28940]: pam_unix(cron:session): session closed for user root
+Jul 21 20:00:01 C8585 CRON[29138]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:00:10 C8585 CRON[29138]: pam_unix(cron:session): session closed for user root
+Jul 21 20:05:01 C8585 CRON[29335]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:05:09 C8585 CRON[29335]: pam_unix(cron:session): session closed for user root
+Jul 21 20:10:01 C8585 CRON[29534]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:10:09 C8585 CRON[29534]: pam_unix(cron:session): session closed for user root
+Jul 21 20:15:01 C8585 CRON[29730]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:15:07 C8585 CRON[29730]: pam_unix(cron:session): session closed for user root
+Jul 21 20:16:08 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 20:16:08 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 20:17:01 C8585 CRON[29953]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:17:01 C8585 CRON[29953]: pam_unix(cron:session): session closed for user root
+Jul 21 20:20:01 C8585 CRON[29963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:20:17 C8585 CRON[29963]: pam_unix(cron:session): session closed for user root
+Jul 21 20:20:20 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 20:25:01 C8585 CRON[30165]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:25:09 C8585 CRON[30165]: pam_unix(cron:session): session closed for user root
+Jul 21 20:30:01 C8585 CRON[30361]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:30:07 C8585 CRON[30361]: pam_unix(cron:session): session closed for user root
+Jul 21 20:35:01 C8585 CRON[30559]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:35:10 C8585 CRON[30559]: pam_unix(cron:session): session closed for user root
+Jul 21 20:40:01 C8585 CRON[30756]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:40:09 C8585 CRON[30756]: pam_unix(cron:session): session closed for user root
+Jul 21 20:45:01 C8585 CRON[30953]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:45:07 C8585 CRON[30953]: pam_unix(cron:session): session closed for user root
+Jul 21 20:46:08 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 20:46:08 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 20:50:01 C8585 CRON[31182]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:50:16 C8585 CRON[31182]: pam_unix(cron:session): session closed for user root
+Jul 21 20:50:20 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 20:55:01 C8585 CRON[31383]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:55:07 C8585 CRON[31383]: pam_unix(cron:session): session closed for user root
+Jul 21 21:00:01 C8585 CRON[31582]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:00:08 C8585 CRON[31582]: pam_unix(cron:session): session closed for user root
+Jul 21 21:05:01 C8585 CRON[31778]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:05:07 C8585 CRON[31778]: pam_unix(cron:session): session closed for user root
+Jul 21 21:10:01 C8585 CRON[31976]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:10:09 C8585 CRON[31976]: pam_unix(cron:session): session closed for user root
+Jul 21 21:15:01 C8585 CRON[32174]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:15:10 C8585 CRON[32174]: pam_unix(cron:session): session closed for user root
+Jul 21 21:16:08 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 21:16:08 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 21:17:01 C8585 CRON[32399]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:17:01 C8585 CRON[32399]: pam_unix(cron:session): session closed for user root
+Jul 21 21:20:01 C8585 CRON[32407]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:20:14 C8585 CRON[32407]: pam_unix(cron:session): session closed for user root
+Jul 21 21:20:20 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 21:25:01 C8585 CRON[32608]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:25:09 C8585 CRON[32608]: pam_unix(cron:session): session closed for user root
+Jul 21 21:30:01 C8585 CRON[336]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:30:09 C8585 CRON[336]: pam_unix(cron:session): session closed for user root
+Jul 21 21:35:01 C8585 CRON[541]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:35:07 C8585 CRON[541]: pam_unix(cron:session): session closed for user root
+Jul 21 21:40:01 C8585 CRON[744]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:40:08 C8585 CRON[744]: pam_unix(cron:session): session closed for user root
+Jul 21 21:45:01 C8585 CRON[947]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:45:10 C8585 CRON[947]: pam_unix(cron:session): session closed for user root
+Jul 21 21:46:08 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 21:46:08 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 21:50:01 C8585 CRON[1205]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:50:16 C8585 CRON[1205]: pam_unix(cron:session): session closed for user root
+Jul 21 21:50:20 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 21:55:01 C8585 CRON[1414]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:55:07 C8585 CRON[1414]: pam_unix(cron:session): session closed for user root
+Jul 21 22:00:01 C8585 CRON[1619]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:00:08 C8585 CRON[1619]: pam_unix(cron:session): session closed for user root
+Jul 21 22:05:01 C8585 CRON[1818]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:05:07 C8585 CRON[1818]: pam_unix(cron:session): session closed for user root
+Jul 21 22:10:01 C8585 CRON[2081]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:10:08 C8585 CRON[2081]: pam_unix(cron:session): session closed for user root
+Jul 21 22:15:01 C8585 CRON[2283]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:15:07 C8585 CRON[2283]: pam_unix(cron:session): session closed for user root
+Jul 21 22:16:08 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 22:16:08 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 22:17:01 C8585 CRON[2515]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:17:01 C8585 CRON[2515]: pam_unix(cron:session): session closed for user root
+Jul 21 22:19:23 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 22:20:01 C8585 CRON[2530]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:20:08 C8585 CRON[2530]: pam_unix(cron:session): session closed for user root
+Jul 21 22:25:01 C8585 CRON[2727]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:25:07 C8585 CRON[2727]: pam_unix(cron:session): session closed for user root
+Jul 21 22:30:01 C8585 CRON[2925]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:30:08 C8585 CRON[2925]: pam_unix(cron:session): session closed for user root
+Jul 21 22:35:01 C8585 CRON[3121]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:35:09 C8585 CRON[3121]: pam_unix(cron:session): session closed for user root
+Jul 21 22:40:01 C8585 CRON[3324]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:40:07 C8585 CRON[3324]: pam_unix(cron:session): session closed for user root
+Jul 21 22:45:01 C8585 CRON[3522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:45:08 C8585 CRON[3522]: pam_unix(cron:session): session closed for user root
+Jul 21 22:46:08 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 22:46:08 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 22:50:01 C8585 CRON[3753]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:50:14 C8585 CRON[3753]: pam_unix(cron:session): session closed for user root
+Jul 21 22:50:20 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 22:55:01 C8585 CRON[3955]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:55:08 C8585 CRON[3955]: pam_unix(cron:session): session closed for user root
+Jul 21 23:00:01 C8585 CRON[4153]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:00:10 C8585 CRON[4153]: pam_unix(cron:session): session closed for user root
+Jul 21 23:05:01 C8585 CRON[4350]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:05:07 C8585 CRON[4350]: pam_unix(cron:session): session closed for user root
+Jul 21 23:10:01 C8585 CRON[4548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:10:08 C8585 CRON[4548]: pam_unix(cron:session): session closed for user root
+Jul 21 23:15:01 C8585 CRON[4742]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:15:07 C8585 CRON[4742]: pam_unix(cron:session): session closed for user root
+Jul 21 23:16:08 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 23:16:08 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 23:17:01 C8585 CRON[4966]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:17:01 C8585 CRON[4966]: pam_unix(cron:session): session closed for user root
+Jul 21 23:20:01 C8585 CRON[4973]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:20:14 C8585 CRON[4973]: pam_unix(cron:session): session closed for user root
+Jul 21 23:20:20 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 23:25:01 C8585 CRON[5175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:25:08 C8585 CRON[5175]: pam_unix(cron:session): session closed for user root
+Jul 21 23:30:01 C8585 CRON[5372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:30:07 C8585 CRON[5372]: pam_unix(cron:session): session closed for user root
+Jul 21 23:35:01 C8585 CRON[5568]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:35:07 C8585 CRON[5568]: pam_unix(cron:session): session closed for user root
+Jul 21 23:40:01 C8585 CRON[5765]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:40:08 C8585 CRON[5765]: pam_unix(cron:session): session closed for user root
+Jul 21 23:45:01 C8585 CRON[5960]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:45:07 C8585 CRON[5960]: pam_unix(cron:session): session closed for user root
+Jul 21 23:46:08 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 23:46:08 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 23:49:24 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 23:50:01 C8585 CRON[6206]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:50:07 C8585 CRON[6206]: pam_unix(cron:session): session closed for user root
+Jul 21 23:55:01 C8585 CRON[6401]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:55:08 C8585 CRON[6401]: pam_unix(cron:session): session closed for user root
+Jul 22 00:00:01 C8585 CRON[6599]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:00:07 C8585 CRON[6599]: pam_unix(cron:session): session closed for user root
+Jul 22 00:05:01 C8585 CRON[6796]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:05:07 C8585 CRON[6796]: pam_unix(cron:session): session closed for user root
+Jul 22 00:10:01 C8585 CRON[7002]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:10:09 C8585 CRON[7002]: pam_unix(cron:session): session closed for user root
+Jul 22 00:15:01 C8585 CRON[7199]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:15:07 C8585 CRON[7199]: pam_unix(cron:session): session closed for user root
+Jul 22 00:16:08 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 00:16:08 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 00:17:01 C8585 CRON[7422]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:17:01 C8585 CRON[7422]: pam_unix(cron:session): session closed for user root
+Jul 22 00:20:01 C8585 CRON[7429]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:20:15 C8585 CRON[7429]: pam_unix(cron:session): session closed for user root
+Jul 22 00:20:20 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 00:25:01 C8585 CRON[7633]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:25:07 C8585 CRON[7633]: pam_unix(cron:session): session closed for user root
+Jul 22 00:30:01 C8585 CRON[7831]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:30:07 C8585 CRON[7831]: pam_unix(cron:session): session closed for user root
+Jul 22 00:35:01 C8585 CRON[8027]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:35:08 C8585 CRON[8027]: pam_unix(cron:session): session closed for user root
+Jul 22 00:40:01 C8585 CRON[8225]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:40:07 C8585 CRON[8225]: pam_unix(cron:session): session closed for user root
+Jul 22 00:45:01 C8585 CRON[8421]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:45:08 C8585 CRON[8421]: pam_unix(cron:session): session closed for user root
+Jul 22 00:46:08 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 00:46:08 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 00:50:01 C8585 CRON[8648]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:50:15 C8585 CRON[8648]: pam_unix(cron:session): session closed for user root
+Jul 22 00:50:20 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 00:55:01 C8585 CRON[8850]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:55:07 C8585 CRON[8850]: pam_unix(cron:session): session closed for user root
+Jul 22 01:00:01 C8585 CRON[9048]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:00:08 C8585 CRON[9048]: pam_unix(cron:session): session closed for user root
+Jul 22 01:05:01 C8585 CRON[9243]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:05:07 C8585 CRON[9243]: pam_unix(cron:session): session closed for user root
+Jul 22 01:10:01 C8585 CRON[9444]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:10:07 C8585 CRON[9444]: pam_unix(cron:session): session closed for user root
+Jul 22 01:15:01 C8585 CRON[9639]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:15:08 C8585 CRON[9639]: pam_unix(cron:session): session closed for user root
+Jul 22 01:16:08 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 01:16:08 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 01:17:01 C8585 CRON[9863]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:17:01 C8585 CRON[9863]: pam_unix(cron:session): session closed for user root
+Jul 22 01:20:01 C8585 CRON[9872]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:20:15 C8585 CRON[9872]: pam_unix(cron:session): session closed for user root
+Jul 22 01:20:20 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 01:25:01 C8585 CRON[10074]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:25:07 C8585 CRON[10074]: pam_unix(cron:session): session closed for user root
+Jul 22 01:30:01 C8585 CRON[10272]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:30:07 C8585 CRON[10272]: pam_unix(cron:session): session closed for user root
+Jul 22 01:35:01 C8585 CRON[10469]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:35:08 C8585 CRON[10469]: pam_unix(cron:session): session closed for user root
+Jul 22 01:40:01 C8585 CRON[10665]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:40:08 C8585 CRON[10665]: pam_unix(cron:session): session closed for user root
+Jul 22 01:45:01 C8585 CRON[10863]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:45:08 C8585 CRON[10863]: pam_unix(cron:session): session closed for user root
+Jul 22 01:46:08 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 01:46:08 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 01:50:01 C8585 CRON[11107]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:50:14 C8585 CRON[11107]: pam_unix(cron:session): session closed for user root
+Jul 22 01:50:21 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 01:55:01 C8585 CRON[11310]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:55:08 C8585 CRON[11310]: pam_unix(cron:session): session closed for user root
+Jul 22 02:00:01 C8585 CRON[11509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:00:07 C8585 CRON[11509]: pam_unix(cron:session): session closed for user root
+Jul 22 02:05:01 C8585 CRON[11708]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:05:09 C8585 CRON[11708]: pam_unix(cron:session): session closed for user root
+Jul 22 02:10:01 C8585 CRON[11906]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:10:07 C8585 CRON[11906]: pam_unix(cron:session): session closed for user root
+Jul 22 02:15:01 C8585 CRON[12103]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:15:08 C8585 CRON[12103]: pam_unix(cron:session): session closed for user root
+Jul 22 02:16:08 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 02:16:08 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 02:17:01 C8585 CRON[12327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:17:01 C8585 CRON[12327]: pam_unix(cron:session): session closed for user root
+Jul 22 02:20:01 C8585 CRON[12334]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:20:14 C8585 CRON[12334]: pam_unix(cron:session): session closed for user root
+Jul 22 02:20:20 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 02:25:01 C8585 CRON[12536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:25:07 C8585 CRON[12536]: pam_unix(cron:session): session closed for user root
+Jul 22 02:30:01 C8585 CRON[12732]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:30:08 C8585 CRON[12732]: pam_unix(cron:session): session closed for user root
+Jul 22 02:35:01 C8585 CRON[12929]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:35:07 C8585 CRON[12929]: pam_unix(cron:session): session closed for user root
+Jul 22 02:40:01 C8585 CRON[13127]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:40:08 C8585 CRON[13127]: pam_unix(cron:session): session closed for user root
+Jul 22 02:45:01 C8585 CRON[13327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:45:07 C8585 CRON[13327]: pam_unix(cron:session): session closed for user root
+Jul 22 02:46:08 C8585 sudo: doroberson : TTY=unknown ; PWD=/home/doroberson ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 02:46:08 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 02:50:01 C8585 CRON[13614]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:50:14 C8585 CRON[13614]: pam_unix(cron:session): session closed for user root
+Jul 22 02:50:21 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 02:55:01 C8585 CRON[13845]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:55:07 C8585 CRON[13845]: pam_unix(cron:session): session closed for user root
+Jul 22 03:00:01 C8585 CRON[14109]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 03:00:01 C8585 CRON[14110]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 03:00:10 C8585 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jul 22 03:00:10 C8585 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 03:00:10 C8585 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 03:00:11 C8585 CRON[14110]: pam_unix(cron:session): session closed for user root

@@ -1,0 +1,257 @@
+if( typeof XMLHttpRequest == "undefined" )
+  XMLHttpRequest = function() {
+    try { return new ActiveXObject("Msxml2.XMLHTTP.6.0") } catch(e) {}
+    try { return new ActiveXObject("Msxml2.XMLHTTP.3.0") } catch(e) {}
+    try { return new ActiveXObject("Msxml2.XMLHTTP") }     catch(e) {}
+    try { return new ActiveXObject("Microsoft.XMLHTTP") }  catch(e) {}
+    throw new Error( "This browser does not support XMLHttpRequest or XMLHTTP." )
+  };
+
+function ajax(url, vars, successCallbackFunction, failCallbackFunction) {
+
+    var request =  new XMLHttpRequest();
+    request.open("POST", url, true);
+    request.setRequestHeader("Content-Type",
+                             "application/x-www-form-urlencoded");
+    request.onreadystatechange = function() {
+        if (request.readyState == 4 && request.status == 200) {
+            if (request.responseText) {
+                successCallbackFunction(request.responseText);
+            }
+        } else {
+            if(request.readyState == 4) {
+                if(failCallbackFunction) {
+                    failCallbackFunction(request.responseText);
+                }
+            }
+        }
+    };
+    request.send(vars);
+}
+ 
+function check_email_page_form(form) {
+
+    var empty_regex = new RegExp("^\S+$");
+    var email_regex = new RegExp("^[\\w-_\.]*[\\w-_\.]\@[\\w]\.+[\\w]+[\\w]$");
+    var def_friend = new RegExp("^Your Friend.s Name$");
+
+    hide_div('email_missing');
+    hide_div('email_invalid');
+
+    var the_name = document.getElementById('email_name');
+    if(the_name.value == '' || the_name.value == 'Your Name' || empty_regex.test(the_name.value)) {
+        show_div('email_missing');
+        return false;
+    }
+
+    hide_div('email_missing');
+
+    var the_friend = document.getElementById('email_friend');
+    if(the_friend.value == '' || def_friend.test(the_friend.value) || empty_regex.test(the_friend.value)) {
+        show_div('email_missing');
+        return false;
+    }
+
+    hide_div('email_missing');
+
+    var the_from = document.getElementById('email_from');
+    if(!email_regex.test(the_from.value)) {
+        hide_div('email_missing');
+        show_div('email_invalid');
+        return false;
+    }
+
+    hide_div('email_missing');
+
+    var the_to = document.getElementById('email_to');
+    if(!email_regex.test(the_to.value)) {
+        show_div('email_invalid');
+        return false;
+    }
+
+    hide_div('email_missing');
+
+    var the_root = document.getElementById('email_root');
+    var the_url = document.getElementById('email_url');
+    var the_msg = document.getElementById('email_message');
+
+    var data = "type=email_page&email_name=" + the_name.value + "&email_from="
+        + the_from.value + "&email_friend=" + the_friend.value + "&email_to="
+        + the_to.value + "&email_url=" + the_url.value + "&email_root="
+        + the_root.value + "&email_message=" + the_msg.value;
+
+    ajax('/send_email.jsp', data, show_email_sent, show_email_failed);
+
+    return false;
+}
+
+function show_email_sent(response) {
+    showhide('sent_email');
+	// Omniture event tag
+	omni_eVar10=parent.document.title;
+	omni_events="event6";
+}
+
+function show_email_failed(response) {
+    showhide('email_this_page');
+    alert('Failed to send your message, please try again later.');
+}
+
+function disable_plan_boxes() {
+    document.getElementById('hmo').disabled = 1;
+    document.getElementById('ppo').disabled = 1;
+//    document.getElementById('pffs').disabled = 1;
+    document.getElementById('pdp').disabled = 1;
+    if(document.getElementById('supplement')) {
+        document.getElementById('supplement').disabled = 1;
+//        document.getElementById('special').disabled = 1;
+    }
+    if(document.getElementById('unsure')) {
+        document.getElementById('unsure').disabled = 1;
+    }    
+}
+
+function enable_plan_boxes() {
+    document.getElementById('hmo').disabled = 0;
+    document.getElementById('ppo').disabled = 0;
+//    document.getElementById('pffs').disabled = 0;
+    document.getElementById('pdp').disabled = 0;
+    if(document.getElementById('supplement')) {
+        document.getElementById('supplement').disabled = 0;
+//        document.getElementById('special').disabled = 0;
+    }
+    if(document.getElementById('unsure')) {
+        document.getElementById('unsure').disabled = 0;
+    }    
+}
+
+function check_contact_us_form(formtype,selection) {
+
+	// START OMNITURE VARS FOR CONTACT US
+    omni_prop = "";
+    if ((formtype=='individual') && (selection=='member')) {
+     omni_prop = 'Individual-Current';
+    }
+    else if ((formtype=='individual') && (selection=='nonmember')) {
+     omni_prop = 'Individual-Prospect';
+	 omni_eVar15="Contact Us – Considering Enrolling";
+	 omni_events="event11";
+    }
+    else if ((formtype=='group') && (selection=='member')) {
+     omni_prop = 'Group-Current';
+    }
+    else if ((formtype=='group') && (selection=='nonmember')) {
+     omni_prop = 'Group-Prospect';
+    }
+    s.linkTrackVars = 'prop27';
+    s.linkTrackEvents = 'None';
+    s.prop27 = omni_prop;
+    s.tl(this,'o','Send Contact Us Mail');
+	// END OMNITURE VARS
+
+    var email_regex = new RegExp("^[\\w-_\.]*[\\w-_\.]\@[\\w]\.+[\\w]+[\\w]$");
+    var zip_regex = new RegExp("^[0-9]{5}(-?[0-9]{4})?$");
+    
+    var error = 0;
+    var error_msg = "";
+    
+    if(!document.getElementById('question').checked && 
+        !document.getElementById('considering').checked) {
+        set_class('one', 'required');
+        error = 'question';
+        error_msg = "Please select a topic.";
+    } else {
+        clear_classes('one');
+    }
+    
+    if(document.getElementById('considering').checked) {
+        if(!document.getElementById('hmo').checked && 
+            !document.getElementById('ppo').checked &&
+            !document.getElementById('pdp').checked) {
+            /*!document.getElementById('pffs').checked &&*/
+    
+            if(!error) {
+                if(document.getElementById('supplement')) {
+                    if(!document.getElementById('supplement').checked) {
+                    /* if(!document.getElementById('supplement').checked &&
+                    !document.getElementById('special').checked) { */
+                        set_class('two', 'required');
+                        error_msg = "Please select a plan.";
+                        error = 'hmo';
+                    }
+                } else {
+                    set_class('two', 'required');
+                    error_msg = "Please select a plan.";
+                    error = 'hmo';
+                }
+            }
+        }
+    } else {
+        clear_classes('two');
+    }
+
+    // Odd little var, necessary due to the contorted way i'm checking the
+    // third section's validity
+    var three = 1;
+    
+    if(!email_regex.test(document.getElementById('email').value)) {
+        error = 'email';
+        error_msg = "Please enter a valid email.";
+        set_class('three', 'required');
+        three = 0;
+    }
+
+    // if(!phone_regex.test(document.getElementById('phone').value)) {
+    //     alert("Please use only dashes and numbers in your phone number.");
+    //     error = 'phone';
+    //     set_class('three', 'required');
+    //     three = 0;
+    // }
+
+    if(!zip_regex.test(document.getElementById('zip').value)) {
+        error_msg = "Please use either a 5 digit or a 9 digit zip code.";
+        error = 'zip';
+        set_class('three', 'required');
+        three = 0;
+    }
+    
+    if(document.getElementById('state').value == 'selected') {
+        error_msg = "Please select a State.";
+        error = 'state';
+        set_class('three', 'required');
+        three = 0;
+    }
+    
+    var fields = new Array('first_name', 'last_name', 'address_first',
+        'city', 'phone'
+    );
+    var field_hr = new Array('First Name', 'Last Name', 'Address', 'City', 'Phone Number');
+    for(var i = 0; i < fields.length; i++) {
+        if(document.getElementById(fields[i]).value == '') {
+            error = fields[i];
+            set_class('three', 'required');
+            error_msg = "Please enter your " + field_hr[i] + ".";
+            three = 0;
+            break;
+        }
+    }
+    
+    if(three) {
+        clear_classes('three');
+    }
+    
+    if(error) {
+        document.getElementById(error).focus();
+        if(error_msg != "") { alert(error_msg); }
+        return false;
+    }
+    
+    return true;
+}^ÎíSm      T‰ÚT‰Ú:˜ýT“ÿ   7:http://www.aetnamedicare.com/includes/js/form_valid.js request-method GET response-head HTTP/1.1 200 OK
+Date: Thu, 11 Dec 2014 17:52:07 GMT
+Accept-Ranges: bytes
+Etag: W/"8324-1411670146000"
+Last-Modified: Thu, 25 Sep 2014 18:35:46 GMT
+Content-Length: 8324
+Content-Type: text/javascript
+ uncompressed-len 0    „

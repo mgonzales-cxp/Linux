@@ -1,0 +1,714 @@
+Jul 13 08:11:26 C1116 mdm[3771]: pam_unix(mdm:session): session opened for user anthem-training by (uid=0)
+Jul 13 08:11:26 C1116 systemd-logind[901]: Removed session c4.
+Jul 13 08:11:26 C1116 systemd-logind[901]: New session c5 of user anthem-training.
+Jul 13 08:11:26 C1116 systemd-logind[901]: Linked /tmp/.X11-unix/X0 to /run/user/1003/X11-display.
+Jul 13 08:11:26 C1116 mdm[3771]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 13 08:11:28 C1116 polkitd(authority=local): Registered Authentication Agent for unix-session:c5 (system bus name :1.74 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 13 08:15:01 C1116 CRON[4517]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 08:15:06 C1116 CRON[4517]: pam_unix(cron:session): session closed for user root
+Jul 13 08:17:01 C1116 CRON[4719]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 08:17:01 C1116 CRON[4719]: pam_unix(cron:session): session closed for user root
+Jul 13 08:20:01 C1116 CRON[4727]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 08:20:05 C1116 CRON[4727]: pam_unix(cron:session): session closed for user root
+Jul 13 08:25:01 C1116 CRON[5107]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 08:25:06 C1116 CRON[5107]: pam_unix(cron:session): session closed for user root
+Jul 13 08:30:01 C1116 CRON[5288]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 08:30:06 C1116 CRON[5288]: pam_unix(cron:session): session closed for user root
+Jul 13 08:35:01 C1116 CRON[5600]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 08:35:05 C1116 CRON[5600]: pam_unix(cron:session): session closed for user root
+Jul 13 08:40:01 C1116 CRON[5878]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 08:40:07 C1116 CRON[5878]: pam_unix(cron:session): session closed for user root
+Jul 13 08:41:30 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 08:41:30 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 08:41:40 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 08:45:01 C1116 CRON[6120]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 08:45:03 C1116 CRON[6120]: pam_unix(cron:session): session closed for user root
+Jul 13 08:50:01 C1116 CRON[6308]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 08:50:02 C1116 CRON[6308]: pam_unix(cron:session): session closed for user root
+Jul 13 08:55:01 C1116 CRON[6492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 08:55:03 C1116 CRON[6492]: pam_unix(cron:session): session closed for user root
+Jul 13 09:00:01 C1116 CRON[6675]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 09:00:04 C1116 CRON[6675]: pam_unix(cron:session): session closed for user root
+Jul 13 09:05:01 C1116 CRON[6859]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 09:05:05 C1116 CRON[6859]: pam_unix(cron:session): session closed for user root
+Jul 13 09:10:01 C1116 CRON[7043]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 09:10:03 C1116 CRON[7043]: pam_unix(cron:session): session closed for user root
+Jul 13 09:11:30 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 09:11:30 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 09:11:40 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 09:15:01 C1116 CRON[7268]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 09:15:03 C1116 CRON[7268]: pam_unix(cron:session): session closed for user root
+Jul 13 09:17:01 C1116 CRON[7444]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 09:17:01 C1116 CRON[7444]: pam_unix(cron:session): session closed for user root
+Jul 13 09:20:01 C1116 CRON[7468]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 09:20:05 C1116 CRON[7468]: pam_unix(cron:session): session closed for user root
+Jul 13 09:25:01 C1116 CRON[7659]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 09:25:02 C1116 CRON[7659]: pam_unix(cron:session): session closed for user root
+Jul 13 09:30:01 C1116 CRON[7842]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 09:30:02 C1116 CRON[7842]: pam_unix(cron:session): session closed for user root
+Jul 13 09:33:00 C1116 sshd[8022]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 13 09:34:43 C1116 sshd[8025]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 13 09:34:45 C1116 sshd[8032]: fatal: no hostkey alg [preauth]
+Jul 13 09:34:45 C1116 sshd[8034]: fatal: no hostkey alg [preauth]
+Jul 13 09:34:45 C1116 sshd[8026]: Connection closed by 192.168.106.16 [preauth]
+Jul 13 09:34:45 C1116 sshd[8030]: Connection closed by 192.168.106.16 [preauth]
+Jul 13 09:34:45 C1116 sshd[8028]: Connection closed by 192.168.106.16 [preauth]
+Jul 13 09:35:01 C1116 CRON[8036]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 09:35:05 C1116 CRON[8036]: pam_unix(cron:session): session closed for user root
+Jul 13 09:40:01 C1116 CRON[8220]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 09:40:02 C1116 CRON[8220]: pam_unix(cron:session): session closed for user root
+Jul 13 09:41:30 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 09:41:30 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 09:41:39 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 09:45:01 C1116 CRON[8445]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 09:45:04 C1116 CRON[8445]: pam_unix(cron:session): session closed for user root
+Jul 13 09:50:01 C1116 CRON[8628]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 09:50:02 C1116 CRON[8628]: pam_unix(cron:session): session closed for user root
+Jul 13 09:55:01 C1116 CRON[8813]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 09:55:05 C1116 CRON[8813]: pam_unix(cron:session): session closed for user root
+Jul 13 10:00:01 C1116 CRON[8997]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 10:00:02 C1116 CRON[8997]: pam_unix(cron:session): session closed for user root
+Jul 13 10:05:01 C1116 CRON[9185]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 10:05:04 C1116 CRON[9185]: pam_unix(cron:session): session closed for user root
+Jul 13 10:10:01 C1116 CRON[9368]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 10:10:02 C1116 CRON[9368]: pam_unix(cron:session): session closed for user root
+Jul 13 10:11:30 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 10:11:30 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 10:14:40 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 10:15:01 C1116 CRON[9587]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 10:15:04 C1116 CRON[9587]: pam_unix(cron:session): session closed for user root
+Jul 13 10:17:01 C1116 CRON[9765]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 10:17:01 C1116 CRON[9765]: pam_unix(cron:session): session closed for user root
+Jul 13 10:20:01 C1116 CRON[9775]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 10:20:03 C1116 CRON[9775]: pam_unix(cron:session): session closed for user root
+Jul 13 10:25:01 C1116 CRON[9970]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 10:25:02 C1116 CRON[9970]: pam_unix(cron:session): session closed for user root
+Jul 13 10:30:01 C1116 CRON[10158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 10:30:02 C1116 CRON[10158]: pam_unix(cron:session): session closed for user root
+Jul 13 10:35:01 C1116 CRON[10342]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 10:35:04 C1116 CRON[10342]: pam_unix(cron:session): session closed for user root
+Jul 13 10:40:01 C1116 CRON[10524]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 10:40:05 C1116 CRON[10524]: pam_unix(cron:session): session closed for user root
+Jul 13 10:41:30 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 10:41:30 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 10:41:39 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 10:45:01 C1116 CRON[10748]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 10:45:04 C1116 CRON[10748]: pam_unix(cron:session): session closed for user root
+Jul 13 10:50:01 C1116 CRON[10931]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 10:50:04 C1116 CRON[10931]: pam_unix(cron:session): session closed for user root
+Jul 13 10:55:01 C1116 CRON[11117]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 10:55:03 C1116 CRON[11117]: pam_unix(cron:session): session closed for user root
+Jul 13 11:00:01 C1116 CRON[11300]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 11:00:04 C1116 CRON[11300]: pam_unix(cron:session): session closed for user root
+Jul 13 11:05:01 C1116 CRON[11482]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 11:05:04 C1116 CRON[11482]: pam_unix(cron:session): session closed for user root
+Jul 13 11:10:01 C1116 CRON[11666]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 11:10:02 C1116 CRON[11666]: pam_unix(cron:session): session closed for user root
+Jul 13 11:11:30 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 11:11:30 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 11:12:08 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 11:15:01 C1116 CRON[11887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 11:15:03 C1116 CRON[11887]: pam_unix(cron:session): session closed for user root
+Jul 13 11:17:01 C1116 CRON[12065]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 11:17:01 C1116 CRON[12065]: pam_unix(cron:session): session closed for user root
+Jul 13 11:20:01 C1116 CRON[12071]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 11:20:03 C1116 CRON[12071]: pam_unix(cron:session): session closed for user root
+Jul 13 11:25:01 C1116 CRON[12261]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 11:25:03 C1116 CRON[12261]: pam_unix(cron:session): session closed for user root
+Jul 13 11:30:01 C1116 CRON[12443]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 11:30:02 C1116 CRON[12443]: pam_unix(cron:session): session closed for user root
+Jul 13 11:35:01 C1116 CRON[12634]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 11:35:02 C1116 CRON[12634]: pam_unix(cron:session): session closed for user root
+Jul 13 11:40:01 C1116 CRON[12816]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 11:40:04 C1116 CRON[12816]: pam_unix(cron:session): session closed for user root
+Jul 13 11:41:30 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 11:41:30 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 11:41:39 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 11:45:01 C1116 CRON[13037]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 11:45:02 C1116 CRON[13037]: pam_unix(cron:session): session closed for user root
+Jul 13 11:49:02 C1116 unix_chkpwd[13218]: password check failed for user (anthem-training)
+Jul 13 11:49:02 C1116 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=1003 euid=1003 tty=:0.0 ruser= rhost=  user=anthem-training
+Jul 13 11:49:04 C1116 xscreensaver[4327]: FAILED LOGIN 1 ON DISPLAY ":0.0", FOR "anthem-training"
+Jul 13 11:49:29 C1116 xscreensaver[4327]: pam_ecryptfs: seteuid error
+Jul 13 11:50:01 C1116 CRON[13226]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 11:50:03 C1116 CRON[13226]: pam_unix(cron:session): session closed for user root
+Jul 13 11:55:01 C1116 CRON[13409]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 11:55:04 C1116 CRON[13409]: pam_unix(cron:session): session closed for user root
+Jul 13 12:00:01 C1116 CRON[13593]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 12:00:04 C1116 CRON[13593]: pam_unix(cron:session): session closed for user root
+Jul 13 12:05:01 C1116 CRON[13780]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 12:05:03 C1116 CRON[13780]: pam_unix(cron:session): session closed for user root
+Jul 13 12:10:01 C1116 CRON[13963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 12:10:04 C1116 CRON[13963]: pam_unix(cron:session): session closed for user root
+Jul 13 12:11:30 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 12:11:30 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 12:11:41 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 12:15:02 C1116 CRON[14189]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 12:15:05 C1116 CRON[14189]: pam_unix(cron:session): session closed for user root
+Jul 13 12:17:01 C1116 CRON[14366]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 12:17:01 C1116 CRON[14366]: pam_unix(cron:session): session closed for user root
+Jul 13 12:20:01 C1116 CRON[14373]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 12:20:03 C1116 CRON[14373]: pam_unix(cron:session): session closed for user root
+Jul 13 12:25:01 C1116 CRON[14573]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 12:25:03 C1116 CRON[14573]: pam_unix(cron:session): session closed for user root
+Jul 13 12:30:01 C1116 CRON[14758]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 12:30:02 C1116 CRON[14758]: pam_unix(cron:session): session closed for user root
+Jul 13 12:35:01 C1116 CRON[14945]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 12:35:02 C1116 CRON[14945]: pam_unix(cron:session): session closed for user root
+Jul 13 12:40:01 C1116 CRON[15127]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 12:40:03 C1116 CRON[15127]: pam_unix(cron:session): session closed for user root
+Jul 13 12:41:30 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 12:41:30 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 12:43:36 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 12:45:01 C1116 CRON[15349]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 12:45:02 C1116 CRON[15349]: pam_unix(cron:session): session closed for user root
+Jul 13 12:46:30 C1116 sshd[15523]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 13 12:46:32 C1116 sshd[15530]: fatal: no hostkey alg [preauth]
+Jul 13 12:46:32 C1116 sshd[15532]: fatal: no hostkey alg [preauth]
+Jul 13 12:46:32 C1116 sshd[15528]: Connection closed by 192.168.106.16 [preauth]
+Jul 13 12:46:32 C1116 sshd[15526]: Connection closed by 192.168.106.16 [preauth]
+Jul 13 12:46:32 C1116 sshd[15524]: Connection closed by 192.168.106.16 [preauth]
+Jul 13 12:46:50 C1116 sshd[15535]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 13 12:50:01 C1116 CRON[15540]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 12:50:02 C1116 CRON[15540]: pam_unix(cron:session): session closed for user root
+Jul 13 12:55:01 C1116 CRON[15729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 12:55:02 C1116 CRON[15729]: pam_unix(cron:session): session closed for user root
+Jul 13 13:00:01 C1116 CRON[15910]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 13:00:02 C1116 CRON[15910]: pam_unix(cron:session): session closed for user root
+Jul 13 13:05:01 C1116 CRON[16094]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 13:05:02 C1116 CRON[16094]: pam_unix(cron:session): session closed for user root
+Jul 13 13:10:01 C1116 CRON[16278]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 13:10:03 C1116 CRON[16278]: pam_unix(cron:session): session closed for user root
+Jul 13 13:11:30 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 13:11:30 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 13:13:36 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 13:15:01 C1116 CRON[16497]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 13:15:04 C1116 CRON[16497]: pam_unix(cron:session): session closed for user root
+Jul 13 13:17:01 C1116 CRON[16675]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 13:17:01 C1116 CRON[16675]: pam_unix(cron:session): session closed for user root
+Jul 13 13:20:01 C1116 CRON[16683]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 13:20:02 C1116 CRON[16683]: pam_unix(cron:session): session closed for user root
+Jul 13 13:25:01 C1116 CRON[16871]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 13:25:03 C1116 CRON[16871]: pam_unix(cron:session): session closed for user root
+Jul 13 13:30:01 C1116 CRON[17053]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 13:30:03 C1116 CRON[17053]: pam_unix(cron:session): session closed for user root
+Jul 13 13:35:01 C1116 CRON[17236]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 13:35:02 C1116 CRON[17236]: pam_unix(cron:session): session closed for user root
+Jul 13 13:40:01 C1116 CRON[17419]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 13:40:02 C1116 CRON[17419]: pam_unix(cron:session): session closed for user root
+Jul 13 13:41:30 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 13:41:30 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 13:41:40 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 13:45:01 C1116 CRON[17639]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 13:45:03 C1116 CRON[17639]: pam_unix(cron:session): session closed for user root
+Jul 13 13:50:01 C1116 CRON[17825]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 13:50:02 C1116 CRON[17825]: pam_unix(cron:session): session closed for user root
+Jul 13 13:55:01 C1116 CRON[18009]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 13:55:04 C1116 CRON[18009]: pam_unix(cron:session): session closed for user root
+Jul 13 14:00:01 C1116 CRON[18192]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 14:00:02 C1116 CRON[18192]: pam_unix(cron:session): session closed for user root
+Jul 13 14:05:01 C1116 CRON[18372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 14:05:04 C1116 CRON[18372]: pam_unix(cron:session): session closed for user root
+Jul 13 14:10:01 C1116 CRON[18553]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 14:10:03 C1116 CRON[18553]: pam_unix(cron:session): session closed for user root
+Jul 13 14:11:31 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 14:11:31 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 14:11:40 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 14:15:01 C1116 CRON[18776]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 14:15:02 C1116 CRON[18776]: pam_unix(cron:session): session closed for user root
+Jul 13 14:17:01 C1116 CRON[18956]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 14:17:01 C1116 CRON[18956]: pam_unix(cron:session): session closed for user root
+Jul 13 14:20:01 C1116 CRON[18963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 14:20:02 C1116 CRON[18963]: pam_unix(cron:session): session closed for user root
+Jul 13 14:25:01 C1116 CRON[19162]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 14:25:03 C1116 CRON[19162]: pam_unix(cron:session): session closed for user root
+Jul 13 14:30:01 C1116 CRON[19345]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 14:30:03 C1116 CRON[19345]: pam_unix(cron:session): session closed for user root
+Jul 13 14:35:01 C1116 CRON[19529]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 14:35:02 C1116 CRON[19529]: pam_unix(cron:session): session closed for user root
+Jul 13 14:40:01 C1116 CRON[19714]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 14:40:02 C1116 CRON[19714]: pam_unix(cron:session): session closed for user root
+Jul 13 14:41:31 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 14:41:31 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 14:43:36 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 14:45:01 C1116 CRON[19933]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 14:45:02 C1116 CRON[19933]: pam_unix(cron:session): session closed for user root
+Jul 13 14:50:01 C1116 CRON[20117]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 14:50:03 C1116 CRON[20117]: pam_unix(cron:session): session closed for user root
+Jul 13 14:55:01 C1116 CRON[20301]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 14:55:02 C1116 CRON[20301]: pam_unix(cron:session): session closed for user root
+Jul 13 15:00:01 C1116 CRON[20483]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 15:00:03 C1116 CRON[20483]: pam_unix(cron:session): session closed for user root
+Jul 13 15:05:01 C1116 CRON[20666]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 15:05:03 C1116 CRON[20666]: pam_unix(cron:session): session closed for user root
+Jul 13 15:10:01 C1116 CRON[20850]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 15:10:03 C1116 CRON[20850]: pam_unix(cron:session): session closed for user root
+Jul 13 15:11:31 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 15:11:31 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 15:15:01 C1116 CRON[21064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 15:15:05 C1116 CRON[21064]: pam_unix(cron:session): session closed for user root
+Jul 13 15:17:01 C1116 CRON[21242]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 15:17:01 C1116 CRON[21242]: pam_unix(cron:session): session closed for user root
+Jul 13 15:20:01 C1116 CRON[21248]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 15:20:04 C1116 CRON[21248]: pam_unix(cron:session): session closed for user root
+Jul 13 15:25:01 C1116 CRON[21432]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 15:25:04 C1116 CRON[21432]: pam_unix(cron:session): session closed for user root
+Jul 13 15:26:43 C1116 sshd[21607]: Did not receive identification string from 192.168.106.16
+Jul 13 15:27:10 C1116 sshd[21610]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 13 15:27:11 C1116 sshd[21611]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 13 15:27:12 C1116 sshd[21618]: fatal: no hostkey alg [preauth]
+Jul 13 15:27:12 C1116 sshd[21620]: fatal: no hostkey alg [preauth]
+Jul 13 15:27:13 C1116 sshd[21612]: Connection closed by 192.168.106.16 [preauth]
+Jul 13 15:27:13 C1116 sshd[21616]: Connection closed by 192.168.106.16 [preauth]
+Jul 13 15:27:13 C1116 sshd[21614]: Connection closed by 192.168.106.16 [preauth]
+Jul 13 15:28:24 C1116 unix_chkpwd[21625]: password check failed for user (anthem-training)
+Jul 13 12:50:39 C1116 xscreensaver[4327]: message repeated 2 times: [ pam_ecryptfs: seteuid error]
+Jul 13 15:28:24 C1116 xscreensaver[4327]: pam_unix(xscreensaver:auth): authentication failure; logname= uid=1003 euid=1003 tty=:0.0 ruser= rhost=  user=anthem-training
+Jul 13 15:28:27 C1116 xscreensaver[4327]: FAILED LOGIN 1 ON DISPLAY ":0.0", FOR "anthem-training"
+Jul 13 15:28:40 C1116 unix_chkpwd[21627]: password check failed for user (anthem-training)
+Jul 13 15:28:40 C1116 xscreensaver[4327]: pam_unix(xscreensaver:auth): authentication failure; logname= uid=1003 euid=1003 tty=:0.0 ruser= rhost=  user=anthem-training
+Jul 13 15:28:41 C1116 xscreensaver[4327]: FAILED LOGIN 2 ON DISPLAY ":0.0", FOR "anthem-training"
+Jul 13 15:28:52 C1116 xscreensaver[4327]: pam_unix(xscreensaver:auth): authentication failure; logname= uid=1003 euid=1003 tty=:0.0 ruser= rhost=  user=anthem-training
+Jul 13 15:29:03 C1116 xscreensaver[4327]: pam_ecryptfs: seteuid error
+Jul 13 15:30:01 C1116 CRON[21637]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 15:30:02 C1116 CRON[21637]: pam_unix(cron:session): session closed for user root
+Jul 13 15:31:33 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 15:35:01 C1116 CRON[21826]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 15:35:02 C1116 CRON[21826]: pam_unix(cron:session): session closed for user root
+Jul 13 15:40:01 C1116 CRON[22008]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 15:40:02 C1116 CRON[22008]: pam_unix(cron:session): session closed for user root
+Jul 13 15:41:31 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 15:41:31 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 15:43:36 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 15:45:01 C1116 CRON[22232]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 15:45:03 C1116 CRON[22232]: pam_unix(cron:session): session closed for user root
+Jul 13 15:50:01 C1116 CRON[22411]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 15:50:02 C1116 CRON[22411]: pam_unix(cron:session): session closed for user root
+Jul 13 15:55:01 C1116 CRON[22594]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 15:55:02 C1116 CRON[22594]: pam_unix(cron:session): session closed for user root
+Jul 13 16:00:01 C1116 CRON[22776]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 16:00:02 C1116 CRON[22776]: pam_unix(cron:session): session closed for user root
+Jul 13 16:05:01 C1116 CRON[22957]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 16:05:02 C1116 CRON[22957]: pam_unix(cron:session): session closed for user root
+Jul 13 16:10:01 C1116 CRON[23139]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 16:10:02 C1116 CRON[23139]: pam_unix(cron:session): session closed for user root
+Jul 13 16:11:31 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 16:11:31 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 16:13:36 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 16:15:01 C1116 CRON[23361]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 16:15:02 C1116 CRON[23361]: pam_unix(cron:session): session closed for user root
+Jul 13 16:17:01 C1116 CRON[23538]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 16:17:01 C1116 CRON[23538]: pam_unix(cron:session): session closed for user root
+Jul 13 16:20:01 C1116 CRON[23545]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 16:20:02 C1116 CRON[23545]: pam_unix(cron:session): session closed for user root
+Jul 13 16:25:01 C1116 CRON[23738]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 16:25:02 C1116 CRON[23738]: pam_unix(cron:session): session closed for user root
+Jul 13 16:30:01 C1116 CRON[23918]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 16:30:03 C1116 CRON[23918]: pam_unix(cron:session): session closed for user root
+Jul 13 16:35:01 C1116 CRON[24101]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 16:35:02 C1116 CRON[24101]: pam_unix(cron:session): session closed for user root
+Jul 13 16:40:01 C1116 CRON[24284]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 16:40:02 C1116 CRON[24284]: pam_unix(cron:session): session closed for user root
+Jul 13 16:41:31 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 16:41:31 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 16:42:09 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 16:45:01 C1116 CRON[24504]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 16:45:02 C1116 CRON[24504]: pam_unix(cron:session): session closed for user root
+Jul 13 16:50:01 C1116 CRON[24685]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 16:50:03 C1116 CRON[24685]: pam_unix(cron:session): session closed for user root
+Jul 13 16:55:01 C1116 CRON[24867]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 16:55:02 C1116 CRON[24867]: pam_unix(cron:session): session closed for user root
+Jul 13 17:00:01 C1116 CRON[25048]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 17:00:01 C1116 CRON[25048]: pam_unix(cron:session): session closed for user root
+Jul 13 17:05:01 C1116 CRON[25229]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 17:05:03 C1116 CRON[25229]: pam_unix(cron:session): session closed for user root
+Jul 13 17:10:01 C1116 CRON[25410]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 17:10:02 C1116 CRON[25410]: pam_unix(cron:session): session closed for user root
+Jul 13 17:11:31 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 17:11:31 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 17:11:53 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 17:15:01 C1116 CRON[25631]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 17:15:02 C1116 CRON[25631]: pam_unix(cron:session): session closed for user root
+Jul 13 17:17:01 C1116 CRON[25809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 17:17:01 C1116 CRON[25809]: pam_unix(cron:session): session closed for user root
+Jul 13 17:20:01 C1116 CRON[25815]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 17:20:02 C1116 CRON[25815]: pam_unix(cron:session): session closed for user root
+Jul 13 17:25:01 C1116 CRON[26006]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 17:25:02 C1116 CRON[26006]: pam_unix(cron:session): session closed for user root
+Jul 13 17:30:01 C1116 CRON[26186]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 17:30:02 C1116 CRON[26186]: pam_unix(cron:session): session closed for user root
+Jul 13 17:35:01 C1116 CRON[26368]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 17:35:03 C1116 CRON[26368]: pam_unix(cron:session): session closed for user root
+Jul 13 17:40:02 C1116 CRON[26549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 17:40:03 C1116 CRON[26549]: pam_unix(cron:session): session closed for user root
+Jul 13 17:41:31 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 17:41:31 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 17:41:40 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 17:45:01 C1116 CRON[26768]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 17:45:03 C1116 CRON[26768]: pam_unix(cron:session): session closed for user root
+Jul 13 17:50:01 C1116 CRON[26949]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 17:50:02 C1116 CRON[26949]: pam_unix(cron:session): session closed for user root
+Jul 13 17:55:01 C1116 CRON[27132]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 17:55:03 C1116 CRON[27132]: pam_unix(cron:session): session closed for user root
+Jul 13 18:00:01 C1116 CRON[27312]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 18:00:02 C1116 CRON[27312]: pam_unix(cron:session): session closed for user root
+Jul 13 18:05:01 C1116 CRON[27495]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 18:05:02 C1116 CRON[27495]: pam_unix(cron:session): session closed for user root
+Jul 13 18:10:01 C1116 CRON[27677]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 18:10:02 C1116 CRON[27677]: pam_unix(cron:session): session closed for user root
+Jul 13 18:11:31 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 18:11:31 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 18:11:40 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 18:15:01 C1116 CRON[27898]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 18:15:02 C1116 CRON[27898]: pam_unix(cron:session): session closed for user root
+Jul 13 18:17:01 C1116 CRON[28075]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 18:17:01 C1116 CRON[28075]: pam_unix(cron:session): session closed for user root
+Jul 13 18:20:01 C1116 CRON[28082]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 18:20:03 C1116 CRON[28082]: pam_unix(cron:session): session closed for user root
+Jul 13 18:25:01 C1116 CRON[28274]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 18:25:02 C1116 CRON[28274]: pam_unix(cron:session): session closed for user root
+Jul 13 18:26:48 C1116 sshd[28450]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 13 18:26:50 C1116 sshd[28457]: fatal: no hostkey alg [preauth]
+Jul 13 18:26:50 C1116 sshd[28459]: fatal: no hostkey alg [preauth]
+Jul 13 18:26:50 C1116 sshd[28451]: Connection closed by 192.168.106.16 [preauth]
+Jul 13 18:26:50 C1116 sshd[28455]: Connection closed by 192.168.106.16 [preauth]
+Jul 13 18:26:50 C1116 sshd[28453]: Connection closed by 192.168.106.16 [preauth]
+Jul 13 18:27:38 C1116 sshd[28462]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 13 18:30:01 C1116 CRON[28465]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 18:30:02 C1116 CRON[28465]: pam_unix(cron:session): session closed for user root
+Jul 13 18:35:02 C1116 CRON[28647]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 18:35:03 C1116 CRON[28647]: pam_unix(cron:session): session closed for user root
+Jul 13 18:40:01 C1116 CRON[28829]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 18:40:02 C1116 CRON[28829]: pam_unix(cron:session): session closed for user root
+Jul 13 18:41:31 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 18:41:31 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 18:41:53 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 18:45:01 C1116 CRON[29050]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 18:45:02 C1116 CRON[29050]: pam_unix(cron:session): session closed for user root
+Jul 13 18:50:01 C1116 CRON[29231]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 18:50:02 C1116 CRON[29231]: pam_unix(cron:session): session closed for user root
+Jul 13 18:55:01 C1116 CRON[29411]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 18:55:02 C1116 CRON[29411]: pam_unix(cron:session): session closed for user root
+Jul 13 19:00:01 C1116 CRON[29592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 19:00:02 C1116 CRON[29592]: pam_unix(cron:session): session closed for user root
+Jul 13 19:05:01 C1116 CRON[29779]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 19:05:02 C1116 CRON[29779]: pam_unix(cron:session): session closed for user root
+Jul 13 19:10:01 C1116 CRON[29962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 19:10:02 C1116 CRON[29962]: pam_unix(cron:session): session closed for user root
+Jul 13 19:11:31 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 19:11:31 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 19:11:40 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 19:15:01 C1116 CRON[30184]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 19:15:02 C1116 CRON[30184]: pam_unix(cron:session): session closed for user root
+Jul 13 19:17:01 C1116 CRON[30360]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 19:17:01 C1116 CRON[30360]: pam_unix(cron:session): session closed for user root
+Jul 13 19:20:01 C1116 CRON[30366]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 19:20:02 C1116 CRON[30366]: pam_unix(cron:session): session closed for user root
+Jul 13 19:25:01 C1116 CRON[30549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 19:25:02 C1116 CRON[30549]: pam_unix(cron:session): session closed for user root
+Jul 13 19:30:01 C1116 CRON[30729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 19:30:02 C1116 CRON[30729]: pam_unix(cron:session): session closed for user root
+Jul 13 19:35:01 C1116 CRON[30912]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 19:35:02 C1116 CRON[30912]: pam_unix(cron:session): session closed for user root
+Jul 13 19:40:01 C1116 CRON[31093]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 19:40:03 C1116 CRON[31093]: pam_unix(cron:session): session closed for user root
+Jul 13 19:41:31 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 19:41:31 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 19:41:40 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 19:45:01 C1116 CRON[31313]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 19:45:02 C1116 CRON[31313]: pam_unix(cron:session): session closed for user root
+Jul 13 19:50:01 C1116 CRON[31494]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 19:50:02 C1116 CRON[31494]: pam_unix(cron:session): session closed for user root
+Jul 13 19:55:01 C1116 CRON[31676]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 19:55:02 C1116 CRON[31676]: pam_unix(cron:session): session closed for user root
+Jul 13 20:00:01 C1116 CRON[31859]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 20:00:02 C1116 CRON[31859]: pam_unix(cron:session): session closed for user root
+Jul 13 20:05:01 C1116 CRON[32043]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 20:05:02 C1116 CRON[32043]: pam_unix(cron:session): session closed for user root
+Jul 13 20:10:01 C1116 CRON[32224]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 20:10:02 C1116 CRON[32224]: pam_unix(cron:session): session closed for user root
+Jul 13 20:11:32 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 20:11:32 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 20:11:41 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 20:15:01 C1116 CRON[32445]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 20:15:03 C1116 CRON[32445]: pam_unix(cron:session): session closed for user root
+Jul 13 20:17:01 C1116 CRON[32623]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 20:17:01 C1116 CRON[32623]: pam_unix(cron:session): session closed for user root
+Jul 13 20:20:01 C1116 CRON[32629]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 20:20:02 C1116 CRON[32629]: pam_unix(cron:session): session closed for user root
+Jul 13 20:25:01 C1116 CRON[357]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 20:25:02 C1116 CRON[357]: pam_unix(cron:session): session closed for user root
+Jul 13 20:30:01 C1116 CRON[545]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 20:30:02 C1116 CRON[545]: pam_unix(cron:session): session closed for user root
+Jul 13 20:35:01 C1116 CRON[731]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 20:35:02 C1116 CRON[731]: pam_unix(cron:session): session closed for user root
+Jul 13 20:40:01 C1116 CRON[924]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 20:40:02 C1116 CRON[924]: pam_unix(cron:session): session closed for user root
+Jul 13 20:41:32 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 20:41:32 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 20:41:41 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 20:45:01 C1116 CRON[1155]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 20:45:02 C1116 CRON[1155]: pam_unix(cron:session): session closed for user root
+Jul 13 20:50:01 C1116 CRON[1345]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 20:50:01 C1116 CRON[1345]: pam_unix(cron:session): session closed for user root
+Jul 13 20:55:01 C1116 CRON[1531]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 20:55:03 C1116 CRON[1531]: pam_unix(cron:session): session closed for user root
+Jul 13 21:00:01 C1116 CRON[1718]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 21:00:02 C1116 CRON[1718]: pam_unix(cron:session): session closed for user root
+Jul 13 21:05:01 C1116 CRON[1905]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 21:05:02 C1116 CRON[1905]: pam_unix(cron:session): session closed for user root
+Jul 13 21:10:01 C1116 CRON[2088]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 21:10:02 C1116 CRON[2088]: pam_unix(cron:session): session closed for user root
+Jul 13 21:11:32 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 21:11:32 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 21:11:41 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 21:15:01 C1116 CRON[2371]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 21:15:02 C1116 CRON[2371]: pam_unix(cron:session): session closed for user root
+Jul 13 21:17:01 C1116 CRON[2552]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 21:17:01 C1116 CRON[2552]: pam_unix(cron:session): session closed for user root
+Jul 13 21:20:01 C1116 CRON[2561]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 21:20:02 C1116 CRON[2561]: pam_unix(cron:session): session closed for user root
+Jul 13 21:25:01 C1116 CRON[2749]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 21:25:02 C1116 CRON[2749]: pam_unix(cron:session): session closed for user root
+Jul 13 21:25:41 C1116 sshd[2933]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 13 21:25:59 C1116 sshd[2934]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 13 21:26:00 C1116 sshd[2941]: fatal: no hostkey alg [preauth]
+Jul 13 21:26:01 C1116 sshd[2943]: fatal: no hostkey alg [preauth]
+Jul 13 21:26:01 C1116 sshd[2935]: Connection closed by 192.168.106.16 [preauth]
+Jul 13 21:26:01 C1116 sshd[2937]: Connection closed by 192.168.106.16 [preauth]
+Jul 13 21:26:01 C1116 sshd[2939]: Connection closed by 192.168.106.16 [preauth]
+Jul 13 21:30:01 C1116 CRON[2949]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 21:30:02 C1116 CRON[2949]: pam_unix(cron:session): session closed for user root
+Jul 13 21:35:01 C1116 CRON[3131]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 21:35:02 C1116 CRON[3131]: pam_unix(cron:session): session closed for user root
+Jul 13 21:40:01 C1116 CRON[3315]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 21:40:02 C1116 CRON[3315]: pam_unix(cron:session): session closed for user root
+Jul 13 21:41:32 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 21:41:32 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 21:41:41 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 21:45:01 C1116 CRON[3537]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 21:45:02 C1116 CRON[3537]: pam_unix(cron:session): session closed for user root
+Jul 13 21:50:01 C1116 CRON[3717]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 21:50:02 C1116 CRON[3717]: pam_unix(cron:session): session closed for user root
+Jul 13 21:55:01 C1116 CRON[3906]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 21:55:02 C1116 CRON[3906]: pam_unix(cron:session): session closed for user root
+Jul 13 22:00:01 C1116 CRON[4088]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:00:02 C1116 CRON[4088]: pam_unix(cron:session): session closed for user root
+Jul 13 22:05:01 C1116 CRON[4302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:05:02 C1116 CRON[4302]: pam_unix(cron:session): session closed for user root
+Jul 13 22:10:01 C1116 CRON[4538]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:10:03 C1116 CRON[4538]: pam_unix(cron:session): session closed for user root
+Jul 13 22:11:32 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 22:11:32 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 22:11:41 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 22:15:01 C1116 CRON[4760]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:15:02 C1116 CRON[4760]: pam_unix(cron:session): session closed for user root
+Jul 13 22:17:01 C1116 CRON[4938]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:17:01 C1116 CRON[4938]: pam_unix(cron:session): session closed for user root
+Jul 13 22:20:01 C1116 CRON[4944]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:20:02 C1116 CRON[4944]: pam_unix(cron:session): session closed for user root
+Jul 13 22:25:01 C1116 CRON[5202]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:25:02 C1116 CRON[5202]: pam_unix(cron:session): session closed for user root
+Jul 13 22:30:01 C1116 CRON[5382]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:30:02 C1116 CRON[5382]: pam_unix(cron:session): session closed for user root
+Jul 13 22:35:01 C1116 CRON[5563]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:35:02 C1116 CRON[5563]: pam_unix(cron:session): session closed for user root
+Jul 13 22:40:01 C1116 CRON[5745]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:40:02 C1116 CRON[5745]: pam_unix(cron:session): session closed for user root
+Jul 13 22:41:32 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 22:41:32 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 22:41:41 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 22:45:01 C1116 CRON[5983]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:45:02 C1116 CRON[5983]: pam_unix(cron:session): session closed for user root
+Jul 13 22:50:01 C1116 CRON[6163]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:50:01 C1116 CRON[6163]: pam_unix(cron:session): session closed for user root
+Jul 13 22:55:01 C1116 CRON[6348]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:55:03 C1116 CRON[6348]: pam_unix(cron:session): session closed for user root
+Jul 13 23:00:01 C1116 CRON[6529]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:00:02 C1116 CRON[6529]: pam_unix(cron:session): session closed for user root
+Jul 13 23:05:01 C1116 CRON[6711]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:05:02 C1116 CRON[6711]: pam_unix(cron:session): session closed for user root
+Jul 13 23:10:01 C1116 CRON[6892]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:10:02 C1116 CRON[6892]: pam_unix(cron:session): session closed for user root
+Jul 13 23:11:32 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 23:11:32 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 23:11:42 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 23:15:01 C1116 CRON[7113]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:15:02 C1116 CRON[7113]: pam_unix(cron:session): session closed for user root
+Jul 13 23:17:01 C1116 CRON[7290]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:17:01 C1116 CRON[7290]: pam_unix(cron:session): session closed for user root
+Jul 13 23:20:01 C1116 CRON[7296]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:20:02 C1116 CRON[7296]: pam_unix(cron:session): session closed for user root
+Jul 13 23:25:01 C1116 CRON[7483]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:25:02 C1116 CRON[7483]: pam_unix(cron:session): session closed for user root
+Jul 13 23:30:01 C1116 CRON[7663]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:30:02 C1116 CRON[7663]: pam_unix(cron:session): session closed for user root
+Jul 13 23:35:01 C1116 CRON[7844]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:35:02 C1116 CRON[7844]: pam_unix(cron:session): session closed for user root
+Jul 13 23:40:01 C1116 CRON[8025]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:40:02 C1116 CRON[8025]: pam_unix(cron:session): session closed for user root
+Jul 13 23:41:32 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 13 23:41:32 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 13 23:41:54 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 13 23:45:01 C1116 CRON[8247]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:45:02 C1116 CRON[8247]: pam_unix(cron:session): session closed for user root
+Jul 13 23:50:01 C1116 CRON[8427]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:50:02 C1116 CRON[8427]: pam_unix(cron:session): session closed for user root
+Jul 13 23:55:01 C1116 CRON[8612]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:55:02 C1116 CRON[8612]: pam_unix(cron:session): session closed for user root
+Jul 14 00:00:01 C1116 CRON[8793]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 00:00:03 C1116 CRON[8793]: pam_unix(cron:session): session closed for user root
+Jul 14 00:05:01 C1116 CRON[8972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 00:05:01 C1116 CRON[8972]: pam_unix(cron:session): session closed for user root
+Jul 14 00:10:01 C1116 CRON[9154]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 00:10:03 C1116 CRON[9154]: pam_unix(cron:session): session closed for user root
+Jul 14 00:11:32 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 14 00:11:32 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 14 00:11:54 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 14 00:15:01 C1116 CRON[9375]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 00:15:02 C1116 CRON[9375]: pam_unix(cron:session): session closed for user root
+Jul 14 00:17:01 C1116 CRON[9552]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 00:17:01 C1116 CRON[9552]: pam_unix(cron:session): session closed for user root
+Jul 14 00:20:01 C1116 CRON[9559]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 00:20:02 C1116 CRON[9559]: pam_unix(cron:session): session closed for user root
+Jul 14 00:25:01 C1116 CRON[9758]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 00:25:02 C1116 CRON[9758]: pam_unix(cron:session): session closed for user root
+Jul 14 00:30:01 C1116 CRON[9938]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 00:30:02 C1116 CRON[9938]: pam_unix(cron:session): session closed for user root
+Jul 14 00:35:01 C1116 CRON[10121]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 00:35:02 C1116 CRON[10121]: pam_unix(cron:session): session closed for user root
+Jul 14 00:40:01 C1116 CRON[10302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 00:40:02 C1116 CRON[10302]: pam_unix(cron:session): session closed for user root
+Jul 14 00:41:32 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 14 00:41:32 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 14 00:41:41 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 14 00:45:01 C1116 CRON[10522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 00:45:02 C1116 CRON[10522]: pam_unix(cron:session): session closed for user root
+Jul 14 00:50:01 C1116 CRON[10703]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 00:50:02 C1116 CRON[10703]: pam_unix(cron:session): session closed for user root
+Jul 14 00:55:01 C1116 CRON[10887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 00:55:02 C1116 CRON[10887]: pam_unix(cron:session): session closed for user root
+Jul 14 01:00:01 C1116 CRON[11066]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 01:00:02 C1116 CRON[11066]: pam_unix(cron:session): session closed for user root
+Jul 14 01:05:01 C1116 CRON[11249]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 01:05:02 C1116 CRON[11249]: pam_unix(cron:session): session closed for user root
+Jul 14 01:10:01 C1116 CRON[11431]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 01:10:01 C1116 CRON[11431]: pam_unix(cron:session): session closed for user root
+Jul 14 01:11:32 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 14 01:11:32 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 14 01:11:42 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 14 01:15:01 C1116 CRON[11651]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 01:15:02 C1116 CRON[11651]: pam_unix(cron:session): session closed for user root
+Jul 14 01:17:02 C1116 CRON[11829]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 01:17:02 C1116 CRON[11829]: pam_unix(cron:session): session closed for user root
+Jul 14 01:20:01 C1116 CRON[11835]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 01:20:02 C1116 CRON[11835]: pam_unix(cron:session): session closed for user root
+Jul 14 01:25:01 C1116 CRON[12023]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 01:25:01 C1116 CRON[12023]: pam_unix(cron:session): session closed for user root
+Jul 14 01:30:01 C1116 CRON[12205]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 01:30:03 C1116 CRON[12205]: pam_unix(cron:session): session closed for user root
+Jul 14 01:35:01 C1116 CRON[12384]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 01:35:02 C1116 CRON[12384]: pam_unix(cron:session): session closed for user root
+Jul 14 01:40:01 C1116 CRON[12566]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 01:40:01 C1116 CRON[12566]: pam_unix(cron:session): session closed for user root
+Jul 14 01:41:32 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 14 01:41:32 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 14 01:41:42 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 14 01:45:02 C1116 CRON[12786]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 01:45:03 C1116 CRON[12786]: pam_unix(cron:session): session closed for user root
+Jul 14 01:50:01 C1116 CRON[12966]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 01:50:02 C1116 CRON[12966]: pam_unix(cron:session): session closed for user root
+Jul 14 01:55:01 C1116 CRON[13149]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 01:55:02 C1116 CRON[13149]: pam_unix(cron:session): session closed for user root
+Jul 14 02:00:01 C1116 CRON[13329]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 02:00:02 C1116 CRON[13329]: pam_unix(cron:session): session closed for user root
+Jul 14 02:05:01 C1116 CRON[13510]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 02:05:02 C1116 CRON[13510]: pam_unix(cron:session): session closed for user root
+Jul 14 02:10:01 C1116 CRON[13690]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 02:10:02 C1116 CRON[13690]: pam_unix(cron:session): session closed for user root
+Jul 14 02:11:33 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 14 02:11:33 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 14 02:11:54 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 14 02:15:01 C1116 CRON[13909]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 02:15:02 C1116 CRON[13909]: pam_unix(cron:session): session closed for user root
+Jul 14 02:17:01 C1116 CRON[14086]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 02:17:01 C1116 CRON[14086]: pam_unix(cron:session): session closed for user root
+Jul 14 02:20:01 C1116 CRON[14093]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 02:20:02 C1116 CRON[14093]: pam_unix(cron:session): session closed for user root
+Jul 14 02:25:01 C1116 CRON[14290]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 02:25:02 C1116 CRON[14290]: pam_unix(cron:session): session closed for user root
+Jul 14 02:30:01 C1116 CRON[14470]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 02:30:02 C1116 CRON[14470]: pam_unix(cron:session): session closed for user root
+Jul 14 02:35:01 C1116 CRON[14651]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 02:35:02 C1116 CRON[14651]: pam_unix(cron:session): session closed for user root
+Jul 14 02:40:01 C1116 CRON[14835]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 02:40:02 C1116 CRON[14835]: pam_unix(cron:session): session closed for user root
+Jul 14 02:41:33 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 14 02:41:33 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 14 02:41:55 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 14 02:45:01 C1116 CRON[15056]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 02:45:02 C1116 CRON[15056]: pam_unix(cron:session): session closed for user root
+Jul 14 02:50:01 C1116 CRON[15236]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 02:50:02 C1116 CRON[15236]: pam_unix(cron:session): session closed for user root
+Jul 14 02:55:01 C1116 CRON[15420]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 02:55:02 C1116 CRON[15420]: pam_unix(cron:session): session closed for user root
+Jul 14 03:00:01 C1116 CRON[15600]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 03:00:01 C1116 CRON[15601]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 03:00:01 C1116 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jul 14 03:00:01 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 14 03:00:01 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 14 03:00:02 C1116 CRON[15601]: pam_unix(cron:session): session closed for user root
+Jul 14 03:05:02 C1116 CRON[15958]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 03:05:09 C1116 CRON[15958]: pam_unix(cron:session): session closed for user root
+Jul 14 03:10:02 C1116 CRON[16146]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 03:10:08 C1116 CRON[16146]: pam_unix(cron:session): session closed for user root
+Jul 14 03:11:34 C1116 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 14 03:11:34 C1116 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 14 03:11:53 C1116 sudo: pam_unix(sudo:session): session closed for user root
+Jul 14 03:15:01 C1116 CRON[16374]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 03:15:04 C1116 CRON[16374]: pam_unix(cron:session): session closed for user root
+Jul 14 03:17:01 C1116 CRON[16555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 03:17:01 C1116 CRON[16555]: pam_unix(cron:session): session closed for user root
+Jul 14 03:20:01 C1116 CRON[16565]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 03:20:07 C1116 CRON[16565]: pam_unix(cron:session): session closed for user root
+Jul 14 03:24:20 C1116 sshd[16758]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 14 03:24:59 C1116 sshd[16761]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 14 03:25:01 C1116 sshd[16768]: fatal: no hostkey alg [preauth]
+Jul 14 03:25:01 C1116 sshd[16771]: fatal: no hostkey alg [preauth]
+Jul 14 03:25:01 C1116 sshd[16766]: Connection closed by 192.168.106.16 [preauth]
+Jul 14 03:25:01 C1116 sshd[16762]: Connection closed by 192.168.106.16 [preauth]
+Jul 14 03:25:01 C1116 sshd[16764]: Connection closed by 192.168.106.16 [preauth]
+Jul 14 03:25:01 C1116 CRON[16770]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 03:25:07 C1116 CRON[16770]: pam_unix(cron:session): session closed for user root
+Jul 14 03:30:02 C1116 CRON[16955]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 03:30:09 C1116 CRON[16955]: pam_unix(cron:session): session closed for user root
+Jul 14 03:33:04 C1116 CRON[15600]: pam_unix(cron:session): session closed for user root
+Jul 14 03:33:04 C1116 sshd[1272]: Received signal 15; terminating.
+Jul 14 06:25:25 C1116 systemd-logind[890]: New seat seat0.
+Jul 14 06:25:32 C1116 dbus[819]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=1147 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=928 comm="NetworkManager ")
+Jul 14 06:25:33 C1116 sshd[1460]: Server listening on 0.0.0.0 port 22.
+Jul 14 06:25:33 C1116 sshd[1460]: Server listening on :: port 22.
+Jul 14 06:25:34 C1116 CRON[1542]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 14 06:25:35 C1116 CRON[1542]: pam_unix(cron:session): session closed for user root
+Jul 14 06:25:37 C1116 mdm[1854]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 14 06:25:37 C1116 mdm[1854]: PAM adding faulty module: pam_kwallet.so
+Jul 14 06:26:05 C1116 mdm[1854]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jul 14 06:26:10 C1116 mdm[1854]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jul 14 06:26:10 C1116 systemd-logind[890]: New session c1 of user tech.
+Jul 14 06:26:10 C1116 systemd-logind[890]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jul 14 06:26:10 C1116 mdm[1854]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 14 06:26:15 C1116 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.32 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 14 06:26:39 C1116 polkit-agent-helper-1[2935]: pam_ecryptfs: pam_sm_authenticate: /home/tech is already mounted
+Jul 14 06:26:39 C1116 polkitd(authority=local): Operator of unix-session:c1 successfully authenticated as unix-user:tech to gain TEMPORARY authorization for action org.freedesktop.systemtoolsbackends.set for system-bus-name::1.45 [users-admin] (owned by unix-user:tech)
+Jul 14 06:26:48 C1116 chpasswd[3019]: pam_ecryptfs: PAM passphrase change module retrieved a NULL passphrase; nothing to do
+Jul 14 06:26:49 C1116 chpasswd[3019]: pam_unix(chpasswd:chauthtok): password changed for anthem-training
+Jul 14 06:26:49 C1116 chpasswd[3019]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Jul 14 06:26:49 C1116 chpasswd[3019]: pam_ecryptfs: Passphrase file wrapped
+Jul 14 06:26:49 C1116 chpasswd[3019]: pam_ecryptfs: PAM passphrase change module retrieved at least one NULL passphrase; nothing to do
+Jul 14 06:26:53 C1116 mdm[1854]: pam_unix(mdm:session): session closed for user tech
+Jul 14 06:26:53 C1116 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.32, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jul 14 06:26:55 C1116 mdm[3040]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 14 06:26:55 C1116 mdm[3040]: PAM adding faulty module: pam_kwallet.so
+Jul 14 06:27:03 C1116 mdm[3040]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "anthem-training"
+Jul 14 06:27:05 C1116 mdm[3040]: pam_unix(mdm:session): session opened for user anthem-training by (uid=0)
+Jul 14 06:27:05 C1116 systemd-logind[890]: New ses

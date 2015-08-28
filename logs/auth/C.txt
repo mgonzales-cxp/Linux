@@ -1,0 +1,234 @@
+Apr  1 13:57:05 tech-OptiPlex-755 systemd-logind[786]: New seat seat0.
+Apr  1 13:57:23 tech-OptiPlex-755 dbus[760]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1458 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=831 comm="NetworkManager ")
+Apr  1 13:57:34 tech-OptiPlex-755 mdm[1376]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  1 13:57:34 tech-OptiPlex-755 mdm[1376]: PAM adding faulty module: pam_kwallet.so
+Apr  1 14:02:22 tech-OptiPlex-755 su[1779]: Successful su for nobody by root
+Apr  1 14:02:22 tech-OptiPlex-755 su[1779]: + ??? root:nobody
+Apr  1 14:02:22 tech-OptiPlex-755 su[1779]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  1 14:02:22 tech-OptiPlex-755 systemd-logind[786]: New session c1 of user nobody.
+Apr  1 14:02:22 tech-OptiPlex-755 mdm[1376]: pam_nologin(mdm:auth): cannot determine username
+Apr  1 14:02:22 tech-OptiPlex-755 mdm[1376]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  1 14:02:22 tech-OptiPlex-755 mdm[1376]: PAM adding faulty module: pam_kwallet.so
+Apr  1 14:02:22 tech-OptiPlex-755 mdm[1376]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  1 14:02:22 tech-OptiPlex-755 su[1779]: pam_unix(su:session): session closed for user nobody
+Apr  1 14:02:22 tech-OptiPlex-755 su[1858]: Successful su for nobody by root
+Apr  1 14:02:22 tech-OptiPlex-755 su[1858]: + ??? root:nobody
+Apr  1 14:02:22 tech-OptiPlex-755 su[1858]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  1 14:02:23 tech-OptiPlex-755 systemd-logind[786]: Removed session c1.
+Apr  1 14:02:23 tech-OptiPlex-755 systemd-logind[786]: New session c2 of user nobody.
+Apr  1 14:02:23 tech-OptiPlex-755 su[1858]: pam_unix(su:session): session closed for user nobody
+Apr  1 14:02:23 tech-OptiPlex-755 su[1872]: Successful su for nobody by root
+Apr  1 14:02:23 tech-OptiPlex-755 su[1872]: + ??? root:nobody
+Apr  1 14:02:23 tech-OptiPlex-755 su[1872]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  1 14:02:23 tech-OptiPlex-755 systemd-logind[786]: Removed session c2.
+Apr  1 14:02:23 tech-OptiPlex-755 systemd-logind[786]: New session c3 of user nobody.
+Apr  1 14:02:27 tech-OptiPlex-755 mdm[1376]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr  1 14:02:27 tech-OptiPlex-755 systemd-logind[786]: New session c4 of user tech.
+Apr  1 14:02:27 tech-OptiPlex-755 systemd-logind[786]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr  1 14:02:27 tech-OptiPlex-755 mdm[1376]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  1 14:02:33 tech-OptiPlex-755 polkitd(authority=local): Registered Authentication Agent for unix-session:c4 (system bus name :1.30 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  1 14:03:12 tech-OptiPlex-755 su[1872]: pam_unix(su:session): session closed for user nobody
+Apr  1 14:06:33 tech-OptiPlex-755 sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod +x initial_setup.sh
+Apr  1 14:06:33 tech-OptiPlex-755 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  1 14:06:33 tech-OptiPlex-755 sudo: pam_unix(sudo:session): session closed for user root
+Apr  1 14:06:47 tech-OptiPlex-755 sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=./initial_setup.sh
+Apr  1 14:06:47 tech-OptiPlex-755 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  1 14:17:02 tech-OptiPlex-755 CRON[4963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  1 14:17:02 tech-OptiPlex-755 CRON[4963]: pam_unix(cron:session): session closed for user root
+Apr  1 14:20:08 tech-OptiPlex-755 systemd-logind[12430]: New seat seat0.
+Apr  1 14:20:08 tech-OptiPlex-755 systemd-logind[12430]: New session c4 of user tech.
+Apr  1 14:20:08 tech-OptiPlex-755 systemd-logind[12430]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr  1 14:21:51 tech-OptiPlex-755 groupadd[26274]: group added to /etc/group: name=clamav, GID=125
+Apr  1 14:21:51 tech-OptiPlex-755 groupadd[26274]: group added to /etc/gshadow: name=clamav
+Apr  1 14:21:51 tech-OptiPlex-755 groupadd[26274]: new group: name=clamav, GID=125
+Apr  1 14:21:51 tech-OptiPlex-755 useradd[26278]: new user: name=clamav, UID=115, GID=125, home=/var/lib/clamav, shell=/bin/false
+Apr  1 14:21:52 tech-OptiPlex-755 chage[26283]: changed password expiry for clamav
+Apr  1 14:21:55 tech-OptiPlex-755 useradd[26539]: new user: name=sshd, UID=116, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Apr  1 14:21:55 tech-OptiPlex-755 usermod[26544]: change user 'sshd' password
+Apr  1 14:21:55 tech-OptiPlex-755 chage[26549]: changed password expiry for sshd
+Apr  1 14:21:56 tech-OptiPlex-755 sshd[26604]: Server listening on 0.0.0.0 port 22.
+Apr  1 14:21:56 tech-OptiPlex-755 sshd[26604]: Server listening on :: port 22.
+Apr  1 14:31:01 tech-OptiPlex-755 groupadd[29623]: group added to /etc/group: name=ossec, GID=1001
+Apr  1 14:31:01 tech-OptiPlex-755 groupadd[29623]: group added to /etc/gshadow: name=ossec
+Apr  1 14:31:01 tech-OptiPlex-755 groupadd[29623]: new group: name=ossec, GID=1001
+Apr  1 14:31:01 tech-OptiPlex-755 useradd[29629]: new user: name=ossec, UID=1001, GID=1001, home=/var/ossec, shell=/bin/false
+Apr  1 14:38:37 tech-OptiPlex-755 sudo: pam_unix(sudo:session): session closed for user root
+Apr  1 14:39:31 C sshd[1503]: Server listening on 0.0.0.0 port 22.
+Apr  1 14:39:31 C sshd[1503]: Server listening on :: port 22.
+Apr  1 14:39:37 C mdm[1737]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  1 14:39:37 C mdm[1737]: PAM adding faulty module: pam_kwallet.so
+Apr  1 15:17:01 C CRON[1909]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  1 15:17:01 C CRON[1909]: pam_unix(cron:session): session closed for user root
+Apr  1 16:17:01 C CRON[1979]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  1 16:17:01 C CRON[1979]: pam_unix(cron:session): session closed for user root
+Apr  1 17:17:01 C CRON[2047]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  1 17:17:01 C CRON[2047]: pam_unix(cron:session): session closed for user root
+Apr  1 18:17:01 C CRON[2114]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  1 18:17:01 C CRON[2114]: pam_unix(cron:session): session closed for user root
+Apr  1 19:17:01 C CRON[2183]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  1 19:17:01 C CRON[2183]: pam_unix(cron:session): session closed for user root
+Apr  1 20:17:01 C CRON[2250]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  1 20:17:01 C CRON[2250]: pam_unix(cron:session): session closed for user root
+Apr  1 21:17:01 C CRON[2318]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  1 21:17:01 C CRON[2318]: pam_unix(cron:session): session closed for user root
+Apr  1 22:17:01 C CRON[2386]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  1 22:17:01 C CRON[2386]: pam_unix(cron:session): session closed for user root
+Apr  1 23:17:01 C CRON[2453]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  1 23:17:01 C CRON[2453]: pam_unix(cron:session): session closed for user root
+Apr  2 00:17:01 C CRON[2521]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 00:17:01 C CRON[2521]: pam_unix(cron:session): session closed for user root
+Apr  2 01:17:01 C CRON[2589]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 01:17:01 C CRON[2589]: pam_unix(cron:session): session closed for user root
+Apr  2 02:17:01 C CRON[2661]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 02:17:01 C CRON[2661]: pam_unix(cron:session): session closed for user root
+Apr  2 03:00:01 C CRON[2710]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 03:00:11 C CRON[2710]: pam_unix(cron:session): session closed for user root
+Apr  2 03:17:01 C CRON[2733]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 03:17:01 C CRON[2733]: pam_unix(cron:session): session closed for user root
+Apr  2 04:17:01 C CRON[2801]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 04:17:01 C CRON[2801]: pam_unix(cron:session): session closed for user root
+Apr  2 05:17:01 C CRON[2868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 05:17:01 C CRON[2868]: pam_unix(cron:session): session closed for user root
+Apr  2 06:17:01 C CRON[2936]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 06:17:01 C CRON[2936]: pam_unix(cron:session): session closed for user root
+Apr  2 06:25:01 C CRON[2947]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 06:25:01 C CRON[2947]: pam_unix(cron:session): session closed for user root
+Apr  2 07:17:01 C CRON[3006]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 07:17:01 C CRON[3006]: pam_unix(cron:session): session closed for user root
+Apr  2 07:30:01 C CRON[3024]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 07:30:01 C CRON[3024]: pam_unix(cron:session): session closed for user root
+Apr  2 07:35:06 C su[3190]: Successful su for nobody by root
+Apr  2 07:35:06 C su[3190]: + ??? root:nobody
+Apr  2 07:35:06 C su[3190]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  2 07:35:06 C su[3190]: pam_unix(su:session): session closed for user nobody
+Apr  2 07:35:06 C su[3265]: Successful su for nobody by root
+Apr  2 07:35:06 C su[3265]: + ??? root:nobody
+Apr  2 07:35:06 C su[3265]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  2 07:35:06 C su[3265]: pam_unix(su:session): session closed for user nobody
+Apr  2 07:35:06 C su[3279]: Successful su for nobody by root
+Apr  2 07:35:06 C su[3279]: + ??? root:nobody
+Apr  2 07:35:06 C su[3279]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  2 07:35:47 C su[3279]: pam_unix(su:session): session closed for user nobody
+Apr  2 08:17:01 C CRON[3902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 08:17:01 C CRON[3902]: pam_unix(cron:session): session closed for user root
+Apr  2 09:17:01 C CRON[3970]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 09:17:01 C CRON[3970]: pam_unix(cron:session): session closed for user root
+Apr  2 10:17:01 C CRON[4038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 10:17:01 C CRON[4038]: pam_unix(cron:session): session closed for user root
+Apr  2 11:17:01 C CRON[4106]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 11:17:01 C CRON[4106]: pam_unix(cron:session): session closed for user root
+Apr  2 12:17:01 C CRON[4174]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 12:17:01 C CRON[4174]: pam_unix(cron:session): session closed for user root
+Apr  2 13:17:01 C CRON[4247]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 13:17:01 C CRON[4247]: pam_unix(cron:session): session closed for user root
+Apr  2 14:17:01 C CRON[4315]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 14:17:01 C CRON[4315]: pam_unix(cron:session): session closed for user root
+Apr  2 15:13:04 C mdm[1737]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  2 15:13:11 C mdm[1737]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr  2 15:13:11 C mdm[1737]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  2 15:13:16 C polkitd(authority=local): Registered Authentication Agent for unix-session:c4 (system bus name :1.34 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  2 15:14:15 C sudo:     tech : TTY=unknown ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/bin/Thunar /home/tech/Desktop
+Apr  2 15:14:15 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 15:16:41 C sudo:     tech : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod +x initial_setup.sh
+Apr  2 15:16:41 C sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  2 15:16:41 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 15:17:01 C CRON[5300]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 15:17:01 C CRON[5300]: pam_unix(cron:session): session closed for user root
+Apr  2 15:17:13 C sudo:     tech : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=./initial_setup.sh to run the setup script.
+Apr  2 15:17:13 C sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  2 15:43:21 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 15:43:21 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 15:43:32 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 15:47:37 C xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Apr  2 15:47:37 C xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Apr  2 15:47:37 C xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr  2 15:47:37 C xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr  2 16:13:20 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 16:13:20 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 16:13:31 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 16:17:01 C CRON[6290]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 16:17:01 C CRON[6290]: pam_unix(cron:session): session closed for user root
+Apr  2 16:43:20 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 16:43:20 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 16:43:31 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 17:13:21 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 17:13:21 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 17:13:35 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 17:17:01 C CRON[6437]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 17:17:01 C CRON[6437]: pam_unix(cron:session): session closed for user root
+Apr  2 17:43:21 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 17:43:21 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 17:43:31 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 18:13:21 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 18:13:21 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 18:13:31 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 18:17:01 C CRON[6587]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 18:17:01 C CRON[6587]: pam_unix(cron:session): session closed for user root
+Apr  2 18:43:21 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 18:43:21 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 18:43:35 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 19:13:21 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 19:13:21 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 19:13:31 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 19:17:02 C CRON[6735]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 19:17:02 C CRON[6735]: pam_unix(cron:session): session closed for user root
+Apr  2 19:43:21 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 19:43:21 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 19:43:31 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 20:13:21 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 20:13:21 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 20:13:36 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 20:17:01 C CRON[6884]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 20:17:01 C CRON[6884]: pam_unix(cron:session): session closed for user root
+Apr  2 20:43:21 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 20:43:21 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 20:43:36 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 21:13:21 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 21:13:21 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 21:13:37 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 21:17:01 C CRON[7034]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 21:17:01 C CRON[7034]: pam_unix(cron:session): session closed for user root
+Apr  2 21:43:21 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 21:43:21 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 21:43:31 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 22:13:21 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 22:13:21 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 22:13:35 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 22:17:01 C CRON[7183]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 22:17:01 C CRON[7183]: pam_unix(cron:session): session closed for user root
+Apr  2 22:43:21 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 22:43:21 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 22:43:36 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 23:13:22 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 23:13:22 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 23:13:36 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  2 23:17:01 C CRON[7332]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  2 23:17:01 C CRON[7332]: pam_unix(cron:session): session closed for user root
+Apr  2 23:43:22 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  2 23:43:22 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  2 23:43:32 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  3 00:13:22 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  3 00:13:22 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  3 00:13:42 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  3 00:17:01 C CRON[7487]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  3 00:17:01 C CRON[7487]: pam_unix(cron:session): session closed for user root
+Apr  3 00:43:22 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  3 00:43:22 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  3 00:43:32 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  3 01:13:22 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  3 01:13:22 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  3 01:13:32 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  3 01:17:01 C CRON[7636]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  3 01:17:01 C CRON[7636]: pam_unix(cron:session): session closed for user root
+Apr  3 01:43:22 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  3 01:43:22 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  3 01:43:32 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  3 02:13:22 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  3 02:13:22 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  3 02:13:32 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  3 02:17:01 C CRON[7786]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  3 02:17:01 C CRON[7786]: pam_unix(cron:session): session closed for user root
+Apr  3 02:43:22 C sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  3 02:43:22 C sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  3 02:43:33 C sudo: pam_unix(sudo:session): session closed for user root
+Apr  3 03:00:01 C CRON[7877]: pam_unix(cron:session): session opened for user root by (uid=0)

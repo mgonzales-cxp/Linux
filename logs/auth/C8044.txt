@@ -1,0 +1,163 @@
+May  5 13:17:01 C8044 CRON[2410]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 13:17:01 C8044 CRON[2410]: pam_unix(cron:session): session closed for user root
+May  5 14:17:01 C8044 CRON[2492]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 14:17:01 C8044 CRON[2492]: pam_unix(cron:session): session closed for user root
+May  5 15:17:01 C8044 CRON[2574]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 15:17:01 C8044 CRON[2574]: pam_unix(cron:session): session closed for user root
+May  5 16:17:02 C8044 CRON[2656]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 16:17:02 C8044 CRON[2656]: pam_unix(cron:session): session closed for user root
+May  5 17:17:01 C8044 CRON[2738]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 17:17:01 C8044 CRON[2738]: pam_unix(cron:session): session closed for user root
+May  5 18:17:01 C8044 CRON[2821]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 18:17:01 C8044 CRON[2821]: pam_unix(cron:session): session closed for user root
+May  5 19:17:01 C8044 CRON[2905]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 19:17:01 C8044 CRON[2905]: pam_unix(cron:session): session closed for user root
+May  5 20:17:01 C8044 CRON[2987]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 20:17:01 C8044 CRON[2987]: pam_unix(cron:session): session closed for user root
+May  5 21:17:01 C8044 CRON[3069]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 21:17:01 C8044 CRON[3069]: pam_unix(cron:session): session closed for user root
+May  5 22:17:01 C8044 CRON[3150]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 22:17:01 C8044 CRON[3150]: pam_unix(cron:session): session closed for user root
+May  5 23:17:01 C8044 CRON[3230]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  5 23:17:01 C8044 CRON[3230]: pam_unix(cron:session): session closed for user root
+May  6 00:17:01 C8044 CRON[3312]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 00:17:01 C8044 CRON[3312]: pam_unix(cron:session): session closed for user root
+May  6 01:17:01 C8044 CRON[3395]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 01:17:01 C8044 CRON[3395]: pam_unix(cron:session): session closed for user root
+May  6 02:17:01 C8044 CRON[3477]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 02:17:01 C8044 CRON[3477]: pam_unix(cron:session): session closed for user root
+May  6 03:00:01 C8044 CRON[3534]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 03:05:45 C8044 mdm[1734]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  6 03:05:45 C8044 mdm[1734]: PAM adding faulty module: pam_kwallet.so
+May  6 03:10:48 C8044 su[1990]: Successful su for nobody by root
+May  6 03:10:48 C8044 su[1990]: + ??? root:nobody
+May  6 03:10:48 C8044 su[1990]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May  6 03:10:48 C8044 su[1990]: pam_unix(su:session): session closed for user nobody
+May  6 03:10:49 C8044 su[2065]: Successful su for nobody by root
+May  6 03:10:49 C8044 su[2065]: + ??? root:nobody
+May  6 03:10:49 C8044 su[2065]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May  6 03:10:49 C8044 su[2065]: pam_unix(su:session): session closed for user nobody
+May  6 03:10:49 C8044 su[2079]: Successful su for nobody by root
+May  6 03:10:49 C8044 su[2079]: + ??? root:nobody
+May  6 03:10:49 C8044 su[2079]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May  6 03:11:27 C8044 su[2079]: pam_unix(su:session): session closed for user nobody
+May  6 03:17:01 C8044 CRON[2160]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 03:17:01 C8044 CRON[2160]: pam_unix(cron:session): session closed for user root
+May  6 04:17:01 C8044 CRON[2239]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 04:17:01 C8044 CRON[2239]: pam_unix(cron:session): session closed for user root
+May  6 05:17:01 C8044 CRON[2320]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 05:17:01 C8044 CRON[2320]: pam_unix(cron:session): session closed for user root
+May  6 06:17:01 C8044 CRON[2402]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 06:17:01 C8044 CRON[2402]: pam_unix(cron:session): session closed for user root
+May  6 06:25:01 C8044 CRON[2416]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 06:25:01 C8044 CRON[2416]: pam_unix(cron:session): session closed for user root
+May  6 07:17:01 C8044 CRON[2486]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 07:17:01 C8044 CRON[2486]: pam_unix(cron:session): session closed for user root
+May  6 07:30:01 C8044 CRON[2505]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 07:30:01 C8044 CRON[2505]: pam_unix(cron:session): session closed for user root
+May  6 08:17:01 C8044 CRON[2573]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 08:17:01 C8044 CRON[2573]: pam_unix(cron:session): session closed for user root
+May  6 09:17:01 C8044 CRON[2653]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 09:17:01 C8044 CRON[2653]: pam_unix(cron:session): session closed for user root
+May  6 10:17:01 C8044 CRON[2738]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 10:17:01 C8044 CRON[2738]: pam_unix(cron:session): session closed for user root
+May  6 11:17:01 C8044 CRON[2820]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 11:17:01 C8044 CRON[2820]: pam_unix(cron:session): session closed for user root
+May  6 12:17:01 C8044 CRON[2904]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 12:17:01 C8044 CRON[2904]: pam_unix(cron:session): session closed for user root
+May  6 13:17:01 C8044 CRON[2984]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 13:17:01 C8044 CRON[2984]: pam_unix(cron:session): session closed for user root
+May  6 14:17:01 C8044 CRON[3066]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 14:17:01 C8044 CRON[3066]: pam_unix(cron:session): session closed for user root
+May  6 15:17:01 C8044 CRON[3147]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 15:17:01 C8044 CRON[3147]: pam_unix(cron:session): session closed for user root
+May  6 16:17:01 C8044 CRON[3229]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 16:17:01 C8044 CRON[3229]: pam_unix(cron:session): session closed for user root
+May  6 17:17:01 C8044 CRON[3313]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 17:17:01 C8044 CRON[3313]: pam_unix(cron:session): session closed for user root
+May  6 18:17:01 C8044 CRON[3397]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 18:17:01 C8044 CRON[3397]: pam_unix(cron:session): session closed for user root
+May  6 19:17:01 C8044 CRON[3479]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 19:17:01 C8044 CRON[3479]: pam_unix(cron:session): session closed for user root
+May  6 20:17:01 C8044 CRON[3561]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 20:17:01 C8044 CRON[3561]: pam_unix(cron:session): session closed for user root
+May  6 21:17:01 C8044 CRON[3643]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 21:17:01 C8044 CRON[3643]: pam_unix(cron:session): session closed for user root
+May  6 22:17:01 C8044 CRON[3726]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 22:17:01 C8044 CRON[3726]: pam_unix(cron:session): session closed for user root
+May  6 23:17:01 C8044 CRON[3808]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 23:17:01 C8044 CRON[3808]: pam_unix(cron:session): session closed for user root
+May  7 00:17:01 C8044 CRON[3892]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 00:17:01 C8044 CRON[3892]: pam_unix(cron:session): session closed for user root
+May  7 01:17:01 C8044 CRON[3974]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 01:17:01 C8044 CRON[3974]: pam_unix(cron:session): session closed for user root
+May  7 02:17:01 C8044 CRON[4055]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 02:17:01 C8044 CRON[4055]: pam_unix(cron:session): session closed for user root
+May  7 03:00:01 C8044 CRON[4112]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 03:05:53 C8044 mdm[1738]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May  7 03:05:53 C8044 mdm[1738]: PAM adding faulty module: pam_kwallet.so
+May  7 03:10:56 C8044 su[1995]: Successful su for nobody by root
+May  7 03:10:56 C8044 su[1995]: + ??? root:nobody
+May  7 03:10:56 C8044 su[1995]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May  7 03:10:57 C8044 su[1995]: pam_unix(su:session): session closed for user nobody
+May  7 03:10:57 C8044 su[2070]: Successful su for nobody by root
+May  7 03:10:57 C8044 su[2070]: + ??? root:nobody
+May  7 03:10:57 C8044 su[2070]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May  7 03:10:57 C8044 su[2070]: pam_unix(su:session): session closed for user nobody
+May  7 03:10:57 C8044 su[2084]: Successful su for nobody by root
+May  7 03:10:57 C8044 su[2084]: + ??? root:nobody
+May  7 03:10:57 C8044 su[2084]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May  7 03:11:37 C8044 su[2084]: pam_unix(su:session): session closed for user nobody
+May  7 03:17:01 C8044 CRON[2167]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 03:17:01 C8044 CRON[2167]: pam_unix(cron:session): session closed for user root
+May  7 04:17:01 C8044 CRON[2247]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 04:17:01 C8044 CRON[2247]: pam_unix(cron:session): session closed for user root
+May  7 05:17:01 C8044 CRON[2327]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 05:17:01 C8044 CRON[2327]: pam_unix(cron:session): session closed for user root
+May  7 06:17:01 C8044 CRON[2409]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 06:17:01 C8044 CRON[2409]: pam_unix(cron:session): session closed for user root
+May  7 06:25:01 C8044 CRON[2423]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 06:25:01 C8044 CRON[2423]: pam_unix(cron:session): session closed for user root
+May  7 07:17:01 C8044 CRON[2493]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 07:17:01 C8044 CRON[2493]: pam_unix(cron:session): session closed for user root
+May  7 07:30:01 C8044 CRON[2513]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 07:30:01 C8044 CRON[2513]: pam_unix(cron:session): session closed for user root
+May  7 08:17:01 C8044 CRON[2582]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 08:17:01 C8044 CRON[2582]: pam_unix(cron:session): session closed for user root
+May  7 09:17:01 C8044 CRON[2663]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 09:17:01 C8044 CRON[2663]: pam_unix(cron:session): session closed for user root
+May  7 10:17:01 C8044 CRON[2745]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 10:17:01 C8044 CRON[2745]: pam_unix(cron:session): session closed for user root
+May  7 11:17:01 C8044 CRON[2827]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 11:17:01 C8044 CRON[2827]: pam_unix(cron:session): session closed for user root
+May  7 12:17:01 C8044 CRON[2909]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 12:17:01 C8044 CRON[2909]: pam_unix(cron:session): session closed for user root
+May  7 13:17:01 C8044 CRON[2990]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 13:17:01 C8044 CRON[2990]: pam_unix(cron:session): session closed for user root
+May  7 14:17:01 C8044 CRON[3072]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 14:17:01 C8044 CRON[3072]: pam_unix(cron:session): session closed for user root
+May  7 15:17:01 C8044 CRON[3156]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 15:17:01 C8044 CRON[3156]: pam_unix(cron:session): session closed for user root
+May  7 16:17:01 C8044 CRON[3237]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 16:17:01 C8044 CRON[3237]: pam_unix(cron:session): session closed for user root
+May  7 17:17:01 C8044 CRON[3316]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 17:17:01 C8044 CRON[3316]: pam_unix(cron:session): session closed for user root
+May  7 18:17:01 C8044 CRON[3397]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 18:17:01 C8044 CRON[3397]: pam_unix(cron:session): session closed for user root
+May  7 19:17:01 C8044 CRON[3478]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 19:17:01 C8044 CRON[3478]: pam_unix(cron:session): session closed for user root
+May  7 20:17:01 C8044 CRON[3558]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 20:17:01 C8044 CRON[3558]: pam_unix(cron:session): session closed for user root
+May  7 21:17:01 C8044 CRON[3636]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 21:17:01 C8044 CRON[3636]: pam_unix(cron:session): session closed for user root
+May  7 22:17:01 C8044 CRON[3719]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 22:17:01 C8044 CRON[3719]: pam_unix(cron:session): session closed for user root
+May  7 23:17:01 C8044 CRON[3799]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  7 23:17:01 C8044 CRON[3799]: pam_unix(cron:session): session closed for user root
+May  8 00:17:01 C8044 CRON[3877]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  8 00:17:01 C8044 CRON[3877]: pam_unix(cron:session): session closed for user root
+May  8 01:17:02 C8044 CRON[3960]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  8 01:17:02 C8044 CRON[3960]: pam_unix(cron:session): session closed for user root
+May  8 02:17:01 C8044 CRON[4042]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  8 02:17:01 C8044 CRON[4042]: pam_unix(cron:session): session closed for user root
+May  8 03:00:01 C8044 CRON[4101]: pam_unix(cron:session): session opened for user root by (uid=0)

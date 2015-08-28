@@ -1,0 +1,304 @@
+//ADD STYLE TO ALL GLOSSARY LINKS
+jQuery(document).ready(function() {
+	jQuery("a").each(function() {
+		thisonclick = this.getAttribute("onclick");
+		if (typeof thisonclick === "string") {
+			if (thisonclick.indexOf("lookup_word(") > -1) {
+				jQuery(this).addClass("glossary_lookup_link");
+				return true;
+			}
+		}
+        if (window.location.pathname != "/help_and_resources/faq_rx.jsp"){
+    		if (this.getAttribute("href").indexOf("lookup_word(") > -1) {
+    			jQuery(this).addClass("glossary_lookup_link");
+    		}
+        }   
+	});
+});
+
+function lookup_word(event, elem, override, position) {
+
+    var word = elem.innerHTML;
+    if(override != null) {
+        word = override;
+    }
+    var gloss = document.getElementById('definition');
+    var gtitle = document.getElementById('def_title');
+    var gcon = document.getElementById('def_cont');
+    var def = null;
+    for (var term in glossary2014) {
+        if(word.toLowerCase() == term.toLowerCase()) {
+            def = glossary2014[term];
+            break;
+        }
+    }
+    if(def == null) {
+        def = "I'm sorry, we have no definition for that term.";
+    } else {
+        if(def.length > 150) {
+            var reg = /\s+/gi;
+            var word_id = idify_word(word);
+            def = def.substring(0, 150) + "... <a href=\"/help_and_resources/glossary_2014.jsp#" + word_id + "\">More</a>";
+        }
+    }
+    
+    var y = 0;
+    var x = 0;
+    
+    if(event.pageX || event.pageY) {
+        x = event.pageX;
+        y = event.pageY;
+    } else {
+        if(document.documentElement) {
+            x = event.clientX + document.documentElement.scrollLeft;
+            y = event.clientY + document.documentElement.scrollTop;
+        } else if(document.body) {
+            x = this.clientX + document.body.scrollLeft;
+            y = this.clientY + document.body.scrollTop;
+        }
+    }
+    
+    gloss.style.top = y + 'px';
+    if(position != null) {
+        gloss.style.left = (x - 100 - position) + 'px';
+    }else{
+        gloss.style.left = (x - 100) + 'px';
+    }
+    gtitle.innerHTML = word;
+    gcon.innerHTML = def;
+
+    if(gloss.style.display == 'none') {
+        showhide('definition');
+    }
+}
+
+function populate_glossary(el) {
+
+	setTimeout("jQuery('body').css('cursor', 'wait');",100)
+    
+    var element = document.getElementById(el);
+    
+    var letters = new Array("A", "B", "C", "D", "E", "F", "G", "H", "I", "J",
+        "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X",
+        "Y", "Z"
+    );
+    
+    var letter_terms = new Array();
+    for(var term in glossary2014) {
+        var first = term.substring(0, 1).toUpperCase();
+        if(!letter_terms[first]) {
+            letter_terms[first] = new Array();
+        }
+        letter_terms[first].push(term);
+    }
+
+    var gloss = "";
+    // for(var letter in letters) {
+    for(var j = 0; j < letters.length; j++) {
+        gloss += "<h2 id=\"gloss_" + letters[j].toLowerCase() + "\">" + letters[j] + "</h2>\n";
+        if(letter_terms[letters[j]]) {
+            for(var k = 0; k < letter_terms[letters[j]].length; k++) {
+            // for (var term in letter_terms[letters[j]]) {
+                var word = letter_terms[letters[j]][k];
+                var word_id = idify_word(word);
+                gloss += "<h3 id=\"" + word_id + "\">" + word + "</h3><br>\n"
+                gloss += "<div>" + glossary2014[word] + "</div><br>\n";
+            }
+        } else {
+            gloss += "<p>There are no entries for this letter.<p>\n";
+        }
+        gloss += "<p><a href=\"#top\">Back To Top</a></p>\n";
+    }
+    element.innerHTML = gloss;
+
+    var anchor_reg = /(#\S+)$/;
+    var match = anchor_reg.exec(window.location);
+    if(match != null) {
+        window.location = window.location;
+    }
+	
+	//ADD VIDEO LINKS
+	for (i in glossary_vids) {
+		jQuery('#'+i).append(' <img src="/images/video_play_button.gif" />');
+		jQuery('#'+i).addClass('glossary_video_link');
+	}
+	jQuery('.glossary_video_link').click(function() {
+		var thisvidname = glossary_vids[this.id];
+        var thisvidnameTranscript = glossary_vids_transcript[this.id];  		
+		jQuery("#help_video_container").html('<iframe name="VideoPlayer1" src="http://media3.aetna.com/AetnaMedicare/?ClipName='+thisvidname+'&ClipSize=512X288" width=512 height=288 marginwidth="1" marginheight="1" scrolling="no" border="0" frameborder="0"><p>Your browser does not support iframes.</p></iframe>');
+		jQuery('#help_video_modal_content').modal({overlayId: 'vidhelp_modaloverlay'});
+
+        jQuery("#transcript_help_link").attr("href", "javascript:poptastic('"+thisvidnameTranscript+"');"); 
+        
+		jQuery('#help_video_modal_content img, #vidhelp_modaloverlay').click(function() {
+			//WORKAROUND FOR CHROME FLASH-IN-IFRAME BUG	
+			jQuery.modal.close();		
+			setTimeout("jQuery('#help_video_container').html('');",250);
+		});
+	});
+	
+	setTimeout("jQuery('body').css('cursor', 'auto');",100);
+
+    init_YearSelector();
+}
+
+function idify_word(word) {
+    var reg = /\s+/gi;
+    var letter_reg = /[^a-zA-Z0-9]/g;
+    var acro_reg = /\(\S+\)/gi;
+    var trail_reg = /\s+$/;
+    var dupe_reg = /_+/g;
+    
+    return word.replace(acro_reg, '').replace(trail_reg, '').replace(letter_reg, '_').replace(reg, '_').replace(dupe_reg, '_').toLowerCase();
+}
+
+var glossary2014 = {
+    "Annual Election Period (AEP)" : "October 15 through December 7.  Benefits for the new year begin on January 1.",
+    "Balance Billing" : "Billing patients to make up the difference between the doctor's or hospital's usual fee and the amount they're paid by the health plan. Doctors and hospitals contracted with Aetna are not permitted to balance bill members.<br><br>Contact Member Services if an out of-network doctor or hospital sends you a balance bill for services. You only have to pay the plan's cost sharing amount for a covered service.",
+    "Beneficiary" : "A person who has health care insurance through the Medicare or Medicaid program.",
+    "Benefits" : "The health care services and expenses a health plan covers.",
+    "Benefit Period" : "A benefit period begins the first day you stay in a hospital or skilled nursing facility and ends when you have been out of the hospital or skilled nursing facility for 60 days in a row. If you go into the facility after one benefit period has ended, a new benefit period begins. There is no limit to the number of benefit periods you can have.",
+	"Brand Name Drug" : "A prescription drug that is made and sold by the company that originally researched and developed the drug. Other companies may not be able to make and sell a generic version of the drug until after the patent on the brand name drug expires.",
+	"Catastrophic Coverage" : "The phase of a Medicare Part D plan where you pay only a small coinsurance or copay for a covered prescription drug and your plan pays the rest of the cost for the remainder of the year. Catastrophic coverage begins when you have spent $4,550 in total out-of-pocket costs for covered drugs in 2014.",
+    "Centers for Medicare and Medicaid Services (CMS)" : "The federal agency that runs the Medicare program. In addition, CMS works with the states to run the Medicaid program.",
+    "Coinsurance" : "The percentage of the Medicare-approved amount that you're required to pay for covered health care services and/or prescription drugs. For example, the health plan may cover 80 percent and you're required to pay 20 percent. Some plans have you first pay the deductible before you begin to pay the plan copayment or coinsurance for covered health care services.",
+    "Copay" : "A set dollar amount you are required to pay for covered health care services and/or prescription drugs. Some plans require you to first pay the deductible before you begin to pay the plan copayment or coinsurance for covered health care services.",
+	"Cost-Sharing" : "A term for the costs that members are accountable to pay. The most common types of cost-sharing are deductibles, copays and coinsurance.",
+    "Coverage Gap" : "Commonly referred to as the \"donut hole\". The coverage gap occurs after your total covered prescription drug costs reach $2,850 in 2014 and continues until the total you pay out of your pocket for covered Part D prescription drugs reaches $4,550. This amount includes your annual deductible and copayments or coinsurance for covered prescription drugs (excluding premium). Once you reach $4,550 in total out-of-pocket spending, you'll enter the next phase called <a href=\"#catastrophic_coverage\">catastrophic coverage</a>.",
+    "Creditable Coverage" : "Prescription drug coverage from a plan which meets certain Medicare standards and is not a standalone PDP or MAPD plan. If you are enrolled in a plan that gives you prescription drug coverage, your plan will tell you if it meets the requirements for creditable prescription drug coverage. OR<br><br>Medical health coverage that you had in the past that was not interrupted by a significant break in coverage. It gives you certain rights when you apply for new coverage. You may need to provide proof of your creditable coverage in the form of a document or health insurance ID card.",
+    "Deductible" : "The first phase of a Medicare Part D prescription drug plan. It requires you to pay your prescription drug costs in full before reaching the initial coverage phase. In 2014, Medicare set the standard deductible at $310, although some plans may offer a reduced or $0 deductible. OR<br><br>The amount you must pay for health care before Medicare or the plan begins to pay. These amounts can change every year.",
+    "Donut Hole" : "See \"<a href=\"#coverage_gap\">Coverage Gap</a>.\"",
+    "Dual Eligibles" : "Individuals eligible for both the Medicare program and their state's Medicaid program. Medicaid is also sometimes called Medical Assistance.",
+    "Drug Tiers" : "Cost-sharing categories for different types of medications: for example, generic, brand-name and specialty drugs. <br><br> <table style=\"border:1px solid black; border-collapse:collapse;\" border=\"1\" cellspacing=\"0\" cellpadding=\"10\"> <tbody> <tr valign=\"top\"> <td width=\"60\"><strong>Tier 1 – </strong></td> <td width=\"140\"><strong>Generic Drugs - </strong></td> <td>includes many Part D generic drugs available on the market</td> </tr> <tr valign=\"top\"> <td><strong>Tier 2 – </strong></td> <td><strong>Preferred Brand Drugs –    </strong></td> <td>includes many common cost-effective brand name drugs and some generic drugs that cost as much as brand name drugs</td> </tr> <tr valign=\"top\"> <td><strong>Tier 3 –</strong></td> <td><strong>Non-Preferred Brand Drug – </strong></td> <td>includes more expensive brand name drugs, and generic drugs for which a cheaper alternative is typically available</td> </tr> <tr valign=\"top\"> <td><strong>Tier 4 – </strong></td> <td><strong>Specialty Drugs – </strong></td> <td>includes both brand and generic drugs that meet Medicare’s definition of a specialty drug</td> </tr> <tr valign=\"top\"> <td><strong>Tier 5 – </strong></td> <td><strong>Select Care Drugs – </strong></td> <td>includes lower cost commonly used generic drugs used in the treatment of high blood pressure, high cholesterol and diabetes</td> </tr> </tbody> </table>",
+    "Durable Medical Equipment (DME)" : "Medical equipment that is ordered by a doctor for use in the home. These items must be reusable, such as walkers, wheelchairs or hospital beds. DME is paid for under both Medicare Part B and Part A for home health services.",
+    "Election Period" : "A certain period of time when you can join a Medicare health plan if it is open and accepting new Medicare members. If a health plan chooses to be open, it must allow all eligible people with Medicare to join.",
+    "Formulary" : "A list of covered drugs, also known as a prescription drug list. It lists the drugs believed to be a necessary part of a quality treatment program. The plan will generally cover the drugs listed in the formulary as long as the drug is medically necessary, the prescription is filled at a network pharmacy, and other plan rules are followed.",
+    "Generic Drug" : "A drug that is not protected by a patent and may be produced by any manufacturer. A generic name is a common name that refers to a drug's chemical identity, as opposed to a brand name used by a particular company for marketing purposes. Generic drugs usually cost less than brand-name drugs and are rated by the Food and Drug Administration (FDA) to be as safe and effective as brand-name drugs.",
+    "HMO" : "A Health Maintenance Organization that is contracted with CMS and provides access to a network of doctors and hospitals that coordinate your care. This allows you to get more benefits than Original Medicare and many Medicare supplement plans.",
+	"Initial Coverage Phase" : "Begins once a member has met the deductible phase and continues until the member reaches the <a href=\"#coverage_gap\">coverage gap</a>. This phase includes covered prescription drug costs paid by all parties to the plan (such as Part D carrier, member, Extra Help, etc.). During this phase, the member is responsible for copays and/or coinsurance up to $2,850 in total drug costs in 2014. After reaching $2,850 in total drug costs, the member moves to the next phase in the plan known as the coverage gap.<br><br> The point at which the member moves from the initial coverage phase to the coverage gap phase is often referred to as the initial coverage limit (ICL).",
+    "Initial Election Period (IEP)" : "The seven-month period surrounding your Medicare eligibility that includes three months before, the month of, and three months after the event that qualifies you for Medicare.",
+	"In Network" : "This means we have a contract with that doctor, pharmacy or other health care provider. You can save money because we negotiate discounted rates with them<br><br> There are other benefits to using doctors in network. You won't be billed for the difference between their standard rates and the rate they've agreed to with us. All you have to pay is your coinsurance or copay, along with any deductible. And network doctors will handle any precertification your plan requires.",
+	"Inpatient" : "A patient who is admitted to a hospital for medical treatment or care.",
+	"Insurer" : "A private insurance company that offers or administers a health plan.",
+    "MA Plan" : "A Medicare Advantage plan has the same or even more benefits than Original Medicare. You can take advantage of easy-to-budget copay and insurance amounts when you use network doctors and hospitals.  See <a href=\"#medicare_advantage_plan\">Medicare Advantage Plan</a> or <a href=\"#medicare_part_c\">Medicare Part C</a>.",
+    "MA-PD Plan" : "A Medicare Advantage plan that includes Medicare prescription drug coverage. See <a href=\"#medicare_advantage_plan\">Medicare Advantage Plan</a> or <a href=\"#medicare_part_c\">Medicare Part C</a>.",
+	"Medicaid" : "A jointly funded federal and state government program managed by the states. It helps individuals and families with low incomes and few resources. Eligible people may get help paying Medicare premiums and cost-sharing.",
+    "Medicare" : "The federal health insurance program for people 65 years of age or older, certain people with disabilities, and people with end-stage renal disease (permanent kidney failure with dialysis or a transplant, sometimes called ESRD).",
+    "Medicare Advantage Plan" : "A Medicare program that gives you more choices among health plans. Everyone who has Medicare Parts A and B is eligible if they live in the plan service area, except those who have End-Stage Renal Disease (unless certain CMS exceptions apply). For example, if you have End-Stage Renal Disease and are already enrolled in an Aetna Medicare Advantage plan, you can choose to enroll in another Aetna Medicare Advantage plan if:<br><br>The new Aetna Medicare Advantage plan is available in the same state as the previous Aetna Medicare Advantage plan, and<br><br>You meet all the other requirements for enrollment in that Aetna Medicare Advantage plan.<br><br>  Medicare Advantage Plans are sometimes referred to as \"Medicare Part C\".<br><br> Beneficiaries with ESRD may enroll in a group Aetna Medicare Advantage plan.",
+    "Medicare Coverage Gap Discount Program" : "The Medicare Coverage Gap Discount Program provides manufacturer discounts on brand name drugs to Part D enrollees who have reached the coverage gap and are not already receiving \"Extra Help.\" A 50% discount on the negotiated price (excluding the dispensing fee and vaccine administration fee, if any) is available for those brand name drugs from manufacturers that have agreed to pay the discount. The plan pays an additional 2.5% and you pay the remaining 47.5% for your brand drugs.",
+    "Medicare Limiting Charge" : "The most you can be charged for a Medicare covered service. Doctors and providers have a limit on the amount they can bill you. The limiting charge is 15% over Medicare's approved amount.",
+    "Medicare Modernization Act" : "The legislation passed by Congress and signed by President George W. Bush creating the Medicare Part D prescription drug benefit. This law preserves and strengthens the current Medicare program and adds important preventive benefits. It also adds a prescription drug benefit (Medicare Part D) that Medicare beneficiaries may purchase from a private insurer. In addition, the legislation provides Extra Help to people with low incomes.",
+    "Medicare Part A" : "Part of Original Medicare managed by the federal government. It helps cover some, but not all, of the expenses you may have for inpatient hospital care or medical care that you may receive at a skilled nursing facility (not a custodial care facility). Some hospice care and some home health care are also covered. Limitations apply, and you will have deductibles, copays, or other costs to satisfy.",
+    "Medicare Part B" : "Part of Original Medicare managed by the federal government. This helps cover medically necessary services from doctors or outpatient hospital care. It also helps with costs associated with some physical and occupational therapist services, some home health care services, emergency and preventive care. You typically must sign up for Part B and pay a monthly premium in order to benefit from that coverage.",
+    "Medicare Part C" : "This part of Medicare includes medical and other benefits provided through private companies (with a Medicare approved contract).  Plans are known as Medicare Advantage plans. A Medicare Advantage Plan covers the same benefits as Original Medicare and typically includes additional benefits not covered by Original Medicare. Use network doctors and hospitals to take advantage of easy-to-budget copay and coinsurance amounts. You can choose a Medicare Advantage plan that includes Medicare prescription drug coverage (MA-PD) or one that doesn't (MA).",
+    "Medicare Part D" : "The optional Medicare prescription drug coverage that helps with your prescription drug costs. This coverage is available as a stand-alone Medicare Prescription Drug plan (PDP) or as part of a Medicare Advantage plan (MA-PD).",
+    "Medicare Prescription Drug Plan" : "Optional Medicare prescription drug coverage that helps with your prescription costs only. See <a href=\"#medicare_part_d\">Medicare Part D</a>.",
+    "Medicare Supplement Plan" : "Insurance policy offered by private companies like Aetna to help pay for select benefits not covered by Original Medicare (Parts A and B). <b>New Medicare supplement policies have not covered prescription drugs since 2006, when Part D plans were introduced.</b>",
+    "Medigap" : "See <a href=\"#medicare_supplement_plan\">Medicare Supplement Plan</a>.",
+    "Monthly Plan Premium" : "The payment you make to a health benefits company like Aetna for your health and/or prescription drug plan.",
+	"Network" : "List of physicians, hospitals, pharmacies and other health care providers that are contracted with your health plan to provide covered health care services at a set cost.",
+	"Network Pharmacy" : "A licensed pharmacy that is under contract with a Part D sponsor to provide covered Part D prescription drugs at negotiated prices to its Part D plan enrollees.",
+    "Network Provider" : "A group of doctors, hospitals and other health care providers who are contracted with a health benefits company like Aetna to offer you quality health care for low, easy-to-budget copays.",
+    "Network Service Area" : "A county or zip code in which the health plan (such as a PPO or HMO) has a network of health care providers.",
+    "Non-Preferred Brand" : "Drugs included on the plan's prescription drug list (formulary) are assigned to a cost-sharing tier. In general, the higher the cost-sharing tier, the higher the cost for the drug. Most plans include a non-preferred brand drug cost sharing tier. Brand drug medications included in this tier typically have a lower-cost generic or preferred brand alternative available.",
+    "Non-Preferred Generic" : "Drugs included on the plan's formulary are assigned to a cost-sharing tier. In general, the lower the cost-sharing tier, the lower the cost for the drug. If a plan design includes a non-preferred generic drug tier, the drugs included in that tier would generally be more costly than the generic medications included in the Preferred Generic tier.",
+	"Out-of-Network Doctor" : "A doctor who is not contracted with us. Your cost sharing may be higher if  your plan allows you to receive covered services from a doctor or other health care provider who is out of network.",
+	"Out-of-Network Pharmacy" : "A pharmacy that is not contracted with the Part D carrier. Most drugs you get from out-of-network pharmacies are not covered by our plan unless certain conditions apply.<br><br> Please <a href=\"/plan_choices/rx_filling_prescriptions.jsp?tab=4\">refer to the Out-of-Network Pharmacies section</a> or the <a href=\"/help_and_resources/downloadable_forms_2014.jsp?tab=5\">Evidence of Coverage</a> for more information.",
+	"Out-of-Pocket Costs" : "Costs such as deductibles, coinsurance and copayments that health plan members pay for covered health care services.",
+	"Outpatient" : "A patient who receives medical treatment or care without being admitted to a hospital (such as having a minor surgical procedure).",
+	"Original Medicare" : "Medicare Parts A and B coverage are included in the federal Medicare program.",
+    "PCP" : "A primary care physician (PCP) you choose from a plan network to provide your routine and preventive care. Traditional HMO plans require you to select a PCP, while Open Access HMO plans and PPO plans don't. However, if you select a PCP with your PPO plan, you may have a lower copay for office visits.",
+    "PDP" : "Another name for standalone Medicare prescription drug plans. See <a href=\"#medicare_part_d\">Medicare Part D</a>.",
+    "Plan Premium" : "The monthly cost you pay for your health plan.  This cost is in addition to any deductibles, coinsurance or copayments required by your plan for covered health care services or prescription drugs. You must also continue to pay your monthly Medicare Part B premium and Part A premium (if applicable).",
+    "PPO" : "A Preferred Provider Organization gives you access to a network of doctors and hospitals that coordinate your care. This allows you to get more benefits than Original Medicare and many Medicare supplement plans. PPOs also allow you to use any doctor or hospital outside of the network and generally have a higher copay or coinsurance.",
+	"Premium" : "A fixed monthly amount a beneficiary pays to participate in a medical or prescription drug plan.",
+    "Prescription Drug Plan (PDP)" : "Standalone Medicare prescription drug plans offered by private companies and approved by the federal government.  Provide insurance protection for the costs of prescription medications.",
+    "Primary Care Physician (PCP)" : "A doctor (typically Family Practice or Internal Medicine) who coordinates your health care needs (required with HMO plans).",
+	"Prior Authorization (for medical coverage)" : "Prior authorization applies to certain medical services covered under your medical plan. Your physician must have an approval from Aetna before you receive the service. Without an approval, Aetna may not provide coverage or pay for the service. Covered services that require prior authorization have an asterisk by them in the <a href=\"/help_and_resources/downloadable_forms_2014.jsp?tab=5\">Evidence of Coverage</a> \"Medical Benefits Chart.\"",
+	"Prior Authorization (for prescription drug coverage)" : "Process under which certain drugs require prior approval before members can get them as a covered benefit. The prior authorization program is based on current medical findings, manufacturer labeling information, and Food and Drug Administration guidelines. Prior authorization applies to medications that are more likely than others to be taken incorrectly, used inappropriately, or taken in amounts that exceed recommendations for dosage or length of treatment. Your doctor or other network provider should call Aetna and request coverage for these drugs.",
+    "Private Fee-for-Service (PFFS)" : "A Medicare Advantage Plan that provides you with those services covered by Original Medicare and more. These plans are offered by private insurance companies through a contract with the federal government and include a plan premium for medical coverage. Under a PFFS plan, you should choose a health care provider who is eligible to receive payment from Medicare, agrees to treat you, and accepts the Medicare Advantage PFFS Terms and Conditions of payment.",
+    "Provider" : "A doctor, hospital or other licensed professional or facility that provides medical services.",
+	"Quantity Limits (QL)" : "Certain medications may only be covered up to a certain quantity. Additional amounts beyond doses recommended by the Food and Drug Administration (FDA) require the member's doctor to get precertification from the insurer.<br><br>  Quantity limits are assigned to medications that are frequently taken in an inappropriate manner or used in amounts that exceed recommendations for dosage or length of treatment. Limits are based on Federal Medication Administration (FDA) and pharmaceutical manufacturer recommendations.",
+    "Skilled Nursing Facility" : "A facility that provides inpatient skilled nursing care, rehabilitation services or other related health services. \"Skilled nursing\" does not include a convalescent home or custodial care.",
+    "Special Election Period (SEP)" : "An election period that allows a Medicare beneficiary to make a plan change or selection outside of the typical yearly election periods. Individuals qualify for SEPs when a special circumstance occurs, such as moving out of your plan's service area or becoming eligible for Medicaid.",
+    "Specialist" : "A doctor who specializes in a certain type of medical care, such as cardiology, neurology, etc.",
+    "Special Needs Plan (SNP)" : "A Medicare Advantage HMO or PPO plan that is designed to meet the needs of a subset of Medicare beneficiaries. There are three types of SNPs: dual eligible (with both Medicare and state Medicaid), institutional (for people residing in a long-term care facility) and chronic and disabling condition.",
+    "Step Therapy" : "Process where certain prescription drugs must be tried before the originally prescribed medication will be covered.  Your doctor can request an exception if it's medically necessary to use the originally prescribed medication.",
+	"Tier" : "Formulary tiers are the organization of prescription drugs into different groups of drug types. A member's coinsurance or copayment depends on which tier a drug is covered.",
+	"True Out-of-Pocket (TrOOP)" : "The Medicare-defined amount of out-of-pocket cost you pay before moving into the catastrophic phase of the plan. Once that amount is reached, your prescription cost sharing will change. This amount can change from year to year.<br><br> In 2014 your true out-of-pocket costs must reach $4,550 before you enter the catastrophic phase.<br><br> TrOOP expenses include your yearly prescription drug deductible, copayments or coinsurance for covered prescription drugs, and what you pay during the coverage gap. Your Medicare prescription drug plan premium and costs for prescription drugs that aren’t covered by the plan do not count toward this limit.",
+	"Underwriting" : "The process health insurers use to assess the risk of insuring a person, including such factors as age, health history, etc. Underwriting is not required for enrolling in a Medicare Advantage plan, a Medicare Prescription Drug plan (PDP) or some types of group supplemental plans offered by employers/plan sponsors."
+};
+
+var glossary_vids = {
+	"annual_election_period": "AetnaMedicareAnnualElectionPeriod",
+	"brand_name_drug": "BrandNameDrug",
+	"catastrophic_coverage": "CatastrophicCoverage",
+	"coinsurance": "AetnaMedicareCoinsurance",
+	"coverage_gap": "AetnaMedicareCoverageGap",
+	"deductible": "Deductible",
+	"formulary": "AetnaMedicareFormulary",
+	"generic_drug": "AetnaMedicareGenericDrugs",
+	"hmo": "AetnaMedicareHMO",
+	"in_network": "InNetworkProvider",
+	"initial_coverage_phase": "AetnaMedicareInitialCoverageLimit",
+	//"": "LowIncomeSubsidyorLIS",
+	//"": "MedicareAdvantageDisenrol",
+	"medicare_part_a": "MedicarePartA",
+	"medicare_part_b": "AetnaMedicareMedicarePartB",
+	"medicare_part_c": "MedicarePartC",
+	"medicare_part_d": "AetnaMedicareMedicarePartD",
+	"medicare_supplement_plan": "AetnaMedicareMedicareSupplementPlan",
+	"out_of_network_doctor": "OutOfNetworkProviders",
+	"out_of_network_pharmacy": "OutOfNetworkProviders",
+	//"": "OutOfPocketMaximum",
+	//"": "PreferredDrug",
+	"ppo": "AetnaMedicarePPO",
+	"prior_authorization_for_medical_coverage_": "AetnaMedicarePriorAuthorizationMedCoverage",
+	//"prior_authorization_for_prescription_drug_coverage_": "PriorAuthorizationforPres",
+	//"quantity_limits": "Quantitylimits",
+	//"": "SpecialtyCoinsurance",
+	"step_therapy": "AetnaMedicareStepTherapy",
+	"tier": "AetnaMedicareTiers",
+	"true_out_of_pocket": "AetnaMedicareTrOOP"
+};
+
+// video transcripts
+var glossary_vids_transcript = {
+    "annual_election_period": "/documents/videotranscripts/AetnaMedicareAnnualElectionPeriod.pdf",
+    "brand_name_drug": "/documents/videotranscripts/BrandNameDrug.pdf",
+    "catastrophic_coverage": "/documents/videotranscripts/CatastrophicCoverage.pdf",
+    "coinsurance": "/documents/videotranscripts/AetnaMedicareCoinsurance.pdf",
+    "coverage_gap": "/documents/videotranscripts/AetnaMedicareCoverageGap.pdf",
+    "deductible": "/documents/videotranscripts/Deductible.pdf",
+    "formulary": "/documents/videotranscripts/AetnaMedicareFormulary.pdf",
+    "generic_drug": "/documents/videotranscripts/AetnaMedicareGenericDrugs.pdf",
+    "hmo": "/documents/videotranscripts/AetnaMedicareHMO.pdf",
+    "in_network": "/documents/videotranscripts/InNetworkProvider.pdf",
+    "initial_coverage_phase": "/documents/videotranscripts/AetnaMedicareInitialCoverageLimit.pdf",
+    //"": "LowIncomeSubsidyorLIS.pdf",
+    //"": "MedicareAdvantageDisenrol.pdf",
+    "medicare_part_a": "/documents/videotranscripts/MedicarePartA.pdf",
+    "medicare_part_b": "/documents/videotranscripts/AetnaMedicareMedicarePartB.pdf",
+    "medicare_part_c": "/documents/videotranscripts/MedicarePartC.pdf",
+    "medicare_part_d": "/documents/videotranscripts/AetnaMedicareMedicarePartD.pdf",
+    "medicare_supplement_plan": "/documents/videotranscripts/AetnaMedicareMedicareSupplementPlan.pdf",
+    "out_of_network_doctor": "/documents/videotranscripts/OutOfNetworkProviders.pdf",
+    "out_of_network_pharmacy": "/documents/videotranscripts/OutOfNetworkProviders.pdf",
+    //"": "OutOfPocketMaximum",
+    //"": "PreferredDrug",
+    "ppo": "/documents/videotranscripts/AetnaMedicarePPO.pdf",
+    "prior_authorization_for_medical_coverage_": "/documents/videotranscripts/AetnaMedicarePriorAuthorizationMedCoverage.pdf",
+    //"prior_authorization_for_prescription_drug_coverage_": "PriorAuthorizationforPres",
+    //"quantity_limits": "Quantitylimits",
+    //"": "SpecialtyCoinsurance",
+    "step_therapy": "/documents/videotranscripts/AetnaMedicareStepTherapy.pdf",
+    "tier": "/documents/videotranscripts/AetnaMedicareTiers.pdf",
+    "true_out_of_pocket": "/documents/videotranscripts/AetnaMedicareTrOOP.pdf"
+};}vÚ¿Æ      T‰ÚT‰Ú:˜ýT¹2Á   ::http://www.aetnamedicare.com/includes/js/glossary_2014.js request-method GET response-head HTTP/1.1 200 OK
+Date: Thu, 11 Dec 2014 17:52:07 GMT
+Accept-Ranges: bytes
+Etag: W/"32756-1387290626000"
+Last-Modified: Tue, 17 Dec 2013 14:30:26 GMT
+Content-Length: 32756
+Content-Type: text/javascript
+ uncompressed-len 0   ô

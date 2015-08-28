@@ -1,0 +1,118 @@
+Mar 31 11:11:54 tech-Latitude-D830 systemd-logind[789]: New seat seat0.
+Mar 31 11:12:08 tech-Latitude-D830 dbus[751]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1026 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=820 comm="NetworkManager ")
+Mar 31 11:12:34 tech-Latitude-D830 mdm[1567]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 31 11:12:34 tech-Latitude-D830 mdm[1567]: PAM adding faulty module: pam_kwallet.so
+Mar 31 11:12:38 tech-Latitude-D830 mdm[1567]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 31 11:12:40 tech-Latitude-D830 mdm[1567]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tech
+Mar 31 11:12:43 tech-Latitude-D830 mdm[1567]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 31 11:12:43 tech-Latitude-D830 mdm[1567]: PAM adding faulty module: pam_kwallet.so
+Mar 31 11:12:46 tech-Latitude-D830 mdm[1567]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 31 11:12:53 tech-Latitude-D830 mdm[1567]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Mar 31 11:12:53 tech-Latitude-D830 systemd-logind[789]: New session c1 of user tech.
+Mar 31 11:12:53 tech-Latitude-D830 systemd-logind[789]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Mar 31 11:12:53 tech-Latitude-D830 mdm[1567]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Mar 31 11:12:59 tech-Latitude-D830 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.22 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 11:14:15 tech-Latitude-D830 sudo:     tech : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod +x initial_setup.sh
+Mar 31 11:14:15 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:14:15 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:14:54 tech-Latitude-D830 sudo:     tech : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=./initial_setup.sh
+Mar 31 11:14:54 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:17:01 tech-Latitude-D830 CRON[5250]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 31 11:17:01 tech-Latitude-D830 CRON[5250]: pam_unix(cron:session): session closed for user root
+Mar 31 11:17:11 tech-Latitude-D830 su[5343]: Successful su for nobody by root
+Mar 31 11:17:11 tech-Latitude-D830 su[5343]: + ??? root:nobody
+Mar 31 11:17:11 tech-Latitude-D830 su[5343]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Mar 31 11:17:11 tech-Latitude-D830 systemd-logind[789]: New session c2 of user nobody.
+Mar 31 11:17:11 tech-Latitude-D830 su[5343]: pam_unix(su:session): session closed for user nobody
+Mar 31 11:17:11 tech-Latitude-D830 su[5358]: Successful su for nobody by root
+Mar 31 11:17:11 tech-Latitude-D830 su[5358]: + ??? root:nobody
+Mar 31 11:17:11 tech-Latitude-D830 su[5358]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Mar 31 11:17:11 tech-Latitude-D830 systemd-logind[789]: Removed session c2.
+Mar 31 11:17:11 tech-Latitude-D830 systemd-logind[789]: New session c3 of user nobody.
+Mar 31 11:17:11 tech-Latitude-D830 su[5358]: pam_unix(su:session): session closed for user nobody
+Mar 31 11:17:11 tech-Latitude-D830 su[5383]: Successful su for nobody by root
+Mar 31 11:17:11 tech-Latitude-D830 su[5383]: + ??? root:nobody
+Mar 31 11:17:11 tech-Latitude-D830 su[5383]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Mar 31 11:17:11 tech-Latitude-D830 systemd-logind[789]: Removed session c3.
+Mar 31 11:17:11 tech-Latitude-D830 systemd-logind[789]: New session c4 of user nobody.
+Mar 31 11:18:16 tech-Latitude-D830 su[5383]: pam_unix(su:session): session closed for user nobody
+Mar 31 11:30:23 tech-Latitude-D830 systemd-logind[11475]: New seat seat0.
+Mar 31 11:30:23 tech-Latitude-D830 systemd-logind[11475]: New session c1 of user tech.
+Mar 31 11:30:23 tech-Latitude-D830 systemd-logind[11475]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Mar 31 11:33:12 tech-Latitude-D830 groupadd[24655]: group added to /etc/group: name=clamav, GID=125
+Mar 31 11:33:12 tech-Latitude-D830 groupadd[24655]: group added to /etc/gshadow: name=clamav
+Mar 31 11:33:12 tech-Latitude-D830 groupadd[24655]: new group: name=clamav, GID=125
+Mar 31 11:33:12 tech-Latitude-D830 useradd[24659]: new user: name=clamav, UID=115, GID=125, home=/var/lib/clamav, shell=/bin/false
+Mar 31 11:33:13 tech-Latitude-D830 chage[24664]: changed password expiry for clamav
+Mar 31 11:34:22 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 31 11:34:22 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:34:22 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:34:22 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.9-x86.msi /usr/share/wine/gecko/
+Mar 31 11:34:22 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:34:22 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:34:28 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 31 11:34:28 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:34:28 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:34:28 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86.msi /usr/share/wine/gecko/
+Mar 31 11:34:28 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:34:28 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:34:32 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 31 11:34:32 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:34:32 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:34:32 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86.msi /usr/share/wine/gecko/
+Mar 31 11:34:32 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:34:32 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:34:37 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 31 11:34:37 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:34:37 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:34:37 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86.msi /usr/share/wine/gecko/
+Mar 31 11:34:37 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:34:37 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:35:10 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 31 11:35:10 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:35:10 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:35:10 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86_64.msi /usr/share/wine/gecko/
+Mar 31 11:35:10 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:35:10 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:35:49 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 31 11:35:49 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:35:49 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:35:49 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86_64.msi /usr/share/wine/gecko/
+Mar 31 11:35:49 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:35:49 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:36:16 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 31 11:36:16 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:36:16 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:36:16 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.6-x86_64.msi /usr/share/wine/gecko/
+Mar 31 11:36:16 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:36:16 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:36:20 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 31 11:36:20 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:36:20 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:36:20 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.5-x86_64.msi /usr/share/wine/gecko/
+Mar 31 11:36:20 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:36:20 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:36:25 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 31 11:36:25 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:36:25 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:36:25 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86_64.msi /usr/share/wine/gecko/
+Mar 31 11:36:25 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:36:25 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:36:53 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 31 11:36:53 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:36:53 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:36:53 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.3-x86_64.msi /usr/share/wine/gecko/
+Mar 31 11:36:53 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:36:53 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:37:02 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Mar 31 11:37:02 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:37:02 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:37:02 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.4.msi /usr/share/wine/mono
+Mar 31 11:37:02 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:37:03 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:37:11 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Mar 31 11:37:11 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:37:11 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root
+Mar 31 11:37:11 tech-Latitude-D830 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.8.msi /usr/share/wine/mono
+Mar 31 11:37:11 tech-Latitude-D830 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 31 11:37:12 tech-Latitude-D830 sudo: pam_unix(sudo:session): session closed for user root

@@ -1,0 +1,150 @@
+Jun 30 12:12:05 BT-VB systemd-logind[455]: New seat seat0.
+Jun 30 12:12:07 BT-VB dbus[426]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1249 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=737 comm="NetworkManager ")
+Jun 30 12:12:10 BT-VB mdm[1199]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 30 12:12:10 BT-VB mdm[1199]: PAM adding faulty module: pam_kwallet.so
+Jun 30 12:12:14 BT-VB mdm[1199]: pam_nologin(mdm:auth): cannot determine username
+Jun 30 12:12:14 BT-VB mdm[1199]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 30 12:12:14 BT-VB mdm[1199]: PAM adding faulty module: pam_kwallet.so
+Jun 30 12:12:14 BT-VB mdm[1199]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jun 30 12:12:17 BT-VB mdm[1199]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jun 30 12:12:17 BT-VB systemd-logind[455]: New session c1 of user tech.
+Jun 30 12:12:17 BT-VB systemd-logind[455]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jun 30 12:12:17 BT-VB mdm[1199]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 30 12:12:18 BT-VB polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 12:17:01 BT-VB CRON[2476]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 30 12:17:01 BT-VB CRON[2476]: pam_unix(cron:session): session closed for user root
+Jun 30 12:17:10 BT-VB su[2601]: Successful su for nobody by root
+Jun 30 12:17:10 BT-VB su[2601]: + ??? root:nobody
+Jun 30 12:17:10 BT-VB su[2601]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jun 30 12:17:10 BT-VB systemd-logind[455]: New session c2 of user nobody.
+Jun 30 12:17:10 BT-VB su[2601]: pam_unix(su:session): session closed for user nobody
+Jun 30 12:17:10 BT-VB su[2616]: Successful su for nobody by root
+Jun 30 12:17:10 BT-VB su[2616]: + ??? root:nobody
+Jun 30 12:17:10 BT-VB su[2616]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jun 30 12:17:10 BT-VB systemd-logind[455]: Removed session c2.
+Jun 30 12:17:10 BT-VB systemd-logind[455]: New session c3 of user nobody.
+Jun 30 12:17:10 BT-VB su[2616]: pam_unix(su:session): session closed for user nobody
+Jun 30 12:17:10 BT-VB su[2641]: Successful su for nobody by root
+Jun 30 12:17:10 BT-VB su[2641]: + ??? root:nobody
+Jun 30 12:17:10 BT-VB su[2641]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jun 30 12:17:10 BT-VB systemd-logind[455]: Removed session c3.
+Jun 30 12:17:10 BT-VB systemd-logind[455]: New session c4 of user nobody.
+Jun 30 12:17:15 BT-VB su[2641]: pam_unix(su:session): session closed for user nobody
+Jun 30 12:18:02 BT-VB su[2773]: Successful su for root by tech
+Jun 30 12:18:02 BT-VB su[2773]: + /dev/pts/0 tech:root
+Jun 30 12:18:02 BT-VB su[2773]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jun 30 12:18:02 BT-VB systemd-logind[455]: Removed session c4.
+Jun 30 12:18:21 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /usr/src/IT_Files
+Jun 30 12:18:21 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:18:21 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:18:21 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/sed -i /IT_Files/d /etc/fstab
+Jun 30 12:18:21 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:18:21 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:18:21 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo //hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8,nobootwait  0  0
+Jun 30 12:18:21 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:18:21 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:18:21 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mount -a
+Jun 30 12:18:21 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:18:21 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:21:59 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /usr/src/IT_Files
+Jun 30 12:21:59 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:21:59 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:21:59 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/sed -i /IT_Files/d /etc/fstab
+Jun 30 12:21:59 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:21:59 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:21:59 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo //hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8  0  0
+Jun 30 12:21:59 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:21:59 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:21:59 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mount -a
+Jun 30 12:21:59 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:21:59 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:21:59 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/initial_setup.sh
+Jun 30 12:21:59 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:30:34 BT-VB systemd-logind[18729]: New seat seat0.
+Jun 30 12:30:34 BT-VB systemd-logind[18729]: New session c1 of user tech.
+Jun 30 12:30:34 BT-VB systemd-logind[18729]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jun 30 12:32:04 BT-VB groupadd[567]: group added to /etc/group: name=clamav, GID=125
+Jun 30 12:32:04 BT-VB groupadd[567]: group added to /etc/gshadow: name=clamav
+Jun 30 12:32:04 BT-VB groupadd[567]: new group: name=clamav, GID=125
+Jun 30 12:32:04 BT-VB useradd[571]: new user: name=clamav, UID=115, GID=125, home=/var/lib/clamav, shell=/bin/false
+Jun 30 12:32:04 BT-VB chage[576]: changed password expiry for clamav
+Jun 30 12:32:05 BT-VB useradd[815]: new user: name=sshd, UID=116, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Jun 30 12:32:05 BT-VB usermod[820]: change user 'sshd' password
+Jun 30 12:32:05 BT-VB chage[825]: changed password expiry for sshd
+Jun 30 12:32:05 BT-VB sshd[880]: Server listening on 0.0.0.0 port 22.
+Jun 30 12:32:05 BT-VB sshd[880]: Server listening on :: port 22.
+Jun 30 12:33:08 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 30 12:33:08 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:33:08 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:33:08 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.9-x86.msi /usr/share/wine/gecko/
+Jun 30 12:33:08 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:33:08 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:33:26 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 30 12:33:26 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:33:26 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:33:26 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86.msi /usr/share/wine/gecko/
+Jun 30 12:33:26 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:33:26 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:33:42 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 30 12:33:42 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:33:42 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:33:42 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86.msi /usr/share/wine/gecko/
+Jun 30 12:33:42 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:33:42 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:33:52 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 30 12:33:52 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:33:52 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:33:52 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86.msi /usr/share/wine/gecko/
+Jun 30 12:33:52 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:33:52 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:34:12 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 30 12:34:12 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:34:12 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:34:12 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86_64.msi /usr/share/wine/gecko/
+Jun 30 12:34:12 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:34:12 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:34:29 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 30 12:34:29 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:34:29 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:34:29 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86_64.msi /usr/share/wine/gecko/
+Jun 30 12:34:29 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:34:29 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:34:44 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 30 12:34:44 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:34:44 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:34:44 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.6-x86_64.msi /usr/share/wine/gecko/
+Jun 30 12:34:44 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:34:44 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:35:06 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 30 12:35:06 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:35:06 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:35:06 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.5-x86_64.msi /usr/share/wine/gecko/
+Jun 30 12:35:06 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:35:06 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:35:21 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 30 12:35:21 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:35:21 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:35:21 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86_64.msi /usr/share/wine/gecko/
+Jun 30 12:35:21 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:35:21 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:35:44 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jun 30 12:35:44 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:35:44 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:35:44 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.3-x86_64.msi /usr/share/wine/gecko/
+Jun 30 12:35:44 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:35:44 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:36:38 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Jun 30 12:36:38 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:36:38 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:36:38 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.4.msi /usr/share/wine/mono
+Jun 30 12:36:38 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:36:38 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:37:13 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Jun 30 12:37:13 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:37:13 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:37:13 BT-VB sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.8.msi /usr/share/wine/mono
+Jun 30 12:37:13 BT-VB sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 30 12:37:13 BT-VB sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 12:42:20 BT-VB sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 30 12:42:20 BT-VB sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 12:42:27 BT-VB sudo: pam_unix(sudo:session): session closed for user root

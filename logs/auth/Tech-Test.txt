@@ -1,0 +1,1140 @@
+Mar 24 08:50:13 Tech-Test smbd[2857]: pam_unix(samba:session): session closed for user nobody
+Mar 24 09:09:30 Tech-Test smbd[3455]: pam_unix(samba:session): session closed for user nobody
+Mar 24 09:09:47 Tech-Test smbd[3457]: pam_unix(samba:session): session closed for user nobody
+Mar 24 09:13:11 Tech-Test smbd[3461]: pam_unix(samba:session): session closed for user nobody
+Mar 24 09:14:01 Tech-Test sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 24 09:14:01 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 24 09:14:20 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 09:17:01 Tech-Test CRON[3502]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 09:17:01 Tech-Test CRON[3502]: pam_unix(cron:session): session closed for user root
+Mar 24 09:19:44 Tech-Test smbd[3507]: pam_unix(samba:session): session closed for user nobody
+Mar 24 09:22:40 Tech-Test smbd[3512]: pam_unix(samba:session): session closed for user nobody
+Mar 24 09:41:49 Tech-Test smbd[3539]: pam_unix(samba:session): session closed for user nobody
+Mar 24 09:41:59 Tech-Test smbd[3540]: pam_unix(samba:session): session closed for user nobody
+Mar 24 09:44:01 Tech-Test sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 24 09:44:01 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 24 09:44:21 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 09:45:43 Tech-Test smbd[3580]: pam_unix(samba:session): session closed for user nobody
+Mar 24 09:51:56 Tech-Test smbd[3590]: pam_unix(samba:session): session closed for user nobody
+Mar 24 09:56:04 Tech-Test smbd[3595]: pam_unix(samba:session): session closed for user nobody
+Mar 24 10:06:23 Tech-Test smbd[3609]: pam_unix(samba:session): session closed for user nobody
+Mar 24 10:14:00 Tech-Test smbd[3624]: pam_unix(samba:session): session closed for user nobody
+Mar 24 10:14:01 Tech-Test sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 24 10:14:01 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 24 10:14:17 Tech-Test smbd[3653]: pam_unix(samba:session): session closed for user nobody
+Mar 24 10:14:18 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 10:17:01 Tech-Test CRON[3665]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 10:17:01 Tech-Test CRON[3665]: pam_unix(cron:session): session closed for user root
+Mar 24 10:18:10 Tech-Test smbd[3669]: pam_unix(samba:session): session closed for user nobody
+Mar 24 10:25:50 Tech-Test smbd[3677]: pam_unix(samba:session): session closed for user nobody
+Mar 24 10:37:49 Tech-Test smbd[3696]: pam_unix(samba:session): session closed for user nobody
+Mar 24 10:44:01 Tech-Test sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 24 10:44:01 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 24 10:44:21 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 10:46:15 Tech-Test smbd[3742]: pam_unix(samba:session): session closed for user nobody
+Mar 24 10:46:29 Tech-Test smbd[3744]: pam_unix(samba:session): session closed for user nobody
+Mar 24 10:50:59 Tech-Test smbd[3750]: pam_unix(samba:session): session closed for user nobody
+Mar 24 10:56:26 Tech-Test smbd[3759]: pam_unix(samba:session): session closed for user nobody
+Mar 24 11:10:19 Tech-Test smbd[3781]: pam_unix(samba:session): session closed for user nobody
+Mar 24 11:14:01 Tech-Test sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 24 11:14:01 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 24 11:14:20 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 11:17:01 Tech-Test CRON[3826]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 11:17:01 Tech-Test CRON[3826]: pam_unix(cron:session): session closed for user root
+Mar 24 11:18:27 Tech-Test smbd[3830]: pam_unix(samba:session): session closed for user nobody
+Mar 24 11:18:47 Tech-Test smbd[3831]: pam_unix(samba:session): session closed for user nobody
+Mar 24 11:23:27 Tech-Test smbd[3838]: pam_unix(samba:session): session closed for user nobody
+Mar 24 11:28:44 Tech-Test smbd[3850]: pam_unix(samba:session): session closed for user nobody
+Mar 24 11:44:01 Tech-Test sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 24 11:44:01 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 24 11:44:20 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:03:14 Tech-Test sudo:     tech : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod +x initial_setup.sh
+Mar 24 12:03:14 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:03:14 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:03:45 Tech-Test sudo:     tech : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=./initial_setup.sh
+Mar 24 12:03:45 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:16:49 Tech-Test systemd-logind[43432]: New seat seat0.
+Mar 24 12:16:49 Tech-Test systemd-logind[43432]: New session c1 of user tech.
+Mar 24 12:16:49 Tech-Test systemd-logind[43432]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Mar 24 12:17:01 Tech-Test CRON[43598]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 12:17:01 Tech-Test CRON[43598]: pam_unix(cron:session): session closed for user root
+Mar 24 12:22:19 Tech-Test groupadd[56857]: group added to /etc/group: name=clamav, GID=125
+Mar 24 12:22:19 Tech-Test groupadd[56857]: group added to /etc/gshadow: name=clamav
+Mar 24 12:22:19 Tech-Test groupadd[56857]: new group: name=clamav, GID=125
+Mar 24 12:22:20 Tech-Test useradd[56861]: new user: name=clamav, UID=115, GID=125, home=/var/lib/clamav, shell=/bin/false
+Mar 24 12:22:20 Tech-Test chage[56866]: changed password expiry for clamav
+Mar 24 12:26:55 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 24 12:26:55 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:26:55 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:26:55 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.9-x86.msi /usr/share/wine/gecko/
+Mar 24 12:26:55 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:26:55 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:27:05 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 24 12:27:05 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:27:05 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:27:05 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86.msi /usr/share/wine/gecko/
+Mar 24 12:27:05 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:27:05 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:28:29 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 24 12:28:29 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:28:29 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:28:29 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86.msi /usr/share/wine/gecko/
+Mar 24 12:28:29 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:28:29 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:28:38 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 24 12:28:38 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:28:38 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:28:39 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86.msi /usr/share/wine/gecko/
+Mar 24 12:28:39 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:28:39 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:28:55 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 24 12:28:55 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:28:55 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:28:55 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86_64.msi /usr/share/wine/gecko/
+Mar 24 12:28:55 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:28:56 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:29:08 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 24 12:29:09 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:29:09 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:29:09 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86_64.msi /usr/share/wine/gecko/
+Mar 24 12:29:09 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:29:09 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:29:31 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 24 12:29:32 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:29:32 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:29:32 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.6-x86_64.msi /usr/share/wine/gecko/
+Mar 24 12:29:32 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:29:32 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:29:41 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 24 12:29:41 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:29:41 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:29:41 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.5-x86_64.msi /usr/share/wine/gecko/
+Mar 24 12:29:41 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:29:41 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:30:31 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 24 12:30:32 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:30:32 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:30:33 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86_64.msi /usr/share/wine/gecko/
+Mar 24 12:30:33 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:30:34 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:31:00 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 24 12:31:00 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:31:00 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:31:01 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.3-x86_64.msi /usr/share/wine/gecko/
+Mar 24 12:31:01 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:31:01 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:33:13 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Mar 24 12:33:13 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:33:13 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:33:15 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.4.msi /usr/share/wine/mono
+Mar 24 12:33:15 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:33:17 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:35:22 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Mar 24 12:35:22 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:35:22 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:35:23 Tech-Test sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.8.msi /usr/share/wine/mono
+Mar 24 12:35:23 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 24 12:35:25 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 24 12:50:30 Tech-Test mdm[1667]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 24 12:50:30 Tech-Test mdm[1667]: PAM adding faulty module: pam_kwallet.so
+Mar 24 12:50:30 Tech-Test smbd[1279]: pam_unix(samba:session): session closed for user nobody
+Mar 24 12:50:45 Tech-Test mdm[1667]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 24 12:50:49 Tech-Test mdm[1667]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Mar 24 12:50:49 Tech-Test mdm[1667]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Mar 24 12:50:57 Tech-Test polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 24 12:51:29 Tech-Test smbd[2791]: pam_unix(samba:session): session closed for user nobody
+Mar 24 12:55:50 Tech-Test smbd[2800]: pam_unix(samba:session): session closed for user nobody
+Mar 24 12:56:38 Tech-Test smbd[2801]: pam_unix(samba:session): session closed for user nobody
+Mar 24 12:57:16 Tech-Test smbd[2803]: pam_unix(samba:session): session closed for user nobody
+Mar 24 13:00:46 Tech-Test dbus[652]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.48" (uid=1000 pid=3003 comm="stop avahi-daemon ") interface="com.ubuntu.Upstart0_6.Job" member="Stop" error name="(unset)" requested_reply="0" destination="com.ubuntu.Upstart" (uid=0 pid=1 comm="/sbin/init")
+Mar 24 13:03:53 Tech-Test smbd[3023]: pam_unix(samba:session): session closed for user nobody
+Mar 24 13:11:16 Tech-Test smbd[3049]: pam_unix(samba:session): session closed for user nobody
+Mar 24 13:11:55 Tech-Test smbd[3051]: pam_unix(samba:session): session closed for user nobody
+Mar 24 13:16:49 Tech-Test mdm[1667]: pam_unix(mdm:session): session closed for user tech
+Mar 24 13:16:50 Tech-Test polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.28, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 24 13:16:54 Tech-Test mdm[3092]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 24 13:16:54 Tech-Test mdm[3092]: PAM adding faulty module: pam_kwallet.so
+Mar 24 13:17:01 Tech-Test CRON[3112]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 13:17:01 Tech-Test CRON[3112]: pam_unix(cron:session): session closed for user root
+Mar 24 13:17:08 Tech-Test mdm[3092]: pam_nologin(mdm:auth): cannot determine username
+Mar 24 13:18:12 Tech-Test mdm[1786]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 24 13:18:12 Tech-Test mdm[1786]: PAM adding faulty module: pam_kwallet.so
+Mar 24 13:18:23 Tech-Test mdm[1786]: pam_unix(mdm:auth): check pass; user unknown
+Mar 24 13:18:23 Tech-Test mdm[1786]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Mar 24 13:18:27 Tech-Test mdm[1786]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 24 13:18:27 Tech-Test mdm[1786]: PAM adding faulty module: pam_kwallet.so
+Mar 24 13:19:13 Tech-Test mdm[1786]: pam_unix(mdm:auth): check pass; user unknown
+Mar 24 13:19:13 Tech-Test mdm[1786]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Mar 24 13:19:16 Tech-Test mdm[1786]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 24 13:19:16 Tech-Test mdm[1786]: PAM adding faulty module: pam_kwallet.so
+Mar 24 13:21:40 Tech-Test smbd[1893]: pam_unix(samba:session): session closed for user nobody
+Mar 24 13:22:42 Tech-Test smbd[1895]: pam_unix(samba:session): session closed for user nobody
+Mar 24 13:23:47 Tech-Test smbd[1898]: pam_unix(samba:session): session closed for user nobody
+Mar 24 13:26:04 Tech-Test mdm[1786]: pam_unix(mdm:auth): check pass; user unknown
+Mar 24 13:26:04 Tech-Test mdm[1786]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Mar 24 13:26:07 Tech-Test mdm[1786]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 24 13:26:07 Tech-Test mdm[1786]: PAM adding faulty module: pam_kwallet.so
+Mar 24 13:27:58 Tech-Test mdm[1786]: pam_nologin(mdm:auth): cannot determine username
+Mar 24 13:39:35 Tech-Test mdm[1683]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 24 13:39:35 Tech-Test mdm[1683]: PAM adding faulty module: pam_kwallet.so
+Mar 24 13:43:34 Tech-Test smbd[1884]: pam_unix(samba:session): session closed for user nobody
+Mar 24 13:44:07 Tech-Test smbd[1886]: pam_unix(samba:session): session closed for user nobody
+Mar 24 13:49:28 Tech-Test smbd[1892]: pam_unix(samba:session): session closed for user nobody
+Mar 24 13:49:47 Tech-Test smbd[1894]: pam_unix(samba:session): session closed for user nobody
+Mar 24 13:53:55 Tech-Test smbd[1900]: pam_unix(samba:session): session closed for user nobody
+Mar 24 13:55:00 Tech-Test smbd[1902]: pam_unix(samba:session): session closed for user nobody
+Mar 24 13:55:59 Tech-Test smbd[1904]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:00:26 Tech-Test smbd[1909]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:01:08 Tech-Test smbd[1911]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:01:40 Tech-Test smbd[1913]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:08:22 Tech-Test smbd[1923]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:15:52 Tech-Test smbd[1933]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:16:25 Tech-Test smbd[1934]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:17:01 Tech-Test CRON[1936]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 14:17:01 Tech-Test CRON[1936]: pam_unix(cron:session): session closed for user root
+Mar 24 14:20:47 Tech-Test smbd[1944]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:21:46 Tech-Test smbd[1946]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:22:05 Tech-Test smbd[1947]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:26:10 Tech-Test smbd[1952]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:27:18 Tech-Test smbd[1954]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:28:17 Tech-Test smbd[1956]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:32:37 Tech-Test smbd[1963]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:33:20 Tech-Test smbd[1964]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:33:58 Tech-Test smbd[1966]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:40:40 Tech-Test smbd[1976]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:48:10 Tech-Test smbd[1985]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:48:43 Tech-Test smbd[1987]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:52:59 Tech-Test smbd[1992]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:54:04 Tech-Test smbd[1994]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:54:23 Tech-Test smbd[1995]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:58:26 Tech-Test smbd[2001]: pam_unix(samba:session): session closed for user nobody
+Mar 24 14:59:30 Tech-Test smbd[2003]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:00:29 Tech-Test smbd[2005]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:04:55 Tech-Test smbd[2011]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:05:38 Tech-Test smbd[2013]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:06:09 Tech-Test smbd[2014]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:12:58 Tech-Test smbd[2023]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:17:01 Tech-Test CRON[2028]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 15:17:01 Tech-Test CRON[2028]: pam_unix(cron:session): session closed for user root
+Mar 24 15:20:22 Tech-Test smbd[2034]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:20:55 Tech-Test smbd[2036]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:25:17 Tech-Test smbd[2042]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:26:16 Tech-Test smbd[2044]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:26:41 Tech-Test smbd[2046]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:30:38 Tech-Test smbd[2051]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:32:47 Tech-Test smbd[2055]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:33:24 Tech-Test smbd[2053]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:37:07 Tech-Test smbd[2061]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:37:50 Tech-Test smbd[2063]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:38:27 Tech-Test smbd[2064]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:46:52 Tech-Test smbd[2072]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:53:13 Tech-Test smbd[2083]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:54:22 Tech-Test smbd[2082]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:57:28 Tech-Test smbd[2088]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:58:28 Tech-Test smbd[2090]: pam_unix(samba:session): session closed for user nobody
+Mar 24 15:58:59 Tech-Test smbd[2092]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:02:55 Tech-Test smbd[2098]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:04:06 Tech-Test smbd[2100]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:05:05 Tech-Test smbd[2102]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:09:25 Tech-Test smbd[2109]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:10:08 Tech-Test smbd[2111]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:10:45 Tech-Test smbd[2113]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:17:01 Tech-Test CRON[2121]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 16:17:01 Tech-Test CRON[2121]: pam_unix(cron:session): session closed for user root
+Mar 24 16:17:34 Tech-Test smbd[2124]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:25:04 Tech-Test smbd[2133]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:25:31 Tech-Test smbd[2134]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:29:40 Tech-Test smbd[2141]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:30:46 Tech-Test smbd[2143]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:31:11 Tech-Test smbd[2144]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:35:07 Tech-Test smbd[2149]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:35:33 Tech-Test smbd[2150]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:36:12 Tech-Test smbd[2152]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:37:17 Tech-Test smbd[2154]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:41:36 Tech-Test smbd[2159]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:42:20 Tech-Test smbd[2162]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:42:51 Tech-Test smbd[2164]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:44:40 Tech-Test smbd[2167]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:49:40 Tech-Test smbd[2173]: pam_unix(samba:session): session closed for user nobody
+Mar 24 16:57:37 Tech-Test smbd[2183]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:01:46 Tech-Test smbd[2182]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:01:52 Tech-Test smbd[2189]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:02:58 Tech-Test smbd[2191]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:03:29 Tech-Test smbd[2192]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:07:21 Tech-Test smbd[2197]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:07:51 Tech-Test smbd[2200]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:08:24 Tech-Test smbd[2201]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:09:35 Tech-Test smbd[2203]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:13:47 Tech-Test smbd[2209]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:14:38 Tech-Test smbd[2210]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:15:09 Tech-Test smbd[2212]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:17:01 Tech-Test CRON[2216]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 17:17:01 Tech-Test CRON[2216]: pam_unix(cron:session): session closed for user root
+Mar 24 17:17:11 Tech-Test smbd[2215]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:22:04 Tech-Test smbd[2225]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:29:34 Tech-Test smbd[2233]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:30:01 Tech-Test smbd[2235]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:34:16 Tech-Test smbd[2241]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:35:22 Tech-Test smbd[2243]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:35:53 Tech-Test smbd[2245]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:39:38 Tech-Test smbd[2249]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:40:09 Tech-Test smbd[2251]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:40:48 Tech-Test smbd[2253]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:41:53 Tech-Test smbd[2255]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:46:11 Tech-Test smbd[2260]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:46:56 Tech-Test smbd[2263]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:47:27 Tech-Test smbd[2264]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:49:41 Tech-Test smbd[2267]: pam_unix(samba:session): session closed for user nobody
+Mar 24 17:54:10 Tech-Test smbd[2273]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:01:46 Tech-Test smbd[2283]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:02:07 Tech-Test smbd[2284]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:06:28 Tech-Test smbd[2291]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:07:27 Tech-Test smbd[2293]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:08:05 Tech-Test smbd[2295]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:11:46 Tech-Test smbd[2300]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:12:21 Tech-Test smbd[2301]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:13:00 Tech-Test smbd[2304]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:13:59 Tech-Test smbd[2306]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:17:01 Tech-Test CRON[2310]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 18:17:01 Tech-Test CRON[2310]: pam_unix(cron:session): session closed for user root
+Mar 24 18:18:17 Tech-Test smbd[2314]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:19:08 Tech-Test smbd[2316]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:19:39 Tech-Test smbd[2317]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:22:03 Tech-Test smbd[2321]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:26:22 Tech-Test smbd[2327]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:33:58 Tech-Test smbd[2336]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:34:19 Tech-Test smbd[2337]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:38:40 Tech-Test smbd[2342]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:39:39 Tech-Test smbd[2345]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:40:17 Tech-Test smbd[2349]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:44:01 Tech-Test smbd[2354]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:44:27 Tech-Test smbd[2355]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:45:12 Tech-Test smbd[2357]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:46:17 Tech-Test smbd[2359]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:50:29 Tech-Test smbd[2364]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:51:20 Tech-Test smbd[2366]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:51:51 Tech-Test smbd[2369]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:54:27 Tech-Test smbd[2373]: pam_unix(samba:session): session closed for user nobody
+Mar 24 18:58:40 Tech-Test smbd[2378]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:06:10 Tech-Test smbd[2388]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:06:31 Tech-Test smbd[2389]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:10:52 Tech-Test smbd[2395]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:11:50 Tech-Test smbd[2397]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:12:35 Tech-Test smbd[2398]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:16:12 Tech-Test smbd[2403]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:16:44 Tech-Test smbd[2404]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:17:01 Tech-Test CRON[2406]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 19:17:01 Tech-Test CRON[2406]: pam_unix(cron:session): session closed for user root
+Mar 24 19:17:23 Tech-Test smbd[2409]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:18:29 Tech-Test smbd[2412]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:22:40 Tech-Test smbd[2417]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:23:32 Tech-Test smbd[2419]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:24:03 Tech-Test smbd[2421]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:26:51 Tech-Test smbd[2426]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:30:52 Tech-Test smbd[2431]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:38:22 Tech-Test smbd[2440]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:38:43 Tech-Test smbd[2441]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:43:04 Tech-Test smbd[2447]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:44:02 Tech-Test smbd[2450]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:44:47 Tech-Test smbd[2451]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:48:56 Tech-Test smbd[2458]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:49:35 Tech-Test smbd[2459]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:50:07 Tech-Test smbd[2456]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:50:41 Tech-Test smbd[2461]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:54:52 Tech-Test smbd[2467]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:55:44 Tech-Test smbd[2468]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:56:15 Tech-Test smbd[2470]: pam_unix(samba:session): session closed for user nobody
+Mar 24 19:59:15 Tech-Test smbd[2476]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:03:04 Tech-Test smbd[2481]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:10:40 Tech-Test smbd[2492]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:10:55 Tech-Test smbd[2494]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:15:16 Tech-Test smbd[2499]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:16:14 Tech-Test smbd[2501]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:17:01 Tech-Test CRON[2504]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 20:17:01 Tech-Test CRON[2504]: pam_unix(cron:session): session closed for user root
+Mar 24 20:17:05 Tech-Test smbd[2503]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:20:36 Tech-Test smbd[2511]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:21:08 Tech-Test smbd[2513]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:21:53 Tech-Test smbd[2514]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:22:53 Tech-Test smbd[2516]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:27:10 Tech-Test smbd[2523]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:27:55 Tech-Test smbd[2526]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:28:27 Tech-Test smbd[2527]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:31:38 Tech-Test smbd[2531]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:35:16 Tech-Test smbd[2536]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:42:52 Tech-Test smbd[2545]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:43:07 Tech-Test smbd[2547]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:47:28 Tech-Test smbd[2552]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:48:26 Tech-Test smbd[2554]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:49:17 Tech-Test smbd[2557]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:52:43 Tech-Test smbd[2561]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:53:19 Tech-Test smbd[2563]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:53:59 Tech-Test smbd[2565]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:55:05 Tech-Test smbd[2567]: pam_unix(samba:session): session closed for user nobody
+Mar 24 20:59:22 Tech-Test smbd[2572]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:00:07 Tech-Test smbd[2574]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:00:39 Tech-Test smbd[2575]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:04:02 Tech-Test smbd[2581]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:07:27 Tech-Test smbd[2585]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:15:04 Tech-Test smbd[2596]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:15:19 Tech-Test smbd[2597]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:17:01 Tech-Test CRON[2600]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 21:17:01 Tech-Test CRON[2600]: pam_unix(cron:session): session closed for user root
+Mar 24 21:19:40 Tech-Test smbd[2605]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:20:37 Tech-Test smbd[2607]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:21:35 Tech-Test smbd[2609]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:24:58 Tech-Test smbd[2614]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:25:31 Tech-Test smbd[2615]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:26:11 Tech-Test smbd[2617]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:27:17 Tech-Test smbd[2619]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:31:33 Tech-Test smbd[2625]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:32:19 Tech-Test smbd[2627]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:32:51 Tech-Test smbd[2628]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:36:26 Tech-Test smbd[2633]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:39:39 Tech-Test smbd[2638]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:47:16 Tech-Test smbd[2648]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:47:31 Tech-Test smbd[2649]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:51:52 Tech-Test smbd[2654]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:52:49 Tech-Test smbd[2656]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:53:47 Tech-Test smbd[2658]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:57:07 Tech-Test smbd[2664]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:57:43 Tech-Test smbd[2665]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:58:23 Tech-Test smbd[2667]: pam_unix(samba:session): session closed for user nobody
+Mar 24 21:59:29 Tech-Test smbd[2669]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:03:45 Tech-Test smbd[2674]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:04:31 Tech-Test smbd[2676]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:05:03 Tech-Test smbd[2678]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:08:50 Tech-Test smbd[2685]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:11:51 Tech-Test smbd[2689]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:17:01 Tech-Test CRON[2696]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 22:17:01 Tech-Test CRON[2696]: pam_unix(cron:session): session closed for user root
+Mar 24 22:19:27 Tech-Test smbd[2701]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:19:43 Tech-Test smbd[2702]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:24:04 Tech-Test smbd[2709]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:25:01 Tech-Test smbd[2712]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:25:59 Tech-Test smbd[2714]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:29:16 Tech-Test smbd[2718]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:29:55 Tech-Test smbd[2719]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:30:35 Tech-Test smbd[2721]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:31:40 Tech-Test smbd[2723]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:35:57 Tech-Test smbd[2729]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:36:43 Tech-Test smbd[2731]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:37:15 Tech-Test smbd[2733]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:41:13 Tech-Test smbd[2738]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:44:03 Tech-Test smbd[2742]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:51:45 Tech-Test smbd[2752]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:51:55 Tech-Test smbd[2753]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:56:16 Tech-Test smbd[2759]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:57:13 Tech-Test smbd[2761]: pam_unix(samba:session): session closed for user nobody
+Mar 24 22:58:17 Tech-Test smbd[2763]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:01:30 Tech-Test smbd[2768]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:02:06 Tech-Test smbd[2770]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:02:47 Tech-Test smbd[2771]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:03:52 Tech-Test smbd[2773]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:08:09 Tech-Test smbd[2779]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:08:55 Tech-Test smbd[2780]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:09:26 Tech-Test smbd[2782]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:13:37 Tech-Test smbd[2788]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:16:15 Tech-Test smbd[2792]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:17:01 Tech-Test CRON[2794]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 24 23:17:01 Tech-Test CRON[2794]: pam_unix(cron:session): session closed for user root
+Mar 24 23:23:57 Tech-Test smbd[2804]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:24:07 Tech-Test smbd[2806]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:28:27 Tech-Test smbd[2812]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:29:30 Tech-Test smbd[2814]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:30:29 Tech-Test smbd[2816]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:33:40 Tech-Test smbd[2820]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:34:18 Tech-Test smbd[2822]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:34:59 Tech-Test smbd[2823]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:40:21 Tech-Test smbd[2832]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:40:40 Tech-Test smbd[2826]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:41:07 Tech-Test smbd[2834]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:41:38 Tech-Test smbd[2835]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:46:01 Tech-Test smbd[2840]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:48:27 Tech-Test smbd[2844]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:56:09 Tech-Test smbd[2854]: pam_unix(samba:session): session closed for user nobody
+Mar 24 23:56:19 Tech-Test smbd[2855]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:00:39 Tech-Test smbd[2861]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:01:42 Tech-Test smbd[2863]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:02:47 Tech-Test smbd[2865]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:05:48 Tech-Test smbd[2870]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:06:30 Tech-Test smbd[2874]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:07:11 Tech-Test smbd[2876]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:08:16 Tech-Test smbd[2878]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:12:33 Tech-Test smbd[2883]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:13:19 Tech-Test smbd[2885]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:13:50 Tech-Test smbd[2886]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:17:01 Tech-Test CRON[2892]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 00:17:01 Tech-Test CRON[2892]: pam_unix(cron:session): session closed for user root
+Mar 25 00:18:24 Tech-Test smbd[2896]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:20:39 Tech-Test smbd[2899]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:28:21 Tech-Test smbd[2908]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:28:35 Tech-Test smbd[2909]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:32:51 Tech-Test smbd[2915]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:33:54 Tech-Test smbd[2918]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:34:59 Tech-Test smbd[2920]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:38:42 Tech-Test smbd[2926]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:39:23 Tech-Test smbd[2928]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:39:40 Tech-Test smbd[2924]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:40:28 Tech-Test smbd[2930]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:44:45 Tech-Test smbd[2938]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:46:02 Tech-Test smbd[2941]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:47:01 Tech-Test smbd[2940]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:50:48 Tech-Test smbd[2947]: pam_unix(samba:session): session closed for user nobody
+Mar 25 00:52:51 Tech-Test smbd[2950]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:00:33 Tech-Test smbd[2960]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:00:47 Tech-Test smbd[2961]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:05:03 Tech-Test smbd[2966]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:06:06 Tech-Test smbd[2968]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:07:17 Tech-Test smbd[2971]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:10:11 Tech-Test smbd[2977]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:10:53 Tech-Test smbd[2978]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:11:35 Tech-Test smbd[2980]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:12:40 Tech-Test smbd[2982]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:16:57 Tech-Test smbd[2987]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:17:01 Tech-Test CRON[2989]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 01:17:01 Tech-Test CRON[2989]: pam_unix(cron:session): session closed for user root
+Mar 25 01:17:43 Tech-Test smbd[2992]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:18:14 Tech-Test smbd[2994]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:23:11 Tech-Test smbd[3001]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:25:03 Tech-Test smbd[3003]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:32:45 Tech-Test smbd[3012]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:32:59 Tech-Test smbd[3013]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:37:15 Tech-Test smbd[3020]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:38:18 Tech-Test smbd[3022]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:39:29 Tech-Test smbd[3024]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:42:23 Tech-Test smbd[3029]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:43:05 Tech-Test smbd[3030]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:43:47 Tech-Test smbd[3032]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:44:52 Tech-Test smbd[3034]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:49:09 Tech-Test smbd[3040]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:49:55 Tech-Test smbd[3042]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:50:26 Tech-Test smbd[3044]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:55:35 Tech-Test smbd[3050]: pam_unix(samba:session): session closed for user nobody
+Mar 25 01:57:15 Tech-Test smbd[3053]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:04:57 Tech-Test smbd[3062]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:05:11 Tech-Test smbd[3063]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:09:27 Tech-Test smbd[3071]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:10:30 Tech-Test smbd[3073]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:11:41 Tech-Test smbd[3075]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:14:32 Tech-Test smbd[3080]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:15:17 Tech-Test smbd[3082]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:15:59 Tech-Test smbd[3083]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:17:01 Tech-Test CRON[3087]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 02:17:01 Tech-Test CRON[3087]: pam_unix(cron:session): session closed for user root
+Mar 25 02:17:04 Tech-Test smbd[3085]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:21:21 Tech-Test smbd[3095]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:22:07 Tech-Test smbd[3096]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:22:38 Tech-Test smbd[3098]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:27:59 Tech-Test smbd[3105]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:29:27 Tech-Test smbd[3108]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:37:15 Tech-Test smbd[3117]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:37:23 Tech-Test smbd[3119]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:41:39 Tech-Test smbd[3125]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:42:42 Tech-Test smbd[3127]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:43:59 Tech-Test smbd[3129]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:46:42 Tech-Test smbd[3133]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:47:28 Tech-Test smbd[3135]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:48:11 Tech-Test smbd[3136]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:49:16 Tech-Test smbd[3139]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:53:32 Tech-Test smbd[3145]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:54:19 Tech-Test smbd[3148]: pam_unix(samba:session): session closed for user nobody
+Mar 25 02:54:50 Tech-Test smbd[3149]: pam_unix(samba:session): session closed for user nobody
+Mar 25 03:00:01 Tech-Test CRON[3155]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 03:00:23 Tech-Test smbd[3186]: pam_unix(samba:session): session closed for user nobody
+Mar 25 03:01:40 Tech-Test smbd[3210]: pam_unix(samba:session): session closed for user nobody
+Mar 25 03:06:36 Tech-Test smbd[3218]: pam_unix(samba:session): session closed for user nobody
+Mar 25 03:06:42 Tech-Test smbd[3219]: pam_unix(samba:session): session closed for user nobody
+Mar 25 03:06:52 Tech-Test smbd[3221]: pam_unix(samba:session): session closed for user nobody
+Mar 25 03:06:54 Tech-Test smbd[3220]: pam_unix(samba:session): session closed for user nobody
+Mar 25 03:07:39 Tech-Test smbd[3223]: pam_unix(samba:session): session closed for user nobody
+Mar 25 03:07:57 Tech-Test smbd[3224]: pam_unix(samba:session): session closed for user nobody
+Mar 25 03:08:03 Tech-Test smbd[3225]: pam_unix(samba:session): session closed for user nobody
+Mar 25 03:08:22 Tech-Test smbd[3227]: pam_unix(samba:session): session closed for user nobody
+Mar 25 03:09:06 Tech-Test smbd[3229]: pam_unix(samba:session): session closed for user nobody
+Mar 25 03:09:28 Tech-Test smbd[3231]: pam_unix(samba:session): session closed for user nobody
+Mar 25 03:09:57 Tech-Test smbd[3232]: pam_unix(samba:session): session closed for user nobody
+Mar 25 03:15:01 Tech-Test smbd[3245]: pam_unix(samba:session): session closed for user nobody
+Mar 25 08:59:48 Tech-Test mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 25 08:59:48 Tech-Test mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Mar 25 09:04:50 Tech-Test su[2041]: Successful su for nobody by root
+Mar 25 09:04:50 Tech-Test su[2041]: + ??? root:nobody
+Mar 25 09:04:50 Tech-Test su[2041]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Mar 25 09:04:51 Tech-Test su[2041]: pam_unix(su:session): session closed for user nobody
+Mar 25 09:04:51 Tech-Test su[2116]: Successful su for nobody by root
+Mar 25 09:04:51 Tech-Test su[2116]: + ??? root:nobody
+Mar 25 09:04:51 Tech-Test su[2116]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Mar 25 09:04:51 Tech-Test su[2116]: pam_unix(su:session): session closed for user nobody
+Mar 25 09:04:51 Tech-Test su[2130]: Successful su for nobody by root
+Mar 25 09:04:51 Tech-Test su[2130]: + ??? root:nobody
+Mar 25 09:04:51 Tech-Test su[2130]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Mar 25 09:05:08 Tech-Test su[2130]: pam_unix(su:session): session closed for user nobody
+Mar 25 09:14:40 Tech-Test smbd[2309]: pam_unix(samba:session): session closed for user nobody
+Mar 25 09:15:03 Tech-Test smbd[2310]: pam_unix(samba:session): session closed for user nobody
+Mar 25 09:16:04 Tech-Test mdm[1668]: pam_unix(mdm:auth): check pass; user unknown
+Mar 25 09:16:04 Tech-Test mdm[1668]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Mar 25 09:16:07 Tech-Test mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 25 09:16:07 Tech-Test mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Mar 25 09:16:42 Tech-Test mdm[1668]: pam_unix(mdm:auth): check pass; user unknown
+Mar 25 09:16:42 Tech-Test mdm[1668]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Mar 25 09:16:45 Tech-Test mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 25 09:16:45 Tech-Test mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Mar 25 09:16:49 Tech-Test mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 25 09:16:54 Tech-Test mdm[1668]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tech
+Mar 25 09:16:57 Tech-Test mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 25 09:16:57 Tech-Test mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Mar 25 09:17:01 Tech-Test mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 25 09:17:01 Tech-Test CRON[2331]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 09:17:01 Tech-Test CRON[2331]: pam_unix(cron:session): session closed for user root
+Mar 25 09:17:05 Tech-Test mdm[1668]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Mar 25 09:17:05 Tech-Test mdm[1668]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Mar 25 09:17:14 Tech-Test polkitd(authority=local): Registered Authentication Agent for unix-session:c4 (system bus name :1.40 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 25 09:26:57 Tech-Test smbd[3113]: pam_unix(samba:session): session closed for user nobody
+Mar 25 09:47:04 Tech-Test smbd[3137]: pam_unix(samba:session): session closed for user nobody
+Mar 25 09:47:26 Tech-Test sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 09:47:26 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 09:47:35 Tech-Test smbd[3139]: pam_unix(samba:session): session closed for user nobody
+Mar 25 09:47:35 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 09:59:43 Tech-Test smbd[3188]: pam_unix(samba:session): session closed for user nobody
+Mar 25 10:17:02 Tech-Test CRON[3209]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 10:17:02 Tech-Test CRON[3209]: pam_unix(cron:session): session closed for user root
+Mar 25 10:17:26 Tech-Test sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 10:17:26 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 10:17:44 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 10:19:28 Tech-Test smbd[3252]: pam_unix(samba:session): session closed for user nobody
+Mar 25 10:20:17 Tech-Test smbd[3254]: pam_unix(samba:session): session closed for user nobody
+Mar 25 10:47:26 Tech-Test sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 10:47:26 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 10:47:40 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 10:52:44 Tech-Test smbd[3333]: pam_unix(samba:session): session closed for user nobody
+Mar 25 10:53:23 Tech-Test smbd[3331]: pam_unix(samba:session): session closed for user nobody
+Mar 25 10:54:14 Tech-Test sudo:     tech : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/univentionClientScript2.sh
+Mar 25 10:54:14 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 25 10:55:54 Tech-Test smbd[4613]: pam_unix(samba:session): session closed for user nobody
+Mar 25 10:56:45 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 10:59:09 Tech-Test mdm[1649]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 25 10:59:09 Tech-Test mdm[1649]: PAM adding faulty module: pam_kwallet.so
+Mar 25 10:59:17 Tech-Test mdm[1649]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tperson"
+Mar 25 10:59:22 Tech-Test mdm[1649]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tperson
+Mar 25 10:59:23 Tech-Test mdm[1649]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tperson
+Mar 25 10:59:23 Tech-Test mdm[1649]: pam_sss(mdm:auth): received for user tperson: 12 (Authentication token is no longer valid; new one required)
+Mar 25 10:59:23 Tech-Test mdm[1649]: pam_sss(mdm:account): User info message: Password expired. Change your password now.
+Mar 25 10:59:23 Tech-Test mdm[1649]: pam_unix(mdm:chauthtok): user "tperson" does not exist in /etc/passwd
+Mar 25 11:01:43 Tech-Test mdm[1649]: pam_pwquality(mdm:chauthtok): conversation failed
+Mar 25 11:01:43 Tech-Test mdm[1649]: pam_pwquality(mdm:chauthtok): conversation failed
+Mar 25 11:01:43 Tech-Test mdm[1649]: pam_pwquality(mdm:chauthtok): pam_get_authtok_noverify returned error: Authentication token manipulation error
+Mar 25 11:01:43 Tech-Test mdm[1649]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 25 11:01:43 Tech-Test mdm[1649]: PAM adding faulty module: pam_kwallet.so
+Mar 25 11:01:56 Tech-Test mdm[1649]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ripotts"
+Mar 25 11:02:00 Tech-Test mdm[1649]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=ripotts
+Mar 25 11:02:01 Tech-Test mdm[1649]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=ripotts
+Mar 25 11:02:01 Tech-Test mdm[1649]: pam_sss(mdm:auth): received for user ripotts: 12 (Authentication token is no longer valid; new one required)
+Mar 25 11:02:01 Tech-Test mdm[1649]: pam_sss(mdm:account): User info message: Password expired. Change your password now.
+Mar 25 11:02:01 Tech-Test mdm[1649]: pam_unix(mdm:chauthtok): user "ripotts" does not exist in /etc/passwd
+Mar 25 11:17:02 Tech-Test CRON[1908]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 11:17:02 Tech-Test CRON[1908]: pam_unix(cron:session): session closed for user root
+Mar 25 11:24:52 Tech-Test mdm[1649]: pam_sss(mdm:chauthtok): Authentication failed for user ripotts: 6 (Permission denied)
+Mar 25 11:24:52 Tech-Test mdm[1649]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 25 11:24:52 Tech-Test mdm[1649]: PAM adding faulty module: pam_kwallet.so
+Mar 25 11:24:55 Tech-Test mdm[1649]: pam_unix(mdm:auth): check pass; user unknown
+Mar 25 11:24:55 Tech-Test mdm[1649]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Mar 25 11:24:58 Tech-Test mdm[1649]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 25 11:24:58 Tech-Test mdm[1649]: PAM adding faulty module: pam_kwallet.so
+Mar 25 11:25:05 Tech-Test mdm[1649]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tperson"
+Mar 25 11:25:08 Tech-Test mdm[1649]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tperson
+Mar 25 11:25:09 Tech-Test mdm[1649]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tperson
+Mar 25 11:25:09 Tech-Test mdm[1649]: pam_sss(mdm:auth): received for user tperson: 12 (Authentication token is no longer valid; new one required)
+Mar 25 11:25:09 Tech-Test mdm[1649]: pam_sss(mdm:account): User info message: Password expired. Change your password now.
+Mar 25 11:25:09 Tech-Test mdm[1649]: pam_unix(mdm:chauthtok): user "tperson" does not exist in /etc/passwd
+Mar 25 11:25:11 Tech-Test mdm[1649]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 25 11:25:11 Tech-Test mdm[1649]: PAM adding faulty module: pam_kwallet.so
+Mar 25 11:25:15 Tech-Test mdm[1649]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ripotts"
+Mar 25 11:25:19 Tech-Test mdm[1649]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=ripotts
+Mar 25 11:25:20 Tech-Test mdm[1649]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=ripotts
+Mar 25 11:25:20 Tech-Test mdm[1649]: pam_sss(mdm:auth): received for user ripotts: 12 (Authentication token is no longer valid; new one required)
+Mar 25 11:25:20 Tech-Test mdm[1649]: pam_sss(mdm:account): User info message: Password expired. Change your password now.
+Mar 25 11:25:20 Tech-Test mdm[1649]: pam_unix(mdm:chauthtok): user "ripotts" does not exist in /etc/passwd
+Mar 25 11:25:21 Tech-Test mdm[1649]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 25 11:25:21 Tech-Test mdm[1649]: PAM adding faulty module: pam_kwallet.so
+Mar 25 11:25:22 Tech-Test mdm[1649]: pam_nologin(mdm:auth): cannot determine username
+Mar 25 11:25:22 Tech-Test mdm[1649]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 25 11:25:22 Tech-Test mdm[1649]: PAM adding faulty module: pam_kwallet.so
+Mar 25 11:33:14 Tech-Test mdm[1649]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 25 11:33:17 Tech-Test mdm[1649]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Mar 25 11:33:17 Tech-Test mdm[1649]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Mar 25 11:33:24 Tech-Test polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.22 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 25 11:48:27 Tech-Test mdm[1649]: pam_unix(mdm:session): session closed for user tech
+Mar 25 11:48:27 Tech-Test polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.22, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 25 11:48:31 Tech-Test mdm[2811]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 25 11:48:31 Tech-Test mdm[2811]: PAM adding faulty module: pam_kwallet.so
+Mar 25 11:50:06 Tech-Test mdm[2811]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "msabin"
+Mar 25 11:50:16 Tech-Test mdm[2811]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=msabin
+Mar 25 11:50:17 Tech-Test mdm[2811]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=msabin
+Mar 25 11:50:17 Tech-Test mdm[2811]: pam_sss(mdm:auth): received for user msabin: 12 (Authentication token is no longer valid; new one required)
+Mar 25 11:50:17 Tech-Test mdm[2811]: pam_sss(mdm:account): User info message: Password expired. Change your password now.
+Mar 25 11:50:17 Tech-Test mdm[2811]: pam_unix(mdm:chauthtok): user "msabin" does not exist in /etc/passwd
+Mar 25 11:50:29 Tech-Test mdm[2811]: pam_unix(mdm:chauthtok): user "msabin" does not exist in /etc/passwd
+Mar 25 11:50:30 Tech-Test mdm[2811]: pam_sss(mdm:chauthtok): Password change failed for user msabin: 20 (Authentication token manipulation error)
+Mar 25 11:50:30 Tech-Test mdm[2811]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 25 11:50:30 Tech-Test mdm[2811]: PAM adding faulty module: pam_kwallet.so
+Mar 25 11:50:36 Tech-Test mdm[2811]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "msabin"
+Mar 25 11:50:39 Tech-Test mdm[2811]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=msabin
+Mar 25 11:50:39 Tech-Test mdm[2811]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=msabin
+Mar 25 11:50:39 Tech-Test mdm[2811]: pam_unix(mdm:session): session opened for user msabin by (uid=0)
+Mar 25 11:50:39 Tech-Test mdm[2811]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Mar 25 11:50:46 Tech-Test polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.58 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 25 11:53:22 Tech-Test sudo: pam_unix(sudo:auth): authentication failure; logname=msabin uid=2063 euid=0 tty=/dev/pts/0 ruser=msabin rhost=  user=msabin
+Mar 25 11:53:23 Tech-Test sudo: pam_sss(sudo:auth): authentication success; logname=msabin uid=2063 euid=0 tty=/dev/pts/0 ruser=msabin rhost= user=msabin
+Mar 25 11:53:23 Tech-Test sudo:   msabin : command not allowed ; TTY=pts/0 ; PWD=/home/msabin ; USER=root ; COMMAND=/sbin/dhclient -v
+Mar 25 11:53:43 Tech-Test sudo: pam_unix(sudo:auth): authentication failure; logname=msabin uid=2063 euid=0 tty=/dev/pts/0 ruser=msabin rhost=  user=msabin
+Mar 25 11:53:44 Tech-Test sudo: pam_sss(sudo:auth): authentication success; logname=msabin uid=2063 euid=0 tty=/dev/pts/0 ruser=msabin rhost= user=msabin
+Mar 25 11:53:44 Tech-Test sudo:   msabin : command not allowed ; TTY=pts/0 ; PWD=/home/msabin ; USER=root ; COMMAND=/sbin/dhclient -v
+Mar 25 11:55:31 Tech-Test sudo: pam_unix(sudo:auth): authentication failure; logname=msabin uid=2063 euid=0 tty=/dev/pts/0 ruser=msabin rhost=  user=msabin
+Mar 25 11:55:31 Tech-Test sudo: pam_sss(sudo:auth): authentication failure; logname=msabin uid=2063 euid=0 tty=/dev/pts/0 ruser=msabin rhost= user=msabin
+Mar 25 11:55:31 Tech-Test sudo: pam_sss(sudo:auth): received for user msabin: 4 (System error)
+Mar 25 11:55:39 Tech-Test sudo: pam_sss(sudo:auth): authentication failure; logname=msabin uid=2063 euid=0 tty=/dev/pts/0 ruser=msabin rhost= user=msabin
+Mar 25 11:55:39 Tech-Test sudo: pam_sss(sudo:auth): received for user msabin: 4 (System error)
+Mar 25 11:56:17 Tech-Test sudo: pam_unix(sudo:auth): conversation failed
+Mar 25 11:56:17 Tech-Test sudo: pam_unix(sudo:auth): auth could not identify password for [msabin]
+Mar 25 11:56:17 Tech-Test sudo: pam_sss(sudo:auth): authentication failure; logname=msabin uid=2063 euid=0 tty=/dev/pts/0 ruser=msabin rhost= user=msabin
+Mar 25 11:56:17 Tech-Test sudo: pam_sss(sudo:auth): received for user msabin: 7 (Authentication failure)
+Mar 25 11:56:17 Tech-Test sudo:   msabin : command not allowed ; TTY=pts/0 ; PWD=/home/msabin ; USER=root ; COMMAND=/sbin/dhclient -v -r
+Mar 25 12:02:02 Tech-Test sudo: pam_unix(sudo:auth): conversation failed
+Mar 25 12:02:02 Tech-Test sudo: pam_unix(sudo:auth): auth could not identify password for [msabin]
+Mar 25 12:02:02 Tech-Test sudo: pam_sss(sudo:auth): authentication failure; logname= uid=2063 euid=0 tty= ruser=msabin rhost= user=msabin
+Mar 25 12:02:02 Tech-Test sudo: pam_sss(sudo:auth): received for user msabin: 7 (Authentication failure)
+Mar 25 12:02:02 Tech-Test sudo:   msabin : command not allowed ; TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/sbin/mdmsetup
+Mar 25 12:17:01 Tech-Test CRON[3543]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 12:17:01 Tech-Test CRON[3543]: pam_unix(cron:session): session closed for user root
+Mar 25 12:20:56 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 12:20:56 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 12:21:30 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 12:35:22 Tech-Test mdm[2811]: pam_unix(mdm:session): session closed for user msabin
+Mar 25 12:35:23 Tech-Test polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.58, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 25 12:35:26 Tech-Test mdm[3635]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 25 12:35:26 Tech-Test mdm[3635]: PAM adding faulty module: pam_kwallet.so
+Mar 25 13:10:13 Tech-Test mdm[3635]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "msabin"
+Mar 25 13:10:15 Tech-Test mdm[3635]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=msabin
+Mar 25 13:10:16 Tech-Test mdm[3635]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=msabin
+Mar 25 13:10:16 Tech-Test mdm[3635]: pam_unix(mdm:session): session opened for user msabin by (uid=0)
+Mar 25 13:10:16 Tech-Test mdm[3635]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Mar 25 13:10:23 Tech-Test polkitd(authority=local): Registered Authentication Agent for unix-session:c3 (system bus name :1.81 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 25 13:17:01 Tech-Test CRON[4204]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 13:17:01 Tech-Test CRON[4204]: pam_unix(cron:session): session closed for user root
+Mar 25 13:40:33 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 13:40:33 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 13:40:46 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 14:10:33 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 14:10:33 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 14:10:48 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 14:17:01 Tech-Test CRON[4396]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 14:17:01 Tech-Test CRON[4396]: pam_unix(cron:session): session closed for user root
+Mar 25 14:39:46 Tech-Test smbd[4432]: pam_unix(samba:session): session closed for user nobody
+Mar 25 14:40:33 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 14:40:33 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 14:40:46 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 15:10:33 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 15:10:33 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 15:11:48 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 15:12:22 Tech-Test smbd[4549]: pam_unix(samba:session): session closed for user nobody
+Mar 25 15:17:01 Tech-Test CRON[4556]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 15:17:01 Tech-Test CRON[4556]: pam_unix(cron:session): session closed for user root
+Mar 25 15:40:33 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 15:40:33 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 15:41:49 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 15:45:06 Tech-Test smbd[4630]: pam_unix(samba:session): session closed for user nobody
+Mar 25 16:10:33 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 16:10:33 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 16:10:47 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 16:17:01 Tech-Test CRON[4706]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 16:17:01 Tech-Test CRON[4706]: pam_unix(cron:session): session closed for user root
+Mar 25 16:35:15 Tech-Test smbd[4732]: pam_unix(samba:session): session closed for user nobody
+Mar 25 16:40:33 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 16:40:33 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 16:40:49 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 16:48:13 Tech-Test smbd[4785]: pam_unix(samba:session): session closed for user nobody
+Mar 25 17:07:27 Tech-Test smbd[4813]: pam_unix(samba:session): session closed for user nobody
+Mar 25 17:10:34 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 17:10:34 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 17:10:49 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 17:17:01 Tech-Test CRON[4863]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 17:17:01 Tech-Test CRON[4863]: pam_unix(cron:session): session closed for user root
+Mar 25 17:20:25 Tech-Test smbd[4871]: pam_unix(samba:session): session closed for user nobody
+Mar 25 17:39:44 Tech-Test smbd[4904]: pam_unix(samba:session): session closed for user nobody
+Mar 25 17:40:34 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 17:40:34 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 17:42:45 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 17:52:49 Tech-Test smbd[4961]: pam_unix(samba:session): session closed for user nobody
+Mar 25 18:10:34 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 18:10:34 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 18:11:56 Tech-Test smbd[5024]: pam_unix(samba:session): session closed for user nobody
+Mar 25 18:12:45 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 18:17:02 Tech-Test CRON[5036]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 18:17:02 Tech-Test CRON[5036]: pam_unix(cron:session): session closed for user root
+Mar 25 18:24:55 Tech-Test smbd[5049]: pam_unix(samba:session): session closed for user nobody
+Mar 25 18:40:34 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 18:40:34 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 18:40:52 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 18:44:14 Tech-Test smbd[5111]: pam_unix(samba:session): session closed for user nobody
+Mar 25 18:57:13 Tech-Test smbd[5127]: pam_unix(samba:session): session closed for user nobody
+Mar 25 19:10:34 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 19:10:34 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 19:10:49 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 19:16:26 Tech-Test smbd[5192]: pam_unix(samba:session): session closed for user nobody
+Mar 25 19:17:01 Tech-Test CRON[5194]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 19:17:01 Tech-Test CRON[5194]: pam_unix(cron:session): session closed for user root
+Mar 25 19:29:25 Tech-Test smbd[5218]: pam_unix(samba:session): session closed for user nobody
+Mar 25 19:40:34 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 19:40:34 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 19:40:51 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 19:48:44 Tech-Test smbd[5278]: pam_unix(samba:session): session closed for user nobody
+Mar 25 20:01:43 Tech-Test smbd[5296]: pam_unix(samba:session): session closed for user nobody
+Mar 25 20:10:34 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 20:10:34 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 20:10:48 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 20:17:01 Tech-Test CRON[5352]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 20:17:01 Tech-Test CRON[5352]: pam_unix(cron:session): session closed for user root
+Mar 25 20:20:56 Tech-Test smbd[5361]: pam_unix(samba:session): session closed for user nobody
+Mar 25 20:33:55 Tech-Test smbd[5379]: pam_unix(samba:session): session closed for user nobody
+Mar 25 20:40:34 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 20:40:34 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 20:40:50 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 20:53:14 Tech-Test smbd[5439]: pam_unix(samba:session): session closed for user nobody
+Mar 25 21:06:07 Tech-Test smbd[5457]: pam_unix(samba:session): session closed for user nobody
+Mar 25 21:10:34 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 21:10:34 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 21:10:53 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 21:17:01 Tech-Test CRON[5533]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 21:17:01 Tech-Test CRON[5533]: pam_unix(cron:session): session closed for user root
+Mar 25 21:25:26 Tech-Test smbd[5554]: pam_unix(samba:session): session closed for user nobody
+Mar 25 21:38:24 Tech-Test smbd[5571]: pam_unix(samba:session): session closed for user nobody
+Mar 25 21:40:34 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 21:40:34 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 21:40:53 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 21:57:44 Tech-Test smbd[5637]: pam_unix(samba:session): session closed for user nobody
+Mar 25 22:10:34 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 22:10:34 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 22:10:36 Tech-Test smbd[5657]: pam_unix(samba:session): session closed for user nobody
+Mar 25 22:11:47 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 22:17:01 Tech-Test CRON[5701]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 22:17:01 Tech-Test CRON[5701]: pam_unix(cron:session): session closed for user root
+Mar 25 22:29:56 Tech-Test smbd[5721]: pam_unix(samba:session): session closed for user nobody
+Mar 25 22:40:34 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 22:40:34 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 22:40:48 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 22:42:54 Tech-Test smbd[5774]: pam_unix(samba:session): session closed for user nobody
+Mar 25 23:02:14 Tech-Test smbd[5799]: pam_unix(samba:session): session closed for user nobody
+Mar 25 23:10:35 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 23:10:35 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 23:12:44 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 23:15:06 Tech-Test smbd[5853]: pam_unix(samba:session): session closed for user nobody
+Mar 25 23:17:01 Tech-Test CRON[5856]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 25 23:17:01 Tech-Test CRON[5856]: pam_unix(cron:session): session closed for user root
+Mar 25 23:34:26 Tech-Test smbd[5888]: pam_unix(samba:session): session closed for user nobody
+Mar 25 23:40:35 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 25 23:40:35 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 25 23:40:49 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 25 23:47:18 Tech-Test smbd[5939]: pam_unix(samba:session): session closed for user nobody
+Mar 26 00:06:44 Tech-Test smbd[5966]: pam_unix(samba:session): session closed for user nobody
+Mar 26 00:10:35 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 00:10:35 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 00:12:43 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 00:17:01 Tech-Test CRON[6016]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 00:17:01 Tech-Test CRON[6016]: pam_unix(cron:session): session closed for user root
+Mar 26 00:19:36 Tech-Test smbd[6024]: pam_unix(samba:session): session closed for user nobody
+Mar 26 00:40:35 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 00:40:35 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 00:42:45 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 00:43:26 Tech-Test smbd[6054]: pam_unix(samba:session): session closed for user nobody
+Mar 26 00:51:54 Tech-Test smbd[6106]: pam_unix(samba:session): session closed for user nobody
+Mar 26 01:10:35 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 01:10:35 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 01:10:50 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 01:11:14 Tech-Test smbd[6173]: pam_unix(samba:session): session closed for user nobody
+Mar 26 01:17:01 Tech-Test CRON[6181]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 01:17:01 Tech-Test CRON[6181]: pam_unix(cron:session): session closed for user root
+Mar 26 01:24:06 Tech-Test smbd[6195]: pam_unix(samba:session): session closed for user nobody
+Mar 26 01:40:35 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 01:40:35 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 01:41:49 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 01:43:25 Tech-Test smbd[6257]: pam_unix(samba:session): session closed for user nobody
+Mar 26 01:56:24 Tech-Test smbd[6275]: pam_unix(samba:session): session closed for user nobody
+Mar 26 02:10:35 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 02:10:35 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 02:10:50 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 02:15:43 Tech-Test smbd[6337]: pam_unix(samba:session): session closed for user nobody
+Mar 26 02:17:01 Tech-Test CRON[6339]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 02:17:01 Tech-Test CRON[6339]: pam_unix(cron:session): session closed for user root
+Mar 26 02:28:42 Tech-Test smbd[6362]: pam_unix(samba:session): session closed for user nobody
+Mar 26 02:40:35 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 02:40:35 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 02:40:56 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 02:49:37 Tech-Test smbd[6423]: pam_unix(samba:session): session closed for user nobody
+Mar 26 03:00:01 Tech-Test CRON[6440]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 03:02:44 Tech-Test smbd[6490]: pam_unix(samba:session): session closed for user nobody
+Mar 26 03:10:39 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 03:10:39 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 03:13:24 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 03:17:02 Tech-Test CRON[6558]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 03:17:02 Tech-Test CRON[6558]: pam_unix(cron:session): session closed for user root
+Mar 26 03:21:40 Tech-Test mdm[1654]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 26 03:21:40 Tech-Test mdm[1654]: PAM adding faulty module: pam_kwallet.so
+Mar 26 03:26:37 Tech-Test su[2045]: Successful su for nobody by root
+Mar 26 03:26:37 Tech-Test su[2045]: + ??? root:nobody
+Mar 26 03:26:38 Tech-Test su[2045]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Mar 26 03:26:38 Tech-Test su[2045]: pam_unix(su:session): session closed for user nobody
+Mar 26 03:26:38 Tech-Test su[2121]: Successful su for nobody by root
+Mar 26 03:26:38 Tech-Test su[2121]: + ??? root:nobody
+Mar 26 03:26:38 Tech-Test su[2121]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Mar 26 03:26:38 Tech-Test su[2121]: pam_unix(su:session): session closed for user nobody
+Mar 26 03:26:38 Tech-Test su[2135]: Successful su for nobody by root
+Mar 26 03:26:38 Tech-Test su[2135]: + ??? root:nobody
+Mar 26 03:26:38 Tech-Test su[2135]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Mar 26 03:26:56 Tech-Test su[2135]: pam_unix(su:session): session closed for user nobody
+Mar 26 04:17:01 Tech-Test CRON[2374]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 04:17:01 Tech-Test CRON[2374]: pam_unix(cron:session): session closed for user root
+Mar 26 04:29:27 Tech-Test smbd[2390]: pam_unix(samba:session): session closed for user nobody
+Mar 26 09:48:21 Tech-Test mdm[1696]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 26 09:48:21 Tech-Test mdm[1696]: PAM adding faulty module: pam_kwallet.so
+Mar 26 09:50:29 Tech-Test mdm[1696]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "msabin"
+Mar 26 09:50:32 Tech-Test mdm[1696]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=msabin
+Mar 26 09:50:33 Tech-Test mdm[1696]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=msabin
+Mar 26 09:50:33 Tech-Test mdm[1696]: pam_unix(mdm:session): session opened for user msabin by (uid=0)
+Mar 26 09:50:33 Tech-Test mdm[1696]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Mar 26 09:50:40 Tech-Test polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.22 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 26 09:52:52 Tech-Test smbd[2917]: pam_unix(samba:session): session closed for user nobody
+Mar 26 09:56:20 Tech-Test smbd[3367]: pam_unix(samba:session): session closed for user nobody
+Mar 26 10:17:01 Tech-Test CRON[3393]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 10:17:01 Tech-Test CRON[3393]: pam_unix(cron:session): session closed for user root
+Mar 26 10:17:21 Tech-Test smbd[3396]: pam_unix(samba:session): session closed for user nobody
+Mar 26 10:20:53 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 10:20:53 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 10:21:01 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 10:25:09 Tech-Test smbd[3441]: pam_unix(samba:session): session closed for user nobody
+Mar 26 10:28:49 Tech-Test smbd[3446]: pam_unix(samba:session): session closed for user nobody
+Mar 26 10:49:50 Tech-Test smbd[3478]: pam_unix(samba:session): session closed for user nobody
+Mar 26 10:50:52 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 10:50:52 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 10:51:08 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 10:57:45 Tech-Test smbd[3526]: pam_unix(samba:session): session closed for user nobody
+Mar 26 11:01:36 Tech-Test smbd[3533]: pam_unix(samba:session): session closed for user nobody
+Mar 26 11:17:01 Tech-Test CRON[3553]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 11:17:01 Tech-Test CRON[3553]: pam_unix(cron:session): session closed for user root
+Mar 26 11:20:53 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 11:20:53 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 11:21:09 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 11:22:40 Tech-Test smbd[3604]: pam_unix(samba:session): session closed for user nobody
+Mar 26 11:30:09 Tech-Test smbd[3612]: pam_unix(samba:session): session closed for user nobody
+Mar 26 11:34:19 Tech-Test smbd[3620]: pam_unix(samba:session): session closed for user nobody
+Mar 26 11:50:53 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 11:50:53 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 11:51:07 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 11:55:22 Tech-Test smbd[3690]: pam_unix(samba:session): session closed for user nobody
+Mar 26 12:02:39 Tech-Test smbd[3702]: pam_unix(samba:session): session closed for user nobody
+Mar 26 12:07:23 Tech-Test smbd[3709]: pam_unix(samba:session): session closed for user nobody
+Mar 26 12:17:01 Tech-Test CRON[3722]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 12:17:02 Tech-Test CRON[3722]: pam_unix(cron:session): session closed for user root
+Mar 26 12:20:53 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 12:20:53 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 12:21:06 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 12:28:02 Tech-Test smbd[3775]: pam_unix(samba:session): session closed for user nobody
+Mar 26 12:34:57 Tech-Test smbd[3786]: pam_unix(samba:session): session closed for user nobody
+Mar 26 12:42:47 Tech-Test smbd[3802]: pam_unix(samba:session): session closed for user nobody
+Mar 26 12:50:53 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 12:50:53 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 12:51:08 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 13:00:45 Tech-Test smbd[3866]: pam_unix(samba:session): session closed for user nobody
+Mar 26 13:07:33 Tech-Test smbd[3878]: pam_unix(samba:session): session closed for user nobody
+Mar 26 13:17:01 Tech-Test CRON[3891]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 13:17:01 Tech-Test CRON[3891]: pam_unix(cron:session): session closed for user root
+Mar 26 13:20:53 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 13:20:53 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 13:21:05 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 13:33:27 Tech-Test smbd[3951]: pam_unix(samba:session): session closed for user nobody
+Mar 26 13:44:15 Tech-Test smbd[3959]: pam_unix(samba:session): session closed for user nobody
+Mar 26 13:50:53 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 13:50:53 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 13:51:10 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 14:06:00 Tech-Test smbd[4048]: pam_unix(samba:session): session closed for user nobody
+Mar 26 14:12:03 Tech-Test smbd[4057]: pam_unix(samba:session): session closed for user nobody
+Mar 26 14:17:01 Tech-Test CRON[4064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 14:17:01 Tech-Test CRON[4064]: pam_unix(cron:session): session closed for user root
+Mar 26 14:20:53 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 14:20:53 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 14:21:14 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 14:23:43 Tech-Test smbd[4111]: pam_unix(samba:session): session closed for user nobody
+Mar 26 14:38:36 Tech-Test smbd[4132]: pam_unix(samba:session): session closed for user nobody
+Mar 26 14:40:46 Tech-Test smbd[4135]: pam_unix(samba:session): session closed for user nobody
+Mar 26 14:44:45 Tech-Test smbd[4142]: pam_unix(samba:session): session closed for user nobody
+Mar 26 14:50:53 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 14:50:53 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 14:51:05 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 14:54:49 Tech-Test smbd[4191]: pam_unix(samba:session): session closed for user nobody
+Mar 26 15:11:17 Tech-Test smbd[4212]: pam_unix(samba:session): session closed for user nobody
+Mar 26 15:13:15 Tech-Test smbd[4215]: pam_unix(samba:session): session closed for user nobody
+Mar 26 15:16:51 Tech-Test smbd[4222]: pam_unix(samba:session): session closed for user nobody
+Mar 26 15:17:01 Tech-Test CRON[4223]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 15:17:01 Tech-Test CRON[4223]: pam_unix(cron:session): session closed for user root
+Mar 26 15:20:53 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 15:20:53 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 15:21:05 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 15:27:06 Tech-Test smbd[4277]: pam_unix(samba:session): session closed for user nobody
+Mar 26 15:43:50 Tech-Test smbd[4302]: pam_unix(samba:session): session closed for user nobody
+Mar 26 15:49:15 Tech-Test smbd[4309]: pam_unix(samba:session): session closed for user nobody
+Mar 26 15:50:53 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 15:50:53 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 15:51:08 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 15:59:30 Tech-Test smbd[4364]: pam_unix(samba:session): session closed for user nobody
+Mar 26 16:16:26 Tech-Test smbd[4388]: pam_unix(samba:session): session closed for user nobody
+Mar 26 16:17:01 Tech-Test CRON[4390]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 16:17:01 Tech-Test CRON[4390]: pam_unix(cron:session): session closed for user root
+Mar 26 16:20:53 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 16:20:53 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 16:21:07 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 16:21:32 Tech-Test smbd[4436]: pam_unix(samba:session): session closed for user nobody
+Mar 26 16:31:42 Tech-Test smbd[4450]: pam_unix(samba:session): session closed for user nobody
+Mar 26 16:35:28 Tech-Test smbd[4455]: pam_unix(samba:session): session closed for user nobody
+Mar 26 16:49:11 Tech-Test smbd[4473]: pam_unix(samba:session): session closed for user nobody
+Mar 26 16:50:53 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 16:50:53 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 16:51:05 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 16:53:50 Tech-Test smbd[4513]: pam_unix(samba:session): session closed for user nobody
+Mar 26 17:05:42 Tech-Test smbd[4529]: pam_unix(samba:session): session closed for user nobody
+Mar 26 17:07:46 Tech-Test smbd[4534]: pam_unix(samba:session): session closed for user nobody
+Mar 26 17:17:01 Tech-Test CRON[4547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 17:17:01 Tech-Test CRON[4547]: pam_unix(cron:session): session closed for user root
+Mar 26 17:20:53 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 17:20:53 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 17:21:06 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 17:21:41 Tech-Test smbd[4592]: pam_unix(samba:session): session closed for user nobody
+Mar 26 17:26:08 Tech-Test smbd[4599]: pam_unix(samba:session): session closed for user nobody
+Mar 26 17:36:24 Tech-Test smbd[4612]: pam_unix(samba:session): session closed for user nobody
+Mar 26 17:40:04 Tech-Test smbd[4618]: pam_unix(samba:session): session closed for user nobody
+Mar 26 17:50:54 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 17:50:54 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 17:51:05 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 17:55:09 Tech-Test smbd[4675]: pam_unix(samba:session): session closed for user nobody
+Mar 26 17:58:32 Tech-Test smbd[4681]: pam_unix(samba:session): session closed for user nobody
+Mar 26 18:08:48 Tech-Test smbd[4695]: pam_unix(samba:session): session closed for user nobody
+Mar 26 18:12:28 Tech-Test smbd[4700]: pam_unix(samba:session): session closed for user nobody
+Mar 26 18:17:01 Tech-Test CRON[4708]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 18:17:01 Tech-Test CRON[4708]: pam_unix(cron:session): session closed for user root
+Mar 26 18:20:54 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 18:20:54 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 18:21:08 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 18:30:56 Tech-Test smbd[4766]: pam_unix(samba:session): session closed for user nobody
+Mar 26 18:41:12 Tech-Test smbd[4779]: pam_unix(samba:session): session closed for user nobody
+Mar 26 18:44:52 Tech-Test smbd[4787]: pam_unix(samba:session): session closed for user nobody
+Mar 26 18:50:54 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 18:50:54 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 18:51:07 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 19:03:14 Tech-Test smbd[4850]: pam_unix(samba:session): session closed for user nobody
+Mar 26 19:15:07 Tech-Test smbd[4865]: pam_unix(samba:session): session closed for user nobody
+Mar 26 19:17:01 Tech-Test CRON[4872]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 19:17:01 Tech-Test CRON[4872]: pam_unix(cron:session): session closed for user root
+Mar 26 19:17:04 Tech-Test smbd[4871]: pam_unix(samba:session): session closed for user nobody
+Mar 26 19:20:54 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 19:20:54 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 19:21:10 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 19:35:38 Tech-Test smbd[4935]: pam_unix(samba:session): session closed for user nobody
+Mar 26 19:45:48 Tech-Test smbd[4948]: pam_unix(samba:session): session closed for user nobody
+Mar 26 19:49:28 Tech-Test smbd[4953]: pam_unix(samba:session): session closed for user nobody
+Mar 26 19:50:54 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 19:50:54 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 19:51:15 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 20:07:50 Tech-Test smbd[5013]: pam_unix(samba:session): session closed for user nobody
+Mar 26 20:17:02 Tech-Test CRON[5026]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 20:17:02 Tech-Test CRON[5026]: pam_unix(cron:session): session closed for user root
+Mar 26 20:18:00 Tech-Test smbd[5030]: pam_unix(samba:session): session closed for user nobody
+Mar 26 20:20:54 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 20:20:54 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 20:21:07 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 20:21:46 Tech-Test smbd[5072]: pam_unix(samba:session): session closed for user nobody
+Mar 26 20:40:08 Tech-Test smbd[5096]: pam_unix(samba:session): session closed for user nobody
+Mar 26 20:50:18 Tech-Test smbd[5109]: pam_unix(samba:session): session closed for user nobody
+Mar 26 20:50:54 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 20:50:54 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 20:51:06 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 20:54:04 Tech-Test smbd[5153]: pam_unix(samba:session): session closed for user nobody
+Mar 26 21:12:26 Tech-Test smbd[5176]: pam_unix(samba:session): session closed for user nobody
+Mar 26 21:17:01 Tech-Test CRON[5183]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 21:17:01 Tech-Test CRON[5183]: pam_unix(cron:session): session closed for user root
+Mar 26 21:20:54 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 21:20:54 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 21:21:07 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 21:22:42 Tech-Test smbd[5231]: pam_unix(samba:session): session closed for user nobody
+Mar 26 21:26:16 Tech-Test smbd[5241]: pam_unix(samba:session): session closed for user nobody
+Mar 26 21:44:44 Tech-Test smbd[5283]: pam_unix(samba:session): session closed for user nobody
+Mar 26 21:50:54 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 21:50:54 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 21:51:09 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 21:54:54 Tech-Test smbd[5335]: pam_unix(samba:session): session closed for user nobody
+Mar 26 21:58:34 Tech-Test smbd[5347]: pam_unix(samba:session): session closed for user nobody
+Mar 26 22:17:01 Tech-Test CRON[5384]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 22:17:01 Tech-Test CRON[5384]: pam_unix(cron:session): session closed for user root
+Mar 26 22:17:02 Tech-Test smbd[5383]: pam_unix(samba:session): session closed for user nobody
+Mar 26 22:20:54 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 22:20:54 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 22:21:09 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 22:27:12 Tech-Test smbd[5436]: pam_unix(samba:session): session closed for user nobody
+Mar 26 22:30:51 Tech-Test smbd[5441]: pam_unix(samba:session): session closed for user nobody
+Mar 26 22:49:20 Tech-Test smbd[5476]: pam_unix(samba:session): session closed for user nobody
+Mar 26 22:50:54 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 22:50:54 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 22:51:08 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 22:59:30 Tech-Test smbd[5532]: pam_unix(samba:session): session closed for user nobody
+Mar 26 23:04:51 Tech-Test smbd[5539]: pam_unix(samba:session): session closed for user nobody
+Mar 26 23:17:01 Tech-Test CRON[5560]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 26 23:17:01 Tech-Test CRON[5560]: pam_unix(cron:session): session closed for user root
+Mar 26 23:20:54 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 23:20:54 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 23:21:06 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 23:21:38 Tech-Test smbd[5606]: pam_unix(samba:session): session closed for user nobody
+Mar 26 23:31:48 Tech-Test smbd[5622]: pam_unix(samba:session): session closed for user nobody
+Mar 26 23:35:27 Tech-Test smbd[5627]: pam_unix(samba:session): session closed for user nobody
+Mar 26 23:50:55 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 26 23:50:55 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 26 23:51:09 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 26 23:53:56 Tech-Test smbd[5688]: pam_unix(samba:session): session closed for user nobody
+Mar 27 00:04:06 Tech-Test smbd[5702]: pam_unix(samba:session): session closed for user nobody
+Mar 27 00:07:45 Tech-Test smbd[5707]: pam_unix(samba:session): session closed for user nobody
+Mar 27 00:17:01 Tech-Test CRON[5720]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 00:17:01 Tech-Test CRON[5720]: pam_unix(cron:session): session closed for user root
+Mar 27 00:20:55 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 27 00:20:55 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 00:21:06 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 00:26:14 Tech-Test smbd[5771]: pam_unix(samba:session): session closed for user nobody
+Mar 27 00:36:18 Tech-Test smbd[5785]: pam_unix(samba:session): session closed for user nobody
+Mar 27 00:40:03 Tech-Test smbd[5790]: pam_unix(samba:session): session closed for user nobody
+Mar 27 00:50:55 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 27 00:50:55 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 00:51:10 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 00:58:32 Tech-Test smbd[5851]: pam_unix(samba:session): session closed for user nobody
+Mar 27 01:08:42 Tech-Test smbd[5875]: pam_unix(samba:session): session closed for user nobody
+Mar 27 01:12:15 Tech-Test smbd[5889]: pam_unix(samba:session): session closed for user nobody
+Mar 27 01:17:01 Tech-Test CRON[5900]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 01:17:01 Tech-Test CRON[5900]: pam_unix(cron:session): session closed for user root
+Mar 27 01:20:55 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 27 01:20:55 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 01:21:08 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 01:30:50 Tech-Test smbd[5955]: pam_unix(samba:session): session closed for user nobody
+Mar 27 01:40:54 Tech-Test smbd[5969]: pam_unix(samba:session): session closed for user nobody
+Mar 27 01:49:15 Tech-Test smbd[5975]: pam_unix(samba:session): session closed for user nobody
+Mar 27 01:50:55 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 27 01:50:55 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 01:51:08 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 02:03:08 Tech-Test smbd[6034]: pam_unix(samba:session): session closed for user nobody
+Mar 27 02:13:18 Tech-Test smbd[6052]: pam_unix(samba:session): session closed for user nobody
+Mar 27 02:16:51 Tech-Test smbd[6059]: pam_unix(samba:session): session closed for user nobody
+Mar 27 02:17:01 Tech-Test CRON[6060]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 02:17:01 Tech-Test CRON[6060]: pam_unix(cron:session): session closed for user root
+Mar 27 02:20:55 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 27 02:20:55 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 02:21:08 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 02:35:25 Tech-Test smbd[6122]: pam_unix(samba:session): session closed for user nobody
+Mar 27 02:45:30 Tech-Test smbd[6136]: pam_unix(samba:session): session closed for user nobody
+Mar 27 02:50:45 Tech-Test smbd[6141]: pam_unix(samba:session): session closed for user nobody
+Mar 27 02:50:55 Tech-Test sudo:   msabin : TTY=unknown ; PWD=/home/msabin ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 27 02:50:55 Tech-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 02:51:08 Tech-Test sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 03:00:01 Tech-Test CRON[6192]: pam_unix(cron:session): session opened for user root by (uid=0)

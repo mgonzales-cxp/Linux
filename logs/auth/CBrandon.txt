@@ -1,0 +1,1048 @@
+Jul 21 06:00:01 Cbrandon CRON[3762]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:00:07 Cbrandon CRON[3762]: pam_unix(cron:session): session closed for user root
+Jul 21 06:05:01 Cbrandon CRON[3821]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:05:09 Cbrandon CRON[3821]: pam_unix(cron:session): session closed for user root
+Jul 21 06:10:01 Cbrandon CRON[3876]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:10:09 Cbrandon CRON[3876]: pam_unix(cron:session): session closed for user root
+Jul 21 06:15:01 Cbrandon CRON[3936]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:15:10 Cbrandon CRON[3936]: pam_unix(cron:session): session closed for user root
+Jul 21 06:17:01 Cbrandon CRON[3987]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:17:01 Cbrandon CRON[3987]: pam_unix(cron:session): session closed for user root
+Jul 21 06:17:41 Cbrandon sshd[3985]: Did not receive identification string from 192.168.106.16
+Jul 21 06:18:22 Cbrandon sshd[3995]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 06:18:23 Cbrandon sshd[3996]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 06:18:24 Cbrandon sshd[4003]: fatal: no hostkey alg [preauth]
+Jul 21 06:18:25 Cbrandon sshd[4005]: fatal: no hostkey alg [preauth]
+Jul 21 06:18:25 Cbrandon sshd[4001]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:18:25 Cbrandon sshd[3999]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:18:25 Cbrandon sshd[3997]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:20:01 Cbrandon CRON[4010]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:20:04 Cbrandon CRON[4010]: pam_unix(cron:session): session closed for user root
+Jul 21 06:22:29 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 06:22:29 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 06:22:34 Cbrandon sshd[4061]: Did not receive identification string from 192.168.106.16
+Jul 21 06:22:57 Cbrandon sshd[4100]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 06:22:58 Cbrandon sshd[4107]: fatal: no hostkey alg [preauth]
+Jul 21 06:22:58 Cbrandon sshd[4109]: fatal: no hostkey alg [preauth]
+Jul 21 06:22:59 Cbrandon sshd[4101]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:22:59 Cbrandon sshd[4103]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:22:59 Cbrandon sshd[4105]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:23:01 Cbrandon sshd[4111]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 06:24:36 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 06:25:01 Cbrandon CRON[4121]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:25:01 Cbrandon CRON[4120]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:25:01 Cbrandon CRON[4121]: pam_unix(cron:session): session closed for user root
+Jul 21 06:25:03 Cbrandon CRON[4120]: pam_unix(cron:session): session closed for user root
+Jul 21 06:30:01 Cbrandon CRON[4179]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:30:08 Cbrandon CRON[4179]: pam_unix(cron:session): session closed for user root
+Jul 21 06:35:01 Cbrandon CRON[4239]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:35:08 Cbrandon CRON[4239]: pam_unix(cron:session): session closed for user root
+Jul 21 06:39:15 Cbrandon sshd[4295]: Did not receive identification string from 192.168.106.16
+Jul 21 06:39:49 Cbrandon sshd[4299]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 06:39:50 Cbrandon sshd[4307]: fatal: no hostkey alg [preauth]
+Jul 21 06:39:51 Cbrandon sshd[4309]: fatal: no hostkey alg [preauth]
+Jul 21 06:39:51 Cbrandon sshd[4300]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:39:51 Cbrandon sshd[4305]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:39:51 Cbrandon sshd[4303]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:39:51 Cbrandon sshd[4311]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 06:40:01 Cbrandon CRON[4312]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:40:08 Cbrandon CRON[4312]: pam_unix(cron:session): session closed for user root
+Jul 21 06:44:41 Cbrandon sshd[4366]: Did not receive identification string from 192.168.106.16
+Jul 21 06:44:57 Cbrandon sshd[4372]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 06:44:59 Cbrandon sshd[4379]: fatal: no hostkey alg [preauth]
+Jul 21 06:44:59 Cbrandon sshd[4381]: fatal: no hostkey alg [preauth]
+Jul 21 06:44:59 Cbrandon sshd[4377]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:44:59 Cbrandon sshd[4375]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:44:59 Cbrandon sshd[4373]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:45:01 Cbrandon CRON[4383]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:45:05 Cbrandon CRON[4383]: pam_unix(cron:session): session closed for user root
+Jul 21 06:45:11 Cbrandon sshd[4431]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 06:50:01 Cbrandon CRON[4450]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:50:07 Cbrandon CRON[4450]: pam_unix(cron:session): session closed for user root
+Jul 21 06:51:46 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 06:51:46 Cbrandon systemd-logind[587]: Removed session c4.
+Jul 21 06:51:46 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 06:51:46 Cbrandon pkexec[4516]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 22]
+Jul 21 06:51:46 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 06:51:46 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 06:51:46 Cbrandon pkexec[4523]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 21 06:52:29 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 06:52:29 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 06:55:01 Cbrandon CRON[4565]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:55:13 Cbrandon CRON[4565]: pam_unix(cron:session): session closed for user root
+Jul 21 06:56:31 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 07:00:01 Cbrandon CRON[4628]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:00:09 Cbrandon CRON[4628]: pam_unix(cron:session): session closed for user root
+Jul 21 07:05:01 Cbrandon CRON[4697]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:05:05 Cbrandon CRON[4697]: pam_unix(cron:session): session closed for user root
+Jul 21 07:10:01 Cbrandon CRON[4758]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:10:04 Cbrandon CRON[4758]: pam_unix(cron:session): session closed for user root
+Jul 21 07:15:01 Cbrandon CRON[4819]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:15:09 Cbrandon CRON[4819]: pam_unix(cron:session): session closed for user root
+Jul 21 07:17:01 Cbrandon CRON[4869]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:17:01 Cbrandon CRON[4869]: pam_unix(cron:session): session closed for user root
+Jul 21 07:20:01 Cbrandon CRON[4881]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:20:08 Cbrandon CRON[4881]: pam_unix(cron:session): session closed for user root
+Jul 21 07:22:29 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 07:22:29 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 07:24:36 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 07:25:02 Cbrandon CRON[4993]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:25:08 Cbrandon CRON[4993]: pam_unix(cron:session): session closed for user root
+Jul 21 07:30:01 Cbrandon CRON[5053]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:30:01 Cbrandon CRON[5054]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:30:01 Cbrandon CRON[5054]: pam_unix(cron:session): session closed for user root
+Jul 21 07:30:07 Cbrandon CRON[5053]: pam_unix(cron:session): session closed for user root
+Jul 21 07:35:01 Cbrandon CRON[5122]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:35:03 Cbrandon CRON[5122]: pam_unix(cron:session): session closed for user root
+Jul 21 07:40:01 Cbrandon CRON[5186]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:40:09 Cbrandon CRON[5186]: pam_unix(cron:session): session closed for user root
+Jul 21 07:45:01 Cbrandon CRON[5257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:45:08 Cbrandon CRON[5257]: pam_unix(cron:session): session closed for user root
+Jul 21 07:50:01 Cbrandon CRON[5316]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:50:08 Cbrandon CRON[5316]: pam_unix(cron:session): session closed for user root
+Jul 21 07:52:29 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 07:52:29 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 07:55:01 Cbrandon CRON[5562]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:55:20 Cbrandon CRON[5562]: pam_unix(cron:session): session closed for user root
+Jul 21 07:56:32 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 08:00:01 Cbrandon CRON[5812]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:00:07 Cbrandon CRON[5812]: pam_unix(cron:session): session closed for user root
+Jul 21 08:05:02 Cbrandon CRON[6010]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:05:10 Cbrandon CRON[6010]: pam_unix(cron:session): session closed for user root
+Jul 21 08:10:01 Cbrandon CRON[6092]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:10:10 Cbrandon CRON[6092]: pam_unix(cron:session): session closed for user root
+Jul 21 08:15:01 Cbrandon CRON[6165]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:15:05 Cbrandon CRON[6165]: pam_unix(cron:session): session closed for user root
+Jul 21 08:17:01 Cbrandon CRON[6221]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:17:01 Cbrandon CRON[6221]: pam_unix(cron:session): session closed for user root
+Jul 21 08:20:01 Cbrandon CRON[6243]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:20:08 Cbrandon CRON[6243]: pam_unix(cron:session): session closed for user root
+Jul 21 08:22:29 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 08:22:29 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 08:25:01 Cbrandon CRON[6355]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:25:08 Cbrandon CRON[6355]: pam_unix(cron:session): session closed for user root
+Jul 21 08:26:31 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 08:30:01 Cbrandon CRON[6620]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:30:05 Cbrandon CRON[6620]: pam_unix(cron:session): session closed for user root
+Jul 21 08:35:01 Cbrandon CRON[7041]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:35:05 Cbrandon CRON[7041]: pam_unix(cron:session): session closed for user root
+Jul 21 08:40:01 Cbrandon CRON[7100]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:40:05 Cbrandon CRON[7100]: pam_unix(cron:session): session closed for user root
+Jul 21 08:45:01 Cbrandon CRON[7196]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:45:05 Cbrandon CRON[7196]: pam_unix(cron:session): session closed for user root
+Jul 21 08:50:01 Cbrandon CRON[7337]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:50:08 Cbrandon CRON[7337]: pam_unix(cron:session): session closed for user root
+Jul 21 08:52:30 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 08:52:30 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 08:53:20 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 08:53:20 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 08:53:20 Cbrandon pkexec[7450]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 22]
+Jul 21 08:53:20 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 08:53:20 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 08:53:20 Cbrandon pkexec[7457]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 21 08:55:01 Cbrandon CRON[7475]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:55:10 Cbrandon CRON[7475]: pam_unix(cron:session): session closed for user root
+Jul 21 08:56:32 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 08:57:58 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 08:57:58 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 08:57:58 Cbrandon pkexec[7563]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 22]
+Jul 21 08:57:58 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 08:57:58 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 08:57:58 Cbrandon pkexec[7568]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 21 09:00:01 Cbrandon CRON[7584]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:00:04 Cbrandon CRON[7584]: pam_unix(cron:session): session closed for user root
+Jul 21 09:05:01 Cbrandon CRON[7679]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:05:06 Cbrandon CRON[7679]: pam_unix(cron:session): session closed for user root
+Jul 21 09:10:01 Cbrandon CRON[7782]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:10:06 Cbrandon CRON[7782]: pam_unix(cron:session): session closed for user root
+Jul 21 09:15:01 Cbrandon CRON[7846]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:15:09 Cbrandon CRON[7846]: pam_unix(cron:session): session closed for user root
+Jul 21 09:17:01 Cbrandon CRON[7899]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:17:01 Cbrandon CRON[7899]: pam_unix(cron:session): session closed for user root
+Jul 21 09:20:01 Cbrandon CRON[7930]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:20:10 Cbrandon CRON[7930]: pam_unix(cron:session): session closed for user root
+Jul 21 09:22:30 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 09:22:30 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 09:25:01 Cbrandon CRON[8034]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:25:12 Cbrandon CRON[8034]: pam_unix(cron:session): session closed for user root
+Jul 21 09:26:32 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 09:30:01 Cbrandon CRON[8152]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:30:04 Cbrandon CRON[8152]: pam_unix(cron:session): session closed for user root
+Jul 21 09:34:01 Cbrandon sshd[8226]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 09:34:03 Cbrandon sshd[8233]: fatal: no hostkey alg [preauth]
+Jul 21 09:34:03 Cbrandon sshd[8235]: fatal: no hostkey alg [preauth]
+Jul 21 09:34:03 Cbrandon sshd[8227]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:34:03 Cbrandon sshd[8229]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:34:03 Cbrandon sshd[8231]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:34:35 Cbrandon sshd[8246]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 09:35:01 Cbrandon CRON[8248]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:35:10 Cbrandon CRON[8248]: pam_unix(cron:session): session closed for user root
+Jul 21 09:35:36 Cbrandon sshd[8300]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 09:35:49 Cbrandon sshd[8302]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 09:35:50 Cbrandon sshd[8309]: fatal: no hostkey alg [preauth]
+Jul 21 09:35:51 Cbrandon sshd[8311]: fatal: no hostkey alg [preauth]
+Jul 21 09:35:51 Cbrandon sshd[8303]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:35:51 Cbrandon sshd[8305]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:35:51 Cbrandon sshd[8307]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:40:01 Cbrandon CRON[8363]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:40:08 Cbrandon CRON[8363]: pam_unix(cron:session): session closed for user root
+Jul 21 09:45:01 Cbrandon CRON[8427]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:45:10 Cbrandon CRON[8427]: pam_unix(cron:session): session closed for user root
+Jul 21 09:45:16 Cbrandon sshd[8475]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 09:45:17 Cbrandon sshd[8482]: fatal: no hostkey alg [preauth]
+Jul 21 09:45:18 Cbrandon sshd[8484]: fatal: no hostkey alg [preauth]
+Jul 21 09:45:18 Cbrandon sshd[8476]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:45:18 Cbrandon sshd[8478]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:45:18 Cbrandon sshd[8480]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:45:59 Cbrandon sshd[8496]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 09:46:01 Cbrandon sshd[8503]: fatal: no hostkey alg [preauth]
+Jul 21 09:46:01 Cbrandon sshd[8505]: fatal: no hostkey alg [preauth]
+Jul 21 09:46:01 Cbrandon sshd[8497]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:46:01 Cbrandon sshd[8499]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:46:01 Cbrandon sshd[8501]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:46:20 Cbrandon sshd[8508]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 09:46:35 Cbrandon sshd[8510]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 09:50:01 Cbrandon CRON[8622]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:50:05 Cbrandon CRON[8622]: pam_unix(cron:session): session closed for user root
+Jul 21 09:52:30 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 09:52:30 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 09:53:27 Cbrandon dbus[507]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=1555 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=938 comm="NetworkManager ")
+Jul 21 09:54:32 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 09:55:01 Cbrandon CRON[8908]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:55:18 Cbrandon CRON[8908]: pam_unix(cron:session): session closed for user root
+Jul 21 09:55:19 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 09:55:19 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 09:55:19 Cbrandon pkexec[8959]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 22]
+Jul 21 09:55:19 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 09:55:19 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 09:55:19 Cbrandon pkexec[8964]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 21 09:59:47 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 09:59:47 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 09:59:47 Cbrandon pkexec[9001]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4]
+Jul 21 10:00:00 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 10:00:00 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 10:00:00 Cbrandon pkexec[9009]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 21 10:00:01 Cbrandon CRON[9012]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:00:11 Cbrandon CRON[9012]: pam_unix(cron:session): session closed for user root
+Jul 21 10:02:01 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 10:02:01 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 10:02:01 Cbrandon pkexec[9069]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4]
+Jul 21 10:02:48 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 10:02:48 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 10:02:48 Cbrandon pkexec[9074]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 21 10:05:02 Cbrandon CRON[9101]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:05:24 Cbrandon CRON[9101]: pam_unix(cron:session): session closed for user root
+Jul 21 10:10:01 Cbrandon CRON[9248]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:10:22 Cbrandon CRON[9248]: pam_unix(cron:session): session closed for user root
+Jul 21 10:12:30 Cbrandon dbus[507]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=1555 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=938 comm="NetworkManager ")
+Jul 21 10:13:46 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 10:13:46 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 10:13:46 Cbrandon pkexec[9378]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4]
+Jul 21 10:15:01 Cbrandon CRON[9387]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:15:10 Cbrandon CRON[9387]: pam_unix(cron:session): session closed for user root
+Jul 21 10:17:01 Cbrandon CRON[9443]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:17:01 Cbrandon CRON[9443]: pam_unix(cron:session): session closed for user root
+Jul 21 10:20:01 Cbrandon CRON[9460]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:20:10 Cbrandon CRON[9460]: pam_unix(cron:session): session closed for user root
+Jul 21 10:22:28 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 10:22:28 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 10:22:28 Cbrandon pkexec[9524]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 21 10:22:30 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 10:22:30 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 10:22:41 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 10:24:28 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 10:24:28 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 10:24:28 Cbrandon pkexec[9574]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4]
+Jul 21 10:25:01 Cbrandon CRON[9582]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:25:15 Cbrandon CRON[9582]: pam_unix(cron:session): session closed for user root
+Jul 21 10:30:01 Cbrandon CRON[9671]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:30:05 Cbrandon CRON[9671]: pam_unix(cron:session): session closed for user root
+Jul 21 10:31:03 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 10:31:03 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 10:31:03 Cbrandon pkexec[9739]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 21 10:35:07 Cbrandon CRON[10008]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:35:21 Cbrandon CRON[10008]: pam_unix(cron:session): session closed for user root
+Jul 21 10:37:00 Cbrandon su[10164]: Successful su for root by tech
+Jul 21 10:37:00 Cbrandon su[10164]: + /dev/pts/1 tech:root
+Jul 21 10:37:00 Cbrandon su[10164]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jul 21 10:37:09 Cbrandon su[10164]: pam_unix(su:session): session closed for user root
+Jul 21 10:38:30 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 10:38:30 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 10:38:30 Cbrandon pkexec[10220]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 22]
+Jul 21 10:38:30 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 10:38:30 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 10:38:30 Cbrandon pkexec[10225]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 21 10:40:01 Cbrandon CRON[10250]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:40:10 Cbrandon CRON[10250]: pam_unix(cron:session): session closed for user root
+Jul 21 10:45:01 Cbrandon CRON[10317]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:45:10 Cbrandon CRON[10317]: pam_unix(cron:session): session closed for user root
+Jul 21 10:49:06 Cbrandon polkitd(authority=local): Operator of unix-session:c1 successfully authenticated as unix-user:tech to gain TEMPORARY authorization for action org.freedesktop.policykit.pkexec.run-im for unix-process:10465:1769139 [/usr/bin/python /usr/lib/mintstick/mintstick.py -m iso] (owned by unix-user:tech)
+Jul 21 10:49:06 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 10:49:06 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 10:49:06 Cbrandon pkexec[10543]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/home/tech] [COMMAND=/usr/bin/python -u /usr/lib/mintstick/raw_write.py -s /home/tech/Desktop/clonezilla-live-2.3.2-22-amd64.iso -t /dev/sdb]
+Jul 21 10:50:01 Cbrandon CRON[10597]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:50:10 Cbrandon CRON[10597]: pam_unix(cron:session): session closed for user root
+Jul 21 10:50:22 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 10:50:22 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 10:50:22 Cbrandon pkexec[10654]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 22]
+Jul 21 10:50:22 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 10:50:22 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 10:50:22 Cbrandon pkexec[10661]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 21 10:52:31 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 10:52:31 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 10:52:37 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 10:55:03 Cbrandon CRON[10916]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:57:40 Cbrandon CRON[10916]: pam_unix(cron:session): session closed for user root
+Jul 21 11:00:02 Cbrandon CRON[10988]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:00:19 Cbrandon CRON[10988]: pam_unix(cron:session): session closed for user root
+Jul 21 11:03:17 Cbrandon dbus[507]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=1555 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=938 comm="NetworkManager ")
+Jul 21 11:05:01 Cbrandon CRON[11073]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:05:10 Cbrandon CRON[11073]: pam_unix(cron:session): session closed for user root
+Jul 21 11:05:52 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 11:05:52 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 11:05:52 Cbrandon pkexec[11134]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 22]
+Jul 21 11:05:53 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 21 11:05:53 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 21 11:05:53 Cbrandon pkexec[11141]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 21 11:10:01 Cbrandon CRON[11181]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:10:04 Cbrandon CRON[11181]: pam_unix(cron:session): session closed for user root
+Jul 21 11:15:01 Cbrandon CRON[11271]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:15:08 Cbrandon CRON[11271]: pam_unix(cron:session): session closed for user root
+Jul 21 11:17:01 Cbrandon CRON[11340]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:17:01 Cbrandon CRON[11340]: pam_unix(cron:session): session closed for user root
+Jul 21 11:20:01 Cbrandon CRON[11364]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:20:09 Cbrandon CRON[11364]: pam_unix(cron:session): session closed for user root
+Jul 21 11:22:30 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 11:22:30 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 11:25:01 Cbrandon CRON[11468]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:25:14 Cbrandon CRON[11468]: pam_unix(cron:session): session closed for user root
+Jul 21 11:26:33 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 11:30:01 Cbrandon CRON[11534]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:30:09 Cbrandon CRON[11534]: pam_unix(cron:session): session closed for user root
+Jul 21 11:35:01 Cbrandon CRON[11596]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:35:09 Cbrandon CRON[11596]: pam_unix(cron:session): session closed for user root
+Jul 21 11:40:01 Cbrandon CRON[11706]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:40:09 Cbrandon CRON[11706]: pam_unix(cron:session): session closed for user root
+Jul 21 11:45:01 Cbrandon CRON[11874]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:45:04 Cbrandon CRON[11874]: pam_unix(cron:session): session closed for user root
+Jul 21 11:50:01 Cbrandon CRON[11935]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:50:09 Cbrandon CRON[11935]: pam_unix(cron:session): session closed for user root
+Jul 21 11:52:30 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 11:52:30 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 11:52:40 Cbrandon sshd[12034]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 11:52:54 Cbrandon sshd[12035]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 11:52:56 Cbrandon sshd[12042]: fatal: no hostkey alg [preauth]
+Jul 21 11:52:56 Cbrandon sshd[12044]: fatal: no hostkey alg [preauth]
+Jul 21 11:52:56 Cbrandon sshd[12040]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 11:52:56 Cbrandon sshd[12036]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 11:52:56 Cbrandon sshd[12038]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 11:54:32 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 11:55:01 Cbrandon CRON[12063]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:55:13 Cbrandon CRON[12063]: pam_unix(cron:session): session closed for user root
+Jul 21 12:00:01 Cbrandon CRON[12262]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:00:05 Cbrandon CRON[12262]: pam_unix(cron:session): session closed for user root
+Jul 21 12:05:01 Cbrandon CRON[12318]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:05:08 Cbrandon CRON[12318]: pam_unix(cron:session): session closed for user root
+Jul 21 12:10:01 Cbrandon CRON[12374]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:10:04 Cbrandon CRON[12374]: pam_unix(cron:session): session closed for user root
+Jul 21 12:15:01 Cbrandon CRON[12430]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:15:06 Cbrandon CRON[12430]: pam_unix(cron:session): session closed for user root
+Jul 21 12:17:01 Cbrandon CRON[12482]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:17:01 Cbrandon CRON[12482]: pam_unix(cron:session): session closed for user root
+Jul 21 12:20:01 Cbrandon CRON[12492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:20:10 Cbrandon CRON[12492]: pam_unix(cron:session): session closed for user root
+Jul 21 12:22:30 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 12:22:30 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 12:25:01 Cbrandon CRON[12585]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:25:11 Cbrandon CRON[12585]: pam_unix(cron:session): session closed for user root
+Jul 21 12:26:32 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 12:30:01 Cbrandon CRON[12645]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:30:09 Cbrandon CRON[12645]: pam_unix(cron:session): session closed for user root
+Jul 21 12:35:01 Cbrandon CRON[12712]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:35:08 Cbrandon CRON[12712]: pam_unix(cron:session): session closed for user root
+Jul 21 12:40:01 Cbrandon CRON[12774]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:40:05 Cbrandon CRON[12774]: pam_unix(cron:session): session closed for user root
+Jul 21 12:45:01 Cbrandon CRON[12831]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:45:08 Cbrandon CRON[12831]: pam_unix(cron:session): session closed for user root
+Jul 21 12:50:01 Cbrandon CRON[12891]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:50:10 Cbrandon CRON[12891]: pam_unix(cron:session): session closed for user root
+Jul 21 12:52:30 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 12:52:30 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 12:55:01 Cbrandon CRON[12982]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:55:08 Cbrandon CRON[12982]: pam_unix(cron:session): session closed for user root
+Jul 21 12:56:33 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 13:00:01 Cbrandon CRON[13052]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:00:09 Cbrandon CRON[13052]: pam_unix(cron:session): session closed for user root
+Jul 21 13:05:01 Cbrandon CRON[13112]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:05:08 Cbrandon CRON[13112]: pam_unix(cron:session): session closed for user root
+Jul 21 13:10:01 Cbrandon CRON[13169]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:10:04 Cbrandon CRON[13169]: pam_unix(cron:session): session closed for user root
+Jul 21 13:11:04 Cbrandon sshd[13219]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 13:11:05 Cbrandon sshd[13226]: fatal: no hostkey alg [preauth]
+Jul 21 13:11:05 Cbrandon sshd[13228]: fatal: no hostkey alg [preauth]
+Jul 21 13:11:05 Cbrandon sshd[13220]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 13:11:05 Cbrandon sshd[13224]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 13:11:05 Cbrandon sshd[13222]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 13:13:25 Cbrandon sshd[13234]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 13:15:01 Cbrandon CRON[13239]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:15:09 Cbrandon CRON[13239]: pam_unix(cron:session): session closed for user root
+Jul 21 13:17:01 Cbrandon CRON[13299]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:17:01 Cbrandon CRON[13299]: pam_unix(cron:session): session closed for user root
+Jul 21 13:20:01 Cbrandon CRON[13309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:20:09 Cbrandon CRON[13309]: pam_unix(cron:session): session closed for user root
+Jul 21 13:22:31 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 13:22:31 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 13:25:01 Cbrandon CRON[13398]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:25:09 Cbrandon CRON[13398]: pam_unix(cron:session): session closed for user root
+Jul 21 13:26:33 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 13:30:01 Cbrandon CRON[13478]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:30:04 Cbrandon CRON[13478]: pam_unix(cron:session): session closed for user root
+Jul 21 13:35:01 Cbrandon CRON[13536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:35:07 Cbrandon CRON[13536]: pam_unix(cron:session): session closed for user root
+Jul 21 13:40:01 Cbrandon CRON[13590]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:40:05 Cbrandon CRON[13590]: pam_unix(cron:session): session closed for user root
+Jul 21 13:45:01 Cbrandon CRON[13648]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:45:04 Cbrandon CRON[13648]: pam_unix(cron:session): session closed for user root
+Jul 21 13:50:01 Cbrandon CRON[13707]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:50:09 Cbrandon CRON[13707]: pam_unix(cron:session): session closed for user root
+Jul 21 13:52:31 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 21 13:52:31 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 13:55:01 Cbrandon CRON[13806]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:55:09 Cbrandon CRON[13806]: pam_unix(cron:session): session closed for user root
+Jul 21 13:56:33 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 13:59:42 Cbrandon systemd-logind[587]: System is powering down.
+Jul 21 13:59:42 Cbrandon systemd-logind[587]: Operation finished.
+Jul 21 13:59:42 Cbrandon sshd[1311]: Received signal 15; terminating.
+Jul 22 05:55:41 Cbrandon systemd-logind[890]: New seat seat0.
+Jul 22 05:55:44 Cbrandon sshd[1214]: Server listening on 0.0.0.0 port 22.
+Jul 22 05:55:44 Cbrandon sshd[1214]: Server listening on :: port 22.
+Jul 22 05:55:46 Cbrandon mdm[1509]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 22 05:55:46 Cbrandon mdm[1509]: PAM adding faulty module: pam_kwallet.so
+Jul 22 05:55:51 Cbrandon dbus[820]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1651 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=919 comm="NetworkManager ")
+Jul 22 05:55:51 Cbrandon mdm[1509]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jul 22 05:55:53 Cbrandon mdm[1509]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jul 22 05:55:53 Cbrandon systemd-logind[890]: New session c1 of user tech.
+Jul 22 05:55:53 Cbrandon systemd-logind[890]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jul 22 05:55:53 Cbrandon mdm[1509]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 22 05:55:56 Cbrandon polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 22 05:55:59 Cbrandon dbus[820]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1651 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=919 comm="NetworkManager ")
+Jul 22 05:56:55 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 05:56:55 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 05:56:55 Cbrandon pkexec[2736]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 22]
+Jul 22 05:56:55 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 05:56:55 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 05:56:55 Cbrandon pkexec[2741]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 22 06:00:01 Cbrandon CRON[3085]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 06:00:11 Cbrandon CRON[3085]: pam_unix(cron:session): session closed for user root
+Jul 22 06:00:46 Cbrandon su[3279]: Successful su for nobody by root
+Jul 22 06:00:46 Cbrandon su[3279]: + ??? root:nobody
+Jul 22 06:00:46 Cbrandon su[3279]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 22 06:00:46 Cbrandon systemd-logind[890]: New session c2 of user nobody.
+Jul 22 06:00:46 Cbrandon su[3279]: pam_unix(su:session): session closed for user nobody
+Jul 22 06:00:46 Cbrandon su[3287]: Successful su for nobody by root
+Jul 22 06:00:46 Cbrandon su[3287]: + ??? root:nobody
+Jul 22 06:00:46 Cbrandon su[3287]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 22 06:00:46 Cbrandon systemd-logind[890]: Removed session c2.
+Jul 22 06:00:46 Cbrandon systemd-logind[890]: New session c3 of user nobody.
+Jul 22 06:00:46 Cbrandon su[3287]: pam_unix(su:session): session closed for user nobody
+Jul 22 06:00:46 Cbrandon su[3301]: Successful su for nobody by root
+Jul 22 06:00:46 Cbrandon su[3301]: + ??? root:nobody
+Jul 22 06:00:46 Cbrandon su[3301]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 22 06:00:46 Cbrandon systemd-logind[890]: Removed session c3.
+Jul 22 06:00:46 Cbrandon systemd-logind[890]: New session c4 of user nobody.
+Jul 22 06:01:03 Cbrandon su[3301]: pam_unix(su:session): session closed for user nobody
+Jul 22 06:03:52 Cbrandon dbus[820]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1651 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=919 comm="NetworkManager ")
+Jul 22 06:05:01 Cbrandon CRON[3649]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 06:05:06 Cbrandon CRON[3649]: pam_unix(cron:session): session closed for user root
+Jul 22 06:05:09 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 06:05:09 Cbrandon systemd-logind[890]: Removed session c4.
+Jul 22 06:05:09 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 06:05:09 Cbrandon pkexec[3698]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4]
+Jul 22 06:05:31 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 06:05:31 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 06:05:31 Cbrandon pkexec[3702]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 22 06:07:32 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 06:07:32 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 06:07:32 Cbrandon pkexec[3712]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4]
+Jul 22 06:09:56 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 06:09:56 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 06:09:56 Cbrandon pkexec[3725]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 22 06:09:59 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 06:09:59 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 06:09:59 Cbrandon pkexec[3729]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 22]
+Jul 22 06:09:59 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 06:09:59 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 06:09:59 Cbrandon pkexec[3733]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 22 06:10:01 Cbrandon CRON[3736]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 06:10:05 Cbrandon CRON[3736]: pam_unix(cron:session): session closed for user root
+Jul 22 06:12:53 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 06:12:53 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 06:12:53 Cbrandon pkexec[3800]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4]
+Jul 22 06:15:00 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 06:15:00 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 06:15:00 Cbrandon pkexec[3808]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 22 06:15:01 Cbrandon CRON[3811]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 06:15:04 Cbrandon CRON[3811]: pam_unix(cron:session): session closed for user root
+Jul 22 06:17:01 Cbrandon CRON[3925]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 06:17:01 Cbrandon CRON[3925]: pam_unix(cron:session): session closed for user root
+Jul 22 06:20:01 Cbrandon CRON[3974]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 06:20:08 Cbrandon CRON[3974]: pam_unix(cron:session): session closed for user root
+Jul 22 06:21:08 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 06:21:08 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 06:21:08 Cbrandon pkexec[4024]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4]
+Jul 22 06:25:01 Cbrandon CRON[4042]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 06:25:01 Cbrandon CRON[4043]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 06:25:01 Cbrandon CRON[4043]: pam_unix(cron:session): session closed for user root
+Jul 22 06:25:07 Cbrandon CRON[4042]: pam_unix(cron:session): session closed for user root
+Jul 22 06:25:58 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 06:25:58 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 06:28:39 Cbrandon sshd[4131]: Did not receive identification string from 192.168.106.16
+Jul 22 06:28:44 Cbrandon sshd[4137]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 22 06:28:46 Cbrandon sshd[4144]: fatal: no hostkey alg [preauth]
+Jul 22 06:28:46 Cbrandon sshd[4146]: fatal: no hostkey alg [preauth]
+Jul 22 06:28:46 Cbrandon sshd[4148]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 22 06:28:46 Cbrandon sshd[4142]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 06:28:46 Cbrandon sshd[4138]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 06:28:46 Cbrandon sshd[4140]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 06:30:01 Cbrandon CRON[4155]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 06:30:12 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 06:30:13 Cbrandon CRON[4155]: pam_unix(cron:session): session closed for user root
+Jul 22 06:35:01 Cbrandon CRON[4221]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 06:35:08 Cbrandon CRON[4221]: pam_unix(cron:session): session closed for user root
+Jul 22 06:40:01 Cbrandon CRON[4281]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 06:40:08 Cbrandon CRON[4281]: pam_unix(cron:session): session closed for user root
+Jul 22 06:41:23 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 06:41:23 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 06:41:23 Cbrandon pkexec[4332]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 22 06:43:34 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 06:43:34 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 06:43:34 Cbrandon pkexec[4342]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4]
+Jul 22 06:45:01 Cbrandon CRON[4350]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 06:45:10 Cbrandon CRON[4350]: pam_unix(cron:session): session closed for user root
+Jul 22 06:49:00 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 06:49:00 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 06:49:00 Cbrandon pkexec[4412]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 22 06:49:28 Cbrandon dbus[820]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1651 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=919 comm="NetworkManager ")
+Jul 22 06:50:01 Cbrandon CRON[4638]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 06:51:08 Cbrandon CRON[4638]: pam_unix(cron:session): session closed for user root
+Jul 22 06:55:01 Cbrandon CRON[4706]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 06:55:05 Cbrandon CRON[4706]: pam_unix(cron:session): session closed for user root
+Jul 22 06:55:21 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 06:55:21 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 06:55:21 Cbrandon pkexec[4756]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 22]
+Jul 22 06:55:21 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 06:55:21 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 06:55:21 Cbrandon pkexec[4761]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 22 06:55:59 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 06:55:59 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 07:00:01 Cbrandon CRON[4827]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 07:00:06 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 07:00:16 Cbrandon CRON[4827]: pam_unix(cron:session): session closed for user root
+Jul 22 07:05:01 Cbrandon CRON[4888]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 07:05:04 Cbrandon CRON[4888]: pam_unix(cron:session): session closed for user root
+Jul 22 07:10:01 Cbrandon CRON[4949]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 07:10:07 Cbrandon CRON[4949]: pam_unix(cron:session): session closed for user root
+Jul 22 07:15:01 Cbrandon CRON[5015]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 07:15:08 Cbrandon CRON[5015]: pam_unix(cron:session): session closed for user root
+Jul 22 07:17:01 Cbrandon CRON[5075]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 07:17:01 Cbrandon CRON[5075]: pam_unix(cron:session): session closed for user root
+Jul 22 07:17:41 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 07:17:41 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 07:17:41 Cbrandon pkexec[5086]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 22]
+Jul 22 07:17:41 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 07:17:41 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 07:17:41 Cbrandon pkexec[5090]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 22 07:20:01 Cbrandon CRON[5149]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 07:20:09 Cbrandon CRON[5149]: pam_unix(cron:session): session closed for user root
+Jul 22 07:25:01 Cbrandon CRON[5231]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 07:25:07 Cbrandon CRON[5231]: pam_unix(cron:session): session closed for user root
+Jul 22 07:25:59 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 07:25:59 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 07:30:01 Cbrandon CRON[5328]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 07:30:01 Cbrandon CRON[5329]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 07:30:01 Cbrandon CRON[5329]: pam_unix(cron:session): session closed for user root
+Jul 22 07:30:07 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 07:30:10 Cbrandon CRON[5328]: pam_unix(cron:session): session closed for user root
+Jul 22 07:35:01 Cbrandon CRON[5407]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 07:35:04 Cbrandon CRON[5407]: pam_unix(cron:session): session closed for user root
+Jul 22 07:40:01 Cbrandon CRON[5475]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 07:40:07 Cbrandon CRON[5475]: pam_unix(cron:session): session closed for user root
+Jul 22 07:45:01 Cbrandon CRON[5533]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 07:45:09 Cbrandon CRON[5533]: pam_unix(cron:session): session closed for user root
+Jul 22 07:50:01 Cbrandon CRON[5590]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 07:50:05 Cbrandon CRON[5590]: pam_unix(cron:session): session closed for user root
+Jul 22 07:55:01 Cbrandon CRON[5659]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 07:55:09 Cbrandon CRON[5659]: pam_unix(cron:session): session closed for user root
+Jul 22 07:55:59 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 07:55:59 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 08:00:01 Cbrandon CRON[5771]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 08:00:07 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 08:00:08 Cbrandon CRON[5771]: pam_unix(cron:session): session closed for user root
+Jul 22 08:05:01 Cbrandon CRON[5833]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 08:05:09 Cbrandon CRON[5833]: pam_unix(cron:session): session closed for user root
+Jul 22 08:10:01 Cbrandon CRON[5901]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 08:10:09 Cbrandon CRON[5901]: pam_unix(cron:session): session closed for user root
+Jul 22 08:15:01 Cbrandon CRON[5960]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 08:15:07 Cbrandon CRON[5960]: pam_unix(cron:session): session closed for user root
+Jul 22 08:17:01 Cbrandon CRON[6013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 08:17:01 Cbrandon CRON[6013]: pam_unix(cron:session): session closed for user root
+Jul 22 08:18:12 Cbrandon dbus[820]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1651 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=919 comm="NetworkManager ")
+Jul 22 08:20:01 Cbrandon CRON[6188]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 08:20:10 Cbrandon CRON[6188]: pam_unix(cron:session): session closed for user root
+Jul 22 08:20:33 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 08:20:33 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 08:20:33 Cbrandon pkexec[6239]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4]
+Jul 22 08:21:21 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 08:21:21 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 08:21:21 Cbrandon pkexec[6250]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 22 08:24:42 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 08:24:42 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 08:24:42 Cbrandon pkexec[6272]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4]
+Jul 22 08:25:01 Cbrandon CRON[6277]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 08:25:14 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 08:25:15 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 08:25:15 Cbrandon pkexec[6307]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 22 08:25:17 Cbrandon CRON[6277]: pam_unix(cron:session): session closed for user root
+Jul 22 08:25:59 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 08:25:59 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 08:30:01 Cbrandon CRON[6395]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 08:30:11 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 08:30:14 Cbrandon CRON[6395]: pam_unix(cron:session): session closed for user root
+Jul 22 08:33:42 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 08:33:42 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 08:33:42 Cbrandon pkexec[6459]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4]
+Jul 22 08:35:01 Cbrandon CRON[6466]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 08:35:09 Cbrandon CRON[6466]: pam_unix(cron:session): session closed for user root
+Jul 22 08:38:58 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 08:38:58 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 08:38:58 Cbrandon pkexec[6523]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 22 08:40:01 Cbrandon CRON[6528]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 08:40:19 Cbrandon CRON[6528]: pam_unix(cron:session): session closed for user root
+Jul 22 08:41:07 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 08:41:07 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 08:41:07 Cbrandon pkexec[6579]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 4]
+Jul 22 08:45:01 Cbrandon CRON[6604]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 08:45:04 Cbrandon CRON[6604]: pam_unix(cron:session): session closed for user root
+Jul 22 08:50:01 Cbrandon CRON[6670]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 08:50:08 Cbrandon CRON[6670]: pam_unix(cron:session): session closed for user root
+Jul 22 08:55:01 Cbrandon CRON[6727]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 08:55:09 Cbrandon CRON[6727]: pam_unix(cron:session): session closed for user root
+Jul 22 08:55:59 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 08:55:59 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 09:00:01 Cbrandon CRON[6826]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 09:00:07 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 09:00:07 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 09:00:07 Cbrandon pkexec[6864]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 22 09:00:13 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 09:00:14 Cbrandon CRON[6826]: pam_unix(cron:session): session closed for user root
+Jul 22 09:00:51 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 09:00:51 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 09:00:51 Cbrandon pkexec[7086]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 22]
+Jul 22 09:00:51 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 09:00:51 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 09:00:51 Cbrandon pkexec[7090]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 22 09:03:24 Cbrandon su[7123]: Successful su for root by tech
+Jul 22 09:03:24 Cbrandon su[7123]: + /dev/pts/1 tech:root
+Jul 22 09:03:24 Cbrandon su[7123]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jul 22 09:03:31 Cbrandon su[7123]: pam_unix(su:session): session closed for user root
+Jul 22 09:05:01 Cbrandon CRON[7259]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 09:05:10 Cbrandon CRON[7259]: pam_unix(cron:session): session closed for user root
+Jul 22 09:10:01 Cbrandon CRON[7413]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 09:10:12 Cbrandon CRON[7413]: pam_unix(cron:session): session closed for user root
+Jul 22 09:13:45 Cbrandon polkitd(authority=local): Operator of unix-session:c1 successfully authenticated as unix-user:tech to gain TEMPORARY authorization for action org.freedesktop.policykit.pkexec.run-im for unix-process:7532:1188681 [/usr/bin/python /usr/lib/mintstick/mintstick.py -m iso] (owned by unix-user:tech)
+Jul 22 09:13:45 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 09:13:45 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 09:13:45 Cbrandon pkexec[7553]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/home/tech] [COMMAND=/usr/bin/python -u /usr/lib/mintstick/raw_write.py -s /home/tech/Desktop/clonezilla-live-2.3.2-22-amd64.iso -t /dev/sdb]
+Jul 22 09:15:01 Cbrandon CRON[7590]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 09:15:06 Cbrandon CRON[7590]: pam_unix(cron:session): session closed for user root
+Jul 22 09:17:01 Cbrandon CRON[7643]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 09:17:01 Cbrandon CRON[7643]: pam_unix(cron:session): session closed for user root
+Jul 22 09:20:01 Cbrandon CRON[7655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 09:20:03 Cbrandon CRON[7655]: pam_unix(cron:session): session closed for user root
+Jul 22 09:25:01 Cbrandon CRON[7715]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 09:25:11 Cbrandon CRON[7715]: pam_unix(cron:session): session closed for user root
+Jul 22 09:25:59 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 09:25:59 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 09:30:01 Cbrandon CRON[7861]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 09:31:07 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 09:31:08 Cbrandon CRON[7861]: pam_unix(cron:session): session closed for user root
+Jul 22 09:35:01 Cbrandon CRON[7943]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 09:35:10 Cbrandon CRON[7943]: pam_unix(cron:session): session closed for user root
+Jul 22 09:40:01 Cbrandon CRON[8001]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 09:40:09 Cbrandon CRON[8001]: pam_unix(cron:session): session closed for user root
+Jul 22 09:45:01 Cbrandon CRON[8061]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 09:45:08 Cbrandon CRON[8061]: pam_unix(cron:session): session closed for user root
+Jul 22 09:50:01 Cbrandon CRON[8124]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 09:50:08 Cbrandon CRON[8124]: pam_unix(cron:session): session closed for user root
+Jul 22 09:55:01 Cbrandon CRON[8180]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 09:55:10 Cbrandon CRON[8180]: pam_unix(cron:session): session closed for user root
+Jul 22 09:55:59 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 09:55:59 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 10:00:01 Cbrandon CRON[8284]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 10:00:12 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 10:00:14 Cbrandon CRON[8284]: pam_unix(cron:session): session closed for user root
+Jul 22 10:05:01 Cbrandon CRON[8359]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 10:05:09 Cbrandon CRON[8359]: pam_unix(cron:session): session closed for user root
+Jul 22 10:10:01 Cbrandon CRON[8414]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 10:10:06 Cbrandon CRON[8414]: pam_unix(cron:session): session closed for user root
+Jul 22 10:15:01 Cbrandon CRON[8487]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 10:15:08 Cbrandon CRON[8487]: pam_unix(cron:session): session closed for user root
+Jul 22 10:17:01 Cbrandon CRON[8541]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 10:17:01 Cbrandon CRON[8541]: pam_unix(cron:session): session closed for user root
+Jul 22 10:20:01 Cbrandon CRON[8548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 10:20:09 Cbrandon CRON[8548]: pam_unix(cron:session): session closed for user root
+Jul 22 10:25:01 Cbrandon CRON[8614]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 10:25:09 Cbrandon CRON[8614]: pam_unix(cron:session): session closed for user root
+Jul 22 10:25:59 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 10:25:59 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 10:30:01 Cbrandon CRON[8703]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 10:30:12 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 10:30:16 Cbrandon CRON[8703]: pam_unix(cron:session): session closed for user root
+Jul 22 10:35:01 Cbrandon CRON[8764]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 10:35:10 Cbrandon CRON[8764]: pam_unix(cron:session): session closed for user root
+Jul 22 10:40:01 Cbrandon CRON[8819]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 10:40:07 Cbrandon CRON[8819]: pam_unix(cron:session): session closed for user root
+Jul 22 10:45:01 Cbrandon CRON[8879]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 10:45:10 Cbrandon CRON[8879]: pam_unix(cron:session): session closed for user root
+Jul 22 10:50:01 Cbrandon CRON[8937]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 10:50:08 Cbrandon CRON[8937]: pam_unix(cron:session): session closed for user root
+Jul 22 10:55:01 Cbrandon CRON[8996]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 10:55:10 Cbrandon CRON[8996]: pam_unix(cron:session): session closed for user root
+Jul 22 10:55:59 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 10:55:59 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 10:56:13 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 11:00:01 Cbrandon CRON[9116]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 11:00:08 Cbrandon CRON[9116]: pam_unix(cron:session): session closed for user root
+Jul 22 11:05:01 Cbrandon CRON[9175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 11:05:10 Cbrandon CRON[9175]: pam_unix(cron:session): session closed for user root
+Jul 22 11:10:01 Cbrandon CRON[9240]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 11:10:11 Cbrandon CRON[9240]: pam_unix(cron:session): session closed for user root
+Jul 22 11:15:01 Cbrandon CRON[9308]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 11:15:05 Cbrandon CRON[9308]: pam_unix(cron:session): session closed for user root
+Jul 22 11:17:01 Cbrandon CRON[9415]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 11:17:01 Cbrandon CRON[9415]: pam_unix(cron:session): session closed for user root
+Jul 22 11:18:25 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 11:18:25 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 11:18:25 Cbrandon pkexec[9719]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 22]
+Jul 22 11:18:25 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 11:18:25 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 11:18:25 Cbrandon pkexec[9724]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 22 11:20:01 Cbrandon CRON[9733]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 11:20:07 Cbrandon CRON[9733]: pam_unix(cron:session): session closed for user root
+Jul 22 11:25:01 Cbrandon CRON[9793]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 11:25:06 Cbrandon CRON[9793]: pam_unix(cron:session): session closed for user root
+Jul 22 11:25:59 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 11:25:59 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 11:26:16 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 11:30:01 Cbrandon CRON[9890]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 11:30:15 Cbrandon CRON[9890]: pam_unix(cron:session): session closed for user root
+Jul 22 11:35:01 Cbrandon CRON[9952]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 11:35:07 Cbrandon CRON[9952]: pam_unix(cron:session): session closed for user root
+Jul 22 11:40:01 Cbrandon CRON[10019]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 11:40:06 Cbrandon CRON[10019]: pam_unix(cron:session): session closed for user root
+Jul 22 11:45:01 Cbrandon CRON[10076]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 11:45:07 Cbrandon CRON[10076]: pam_unix(cron:session): session closed for user root
+Jul 22 11:49:14 Cbrandon sshd[10131]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 22 11:49:34 Cbrandon sshd[10132]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 22 11:49:36 Cbrandon sshd[10139]: fatal: no hostkey alg [preauth]
+Jul 22 11:49:36 Cbrandon sshd[10141]: fatal: no hostkey alg [preauth]
+Jul 22 11:49:36 Cbrandon sshd[10135]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 11:49:36 Cbrandon sshd[10137]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 11:49:36 Cbrandon sshd[10133]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 11:50:01 Cbrandon CRON[10144]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 11:50:09 Cbrandon CRON[10144]: pam_unix(cron:session): session closed for user root
+Jul 22 11:55:01 Cbrandon CRON[10203]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 11:55:04 Cbrandon CRON[10203]: pam_unix(cron:session): session closed for user root
+Jul 22 11:55:59 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 11:55:59 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 11:56:14 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 12:00:01 Cbrandon CRON[10309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 12:00:15 Cbrandon CRON[10309]: pam_unix(cron:session): session closed for user root
+Jul 22 12:01:34 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 12:01:34 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 12:01:34 Cbrandon pkexec[10362]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 22]
+Jul 22 12:01:35 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 22 12:01:35 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 22 12:01:35 Cbrandon pkexec[10369]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 22 12:05:01 Cbrandon CRON[10423]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 12:05:04 Cbrandon CRON[10423]: pam_unix(cron:session): session closed for user root
+Jul 22 12:10:01 Cbrandon CRON[10569]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 12:10:10 Cbrandon CRON[10569]: pam_unix(cron:session): session closed for user root
+Jul 22 12:15:01 Cbrandon CRON[10625]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 12:15:04 Cbrandon CRON[10625]: pam_unix(cron:session): session closed for user root
+Jul 22 12:17:01 Cbrandon CRON[10678]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 12:17:01 Cbrandon CRON[10678]: pam_unix(cron:session): session closed for user root
+Jul 22 12:20:01 Cbrandon CRON[10684]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 12:20:09 Cbrandon CRON[10684]: pam_unix(cron:session): session closed for user root
+Jul 22 12:25:01 Cbrandon CRON[10742]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 12:25:06 Cbrandon CRON[10742]: pam_unix(cron:session): session closed for user root
+Jul 22 12:25:59 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 12:25:59 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 12:26:11 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 12:30:01 Cbrandon CRON[10842]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 12:30:14 Cbrandon CRON[10842]: pam_unix(cron:session): session closed for user root
+Jul 22 12:35:01 Cbrandon CRON[10904]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 12:35:04 Cbrandon CRON[10904]: pam_unix(cron:session): session closed for user root
+Jul 22 12:40:01 Cbrandon CRON[10961]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 12:40:07 Cbrandon CRON[10961]: pam_unix(cron:session): session closed for user root
+Jul 22 12:45:01 Cbrandon CRON[11019]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 12:45:04 Cbrandon CRON[11019]: pam_unix(cron:session): session closed for user root
+Jul 22 12:50:01 Cbrandon CRON[11079]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 12:50:07 Cbrandon CRON[11079]: pam_unix(cron:session): session closed for user root
+Jul 22 12:55:01 Cbrandon CRON[11136]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 12:55:05 Cbrandon CRON[11136]: pam_unix(cron:session): session closed for user root
+Jul 22 12:55:59 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 12:55:59 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 13:00:01 Cbrandon CRON[11228]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:00:14 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 13:00:14 Cbrandon CRON[11228]: pam_unix(cron:session): session closed for user root
+Jul 22 13:05:01 Cbrandon CRON[11291]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:05:09 Cbrandon CRON[11291]: pam_unix(cron:session): session closed for user root
+Jul 22 13:10:01 Cbrandon CRON[11347]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:10:04 Cbrandon CRON[11347]: pam_unix(cron:session): session closed for user root
+Jul 22 13:15:01 Cbrandon CRON[11405]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:15:09 Cbrandon CRON[11405]: pam_unix(cron:session): session closed for user root
+Jul 22 13:17:01 Cbrandon CRON[11455]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:17:01 Cbrandon CRON[11455]: pam_unix(cron:session): session closed for user root
+Jul 22 13:20:01 Cbrandon CRON[11462]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:20:10 Cbrandon CRON[11462]: pam_unix(cron:session): session closed for user root
+Jul 22 13:25:01 Cbrandon CRON[11516]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:25:07 Cbrandon CRON[11516]: pam_unix(cron:session): session closed for user root
+Jul 22 13:26:00 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 13:26:00 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 13:30:01 Cbrandon CRON[11606]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:30:12 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 13:30:14 Cbrandon CRON[11606]: pam_unix(cron:session): session closed for user root
+Jul 22 13:35:01 Cbrandon CRON[11672]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:35:09 Cbrandon CRON[11672]: pam_unix(cron:session): session closed for user root
+Jul 22 13:40:01 Cbrandon CRON[11728]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:40:04 Cbrandon CRON[11728]: pam_unix(cron:session): session closed for user root
+Jul 22 13:45:01 Cbrandon CRON[11784]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:45:09 Cbrandon CRON[11784]: pam_unix(cron:session): session closed for user root
+Jul 22 13:50:01 Cbrandon CRON[11968]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:50:08 Cbrandon CRON[11968]: pam_unix(cron:session): session closed for user root
+Jul 22 13:55:01 Cbrandon CRON[12029]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:55:03 Cbrandon CRON[12029]: pam_unix(cron:session): session closed for user root
+Jul 22 13:56:00 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 13:56:00 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 13:57:02 Cbrandon systemd-logind[890]: System is powering down.
+Jul 22 13:57:02 Cbrandon systemd-logind[890]: Operation finished.
+Jul 23 05:54:57 Cbrandon sshd[1206]: Server listening on 0.0.0.0 port 22.
+Jul 23 05:54:57 Cbrandon sshd[1206]: Server listening on :: port 22.
+Jul 23 05:55:00 Cbrandon mdm[1501]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 23 05:55:00 Cbrandon mdm[1501]: PAM adding faulty module: pam_kwallet.so
+Jul 23 05:55:01 Cbrandon CRON[1647]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 05:55:01 Cbrandon CRON[1647]: pam_unix(cron:session): session closed for user root
+Jul 23 05:55:15 Cbrandon dbus[499]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=1710 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=946 comm="NetworkManager ")
+Jul 23 05:55:53 Cbrandon mdm[1501]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jul 23 05:55:55 Cbrandon mdm[1501]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jul 23 05:55:55 Cbrandon mdm[1501]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 23 05:55:58 Cbrandon polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 23 06:00:01 Cbrandon CRON[3031]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 06:00:14 Cbrandon CRON[3031]: pam_unix(cron:session): session closed for user root
+Jul 23 06:05:01 Cbrandon CRON[3159]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 06:05:05 Cbrandon CRON[3159]: pam_unix(cron:session): session closed for user root
+Jul 23 06:10:01 Cbrandon CRON[3344]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 06:10:07 Cbrandon CRON[3344]: pam_unix(cron:session): session closed for user root
+Jul 23 06:15:01 Cbrandon CRON[3487]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 06:15:08 Cbrandon CRON[3487]: pam_unix(cron:session): session closed for user root
+Jul 23 06:17:01 Cbrandon CRON[3568]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 06:17:01 Cbrandon CRON[3568]: pam_unix(cron:session): session closed for user root
+Jul 23 06:19:07 Cbrandon sshd[3578]: Did not receive identification string from 192.168.106.16
+Jul 23 06:19:37 Cbrandon sshd[3632]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 23 06:19:46 Cbrandon sshd[3637]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 23 06:19:47 Cbrandon sshd[3638]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 06:19:47 Cbrandon sshd[3644]: fatal: no hostkey alg [preauth]
+Jul 23 06:19:48 Cbrandon sshd[3647]: fatal: no hostkey alg [preauth]
+Jul 23 06:19:48 Cbrandon sshd[3642]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 06:19:48 Cbrandon sshd[3640]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 06:20:01 Cbrandon CRON[3653]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 06:20:09 Cbrandon CRON[3653]: pam_unix(cron:session): session closed for user root
+Jul 23 06:25:01 Cbrandon CRON[3775]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 06:25:01 Cbrandon CRON[3776]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 06:25:01 Cbrandon CRON[3776]: pam_unix(cron:session): session closed for user root
+Jul 23 06:25:09 Cbrandon CRON[3775]: pam_unix(cron:session): session closed for user root
+Jul 23 06:25:59 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 06:25:59 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 06:30:01 Cbrandon CRON[3901]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 06:30:06 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 06:30:08 Cbrandon CRON[3901]: pam_unix(cron:session): session closed for user root
+Jul 23 06:35:01 Cbrandon CRON[3987]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 06:35:08 Cbrandon CRON[3987]: pam_unix(cron:session): session closed for user root
+Jul 23 06:40:01 Cbrandon CRON[4054]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 06:40:09 Cbrandon CRON[4054]: pam_unix(cron:session): session closed for user root
+Jul 23 06:45:01 Cbrandon CRON[4176]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 06:45:08 Cbrandon CRON[4176]: pam_unix(cron:session): session closed for user root
+Jul 23 06:47:53 Cbrandon sshd[4228]: Did not receive identification string from 192.168.106.16
+Jul 23 06:48:18 Cbrandon sshd[4236]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 23 06:48:20 Cbrandon sshd[4244]: fatal: no hostkey alg [preauth]
+Jul 23 06:48:20 Cbrandon sshd[4247]: fatal: no hostkey alg [preauth]
+Jul 23 06:48:20 Cbrandon sshd[4242]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 06:48:20 Cbrandon sshd[4237]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 06:48:20 Cbrandon sshd[4240]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 06:48:28 Cbrandon sshd[4249]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 23 06:50:01 Cbrandon CRON[4257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 06:50:09 Cbrandon CRON[4257]: pam_unix(cron:session): session closed for user root
+Jul 23 06:55:01 Cbrandon CRON[4323]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 06:55:09 Cbrandon CRON[4323]: pam_unix(cron:session): session closed for user root
+Jul 23 06:55:59 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 06:55:59 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 07:00:01 Cbrandon CRON[4425]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 07:00:07 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 07:00:10 Cbrandon CRON[4425]: pam_unix(cron:session): session closed for user root
+Jul 23 07:05:01 Cbrandon CRON[4490]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 07:05:10 Cbrandon CRON[4490]: pam_unix(cron:session): session closed for user root
+Jul 23 07:10:01 Cbrandon CRON[4559]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 07:10:07 Cbrandon CRON[4559]: pam_unix(cron:session): session closed for user root
+Jul 23 07:15:01 Cbrandon CRON[4624]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 07:15:11 Cbrandon CRON[4624]: pam_unix(cron:session): session closed for user root
+Jul 23 07:17:01 Cbrandon CRON[4857]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 07:17:01 Cbrandon CRON[4857]: pam_unix(cron:session): session closed for user root
+Jul 23 07:19:00 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 23 07:19:00 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 23 07:19:00 Cbrandon pkexec[4867]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 22]
+Jul 23 07:19:00 Cbrandon pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 23 07:19:00 Cbrandon pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 23 07:19:00 Cbrandon pkexec[4872]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 24]
+Jul 23 07:20:01 Cbrandon CRON[4881]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 07:20:09 Cbrandon CRON[4881]: pam_unix(cron:session): session closed for user root
+Jul 23 07:20:16 Cbrandon su[5061]: Successful su for nobody by root
+Jul 23 07:20:16 Cbrandon su[5061]: + ??? root:nobody
+Jul 23 07:20:16 Cbrandon su[5061]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 23 07:20:16 Cbrandon su[5061]: pam_unix(su:session): session closed for user nobody
+Jul 23 07:20:16 Cbrandon su[5069]: Successful su for nobody by root
+Jul 23 07:20:16 Cbrandon su[5069]: + ??? root:nobody
+Jul 23 07:20:16 Cbrandon su[5069]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 23 07:20:16 Cbrandon su[5069]: pam_unix(su:session): session closed for user nobody
+Jul 23 07:20:16 Cbrandon su[5083]: Successful su for nobody by root
+Jul 23 07:20:16 Cbrandon su[5083]: + ??? root:nobody
+Jul 23 07:20:16 Cbrandon su[5083]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 23 07:20:31 Cbrandon su[5083]: pam_unix(su:session): session closed for user nobody
+Jul 23 07:25:01 Cbrandon CRON[5270]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 07:25:04 Cbrandon CRON[5270]: pam_unix(cron:session): session closed for user root
+Jul 23 07:25:59 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 07:25:59 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 07:30:01 Cbrandon CRON[5375]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 07:30:01 Cbrandon CRON[5374]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 07:30:01 Cbrandon CRON[5375]: pam_unix(cron:session): session closed for user root
+Jul 23 07:30:07 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 07:30:11 Cbrandon CRON[5374]: pam_unix(cron:session): session closed for user root
+Jul 23 07:35:01 Cbrandon CRON[5492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 07:35:08 Cbrandon CRON[5492]: pam_unix(cron:session): session closed for user root
+Jul 23 07:40:01 Cbrandon CRON[5566]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 07:40:08 Cbrandon CRON[5566]: pam_unix(cron:session): session closed for user root
+Jul 23 07:45:01 Cbrandon CRON[5634]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 07:45:04 Cbrandon CRON[5634]: pam_unix(cron:session): session closed for user root
+Jul 23 07:50:01 Cbrandon CRON[5698]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 07:50:09 Cbrandon CRON[5698]: pam_unix(cron:session): session closed for user root
+Jul 23 07:55:01 Cbrandon CRON[5770]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 07:55:08 Cbrandon CRON[5770]: pam_unix(cron:session): session closed for user root
+Jul 23 07:56:00 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 07:56:00 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 08:00:01 Cbrandon CRON[5892]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 08:00:02 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 08:00:09 Cbrandon CRON[5892]: pam_unix(cron:session): session closed for user root
+Jul 23 08:05:01 Cbrandon CRON[5970]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 08:05:09 Cbrandon CRON[5970]: pam_unix(cron:session): session closed for user root
+Jul 23 08:10:01 Cbrandon CRON[6041]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 08:10:05 Cbrandon CRON[6041]: pam_unix(cron:session): session closed for user root
+Jul 23 08:15:01 Cbrandon CRON[6105]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 08:15:08 Cbrandon CRON[6105]: pam_unix(cron:session): session closed for user root
+Jul 23 08:17:01 Cbrandon CRON[6158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 08:17:01 Cbrandon CRON[6158]: pam_unix(cron:session): session closed for user root
+Jul 23 08:20:01 Cbrandon CRON[6169]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 08:20:05 Cbrandon CRON[6169]: pam_unix(cron:session): session closed for user root
+Jul 23 08:25:01 Cbrandon CRON[6227]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 08:25:10 Cbrandon CRON[6227]: pam_unix(cron:session): session closed for user root
+Jul 23 08:26:00 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 08:26:00 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 08:30:01 Cbrandon CRON[6328]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 08:30:07 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 08:30:11 Cbrandon CRON[6328]: pam_unix(cron:session): session closed for user root
+Jul 23 08:35:01 Cbrandon CRON[6389]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 08:35:06 Cbrandon CRON[6389]: pam_unix(cron:session): session closed for user root
+Jul 23 08:40:01 Cbrandon CRON[6454]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 08:40:08 Cbrandon CRON[6454]: pam_unix(cron:session): session closed for user root
+Jul 23 08:45:01 Cbrandon CRON[6523]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 08:45:07 Cbrandon CRON[6523]: pam_unix(cron:session): session closed for user root
+Jul 23 08:50:01 Cbrandon CRON[6592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 08:50:04 Cbrandon CRON[6592]: pam_unix(cron:session): session closed for user root
+Jul 23 08:55:01 Cbrandon CRON[6648]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 08:55:09 Cbrandon CRON[6648]: pam_unix(cron:session): session closed for user root
+Jul 23 08:56:00 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 08:56:00 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 09:00:01 Cbrandon CRON[6742]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 09:00:07 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 09:00:10 Cbrandon CRON[6742]: pam_unix(cron:session): session closed for user root
+Jul 23 09:05:01 Cbrandon CRON[6806]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 09:05:05 Cbrandon CRON[6806]: pam_unix(cron:session): session closed for user root
+Jul 23 09:10:01 Cbrandon CRON[6863]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 09:10:09 Cbrandon CRON[6863]: pam_unix(cron:session): session closed for user root
+Jul 23 09:15:01 Cbrandon CRON[6918]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 09:15:09 Cbrandon CRON[6918]: pam_unix(cron:session): session closed for user root
+Jul 23 09:17:01 Cbrandon CRON[6969]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 09:17:01 Cbrandon CRON[6969]: pam_unix(cron:session): session closed for user root
+Jul 23 09:20:01 Cbrandon CRON[6976]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 09:20:06 Cbrandon CRON[6976]: pam_unix(cron:session): session closed for user root
+Jul 23 09:25:01 Cbrandon CRON[7039]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 09:25:10 Cbrandon CRON[7039]: pam_unix(cron:session): session closed for user root
+Jul 23 09:26:00 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 09:26:00 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 09:30:01 Cbrandon CRON[7128]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 09:30:08 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 09:30:10 Cbrandon CRON[7128]: pam_unix(cron:session): session closed for user root
+Jul 23 09:35:01 Cbrandon CRON[7201]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 09:35:09 Cbrandon CRON[7201]: pam_unix(cron:session): session closed for user root
+Jul 23 09:37:41 Cbrandon sshd[7255]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 23 09:37:43 Cbrandon sshd[7262]: fatal: no hostkey alg [preauth]
+Jul 23 09:37:43 Cbrandon sshd[7264]: fatal: no hostkey alg [preauth]
+Jul 23 09:37:43 Cbrandon sshd[7256]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 09:37:43 Cbrandon sshd[7258]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 09:37:43 Cbrandon sshd[7260]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 09:37:44 Cbrandon sshd[7266]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 23 09:40:01 Cbrandon CRON[7271]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 09:40:05 Cbrandon CRON[7271]: pam_unix(cron:session): session closed for user root
+Jul 23 09:45:01 Cbrandon CRON[7328]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 09:45:06 Cbrandon CRON[7328]: pam_unix(cron:session): session closed for user root
+Jul 23 09:50:01 Cbrandon CRON[7422]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 09:50:08 Cbrandon CRON[7422]: pam_unix(cron:session): session closed for user root
+Jul 23 09:55:01 Cbrandon CRON[7482]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 09:55:09 Cbrandon CRON[7482]: pam_unix(cron:session): session closed for user root
+Jul 23 09:56:00 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 09:56:00 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 09:56:11 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:00:01 Cbrandon CRON[7589]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 10:00:15 Cbrandon CRON[7589]: pam_unix(cron:session): session closed for user root
+Jul 23 10:05:01 Cbrandon CRON[7663]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 10:05:06 Cbrandon CRON[7663]: pam_unix(cron:session): session closed for user root
+Jul 23 10:10:01 Cbrandon CRON[7722]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 10:10:07 Cbrandon CRON[7722]: pam_unix(cron:session): session closed for user root
+Jul 23 10:15:01 Cbrandon CRON[7781]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 10:15:08 Cbrandon CRON[7781]: pam_unix(cron:session): session closed for user root
+Jul 23 10:17:01 Cbrandon CRON[7867]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 10:17:01 Cbrandon CRON[7867]: pam_unix(cron:session): session closed for user root
+Jul 23 10:20:01 Cbrandon CRON[7996]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 10:20:09 Cbrandon CRON[7996]: pam_unix(cron:session): session closed for user root
+Jul 23 10:25:01 Cbrandon CRON[8083]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 10:25:09 Cbrandon CRON[8083]: pam_unix(cron:session): session closed for user root
+Jul 23 10:26:00 Cbrandon sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 10:26:00 Cbrandon sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 10:28:07 Cbrandon sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:30:01 Cbrandon CRON[8309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 10:30:07 Cbrandon CRON[8309]: pam_unix(cron:session): session closed for user root
+Jul 23 10:35:02 Cbrandon CRON[8408]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 10:35:10 Cbrandon CRON[8408]: pam_unix(cron:session): session closed for user root
+Jul 23 10:40:01 Cbrandon CRON[8491]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 10:40:05 Cbrandon CRON[8491]: pam_unix(cron:session): session closed for user root
+Jul 23 10:44:39 Cbrandon sshd[8556]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 23 10:45:01 Cbrandon CRON[8557]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 10:45:04 Cbrandon CRON[8557]: pam_unix(cron:session): session closed for user root
+Jul 23 10:45:10 Cbrandon sshd[8606]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 23 10:45:12 Cbrandon sshd[8613]: fatal: no hostkey alg [preauth]
+Jul 23 10:45:12 Cbrandon sshd[8615]: fatal: no hostkey alg [preauth]
+Jul 23 10:45:12 Cbrandon sshd[8611]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 10:45:12 Cbrandon sshd[8607]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 10:45:12 Cbrandon sshd[8609]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 10:47:57 Cbrandon su[8641]: Successful su for root by tech
+Jul 23 10:47:57 Cbrandon su[8641]: + /dev/pts/1 tech:root
+Jul 23 10:47:57 Cbrandon su[8641]: pam_unix(su:session): session opened for user root by tech(uid=1000)

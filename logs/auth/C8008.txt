@@ -1,0 +1,80 @@
+Jun 12 15:17:01 C8001 CRON[2128]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 15:17:01 C8001 CRON[2128]: pam_unix(cron:session): session closed for user root
+Jun 12 15:29:19 C8001 mdm[1498]: pam_unix(mdm:auth): check pass; user unknown
+Jun 12 15:29:19 C8001 mdm[1498]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Jun 12 15:29:19 C8001 mdm[1498]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user= tech
+Jun 12 15:29:19 C8001 mdm[1498]: pam_sss(mdm:auth): received for user  tech: 10 (User not known to the underlying authentication module)
+Jun 12 15:29:22 C8001 mdm[1498]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 12 15:29:22 C8001 mdm[1498]: PAM adding faulty module: pam_kwallet.so
+Jun 12 15:29:25 C8001 mdm[1498]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jun 12 15:29:33 C8001 mdm[1498]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jun 12 15:29:33 C8001 systemd-logind[592]: Removed session c3.
+Jun 12 15:29:33 C8001 systemd-logind[592]: New session c4 of user tech.
+Jun 12 15:29:33 C8001 systemd-logind[592]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jun 12 15:29:33 C8001 mdm[1498]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 12 15:29:42 C8001 polkitd(authority=local): Registered Authentication Agent for unix-session:c4 (system bus name :1.33 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 12 15:36:20 C8001 su[2871]: Successful su for root by tech
+Jun 12 15:36:20 C8001 su[2871]: + /dev/pts/0 tech:root
+Jun 12 15:36:20 C8001 su[2871]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jun 12 15:36:37 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get remove network-manager -y
+Jun 12 15:36:37 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 12 15:36:44 C8001 dbus[507]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=1525 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=924 comm="NetworkManager ")
+Jun 12 15:36:59 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 15:37:46 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#012auto lo#012auto eth0#012#012iface lo inet loopback#012iface eth0 inet static#012#011#011address 192.168.208.7#012#011#011netmask 255.255.252.0#012#011#011gateway 192.168.210.1
+Jun 12 15:37:46 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 12 15:37:46 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 15:37:52 C8001 sshd[1284]: Received signal 15; terminating.
+Jun 12 15:37:53 C8001 sshd[3680]: Server listening on 0.0.0.0 port 22.
+Jun 12 15:37:53 C8001 sshd[3680]: Server listening on :: port 22.
+Jun 12 15:46:38 C8001 systemd-logind[807]: New seat seat0.
+Jun 12 15:46:47 C8001 sshd[1342]: Server listening on 0.0.0.0 port 22.
+Jun 12 15:46:47 C8001 sshd[1342]: Server listening on :: port 22.
+Jun 12 15:46:48 C8001 CRON[1438]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 15:46:52 C8001 mdm[1510]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 12 15:46:52 C8001 mdm[1510]: PAM adding faulty module: pam_kwallet.so
+Jun 12 15:46:53 C8001 CRON[1438]: pam_unix(cron:session): session closed for user root
+Jun 12 15:47:18 C8001 mdm[1510]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jun 12 15:47:22 C8001 mdm[1510]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jun 12 15:47:22 C8001 systemd-logind[807]: New session c1 of user tech.
+Jun 12 15:47:22 C8001 systemd-logind[807]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jun 12 15:47:22 C8001 mdm[1510]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 12 15:47:31 C8001 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.18 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 12 15:48:16 C8001 su[2425]: Successful su for root by tech
+Jun 12 15:48:16 C8001 su[2425]: + /dev/pts/0 tech:root
+Jun 12 15:48:16 C8001 su[2425]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jun 12 15:48:33 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/preferences/blacklist_update.sh
+Jun 12 15:48:33 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 12 15:48:44 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 15:49:31 C8008 systemd-logind[849]: New seat seat0.
+Jun 12 15:49:41 C8008 sshd[1339]: Server listening on 0.0.0.0 port 22.
+Jun 12 15:49:41 C8008 sshd[1339]: Server listening on :: port 22.
+Jun 12 15:49:41 C8008 CRON[1429]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 15:49:45 C8008 mdm[1554]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 12 15:49:45 C8008 mdm[1554]: PAM adding faulty module: pam_kwallet.so
+Jun 12 15:49:46 C8008 CRON[1429]: pam_unix(cron:session): session closed for user root
+Jun 12 16:17:01 C8008 CRON[1635]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 16:17:01 C8008 CRON[1635]: pam_unix(cron:session): session closed for user root
+Jun 12 17:17:01 C8008 CRON[1702]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 17:17:01 C8008 CRON[1702]: pam_unix(cron:session): session closed for user root
+Jun 12 18:17:01 C8008 CRON[1770]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 18:17:01 C8008 CRON[1770]: pam_unix(cron:session): session closed for user root
+Jun 12 19:17:01 C8008 CRON[1837]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 19:17:01 C8008 CRON[1837]: pam_unix(cron:session): session closed for user root
+Jun 12 20:17:01 C8008 CRON[1905]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 20:17:01 C8008 CRON[1905]: pam_unix(cron:session): session closed for user root
+Jun 12 21:17:01 C8008 CRON[1973]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 21:17:01 C8008 CRON[1973]: pam_unix(cron:session): session closed for user root
+Jun 12 22:17:02 C8008 CRON[2040]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 22:17:02 C8008 CRON[2040]: pam_unix(cron:session): session closed for user root
+Jun 12 23:17:01 C8008 CRON[2108]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 23:17:01 C8008 CRON[2108]: pam_unix(cron:session): session closed for user root
+Jun 13 00:17:01 C8008 CRON[2175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 13 00:17:01 C8008 CRON[2175]: pam_unix(cron:session): session closed for user root
+Jun 13 01:17:01 C8008 CRON[2244]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 13 01:17:01 C8008 CRON[2244]: pam_unix(cron:session): session closed for user root
+Jun 13 02:17:01 C8008 CRON[2312]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 13 02:17:01 C8008 CRON[2312]: pam_unix(cron:session): session closed for user root
+Jun 13 03:00:01 C8008 CRON[2361]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 13 03:00:03 C8008 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jun 13 03:00:03 C8008 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 13 03:00:03 C8008 sudo: pam_unix(sudo:session): session closed for user root

@@ -1,0 +1,149 @@
+Jul 23 10:01:53 mhill systemd-logind[676]: New seat seat0.
+Jul 23 10:02:23 mhill dbus[508]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=1535 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=811 comm="NetworkManager ")
+Jul 23 10:02:44 mhill mdm[1451]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 23 10:02:44 mhill mdm[1451]: PAM adding faulty module: pam_kwallet.so
+Jul 23 10:07:22 mhill su[1871]: Successful su for nobody by root
+Jul 23 10:07:22 mhill su[1871]: + ??? root:nobody
+Jul 23 10:07:22 mhill su[1871]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 23 10:07:22 mhill systemd-logind[676]: New session c1 of user nobody.
+Jul 23 10:07:23 mhill su[1871]: pam_unix(su:session): session closed for user nobody
+Jul 23 10:07:23 mhill su[1946]: Successful su for nobody by root
+Jul 23 10:07:23 mhill su[1946]: + ??? root:nobody
+Jul 23 10:07:23 mhill su[1946]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 23 10:07:23 mhill systemd-logind[676]: Removed session c1.
+Jul 23 10:07:23 mhill systemd-logind[676]: New session c2 of user nobody.
+Jul 23 10:07:23 mhill su[1946]: pam_unix(su:session): session closed for user nobody
+Jul 23 10:07:23 mhill su[1960]: Successful su for nobody by root
+Jul 23 10:07:23 mhill su[1960]: + ??? root:nobody
+Jul 23 10:07:23 mhill su[1960]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 23 10:07:23 mhill systemd-logind[676]: Removed session c2.
+Jul 23 10:07:23 mhill systemd-logind[676]: New session c3 of user nobody.
+Jul 23 10:07:57 mhill su[1960]: pam_unix(su:session): session closed for user nobody
+Jul 23 10:10:44 mhill mdm[1451]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jul 23 10:10:47 mhill mdm[1451]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jul 23 10:10:47 mhill systemd-logind[676]: Removed session c3.
+Jul 23 10:10:47 mhill systemd-logind[676]: New session c4 of user tech.
+Jul 23 10:10:47 mhill systemd-logind[676]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jul 23 10:10:47 mhill mdm[1451]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 23 10:10:54 mhill polkitd(authority=local): Registered Authentication Agent for unix-session:c4 (system bus name :1.36 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 23 10:12:10 mhill su[2951]: Successful su for root by tech
+Jul 23 10:12:10 mhill su[2951]: + /dev/pts/0 tech:root
+Jul 23 10:12:10 mhill su[2951]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jul 23 10:12:16 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /usr/src/IT_Files
+Jul 23 10:12:16 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:12:16 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:12:16 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/sed -i /IT_Files/d /etc/fstab
+Jul 23 10:12:16 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:12:16 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:12:16 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo //hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8,nobootwait  0  0
+Jul 23 10:12:16 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:12:16 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:12:16 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mount -a
+Jul 23 10:12:16 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:12:16 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:13:17 mhill dbus[508]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=1535 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=811 comm="NetworkManager ")
+Jul 23 10:13:18 mhill dbus[508]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=1535 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=811 comm="NetworkManager ")
+Jul 23 10:17:01 mhill CRON[3213]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 10:17:01 mhill CRON[3213]: pam_unix(cron:session): session closed for user root
+Jul 23 10:39:56 mhill systemd-logind[21228]: New seat seat0.
+Jul 23 10:39:56 mhill systemd-logind[21228]: New session c4 of user tech.
+Jul 23 10:39:56 mhill systemd-logind[21228]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jul 23 10:43:30 mhill groupadd[4131]: group added to /etc/group: name=clamav, GID=125
+Jul 23 10:43:30 mhill groupadd[4131]: group added to /etc/gshadow: name=clamav
+Jul 23 10:43:30 mhill groupadd[4131]: new group: name=clamav, GID=125
+Jul 23 10:43:30 mhill useradd[4135]: new user: name=clamav, UID=115, GID=125, home=/var/lib/clamav, shell=/bin/false
+Jul 23 10:43:31 mhill chage[4140]: changed password expiry for clamav
+Jul 23 10:43:36 mhill useradd[4371]: new user: name=sshd, UID=116, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Jul 23 10:43:36 mhill usermod[4376]: change user 'sshd' password
+Jul 23 10:43:36 mhill chage[4381]: changed password expiry for sshd
+Jul 23 10:43:37 mhill sshd[4436]: Server listening on 0.0.0.0 port 22.
+Jul 23 10:43:37 mhill sshd[4436]: Server listening on :: port 22.
+Jul 23 10:45:30 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jul 23 10:45:30 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:45:30 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:45:30 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.9-x86.msi /usr/share/wine/gecko/
+Jul 23 10:45:30 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:45:30 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:46:12 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jul 23 10:46:12 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:46:12 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:46:12 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86.msi /usr/share/wine/gecko/
+Jul 23 10:46:12 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:46:12 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:47:14 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jul 23 10:47:14 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:47:14 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:47:14 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86.msi /usr/share/wine/gecko/
+Jul 23 10:47:14 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:47:14 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:47:42 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jul 23 10:47:42 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:47:42 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:47:42 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86.msi /usr/share/wine/gecko/
+Jul 23 10:47:42 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:47:42 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:48:12 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jul 23 10:48:12 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:48:12 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:48:12 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86_64.msi /usr/share/wine/gecko/
+Jul 23 10:48:12 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:48:12 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:48:59 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jul 23 10:48:59 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:48:59 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:48:59 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86_64.msi /usr/share/wine/gecko/
+Jul 23 10:48:59 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:48:59 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:53:02 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jul 23 10:53:02 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:53:02 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:53:02 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.6-x86_64.msi /usr/share/wine/gecko/
+Jul 23 10:53:02 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:53:02 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:57:31 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jul 23 10:57:31 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:57:31 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:57:31 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.5-x86_64.msi /usr/share/wine/gecko/
+Jul 23 10:57:31 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:57:31 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:58:30 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jul 23 10:58:30 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:58:30 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:58:30 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86_64.msi /usr/share/wine/gecko/
+Jul 23 10:58:30 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:58:30 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:59:20 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Jul 23 10:59:20 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:59:20 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 10:59:20 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.3-x86_64.msi /usr/share/wine/gecko/
+Jul 23 10:59:20 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 10:59:20 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 11:01:28 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Jul 23 11:01:28 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 11:01:28 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 11:01:28 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.4.msi /usr/share/wine/mono
+Jul 23 11:01:28 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 11:01:29 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 11:01:35 mhill sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jul 23 11:01:35 mhill sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jul 23 11:01:35 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 11:10:59 mhill sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 11:10:59 mhill sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 11:13:31 mhill sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 11:14:58 mhill systemd-logind[738]: New seat seat0.
+Jul 23 11:15:14 mhill dbus[526]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=956 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=830 comm="NetworkManager ")
+Jul 23 11:15:19 mhill sshd[1451]: Server listening on 0.0.0.0 port 22.
+Jul 23 11:15:19 mhill sshd[1451]: Server listening on :: port 22.
+Jul 23 11:15:26 mhill mdm[1679]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 23 11:15:26 mhill mdm[1679]: PAM adding faulty module: pam_kwallet.so
+Jul 23 11:15:28 mhill mdm[1679]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jul 23 11:15:32 mhill mdm[1679]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jul 23 11:15:32 mhill systemd-logind[738]: New session c1 of user tech.
+Jul 23 11:15:32 mhill systemd-logind[738]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jul 23 11:15:32 mhill mdm[1679]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 23 11:15:43 mhill polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 23 11:17:01 mhill su[2605]: Successful su for root by tech
+Jul 23 11:17:01 mhill su[2605]: + /dev/pts/0 tech:root
+Jul 23 11:17:01 mhill su[2605]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jul 23 11:17:01 mhill CRON[2609]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 11:17:01 mhill CRON[2609]: pam_unix(cron:session): session closed for user root

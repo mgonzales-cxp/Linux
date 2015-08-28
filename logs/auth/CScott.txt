@@ -1,0 +1,1484 @@
+May 26 06:17:01 CScott CRON[3937]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 26 06:17:01 CScott CRON[3937]: pam_unix(cron:session): session closed for user root
+May 26 06:25:01 CScott CRON[4112]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 26 06:25:01 CScott CRON[4112]: pam_unix(cron:session): session closed for user root
+May 26 06:29:49 CScott xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 26 06:30:59 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 26 06:30:59 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 26 06:31:11 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 26 06:43:36 CScott xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 26 07:00:59 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 26 07:00:59 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 26 07:01:13 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 26 07:17:01 CScott CRON[4611]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 26 07:17:01 CScott CRON[4611]: pam_unix(cron:session): session closed for user root
+May 26 07:20:41 CScott xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 26 07:30:01 CScott CRON[4659]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 26 07:30:01 CScott CRON[4659]: pam_unix(cron:session): session closed for user root
+May 26 07:30:59 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 26 07:30:59 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 26 07:31:14 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 26 07:49:31 CScott xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 26 07:57:13 CScott xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 26 08:00:59 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 26 08:00:59 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 26 08:03:06 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 26 08:15:32 CScott xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 26 08:17:01 CScott CRON[4873]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 26 08:17:01 CScott CRON[4873]: pam_unix(cron:session): session closed for user root
+May 26 08:30:59 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 26 08:30:59 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 26 08:35:06 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 26 08:38:55 CScott xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 26 09:00:59 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 26 09:00:59 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 26 09:05:06 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 26 09:08:22 CScott dbus[621]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.15" (uid=0 pid=1771 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=986 comm="NetworkManager ")
+May 26 09:17:01 CScott CRON[6961]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 26 09:17:01 CScott CRON[6961]: pam_unix(cron:session): session closed for user root
+May 26 09:30:59 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 26 09:30:59 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 26 09:35:06 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 26 09:50:42 CScott xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 26 10:01:00 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 26 10:01:00 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 26 10:05:06 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 26 10:12:43 CScott xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 26 10:17:01 CScott CRON[7657]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 26 10:17:01 CScott CRON[7657]: pam_unix(cron:session): session closed for user root
+May 26 10:31:00 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 26 10:31:00 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 26 10:35:06 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 26 11:01:00 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 26 11:01:00 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 26 11:05:06 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 26 11:13:17 CScott xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 26 11:17:01 CScott CRON[7877]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 26 11:17:01 CScott CRON[7877]: pam_unix(cron:session): session closed for user root
+May 26 11:31:00 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 26 11:31:00 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 26 11:35:06 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 26 11:52:22 CScott xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 26 12:01:00 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 26 12:01:00 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 26 12:05:06 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 26 12:17:01 CScott CRON[8089]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 26 12:17:01 CScott CRON[8089]: pam_unix(cron:session): session closed for user root
+May 26 12:31:00 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 26 12:31:00 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 26 12:31:47 CScott sudo: pam_unix(sudo:auth): conversation failed
+May 26 12:31:47 CScott sudo: pam_unix(sudo:auth): auth could not identify password for [tech]
+May 26 12:31:47 CScott sudo: pam_sss(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=tech rhost= user=tech
+May 26 12:31:47 CScott sudo: pam_sss(sudo:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May 26 12:35:06 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 26 13:01:02 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 26 13:01:02 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 26 13:05:13 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 26 13:07:42 CScott polkit-agent-helper-1[8994]: pam_ecryptfs: pam_sm_authenticate: /home/tech is already mounted
+May 26 13:07:42 CScott polkitd(authority=local): Operator of unix-session:c1 successfully authenticated as unix-user:tech to gain TEMPORARY authorization for action org.freedesktop.policykit.pkexec.run-im for unix-process:8920:2563613 [/usr/bin/python /usr/lib/mintstick/mintstick.py -m iso] (owned by unix-user:tech)
+May 26 13:07:42 CScott pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+May 26 13:07:42 CScott systemd-logind[714]: Removed session c4.
+May 26 13:07:42 CScott pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+May 26 13:07:42 CScott pkexec[8991]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/home/tech] [COMMAND=/usr/bin/python -u /usr/lib/mintstick/raw_write.py -s /home/tech/Downloads/clonezilla-live-2.3.2-22-amd64.iso -t /dev/sdb]
+May 26 13:17:02 CScott CRON[9278]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 26 13:17:02 CScott CRON[9278]: pam_unix(cron:session): session closed for user root
+May 26 13:20:04 CScott polkit-agent-helper-1[9371]: pam_ecryptfs: pam_sm_authenticate: /home/tech is already mounted
+May 26 13:20:04 CScott polkitd(authority=local): Operator of unix-session:c1 successfully authenticated as unix-user:tech to gain TEMPORARY authorization for action org.freedesktop.policykit.pkexec.run-im for unix-process:9352:2639952 [/usr/bin/python /usr/lib/mintstick/mintstick.py -m iso] (owned by unix-user:tech)
+May 26 13:20:04 CScott pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+May 26 13:20:04 CScott pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+May 26 13:20:04 CScott pkexec[9368]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/home/tech] [COMMAND=/usr/bin/python -u /usr/lib/mintstick/raw_write.py -s /home/tech/Downloads/clonezilla-live-2.3.2-22-amd64.iso -t /dev/sdb]
+May 26 13:29:41 CScott polkit-agent-helper-1[9573]: pam_ecryptfs: pam_sm_authenticate: /home/tech is already mounted
+May 26 13:29:41 CScott polkitd(authority=local): Operator of unix-session:c1 successfully authenticated as unix-user:tech to gain TEMPORARY authorization for action org.freedesktop.policykit.pkexec.run-im for unix-process:9555:2697851 [/usr/bin/python /usr/lib/mintstick/mintstick.py -m iso] (owned by unix-user:tech)
+May 26 13:29:41 CScott pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+May 26 13:29:41 CScott pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+May 26 13:29:41 CScott pkexec[9571]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/home/tech] [COMMAND=/usr/bin/python -u /usr/lib/mintstick/raw_write.py -s /home/tech/Downloads/clonezilla-live-2.3.2-22-amd64.iso -t /dev/sdb]
+May 26 13:31:01 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 26 13:31:01 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 26 13:32:25 CScott systemd-logind[928]: New seat seat0.
+May 26 13:32:29 CScott sshd[1387]: Server listening on 0.0.0.0 port 22.
+May 26 13:32:29 CScott sshd[1387]: Server listening on :: port 22.
+May 26 13:32:29 CScott CRON[1445]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 26 13:32:29 CScott CRON[1445]: pam_unix(cron:session): session closed for user root
+May 26 13:32:31 CScott mdm[1631]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May 26 13:32:31 CScott mdm[1631]: PAM adding faulty module: pam_kwallet.so
+May 26 13:32:34 CScott mdm[1631]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May 26 13:32:39 CScott dbus[710]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1764 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=967 comm="NetworkManager ")
+May 26 13:32:40 CScott mdm[1631]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May 26 13:32:40 CScott systemd-logind[928]: New session c1 of user tech.
+May 26 13:32:40 CScott systemd-logind[928]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+May 26 13:32:40 CScott mdm[1631]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May 26 13:32:49 CScott polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 26 13:46:01 CScott polkit-agent-helper-1[3068]: pam_ecryptfs: pam_sm_authenticate: /home/tech is already mounted
+May 26 13:46:01 CScott polkitd(authority=local): Operator of unix-session:c1 successfully authenticated as unix-user:tech to gain TEMPORARY authorization for action org.freedesktop.policykit.pkexec.run-im for unix-process:3041:81794 [/usr/bin/python /usr/lib/mintstick/mintstick.py -m iso] (owned by unix-user:tech)
+May 26 13:46:01 CScott pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+May 26 13:46:01 CScott pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+May 26 13:46:01 CScott pkexec[3066]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/home/tech] [COMMAND=/usr/bin/python -u /usr/lib/mintstick/raw_write.py -s /home/tech/Downloads/clonezilla-live-2.3.2-22-amd64.iso -t /dev/sda]
+May 26 14:02:53 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 26 14:02:53 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 26 14:07:03 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 26 14:14:57 CScott systemd-logind[928]: System is powering down.
+May 27 05:58:16 CScott systemd-logind[791]: New seat seat0.
+May 27 05:58:20 CScott sshd[1284]: Server listening on 0.0.0.0 port 22.
+May 27 05:58:20 CScott sshd[1284]: Server listening on :: port 22.
+May 27 05:58:20 CScott CRON[1349]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 05:58:20 CScott CRON[1349]: pam_unix(cron:session): session closed for user root
+May 27 05:58:23 CScott mdm[1567]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May 27 05:58:23 CScott mdm[1567]: PAM adding faulty module: pam_kwallet.so
+May 27 05:58:32 CScott dbus[722]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1743 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=987 comm="NetworkManager ")
+May 27 05:58:34 CScott mdm[1567]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May 27 05:58:37 CScott mdm[1567]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May 27 05:58:37 CScott systemd-logind[791]: New session c1 of user tech.
+May 27 05:58:37 CScott systemd-logind[791]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+May 27 05:58:37 CScott mdm[1567]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May 27 05:58:44 CScott polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 27 06:03:23 CScott su[3166]: Successful su for nobody by root
+May 27 06:03:23 CScott su[3166]: + ??? root:nobody
+May 27 06:03:23 CScott su[3166]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May 27 06:03:23 CScott systemd-logind[791]: New session c2 of user nobody.
+May 27 06:03:23 CScott su[3166]: pam_unix(su:session): session closed for user nobody
+May 27 06:03:23 CScott su[3174]: Successful su for nobody by root
+May 27 06:03:23 CScott su[3174]: + ??? root:nobody
+May 27 06:03:23 CScott su[3174]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May 27 06:03:23 CScott systemd-logind[791]: Removed session c2.
+May 27 06:03:23 CScott systemd-logind[791]: New session c3 of user nobody.
+May 27 06:03:23 CScott su[3174]: pam_unix(su:session): session closed for user nobody
+May 27 06:03:23 CScott su[3188]: Successful su for nobody by root
+May 27 06:03:23 CScott su[3188]: + ??? root:nobody
+May 27 06:03:23 CScott su[3188]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May 27 06:03:23 CScott systemd-logind[791]: Removed session c3.
+May 27 06:03:23 CScott systemd-logind[791]: New session c4 of user nobody.
+May 27 06:03:39 CScott su[3188]: pam_unix(su:session): session closed for user nobody
+May 27 06:07:19 CScott xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 27 06:17:01 CScott CRON[3644]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 06:17:01 CScott CRON[3644]: pam_unix(cron:session): session closed for user root
+May 27 06:25:01 CScott CRON[4026]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 06:25:01 CScott CRON[4026]: pam_unix(cron:session): session closed for user root
+May 27 06:28:48 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 06:28:48 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 06:28:57 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 06:55:46 CScott su[4865]: Successful su for root by tech
+May 27 06:55:46 CScott su[4865]: + /dev/pts/2 tech:root
+May 27 06:55:46 CScott su[4865]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May 27 06:55:46 CScott systemd-logind[791]: Removed session c4.
+May 27 06:56:30 CScott sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/apt-add-repository ppa:fingerprint/fingerprint-gui
+May 27 06:56:30 CScott sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 06:56:35 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 06:56:35 CScott sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/apt-get update
+May 27 06:56:35 CScott sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 06:56:44 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 06:58:48 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 06:58:48 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 06:58:57 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 06:59:33 CScott sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/apt-get install libbsapi policykit-1-fingerprint-gui fingerprint-gui
+May 27 06:59:33 CScott sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 07:00:04 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 07:03:52 CScott fingerprint-gui[5864]: Started.
+May 27 07:03:52 CScott fingerprint-gui[5864]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 27 07:03:52 CScott fingerprint-gui[5864]: Libfprint initialized.
+May 27 07:03:52 CScott fingerprint-gui[5864]: Libbsapi initialized.
+May 27 07:03:52 CScott fingerprint-gui[5864]: Devices initialized.
+May 27 07:03:52 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:03:52 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:03:52 CScott fingerprint-gui[5864]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:03:52 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:03:52 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:03:52 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:03:52 CScott fingerprint-gui[5864]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:03:52 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:03:52 CScott fingerprint-gui[5864]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:03:53 CScott fingerprint-gui[5864]: No devices found by libbsapi.
+May 27 07:03:53 CScott fingerprint-gui[5864]: No Devices Found!
+May 27 07:04:01 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:04:01 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:01 CScott fingerprint-gui[5864]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:04:01 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:01 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:01 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:04:01 CScott fingerprint-gui[5864]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:04:01 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:01 CScott fingerprint-gui[5864]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:04:01 CScott fingerprint-gui[5864]: No devices found by libbsapi.
+May 27 07:04:01 CScott fingerprint-gui[5864]: No Devices Found!
+May 27 07:04:03 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:04:03 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:03 CScott fingerprint-gui[5864]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:04:03 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:03 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:03 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:04:03 CScott fingerprint-gui[5864]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:04:03 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:03 CScott fingerprint-gui[5864]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:04:03 CScott fingerprint-gui[5864]: No devices found by libbsapi.
+May 27 07:04:03 CScott fingerprint-gui[5864]: No Devices Found!
+May 27 07:04:03 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:04:03 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:03 CScott fingerprint-gui[5864]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:04:03 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:03 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:03 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:04:03 CScott fingerprint-gui[5864]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:04:03 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:03 CScott fingerprint-gui[5864]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:04:04 CScott fingerprint-gui[5864]: No devices found by libbsapi.
+May 27 07:04:04 CScott fingerprint-gui[5864]: No Devices Found!
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:04:04 CScott fingerprint-gui[5864]: No devices found by libbsapi.
+May 27 07:04:04 CScott fingerprint-gui[5864]: No Devices Found!
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:04:04 CScott fingerprint-gui[5864]: No devices found by libbsapi.
+May 27 07:04:04 CScott fingerprint-gui[5864]: No Devices Found!
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:04:04 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:04 CScott fingerprint-gui[5864]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:04:05 CScott fingerprint-gui[5864]: No devices found by libbsapi.
+May 27 07:04:05 CScott fingerprint-gui[5864]: No Devices Found!
+May 27 07:04:08 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:04:08 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:08 CScott fingerprint-gui[5864]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:04:08 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:08 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:08 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:04:08 CScott fingerprint-gui[5864]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:04:08 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:08 CScott fingerprint-gui[5864]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:04:08 CScott fingerprint-gui[5864]: No devices found by libbsapi.
+May 27 07:04:08 CScott fingerprint-gui[5864]: No Devices Found!
+May 27 07:04:10 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:04:10 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:10 CScott fingerprint-gui[5864]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:04:10 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:10 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:10 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:04:10 CScott fingerprint-gui[5864]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:04:10 CScott fingerprint-gui[5864]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:04:10 CScott fingerprint-gui[5864]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:04:10 CScott fingerprint-gui[5864]: No devices found by libbsapi.
+May 27 07:04:10 CScott fingerprint-gui[5864]: No Devices Found!
+May 27 07:04:56 CScott fingerprint-gui[5864]: qApp exit.
+May 27 07:04:56 CScott fingerprint-gui[5864]: Devices released.
+May 27 07:05:02 CScott su[4865]: pam_unix(su:session): session closed for user root
+May 27 07:05:02 CScott systemd-logind[791]: System is rebooting.
+May 27 07:05:02 CScott systemd-logind[791]: Operation finished.
+May 27 07:05:30 CScott systemd-logind[697]: New seat seat0.
+May 27 07:05:35 CScott sshd[1278]: Server listening on 0.0.0.0 port 22.
+May 27 07:05:35 CScott sshd[1278]: Server listening on :: port 22.
+May 27 07:05:35 CScott CRON[1427]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 07:05:35 CScott CRON[1427]: pam_unix(cron:session): session closed for user root
+May 27 07:05:37 CScott mdm[1607]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May 27 07:05:37 CScott mdm[1607]: PAM adding faulty module: pam_kwallet.so
+May 27 07:05:42 CScott dbus[644]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1736 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=967 comm="NetworkManager ")
+May 27 07:06:12 CScott mdm[1607]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: Got "debug" argument.
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: Got no PAM_RHOST.
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: Got no SSH_CONNECTION.
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: Have no PAM_AUTHTOK.
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: PAM_SERVICE: mdm.
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: Have DISPLAY :0 from getenv.
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: Scanning X-server PID from /tmp/.X0-lock.
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: Have X-server PID 1615.
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: Have cmdline /usr/bin/X :0 -audit 0 -auth /var/lib/mdm/:0.Xauth -nolisten tcp vt8 .
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: Have XAUTHORITY /var/lib/mdm/:0.Xauth.
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: Setting XAUTHORITY to /var/lib/mdm/:0.Xauth.
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: Have now XDisplay: ":0" and XAuth: "/var/lib/mdm/:0.Xauth".
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: Have PAM username "tech".
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: Parent PID: 1607.
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: Child (helper) PID: 1898.
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: Wrote random string to fifo.
+May 27 07:06:12 CScott pam_fingerprint-gui[1607]: running not OPENPAM.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Got "debug" argument.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Have username tech.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Started.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Arg0: fingerprint-helper.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Arg1: 13.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Arg2: 14.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Arg3: :0.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Arg4: mdm.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Arg5: -d.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Arg6: -u.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Arg7: tech.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Arg8: dUmMy4.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Arg9: dUmMy5.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Have pipe_r 13 and pipe_w 14.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Have display=:0, XAUTHORITY=/var/lib/mdm/:0.Xauth.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Libfprint initialized.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Libbsapi initialized.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Devices initialized.
+May 27 07:06:12 CScott fingerprint-helper[1898]: Found USB device: unknown vendor/unknown device.
+May 27 07:06:12 CScott fingerprint-helper[1898]: message repeated 9 times: [ Found USB device: unknown vendor/unknown device.]
+May 27 07:06:13 CScott fingerprint-helper[1898]: No devices found by libbsapi.
+May 27 07:06:13 CScott fingerprint-helper[1898]: No fingerprint devices found!
+May 27 07:06:13 CScott fingerprint-helper[1898]: WARNING: No devices can identify. Fallback to verifying only.
+May 27 07:06:13 CScott fingerprint-helper[1898]: No useful devices found.
+May 27 07:06:13 CScott fingerprint-helper[1898]: Devices released.
+May 27 07:06:13 CScott fingerprint-helper[1898]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 27 07:06:14 CScott pam_fingerprint-gui[1607]: Prompting password returned PAM_SUCCESS.
+May 27 07:06:14 CScott pam_fingerprint-gui[1607]: Got password by keyboard.
+May 27 07:06:14 CScott pam_fingerprint-gui[1607]: Return 25 (PAM_IGNORE).
+May 27 07:06:14 CScott mdm[1903]: pam_ecryptfs: Passphrase file wrapped
+May 27 07:06:15 CScott mdm[1607]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May 27 07:06:15 CScott systemd-logind[697]: New session c1 of user tech.
+May 27 07:06:15 CScott systemd-logind[697]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+May 27 07:06:15 CScott mdm[1607]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May 27 07:06:19 CScott fingerprint-polkit-agent[2259]: Got "debug" argument.
+May 27 07:06:19 CScott fingerprint-polkit-agent[2259]: started.
+May 27 07:06:23 CScott polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 27 07:06:29 CScott fingerprint-polkit-agent[2259]: Could not register listener "/fingerprintgui/PolicyKit1/AuthenticationAgent". Aborting.
+May 27 07:08:08 CScott fingerprint-gui[2727]: Started.
+May 27 07:08:08 CScott fingerprint-gui[2727]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 27 07:08:08 CScott fingerprint-gui[2727]: Libfprint initialized.
+May 27 07:08:08 CScott fingerprint-gui[2727]: Libbsapi initialized.
+May 27 07:08:08 CScott fingerprint-gui[2727]: Devices initialized.
+May 27 07:08:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:08:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:08:08 CScott fingerprint-gui[2727]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:08:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:08:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:08:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:08:08 CScott fingerprint-gui[2727]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:08:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:08:08 CScott fingerprint-gui[2727]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:08:08 CScott fingerprint-gui[2727]: No devices found by libbsapi.
+May 27 07:08:08 CScott fingerprint-gui[2727]: No Devices Found!
+May 27 07:08:26 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:08:26 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:08:26 CScott fingerprint-gui[2727]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:08:26 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:08:26 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:08:26 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:08:26 CScott fingerprint-gui[2727]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:08:26 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:08:26 CScott fingerprint-gui[2727]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:08:26 CScott fingerprint-gui[2727]: No devices found by libbsapi.
+May 27 07:08:26 CScott fingerprint-gui[2727]: No Devices Found!
+May 27 07:08:28 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:08:28 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:08:28 CScott fingerprint-gui[2727]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:08:28 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:08:28 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:08:28 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:08:28 CScott fingerprint-gui[2727]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:08:28 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:08:28 CScott fingerprint-gui[2727]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:08:28 CScott fingerprint-gui[2727]: No devices found by libbsapi.
+May 27 07:08:28 CScott fingerprint-gui[2727]: No Devices Found!
+May 27 07:09:06 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:06 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:06 CScott fingerprint-gui[2727]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:09:06 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:06 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:06 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:06 CScott fingerprint-gui[2727]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:09:06 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:06 CScott fingerprint-gui[2727]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:09:06 CScott fingerprint-gui[2727]: No devices found by libbsapi.
+May 27 07:09:06 CScott fingerprint-gui[2727]: No Devices Found!
+May 27 07:09:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:08 CScott fingerprint-gui[2727]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:09:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:08 CScott fingerprint-gui[2727]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:09:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:08 CScott fingerprint-gui[2727]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:09:08 CScott fingerprint-gui[2727]: No devices found by libbsapi.
+May 27 07:09:08 CScott fingerprint-gui[2727]: No Devices Found!
+May 27 07:09:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:08 CScott fingerprint-gui[2727]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:09:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:08 CScott fingerprint-gui[2727]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:09:08 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:08 CScott fingerprint-gui[2727]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:09:09 CScott fingerprint-gui[2727]: No devices found by libbsapi.
+May 27 07:09:09 CScott fingerprint-gui[2727]: No Devices Found!
+May 27 07:09:09 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:09 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:09 CScott fingerprint-gui[2727]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:09:09 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:09 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:09 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:09 CScott fingerprint-gui[2727]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:09:09 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:09 CScott fingerprint-gui[2727]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:09:09 CScott fingerprint-gui[2727]: No devices found by libbsapi.
+May 27 07:09:09 CScott fingerprint-gui[2727]: No Devices Found!
+May 27 07:09:09 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:09 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:09 CScott fingerprint-gui[2727]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:09:09 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:09 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:09 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:09 CScott fingerprint-gui[2727]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:09:09 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:09 CScott fingerprint-gui[2727]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:09:10 CScott fingerprint-gui[2727]: No devices found by libbsapi.
+May 27 07:09:10 CScott fingerprint-gui[2727]: No Devices Found!
+May 27 07:09:10 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:10 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:10 CScott fingerprint-gui[2727]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:09:10 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:10 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:10 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:10 CScott fingerprint-gui[2727]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:09:10 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:10 CScott fingerprint-gui[2727]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:09:10 CScott fingerprint-gui[2727]: No devices found by libbsapi.
+May 27 07:09:10 CScott fingerprint-gui[2727]: No Devices Found!
+May 27 07:09:10 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:10 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:10 CScott fingerprint-gui[2727]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:09:10 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:10 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:10 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:10 CScott fingerprint-gui[2727]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:09:10 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:10 CScott fingerprint-gui[2727]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:09:11 CScott fingerprint-gui[2727]: No devices found by libbsapi.
+May 27 07:09:11 CScott fingerprint-gui[2727]: No Devices Found!
+May 27 07:09:11 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:11 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:11 CScott fingerprint-gui[2727]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:09:11 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:11 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:11 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:11 CScott fingerprint-gui[2727]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:09:11 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:11 CScott fingerprint-gui[2727]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:09:11 CScott fingerprint-gui[2727]: No devices found by libbsapi.
+May 27 07:09:11 CScott fingerprint-gui[2727]: No Devices Found!
+May 27 07:09:36 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:36 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:36 CScott fingerprint-gui[2727]: Found USB device: Logitech, Inc./Unifying Receiver.
+May 27 07:09:36 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:36 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:36 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/2.0 root hub.
+May 27 07:09:36 CScott fingerprint-gui[2727]: Found USB device: Broadcom Corp./BCM5880 Secure Applications Processor with fingerprint swipe sensor.
+May 27 07:09:36 CScott fingerprint-gui[2727]: Found USB device: Linux Foundation/1.1 root hub.
+May 27 07:09:36 CScott fingerprint-gui[2727]: message repeated 2 times: [ Found USB device: Linux Foundation/1.1 root hub.]
+May 27 07:09:37 CScott fingerprint-gui[2727]: No devices found by libbsapi.
+May 27 07:09:37 CScott fingerprint-gui[2727]: No Devices Found!
+May 27 07:09:48 CScott fingerprint-gui[2727]: qApp exit.
+May 27 07:09:48 CScott fingerprint-gui[2727]: Devices released.
+May 27 07:17:01 CScott CRON[2842]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 07:17:01 CScott CRON[2842]: pam_unix(cron:session): session closed for user root
+May 27 07:29:30 CScott pam_fingerprint-gui[3198]: Got "debug" argument.
+May 27 07:29:30 CScott pam_fingerprint-gui[3198]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 27 07:29:30 CScott pam_fingerprint-gui[3198]: Got no PAM_RHOST.
+May 27 07:29:30 CScott pam_fingerprint-gui[3198]: Got no SSH_CONNECTION.
+May 27 07:29:30 CScott pam_fingerprint-gui[3198]: Have no PAM_AUTHTOK.
+May 27 07:29:30 CScott pam_fingerprint-gui[3198]: PAM_SERVICE: polkit-1.
+May 27 07:29:30 CScott pam_fingerprint-gui[3198]: Have no PAM_TTY.
+May 27 07:29:30 CScott pam_fingerprint-gui[3198]: Have now XDisplay: "(null)" and XAuth: "(null)".
+May 27 07:29:30 CScott pam_fingerprint-gui[3198]: Have PAM username "tech".
+May 27 07:29:30 CScott pam_fingerprint-gui[3198]: Parent PID: 3198.
+May 27 07:29:30 CScott pam_fingerprint-gui[3198]: Child (helper) PID: 3200.
+May 27 07:29:30 CScott pam_fingerprint-gui[3198]: Wrote random string to fifo.
+May 27 07:29:30 CScott pam_fingerprint-gui[3198]: running not OPENPAM.
+May 27 07:29:30 CScott fingerprint-helper[3200]: Got "debug" argument.
+May 27 07:29:30 CScott fingerprint-helper[3200]: Have username tech.
+May 27 07:29:30 CScott fingerprint-helper[3200]: Started.
+May 27 07:29:30 CScott fingerprint-helper[3200]: Arg0: fingerprint-helper.
+May 27 07:29:30 CScott fingerprint-helper[3200]: Arg1: 4.
+May 27 07:29:30 CScott fingerprint-helper[3200]: Arg2: 5.
+May 27 07:29:30 CScott fingerprint-helper[3200]: Arg3: .
+May 27 07:29:30 CScott fingerprint-helper[3200]: Arg4: polkit-1.
+May 27 07:29:30 CScott fingerprint-helper[3200]: Arg5: -d.
+May 27 07:29:30 CScott fingerprint-helper[3200]: Arg6: -u.
+May 27 07:29:30 CScott fingerprint-helper[3200]: Arg7: tech.
+May 27 07:29:30 CScott fingerprint-helper[3200]: Arg8: dUmMy4.
+May 27 07:29:30 CScott fingerprint-helper[3200]: Arg9: dUmMy5.
+May 27 07:29:30 CScott fingerprint-helper[3200]: Have pipe_r 4 and pipe_w 5.
+May 27 07:29:30 CScott fingerprint-helper[3200]: Have display=(null), XAUTHORITY=(null).
+May 27 07:29:30 CScott fingerprint-helper[3200]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 27 07:29:31 CScott fingerprint-helper[3200]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 27 07:29:31 CScott fingerprint-helper[3200]: Libfprint initialized.
+May 27 07:29:31 CScott fingerprint-helper[3200]: Libbsapi initialized.
+May 27 07:29:31 CScott fingerprint-helper[3200]: Devices initialized.
+May 27 07:29:31 CScott fingerprint-helper[3200]: Found USB device: unknown vendor/unknown device.
+May 27 07:29:31 CScott fingerprint-helper[3200]: message repeated 10 times: [ Found USB device: unknown vendor/unknown device.]
+May 27 07:29:31 CScott fingerprint-helper[3200]: No devices found by libbsapi.
+May 27 07:29:31 CScott fingerprint-helper[3200]: No fingerprint devices found!
+May 27 07:29:31 CScott fingerprint-helper[3200]: WARNING: No devices can identify. Fallback to verifying only.
+May 27 07:29:31 CScott fingerprint-helper[3200]: No useful devices found.
+May 27 07:29:31 CScott fingerprint-helper[3200]: Devices released.
+May 27 07:29:31 CScott fingerprint-helper[3200]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 27 07:29:35 CScott pam_fingerprint-gui[3198]: Prompting password returned PAM_SUCCESS.
+May 27 07:29:35 CScott pam_fingerprint-gui[3198]: Got password by keyboard.
+May 27 07:29:35 CScott pam_fingerprint-gui[3198]: Return 25 (PAM_IGNORE).
+May 27 07:29:35 CScott polkit-agent-helper-1[3198]: pam_ecryptfs: pam_sm_authenticate: /home/tech is already mounted
+May 27 07:29:36 CScott polkitd(authority=local): Operator of unix-session:c1 successfully authenticated as unix-user:tech to gain TEMPORARY authorization for action org.freedesktop.policykit.pkexec.run-im for unix-process:2952:110578 [/usr/bin/python /usr/lib/mintstick/mintstick.py -m iso] (owned by unix-user:tech)
+May 27 07:29:36 CScott pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+May 27 07:29:36 CScott pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+May 27 07:29:36 CScott pkexec[3195]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/home/tech] [COMMAND=/usr/bin/python -u /usr/lib/mintstick/raw_write.py -s /home/tech/Downloads/linuxmint-17.1-xfce-64bit.iso -t /dev/sdb]
+May 27 07:30:01 CScott CRON[3210]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 07:30:02 CScott CRON[3210]: pam_unix(cron:session): session closed for user root
+May 27 07:36:24 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 07:36:24 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 07:36:39 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 07:56:16 CScott pam_fingerprint-gui[3355]: Got "debug" argument.
+May 27 07:56:16 CScott pam_fingerprint-gui[3355]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 27 07:56:16 CScott pam_fingerprint-gui[3355]: Got no PAM_RHOST.
+May 27 07:56:16 CScott pam_fingerprint-gui[3355]: Got no SSH_CONNECTION.
+May 27 07:56:16 CScott pam_fingerprint-gui[3355]: Have no PAM_AUTHTOK.
+May 27 07:56:16 CScott pam_fingerprint-gui[3355]: PAM_SERVICE: su.
+May 27 07:56:16 CScott pam_fingerprint-gui[3355]: Have DISPLAY :0.0 from getenv.
+May 27 07:56:16 CScott pam_fingerprint-gui[3355]: Have now XDisplay: ":0.0" and XAuth: "/home/tech/.Xauthority".
+May 27 07:56:16 CScott pam_fingerprint-gui[3355]: Have PAM username "root".
+May 27 07:56:16 CScott pam_fingerprint-gui[3355]: Parent PID: 3355.
+May 27 07:56:16 CScott pam_fingerprint-gui[3355]: Child (helper) PID: 3356.
+May 27 07:56:16 CScott pam_fingerprint-gui[3355]: Wrote random string to fifo.
+May 27 07:56:16 CScott pam_fingerprint-gui[3355]: running not OPENPAM.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Got "debug" argument.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Have username root.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Started.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Arg0: fingerprint-helper.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Arg1: 6.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Arg2: 7.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Arg3: :0.0.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Arg4: su.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Arg5: -d.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Arg6: -u.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Arg7: root.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Arg8: dUmMy4.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Arg9: dUmMy5.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Have pipe_r 6 and pipe_w 7.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Have display=:0.0, XAUTHORITY=/home/tech/.Xauthority.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Libfprint initialized.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Libbsapi initialized.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Devices initialized.
+May 27 07:56:16 CScott fingerprint-helper[3356]: Found USB device: unknown vendor/unknown device.
+May 27 07:56:16 CScott fingerprint-helper[3356]: message repeated 9 times: [ Found USB device: unknown vendor/unknown device.]
+May 27 07:56:17 CScott fingerprint-helper[3356]: No devices found by libbsapi.
+May 27 07:56:17 CScott fingerprint-helper[3356]: No fingerprint devices found!
+May 27 07:56:17 CScott fingerprint-helper[3356]: WARNING: No devices can identify. Fallback to verifying only.
+May 27 07:56:17 CScott fingerprint-helper[3356]: No useful devices found.
+May 27 07:56:17 CScott fingerprint-helper[3356]: Devices released.
+May 27 07:56:17 CScott fingerprint-helper[3356]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 27 07:56:18 CScott pam_fingerprint-gui[3355]: Prompting password returned PAM_SUCCESS.
+May 27 07:56:18 CScott pam_fingerprint-gui[3355]: Got password by keyboard.
+May 27 07:56:18 CScott pam_fingerprint-gui[3355]: Return 25 (PAM_IGNORE).
+May 27 07:56:18 CScott su[3355]: Successful su for root by tech
+May 27 07:56:18 CScott su[3355]: + /dev/pts/0 tech:root
+May 27 07:56:18 CScott su[3355]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May 27 07:57:59 CScott su[3355]: pam_unix(su:session): session closed for user root
+May 27 08:06:24 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 08:06:24 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 08:06:34 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:17:01 CScott CRON[3492]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 08:17:01 CScott CRON[3492]: pam_unix(cron:session): session closed for user root
+May 27 08:36:24 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 08:36:24 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 08:38:30 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:58:21 CScott mdm[1607]: pam_unix(mdm:session): session closed for user tech
+May 27 08:58:26 CScott polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May 27 08:58:29 CScott mdm[3662]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May 27 08:58:29 CScott mdm[3662]: PAM adding faulty module: pam_kwallet.so
+May 27 08:58:33 CScott mdm[3662]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "sgardner"
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: Got "debug" argument.
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: Got no PAM_RHOST.
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: Got no SSH_CONNECTION.
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: Have no PAM_AUTHTOK.
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: PAM_SERVICE: mdm.
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: Have DISPLAY :0 from getenv.
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: Scanning X-server PID from /tmp/.X0-lock.
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: Have X-server PID 3667.
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: Have cmdline /usr/bin/X :0 -audit 0 -auth /var/lib/mdm/:0.Xauth -nolisten tcp vt7 .
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: Have XAUTHORITY /var/lib/mdm/:0.Xauth.
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: Setting XAUTHORITY to /var/lib/mdm/:0.Xauth.
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: Have now XDisplay: ":0" and XAuth: "/var/lib/mdm/:0.Xauth".
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: Have PAM username "sgardner".
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: Parent PID: 3662.
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: Child (helper) PID: 3684.
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: Wrote random string to fifo.
+May 27 08:58:33 CScott pam_fingerprint-gui[3662]: running not OPENPAM.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Got "debug" argument.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Have username sgardner.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Started.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Arg0: fingerprint-helper.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Arg1: 14.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Arg2: 15.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Arg3: :0.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Arg4: mdm.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Arg5: -d.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Arg6: -u.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Arg7: sgardner.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Arg8: dUmMy4.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Arg9: dUmMy5.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Have pipe_r 14 and pipe_w 15.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Have display=:0, XAUTHORITY=/var/lib/mdm/:0.Xauth.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Libfprint initialized.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Libbsapi initialized.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Devices initialized.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Found USB device: unknown vendor/unknown device.
+May 27 08:58:33 CScott fingerprint-helper[3684]: message repeated 9 times: [ Found USB device: unknown vendor/unknown device.]
+May 27 08:58:33 CScott fingerprint-helper[3684]: No devices found by libbsapi.
+May 27 08:58:33 CScott fingerprint-helper[3684]: No fingerprint devices found!
+May 27 08:58:33 CScott fingerprint-helper[3684]: WARNING: No devices can identify. Fallback to verifying only.
+May 27 08:58:33 CScott fingerprint-helper[3684]: No useful devices found.
+May 27 08:58:33 CScott fingerprint-helper[3684]: Devices released.
+May 27 08:58:33 CScott fingerprint-helper[3684]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 27 08:58:36 CScott pam_fingerprint-gui[3662]: Prompting password returned PAM_SUCCESS.
+May 27 08:58:36 CScott pam_fingerprint-gui[3662]: Got password by keyboard.
+May 27 08:58:36 CScott pam_fingerprint-gui[3662]: Return 25 (PAM_IGNORE).
+May 27 08:58:36 CScott mdm[3662]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=sgardner
+May 27 08:58:37 CScott mdm[3662]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=sgardner
+May 27 08:58:37 CScott mdm[3662]: pam_unix(mdm:session): session opened for user sgardner by (uid=0)
+May 27 08:58:38 CScott systemd-logind[697]: New session c2 of user sgardner.
+May 27 08:58:38 CScott systemd-logind[697]: Linked /tmp/.X11-unix/X0 to /run/user/2045/X11-display.
+May 27 08:58:38 CScott mdm[3662]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May 27 08:58:41 CScott fingerprint-polkit-agent[3944]: Got "debug" argument.
+May 27 08:58:41 CScott fingerprint-polkit-agent[3944]: started.
+May 27 08:58:42 CScott polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.69 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 27 08:58:48 CScott fingerprint-polkit-agent[3944]: Could not register listener "/fingerprintgui/PolicyKit1/AuthenticationAgent". Aborting.
+May 27 08:58:58 CScott systemd-logind[697]: Removed session c1.
+May 27 08:58:58 CScott mdm[3662]: pam_unix(mdm:session): session closed for user sgardner
+May 27 08:58:58 CScott polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.69, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May 27 08:59:00 CScott mdm[4215]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May 27 08:59:00 CScott mdm[4215]: PAM adding faulty module: pam_kwallet.so
+May 27 08:59:41 CScott mdm[4215]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: Got "debug" argument.
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: Got no PAM_RHOST.
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: Got no SSH_CONNECTION.
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: Have no PAM_AUTHTOK.
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: PAM_SERVICE: mdm.
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: Have DISPLAY :0 from getenv.
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: Scanning X-server PID from /tmp/.X0-lock.
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: Have X-server PID 4220.
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: Have cmdline /usr/bin/X :0 -audit 0 -auth /var/lib/mdm/:0.Xauth -nolisten tcp vt7 .
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: Have XAUTHORITY /var/lib/mdm/:0.Xauth.
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: Setting XAUTHORITY to /var/lib/mdm/:0.Xauth.
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: Have now XDisplay: ":0" and XAuth: "/var/lib/mdm/:0.Xauth".
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: Have PAM username "tech".
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: Parent PID: 4215.
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: Child (helper) PID: 4238.
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: Wrote random string to fifo.
+May 27 08:59:41 CScott pam_fingerprint-gui[4215]: running not OPENPAM.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Got "debug" argument.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Have username tech.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Started.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Arg0: fingerprint-helper.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Arg1: 13.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Arg2: 14.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Arg3: :0.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Arg4: mdm.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Arg5: -d.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Arg6: -u.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Arg7: tech.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Arg8: dUmMy4.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Arg9: dUmMy5.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Have pipe_r 13 and pipe_w 14.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Have display=:0, XAUTHORITY=/var/lib/mdm/:0.Xauth.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Libfprint initialized.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Libbsapi initialized.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Devices initialized.
+May 27 08:59:41 CScott fingerprint-helper[4238]: Found USB device: unknown vendor/unknown device.
+May 27 08:59:41 CScott fingerprint-helper[4238]: message repeated 9 times: [ Found USB device: unknown vendor/unknown device.]
+May 27 08:59:42 CScott fingerprint-helper[4238]: No devices found by libbsapi.
+May 27 08:59:42 CScott fingerprint-helper[4238]: No fingerprint devices found!
+May 27 08:59:42 CScott fingerprint-helper[4238]: WARNING: No devices can identify. Fallback to verifying only.
+May 27 08:59:42 CScott fingerprint-helper[4238]: No useful devices found.
+May 27 08:59:42 CScott fingerprint-helper[4238]: Devices released.
+May 27 08:59:42 CScott fingerprint-helper[4238]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 27 08:59:45 CScott pam_fingerprint-gui[4215]: Prompting password returned PAM_SUCCESS.
+May 27 08:59:45 CScott pam_fingerprint-gui[4215]: Got password by keyboard.
+May 27 08:59:45 CScott pam_fingerprint-gui[4215]: Return 25 (PAM_IGNORE).
+May 27 08:59:45 CScott mdm[4243]: pam_ecryptfs: Passphrase file wrapped
+May 27 08:59:46 CScott mdm[4215]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May 27 08:59:46 CScott systemd-logind[697]: Removed session c2.
+May 27 08:59:46 CScott systemd-logind[697]: New session c3 of user tech.
+May 27 08:59:46 CScott systemd-logind[697]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+May 27 08:59:46 CScott mdm[4215]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May 27 08:59:47 CScott fingerprint-polkit-agent[4513]: Got "debug" argument.
+May 27 08:59:47 CScott fingerprint-polkit-agent[4513]: started.
+May 27 08:59:48 CScott polkitd(authority=local): Registered Authentication Agent for unix-session:c3 (system bus name :1.107 [/usr/lib/fingerprint-gui/fingerprint-polkit-agent -d], object path /fingerprintgui/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 27 08:59:48 CScott fingerprint-polkit-agent[4513]: Listener "/fingerprintgui/PolicyKit1/AuthenticationAgent" registered.
+May 27 09:17:01 CScott CRON[5028]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 09:17:01 CScott CRON[5028]: pam_unix(cron:session): session closed for user root
+May 27 09:23:12 CScott pam_fingerprint-gui[4574]: Got "debug" argument.
+May 27 09:23:12 CScott pam_fingerprint-gui[4574]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 27 09:23:12 CScott pam_fingerprint-gui[4574]: Got no PAM_RHOST.
+May 27 09:23:12 CScott pam_fingerprint-gui[4574]: Got no SSH_CONNECTION.
+May 27 09:23:12 CScott pam_fingerprint-gui[4574]: Have no PAM_AUTHTOK.
+May 27 09:23:12 CScott pam_fingerprint-gui[4574]: PAM_SERVICE: xscreensaver.
+May 27 09:23:12 CScott pam_fingerprint-gui[4574]: Have DISPLAY :0.0 from getenv.
+May 27 09:23:12 CScott pam_fingerprint-gui[4574]: Have now XDisplay: ":0.0" and XAuth: "/home/tech/.Xauthority".
+May 27 09:23:12 CScott pam_fingerprint-gui[4574]: Have PAM username "tech".
+May 27 09:23:12 CScott pam_fingerprint-gui[4574]: Parent PID: 4574.
+May 27 09:23:12 CScott pam_fingerprint-gui[4574]: Child (helper) PID: 5042.
+May 27 09:23:12 CScott pam_fingerprint-gui[4574]: Wrote random string to fifo.
+May 27 09:23:12 CScott pam_fingerprint-gui[4574]: running not OPENPAM.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Got "debug" argument.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Have username tech.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Started.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Arg0: fingerprint-helper.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Arg1: 10.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Arg2: 11.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Arg3: :0.0.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Arg4: xscreensaver.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Arg5: -d.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Arg6: -u.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Arg7: tech.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Arg8: dUmMy4.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Arg9: dUmMy5.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Have pipe_r 10 and pipe_w 11.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Have display=:0.0, XAUTHORITY=/home/tech/.Xauthority.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Libfprint initialized.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Libbsapi initialized.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Devices initialized.
+May 27 09:23:12 CScott fingerprint-helper[5042]: Found USB device: unknown vendor/unknown device.
+May 27 09:23:12 CScott fingerprint-helper[5042]: message repeated 9 times: [ Found USB device: unknown vendor/unknown device.]
+May 27 09:23:13 CScott fingerprint-helper[5042]: No devices found by libbsapi.
+May 27 09:23:13 CScott fingerprint-helper[5042]: No fingerprint devices found!
+May 27 09:23:13 CScott fingerprint-helper[5042]: WARNING: No devices can identify. Fallback to verifying only.
+May 27 09:23:13 CScott fingerprint-helper[5042]: No useful devices found.
+May 27 09:23:13 CScott fingerprint-helper[5042]: Devices released.
+May 27 09:23:13 CScott fingerprint-helper[5042]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 27 09:23:13 CScott pam_fingerprint-gui[4574]: Prompting password returned PAM_SUCCESS.
+May 27 09:23:13 CScott pam_fingerprint-gui[4574]: Got password by keyboard.
+May 27 09:23:13 CScott pam_fingerprint-gui[4574]: Return 25 (PAM_IGNORE).
+May 27 09:23:13 CScott xscreensaver[4574]: pam_ecryptfs: seteuid error
+May 27 09:23:13 CScott xscreensaver[4574]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 27 09:29:49 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 09:29:49 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 09:33:38 CScott pam_fingerprint-gui[4574]: Got "debug" argument.
+May 27 09:33:38 CScott pam_fingerprint-gui[4574]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 27 09:33:38 CScott pam_fingerprint-gui[4574]: Got no PAM_RHOST.
+May 27 09:33:38 CScott pam_fingerprint-gui[4574]: Got no SSH_CONNECTION.
+May 27 09:33:38 CScott pam_fingerprint-gui[4574]: Have no PAM_AUTHTOK.
+May 27 09:33:38 CScott pam_fingerprint-gui[4574]: PAM_SERVICE: xscreensaver.
+May 27 09:33:38 CScott pam_fingerprint-gui[4574]: Have DISPLAY :0.0 from getenv.
+May 27 09:33:38 CScott pam_fingerprint-gui[4574]: Have now XDisplay: ":0.0" and XAuth: "/home/tech/.Xauthority".
+May 27 09:33:38 CScott pam_fingerprint-gui[4574]: Have PAM username "tech".
+May 27 09:33:38 CScott pam_fingerprint-gui[4574]: Parent PID: 4574.
+May 27 09:33:38 CScott pam_fingerprint-gui[4574]: Child (helper) PID: 5106.
+May 27 09:33:38 CScott pam_fingerprint-gui[4574]: Wrote random string to fifo.
+May 27 09:33:38 CScott pam_fingerprint-gui[4574]: running not OPENPAM.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Got "debug" argument.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Have username tech.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Started.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Arg0: fingerprint-helper.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Arg1: 10.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Arg2: 11.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Arg3: :0.0.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Arg4: xscreensaver.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Arg5: -d.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Arg6: -u.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Arg7: tech.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Arg8: dUmMy4.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Arg9: dUmMy5.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Have pipe_r 10 and pipe_w 11.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Have display=:0.0, XAUTHORITY=/home/tech/.Xauthority.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Libfprint initialized.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Libbsapi initialized.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Devices initialized.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Found USB device: unknown vendor/unknown device.
+May 27 09:33:38 CScott fingerprint-helper[5106]: message repeated 9 times: [ Found USB device: unknown vendor/unknown device.]
+May 27 09:33:38 CScott fingerprint-helper[5106]: No devices found by libbsapi.
+May 27 09:33:38 CScott fingerprint-helper[5106]: No fingerprint devices found!
+May 27 09:33:38 CScott fingerprint-helper[5106]: WARNING: No devices can identify. Fallback to verifying only.
+May 27 09:33:38 CScott fingerprint-helper[5106]: No useful devices found.
+May 27 09:33:38 CScott fingerprint-helper[5106]: Devices released.
+May 27 09:33:38 CScott fingerprint-helper[5106]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 27 09:33:39 CScott pam_fingerprint-gui[4574]: Prompting password returned PAM_SUCCESS.
+May 27 09:33:39 CScott pam_fingerprint-gui[4574]: Got password by keyboard.
+May 27 09:33:39 CScott pam_fingerprint-gui[4574]: Return 25 (PAM_IGNORE).
+May 27 09:33:39 CScott xscreensaver[4574]: pam_ecryptfs: seteuid error
+May 27 09:33:39 CScott xscreensaver[4574]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 27 09:33:56 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 09:59:50 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 09:59:50 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 10:03:56 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 10:17:01 CScott CRON[6105]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 10:17:01 CScott CRON[6105]: pam_unix(cron:session): session closed for user root
+May 27 10:29:50 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 10:29:50 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 10:31:56 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 10:35:45 CScott pam_fingerprint-gui[4574]: Got "debug" argument.
+May 27 10:35:45 CScott pam_fingerprint-gui[4574]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 27 10:35:45 CScott pam_fingerprint-gui[4574]: Got no PAM_RHOST.
+May 27 10:35:45 CScott pam_fingerprint-gui[4574]: Got no SSH_CONNECTION.
+May 27 10:35:45 CScott pam_fingerprint-gui[4574]: Have no PAM_AUTHTOK.
+May 27 10:35:45 CScott pam_fingerprint-gui[4574]: PAM_SERVICE: xscreensaver.
+May 27 10:35:45 CScott pam_fingerprint-gui[4574]: Have DISPLAY :0.0 from getenv.
+May 27 10:35:45 CScott pam_fingerprint-gui[4574]: Have now XDisplay: ":0.0" and XAuth: "/home/tech/.Xauthority".
+May 27 10:35:45 CScott pam_fingerprint-gui[4574]: Have PAM username "tech".
+May 27 10:35:45 CScott pam_fingerprint-gui[4574]: Parent PID: 4574.
+May 27 10:35:45 CScott pam_fingerprint-gui[4574]: Child (helper) PID: 6425.
+May 27 10:35:45 CScott pam_fingerprint-gui[4574]: Wrote random string to fifo.
+May 27 10:35:45 CScott pam_fingerprint-gui[4574]: running not OPENPAM.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Got "debug" argument.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Have username tech.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Started.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Arg0: fingerprint-helper.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Arg1: 10.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Arg2: 11.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Arg3: :0.0.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Arg4: xscreensaver.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Arg5: -d.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Arg6: -u.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Arg7: tech.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Arg8: dUmMy4.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Arg9: dUmMy5.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Have pipe_r 10 and pipe_w 11.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Have display=:0.0, XAUTHORITY=/home/tech/.Xauthority.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Libfprint initialized.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Libbsapi initialized.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Devices initialized.
+May 27 10:35:45 CScott fingerprint-helper[6425]: Found USB device: unknown vendor/unknown device.
+May 27 10:35:45 CScott fingerprint-helper[6425]: message repeated 9 times: [ Found USB device: unknown vendor/unknown device.]
+May 27 10:35:46 CScott fingerprint-helper[6425]: No devices found by libbsapi.
+May 27 10:35:46 CScott fingerprint-helper[6425]: No fingerprint devices found!
+May 27 10:35:46 CScott fingerprint-helper[6425]: WARNING: No devices can identify. Fallback to verifying only.
+May 27 10:35:46 CScott fingerprint-helper[6425]: No useful devices found.
+May 27 10:35:46 CScott fingerprint-helper[6425]: Devices released.
+May 27 10:35:46 CScott fingerprint-helper[6425]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 27 10:35:46 CScott pam_fingerprint-gui[4574]: Prompting password returned PAM_SUCCESS.
+May 27 10:35:46 CScott pam_fingerprint-gui[4574]: Got password by keyboard.
+May 27 10:35:46 CScott pam_fingerprint-gui[4574]: Return 25 (PAM_IGNORE).
+May 27 10:35:47 CScott xscreensaver[4574]: pam_ecryptfs: seteuid error
+May 27 10:35:47 CScott xscreensaver[4574]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 27 10:59:50 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 10:59:50 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 11:00:00 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 11:17:01 CScott CRON[6732]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 11:17:01 CScott CRON[6732]: pam_unix(cron:session): session closed for user root
+May 27 11:19:35 CScott pam_fingerprint-gui[6778]: Got "debug" argument.
+May 27 11:19:35 CScott pam_fingerprint-gui[6778]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 27 11:19:35 CScott pam_fingerprint-gui[6778]: Got no PAM_RHOST.
+May 27 11:19:35 CScott pam_fingerprint-gui[6778]: Got no SSH_CONNECTION.
+May 27 11:19:35 CScott pam_fingerprint-gui[6778]: Have no PAM_AUTHTOK.
+May 27 11:19:35 CScott pam_fingerprint-gui[6778]: PAM_SERVICE: su.
+May 27 11:19:35 CScott pam_fingerprint-gui[6778]: Have DISPLAY :0.0 from getenv.
+May 27 11:19:35 CScott pam_fingerprint-gui[6778]: Have now XDisplay: ":0.0" and XAuth: "/home/tech/.Xauthority".
+May 27 11:19:35 CScott pam_fingerprint-gui[6778]: Have PAM username "root".
+May 27 11:19:35 CScott pam_fingerprint-gui[6778]: Parent PID: 6778.
+May 27 11:19:35 CScott pam_fingerprint-gui[6778]: Child (helper) PID: 6779.
+May 27 11:19:35 CScott pam_fingerprint-gui[6778]: Wrote random string to fifo.
+May 27 11:19:35 CScott pam_fingerprint-gui[6778]: running not OPENPAM.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Got "debug" argument.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Have username root.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Started.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Arg0: fingerprint-helper.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Arg1: 6.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Arg2: 7.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Arg3: :0.0.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Arg4: su.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Arg5: -d.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Arg6: -u.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Arg7: root.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Arg8: dUmMy4.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Arg9: dUmMy5.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Have pipe_r 6 and pipe_w 7.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Have display=:0.0, XAUTHORITY=/home/tech/.Xauthority.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Libfprint initialized.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Libbsapi initialized.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Devices initialized.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Found USB device: unknown vendor/unknown device.
+May 27 11:19:35 CScott fingerprint-helper[6779]: message repeated 9 times: [ Found USB device: unknown vendor/unknown device.]
+May 27 11:19:35 CScott fingerprint-helper[6779]: No devices found by libbsapi.
+May 27 11:19:35 CScott fingerprint-helper[6779]: No fingerprint devices found!
+May 27 11:19:35 CScott fingerprint-helper[6779]: WARNING: No devices can identify. Fallback to verifying only.
+May 27 11:19:35 CScott fingerprint-helper[6779]: No useful devices found.
+May 27 11:19:35 CScott fingerprint-helper[6779]: Devices released.
+May 27 11:19:35 CScott fingerprint-helper[6779]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 27 11:19:42 CScott pam_fingerprint-gui[6778]: Prompting password returned PAM_SUCCESS.
+May 27 11:19:42 CScott pam_fingerprint-gui[6778]: Got password by keyboard.
+May 27 11:19:42 CScott pam_fingerprint-gui[6778]: Return 25 (PAM_IGNORE).
+May 27 11:19:42 CScott su[6778]: Successful su for root by tech
+May 27 11:19:42 CScott su[6778]: + /dev/pts/0 tech:root
+May 27 11:19:42 CScott su[6778]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May 27 11:29:50 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 11:29:50 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 11:33:56 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 11:37:24 CScott pam_fingerprint-gui[4574]: Got "debug" argument.
+May 27 11:37:24 CScott pam_fingerprint-gui[4574]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 27 11:37:24 CScott pam_fingerprint-gui[4574]: Got no PAM_RHOST.
+May 27 11:37:24 CScott pam_fingerprint-gui[4574]: Got no SSH_CONNECTION.
+May 27 11:37:24 CScott pam_fingerprint-gui[4574]: Have no PAM_AUTHTOK.
+May 27 11:37:24 CScott pam_fingerprint-gui[4574]: PAM_SERVICE: xscreensaver.
+May 27 11:37:24 CScott pam_fingerprint-gui[4574]: Have DISPLAY :0.0 from getenv.
+May 27 11:37:24 CScott pam_fingerprint-gui[4574]: Have now XDisplay: ":0.0" and XAuth: "/home/tech/.Xauthority".
+May 27 11:37:24 CScott pam_fingerprint-gui[4574]: Have PAM username "tech".
+May 27 11:37:24 CScott pam_fingerprint-gui[4574]: Parent PID: 4574.
+May 27 11:37:24 CScott pam_fingerprint-gui[4574]: Child (helper) PID: 6911.
+May 27 11:37:24 CScott pam_fingerprint-gui[4574]: Wrote random string to fifo.
+May 27 11:37:24 CScott pam_fingerprint-gui[4574]: running not OPENPAM.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Got "debug" argument.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Have username tech.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Started.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Arg0: fingerprint-helper.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Arg1: 10.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Arg2: 11.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Arg3: :0.0.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Arg4: xscreensaver.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Arg5: -d.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Arg6: -u.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Arg7: tech.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Arg8: dUmMy4.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Arg9: dUmMy5.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Have pipe_r 10 and pipe_w 11.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Have display=:0.0, XAUTHORITY=/home/tech/.Xauthority.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Libfprint initialized.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Libbsapi initialized.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Devices initialized.
+May 27 11:37:24 CScott fingerprint-helper[6911]: Found USB device: unknown vendor/unknown device.
+May 27 11:37:24 CScott fingerprint-helper[6911]: message repeated 9 times: [ Found USB device: unknown vendor/unknown device.]
+May 27 11:37:25 CScott fingerprint-helper[6911]: No devices found by libbsapi.
+May 27 11:37:25 CScott fingerprint-helper[6911]: No fingerprint devices found!
+May 27 11:37:25 CScott fingerprint-helper[6911]: WARNING: No devices can identify. Fallback to verifying only.
+May 27 11:37:25 CScott fingerprint-helper[6911]: No useful devices found.
+May 27 11:37:25 CScott fingerprint-helper[6911]: Devices released.
+May 27 11:37:25 CScott fingerprint-helper[6911]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 27 11:37:25 CScott pam_fingerprint-gui[4574]: Prompting password returned PAM_SUCCESS.
+May 27 11:37:25 CScott pam_fingerprint-gui[4574]: Got password by keyboard.
+May 27 11:37:25 CScott pam_fingerprint-gui[4574]: Return 25 (PAM_IGNORE).
+May 27 11:37:25 CScott xscreensaver[4574]: pam_ecryptfs: seteuid error
+May 27 11:37:25 CScott xscreensaver[4574]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 27 11:59:50 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 11:59:50 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 12:03:56 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 12:17:01 CScott CRON[7114]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 12:17:01 CScott CRON[7114]: pam_unix(cron:session): session closed for user root
+May 27 12:29:50 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 12:29:50 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 12:33:56 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 12:59:50 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 12:59:50 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 13:03:56 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 13:17:01 CScott CRON[7637]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 13:17:01 CScott CRON[7637]: pam_unix(cron:session): session closed for user root
+May 27 13:17:20 CScott pam_fingerprint-gui[4574]: Got "debug" argument.
+May 27 13:17:20 CScott pam_fingerprint-gui[4574]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 27 13:17:20 CScott pam_fingerprint-gui[4574]: Got no PAM_RHOST.
+May 27 13:17:20 CScott pam_fingerprint-gui[4574]: Got no SSH_CONNECTION.
+May 27 13:17:20 CScott pam_fingerprint-gui[4574]: Have no PAM_AUTHTOK.
+May 27 13:17:20 CScott pam_fingerprint-gui[4574]: PAM_SERVICE: xscreensaver.
+May 27 13:17:20 CScott pam_fingerprint-gui[4574]: Have DISPLAY :0.0 from getenv.
+May 27 13:17:20 CScott pam_fingerprint-gui[4574]: Have now XDisplay: ":0.0" and XAuth: "/home/tech/.Xauthority".
+May 27 13:17:20 CScott pam_fingerprint-gui[4574]: Have PAM username "tech".
+May 27 13:17:20 CScott pam_fingerprint-gui[4574]: Parent PID: 4574.
+May 27 13:17:20 CScott pam_fingerprint-gui[4574]: Child (helper) PID: 7640.
+May 27 13:17:20 CScott pam_fingerprint-gui[4574]: Wrote random string to fifo.
+May 27 13:17:20 CScott pam_fingerprint-gui[4574]: running not OPENPAM.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Got "debug" argument.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Have username tech.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Started.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Arg0: fingerprint-helper.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Arg1: 10.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Arg2: 11.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Arg3: :0.0.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Arg4: xscreensaver.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Arg5: -d.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Arg6: -u.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Arg7: tech.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Arg8: dUmMy4.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Arg9: dUmMy5.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Have pipe_r 10 and pipe_w 11.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Have display=:0.0, XAUTHORITY=/home/tech/.Xauthority.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Libfprint initialized.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Libbsapi initialized.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Devices initialized.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Found USB device: unknown vendor/unknown device.
+May 27 13:17:20 CScott fingerprint-helper[7640]: message repeated 9 times: [ Found USB device: unknown vendor/unknown device.]
+May 27 13:17:20 CScott fingerprint-helper[7640]: No devices found by libbsapi.
+May 27 13:17:20 CScott fingerprint-helper[7640]: No fingerprint devices found!
+May 27 13:17:20 CScott fingerprint-helper[7640]: WARNING: No devices can identify. Fallback to verifying only.
+May 27 13:17:20 CScott fingerprint-helper[7640]: No useful devices found.
+May 27 13:17:20 CScott fingerprint-helper[7640]: Devices released.
+May 27 13:17:20 CScott fingerprint-helper[7640]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 27 13:17:21 CScott pam_fingerprint-gui[4574]: Prompting password returned PAM_SUCCESS.
+May 27 13:17:21 CScott pam_fingerprint-gui[4574]: Got password by keyboard.
+May 27 13:17:21 CScott pam_fingerprint-gui[4574]: Return 25 (PAM_IGNORE).
+May 27 13:17:21 CScott xscreensaver[4574]: pam_ecryptfs: seteuid error
+May 27 13:17:21 CScott xscreensaver[4574]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 27 13:29:50 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 13:29:50 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 13:33:56 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 27 13:59:50 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 13:59:50 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 14:02:25 CScott polkitd(authority=local): Unregistered Authentication Agent for unix-session:c3 (system bus name :1.107, object path /fingerprintgui/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 27 14:02:26 CScott systemd-logind[697]: System is powering down.
+May 28 06:01:26 CScott systemd-logind[690]: New seat seat0.
+May 28 06:01:30 CScott sshd[1362]: Server listening on 0.0.0.0 port 22.
+May 28 06:01:30 CScott sshd[1362]: Server listening on :: port 22.
+May 28 06:01:30 CScott CRON[1393]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 28 06:01:30 CScott CRON[1393]: pam_unix(cron:session): session closed for user root
+May 28 06:01:32 CScott mdm[1608]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May 28 06:01:32 CScott mdm[1608]: PAM adding faulty module: pam_kwallet.so
+May 28 06:01:41 CScott dbus[607]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1738 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=990 comm="NetworkManager ")
+May 28 06:02:45 CScott mdm[1608]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: Got "debug" argument.
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: Got no PAM_RHOST.
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: Got no SSH_CONNECTION.
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: Have no PAM_AUTHTOK.
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: PAM_SERVICE: mdm.
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: Have DISPLAY :0 from getenv.
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: Scanning X-server PID from /tmp/.X0-lock.
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: Have X-server PID 1616.
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: Have cmdline /usr/bin/X :0 -audit 0 -auth /var/lib/mdm/:0.Xauth -nolisten tcp vt8 .
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: Have XAUTHORITY /var/lib/mdm/:0.Xauth.
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: Setting XAUTHORITY to /var/lib/mdm/:0.Xauth.
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: Have now XDisplay: ":0" and XAuth: "/var/lib/mdm/:0.Xauth".
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: Have PAM username "tech".
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: Parent PID: 1608.
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: Child (helper) PID: 1899.
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: Wrote random string to fifo.
+May 28 06:02:45 CScott pam_fingerprint-gui[1608]: running not OPENPAM.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Got "debug" argument.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Have username tech.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Started.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Arg0: fingerprint-helper.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Arg1: 13.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Arg2: 14.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Arg3: :0.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Arg4: mdm.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Arg5: -d.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Arg6: -u.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Arg7: tech.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Arg8: dUmMy4.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Arg9: dUmMy5.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Have pipe_r 13 and pipe_w 14.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Have display=:0, XAUTHORITY=/var/lib/mdm/:0.Xauth.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Libfprint initialized.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Libbsapi initialized.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Devices initialized.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Found USB device: unknown vendor/unknown device.
+May 28 06:02:46 CScott fingerprint-helper[1899]: message repeated 9 times: [ Found USB device: unknown vendor/unknown device.]
+May 28 06:02:46 CScott fingerprint-helper[1899]: No devices found by libbsapi.
+May 28 06:02:46 CScott fingerprint-helper[1899]: No fingerprint devices found!
+May 28 06:02:46 CScott fingerprint-helper[1899]: WARNING: No devices can identify. Fallback to verifying only.
+May 28 06:02:46 CScott fingerprint-helper[1899]: No useful devices found.
+May 28 06:02:46 CScott fingerprint-helper[1899]: Devices released.
+May 28 06:02:46 CScott fingerprint-helper[1899]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 28 06:02:47 CScott pam_fingerprint-gui[1608]: Prompting password returned PAM_SUCCESS.
+May 28 06:02:47 CScott pam_fingerprint-gui[1608]: Got password by keyboard.
+May 28 06:02:47 CScott pam_fingerprint-gui[1608]: Return 25 (PAM_IGNORE).
+May 28 06:02:47 CScott mdm[1904]: pam_ecryptfs: Passphrase file wrapped
+May 28 06:02:48 CScott mdm[1608]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May 28 06:02:50 CScott systemd-logind[690]: New session c1 of user tech.
+May 28 06:02:50 CScott systemd-logind[690]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+May 28 06:02:50 CScott mdm[1608]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May 28 06:02:54 CScott fingerprint-polkit-agent[2267]: Got "debug" argument.
+May 28 06:02:54 CScott fingerprint-polkit-agent[2267]: started.
+May 28 06:02:57 CScott polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 28 06:03:04 CScott fingerprint-polkit-agent[2267]: Could not register listener "/fingerprintgui/PolicyKit1/AuthenticationAgent". Aborting.
+May 28 06:06:36 CScott su[3330]: Successful su for nobody by root
+May 28 06:06:36 CScott su[3330]: + ??? root:nobody
+May 28 06:06:36 CScott su[3330]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May 28 06:06:36 CScott systemd-logind[690]: New session c2 of user nobody.
+May 28 06:06:36 CScott su[3330]: pam_unix(su:session): session closed for user nobody
+May 28 06:06:36 CScott su[3348]: Successful su for nobody by root
+May 28 06:06:36 CScott su[3348]: + ??? root:nobody
+May 28 06:06:36 CScott su[3348]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May 28 06:06:36 CScott systemd-logind[690]: Removed session c2.
+May 28 06:06:36 CScott systemd-logind[690]: New session c3 of user nobody.
+May 28 06:06:36 CScott su[3348]: pam_unix(su:session): session closed for user nobody
+May 28 06:06:36 CScott su[3372]: Successful su for nobody by root
+May 28 06:06:36 CScott su[3372]: + ??? root:nobody
+May 28 06:06:36 CScott su[3372]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May 28 06:06:36 CScott systemd-logind[690]: Removed session c3.
+May 28 06:06:36 CScott systemd-logind[690]: New session c4 of user nobody.
+May 28 06:06:53 CScott su[3372]: pam_unix(su:session): session closed for user nobody
+May 28 06:16:48 CScott pam_fingerprint-gui[2323]: Got "debug" argument.
+May 28 06:16:48 CScott pam_fingerprint-gui[2323]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 28 06:16:48 CScott pam_fingerprint-gui[2323]: Got no PAM_RHOST.
+May 28 06:16:48 CScott pam_fingerprint-gui[2323]: Got no SSH_CONNECTION.
+May 28 06:16:48 CScott pam_fingerprint-gui[2323]: Have no PAM_AUTHTOK.
+May 28 06:16:48 CScott pam_fingerprint-gui[2323]: PAM_SERVICE: xscreensaver.
+May 28 06:16:48 CScott pam_fingerprint-gui[2323]: Have DISPLAY :0.0 from getenv.
+May 28 06:16:48 CScott pam_fingerprint-gui[2323]: Have now XDisplay: ":0.0" and XAuth: "/home/tech/.Xauthority".
+May 28 06:16:48 CScott pam_fingerprint-gui[2323]: Have PAM username "tech".
+May 28 06:16:48 CScott pam_fingerprint-gui[2323]: Parent PID: 2323.
+May 28 06:16:48 CScott pam_fingerprint-gui[2323]: Child (helper) PID: 3491.
+May 28 06:16:48 CScott pam_fingerprint-gui[2323]: Wrote random string to fifo.
+May 28 06:16:48 CScott pam_fingerprint-gui[2323]: running not OPENPAM.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Got "debug" argument.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Have username tech.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Started.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Arg0: fingerprint-helper.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Arg1: 10.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Arg2: 11.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Arg3: :0.0.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Arg4: xscreensaver.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Arg5: -d.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Arg6: -u.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Arg7: tech.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Arg8: dUmMy4.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Arg9: dUmMy5.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Have pipe_r 10 and pipe_w 11.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Have display=:0.0, XAUTHORITY=/home/tech/.Xauthority.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Libfprint initialized.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Libbsapi initialized.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Devices initialized.
+May 28 06:16:48 CScott fingerprint-helper[3491]: Found USB device: unknown vendor/unknown device.
+May 28 06:16:48 CScott fingerprint-helper[3491]: message repeated 10 times: [ Found USB device: unknown vendor/unknown device.]
+May 28 06:16:49 CScott fingerprint-helper[3491]: No devices found by libbsapi.
+May 28 06:16:49 CScott fingerprint-helper[3491]: No fingerprint devices found!
+May 28 06:16:49 CScott fingerprint-helper[3491]: WARNING: No devices can identify. Fallback to verifying only.
+May 28 06:16:49 CScott fingerprint-helper[3491]: No useful devices found.
+May 28 06:16:49 CScott fingerprint-helper[3491]: Devices released.
+May 28 06:16:49 CScott fingerprint-helper[3491]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 28 06:16:49 CScott pam_fingerprint-gui[2323]: Prompting password returned PAM_SUCCESS.
+May 28 06:16:49 CScott pam_fingerprint-gui[2323]: Got password by keyboard.
+May 28 06:16:49 CScott pam_fingerprint-gui[2323]: Return 25 (PAM_IGNORE).
+May 28 06:16:50 CScott xscreensaver[2323]: pam_ecryptfs: seteuid error
+May 28 06:16:50 CScott xscreensaver[2323]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 28 06:17:01 CScott CRON[3499]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 28 06:17:01 CScott CRON[3499]: pam_unix(cron:session): session closed for user root
+May 28 06:25:01 CScott CRON[3533]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 28 06:25:01 CScott CRON[3533]: pam_unix(cron:session): session closed for user root
+May 28 06:32:59 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 28 06:32:59 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 28 06:33:14 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 28 06:38:28 CScott pam_fingerprint-gui[2323]: Got "debug" argument.
+May 28 06:38:28 CScott pam_fingerprint-gui[2323]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 28 06:38:28 CScott pam_fingerprint-gui[2323]: Got no PAM_RHOST.
+May 28 06:38:28 CScott pam_fingerprint-gui[2323]: Got no SSH_CONNECTION.
+May 28 06:38:28 CScott pam_fingerprint-gui[2323]: Have no PAM_AUTHTOK.
+May 28 06:38:28 CScott pam_fingerprint-gui[2323]: PAM_SERVICE: xscreensaver.
+May 28 06:38:28 CScott pam_fingerprint-gui[2323]: Have DISPLAY :0.0 from getenv.
+May 28 06:38:28 CScott pam_fingerprint-gui[2323]: Have now XDisplay: ":0.0" and XAuth: "/home/tech/.Xauthority".
+May 28 06:38:28 CScott pam_fingerprint-gui[2323]: Have PAM username "tech".
+May 28 06:38:28 CScott pam_fingerprint-gui[2323]: Parent PID: 2323.
+May 28 06:38:28 CScott pam_fingerprint-gui[2323]: Child (helper) PID: 3604.
+May 28 06:38:28 CScott pam_fingerprint-gui[2323]: Wrote random string to fifo.
+May 28 06:38:28 CScott pam_fingerprint-gui[2323]: running not OPENPAM.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Got "debug" argument.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Have username tech.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Started.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Arg0: fingerprint-helper.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Arg1: 10.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Arg2: 11.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Arg3: :0.0.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Arg4: xscreensaver.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Arg5: -d.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Arg6: -u.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Arg7: tech.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Arg8: dUmMy4.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Arg9: dUmMy5.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Have pipe_r 10 and pipe_w 11.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Have display=:0.0, XAUTHORITY=/home/tech/.Xauthority.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Libfprint initialized.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Libbsapi initialized.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Devices initialized.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Found USB device: unknown vendor/unknown device.
+May 28 06:38:28 CScott fingerprint-helper[3604]: message repeated 10 times: [ Found USB device: unknown vendor/unknown device.]
+May 28 06:38:28 CScott fingerprint-helper[3604]: No devices found by libbsapi.
+May 28 06:38:28 CScott fingerprint-helper[3604]: No fingerprint devices found!
+May 28 06:38:28 CScott fingerprint-helper[3604]: WARNING: No devices can identify. Fallback to verifying only.
+May 28 06:38:28 CScott fingerprint-helper[3604]: No useful devices found.
+May 28 06:38:28 CScott fingerprint-helper[3604]: Devices released.
+May 28 06:38:28 CScott fingerprint-helper[3604]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 28 06:38:29 CScott pam_fingerprint-gui[2323]: Prompting password returned PAM_SUCCESS.
+May 28 06:38:29 CScott pam_fingerprint-gui[2323]: Got password by keyboard.
+May 28 06:38:29 CScott pam_fingerprint-gui[2323]: Return 25 (PAM_IGNORE).
+May 28 06:38:29 CScott xscreensaver[2323]: pam_ecryptfs: seteuid error
+May 28 06:38:29 CScott xscreensaver[2323]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 28 06:56:35 CScott sshd[3771]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+May 28 06:56:39 CScott sshd[3772]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+May 28 06:56:40 CScott sshd[3779]: fatal: no hostkey alg [preauth]
+May 28 06:56:41 CScott sshd[3782]: fatal: no hostkey alg [preauth]
+May 28 06:56:41 CScott sshd[3775]: Connection closed by 192.168.106.16 [preauth]
+May 28 06:56:41 CScott sshd[3777]: Connection closed by 192.168.106.16 [preauth]
+May 28 06:56:41 CScott sshd[3773]: Connection closed by 192.168.106.16 [preauth]
+May 28 07:03:00 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 28 07:03:00 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 28 07:03:13 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 28 07:17:01 CScott CRON[4227]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 28 07:17:01 CScott CRON[4227]: pam_unix(cron:session): session closed for user root
+May 28 07:18:13 CScott pam_fingerprint-gui[2323]: Got "debug" argument.
+May 28 07:18:13 CScott pam_fingerprint-gui[2323]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 28 07:18:13 CScott pam_fingerprint-gui[2323]: Got no PAM_RHOST.
+May 28 07:18:13 CScott pam_fingerprint-gui[2323]: Got no SSH_CONNECTION.
+May 28 07:18:13 CScott pam_fingerprint-gui[2323]: Have no PAM_AUTHTOK.
+May 28 07:18:13 CScott pam_fingerprint-gui[2323]: PAM_SERVICE: xscreensaver.
+May 28 07:18:13 CScott pam_fingerprint-gui[2323]: Have DISPLAY :0.0 from getenv.
+May 28 07:18:13 CScott pam_fingerprint-gui[2323]: Have now XDisplay: ":0.0" and XAuth: "/home/tech/.Xauthority".
+May 28 07:18:13 CScott pam_fingerprint-gui[2323]: Have PAM username "tech".
+May 28 07:18:13 CScott pam_fingerprint-gui[2323]: Parent PID: 2323.
+May 28 07:18:13 CScott pam_fingerprint-gui[2323]: Child (helper) PID: 4231.
+May 28 07:18:13 CScott pam_fingerprint-gui[2323]: Wrote random string to fifo.
+May 28 07:18:13 CScott pam_fingerprint-gui[2323]: running not OPENPAM.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Got "debug" argument.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Have username tech.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Started.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Arg0: fingerprint-helper.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Arg1: 10.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Arg2: 11.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Arg3: :0.0.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Arg4: xscreensaver.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Arg5: -d.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Arg6: -u.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Arg7: tech.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Arg8: dUmMy4.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Arg9: dUmMy5.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Have pipe_r 10 and pipe_w 11.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Have display=:0.0, XAUTHORITY=/home/tech/.Xauthority.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Libfprint initialized.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Libbsapi initialized.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Devices initialized.
+May 28 07:18:13 CScott fingerprint-helper[4231]: Found USB device: unknown vendor/unknown device.
+May 28 07:18:13 CScott fingerprint-helper[4231]: message repeated 9 times: [ Found USB device: unknown vendor/unknown device.]
+May 28 07:18:14 CScott fingerprint-helper[4231]: No devices found by libbsapi.
+May 28 07:18:14 CScott fingerprint-helper[4231]: No fingerprint devices found!
+May 28 07:18:14 CScott fingerprint-helper[4231]: WARNING: No devices can identify. Fallback to verifying only.
+May 28 07:18:14 CScott fingerprint-helper[4231]: No useful devices found.
+May 28 07:18:14 CScott fingerprint-helper[4231]: Devices released.
+May 28 07:18:14 CScott fingerprint-helper[4231]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 28 07:18:14 CScott pam_fingerprint-gui[2323]: Prompting password returned PAM_SUCCESS.
+May 28 07:18:14 CScott pam_fingerprint-gui[2323]: Got password by keyboard.
+May 28 07:18:14 CScott pam_fingerprint-gui[2323]: Return 25 (PAM_IGNORE).
+May 28 07:18:14 CScott xscreensaver[2323]: pam_ecryptfs: seteuid error
+May 28 07:18:14 CScott xscreensaver[2323]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 28 07:30:01 CScott CRON[4431]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 28 07:30:01 CScott CRON[4431]: pam_unix(cron:session): session closed for user root
+May 28 07:33:02 CScott sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 28 07:33:02 CScott sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 28 07:33:16 CScott sudo: pam_unix(sudo:session): session closed for user root
+May 28 07:37:35 CScott pam_fingerprint-gui[2323]: Got "debug" argument.
+May 28 07:37:35 CScott pam_fingerprint-gui[2323]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 28 07:37:35 CScott pam_fingerprint-gui[2323]: Got no PAM_RHOST.
+May 28 07:37:35 CScott pam_fingerprint-gui[2323]: Got no SSH_CONNECTION.
+May 28 07:37:35 CScott pam_fingerprint-gui[2323]: Have no PAM_AUTHTOK.
+May 28 07:37:35 CScott pam_fingerprint-gui[2323]: PAM_SERVICE: xscreensaver.
+May 28 07:37:35 CScott pam_fingerprint-gui[2323]: Have DISPLAY :0.0 from getenv.
+May 28 07:37:35 CScott pam_fingerprint-gui[2323]: Have now XDisplay: ":0.0" and XAuth: "/home/tech/.Xauthority".
+May 28 07:37:35 CScott pam_fingerprint-gui[2323]: Have PAM username "tech".
+May 28 07:37:35 CScott pam_fingerprint-gui[2323]: Parent PID: 2323.
+May 28 07:37:35 CScott pam_fingerprint-gui[2323]: Child (helper) PID: 4495.
+May 28 07:37:35 CScott pam_fingerprint-gui[2323]: Wrote random string to fifo.
+May 28 07:37:35 CScott pam_fingerprint-gui[2323]: running not OPENPAM.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Got "debug" argument.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Have username tech.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Started.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Arg0: fingerprint-helper.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Arg1: 10.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Arg2: 11.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Arg3: :0.0.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Arg4: xscreensaver.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Arg5: -d.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Arg6: -u.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Arg7: tech.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Arg8: dUmMy4.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Arg9: dUmMy5.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Have pipe_r 10 and pipe_w 11.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Have display=:0.0, XAUTHORITY=/home/tech/.Xauthority.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Libfprint initialized.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Libbsapi initialized.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Devices initialized.
+May 28 07:37:35 CScott fingerprint-helper[4495]: Found USB device: unknown vendor/unknown device.
+May 28 07:37:35 CScott fingerprint-helper[4495]: message repeated 9 times: [ Found USB device: unknown vendor/unknown device.]
+May 28 07:37:36 CScott fingerprint-helper[4495]: No devices found by libbsapi.
+May 28 07:37:36 CScott fingerprint-helper[4495]: No fingerprint devices found!
+May 28 07:37:36 CScott fingerprint-helper[4495]: WARNING: No devices can identify. Fallback to verifying only.
+May 28 07:37:36 CScott fingerprint-helper[4495]: No useful devices found.
+May 28 07:37:36 CScott fingerprint-helper[4495]: Devices released.
+May 28 07:37:36 CScott fingerprint-helper[4495]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 28 07:37:38 CScott pam_fingerprint-gui[2323]: Prompting password returned PAM_SUCCESS.
+May 28 07:37:38 CScott pam_fingerprint-gui[2323]: Got password by keyboard.
+May 28 07:37:38 CScott pam_fingerprint-gui[2323]: Return 25 (PAM_IGNORE).
+May 28 07:37:38 CScott xscreensaver[2323]: pam_ecryptfs: seteuid error
+May 28 07:37:38 CScott xscreensaver[2323]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 28 07:39:27 CScott pam_fingerprint-gui[4626]: Got "debug" argument.
+May 28 07:39:27 CScott pam_fingerprint-gui[4626]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 28 07:39:27 CScott pam_fingerprint-gui[4626]: Got no PAM_RHOST.
+May 28 07:39:27 CScott pam_fingerprint-gui[4626]: Got no SSH_CONNECTION.
+May 28 07:39:27 CScott pam_fingerprint-gui[4626]: Have no PAM_AUTHTOK.
+May 28 07:39:27 CScott pam_fingerprint-gui[4626]: PAM_SERVICE: su.
+May 28 07:39:27 CScott pam_fingerprint-gui[4626]: Have DISPLAY :0.0 from getenv.
+May 28 07:39:27 CScott pam_fingerprint-gui[4626]: Have now XDisplay: ":0.0" and XAuth: "/home/tech/.Xauthority".
+May 28 07:39:27 CScott pam_fingerprint-gui[4626]: Have PAM username "root".
+May 28 07:39:27 CScott pam_fingerprint-gui[4626]: Parent PID: 4626.
+May 28 07:39:27 CScott pam_fingerprint-gui[4626]: Child (helper) PID: 4627.
+May 28 07:39:27 CScott pam_fingerprint-gui[4626]: Wrote random string to fifo.
+May 28 07:39:27 CScott pam_fingerprint-gui[4626]: running not OPENPAM.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Got "debug" argument.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Have username root.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Started.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Arg0: fingerprint-helper.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Arg1: 6.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Arg2: 7.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Arg3: :0.0.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Arg4: su.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Arg5: -d.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Arg6: -u.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Arg7: root.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Arg8: dUmMy4.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Arg9: dUmMy5.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Have pipe_r 6 and pipe_w 7.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Have display=:0.0, XAUTHORITY=/home/tech/.Xauthority.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Libfprint initialized.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Libbsapi initialized.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Devices initialized.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Found USB device: unknown vendor/unknown device.
+May 28 07:39:27 CScott fingerprint-helper[4627]: message repeated 9 times: [ Found USB device: unknown vendor/unknown device.]
+May 28 07:39:27 CScott fingerprint-helper[4627]: No devices found by libbsapi.
+May 28 07:39:27 CScott fingerprint-helper[4627]: No fingerprint devices found!
+May 28 07:39:27 CScott fingerprint-helper[4627]: WARNING: No devices can identify. Fallback to verifying only.
+May 28 07:39:27 CScott fingerprint-helper[4627]: No useful devices found.
+May 28 07:39:27 CScott fingerprint-helper[4627]: Devices released.
+May 28 07:39:27 CScott fingerprint-helper[4627]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 28 07:39:30 CScott pam_fingerprint-gui[4626]: Prompting password returned PAM_SUCCESS.
+May 28 07:39:30 CScott pam_fingerprint-gui[4626]: Got password by keyboard.
+May 28 07:39:30 CScott pam_fingerprint-gui[4626]: Return 25 (PAM_IGNORE).
+May 28 07:39:30 CScott su[4626]: pam_unix(su:auth): authentication failure; logname=tech uid=1000 euid=0 tty=/dev/pts/0 ruser=tech rhost=  user=root
+May 28 07:39:31 CScott su[4626]: pam_authenticate: Authentication failure
+May 28 07:39:31 CScott su[4626]: FAILED su for root by tech
+May 28 07:39:31 CScott su[4626]: - /dev/pts/0 tech:root
+May 28 07:39:34 CScott pam_fingerprint-gui[4633]: Got "debug" argument.
+May 28 07:39:34 CScott pam_fingerprint-gui[4633]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 28 07:39:34 CScott pam_fingerprint-gui[4633]: Got no PAM_RHOST.
+May 28 07:39:34 CScott pam_fingerprint-gui[4633]: Got no SSH_CONNECTION.
+May 28 07:39:34 CScott pam_fingerprint-gui[4633]: Have no PAM_AUTHTOK.
+May 28 07:39:34 CScott pam_fingerprint-gui[4633]: PAM_SERVICE: su.
+May 28 07:39:34 CScott pam_fingerprint-gui[4633]: Have DISPLAY :0.0 from getenv.
+May 28 07:39:34 CScott pam_fingerprint-gui[4633]: Have now XDisplay: ":0.0" and XAuth: "/home/tech/.Xauthority".
+May 28 07:39:34 CScott pam_fingerprint-gui[4633]: Have PAM username "root".
+May 28 07:39:34 CScott pam_fingerprint-gui[4633]: Parent PID: 4633.
+May 28 07:39:34 CScott pam_fingerprint-gui[4633]: Child (helper) PID: 4634.
+May 28 07:39:34 CScott pam_fingerprint-gui[4633]: Wrote random string to fifo.
+May 28 07:39:34 CScott pam_fingerprint-gui[4633]: running not OPENPAM.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Got "debug" argument.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Have username root.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Started.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Arg0: fingerprint-helper.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Arg1: 6.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Arg2: 7.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Arg3: :0.0.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Arg4: su.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Arg5: -d.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Arg6: -u.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Arg7: root.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Arg8: dUmMy4.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Arg9: dUmMy5.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Have pipe_r 6 and pipe_w 7.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Have display=:0.0, XAUTHORITY=/home/tech/.Xauthority.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Libfprint initialized.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Libbsapi initialized.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Devices initialized.
+May 28 07:39:34 CScott fingerprint-helper[4634]: Found USB device: unknown vendor/unknown device.
+May 28 07:39:34 CScott fingerprint-helper[4634]: message repeated 9 times: [ Found USB device: unknown vendor/unknown device.]
+May 28 07:39:35 CScott fingerprint-helper[4634]: No devices found by libbsapi.
+May 28 07:39:35 CScott fingerprint-helper[4634]: No fingerprint devices found!
+May 28 07:39:35 CScott fingerprint-helper[4634]: WARNING: No devices can identify. Fallback to verifying only.
+May 28 07:39:35 CScott fingerprint-helper[4634]: No useful devices found.
+May 28 07:39:35 CScott fingerprint-helper[4634]: Devices released.
+May 28 07:39:35 CScott fingerprint-helper[4634]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 28 07:39:37 CScott pam_fingerprint-gui[4633]: Prompting password returned PAM_SUCCESS.
+May 28 07:39:37 CScott pam_fingerprint-gui[4633]: Got password by keyboard.
+May 28 07:39:37 CScott pam_fingerprint-gui[4633]: Return 25 (PAM_IGNORE).
+May 28 07:39:37 CScott su[4633]: pam_unix(su:auth): authentication failure; logname=tech uid=1000 euid=0 tty=/dev/pts/0 ruser=tech rhost=  user=root
+May 28 07:39:39 CScott su[4633]: pam_authenticate: Authentication failure
+May 28 07:39:39 CScott su[4633]: FAILED su for root by tech
+May 28 07:39:39 CScott su[4633]: - /dev/pts/0 tech:root
+May 28 07:39:43 CScott pam_fingerprint-gui[4639]: Got "debug" argument.
+May 28 07:39:43 CScott pam_fingerprint-gui[4639]: Pam_sm_authenticate was called with flags 0x0 (UNKNOWN).
+May 28 07:39:43 CScott pam_fingerprint-gui[4639]: Got no PAM_RHOST.
+May 28 07:39:43 CScott pam_fingerprint-gui[4639]: Got no SSH_CONNECTION.
+May 28 07:39:43 CScott pam_fingerprint-gui[4639]: Have no PAM_AUTHTOK.
+May 28 07:39:43 CScott pam_fingerprint-gui[4639]: PAM_SERVICE: su.
+May 28 07:39:43 CScott pam_fingerprint-gui[4639]: Have DISPLAY :0.0 from getenv.
+May 28 07:39:43 CScott pam_fingerprint-gui[4639]: Have now XDisplay: ":0.0" and XAuth: "/home/tech/.Xauthority".
+May 28 07:39:43 CScott pam_fingerprint-gui[4639]: Have PAM username "root".
+May 28 07:39:43 CScott pam_fingerprint-gui[4639]: Parent PID: 4639.
+May 28 07:39:43 CScott pam_fingerprint-gui[4639]: Child (helper) PID: 4640.
+May 28 07:39:43 CScott pam_fingerprint-gui[4639]: Wrote random string to fifo.
+May 28 07:39:43 CScott pam_fingerprint-gui[4639]: running not OPENPAM.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Got "debug" argument.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Have username root.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Started.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Arg0: fingerprint-helper.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Arg1: 6.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Arg2: 7.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Arg3: :0.0.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Arg4: su.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Arg5: -d.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Arg6: -u.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Arg7: root.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Arg8: dUmMy4.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Arg9: dUmMy5.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Have pipe_r 6 and pipe_w 7.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Have display=:0.0, XAUTHORITY=/home/tech/.Xauthority.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Wrote pidfile /tmp/fingerprint-helper.pid.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Proprietary lib "libbsapi.so.4.3" loaded.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Libfprint initialized.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Libbsapi initialized.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Devices initialized.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Found USB device: unknown vendor/unknown device.
+May 28 07:39:43 CScott fingerprint-helper[4640]: message repeated 9 times: [ Found USB device: unknown vendor/unknown device.]
+May 28 07:39:43 CScott fingerprint-helper[4640]: No devices found by libbsapi.
+May 28 07:39:43 CScott fingerprint-helper[4640]: No fingerprint devices found!
+May 28 07:39:43 CScott fingerprint-helper[4640]: WARNING: No devices can identify. Fallback to verifying only.
+May 28 07:39:43 CScott fingerprint-helper[4640]: No useful devices found.
+May 28 07:39:43 CScott fingerprint-helper[4640]: Devices released.
+May 28 07:39:43 CScott fingerprint-helper[4640]: ERROR: Requesting fingerprint, EXIT_FAILURE.
+May 28 07:39:45 CScott pam_fingerprint-gui[4639]: Prompting password returned PAM_SUCCESS.
+May 28 07:39:45 CScott pam_fingerprint-gui[4639]: Got password by keyboard.
+May 28 07:39:45 CScott pam_fingerprint-gui[4639]: Return 25 (PAM_IGNORE).
+May 28 07:39:45 CScott su[4639]: Successful su for root by tech
+May 28 07:39:45 CScott su[4639]: + /dev/pts/0 tech:root
+May 28 07:39:45 CScott su[4639]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May 28 07:39:45 CScott systemd-logind[690]: Removed session c4.

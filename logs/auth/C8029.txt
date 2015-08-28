@@ -1,0 +1,77 @@
+Jun 12 11:13:30 C8001 mdm[1510]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jun 12 11:13:33 C8001 mdm[1510]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jun 12 11:13:33 C8001 systemd-logind[594]: Removed session c3.
+Jun 12 11:13:33 C8001 systemd-logind[594]: New session c4 of user tech.
+Jun 12 11:13:33 C8001 systemd-logind[594]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jun 12 11:13:33 C8001 mdm[1510]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 12 11:13:41 C8001 polkitd(authority=local): Registered Authentication Agent for unix-session:c4 (system bus name :1.58 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 12 11:17:01 C8001 CRON[2845]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 11:17:01 C8001 CRON[2845]: pam_unix(cron:session): session closed for user root
+Jun 12 11:17:47 C8001 gnome-keyring-daemon[2873]: couldn't access control socket: /run/user/1000/keyring-nROBYN/control: No such file or directory
+Jun 12 11:17:47 C8001 gnome-keyring-daemon[2873]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Jun 12 11:17:47 C8001 gnome-keyring-daemon[2873]: keyring alias directory: /home/tech/.local/share/keyrings
+Jun 12 11:17:56 C8001 dbus[523]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.89" (uid=0 pid=2878 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=919 comm="NetworkManager ")
+Jun 12 16:18:37 C8001 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jun 12 16:18:55 C8001 systemd-logind[594]: System is rebooting.
+Jun 12 16:18:55 C8001 systemd-logind[594]: Operation finished.
+Jun 12 16:19:29 C8001 systemd-logind[895]: New seat seat0.
+Jun 12 16:19:33 C8001 sshd[1261]: Server listening on 0.0.0.0 port 22.
+Jun 12 16:19:33 C8001 sshd[1261]: Server listening on :: port 22.
+Jun 12 16:19:34 C8001 CRON[1334]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 16:19:34 C8001 CRON[1334]: pam_unix(cron:session): session closed for user root
+Jun 12 16:19:38 C8001 mdm[1529]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 12 16:19:38 C8001 mdm[1529]: PAM adding faulty module: pam_kwallet.so
+Jun 12 16:19:38 C8001 dbus[816]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=1464 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.3" (uid=0 pid=936 comm="NetworkManager ")
+Jun 12 16:28:45 C8001 mdm[1529]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jun 12 16:28:49 C8001 mdm[1529]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jun 12 16:28:49 C8001 systemd-logind[895]: New session c1 of user tech.
+Jun 12 16:28:49 C8001 systemd-logind[895]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jun 12 16:28:49 C8001 mdm[1529]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 12 16:28:57 C8001 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.22 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 12 16:29:21 C8001 su[2491]: Successful su for root by tech
+Jun 12 16:29:21 C8001 su[2491]: + /dev/pts/0 tech:root
+Jun 12 16:29:21 C8001 su[2491]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jun 12 16:29:41 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/bin/apt-get remove network-manager -y
+Jun 12 16:29:41 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 12 16:29:50 C8001 dbus[816]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=1464 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.3" (uid=0 pid=936 comm="NetworkManager ")
+Jun 12 16:30:07 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 16:30:37 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#012auto lo#012auto eth0#012#012iface lo inet loopback#012iface eth0 inet static#012#011#011address 192.168.208.29#012#011#011netmask 255.255.252.0#012#011#011gateway 192.168.210.1
+Jun 12 16:30:37 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 12 16:30:37 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 16:30:43 C8001 sshd[1261]: Received signal 15; terminating.
+Jun 12 16:30:43 C8001 sshd[3302]: Server listening on 0.0.0.0 port 22.
+Jun 12 16:30:43 C8001 sshd[3302]: Server listening on :: port 22.
+Jun 12 16:30:58 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/preferences/blacklist_update.sh
+Jun 12 16:30:58 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 12 16:31:15 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 16:31:54 C8029 systemd-logind[866]: New seat seat0.
+Jun 12 16:32:09 C8029 sshd[1319]: Server listening on 0.0.0.0 port 22.
+Jun 12 16:32:09 C8029 sshd[1319]: Server listening on :: port 22.
+Jun 12 16:32:10 C8029 CRON[1389]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 16:32:10 C8029 CRON[1389]: pam_unix(cron:session): session closed for user root
+Jun 12 16:32:13 C8029 mdm[1532]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 12 16:32:13 C8029 mdm[1532]: PAM adding faulty module: pam_kwallet.so
+Jun 12 17:17:01 C8029 CRON[1662]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 17:17:01 C8029 CRON[1662]: pam_unix(cron:session): session closed for user root
+Jun 12 18:17:01 C8029 CRON[1737]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 18:17:01 C8029 CRON[1737]: pam_unix(cron:session): session closed for user root
+Jun 12 19:17:01 C8029 CRON[1814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 19:17:01 C8029 CRON[1814]: pam_unix(cron:session): session closed for user root
+Jun 12 20:17:01 C8029 CRON[1888]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 20:17:01 C8029 CRON[1888]: pam_unix(cron:session): session closed for user root
+Jun 12 21:17:01 C8029 CRON[1963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 21:17:01 C8029 CRON[1963]: pam_unix(cron:session): session closed for user root
+Jun 12 22:17:01 C8029 CRON[2042]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 22:17:01 C8029 CRON[2042]: pam_unix(cron:session): session closed for user root
+Jun 12 23:17:01 C8029 CRON[2120]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 23:17:01 C8029 CRON[2120]: pam_unix(cron:session): session closed for user root
+Jun 13 00:17:01 C8029 CRON[2198]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 13 00:17:01 C8029 CRON[2198]: pam_unix(cron:session): session closed for user root
+Jun 13 01:17:01 C8029 CRON[2275]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 13 01:17:01 C8029 CRON[2275]: pam_unix(cron:session): session closed for user root
+Jun 13 02:17:01 C8029 CRON[2344]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 13 02:17:01 C8029 CRON[2344]: pam_unix(cron:session): session closed for user root
+Jun 13 03:00:01 C8029 CRON[2400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 13 03:00:04 C8029 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jun 13 03:00:04 C8029 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 13 03:00:04 C8029 sudo: pam_unix(sudo:session): session closed for user root

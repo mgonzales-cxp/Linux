@@ -1,0 +1,664 @@
+Jul 27 07:35:01 T6004 CRON[11071]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:35:11 T6004 CRON[11071]: pam_unix(cron:session): session closed for user root
+Jul 27 07:40:01 T6004 CRON[11082]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:40:11 T6004 CRON[11082]: pam_unix(cron:session): session closed for user root
+Jul 27 07:45:01 T6004 CRON[11091]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:45:11 T6004 CRON[11091]: pam_unix(cron:session): session closed for user root
+Jul 27 07:50:01 T6004 CRON[11102]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:50:11 T6004 CRON[11102]: pam_unix(cron:session): session closed for user root
+Jul 27 07:50:31 T6004 mdm[10679]: pam_unix(mdm:auth): check pass; user unknown
+Jul 27 07:50:31 T6004 mdm[10679]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Jul 27 07:50:34 T6004 mdm[10679]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 27 07:50:34 T6004 mdm[10679]: PAM adding faulty module: pam_kwallet.so
+Jul 27 07:50:49 T6004 mdm[10679]: pam_unix(mdm:auth): check pass; user unknown
+Jul 27 07:50:49 T6004 mdm[10679]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Jul 27 07:50:53 T6004 mdm[10679]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 27 07:50:53 T6004 mdm[10679]: PAM adding faulty module: pam_kwallet.so
+Jul 27 07:51:13 T6004 mdm[10679]: pam_unix(mdm:auth): check pass; user unknown
+Jul 27 07:51:13 T6004 mdm[10679]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Jul 27 07:51:16 T6004 mdm[10679]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 27 07:51:16 T6004 mdm[10679]: PAM adding faulty module: pam_kwallet.so
+Jul 27 07:51:31 T6004 mdm[10679]: pam_unix(mdm:auth): check pass; user unknown
+Jul 27 07:51:31 T6004 mdm[10679]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Jul 27 07:51:34 T6004 mdm[10679]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 27 07:51:34 T6004 mdm[10679]: PAM adding faulty module: pam_kwallet.so
+Jul 27 07:51:43 T6004 mdm[10679]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "aetna-training"
+Jul 27 07:51:47 T6004 mdm[10679]: pam_unix(mdm:session): session opened for user aetna-training by (uid=0)
+Jul 27 07:51:47 T6004 systemd-logind[912]: Removed session c10.
+Jul 27 07:51:47 T6004 systemd-logind[912]: New session c11 of user aetna-training.
+Jul 27 07:51:47 T6004 mdm[10679]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 27 07:51:49 T6004 polkitd(authority=local): Registered Authentication Agent for unix-session:c11 (system bus name :1.87 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 27 07:51:51 T6004 gnome-keyring-daemon[11118]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Jul 27 07:51:51 T6004 gnome-keyring-daemon[11118]: keyring alias directory: /home/aetna-training/.local/share/keyrings
+Jul 27 07:51:52 T6004 dbus[779]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.63" (uid=0 pid=10293 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=968 comm="NetworkManager ")
+Jul 27 07:55:01 T6004 CRON[11815]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:55:06 T6004 CRON[11815]: pam_unix(cron:session): session closed for user root
+Jul 27 08:00:01 T6004 CRON[12158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:00:03 T6004 CRON[12158]: pam_unix(cron:session): session closed for user root
+Jul 27 08:05:01 T6004 CRON[12347]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:05:03 T6004 CRON[12347]: pam_unix(cron:session): session closed for user root
+Jul 27 08:10:01 T6004 CRON[12617]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:10:04 T6004 CRON[12617]: pam_unix(cron:session): session closed for user root
+Jul 27 08:15:01 T6004 CRON[12975]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:15:04 T6004 CRON[12975]: pam_unix(cron:session): session closed for user root
+Jul 27 08:17:01 T6004 CRON[13167]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:17:01 T6004 CRON[13167]: pam_unix(cron:session): session closed for user root
+Jul 27 08:20:01 T6004 CRON[13175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:20:05 T6004 CRON[13175]: pam_unix(cron:session): session closed for user root
+Jul 27 08:21:51 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 08:21:51 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 08:22:06 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 08:25:01 T6004 CRON[13403]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:25:06 T6004 CRON[13403]: pam_unix(cron:session): session closed for user root
+Jul 27 08:30:01 T6004 CRON[13633]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:30:05 T6004 CRON[13633]: pam_unix(cron:session): session closed for user root
+Jul 27 08:35:01 T6004 CRON[13846]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:35:07 T6004 CRON[13846]: pam_unix(cron:session): session closed for user root
+Jul 27 08:36:03 T6004 mdm[14031]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 27 08:36:03 T6004 mdm[14031]: PAM adding faulty module: pam_kwallet.so
+Jul 27 08:38:58 T6004 mdm[14031]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "aetna-training"
+Jul 27 08:40:01 T6004 CRON[14068]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:40:06 T6004 CRON[14068]: pam_unix(cron:session): session closed for user root
+Jul 27 08:45:01 T6004 CRON[14302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:45:04 T6004 CRON[14302]: pam_unix(cron:session): session closed for user root
+Jul 27 08:50:01 T6004 CRON[14495]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:50:05 T6004 CRON[14495]: pam_unix(cron:session): session closed for user root
+Jul 27 08:51:51 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 08:51:51 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 08:52:04 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 08:55:01 T6004 CRON[14730]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:55:04 T6004 CRON[14730]: pam_unix(cron:session): session closed for user root
+Jul 27 09:00:01 T6004 CRON[14922]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:00:08 T6004 CRON[14922]: pam_unix(cron:session): session closed for user root
+Jul 27 09:05:01 T6004 CRON[15139]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:05:03 T6004 CRON[15139]: pam_unix(cron:session): session closed for user root
+Jul 27 09:10:02 T6004 CRON[15553]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:10:06 T6004 CRON[15553]: pam_unix(cron:session): session closed for user root
+Jul 27 09:15:01 T6004 CRON[15806]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:15:08 T6004 CRON[15806]: pam_unix(cron:session): session closed for user root
+Jul 27 09:17:01 T6004 CRON[16000]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:17:01 T6004 CRON[16000]: pam_unix(cron:session): session closed for user root
+Jul 27 09:20:01 T6004 CRON[16006]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:20:04 T6004 CRON[16006]: pam_unix(cron:session): session closed for user root
+Jul 27 09:21:51 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 09:21:51 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 09:22:01 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:25:01 T6004 CRON[16237]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:25:05 T6004 CRON[16237]: pam_unix(cron:session): session closed for user root
+Jul 27 09:30:01 T6004 CRON[16438]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:30:07 T6004 CRON[16438]: pam_unix(cron:session): session closed for user root
+Jul 27 09:35:01 T6004 CRON[16751]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:35:03 T6004 CRON[16751]: pam_unix(cron:session): session closed for user root
+Jul 27 09:40:01 T6004 CRON[16949]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:40:07 T6004 CRON[16949]: pam_unix(cron:session): session closed for user root
+Jul 27 09:45:01 T6004 CRON[17236]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:45:05 T6004 CRON[17236]: pam_unix(cron:session): session closed for user root
+Jul 27 09:50:01 T6004 CRON[17426]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:50:02 T6004 CRON[17426]: pam_unix(cron:session): session closed for user root
+Jul 27 09:51:51 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 09:51:51 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 09:52:02 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:55:01 T6004 CRON[17657]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:55:05 T6004 CRON[17657]: pam_unix(cron:session): session closed for user root
+Jul 27 10:00:01 T6004 CRON[17859]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:00:07 T6004 CRON[17859]: pam_unix(cron:session): session closed for user root
+Jul 27 10:05:01 T6004 CRON[18052]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:05:08 T6004 CRON[18052]: pam_unix(cron:session): session closed for user root
+Jul 27 10:10:01 T6004 CRON[18246]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:10:06 T6004 CRON[18246]: pam_unix(cron:session): session closed for user root
+Jul 27 10:10:23 T6004 unix_chkpwd[18432]: password check failed for user (aetna-training)
+Jul 27 10:10:23 T6004 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=1002 euid=1002 tty=:0.0 ruser= rhost=  user=aetna-training
+Jul 27 10:10:25 T6004 xscreensaver[11452]: FAILED LOGIN 1 ON DISPLAY ":0.0", FOR "aetna-training"
+Jul 27 10:10:34 T6004 xscreensaver[11452]: pam_ecryptfs: seteuid error
+Jul 27 10:15:01 T6004 CRON[18487]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:15:07 T6004 CRON[18487]: pam_unix(cron:session): session closed for user root
+Jul 27 10:17:01 T6004 CRON[18673]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:17:01 T6004 CRON[18673]: pam_unix(cron:session): session closed for user root
+Jul 27 10:20:01 T6004 CRON[18785]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:20:02 T6004 CRON[18785]: pam_unix(cron:session): session closed for user root
+Jul 27 10:21:51 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 10:21:51 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 10:22:02 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:25:01 T6004 CRON[19050]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:25:04 T6004 CRON[19050]: pam_unix(cron:session): session closed for user root
+Jul 27 10:30:01 T6004 CRON[19249]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:30:07 T6004 CRON[19249]: pam_unix(cron:session): session closed for user root
+Jul 27 10:35:01 T6004 CRON[19467]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:35:04 T6004 CRON[19467]: pam_unix(cron:session): session closed for user root
+Jul 27 10:40:01 T6004 CRON[19660]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:40:08 T6004 CRON[19660]: pam_unix(cron:session): session closed for user root
+Jul 27 10:45:01 T6004 CRON[19942]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:45:02 T6004 CRON[19942]: pam_unix(cron:session): session closed for user root
+Jul 27 10:50:01 T6004 CRON[20144]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:50:04 T6004 CRON[20144]: pam_unix(cron:session): session closed for user root
+Jul 27 10:51:51 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 10:51:51 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 10:52:02 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:55:01 T6004 CRON[20383]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:55:06 T6004 CRON[20383]: pam_unix(cron:session): session closed for user root
+Jul 27 11:00:01 T6004 CRON[20637]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:00:05 T6004 CRON[20637]: pam_unix(cron:session): session closed for user root
+Jul 27 11:05:01 T6004 CRON[20834]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:05:07 T6004 CRON[20834]: pam_unix(cron:session): session closed for user root
+Jul 27 11:10:01 T6004 CRON[21023]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:10:05 T6004 CRON[21023]: pam_unix(cron:session): session closed for user root
+Jul 27 11:13:34 T6004 unix_chkpwd[21210]: password check failed for user (aetna-training)
+Jul 27 11:13:34 T6004 xscreensaver[11452]: pam_unix(xscreensaver:auth): authentication failure; logname= uid=1002 euid=1002 tty=:0.0 ruser= rhost=  user=aetna-training
+Jul 27 11:13:36 T6004 xscreensaver[11452]: FAILED LOGIN 1 ON DISPLAY ":0.0", FOR "aetna-training"
+Jul 27 11:13:47 T6004 xscreensaver[11452]: pam_ecryptfs: seteuid error
+Jul 27 11:15:01 T6004 CRON[21219]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:15:07 T6004 CRON[21219]: pam_unix(cron:session): session closed for user root
+Jul 27 11:17:01 T6004 CRON[21414]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:17:01 T6004 CRON[21414]: pam_unix(cron:session): session closed for user root
+Jul 27 11:20:01 T6004 CRON[21425]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:20:05 T6004 CRON[21425]: pam_unix(cron:session): session closed for user root
+Jul 27 11:21:51 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 11:21:51 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 11:22:02 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:25:01 T6004 CRON[21655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:25:08 T6004 CRON[21655]: pam_unix(cron:session): session closed for user root
+Jul 27 11:30:01 T6004 CRON[21849]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:30:04 T6004 CRON[21849]: pam_unix(cron:session): session closed for user root
+Jul 27 11:35:01 T6004 CRON[22172]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:35:07 T6004 CRON[22172]: pam_unix(cron:session): session closed for user root
+Jul 27 11:40:01 T6004 CRON[22365]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:40:04 T6004 CRON[22365]: pam_unix(cron:session): session closed for user root
+Jul 27 11:45:01 T6004 CRON[22638]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:45:03 T6004 CRON[22638]: pam_unix(cron:session): session closed for user root
+Jul 27 11:50:01 T6004 CRON[22860]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:50:06 T6004 CRON[22860]: pam_unix(cron:session): session closed for user root
+Jul 27 11:51:52 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 11:51:52 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 11:52:03 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:55:01 T6004 CRON[23089]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:55:05 T6004 CRON[23089]: pam_unix(cron:session): session closed for user root
+Jul 27 12:00:01 T6004 CRON[23280]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:00:04 T6004 CRON[23280]: pam_unix(cron:session): session closed for user root
+Jul 27 12:05:01 T6004 CRON[23468]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:05:04 T6004 CRON[23468]: pam_unix(cron:session): session closed for user root
+Jul 27 12:10:01 T6004 CRON[23663]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:10:14 T6004 CRON[23663]: pam_unix(cron:session): session closed for user root
+Jul 27 11:29:42 T6004 xscreensaver[11452]: pam_ecryptfs: seteuid error
+Jul 27 12:11:48 T6004 xscreensaver[11452]: pam_unix(xscreensaver:auth): conversation failed
+Jul 27 12:11:48 T6004 xscreensaver[11452]: pam_unix(xscreensaver:auth): auth could not identify password for [aetna-training]
+Jul 27 12:15:01 T6004 CRON[23853]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:15:10 T6004 CRON[23853]: pam_unix(cron:session): session closed for user root
+Jul 27 12:15:18 T6004 xscreensaver[11452]: pam_ecryptfs: seteuid error
+Jul 27 12:17:01 T6004 CRON[24114]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:17:01 T6004 CRON[24114]: pam_unix(cron:session): session closed for user root
+Jul 27 12:20:01 T6004 CRON[24154]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:20:05 T6004 CRON[24154]: pam_unix(cron:session): session closed for user root
+Jul 27 12:21:52 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 12:21:52 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 12:22:06 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 12:25:01 T6004 CRON[24405]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:25:06 T6004 CRON[24405]: pam_unix(cron:session): session closed for user root
+Jul 27 12:30:01 T6004 CRON[24661]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:30:06 T6004 CRON[24661]: pam_unix(cron:session): session closed for user root
+Jul 27 12:35:01 T6004 CRON[24919]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:35:05 T6004 CRON[24919]: pam_unix(cron:session): session closed for user root
+Jul 27 12:40:01 T6004 CRON[25134]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:40:07 T6004 CRON[25134]: pam_unix(cron:session): session closed for user root
+Jul 27 12:45:01 T6004 CRON[25324]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:45:05 T6004 CRON[25324]: pam_unix(cron:session): session closed for user root
+Jul 27 12:50:01 T6004 CRON[25535]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:50:04 T6004 CRON[25535]: pam_unix(cron:session): session closed for user root
+Jul 27 12:51:52 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 12:51:52 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 12:52:03 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 12:55:01 T6004 CRON[25764]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:55:03 T6004 CRON[25764]: pam_unix(cron:session): session closed for user root
+Jul 27 13:00:01 T6004 CRON[25958]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:00:03 T6004 CRON[25958]: pam_unix(cron:session): session closed for user root
+Jul 27 13:05:01 T6004 CRON[26148]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:05:06 T6004 CRON[26148]: pam_unix(cron:session): session closed for user root
+Jul 27 13:10:01 T6004 CRON[26342]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:10:02 T6004 CRON[26342]: pam_unix(cron:session): session closed for user root
+Jul 27 13:15:01 T6004 CRON[26608]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:15:09 T6004 CRON[26608]: pam_unix(cron:session): session closed for user root
+Jul 27 13:17:01 T6004 CRON[26863]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:17:01 T6004 CRON[26863]: pam_unix(cron:session): session closed for user root
+Jul 27 13:20:01 T6004 CRON[26872]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:20:06 T6004 CRON[26872]: pam_unix(cron:session): session closed for user root
+Jul 27 13:21:52 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 13:21:52 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 13:22:03 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 13:25:01 T6004 CRON[27119]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:25:06 T6004 CRON[27119]: pam_unix(cron:session): session closed for user root
+Jul 27 13:30:01 T6004 CRON[27363]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:30:12 T6004 CRON[27363]: pam_unix(cron:session): session closed for user root
+Jul 27 13:35:02 T6004 CRON[27714]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:35:07 T6004 CRON[27714]: pam_unix(cron:session): session closed for user root
+Jul 27 13:40:01 T6004 CRON[27926]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:40:07 T6004 CRON[27926]: pam_unix(cron:session): session closed for user root
+Jul 27 13:45:01 T6004 CRON[28114]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:45:07 T6004 CRON[28114]: pam_unix(cron:session): session closed for user root
+Jul 27 13:50:01 T6004 CRON[28419]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:50:05 T6004 CRON[28419]: pam_unix(cron:session): session closed for user root
+Jul 27 13:51:52 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 13:51:52 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 13:52:04 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 13:55:01 T6004 CRON[28655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:55:07 T6004 CRON[28655]: pam_unix(cron:session): session closed for user root
+Jul 27 14:00:01 T6004 CRON[28846]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:00:06 T6004 CRON[28846]: pam_unix(cron:session): session closed for user root
+Jul 27 14:05:01 T6004 CRON[29043]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:05:06 T6004 CRON[29043]: pam_unix(cron:session): session closed for user root
+Jul 27 14:10:01 T6004 CRON[29235]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:10:06 T6004 CRON[29235]: pam_unix(cron:session): session closed for user root
+Jul 27 14:15:01 T6004 CRON[29424]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:15:05 T6004 CRON[29424]: pam_unix(cron:session): session closed for user root
+Jul 27 14:17:01 T6004 CRON[29607]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:17:01 T6004 CRON[29607]: pam_unix(cron:session): session closed for user root
+Jul 27 14:20:01 T6004 CRON[29620]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:20:06 T6004 CRON[29620]: pam_unix(cron:session): session closed for user root
+Jul 27 14:21:52 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 14:21:52 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 14:22:08 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 14:25:01 T6004 CRON[29856]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:25:05 T6004 CRON[29856]: pam_unix(cron:session): session closed for user root
+Jul 27 14:30:01 T6004 CRON[30065]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:30:20 T6004 CRON[30065]: pam_unix(cron:session): session closed for user root
+Jul 27 14:35:01 T6004 CRON[30254]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:35:14 T6004 CRON[30254]: pam_unix(cron:session): session closed for user root
+Jul 27 14:40:01 T6004 CRON[30470]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:40:06 T6004 CRON[30470]: pam_unix(cron:session): session closed for user root
+Jul 27 14:45:01 T6004 CRON[30662]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:45:06 T6004 CRON[30662]: pam_unix(cron:session): session closed for user root
+Jul 27 14:50:01 T6004 CRON[30958]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:50:05 T6004 CRON[30958]: pam_unix(cron:session): session closed for user root
+Jul 27 14:51:52 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 14:51:52 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 14:52:04 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 14:55:01 T6004 CRON[31193]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:55:06 T6004 CRON[31193]: pam_unix(cron:session): session closed for user root
+Jul 27 15:00:01 T6004 CRON[31549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:00:06 T6004 CRON[31549]: pam_unix(cron:session): session closed for user root
+Jul 27 15:05:01 T6004 CRON[31872]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:05:05 T6004 CRON[31872]: pam_unix(cron:session): session closed for user root
+Jul 27 15:10:01 T6004 CRON[32081]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:10:03 T6004 CRON[32081]: pam_unix(cron:session): session closed for user root
+Jul 27 15:15:01 T6004 CRON[32281]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:15:05 T6004 CRON[32281]: pam_unix(cron:session): session closed for user root
+Jul 27 15:17:01 T6004 CRON[32470]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:17:01 T6004 CRON[32470]: pam_unix(cron:session): session closed for user root
+Jul 27 15:20:01 T6004 CRON[32481]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:20:04 T6004 CRON[32481]: pam_unix(cron:session): session closed for user root
+Jul 27 15:21:52 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 15:21:52 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 15:22:05 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 15:25:01 T6004 CRON[32720]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:25:05 T6004 CRON[32720]: pam_unix(cron:session): session closed for user root
+Jul 27 15:30:01 T6004 CRON[453]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:30:06 T6004 CRON[453]: pam_unix(cron:session): session closed for user root
+Jul 27 15:35:01 T6004 CRON[652]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:35:21 T6004 CRON[652]: pam_unix(cron:session): session closed for user root
+Jul 27 15:40:01 T6004 CRON[852]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:40:06 T6004 CRON[852]: pam_unix(cron:session): session closed for user root
+Jul 27 15:45:01 T6004 CRON[1064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:45:04 T6004 CRON[1064]: pam_unix(cron:session): session closed for user root
+Jul 27 15:50:01 T6004 CRON[1266]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:50:06 T6004 CRON[1266]: pam_unix(cron:session): session closed for user root
+Jul 27 15:51:53 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 15:51:53 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 15:52:08 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 15:55:01 T6004 CRON[1507]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:55:05 T6004 CRON[1507]: pam_unix(cron:session): session closed for user root
+Jul 27 16:00:01 T6004 CRON[1710]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:00:06 T6004 CRON[1710]: pam_unix(cron:session): session closed for user root
+Jul 27 16:05:01 T6004 CRON[1919]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:05:06 T6004 CRON[1919]: pam_unix(cron:session): session closed for user root
+Jul 27 16:10:02 T6004 CRON[2117]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:10:06 T6004 CRON[2117]: pam_unix(cron:session): session closed for user root
+Jul 27 16:15:01 T6004 CRON[2309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:15:05 T6004 CRON[2309]: pam_unix(cron:session): session closed for user root
+Jul 27 16:17:01 T6004 CRON[2493]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:17:01 T6004 CRON[2493]: pam_unix(cron:session): session closed for user root
+Jul 27 16:20:01 T6004 CRON[2530]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:20:06 T6004 CRON[2530]: pam_unix(cron:session): session closed for user root
+Jul 27 16:21:53 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 16:21:53 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 16:22:04 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 16:25:01 T6004 CRON[2766]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:25:05 T6004 CRON[2766]: pam_unix(cron:session): session closed for user root
+Jul 27 16:30:01 T6004 CRON[2961]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:30:06 T6004 CRON[2961]: pam_unix(cron:session): session closed for user root
+Jul 27 16:35:01 T6004 CRON[3150]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:35:04 T6004 CRON[3150]: pam_unix(cron:session): session closed for user root
+Jul 27 16:40:01 T6004 CRON[3344]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:40:06 T6004 CRON[3344]: pam_unix(cron:session): session closed for user root
+Jul 27 16:45:01 T6004 CRON[3534]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:45:04 T6004 CRON[3534]: pam_unix(cron:session): session closed for user root
+Jul 27 16:50:01 T6004 CRON[3796]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:50:05 T6004 CRON[3796]: pam_unix(cron:session): session closed for user root
+Jul 27 16:51:53 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 16:51:53 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 16:52:04 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 16:55:01 T6004 CRON[4031]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:55:02 T6004 CRON[4031]: pam_unix(cron:session): session closed for user root
+Jul 27 17:00:01 T6004 CRON[4223]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:00:07 T6004 CRON[4223]: pam_unix(cron:session): session closed for user root
+Jul 27 17:05:01 T6004 CRON[4414]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:05:05 T6004 CRON[4414]: pam_unix(cron:session): session closed for user root
+Jul 27 17:10:01 T6004 CRON[4605]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:10:04 T6004 CRON[4605]: pam_unix(cron:session): session closed for user root
+Jul 27 17:15:01 T6004 CRON[4794]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:15:04 T6004 CRON[4794]: pam_unix(cron:session): session closed for user root
+Jul 27 17:17:01 T6004 CRON[4980]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:17:01 T6004 CRON[4980]: pam_unix(cron:session): session closed for user root
+Jul 27 17:20:01 T6004 CRON[4987]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:20:05 T6004 CRON[4987]: pam_unix(cron:session): session closed for user root
+Jul 27 17:21:53 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 17:21:53 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 17:22:04 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 17:25:01 T6004 CRON[5223]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:25:04 T6004 CRON[5223]: pam_unix(cron:session): session closed for user root
+Jul 27 17:30:01 T6004 CRON[5414]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:30:04 T6004 CRON[5414]: pam_unix(cron:session): session closed for user root
+Jul 27 17:35:01 T6004 CRON[5601]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:35:05 T6004 CRON[5601]: pam_unix(cron:session): session closed for user root
+Jul 27 17:40:01 T6004 CRON[5793]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:40:03 T6004 CRON[5793]: pam_unix(cron:session): session closed for user root
+Jul 27 17:45:01 T6004 CRON[5981]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:45:03 T6004 CRON[5981]: pam_unix(cron:session): session closed for user root
+Jul 27 17:50:01 T6004 CRON[6175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:50:05 T6004 CRON[6175]: pam_unix(cron:session): session closed for user root
+Jul 27 17:51:53 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 17:51:53 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 17:52:14 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 17:55:01 T6004 CRON[6406]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:55:04 T6004 CRON[6406]: pam_unix(cron:session): session closed for user root
+Jul 27 18:00:01 T6004 CRON[6596]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:00:04 T6004 CRON[6596]: pam_unix(cron:session): session closed for user root
+Jul 27 18:05:01 T6004 CRON[6784]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:05:03 T6004 CRON[6784]: pam_unix(cron:session): session closed for user root
+Jul 27 18:10:01 T6004 CRON[6974]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:10:05 T6004 CRON[6974]: pam_unix(cron:session): session closed for user root
+Jul 27 18:15:01 T6004 CRON[7166]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:15:03 T6004 CRON[7166]: pam_unix(cron:session): session closed for user root
+Jul 27 18:17:01 T6004 CRON[7352]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:17:01 T6004 CRON[7352]: pam_unix(cron:session): session closed for user root
+Jul 27 18:20:01 T6004 CRON[7363]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:20:05 T6004 CRON[7363]: pam_unix(cron:session): session closed for user root
+Jul 27 18:21:53 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 18:21:53 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 18:22:04 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 18:25:01 T6004 CRON[7595]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:25:05 T6004 CRON[7595]: pam_unix(cron:session): session closed for user root
+Jul 27 18:30:01 T6004 CRON[7784]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:30:05 T6004 CRON[7784]: pam_unix(cron:session): session closed for user root
+Jul 27 18:35:01 T6004 CRON[7974]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:35:05 T6004 CRON[7974]: pam_unix(cron:session): session closed for user root
+Jul 27 18:40:01 T6004 CRON[8170]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:40:04 T6004 CRON[8170]: pam_unix(cron:session): session closed for user root
+Jul 27 18:45:01 T6004 CRON[8360]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:45:04 T6004 CRON[8360]: pam_unix(cron:session): session closed for user root
+Jul 27 18:50:01 T6004 CRON[8558]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:50:03 T6004 CRON[8558]: pam_unix(cron:session): session closed for user root
+Jul 27 18:51:53 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 18:51:53 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 18:52:04 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 18:55:01 T6004 CRON[8791]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:55:04 T6004 CRON[8791]: pam_unix(cron:session): session closed for user root
+Jul 27 19:00:01 T6004 CRON[8980]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:00:05 T6004 CRON[8980]: pam_unix(cron:session): session closed for user root
+Jul 27 19:05:01 T6004 CRON[9175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:05:04 T6004 CRON[9175]: pam_unix(cron:session): session closed for user root
+Jul 27 19:10:01 T6004 CRON[9367]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:10:03 T6004 CRON[9367]: pam_unix(cron:session): session closed for user root
+Jul 27 19:15:01 T6004 CRON[9555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:15:02 T6004 CRON[9555]: pam_unix(cron:session): session closed for user root
+Jul 27 19:17:01 T6004 CRON[9749]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:17:01 T6004 CRON[9749]: pam_unix(cron:session): session closed for user root
+Jul 27 19:20:01 T6004 CRON[9757]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:20:04 T6004 CRON[9757]: pam_unix(cron:session): session closed for user root
+Jul 27 19:21:53 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 19:21:53 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 19:24:01 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 19:25:01 T6004 CRON[9992]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:25:03 T6004 CRON[9992]: pam_unix(cron:session): session closed for user root
+Jul 27 19:30:01 T6004 CRON[10189]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:30:03 T6004 CRON[10189]: pam_unix(cron:session): session closed for user root
+Jul 27 19:35:01 T6004 CRON[10385]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:35:02 T6004 CRON[10385]: pam_unix(cron:session): session closed for user root
+Jul 27 19:40:02 T6004 CRON[10583]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:40:05 T6004 CRON[10583]: pam_unix(cron:session): session closed for user root
+Jul 27 19:45:01 T6004 CRON[10777]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:45:02 T6004 CRON[10777]: pam_unix(cron:session): session closed for user root
+Jul 27 19:50:01 T6004 CRON[10979]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:50:03 T6004 CRON[10979]: pam_unix(cron:session): session closed for user root
+Jul 27 19:51:53 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 19:51:53 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 19:52:06 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 19:55:01 T6004 CRON[11218]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:55:02 T6004 CRON[11218]: pam_unix(cron:session): session closed for user root
+Jul 27 20:00:01 T6004 CRON[11445]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:00:02 T6004 CRON[11445]: pam_unix(cron:session): session closed for user root
+Jul 27 20:05:02 T6004 CRON[11679]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:05:03 T6004 CRON[11679]: pam_unix(cron:session): session closed for user root
+Jul 27 20:10:01 T6004 CRON[11869]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:10:02 T6004 CRON[11869]: pam_unix(cron:session): session closed for user root
+Jul 27 20:15:01 T6004 CRON[12061]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:15:01 T6004 CRON[12061]: pam_unix(cron:session): session closed for user root
+Jul 27 20:17:01 T6004 CRON[12251]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:17:01 T6004 CRON[12251]: pam_unix(cron:session): session closed for user root
+Jul 27 20:20:01 T6004 CRON[12262]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:20:03 T6004 CRON[12262]: pam_unix(cron:session): session closed for user root
+Jul 27 20:21:53 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 20:21:53 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 20:22:04 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 20:25:01 T6004 CRON[12493]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:25:02 T6004 CRON[12493]: pam_unix(cron:session): session closed for user root
+Jul 27 20:30:01 T6004 CRON[12685]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:30:02 T6004 CRON[12685]: pam_unix(cron:session): session closed for user root
+Jul 27 20:35:01 T6004 CRON[12879]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:35:02 T6004 CRON[12879]: pam_unix(cron:session): session closed for user root
+Jul 27 20:40:01 T6004 CRON[13069]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:40:02 T6004 CRON[13069]: pam_unix(cron:session): session closed for user root
+Jul 27 20:45:01 T6004 CRON[13265]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:45:04 T6004 CRON[13265]: pam_unix(cron:session): session closed for user root
+Jul 27 20:50:01 T6004 CRON[13464]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:50:02 T6004 CRON[13464]: pam_unix(cron:session): session closed for user root
+Jul 27 20:51:53 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 20:51:53 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 20:52:05 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 20:55:01 T6004 CRON[13694]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:55:01 T6004 CRON[13694]: pam_unix(cron:session): session closed for user root
+Jul 27 21:00:01 T6004 CRON[13889]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:00:03 T6004 CRON[13889]: pam_unix(cron:session): session closed for user root
+Jul 27 21:05:01 T6004 CRON[14078]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:05:01 T6004 CRON[14078]: pam_unix(cron:session): session closed for user root
+Jul 27 21:10:01 T6004 CRON[14270]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:10:02 T6004 CRON[14270]: pam_unix(cron:session): session closed for user root
+Jul 27 21:15:01 T6004 CRON[14463]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:15:03 T6004 CRON[14463]: pam_unix(cron:session): session closed for user root
+Jul 27 21:17:01 T6004 CRON[14648]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:17:01 T6004 CRON[14648]: pam_unix(cron:session): session closed for user root
+Jul 27 21:20:01 T6004 CRON[14655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:20:01 T6004 CRON[14655]: pam_unix(cron:session): session closed for user root
+Jul 27 21:21:53 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 21:21:53 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 21:22:04 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 21:25:01 T6004 CRON[14884]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:25:02 T6004 CRON[14884]: pam_unix(cron:session): session closed for user root
+Jul 27 21:30:01 T6004 CRON[15072]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:30:03 T6004 CRON[15072]: pam_unix(cron:session): session closed for user root
+Jul 27 21:35:01 T6004 CRON[15262]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:35:01 T6004 CRON[15262]: pam_unix(cron:session): session closed for user root
+Jul 27 21:40:01 T6004 CRON[15457]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:40:03 T6004 CRON[15457]: pam_unix(cron:session): session closed for user root
+Jul 27 21:45:01 T6004 CRON[15645]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:45:02 T6004 CRON[15645]: pam_unix(cron:session): session closed for user root
+Jul 27 21:50:01 T6004 CRON[15838]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:50:02 T6004 CRON[15838]: pam_unix(cron:session): session closed for user root
+Jul 27 21:51:53 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 21:51:53 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 21:52:04 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 21:55:01 T6004 CRON[16069]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:55:02 T6004 CRON[16069]: pam_unix(cron:session): session closed for user root
+Jul 27 22:00:01 T6004 CRON[16261]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:00:02 T6004 CRON[16261]: pam_unix(cron:session): session closed for user root
+Jul 27 22:05:01 T6004 CRON[16455]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:05:02 T6004 CRON[16455]: pam_unix(cron:session): session closed for user root
+Jul 27 22:10:01 T6004 CRON[16646]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:10:02 T6004 CRON[16646]: pam_unix(cron:session): session closed for user root
+Jul 27 22:15:01 T6004 CRON[16834]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:15:01 T6004 CRON[16834]: pam_unix(cron:session): session closed for user root
+Jul 27 22:17:01 T6004 CRON[17021]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:17:01 T6004 CRON[17021]: pam_unix(cron:session): session closed for user root
+Jul 27 22:20:01 T6004 CRON[17029]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:20:03 T6004 CRON[17029]: pam_unix(cron:session): session closed for user root
+Jul 27 22:21:54 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 22:21:54 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 22:22:05 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 22:25:01 T6004 CRON[17260]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:25:01 T6004 CRON[17260]: pam_unix(cron:session): session closed for user root
+Jul 27 22:30:01 T6004 CRON[17455]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:30:03 T6004 CRON[17455]: pam_unix(cron:session): session closed for user root
+Jul 27 22:35:01 T6004 CRON[17642]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:35:02 T6004 CRON[17642]: pam_unix(cron:session): session closed for user root
+Jul 27 22:40:01 T6004 CRON[17833]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:40:02 T6004 CRON[17833]: pam_unix(cron:session): session closed for user root
+Jul 27 22:45:01 T6004 CRON[18020]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:45:03 T6004 CRON[18020]: pam_unix(cron:session): session closed for user root
+Jul 27 22:50:01 T6004 CRON[18227]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:50:02 T6004 CRON[18227]: pam_unix(cron:session): session closed for user root
+Jul 27 22:51:54 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 22:51:54 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 22:52:26 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 22:55:01 T6004 CRON[18458]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:55:02 T6004 CRON[18458]: pam_unix(cron:session): session closed for user root
+Jul 27 23:00:01 T6004 CRON[18649]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:00:02 T6004 CRON[18649]: pam_unix(cron:session): session closed for user root
+Jul 27 23:05:01 T6004 CRON[18840]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:05:01 T6004 CRON[18840]: pam_unix(cron:session): session closed for user root
+Jul 27 23:10:01 T6004 CRON[19029]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:10:03 T6004 CRON[19029]: pam_unix(cron:session): session closed for user root
+Jul 27 23:15:01 T6004 CRON[19218]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:15:02 T6004 CRON[19218]: pam_unix(cron:session): session closed for user root
+Jul 27 23:17:01 T6004 CRON[19407]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:17:01 T6004 CRON[19407]: pam_unix(cron:session): session closed for user root
+Jul 27 23:20:01 T6004 CRON[19423]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:20:02 T6004 CRON[19423]: pam_unix(cron:session): session closed for user root
+Jul 27 23:21:54 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 23:21:54 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 23:22:06 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 23:25:01 T6004 CRON[19661]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:25:02 T6004 CRON[19661]: pam_unix(cron:session): session closed for user root
+Jul 27 23:30:01 T6004 CRON[19851]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:30:02 T6004 CRON[19851]: pam_unix(cron:session): session closed for user root
+Jul 27 23:35:01 T6004 CRON[20038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:35:03 T6004 CRON[20038]: pam_unix(cron:session): session closed for user root
+Jul 27 23:40:01 T6004 CRON[20230]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:40:02 T6004 CRON[20230]: pam_unix(cron:session): session closed for user root
+Jul 27 23:45:01 T6004 CRON[20425]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:45:02 T6004 CRON[20425]: pam_unix(cron:session): session closed for user root
+Jul 27 23:50:01 T6004 CRON[20615]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:50:02 T6004 CRON[20615]: pam_unix(cron:session): session closed for user root
+Jul 27 23:51:54 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 23:51:54 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 23:52:18 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 23:55:01 T6004 CRON[20847]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:55:02 T6004 CRON[20847]: pam_unix(cron:session): session closed for user root
+Jul 28 00:00:01 T6004 CRON[21038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:00:02 T6004 CRON[21038]: pam_unix(cron:session): session closed for user root
+Jul 28 00:05:01 T6004 CRON[21227]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:05:02 T6004 CRON[21227]: pam_unix(cron:session): session closed for user root
+Jul 28 00:10:01 T6004 CRON[21423]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:10:02 T6004 CRON[21423]: pam_unix(cron:session): session closed for user root
+Jul 28 00:15:01 T6004 CRON[21612]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:15:02 T6004 CRON[21612]: pam_unix(cron:session): session closed for user root
+Jul 28 00:17:01 T6004 CRON[21797]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:17:01 T6004 CRON[21797]: pam_unix(cron:session): session closed for user root
+Jul 28 00:20:01 T6004 CRON[21807]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:20:02 T6004 CRON[21807]: pam_unix(cron:session): session closed for user root
+Jul 28 00:21:54 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 28 00:21:54 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 28 00:22:05 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 28 00:25:01 T6004 CRON[22038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:25:03 T6004 CRON[22038]: pam_unix(cron:session): session closed for user root
+Jul 28 00:30:01 T6004 CRON[22227]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:30:02 T6004 CRON[22227]: pam_unix(cron:session): session closed for user root
+Jul 28 00:35:01 T6004 CRON[22422]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:35:02 T6004 CRON[22422]: pam_unix(cron:session): session closed for user root
+Jul 28 00:40:01 T6004 CRON[22613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:40:02 T6004 CRON[22613]: pam_unix(cron:session): session closed for user root
+Jul 28 00:45:01 T6004 CRON[22804]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:45:03 T6004 CRON[22804]: pam_unix(cron:session): session closed for user root
+Jul 28 00:50:01 T6004 CRON[23006]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:50:02 T6004 CRON[23006]: pam_unix(cron:session): session closed for user root
+Jul 28 00:51:54 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 28 00:51:54 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 28 00:52:20 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 28 00:55:01 T6004 CRON[23234]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:55:02 T6004 CRON[23234]: pam_unix(cron:session): session closed for user root
+Jul 28 01:00:01 T6004 CRON[23424]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:00:02 T6004 CRON[23424]: pam_unix(cron:session): session closed for user root
+Jul 28 01:05:01 T6004 CRON[23619]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:05:02 T6004 CRON[23619]: pam_unix(cron:session): session closed for user root
+Jul 28 01:10:01 T6004 CRON[23808]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:10:02 T6004 CRON[23808]: pam_unix(cron:session): session closed for user root
+Jul 28 01:15:01 T6004 CRON[23999]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:15:02 T6004 CRON[23999]: pam_unix(cron:session): session closed for user root
+Jul 28 01:17:01 T6004 CRON[24190]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:17:01 T6004 CRON[24190]: pam_unix(cron:session): session closed for user root
+Jul 28 01:20:01 T6004 CRON[24198]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:20:02 T6004 CRON[24198]: pam_unix(cron:session): session closed for user root
+Jul 28 01:21:54 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 28 01:21:54 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 28 01:22:06 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 28 01:25:01 T6004 CRON[24431]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:25:03 T6004 CRON[24431]: pam_unix(cron:session): session closed for user root
+Jul 28 01:30:01 T6004 CRON[24622]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:30:02 T6004 CRON[24622]: pam_unix(cron:session): session closed for user root
+Jul 28 01:35:01 T6004 CRON[24811]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:35:02 T6004 CRON[24811]: pam_unix(cron:session): session closed for user root
+Jul 28 01:40:01 T6004 CRON[25002]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:40:02 T6004 CRON[25002]: pam_unix(cron:session): session closed for user root
+Jul 28 01:45:01 T6004 CRON[25198]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:45:02 T6004 CRON[25198]: pam_unix(cron:session): session closed for user root
+Jul 28 01:50:01 T6004 CRON[25387]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:50:02 T6004 CRON[25387]: pam_unix(cron:session): session closed for user root
+Jul 28 01:51:54 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 28 01:51:54 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 28 01:52:05 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 28 01:55:02 T6004 CRON[25621]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:55:02 T6004 CRON[25621]: pam_unix(cron:session): session closed for user root
+Jul 28 02:00:01 T6004 CRON[25810]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:00:03 T6004 CRON[25810]: pam_unix(cron:session): session closed for user root
+Jul 28 02:05:01 T6004 CRON[26000]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:05:02 T6004 CRON[26000]: pam_unix(cron:session): session closed for user root
+Jul 28 02:10:01 T6004 CRON[26192]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:10:02 T6004 CRON[26192]: pam_unix(cron:session): session closed for user root
+Jul 28 02:15:01 T6004 CRON[26380]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:15:02 T6004 CRON[26380]: pam_unix(cron:session): session closed for user root
+Jul 28 02:17:01 T6004 CRON[26575]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:17:01 T6004 CRON[26575]: pam_unix(cron:session): session closed for user root
+Jul 28 02:20:01 T6004 CRON[26583]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:20:02 T6004 CRON[26583]: pam_unix(cron:session): session closed for user root
+Jul 28 02:21:54 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 28 02:21:54 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 28 02:22:05 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 28 02:25:01 T6004 CRON[26815]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:25:02 T6004 CRON[26815]: pam_unix(cron:session): session closed for user root
+Jul 28 02:30:01 T6004 CRON[27004]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:30:02 T6004 CRON[27004]: pam_unix(cron:session): session closed for user root
+Jul 28 02:35:01 T6004 CRON[27195]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:35:03 T6004 CRON[27195]: pam_unix(cron:session): session closed for user root
+Jul 28 02:40:01 T6004 CRON[27383]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:40:02 T6004 CRON[27383]: pam_unix(cron:session): session closed for user root
+Jul 28 02:45:01 T6004 CRON[27577]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:45:02 T6004 CRON[27577]: pam_unix(cron:session): session closed for user root
+Jul 28 02:50:01 T6004 CRON[27777]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:50:03 T6004 CRON[27777]: pam_unix(cron:session): session closed for user root
+Jul 28 02:51:54 T6004 sudo: aetna-training : TTY=unknown ; PWD=/home/aetna-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 28 02:51:54 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 28 02:52:05 T6004 sudo: pam_unix(sudo:session): session closed for user root
+Jul 28 02:55:01 T6004 CRON[28007]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:55:02 T6004 CRON[28007]: pam_unix(cron:session): session closed for user root
+Jul 28 03:00:01 T6004 CRON[28196]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 03:00:01 T6004 CRON[28197]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 03:00:03 T6004 CRON[28197]: pam_unix(cron:session): session closed for user root
+Jul 28 03:00:04 T6004 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jul 28 03:00:04 T6004 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 28 03:00:04 T6004 sudo: pam_unix(sudo:session): session closed for user root

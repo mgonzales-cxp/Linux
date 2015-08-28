@@ -1,0 +1,200 @@
+Apr 20 14:07:43 Cdelltesthq su[3872]: Successful su for root by tech
+Apr 20 14:07:43 Cdelltesthq su[3872]: + /dev/pts/0 tech:root
+Apr 20 14:07:43 Cdelltesthq su[3872]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 20 14:07:54 Cdelltesthq sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback
+Apr 20 14:07:54 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 14:07:54 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 14:08:27 Cdelltesthq sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback#012#011#011#011iface eth0 inet static#012#011#011#011#011#011address 192.168.1.155#012#011#011#011#011#011netmask 255.255.252.0#012#011#011#011#011#011gateway 192.168.106.2
+Apr 20 14:08:27 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 14:08:27 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 14:12:30 Cdelltesthq sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/reboot
+Apr 20 14:12:30 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 14:12:30 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 15:46:03 Cdelltesthq sshd[1551]: Server listening on 0.0.0.0 port 22.
+Apr 20 15:46:03 Cdelltesthq sshd[1551]: Server listening on :: port 22.
+Apr 20 15:46:03 Cdelltesthq CRON[1618]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 20 15:46:04 Cdelltesthq mdm[1882]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 20 15:46:04 Cdelltesthq mdm[1882]: PAM adding faulty module: pam_kwallet.so
+Apr 20 15:46:04 Cdelltesthq CRON[1618]: pam_unix(cron:session): session closed for user root
+Apr 20 15:46:06 Cdelltesthq mdm[1882]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 20 15:46:08 Cdelltesthq mdm[1882]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 20 15:46:08 Cdelltesthq mdm[1882]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 20 15:46:11 Cdelltesthq polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 20 15:47:07 Cdelltesthq sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/gedit /etc/network/interfaces
+Apr 20 15:47:07 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 15:47:33 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 15:48:08 Cdelltesthq dbus[636]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.9" (uid=0 pid=959 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=853 comm="NetworkManager ")
+Apr 20 15:48:08 Cdelltesthq gnome-keyring-daemon[2050]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Apr 20 15:48:08 Cdelltesthq gnome-keyring-daemon[2050]: keyring alias directory: /home/tech/.local/share/keyrings
+Apr 20 15:48:43 Cdelltesthq su[3183]: Successful su for root by tech
+Apr 20 15:48:43 Cdelltesthq su[3183]: + /dev/pts/0 tech:root
+Apr 20 15:48:43 Cdelltesthq su[3183]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 20 15:48:56 Cdelltesthq sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback#012#011#011#011iface eth0 inet static#012#011#011#011#011#011address 192.168.1.177#012#011#011#011#011#011netmask 255.255.255.0#012#011#011#011#011#011gateway 192.168.1.1
+Apr 20 15:48:56 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 15:48:56 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 15:49:05 Cdelltesthq sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/reboot
+Apr 20 15:49:05 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 15:49:05 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 16:02:40 Cdelltesthq sshd[1557]: Server listening on 0.0.0.0 port 22.
+Apr 20 16:02:40 Cdelltesthq sshd[1557]: Server listening on :: port 22.
+Apr 20 16:02:40 Cdelltesthq CRON[1603]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 20 16:02:41 Cdelltesthq mdm[1830]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 20 16:02:41 Cdelltesthq mdm[1830]: PAM adding faulty module: pam_kwallet.so
+Apr 20 16:02:41 Cdelltesthq CRON[1603]: pam_unix(cron:session): session closed for user root
+Apr 20 16:02:46 Cdelltesthq mdm[1830]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 20 16:02:48 Cdelltesthq mdm[1830]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 20 16:02:48 Cdelltesthq mdm[1830]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 20 16:02:50 Cdelltesthq polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 20 16:02:56 Cdelltesthq su[2978]: Successful su for root by tech
+Apr 20 16:02:56 Cdelltesthq su[2978]: + /dev/pts/0 tech:root
+Apr 20 16:02:56 Cdelltesthq su[2978]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 20 16:03:26 Cdelltesthq sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback#012#011#011#011iface eth0 inet static#012#011#011#011#011#011address 192.168.1.177#012#011#011#011#011#011netmask 255.255.255.0#012#011#011#011#011#011gateway 192.168.1.1#012#011#011#011#011#011broadcast 192.168.1.255#012#011#011#011#011#011dns-nameservers 192.168.128.239 8.8.8.8
+Apr 20 16:03:26 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 16:03:26 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 16:03:26 Cdelltesthq dbus[668]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.9" (uid=0 pid=964 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=858 comm="NetworkManager ")
+Apr 20 16:04:05 Cdelltesthq sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback#012#011#011#011iface eth0 inet static#012#011#011#011#011#011address 192.168.1.164#012#011#011#011#011#011netmask 255.255.255.0#012#011#011#011#011#011gateway 192.168.1.1#012#011#011#011#011#011broadcast 192.168.1.255#012#011#011#011#011#011dns-nameservers 192.168.128.239 8.8.8.8
+Apr 20 16:04:05 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 16:04:05 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 16:04:41 Cdelltesthq sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback
+Apr 20 16:04:41 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 16:04:41 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 16:06:03 Cdelltesthq sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback#012#011#011#011iface eth0 inet static#012#011#011#011#011#011address 192.168.1.164#012#011#011#011#011#011netmask 255.255.255.0#012#011#011#011#011#011gateway 192.168.1.1#012#011#011#011#011#011broadcast 192.168.1.255#012#011#011#011#011#011dns-nameservers 192.168.128.239 8.8.8.8
+Apr 20 16:06:03 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 16:06:03 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 16:06:46 Cdelltesthq su[4617]: Successful su for root by tech
+Apr 20 16:06:46 Cdelltesthq su[4617]: + /dev/pts/2 tech:root
+Apr 20 16:06:46 Cdelltesthq su[4617]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 20 16:07:20 Cdelltesthq su[2978]: pam_unix(su:session): session closed for user root
+Apr 20 16:07:39 Cdelltesthq sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback#012#011#011#011iface eth0 inet static#012#011#011#011#011#011address 192.168.1.177#012#011#011#011#011#011netmask 255.255.255.0#012#011#011#011#011#011gateway 192.168.1.1#012#011#011#011#011#011broadcast 192.168.1.255#012#011#011#011#011#011dns-nameservers 192.168.128.239 8.8.8.8
+Apr 20 16:07:39 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 16:07:39 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 16:09:16 Cdelltesthq su[5097]: Successful su for root by tech
+Apr 20 16:09:16 Cdelltesthq su[5097]: + /dev/pts/1 tech:root
+Apr 20 16:09:16 Cdelltesthq su[5097]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 20 16:09:36 Cdelltesthq su[4617]: pam_unix(su:session): session closed for user root
+Apr 20 16:09:53 Cdelltesthq sudo:     root : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback
+Apr 20 16:09:53 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 16:09:53 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 16:13:12 Cdelltesthq sudo:     root : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback#012#011#011#011iface eth0 inet static#012#011#011#011#011#011address 192.168.1.164#012#011#011#011#011#011netmask 255.255.255.0#012#011#011#011#011#011gateway 192.168.1.1#012#011#011#011#011#011broadcast 192.168.1.255#012#011#011#011#011#011dns-nameservers 192.168.128.239 8.8.8.8
+Apr 20 16:13:12 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 16:13:12 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 16:14:15 Cdelltesthq sudo:     root : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback#012#011#011#011iface eth0 inet static#012#011#011#011#011#011address 192.168.1.164#012#011#011#011#011#011netmask 255.255.255.0#012#011#011#011#011#011gateway 192.168.1.1#012#011#011#011#011#011broadcast 192.168.1.255#012#011#011#011#011#011dns-nameservers 192.168.128.239 8.8.8.8
+Apr 20 16:14:15 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 16:14:15 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 16:15:00 Cdelltesthq sudo:     root : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback
+Apr 20 16:15:00 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 16:15:00 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 16:15:05 Cdelltesthq dbus[668]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.94" (uid=0 pid=6317 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.90" (uid=0 pid=6116 comm="NetworkManager ")
+Apr 20 16:15:59 Cdelltesthq sudo:     root : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback#012#011#011#011iface eth0 inet static#012#011#011#011#011#011address 192.168.1.164#012#011#011#011#011#011netmask 255.255.255.0#012#011#011#011#011#011gateway 192.168.1.1#012#011#011#011#011#011broadcast 192.168.1.255#012#011#011#011#011#011dns-nameservers 192.168.128.239 8.8.8.8
+Apr 20 16:15:59 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 16:15:59 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 16:16:00 Cdelltesthq dbus[668]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.94" (uid=0 pid=6317 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.90" (uid=0 pid=6116 comm="NetworkManager ")
+Apr 20 16:16:44 Cdelltesthq su[7056]: Successful su for root by tech
+Apr 20 16:16:44 Cdelltesthq su[7056]: + /dev/pts/2 tech:root
+Apr 20 16:16:44 Cdelltesthq su[7056]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr 20 16:17:01 Cdelltesthq CRON[7075]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 20 16:17:01 Cdelltesthq CRON[7075]: pam_unix(cron:session): session closed for user root
+Apr 20 16:17:08 Cdelltesthq sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback
+Apr 20 16:17:08 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 16:17:08 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 16:17:14 Cdelltesthq dbus[668]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.112" (uid=0 pid=7350 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.108" (uid=0 pid=7149 comm="NetworkManager ")
+Apr 20 16:17:38 Cdelltesthq sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback#012#011#011#011iface eth0 inet static#012#011#011#011#011#011address 192.168.1.164#012#011#011#011#011#011netmask 255.255.255.0#012#011#011#011#011#011gateway 192.168.1.1#012#011#011#011#011#011broadcast 192.168.1.255#012#011#011#011#011#011dns-nameservers 192.168.128.239 8.8.8.8
+Apr 20 16:17:38 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 16:17:38 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 16:17:38 Cdelltesthq dbus[668]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.112" (uid=0 pid=7350 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.108" (uid=0 pid=7149 comm="NetworkManager ")
+Apr 20 16:18:59 Cdelltesthq sudo:     root : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback
+Apr 20 16:18:59 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr 20 16:18:59 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 16:19:04 Cdelltesthq dbus[668]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.128" (uid=0 pid=8324 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.124" (uid=0 pid=8123 comm="NetworkManager ")
+Apr 20 16:27:33 Cdelltesthq su[7056]: pam_unix(su:session): session closed for user root
+Apr 20 16:27:33 Cdelltesthq sudo:     root : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#011#011#011auto lo#012#011#011#011iface lo inet loopback
+Apr 20 16:27:33 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 20 16:27:33 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 20 22:30:31 Cdelltesthq sshd[1538]: Server listening on 0.0.0.0 port 22.
+Apr 20 22:30:31 Cdelltesthq sshd[1538]: Server listening on :: port 22.
+Apr 20 22:30:31 Cdelltesthq CRON[1558]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 20 22:30:32 Cdelltesthq mdm[1842]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 20 22:30:32 Cdelltesthq mdm[1842]: PAM adding faulty module: pam_kwallet.so
+Apr 20 22:30:32 Cdelltesthq CRON[1558]: pam_unix(cron:session): session closed for user root
+Apr 20 23:17:02 Cdelltesthq CRON[2082]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 20 23:17:02 Cdelltesthq CRON[2082]: pam_unix(cron:session): session closed for user root
+Apr 21 00:17:01 Cdelltesthq CRON[2167]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 00:17:01 Cdelltesthq CRON[2167]: pam_unix(cron:session): session closed for user root
+Apr 21 01:17:01 Cdelltesthq CRON[2250]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 01:17:01 Cdelltesthq CRON[2250]: pam_unix(cron:session): session closed for user root
+Apr 21 02:17:01 Cdelltesthq CRON[2337]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 02:17:01 Cdelltesthq CRON[2337]: pam_unix(cron:session): session closed for user root
+Apr 21 03:00:01 Cdelltesthq CRON[2393]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 03:12:27 Cdelltesthq sshd[1532]: Server listening on 0.0.0.0 port 22.
+Apr 21 03:12:27 Cdelltesthq sshd[1532]: Server listening on :: port 22.
+Apr 21 03:12:28 Cdelltesthq CRON[1554]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 03:12:29 Cdelltesthq mdm[1743]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 21 03:12:29 Cdelltesthq mdm[1743]: PAM adding faulty module: pam_kwallet.so
+Apr 21 03:12:29 Cdelltesthq CRON[1554]: pam_unix(cron:session): session closed for user root
+Apr 21 03:17:01 Cdelltesthq CRON[2025]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 03:17:01 Cdelltesthq CRON[2025]: pam_unix(cron:session): session closed for user root
+Apr 21 03:17:28 Cdelltesthq su[2173]: Successful su for nobody by root
+Apr 21 03:17:28 Cdelltesthq su[2173]: + ??? root:nobody
+Apr 21 03:17:28 Cdelltesthq su[2173]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr 21 03:17:28 Cdelltesthq su[2173]: pam_unix(su:session): session closed for user nobody
+Apr 21 03:17:28 Cdelltesthq su[2247]: Successful su for nobody by root
+Apr 21 03:17:28 Cdelltesthq su[2247]: + ??? root:nobody
+Apr 21 03:17:28 Cdelltesthq su[2247]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr 21 03:17:28 Cdelltesthq su[2247]: pam_unix(su:session): session closed for user nobody
+Apr 21 03:17:28 Cdelltesthq su[2262]: Successful su for nobody by root
+Apr 21 03:17:28 Cdelltesthq su[2262]: + ??? root:nobody
+Apr 21 03:17:28 Cdelltesthq su[2262]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr 21 03:17:37 Cdelltesthq su[2262]: pam_unix(su:session): session closed for user nobody
+Apr 21 04:17:01 Cdelltesthq CRON[2418]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 04:17:01 Cdelltesthq CRON[2418]: pam_unix(cron:session): session closed for user root
+Apr 21 05:17:01 Cdelltesthq CRON[2506]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 05:17:01 Cdelltesthq CRON[2506]: pam_unix(cron:session): session closed for user root
+Apr 21 06:17:01 Cdelltesthq CRON[2590]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 06:17:01 Cdelltesthq CRON[2590]: pam_unix(cron:session): session closed for user root
+Apr 21 06:25:01 Cdelltesthq CRON[2601]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 06:25:01 Cdelltesthq CRON[2601]: pam_unix(cron:session): session closed for user root
+Apr 21 07:17:01 Cdelltesthq CRON[2672]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 07:17:01 Cdelltesthq CRON[2672]: pam_unix(cron:session): session closed for user root
+Apr 21 07:30:01 Cdelltesthq CRON[2701]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 07:30:01 Cdelltesthq CRON[2701]: pam_unix(cron:session): session closed for user root
+Apr 21 08:17:01 Cdelltesthq CRON[2772]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 08:17:01 Cdelltesthq CRON[2772]: pam_unix(cron:session): session closed for user root
+Apr 21 09:17:01 Cdelltesthq CRON[2856]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 09:17:01 Cdelltesthq CRON[2856]: pam_unix(cron:session): session closed for user root
+Apr 21 09:45:21 Cdelltesthq mdm[1743]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr 21 09:45:23 Cdelltesthq mdm[1743]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr 21 09:45:23 Cdelltesthq mdm[1743]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr 21 09:45:26 Cdelltesthq polkitd(authority=local): Registered Authentication Agent for unix-session:c4 (system bus name :1.72 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 21 10:15:27 Cdelltesthq sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 21 10:15:27 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 21 10:15:41 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 10:17:01 Cdelltesthq CRON[4290]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 10:17:01 Cdelltesthq CRON[4290]: pam_unix(cron:session): session closed for user root
+Apr 21 10:37:38 Cdelltesthq xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr 21 10:45:27 Cdelltesthq sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 21 10:45:27 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 21 10:45:39 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+Apr 21 10:46:38 Cdelltesthq sshd[1553]: Server listening on 0.0.0.0 port 22.
+Apr 21 10:46:38 Cdelltesthq sshd[1553]: Server listening on :: port 22.
+Apr 21 10:46:38 Cdelltesthq CRON[1575]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 21 10:46:39 Cdelltesthq mdm[1814]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr 21 10:46:39 Cdelltesthq mdm[1814]: PAM adding faulty module: pam_kwallet.so
+Apr 21 10:46:39 Cdelltesthq CRON[1575]: pam_unix(cron:session): session closed for user root
+May 13 11:05:40 Cdelltesthq sshd[1564]: Server listening on 0.0.0.0 port 22.
+May 13 11:05:40 Cdelltesthq sshd[1564]: Server listening on :: port 22.
+May 13 11:05:40 Cdelltesthq CRON[1629]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 13 11:05:41 Cdelltesthq mdm[1916]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May 13 11:05:41 Cdelltesthq mdm[1916]: PAM adding faulty module: pam_kwallet.so
+May 13 11:05:41 Cdelltesthq CRON[1629]: pam_unix(cron:session): session closed for user root
+May 13 11:06:31 Cdelltesthq mdm[1916]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May 13 11:06:33 Cdelltesthq mdm[1916]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May 13 11:06:33 Cdelltesthq mdm[1916]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May 13 11:06:37 Cdelltesthq polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.32 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 13 11:08:30 Cdelltesthq su[3065]: Successful su for root by tech
+May 13 11:08:30 Cdelltesthq su[3065]: + /dev/pts/0 tech:root
+May 13 11:08:30 Cdelltesthq su[3065]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May 13 11:08:41 Cdelltesthq sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_off.sh - Linux Config Menu
+May 13 11:08:41 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 13 11:08:41 Cdelltesthq sudo: pam_unix(sudo:session): session closed for user root
+May 13 11:08:42 Cdelltesthq sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_on.sh - Linux Config Menu
+May 13 11:08:42 Cdelltesthq sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)

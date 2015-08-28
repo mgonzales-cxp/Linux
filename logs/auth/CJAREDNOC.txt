@@ -1,0 +1,245 @@
+May 27 11:12:34 CJAREDNOC sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/vim /etc/hosts
+May 27 11:12:34 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 11:17:01 CJAREDNOC CRON[3321]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 11:17:01 CJAREDNOC CRON[3321]: pam_unix(cron:session): session closed for user root
+May 27 11:39:13 CJAREDNOC sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 11:39:13 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 11:39:28 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 12:09:13 CJAREDNOC sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 12:09:13 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 12:09:31 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 12:17:01 CJAREDNOC CRON[3523]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 12:17:01 CJAREDNOC CRON[3523]: pam_unix(cron:session): session closed for user root
+May 27 12:37:49 CJAREDNOC xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 27 12:37:54 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 12:37:59 CJAREDNOC sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/su
+May 27 12:37:59 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 12:37:59 CJAREDNOC su[3565]: Successful su for root by root
+May 27 12:37:59 CJAREDNOC su[3565]: + /dev/pts/0 root:root
+May 27 12:37:59 CJAREDNOC su[3565]: pam_unix(su:session): session opened for user root by tech(uid=0)
+May 27 12:39:13 CJAREDNOC sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 12:39:13 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 12:39:30 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 12:40:05 CJAREDNOC su[3565]: pam_unix(su:session): session closed for user root
+May 27 12:40:05 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 12:40:10 CJAREDNOC sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/bash
+May 27 12:40:10 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 12:41:49 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/vim /etc/ldap/ldap.conf
+May 27 12:41:49 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 12:41:59 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 12:53:56 CJAREDNOC xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 27 13:05:07 CJAREDNOC xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+May 27 13:05:07 CJAREDNOC xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+May 27 13:05:07 CJAREDNOC xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+May 27 13:05:07 CJAREDNOC xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+May 27 13:06:22 CJAREDNOC xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 27 13:09:13 CJAREDNOC sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 13:09:13 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 13:09:29 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 13:17:01 CJAREDNOC CRON[3842]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 13:17:01 CJAREDNOC CRON[3842]: pam_unix(cron:session): session closed for user root
+May 27 13:39:13 CJAREDNOC sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 13:39:13 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 13:39:30 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 14:09:14 CJAREDNOC sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 14:09:14 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 14:09:48 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 14:17:01 CJAREDNOC CRON[4019]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 14:17:01 CJAREDNOC CRON[4019]: pam_unix(cron:session): session closed for user root
+May 27 14:39:14 CJAREDNOC sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 14:39:14 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 14:39:35 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 15:09:14 CJAREDNOC sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 15:09:14 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 15:09:30 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 15:17:01 CJAREDNOC CRON[4193]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 15:17:01 CJAREDNOC CRON[4193]: pam_unix(cron:session): session closed for user root
+May 27 15:39:14 CJAREDNOC sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 15:39:14 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 15:40:01 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 15:43:47 CJAREDNOC xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+May 27 15:52:54 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/vim /etc/ldap/ldap.conf
+May 27 15:52:54 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 15:53:03 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 15:56:42 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/vim /etc/ldap/ldap.conf
+May 27 15:56:42 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 15:57:00 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 15:58:00 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/vim /etc/ldap/ldap.conf
+May 27 15:58:00 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 16:03:19 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 16:09:14 CJAREDNOC sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 16:09:14 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 16:09:30 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 16:17:01 CJAREDNOC CRON[4388]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 16:17:01 CJAREDNOC CRON[4388]: pam_unix(cron:session): session closed for user root
+May 27 16:18:22 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/vim /etc/ldap/ldap.conf
+May 27 16:18:22 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 16:18:26 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 16:19:13 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/vim /etc/sssd/sssd.conf
+May 27 16:19:13 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 16:19:59 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 16:20:15 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/vim /etc/sssd/sssd.conf
+May 27 16:20:15 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 16:20:25 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 16:23:56 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/vim /etc/sssd/sssd.conf
+May 27 16:23:56 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 16:24:10 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 16:24:18 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/vim /etc/sssd/sssd.conf
+May 27 16:24:18 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 16:24:31 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 16:29:28 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/vim /etc/krb5.conf
+May 27 16:29:28 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 16:30:32 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 16:33:13 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/vim /etc/krb5.conf
+May 27 16:33:13 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 16:33:31 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 16:34:41 CJAREDNOC sshd[1438]: Server listening on 0.0.0.0 port 22.
+May 27 16:34:41 CJAREDNOC sshd[1438]: Server listening on :: port 22.
+May 27 16:34:42 CJAREDNOC CRON[1515]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 16:34:46 CJAREDNOC CRON[1515]: pam_unix(cron:session): session closed for user root
+May 27 16:34:48 CJAREDNOC mdm[1685]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May 27 16:34:48 CJAREDNOC mdm[1685]: PAM adding faulty module: pam_kwallet.so
+May 27 16:34:52 CJAREDNOC mdm[1685]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ceasterday"
+May 27 16:34:58 CJAREDNOC mdm[1685]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=ceasterday
+May 27 16:35:03 CJAREDNOC mdm[1685]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=ceasterday
+May 27 16:35:03 CJAREDNOC mdm[1685]: pam_unix(mdm:session): session opened for user ceasterday by (uid=0)
+May 27 16:35:03 CJAREDNOC mdm[1685]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May 27 16:35:18 CJAREDNOC polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 27 17:00:24 CJAREDNOC mdm[1685]: pam_unix(mdm:session): session closed for user ceasterday
+May 27 17:00:25 CJAREDNOC polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May 27 17:00:28 CJAREDNOC mdm[2946]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May 27 17:00:28 CJAREDNOC mdm[2946]: PAM adding faulty module: pam_kwallet.so
+May 27 17:00:38 CJAREDNOC mdm[2946]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ceasterday"
+May 27 17:00:42 CJAREDNOC mdm[2946]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=ceasterday
+May 27 17:00:43 CJAREDNOC mdm[2946]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=ceasterday
+May 27 17:00:43 CJAREDNOC mdm[2946]: pam_unix(mdm:session): session opened for user ceasterday by (uid=0)
+May 27 17:00:43 CJAREDNOC mdm[2946]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May 27 17:00:47 CJAREDNOC polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.59 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 27 17:01:06 CJAREDNOC mdm[2946]: pam_unix(mdm:session): session closed for user ceasterday
+May 27 17:01:07 CJAREDNOC polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.59, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May 27 17:01:10 CJAREDNOC mdm[3565]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May 27 17:01:10 CJAREDNOC mdm[3565]: PAM adding faulty module: pam_kwallet.so
+May 27 17:01:39 CJAREDNOC mdm[3565]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ceasterday"
+May 27 17:01:44 CJAREDNOC mdm[3565]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=ceasterday
+May 27 17:01:45 CJAREDNOC mdm[3565]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=ceasterday
+May 27 17:01:45 CJAREDNOC mdm[3565]: pam_unix(mdm:session): session opened for user ceasterday by (uid=0)
+May 27 17:01:45 CJAREDNOC mdm[3565]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May 27 17:01:50 CJAREDNOC polkitd(authority=local): Registered Authentication Agent for unix-session:c3 (system bus name :1.83 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 27 17:03:12 CJAREDNOC sudo: pam_unix(sudo:auth): conversation failed
+May 27 17:03:12 CJAREDNOC sudo: pam_unix(sudo:auth): auth could not identify password for [ceasterday]
+May 27 17:03:12 CJAREDNOC sudo: pam_sss(sudo:auth): authentication failure; logname=ceasterday uid=2017 euid=0 tty=/dev/pts/0 ruser=ceasterday rhost= user=ceasterday
+May 27 17:03:12 CJAREDNOC sudo: pam_sss(sudo:auth): received for user ceasterday: 7 (Authentication failure)
+May 27 17:03:12 CJAREDNOC sudo: ceasterday : command not allowed ; TTY=pts/0 ; PWD=/home/ceasterday ; USER=root ; COMMAND=/bin/bash
+May 27 17:03:21 CJAREDNOC su[4155]: Successful su for tech by ceasterday
+May 27 17:03:21 CJAREDNOC su[4155]: + /dev/pts/0 ceasterday:tech
+May 27 17:03:21 CJAREDNOC su[4155]: pam_unix(su:session): session opened for user tech by ceasterday(uid=2017)
+May 27 17:03:28 CJAREDNOC sudo:     tech : TTY=pts/0 ; PWD=/home/ceasterday ; USER=root ; COMMAND=/bin/bash
+May 27 17:03:28 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by ceasterday(uid=0)
+May 27 17:07:50 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/bin/vim /etc/krb5.conf
+May 27 17:07:50 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by ceasterday(uid=0)
+May 27 17:10:01 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 17:10:10 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/bin/vim /etc/resolv.conf
+May 27 17:10:10 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by ceasterday(uid=0)
+May 27 17:10:14 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 17:10:32 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/bin/vim /etc/resolvconf/resolv.conf.d/head
+May 27 17:10:32 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by ceasterday(uid=0)
+May 27 17:17:01 CJAREDNOC CRON[4335]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 17:17:01 CJAREDNOC CRON[4335]: pam_unix(cron:session): session closed for user root
+May 27 17:19:13 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 17:19:30 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/bin/vim /etc/resolvconf/resolv.conf.d/head
+May 27 17:19:30 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by ceasterday(uid=0)
+May 27 17:19:34 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 17:22:20 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/bin/vim /etc/resolvconf/resolv.conf.d/head
+May 27 17:22:20 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by ceasterday(uid=0)
+May 27 17:22:22 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 17:23:40 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/bin/vim /etc/resolvconf/resolv.conf.d/head
+May 27 17:23:40 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by ceasterday(uid=0)
+May 27 17:23:47 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 17:24:42 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/bin/vim /etc/resolvconf/resolv.conf.d/head
+May 27 17:24:42 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by ceasterday(uid=0)
+May 27 17:24:46 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 17:25:13 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/bin/vim /etc/resolvconf/resolv.conf.d/head
+May 27 17:25:13 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by ceasterday(uid=0)
+May 27 17:26:26 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 17:31:37 CJAREDNOC sudo:     root : TTY=pts/0 ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/bin/vim /etc/resolvconf/resolv.conf.d/head
+May 27 17:31:37 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by ceasterday(uid=0)
+May 27 17:31:43 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 17:31:51 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 17:31:51 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 17:32:07 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 18:01:51 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 18:01:51 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 18:02:07 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 18:17:01 CJAREDNOC CRON[4721]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 18:17:01 CJAREDNOC CRON[4721]: pam_unix(cron:session): session closed for user root
+May 27 18:31:51 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 18:31:51 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 18:32:07 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 19:01:52 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 19:01:52 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 19:02:07 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 19:17:01 CJAREDNOC CRON[4920]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 19:17:01 CJAREDNOC CRON[4920]: pam_unix(cron:session): session closed for user root
+May 27 19:31:52 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 19:31:52 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 19:32:07 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 20:01:52 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 20:01:52 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 20:02:07 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 20:17:01 CJAREDNOC CRON[5591]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 20:17:01 CJAREDNOC CRON[5591]: pam_unix(cron:session): session closed for user root
+May 27 20:31:52 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 20:31:52 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 20:32:08 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 21:01:52 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 21:01:52 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 21:02:08 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 21:17:01 CJAREDNOC CRON[5783]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 21:17:01 CJAREDNOC CRON[5783]: pam_unix(cron:session): session closed for user root
+May 27 21:31:52 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 21:31:52 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 21:32:08 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 22:01:52 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 22:01:52 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 22:02:09 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 22:17:01 CJAREDNOC CRON[5983]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 22:17:01 CJAREDNOC CRON[5983]: pam_unix(cron:session): session closed for user root
+May 27 22:31:52 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 22:31:52 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 22:32:09 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 23:01:52 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 23:01:52 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 23:02:08 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 27 23:17:01 CJAREDNOC CRON[6180]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 23:17:01 CJAREDNOC CRON[6180]: pam_unix(cron:session): session closed for user root
+May 27 23:31:52 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 23:31:52 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 23:32:08 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 28 00:01:53 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 28 00:01:53 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 28 00:02:08 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 28 00:17:01 CJAREDNOC CRON[6379]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 28 00:17:01 CJAREDNOC CRON[6379]: pam_unix(cron:session): session closed for user root
+May 28 00:31:53 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 28 00:31:53 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 28 00:32:08 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 28 01:01:53 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 28 01:01:53 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 28 01:02:08 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 28 01:17:01 CJAREDNOC CRON[6571]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 28 01:17:01 CJAREDNOC CRON[6571]: pam_unix(cron:session): session closed for user root
+May 28 01:31:53 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 28 01:31:53 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 28 01:32:10 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 28 02:01:53 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 28 02:01:53 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 28 02:02:08 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 28 02:17:01 CJAREDNOC CRON[6762]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 28 02:17:01 CJAREDNOC CRON[6762]: pam_unix(cron:session): session closed for user root
+May 28 02:31:53 CJAREDNOC sudo: ceasterday : TTY=unknown ; PWD=/home/ceasterday ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 28 02:31:53 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 28 02:32:09 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root
+May 28 03:00:01 CJAREDNOC CRON[6888]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 28 03:00:01 CJAREDNOC sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+May 28 03:00:01 CJAREDNOC sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 28 03:00:01 CJAREDNOC sudo: pam_unix(sudo:session): session closed for user root

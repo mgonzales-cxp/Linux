@@ -1,0 +1,6 @@
+http://askubuntu.com/questions/14077/how-can-i-change-the-default-audio-device-from-command-line
+
+pacmd set-default-sink alsa_output.usb-Plantronics_Plantronics_DA40-00-DA40.analog-mono
+pacmd set-default-source alsa_input.usb-Plantronics_Plantronics_DA40-00-DA40.analog-mono
+
+

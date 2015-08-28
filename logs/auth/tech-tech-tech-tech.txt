@@ -1,0 +1,787 @@
+Mar 19 16:58:00 tech-tech-tech-tech systemd-logind[641]: New seat seat0.
+Mar 19 16:58:09 tech-tech-tech-tech dbus[510]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1278 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=767 comm="NetworkManager ")
+Mar 19 16:58:21 tech-tech-tech-tech mdm[1252]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 16:58:21 tech-tech-tech-tech mdm[1252]: PAM adding faulty module: pam_kwallet.so
+Mar 19 16:58:54 tech-tech-tech-tech mdm[1252]: pam_unix(mdm:auth): check pass; user unknown
+Mar 19 16:58:54 tech-tech-tech-tech mdm[1252]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Mar 19 16:58:57 tech-tech-tech-tech mdm[1252]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 16:58:57 tech-tech-tech-tech mdm[1252]: PAM adding faulty module: pam_kwallet.so
+Mar 19 16:58:59 tech-tech-tech-tech mdm[1252]: pam_nologin(mdm:auth): cannot determine username
+Mar 19 16:58:59 tech-tech-tech-tech mdm[1252]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 16:58:59 tech-tech-tech-tech mdm[1252]: PAM adding faulty module: pam_kwallet.so
+Mar 19 16:58:59 tech-tech-tech-tech mdm[1252]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 19 16:59:01 tech-tech-tech-tech mdm[1252]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Mar 19 16:59:01 tech-tech-tech-tech systemd-logind[641]: New session c1 of user tech.
+Mar 19 16:59:01 tech-tech-tech-tech systemd-logind[641]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Mar 19 16:59:01 tech-tech-tech-tech mdm[1252]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Mar 19 16:59:05 tech-tech-tech-tech polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.23 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 19 17:02:07 tech-tech-tech-tech sudo: pam_unix(sudo:auth): authentication failure; logname=tech uid=1000 euid=0 tty=/dev/pts/1 ruser=tech rhost=  user=tech
+Mar 19 17:02:16 tech-tech-tech-tech sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/apt-get update
+Mar 19 17:02:16 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 19 17:02:31 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 17:02:37 tech-tech-tech-tech sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/apt-get install vim
+Mar 19 17:02:37 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 19 17:02:53 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 17:02:58 tech-tech-tech-tech sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/apt-get install ssh
+Mar 19 17:02:58 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 19 17:03:06 tech-tech-tech-tech useradd[3488]: new user: name=sshd, UID=115, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Mar 19 17:03:07 tech-tech-tech-tech usermod[3493]: change user 'sshd' password
+Mar 19 17:03:07 tech-tech-tech-tech chage[3498]: changed password expiry for sshd
+Mar 19 17:03:07 tech-tech-tech-tech sshd[3652]: Server listening on 0.0.0.0 port 22.
+Mar 19 17:03:07 tech-tech-tech-tech sshd[3652]: Server listening on :: port 22.
+Mar 19 17:03:07 tech-tech-tech-tech su[3659]: Successful su for nobody by root
+Mar 19 17:03:07 tech-tech-tech-tech su[3659]: + ??? root:nobody
+Mar 19 17:03:07 tech-tech-tech-tech su[3659]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Mar 19 17:03:07 tech-tech-tech-tech systemd-logind[641]: New session c2 of user nobody.
+Mar 19 17:03:07 tech-tech-tech-tech su[3659]: pam_unix(su:session): session closed for user nobody
+Mar 19 17:03:08 tech-tech-tech-tech su[3676]: Successful su for nobody by root
+Mar 19 17:03:08 tech-tech-tech-tech su[3676]: + ??? root:nobody
+Mar 19 17:03:08 tech-tech-tech-tech su[3676]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Mar 19 17:03:08 tech-tech-tech-tech systemd-logind[641]: Removed session c2.
+Mar 19 17:03:08 tech-tech-tech-tech systemd-logind[641]: New session c3 of user nobody.
+Mar 19 17:03:08 tech-tech-tech-tech su[3676]: pam_unix(su:session): session closed for user nobody
+Mar 19 17:03:08 tech-tech-tech-tech su[3701]: Successful su for nobody by root
+Mar 19 17:03:08 tech-tech-tech-tech su[3701]: + ??? root:nobody
+Mar 19 17:03:08 tech-tech-tech-tech su[3701]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Mar 19 17:03:08 tech-tech-tech-tech systemd-logind[641]: Removed session c3.
+Mar 19 17:03:08 tech-tech-tech-tech systemd-logind[641]: New session c4 of user nobody.
+Mar 19 17:03:10 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 17:03:16 tech-tech-tech-tech sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/vim uni.sh
+Mar 19 17:03:16 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 19 17:03:21 tech-tech-tech-tech su[3701]: pam_unix(su:session): session closed for user nobody
+Mar 19 17:04:50 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 17:04:55 tech-tech-tech-tech sudo:     tech : TTY=pts/1 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/bash
+Mar 19 17:04:55 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 19 17:17:01 tech-tech-tech-tech CRON[8989]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 19 17:17:01 tech-tech-tech-tech CRON[8989]: pam_unix(cron:session): session closed for user root
+Mar 19 17:29:07 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 19 17:29:07 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 19 17:29:21 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 17:35:12 tech-tech-tech-tech systemd-logind[642]: New seat seat0.
+Mar 19 17:35:15 tech-tech-tech-tech sshd[1062]: Server listening on 0.0.0.0 port 22.
+Mar 19 17:35:15 tech-tech-tech-tech sshd[1062]: Server listening on :: port 22.
+Mar 19 17:35:18 tech-tech-tech-tech dbus[561]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1315 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=807 comm="NetworkManager ")
+Mar 19 17:35:19 tech-tech-tech-tech mdm[1262]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:35:19 tech-tech-tech-tech mdm[1262]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:35:20 tech-tech-tech-tech mdm[1262]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 19 17:35:28 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:35:28 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): auth could not identify password for [tech]
+Mar 19 17:35:28 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech
+Mar 19 17:35:28 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Mar 19 17:35:28 tech-tech-tech-tech mdm[1262]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:35:28 tech-tech-tech-tech mdm[1262]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:35:28 tech-tech-tech-tech mdm[1262]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+Mar 19 17:35:29 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:35:29 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): auth could not identify password for [mgonzales]
+Mar 19 17:35:29 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+Mar 19 17:35:29 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): received for user mgonzales: 7 (Authentication failure)
+Mar 19 17:35:29 tech-tech-tech-tech mdm[1262]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:35:29 tech-tech-tech-tech mdm[1262]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:35:29 tech-tech-tech-tech mdm[1262]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mcressall"
+Mar 19 17:35:29 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:35:29 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): auth could not identify password for [mcressall]
+Mar 19 17:35:30 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mcressall
+Mar 19 17:35:30 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): received for user mcressall: 7 (Authentication failure)
+Mar 19 17:35:30 tech-tech-tech-tech mdm[1262]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:35:30 tech-tech-tech-tech mdm[1262]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:35:30 tech-tech-tech-tech mdm[1262]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "krbtgt"
+Mar 19 17:35:30 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:35:30 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): auth could not identify password for [krbtgt]
+Mar 19 17:35:30 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=krbtgt
+Mar 19 17:35:30 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): received for user krbtgt: 7 (Authentication failure)
+Mar 19 17:35:30 tech-tech-tech-tech mdm[1262]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:35:30 tech-tech-tech-tech mdm[1262]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:35:30 tech-tech-tech-tech mdm[1262]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "krbtgt"
+Mar 19 17:35:30 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=krbtgt
+Mar 19 17:35:30 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=krbtgt
+Mar 19 17:35:30 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): received for user krbtgt: 7 (Authentication failure)
+Mar 19 17:35:34 tech-tech-tech-tech mdm[1262]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:35:34 tech-tech-tech-tech mdm[1262]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:35:34 tech-tech-tech-tech mdm[1262]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "krbtgt"
+Mar 19 17:35:34 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:35:34 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): auth could not identify password for [krbtgt]
+Mar 19 17:35:34 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=krbtgt
+Mar 19 17:35:34 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): received for user krbtgt: 7 (Authentication failure)
+Mar 19 17:35:34 tech-tech-tech-tech mdm[1262]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:35:34 tech-tech-tech-tech mdm[1262]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:35:34 tech-tech-tech-tech mdm[1262]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "dns-ucs-5079"
+Mar 19 17:35:34 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=dns-ucs-5079
+Mar 19 17:35:34 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=dns-ucs-5079
+Mar 19 17:35:34 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): received for user dns-ucs-5079: 7 (Authentication failure)
+Mar 19 17:35:37 tech-tech-tech-tech mdm[1262]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:35:37 tech-tech-tech-tech mdm[1262]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:35:37 tech-tech-tech-tech mdm[1262]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "dns-ucs-5079"
+Mar 19 17:35:37 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=dns-ucs-5079
+Mar 19 17:35:37 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=dns-ucs-5079
+Mar 19 17:35:37 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): received for user dns-ucs-5079: 7 (Authentication failure)
+Mar 19 17:35:41 tech-tech-tech-tech mdm[1262]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:35:41 tech-tech-tech-tech mdm[1262]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:35:41 tech-tech-tech-tech mdm[1262]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "dns-ucs-5079"
+Mar 19 17:35:47 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=dns-ucs-5079
+Mar 19 17:35:48 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=dns-ucs-5079
+Mar 19 17:35:48 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): received for user dns-ucs-5079: 4 (System error)
+Mar 19 17:35:51 tech-tech-tech-tech mdm[1262]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:35:51 tech-tech-tech-tech mdm[1262]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:35:57 tech-tech-tech-tech mdm[1262]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ceasterday"
+Mar 19 17:36:02 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=ceasterday
+Mar 19 17:36:03 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=ceasterday
+Mar 19 17:36:03 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): received for user ceasterday: 4 (System error)
+Mar 19 17:36:06 tech-tech-tech-tech mdm[1262]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:36:06 tech-tech-tech-tech mdm[1262]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:36:21 tech-tech-tech-tech mdm[1262]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "Administrator"
+Mar 19 17:36:27 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=Administrator
+Mar 19 17:36:27 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=Administrator
+Mar 19 17:36:27 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): received for user Administrator: 4 (System error)
+Mar 19 17:36:30 tech-tech-tech-tech mdm[1262]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:36:30 tech-tech-tech-tech mdm[1262]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:36:37 tech-tech-tech-tech mdm[1262]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 19 17:36:40 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tech
+Mar 19 17:36:40 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech
+Mar 19 17:36:40 tech-tech-tech-tech mdm[1262]: pam_sss(mdm:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Mar 19 17:36:42 tech-tech-tech-tech mdm[1262]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:36:42 tech-tech-tech-tech mdm[1262]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:36:51 tech-tech-tech-tech mdm[1262]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 19 17:36:55 tech-tech-tech-tech mdm[1262]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Mar 19 17:36:57 tech-tech-tech-tech dbus[561]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.22" (uid=1000 pid=1911 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="org.bluez.Manager" member="GetProperties" error name="(unset)" requested_reply="0" destination="org.bluez" (uid=0 pid=621 comm="/usr/sbin/bluetoothd ")
+Mar 19 17:36:58 tech-tech-tech-tech dbus[561]: [system] Rejected send message, 3 matched rules; type="method_call", sender=":1.23" (uid=1000 pid=1881 comm="nm-applet ") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination="org.freedesktop.NetworkManager" (uid=0 pid=807 comm="NetworkManager ")
+Mar 19 17:36:58 tech-tech-tech-tech dbus[561]: [system] Rejected send message, 3 matched rules; type="method_call", sender=":1.23" (uid=1000 pid=1881 comm="nm-applet ") interface="org.freedesktop.NetworkManager.Settings.Connection" member="GetSettings" error name="(unset)" requested_reply="0" destination="org.freedesktop.NetworkManager" (uid=0 pid=807 comm="NetworkManager ")
+Mar 19 17:37:18 tech-tech-tech-tech su[2337]: pam_unix(su:auth): authentication failure; logname=tech uid=1000 euid=0 tty=/dev/pts/3 ruser=tech rhost=  user=ceasterday
+Mar 19 17:37:18 tech-tech-tech-tech su[2337]: pam_sss(su:auth): authentication failure; logname=tech uid=1000 euid=0 tty=/dev/pts/3 ruser=tech rhost= user=ceasterday
+Mar 19 17:37:18 tech-tech-tech-tech su[2337]: pam_sss(su:auth): received for user ceasterday: 4 (System error)
+Mar 19 17:37:20 tech-tech-tech-tech su[2337]: pam_authenticate: Authentication failure
+Mar 19 17:37:20 tech-tech-tech-tech su[2337]: FAILED su for ceasterday by tech
+Mar 19 17:37:20 tech-tech-tech-tech su[2337]: - /dev/pts/3 tech:ceasterday
+Mar 19 17:40:27 tech-tech-tech-tech su[2343]: pam_unix(su:auth): authentication failure; logname=tech uid=1000 euid=0 tty=/dev/pts/3 ruser=tech rhost=  user=Administrator
+Mar 19 17:40:27 tech-tech-tech-tech su[2343]: pam_sss(su:auth): authentication failure; logname=tech uid=1000 euid=0 tty=/dev/pts/3 ruser=tech rhost= user=Administrator
+Mar 19 17:40:27 tech-tech-tech-tech su[2343]: pam_sss(su:auth): received for user Administrator: 4 (System error)
+Mar 19 17:40:29 tech-tech-tech-tech su[2343]: pam_authenticate: Authentication failure
+Mar 19 17:40:29 tech-tech-tech-tech su[2343]: FAILED su for Administrator by tech
+Mar 19 17:40:29 tech-tech-tech-tech su[2343]: - /dev/pts/3 tech:Administrator
+Mar 19 17:44:53 tech-tech-tech-tech sudo:     tech : TTY=pts/3 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/bash
+Mar 19 17:44:53 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 19 17:46:39 tech-tech-tech-tech su[2468]: Successful su for ceasterday by root
+Mar 19 17:46:39 tech-tech-tech-tech su[2468]: + /dev/pts/3 root:ceasterday
+Mar 19 17:46:40 tech-tech-tech-tech su[2468]: pam_unix(su:session): session opened for user ceasterday by tech(uid=0)
+Mar 19 17:46:40 tech-tech-tech-tech systemd-logind[642]: New session c1 of user ceasterday.
+Mar 19 17:46:40 tech-tech-tech-tech dbus[561]: [system] Rejected send message, 3 matched rules; type="method_call", sender=":1.23" (uid=1000 pid=1881 comm="nm-applet ") interface="org.freedesktop.NetworkManager" member="GetPermissions" error name="(unset)" requested_reply="0" destination="org.freedesktop.NetworkManager" (uid=0 pid=807 comm="NetworkManager ")
+Mar 19 17:46:56 tech-tech-tech-tech su[2509]: pam_unix(su:auth): authentication failure; logname=tech uid=2009 euid=0 tty=/dev/pts/3 ruser=ceasterday rhost=  user=Administrator
+Mar 19 17:46:56 tech-tech-tech-tech su[2509]: pam_sss(su:auth): authentication failure; logname=tech uid=2009 euid=0 tty=/dev/pts/3 ruser=ceasterday rhost= user=Administrator
+Mar 19 17:46:56 tech-tech-tech-tech su[2509]: pam_sss(su:auth): received for user Administrator: 6 (Permission denied)
+Mar 19 17:46:58 tech-tech-tech-tech su[2509]: pam_authenticate: Authentication failure
+Mar 19 17:46:58 tech-tech-tech-tech su[2509]: FAILED su for Administrator by ceasterday
+Mar 19 17:46:58 tech-tech-tech-tech su[2509]: - /dev/pts/3 ceasterday:Administrator
+Mar 19 17:47:32 tech-tech-tech-tech su[2468]: pam_unix(su:session): session closed for user ceasterday
+Mar 19 17:47:47 tech-tech-tech-tech su[2519]: Successful su for Administrator by root
+Mar 19 17:47:47 tech-tech-tech-tech su[2519]: + /dev/pts/3 root:Administrator
+Mar 19 17:47:47 tech-tech-tech-tech su[2519]: pam_unix(su:session): session opened for user Administrator by tech(uid=0)
+Mar 19 17:47:47 tech-tech-tech-tech systemd-logind[642]: Removed session c1.
+Mar 19 17:47:47 tech-tech-tech-tech systemd-logind[642]: New session c2 of user Administrator.
+Mar 19 17:48:00 tech-tech-tech-tech su[2519]: pam_unix(su:session): session closed for user Administrator
+Mar 19 17:48:32 tech-tech-tech-tech su[2568]: No passwd entry for user 'balls'
+Mar 19 17:48:32 tech-tech-tech-tech su[2568]: FAILED su for balls by root
+Mar 19 17:48:32 tech-tech-tech-tech su[2568]: - /dev/pts/3 root:balls
+Mar 19 17:48:36 tech-tech-tech-tech su[2569]: Successful su for mgonzales by root
+Mar 19 17:48:36 tech-tech-tech-tech su[2569]: + /dev/pts/3 root:mgonzales
+Mar 19 17:48:36 tech-tech-tech-tech su[2569]: pam_unix(su:session): session opened for user mgonzales by tech(uid=0)
+Mar 19 17:48:36 tech-tech-tech-tech systemd-logind[642]: Removed session c2.
+Mar 19 17:48:36 tech-tech-tech-tech systemd-logind[642]: New session c3 of user mgonzales.
+Mar 19 17:48:39 tech-tech-tech-tech su[2569]: pam_unix(su:session): session closed for user mgonzales
+Mar 19 17:48:40 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 17:48:51 tech-tech-tech-tech su[2615]: pam_unix(su:auth): authentication failure; logname=tech uid=1000 euid=0 tty=/dev/pts/3 ruser=tech rhost=  user=ceasterday
+Mar 19 17:48:51 tech-tech-tech-tech su[2615]: pam_sss(su:auth): authentication failure; logname=tech uid=1000 euid=0 tty=/dev/pts/3 ruser=tech rhost= user=ceasterday
+Mar 19 17:48:51 tech-tech-tech-tech su[2615]: pam_sss(su:auth): received for user ceasterday: 6 (Permission denied)
+Mar 19 17:48:53 tech-tech-tech-tech su[2615]: pam_authenticate: Authentication failure
+Mar 19 17:48:53 tech-tech-tech-tech su[2615]: FAILED su for ceasterday by tech
+Mar 19 17:48:53 tech-tech-tech-tech su[2615]: - /dev/pts/3 tech:ceasterday
+Mar 19 17:48:39 tech-tech-tech-tech dbus[561]: message repeated 5 times: [ [system] Rejected send message, 3 matched rules; type="method_call", sender=":1.23" (uid=1000 pid=1881 comm="nm-applet ") interface="org.freedesktop.NetworkManager" member="GetPermissions" error name="(unset)" requested_reply="0" destination="org.freedesktop.NetworkManager" (uid=0 pid=807 comm="NetworkManager ")]
+Mar 19 17:53:07 tech-tech-tech-tech dbus[561]: [system] Rejected send message, 3 matched rules; type="method_call", sender=":1.54" (uid=1000 pid=2621 comm="/usr/lib/firefox/firefox ") interface="org.freedesktop.NetworkManager" member="state" error name="(unset)" requested_reply="0" destination="org.freedesktop.NetworkManager" (uid=0 pid=807 comm="NetworkManager ")
+Mar 19 17:54:01 tech-tech-tech-tech sudo:     tech : TTY=pts/3 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/bash
+Mar 19 17:54:01 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 19 17:54:25 tech-tech-tech-tech su[2735]: Successful su for ceasterday by root
+Mar 19 17:54:25 tech-tech-tech-tech su[2735]: + /dev/pts/3 root:ceasterday
+Mar 19 17:54:25 tech-tech-tech-tech su[2735]: pam_unix(su:session): session opened for user ceasterday by tech(uid=0)
+Mar 19 17:54:25 tech-tech-tech-tech systemd-logind[642]: Removed session c3.
+Mar 19 17:54:25 tech-tech-tech-tech systemd-logind[642]: New session c4 of user ceasterday.
+Mar 19 17:54:25 tech-tech-tech-tech dbus[561]: [system] Rejected send message, 3 matched rules; type="method_call", sender=":1.23" (uid=1000 pid=1881 comm="nm-applet ") interface="org.freedesktop.NetworkManager" member="GetPermissions" error name="(unset)" requested_reply="0" destination="org.freedesktop.NetworkManager" (uid=0 pid=807 comm="NetworkManager ")
+Mar 19 17:54:27 tech-tech-tech-tech su[2735]: pam_unix(su:session): session closed for user ceasterday
+Mar 19 17:54:29 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 17:54:33 tech-tech-tech-tech sudo:     tech : TTY=pts/3 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/reboot
+Mar 19 17:54:33 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 19 17:54:54 tech-tech-tech-tech sshd[1073]: Server listening on 0.0.0.0 port 22.
+Mar 19 17:54:54 tech-tech-tech-tech sshd[1073]: Server listening on :: port 22.
+Mar 19 17:54:56 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:54:56 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:54:56 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 19 17:54:59 tech-tech-tech-tech dbus[535]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1342 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=811 comm="NetworkManager ")
+Mar 19 17:55:24 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:24 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [tech]
+Mar 19 17:55:24 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech
+Mar 19 17:55:24 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Mar 19 17:55:24 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:24 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:24 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+Mar 19 17:55:25 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:25 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [mgonzales]
+Mar 19 17:55:25 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+Mar 19 17:55:25 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user mgonzales: 7 (Authentication failure)
+Mar 19 17:55:25 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:25 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:25 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mcressall"
+Mar 19 17:55:26 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:26 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [mcressall]
+Mar 19 17:55:26 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mcressall
+Mar 19 17:55:26 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user mcressall: 7 (Authentication failure)
+Mar 19 17:55:26 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:26 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:26 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "krbtgt"
+Mar 19 17:55:27 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:27 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [krbtgt]
+Mar 19 17:55:27 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=krbtgt
+Mar 19 17:55:27 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user krbtgt: 7 (Authentication failure)
+Mar 19 17:55:27 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:27 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:27 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "join-slave"
+Mar 19 17:55:27 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:27 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [join-slave]
+Mar 19 17:55:27 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=join-slave
+Mar 19 17:55:27 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user join-slave: 7 (Authentication failure)
+Mar 19 17:55:28 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:28 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:28 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "join-slave"
+Mar 19 17:55:29 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:29 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [join-slave]
+Mar 19 17:55:29 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=join-slave
+Mar 19 17:55:29 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user join-slave: 7 (Authentication failure)
+Mar 19 17:55:29 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:29 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:29 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "join-backup"
+Mar 19 17:55:30 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:30 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [join-backup]
+Mar 19 17:55:30 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=join-backup
+Mar 19 17:55:30 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user join-backup: 7 (Authentication failure)
+Mar 19 17:55:30 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:30 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:30 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "hp-slim$"
+Mar 19 17:55:31 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:31 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [hp-slim$]
+Mar 19 17:55:31 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=hp-slim$
+Mar 19 17:55:31 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user hp-slim$: 7 (Authentication failure)
+Mar 19 17:55:31 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:31 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:31 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "dns-ucs-5079"
+Mar 19 17:55:32 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:32 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [dns-ucs-5079]
+Mar 19 17:55:32 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=dns-ucs-5079
+Mar 19 17:55:32 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user dns-ucs-5079: 7 (Authentication failure)
+Mar 19 17:55:32 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:32 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:32 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ceasterday"
+Mar 19 17:55:40 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=ceasterday
+Mar 19 17:55:40 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=ceasterday
+Mar 19 17:55:40 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user ceasterday: 6 (Permission denied)
+Mar 19 17:55:44 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:44 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:44 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ceasterday"
+Mar 19 17:55:52 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:52 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [ceasterday]
+Mar 19 17:55:52 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=ceasterday
+Mar 19 17:55:52 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user ceasterday: 7 (Authentication failure)
+Mar 19 17:55:52 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:52 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:52 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "dns-ucs-5079"
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [dns-ucs-5079]
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=dns-ucs-5079
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user dns-ucs-5079: 7 (Authentication failure)
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "hp-slim$"
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [hp-slim$]
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=hp-slim$
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user hp-slim$: 7 (Authentication failure)
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "join-backup"
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [join-backup]
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=join-backup
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user join-backup: 7 (Authentication failure)
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:53 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "join-slave"
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [join-slave]
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=join-slave
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user join-slave: 7 (Authentication failure)
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "krbtgt"
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [krbtgt]
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=krbtgt
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user krbtgt: 7 (Authentication failure)
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mcressall"
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [mcressall]
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mcressall
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user mcressall: 7 (Authentication failure)
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:54 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+Mar 19 17:55:55 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): conversation failed
+Mar 19 17:55:55 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:auth): auth could not identify password for [mgonzales]
+Mar 19 17:55:55 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+Mar 19 17:55:55 tech-tech-tech-tech mdm[1264]: pam_sss(mdm:auth): received for user mgonzales: 7 (Authentication failure)
+Mar 19 17:55:55 tech-tech-tech-tech mdm[1264]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:55:55 tech-tech-tech-tech mdm[1264]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:55:55 tech-tech-tech-tech mdm[1264]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 19 17:55:58 tech-tech-tech-tech mdm[1264]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Mar 19 17:55:58 tech-tech-tech-tech mdm[1264]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Mar 19 17:56:01 tech-tech-tech-tech polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 19 17:57:39 tech-tech-tech-tech mdm[2356]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 19 17:57:39 tech-tech-tech-tech mdm[2356]: PAM adding faulty module: pam_kwallet.so
+Mar 19 17:57:39 tech-tech-tech-tech mdm[2356]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 19 17:57:49 tech-tech-tech-tech xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Mar 19 18:17:01 tech-tech-tech-tech CRON[2459]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 19 18:17:01 tech-tech-tech-tech CRON[2459]: pam_unix(cron:session): session closed for user root
+Mar 19 18:26:01 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 19 18:26:01 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 19 18:26:19 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 18:56:01 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 19 18:56:01 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 19 18:56:18 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 19:17:01 tech-tech-tech-tech CRON[2623]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 19 19:17:01 tech-tech-tech-tech CRON[2623]: pam_unix(cron:session): session closed for user root
+Mar 19 19:26:01 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 19 19:26:01 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 19 19:26:10 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 19:56:01 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 19 19:56:01 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 19 19:56:11 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 20:17:01 tech-tech-tech-tech CRON[2792]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 19 20:17:01 tech-tech-tech-tech CRON[2792]: pam_unix(cron:session): session closed for user root
+Mar 19 20:26:01 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 19 20:26:01 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 19 20:26:16 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 20:56:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 19 20:56:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 19 20:56:16 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 21:17:01 tech-tech-tech-tech CRON[2959]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 19 21:17:01 tech-tech-tech-tech CRON[2959]: pam_unix(cron:session): session closed for user root
+Mar 19 21:26:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 19 21:26:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 19 21:26:12 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 21:56:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 19 21:56:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 19 21:56:12 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 22:17:01 tech-tech-tech-tech CRON[3125]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 19 22:17:01 tech-tech-tech-tech CRON[3125]: pam_unix(cron:session): session closed for user root
+Mar 19 22:26:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 19 22:26:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 19 22:26:13 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 22:56:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 19 22:56:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 19 22:56:16 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 23:17:01 tech-tech-tech-tech CRON[3293]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 19 23:17:01 tech-tech-tech-tech CRON[3293]: pam_unix(cron:session): session closed for user root
+Mar 19 23:26:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 19 23:26:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 19 23:26:12 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 19 23:56:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 19 23:56:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 19 23:56:15 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 00:17:01 tech-tech-tech-tech CRON[3478]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 20 00:17:01 tech-tech-tech-tech CRON[3478]: pam_unix(cron:session): session closed for user root
+Mar 20 00:26:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 00:26:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 00:26:13 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 00:56:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 00:56:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 00:56:15 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 01:17:01 tech-tech-tech-tech CRON[3653]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 20 01:17:01 tech-tech-tech-tech CRON[3653]: pam_unix(cron:session): session closed for user root
+Mar 20 01:26:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 01:26:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 01:26:13 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 01:56:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 01:56:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 01:56:17 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 02:17:01 tech-tech-tech-tech CRON[3836]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 20 02:17:01 tech-tech-tech-tech CRON[3836]: pam_unix(cron:session): session closed for user root
+Mar 20 02:26:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 02:26:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 02:26:13 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 02:56:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 02:56:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 02:56:14 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 03:17:01 tech-tech-tech-tech CRON[3998]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 20 03:17:01 tech-tech-tech-tech CRON[3998]: pam_unix(cron:session): session closed for user root
+Mar 20 03:26:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 03:26:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 03:26:12 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 03:56:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 03:56:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 03:56:17 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 04:17:01 tech-tech-tech-tech CRON[4167]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 20 04:17:01 tech-tech-tech-tech CRON[4167]: pam_unix(cron:session): session closed for user root
+Mar 20 04:26:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 04:26:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 04:26:17 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 04:56:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 04:56:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 04:56:12 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 05:17:01 tech-tech-tech-tech CRON[4358]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 20 05:17:01 tech-tech-tech-tech CRON[4358]: pam_unix(cron:session): session closed for user root
+Mar 20 05:26:02 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 05:26:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 05:26:19 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 05:56:03 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 05:56:03 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 05:56:20 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 06:17:01 tech-tech-tech-tech CRON[4522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 20 06:17:01 tech-tech-tech-tech CRON[4522]: pam_unix(cron:session): session closed for user root
+Mar 20 06:25:01 tech-tech-tech-tech CRON[4539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 20 06:25:01 tech-tech-tech-tech CRON[4539]: pam_unix(cron:session): session closed for user root
+Mar 20 06:26:03 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 06:26:03 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 06:26:12 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 06:56:03 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 06:56:03 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 06:56:16 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 07:14:31 tech-tech-tech-tech sshd[1063]: Server listening on 0.0.0.0 port 22.
+Mar 20 07:14:31 tech-tech-tech-tech sshd[1063]: Server listening on :: port 22.
+Mar 20 07:14:33 tech-tech-tech-tech mdm[1257]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 07:14:33 tech-tech-tech-tech mdm[1257]: PAM adding faulty module: pam_kwallet.so
+Mar 20 07:14:33 tech-tech-tech-tech mdm[1257]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 20 07:14:35 tech-tech-tech-tech dbus[470]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1346 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=807 comm="NetworkManager ")
+Mar 20 07:15:12 tech-tech-tech-tech mdm[1257]: pam_unix(mdm:auth): conversation failed
+Mar 20 07:15:12 tech-tech-tech-tech mdm[1257]: pam_unix(mdm:auth): auth could not identify password for [tech]
+Mar 20 07:15:12 tech-tech-tech-tech mdm[1257]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech
+Mar 20 07:15:12 tech-tech-tech-tech mdm[1257]: pam_sss(mdm:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Mar 20 07:15:12 tech-tech-tech-tech mdm[1257]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 07:15:12 tech-tech-tech-tech mdm[1257]: PAM adding faulty module: pam_kwallet.so
+Mar 20 07:15:12 tech-tech-tech-tech mdm[1257]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+Mar 20 07:15:16 tech-tech-tech-tech mdm[1257]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+Mar 20 07:15:17 tech-tech-tech-tech mdm[1257]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+Mar 20 07:15:17 tech-tech-tech-tech mdm[1257]: pam_sss(mdm:auth): received for user mgonzales: 6 (Permission denied)
+Mar 20 07:15:20 tech-tech-tech-tech mdm[1257]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 07:15:20 tech-tech-tech-tech mdm[1257]: PAM adding faulty module: pam_kwallet.so
+Mar 20 07:15:20 tech-tech-tech-tech mdm[1257]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+Mar 20 07:15:25 tech-tech-tech-tech mdm[1257]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+Mar 20 07:15:26 tech-tech-tech-tech mdm[1257]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+Mar 20 07:15:26 tech-tech-tech-tech mdm[1257]: pam_sss(mdm:auth): received for user mgonzales: 6 (Permission denied)
+Mar 20 07:15:29 tech-tech-tech-tech mdm[1257]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 07:15:29 tech-tech-tech-tech mdm[1257]: PAM adding faulty module: pam_kwallet.so
+Mar 20 07:15:29 tech-tech-tech-tech mdm[1257]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+Mar 20 07:15:33 tech-tech-tech-tech mdm[1257]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+Mar 20 07:15:33 tech-tech-tech-tech mdm[1257]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+Mar 20 07:15:33 tech-tech-tech-tech mdm[1257]: pam_sss(mdm:auth): received for user mgonzales: 6 (Permission denied)
+Mar 20 07:15:36 tech-tech-tech-tech mdm[1257]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 07:15:36 tech-tech-tech-tech mdm[1257]: PAM adding faulty module: pam_kwallet.so
+Mar 20 07:15:39 tech-tech-tech-tech mdm[1257]: pam_nologin(mdm:auth): cannot determine username
+Mar 20 07:15:39 tech-tech-tech-tech mdm[1257]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 07:15:39 tech-tech-tech-tech mdm[1257]: PAM adding faulty module: pam_kwallet.so
+Mar 20 07:15:39 tech-tech-tech-tech mdm[1257]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 20 07:15:42 tech-tech-tech-tech mdm[1257]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Mar 20 07:15:42 tech-tech-tech-tech mdm[1257]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Mar 20 07:15:44 tech-tech-tech-tech polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 20 07:17:01 tech-tech-tech-tech CRON[2330]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 20 07:17:01 tech-tech-tech-tech CRON[2330]: pam_unix(cron:session): session closed for user root
+Mar 20 07:19:32 tech-tech-tech-tech su[2449]: Successful su for nobody by root
+Mar 20 07:19:32 tech-tech-tech-tech su[2449]: + ??? root:nobody
+Mar 20 07:19:33 tech-tech-tech-tech su[2449]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Mar 20 07:19:33 tech-tech-tech-tech su[2449]: pam_unix(su:session): session closed for user nobody
+Mar 20 07:19:33 tech-tech-tech-tech su[2465]: Successful su for nobody by root
+Mar 20 07:19:33 tech-tech-tech-tech su[2465]: + ??? root:nobody
+Mar 20 07:19:33 tech-tech-tech-tech su[2465]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Mar 20 07:19:33 tech-tech-tech-tech su[2465]: pam_unix(su:session): session closed for user nobody
+Mar 20 07:19:33 tech-tech-tech-tech su[2498]: Successful su for nobody by root
+Mar 20 07:19:33 tech-tech-tech-tech su[2498]: + ??? root:nobody
+Mar 20 07:19:33 tech-tech-tech-tech su[2498]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Mar 20 07:19:42 tech-tech-tech-tech su[2498]: pam_unix(su:session): session closed for user nobody
+Mar 20 07:26:30 tech-tech-tech-tech sudo:     tech : TTY=pts/3 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/apt-get update
+Mar 20 07:26:30 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 07:26:37 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 07:26:47 tech-tech-tech-tech sudo:     tech : TTY=pts/3 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/apt-get dist-upgrade -y
+Mar 20 07:26:47 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 07:30:01 tech-tech-tech-tech CRON[2655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 20 07:30:01 tech-tech-tech-tech CRON[2655]: pam_unix(cron:session): session closed for user root
+Mar 20 07:42:26 tech-tech-tech-tech systemd-logind[8063]: New seat seat0.
+Mar 20 07:42:26 tech-tech-tech-tech systemd-logind[8063]: New session c1 of user tech.
+Mar 20 07:42:26 tech-tech-tech-tech systemd-logind[8063]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Mar 20 07:42:56 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 07:45:45 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 07:45:45 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 07:45:55 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 08:00:06 tech-tech-tech-tech mdm[18828]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 08:00:06 tech-tech-tech-tech mdm[18828]: PAM adding faulty module: pam_kwallet.so
+Mar 20 08:00:06 tech-tech-tech-tech mdm[18828]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 20 08:00:07 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): conversation failed
+Mar 20 08:00:07 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): auth could not identify password for [tech]
+Mar 20 08:00:07 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=tech
+Mar 20 08:00:07 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Mar 20 08:00:07 tech-tech-tech-tech mdm[18828]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 08:00:07 tech-tech-tech-tech mdm[18828]: PAM adding faulty module: pam_kwallet.so
+Mar 20 08:00:07 tech-tech-tech-tech mdm[18828]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+Mar 20 08:00:12 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost=  user=mgonzales
+Mar 20 08:00:12 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=mgonzales
+Mar 20 08:00:12 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): received for user mgonzales: 6 (Permission denied)
+Mar 20 08:00:15 tech-tech-tech-tech mdm[18828]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 08:00:15 tech-tech-tech-tech mdm[18828]: PAM adding faulty module: pam_kwallet.so
+Mar 20 08:00:15 tech-tech-tech-tech mdm[18828]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+Mar 20 08:00:21 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost=  user=mgonzales
+Mar 20 08:00:21 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=mgonzales
+Mar 20 08:00:21 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): received for user mgonzales: 6 (Permission denied)
+Mar 20 08:00:24 tech-tech-tech-tech mdm[18828]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 08:00:24 tech-tech-tech-tech mdm[18828]: PAM adding faulty module: pam_kwallet.so
+Mar 20 08:00:24 tech-tech-tech-tech mdm[18828]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): conversation failed
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): auth could not identify password for [mgonzales]
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=mgonzales
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): received for user mgonzales: 7 (Authentication failure)
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: PAM adding faulty module: pam_kwallet.so
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): conversation failed
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): auth could not identify password for [tech]
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=tech
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: PAM adding faulty module: pam_kwallet.so
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-HP-Compaq-dc7600-Ultra-slim-Desktop$"
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): conversation failed
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): auth could not identify password for [tech-HP-Compaq-dc7600-Ultra-slim-Desktop$]
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=tech-HP-Compaq-dc7600-Ultra-slim-Desktop$
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): received for user tech-HP-Compaq-dc7600-Ultra-slim-Desktop$: 7 (Authentication failure)
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: PAM adding faulty module: pam_kwallet.so
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-tech-tech-tech$"
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): conversation failed
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): auth could not identify password for [tech-tech-tech-tech$]
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=tech-tech-tech-tech$
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): received for user tech-tech-tech-tech$: 7 (Authentication failure)
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: PAM adding faulty module: pam_kwallet.so
+Mar 20 08:02:55 tech-tech-tech-tech mdm[18828]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ucs-5079$"
+Mar 20 08:02:56 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): conversation failed
+Mar 20 08:02:56 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): auth could not identify password for [ucs-5079$]
+Mar 20 08:02:56 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=ucs-5079$
+Mar 20 08:02:56 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): received for user ucs-5079$: 7 (Authentication failure)
+Mar 20 08:02:56 tech-tech-tech-tech mdm[18828]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 08:02:56 tech-tech-tech-tech mdm[18828]: PAM adding faulty module: pam_kwallet.so
+Mar 20 08:02:56 tech-tech-tech-tech mdm[18828]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-tech-tech-tech$"
+Mar 20 08:03:01 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost=  user=tech-tech-tech-tech$
+Mar 20 08:03:02 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=tech-tech-tech-tech$
+Mar 20 08:03:02 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): received for user tech-tech-tech-tech$: 6 (Permission denied)
+Mar 20 08:03:04 tech-tech-tech-tech mdm[18828]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 08:03:04 tech-tech-tech-tech mdm[18828]: PAM adding faulty module: pam_kwallet.so
+Mar 20 08:03:04 tech-tech-tech-tech mdm[18828]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-tech-tech-tech$"
+Mar 20 08:03:08 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): conversation failed
+Mar 20 08:03:08 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): auth could not identify password for [tech-tech-tech-tech$]
+Mar 20 08:03:08 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=tech-tech-tech-tech$
+Mar 20 08:03:08 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): received for user tech-tech-tech-tech$: 7 (Authentication failure)
+Mar 20 08:03:08 tech-tech-tech-tech mdm[18828]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 08:03:08 tech-tech-tech-tech mdm[18828]: PAM adding faulty module: pam_kwallet.so
+Mar 20 08:03:08 tech-tech-tech-tech mdm[18828]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+Mar 20 08:06:46 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): conversation failed
+Mar 20 08:06:46 tech-tech-tech-tech mdm[18828]: pam_unix(mdm:auth): auth could not identify password for [mgonzales]
+Mar 20 08:06:46 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:20 ruser= rhost= user=mgonzales
+Mar 20 08:06:46 tech-tech-tech-tech mdm[18828]: pam_sss(mdm:auth): received for user mgonzales: 7 (Authentication failure)
+Mar 20 08:06:46 tech-tech-tech-tech mdm[18828]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 08:06:46 tech-tech-tech-tech mdm[18828]: PAM adding faulty module: pam_kwallet.so
+Mar 20 08:06:46 tech-tech-tech-tech mdm[18828]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 20 08:06:57 tech-tech-tech-tech xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Mar 20 08:14:57 tech-tech-tech-tech dbus[470]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.68" (uid=1000 pid=19076 comm="restart sssd ") interface="com.ubuntu.Upstart0_6.Job" member="Restart" error name="(unset)" requested_reply="0" destination="com.ubuntu.Upstart" (uid=0 pid=1 comm="/sbin/init")
+Mar 20 08:15:45 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 08:15:45 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 08:15:53 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 08:17:01 tech-tech-tech-tech CRON[19128]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 20 08:17:01 tech-tech-tech-tech CRON[19128]: pam_unix(cron:session): session closed for user root
+Mar 20 08:45:45 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 08:45:45 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 08:45:54 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 09:15:45 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 09:15:45 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 09:15:54 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 09:17:01 tech-tech-tech-tech CRON[19295]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 20 09:17:01 tech-tech-tech-tech CRON[19295]: pam_unix(cron:session): session closed for user root
+Mar 20 09:45:45 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 09:45:45 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 09:45:56 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 09:48:01 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/run/user/1000/gvfs/smb-share:server=hal2.connexionpoint.com,share=it_files/Linux/software ; USER=root ; COMMAND=/usr/bin/gdebi-gtk --non-interactive /tmp/tmpywaq29bj/google-chrome-stable_current_i386.deb
+Mar 20 09:48:01 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 10:15:45 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 10:15:45 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 10:15:55 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:17:01 tech-tech-tech-tech CRON[21830]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 20 10:17:01 tech-tech-tech-tech CRON[21830]: pam_unix(cron:session): session closed for user root
+Mar 20 10:20:50 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:22:48 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py --use-synaptic 41943070
+Mar 20 10:22:48 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 10:22:49 tech-tech-tech-tech sudo:     root : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/sbin/synaptic --hide-main-window --update-at-startup --non-interactive --parent-window-id 41943070
+Mar 20 10:22:49 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 10:23:01 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:23:02 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:45:45 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 10:45:45 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 10:45:55 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:49:46 tech-tech-tech-tech sshd[22158]: Did not receive identification string from 192.168.1.9
+Mar 20 10:49:50 tech-tech-tech-tech smbd[22165]: pam_unix(samba:session): session closed for user nobody
+Mar 20 10:49:51 tech-tech-tech-tech smbd[22167]: pam_unix(samba:session): session closed for user nobody
+Mar 20 10:49:51 tech-tech-tech-tech sshd[22169]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Mar 20 10:49:51 tech-tech-tech-tech sshd[22170]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Mar 20 10:49:51 tech-tech-tech-tech smbd[22168]: pam_unix(samba:session): session closed for user nobody
+Mar 20 10:49:52 tech-tech-tech-tech smbd[22173]: pam_unix(samba:session): session closed for user nobody
+Mar 20 10:49:52 tech-tech-tech-tech sshd[22179]: fatal: no hostkey alg [preauth]
+Mar 20 10:49:52 tech-tech-tech-tech sshd[22181]: fatal: no hostkey alg [preauth]
+Mar 20 10:49:53 tech-tech-tech-tech sshd[22171]: Connection closed by 192.168.1.9 [preauth]
+Mar 20 10:49:53 tech-tech-tech-tech sshd[22174]: Connection closed by 192.168.1.9 [preauth]
+Mar 20 10:49:53 tech-tech-tech-tech sshd[22176]: Connection closed by 192.168.1.9 [preauth]
+Mar 20 10:49:53 tech-tech-tech-tech smbd[22178]: pam_unix(samba:session): session closed for user nobody
+Mar 20 10:52:06 tech-tech-tech-tech su[22280]: Successful su for root by tech
+Mar 20 10:52:06 tech-tech-tech-tech su[22280]: + /dev/pts/3 tech:root
+Mar 20 10:52:06 tech-tech-tech-tech su[22280]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Mar 20 10:52:47 tech-tech-tech-tech sudo:     tech : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod +x initial_setup.sh
+Mar 20 10:52:47 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:52:47 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:52:50 tech-tech-tech-tech sudo:     tech : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=./initial_setup.sh
+Mar 20 10:52:50 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:54:50 tech-tech-tech-tech groupadd[25914]: group added to /etc/group: name=clamav, GID=125
+Mar 20 10:54:50 tech-tech-tech-tech groupadd[25914]: group added to /etc/gshadow: name=clamav
+Mar 20 10:54:50 tech-tech-tech-tech groupadd[25914]: new group: name=clamav, GID=125
+Mar 20 10:54:50 tech-tech-tech-tech useradd[25918]: new user: name=clamav, UID=116, GID=125, home=/var/lib/clamav, shell=/bin/false
+Mar 20 10:54:50 tech-tech-tech-tech chage[25923]: changed password expiry for clamav
+Mar 20 10:56:03 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 20 10:56:03 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:56:03 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:56:03 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.9-x86.msi /usr/share/wine/gecko/
+Mar 20 10:56:03 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:56:03 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:56:08 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 20 10:56:08 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:56:08 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:56:08 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86.msi /usr/share/wine/gecko/
+Mar 20 10:56:08 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:56:08 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:56:14 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 20 10:56:14 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:56:14 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:56:14 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86.msi /usr/share/wine/gecko/
+Mar 20 10:56:14 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:56:14 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:56:26 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 20 10:56:26 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:56:26 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:56:26 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86.msi /usr/share/wine/gecko/
+Mar 20 10:56:26 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:56:26 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:56:43 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 20 10:56:43 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:56:43 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:56:43 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86_64.msi /usr/share/wine/gecko/
+Mar 20 10:56:43 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:56:43 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:57:26 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 20 10:57:26 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:57:26 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:57:26 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86_64.msi /usr/share/wine/gecko/
+Mar 20 10:57:26 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:57:26 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:59:09 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 20 10:59:09 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:59:09 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:59:09 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.6-x86_64.msi /usr/share/wine/gecko/
+Mar 20 10:59:09 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:59:09 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:59:16 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 20 10:59:16 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:59:16 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:59:16 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.5-x86_64.msi /usr/share/wine/gecko/
+Mar 20 10:59:16 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:59:16 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:59:25 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 20 10:59:25 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:59:25 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:59:25 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86_64.msi /usr/share/wine/gecko/
+Mar 20 10:59:25 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:59:25 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:59:30 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 20 10:59:30 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:59:30 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:59:30 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.3-x86_64.msi /usr/share/wine/gecko/
+Mar 20 10:59:30 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:59:30 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:59:44 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Mar 20 10:59:44 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:59:44 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 10:59:44 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.4.msi /usr/share/wine/mono
+Mar 20 10:59:44 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 10:59:44 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 11:00:04 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Mar 20 11:00:04 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 11:00:04 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 11:00:04 tech-tech-tech-tech sudo:     root : TTY=pts/7 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.8.msi /usr/share/wine/mono
+Mar 20 11:00:04 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Mar 20 11:00:04 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 11:15:45 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 11:15:45 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 11:15:54 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 11:17:01 tech-tech-tech-tech CRON[27749]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 20 11:17:01 tech-tech-tech-tech CRON[27749]: pam_unix(cron:session): session closed for user root
+Mar 20 11:18:58 tech-tech-tech-tech su[22280]: pam_unix(su:session): session closed for user root
+Mar 20 11:18:59 tech-tech-tech-tech mdm[1257]: pam_unix(mdm:session): session closed for user tech
+Mar 20 11:18:59 tech-tech-tech-tech polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.37, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 20 11:19:01 tech-tech-tech-tech mdm[27783]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 11:19:01 tech-tech-tech-tech mdm[27783]: PAM adding faulty module: pam_kwallet.so
+Mar 20 11:19:01 tech-tech-tech-tech mdm[27783]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 20 11:19:05 tech-tech-tech-tech mdm[27783]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Mar 20 11:19:05 tech-tech-tech-tech systemd-logind[8063]: New session c2 of user tech.
+Mar 20 11:19:05 tech-tech-tech-tech mdm[27783]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Mar 20 11:19:08 tech-tech-tech-tech polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.104 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 20 11:19:10 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 11:19:39 tech-tech-tech-tech sshd[1286]: Server listening on 0.0.0.0 port 22.
+Mar 20 11:19:39 tech-tech-tech-tech sshd[1286]: Server listening on :: port 22.
+Mar 20 11:19:41 tech-tech-tech-tech mdm[1514]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Mar 20 11:19:41 tech-tech-tech-tech mdm[1514]: PAM adding faulty module: pam_kwallet.so
+Mar 20 11:20:05 tech-tech-tech-tech mdm[1514]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Mar 20 11:20:07 tech-tech-tech-tech mdm[1514]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Mar 20 11:20:07 tech-tech-tech-tech mdm[1514]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Mar 20 11:20:09 tech-tech-tech-tech polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 20 11:28:06 tech-tech-tech-tech smbd[2731]: pam_unix(samba:session): session closed for user nobody
+Mar 20 11:28:39 tech-tech-tech-tech sshd[2733]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Mar 20 11:29:25 tech-tech-tech-tech smbd[2734]: pam_unix(samba:session): session closed for user nobody
+Mar 20 11:29:50 tech-tech-tech-tech sshd[2736]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Mar 20 11:29:52 tech-tech-tech-tech sshd[2743]: fatal: no hostkey alg [preauth]
+Mar 20 11:29:52 tech-tech-tech-tech sshd[2745]: fatal: no hostkey alg [preauth]
+Mar 20 11:29:52 tech-tech-tech-tech sshd[2739]: Connection closed by 192.168.1.9 [preauth]
+Mar 20 11:29:52 tech-tech-tech-tech sshd[2741]: Connection closed by 192.168.1.9 [preauth]
+Mar 20 11:29:52 tech-tech-tech-tech sshd[2737]: Connection closed by 192.168.1.9 [preauth]
+Mar 20 11:30:06 tech-tech-tech-tech smbd[2748]: pam_unix(samba:session): session closed for user nobody
+Mar 20 11:30:08 tech-tech-tech-tech smbd[2749]: pam_unix(samba:session): session closed for user nobody
+Mar 20 11:30:21 tech-tech-tech-tech smbd[2751]: pam_unix(samba:session): session closed for user nobody
+Mar 20 11:30:26 tech-tech-tech-tech smbd[2752]: pam_unix(samba:session): session closed for user nobody
+Mar 20 11:30:31 tech-tech-tech-tech sshd[2753]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Mar 20 11:30:35 tech-tech-tech-tech sshd[2755]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Mar 20 11:30:37 tech-tech-tech-tech sshd[2762]: fatal: no hostkey alg [preauth]
+Mar 20 11:30:37 tech-tech-tech-tech sshd[2764]: fatal: no hostkey alg [preauth]
+Mar 20 11:30:37 tech-tech-tech-tech sshd[2760]: Connection closed by 192.168.1.9 [preauth]
+Mar 20 11:30:37 tech-tech-tech-tech sshd[2756]: Connection closed by 192.168.1.9 [preauth]
+Mar 20 11:30:37 tech-tech-tech-tech sshd[2758]: Connection closed by 192.168.1.9 [preauth]
+Mar 20 11:31:21 tech-tech-tech-tech smbd[2768]: pam_unix(samba:session): session closed for user nobody
+Mar 20 11:31:22 tech-tech-tech-tech smbd[2769]: pam_unix(samba:session): session closed for user nobody
+Mar 20 11:31:31 tech-tech-tech-tech smbd[2770]: pam_unix(samba:session): session closed for user nobody
+Mar 20 11:31:36 tech-tech-tech-tech smbd[2772]: pam_unix(samba:session): session closed for user nobody
+Mar 20 11:50:11 tech-tech-tech-tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Mar 20 11:50:11 tech-tech-tech-tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 11:50:21 tech-tech-tech-tech sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 11:50:48 tech-tech-tech-tech su[2959]: Successful su for root by tech
+Mar 20 11:50:48 tech-tech-tech-tech su[2959]: + /dev/pts/0 tech:root
+Mar 20 11:50:48 tech-tech-tech-tech su[2959]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Mar 20 11:57:54 tech-tech-tech-tech su[2959]: pam_unix(su:session): session closed for user root
+Mar 20 12:06:39 tech-tech-tech-tech xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Mar 20 12:06:46 tech-tech-tech-tech su[3155]: Successful su for root by tech
+Mar 20 12:06:46 tech-tech-tech-tech su[3155]: + /dev/pts/0 tech:root
+Mar 20 12:06:46 tech-tech-tech-tech su[3155]: pam_unix(su:session): session opened for user root by tech(uid=1000)

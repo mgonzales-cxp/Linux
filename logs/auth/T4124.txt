@@ -1,0 +1,137 @@
+Aug 24 08:10:01 T4124 CRON[3351]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:10:03 T4124 CRON[3351]: pam_unix(cron:session): session closed for user root
+Aug 24 08:15:01 T4124 CRON[3612]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:15:04 T4124 CRON[3612]: pam_unix(cron:session): session closed for user root
+Aug 24 08:17:01 T4124 CRON[3626]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:17:01 T4124 CRON[3626]: pam_unix(cron:session): session closed for user root
+Aug 24 08:20:01 T4124 CRON[3643]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:20:01 T4124 CRON[3643]: pam_unix(cron:session): session closed for user root
+Aug 24 08:25:01 T4124 CRON[3663]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:25:03 T4124 CRON[3663]: pam_unix(cron:session): session closed for user root
+Aug 24 08:30:01 T4124 CRON[3731]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:30:02 T4124 CRON[3731]: pam_unix(cron:session): session closed for user root
+Aug 24 08:33:20 T4124 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 08:33:20 T4124 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 08:34:21 T4124 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 08:35:01 T4124 CRON[3792]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:35:02 T4124 CRON[3792]: pam_unix(cron:session): session closed for user root
+Aug 24 08:38:20 T4124 polkitd(authority=local): Operator of unix-session:c1 FAILED to authenticate to gain authorization for action org.freedesktop.NetworkManager.settings.modify.system for system-bus-name::1.38 [nm-applet] (owned by unix-user:anthem-training)
+Aug 24 08:38:20 T4124 gnome-keyring-daemon[3824]: couldn't access control socket: /run/user/1003/keyring-Tn6WQ6/control: No such file or directory
+Aug 24 08:38:20 T4124 gnome-keyring-daemon[3824]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Aug 24 08:38:20 T4124 gnome-keyring-daemon[3824]: keyring alias directory: /home/anthem-training/.local/share/keyrings
+Aug 24 08:40:01 T4124 CRON[3864]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:40:20 T4124 dbus[477]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=961 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.3" (uid=0 pid=825 comm="NetworkManager ")
+Aug 24 08:40:21 T4124 CRON[3864]: pam_unix(cron:session): session closed for user root
+Aug 24 08:44:40 T4124 polkit-agent-helper-1[3914]: pam_ecryptfs: Passphrase file wrapped
+Aug 24 08:44:44 T4124 polkitd(authority=local): Operator of unix-session:c1 successfully authenticated as unix-user:tech to gain TEMPORARY authorization for action org.freedesktop.NetworkManager.settings.modify.system for system-bus-name::1.38 [nm-applet] (owned by unix-user:anthem-training)
+Aug 24 08:45:01 T4124 CRON[3922]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:45:04 T4124 dbus[477]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=961 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.3" (uid=0 pid=825 comm="NetworkManager ")
+Aug 24 08:45:06 T4124 CRON[3922]: pam_unix(cron:session): session closed for user root
+Aug 24 08:50:01 T4124 CRON[4191]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:50:02 T4124 CRON[4191]: pam_unix(cron:session): session closed for user root
+Aug 24 08:55:01 T4124 CRON[4210]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 08:55:03 T4124 CRON[4210]: pam_unix(cron:session): session closed for user root
+Aug 24 09:00:01 T4124 CRON[4227]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:00:03 T4124 CRON[4227]: pam_unix(cron:session): session closed for user root
+Aug 24 09:03:20 T4124 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 09:03:20 T4124 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 09:03:56 T4124 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 09:03:58 T4124 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Aug 24 09:03:58 T4124 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [anthem-training]
+Aug 24 09:05:01 T4124 CRON[4290]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:05:03 T4124 CRON[4290]: pam_unix(cron:session): session closed for user root
+Aug 24 09:10:01 T4124 CRON[4327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:10:03 T4124 CRON[4327]: pam_unix(cron:session): session closed for user root
+Aug 24 09:15:01 T4124 CRON[4369]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:15:16 T4124 CRON[4369]: pam_unix(cron:session): session closed for user root
+Aug 24 09:17:01 T4124 CRON[4388]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:17:01 T4124 CRON[4388]: pam_unix(cron:session): session closed for user root
+Aug 24 09:20:01 T4124 CRON[4415]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:20:03 T4124 CRON[4415]: pam_unix(cron:session): session closed for user root
+Aug 24 09:25:01 T4124 CRON[4459]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:25:02 T4124 CRON[4459]: pam_unix(cron:session): session closed for user root
+Aug 24 09:25:31 T4124 polkitd(authority=local): Operator of unix-session:c1 FAILED to authenticate to gain authorization for action org.freedesktop.NetworkManager.settings.modify.system for system-bus-name::1.38 [nm-applet] (owned by unix-user:anthem-training)
+Aug 24 09:27:31 T4124 dbus[477]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=961 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.3" (uid=0 pid=825 comm="NetworkManager ")
+Aug 24 09:30:01 T4124 CRON[4523]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:30:21 T4124 CRON[4523]: pam_unix(cron:session): session closed for user root
+Aug 24 09:33:20 T4124 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 09:33:20 T4124 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 09:33:24 T4124 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 09:35:01 T4124 CRON[4552]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:35:11 T4124 CRON[4552]: pam_unix(cron:session): session closed for user root
+Aug 24 09:40:01 T4124 CRON[4571]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:40:12 T4124 CRON[4571]: pam_unix(cron:session): session closed for user root
+Aug 24 09:45:01 T4124 CRON[4666]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:45:11 T4124 CRON[4666]: pam_unix(cron:session): session closed for user root
+Aug 24 09:50:01 T4124 CRON[4797]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:50:11 T4124 CRON[4797]: pam_unix(cron:session): session closed for user root
+Aug 24 09:55:01 T4124 CRON[4806]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 09:55:11 T4124 CRON[4806]: pam_unix(cron:session): session closed for user root
+Aug 24 10:00:01 T4124 CRON[4815]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:00:11 T4124 CRON[4815]: pam_unix(cron:session): session closed for user root
+Aug 24 10:03:20 T4124 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 10:03:20 T4124 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 10:03:24 T4124 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 10:05:01 T4124 CRON[4847]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:05:11 T4124 CRON[4847]: pam_unix(cron:session): session closed for user root
+Aug 24 10:10:01 T4124 CRON[4855]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:10:11 T4124 CRON[4855]: pam_unix(cron:session): session closed for user root
+Aug 24 10:15:01 T4124 CRON[4865]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:15:11 T4124 CRON[4865]: pam_unix(cron:session): session closed for user root
+Aug 24 10:17:01 T4124 CRON[4871]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:17:01 T4124 CRON[4871]: pam_unix(cron:session): session closed for user root
+Aug 24 10:20:01 T4124 CRON[4877]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:20:11 T4124 CRON[4877]: pam_unix(cron:session): session closed for user root
+Aug 24 10:21:22 T4124 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Aug 24 10:21:22 T4124 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [anthem-training]
+Aug 24 10:25:01 T4124 CRON[4888]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:25:11 T4124 CRON[4888]: pam_unix(cron:session): session closed for user root
+Aug 24 10:30:01 T4124 CRON[4896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:30:11 T4124 CRON[4896]: pam_unix(cron:session): session closed for user root
+Aug 24 10:32:54 T4124 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Aug 24 10:32:54 T4124 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [anthem-training]
+Aug 24 10:33:20 T4124 sudo: anthem-training : TTY=unknown ; PWD=/home/anthem-training ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Aug 24 10:33:20 T4124 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Aug 24 10:33:24 T4124 sudo: pam_unix(sudo:session): session closed for user root
+Aug 24 10:35:01 T4124 CRON[4928]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 24 10:35:11 T4124 CRON[4928]: pam_unix(cron:session): session closed for user root
+Aug 25 20:33:22 T4124 sshd[1538]: Server listening on 0.0.0.0 port 22.
+Aug 25 20:33:22 T4124 sshd[1538]: Server listening on :: port 22.
+Aug 25 20:33:23 T4124 CRON[1644]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 20:33:27 T4124 mdm[1695]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Aug 25 20:33:27 T4124 mdm[1695]: PAM adding faulty module: pam_kwallet.so
+Aug 25 20:33:52 T4124 CRON[1644]: pam_unix(cron:session): session closed for user root
+Aug 25 20:34:07 T4124 mdm[1695]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "anthem-training"
+Aug 25 20:34:10 T4124 mdm[1695]: pam_unix(mdm:session): session opened for user anthem-training by (uid=0)
+Aug 25 20:34:10 T4124 mdm[1695]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Aug 25 20:34:18 T4124 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.32 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug 25 20:35:01 T4124 CRON[2821]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 20:35:05 T4124 CRON[2821]: pam_unix(cron:session): session closed for user root
+Aug 25 20:35:56 T4124 dbus[484]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.31" (uid=1003 pid=2439 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.1" (uid=0 pid=502 comm="/usr/sbin/bluetoothd ")
+Aug 25 20:35:56 T4124 dbus[484]: message repeated 3 times: [ [system] Rejected send message, 3 matched rules; type="error", sender=":1.31" (uid=1003 pid=2439 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.1" (uid=0 pid=502 comm="/usr/sbin/bluetoothd ")]
+Aug 25 20:35:56 T4124 dbus[484]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=968 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=834 comm="NetworkManager ")
+Aug 25 20:36:38 T4124 dbus[484]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=968 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=834 comm="NetworkManager ")
+Aug 25 20:37:22 T4124 dbus[484]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=968 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=834 comm="NetworkManager ")
+Aug 25 20:37:23 T4124 dbus[484]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=968 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=834 comm="NetworkManager ")
+Aug 25 20:38:17 T4124 su[3287]: Successful su for root by anthem-training
+Aug 25 20:38:17 T4124 su[3287]: + /dev/pts/0 anthem-training:root
+Aug 25 20:38:17 T4124 su[3287]: pam_unix(su:session): session opened for user root by anthem-training(uid=1003)
+Aug 25 20:38:24 T4124 su[3438]: Successful su for nobody by root
+Aug 25 20:38:24 T4124 su[3438]: + ??? root:nobody
+Aug 25 20:38:24 T4124 su[3438]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Aug 25 20:38:24 T4124 su[3438]: pam_unix(su:session): session closed for user nobody
+Aug 25 20:38:24 T4124 su[3446]: Successful su for nobody by root
+Aug 25 20:38:24 T4124 su[3446]: + ??? root:nobody
+Aug 25 20:38:24 T4124 su[3446]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Aug 25 20:38:24 T4124 su[3446]: pam_unix(su:session): session closed for user nobody
+Aug 25 20:38:25 T4124 su[3460]: Successful su for nobody by root
+Aug 25 20:38:25 T4124 su[3460]: + ??? root:nobody
+Aug 25 20:38:25 T4124 su[3460]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Aug 25 20:39:05 T4124 su[3460]: pam_unix(su:session): session closed for user nobody
+Aug 25 20:40:01 T4124 CRON[3567]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 20:40:03 T4124 CRON[3567]: pam_unix(cron:session): session closed for user root
+Aug 25 20:42:39 T4124 sudo:     root : TTY=pts/0 ; PWD=/home/anthem-training/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_off.sh - Linux Config Menu
+Aug 25 20:42:39 T4124 sudo: pam_unix(sudo:session): session opened for user root by anthem-training(uid=0)
+Aug 25 20:42:40 T4124 sudo: pam_unix(sudo:session): session closed for user root
+Aug 25 20:43:50 T4124 sudo:     root : TTY=pts/0 ; PWD=/home/anthem-training/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_on.sh - Linux Config Menu
+Aug 25 20:43:50 T4124 sudo: pam_unix(sudo:session): session opened for user root by anthem-training(uid=0)

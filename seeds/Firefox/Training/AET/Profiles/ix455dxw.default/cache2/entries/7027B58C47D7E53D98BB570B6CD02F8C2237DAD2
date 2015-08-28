@@ -1,0 +1,687 @@
+/* CONTENT              */
+/************************/
+.clear {
+  clear: both;
+}
+
+#content-home{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#content-home p{
+  font-size: 15px;
+  /*color: #69747a;*/
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+#content-home h2{
+  font-size: 20px;
+  color: #1A48A0;
+  font-weight: normal;
+  margin-top: 0;
+  font-family: 'Foco W01 Regular', Arial, sans-serif;
+}
+
+#content-home a{
+  font-size: 15px;
+  color: #005ca1;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.arrowright {
+	background-image: url(../../images/refresh/icn-arrow-blue.png);
+	width: 6px;
+	height: 9px;
+	margin-left: 0px;
+	display: inline-block;
+}
+
+#content-home a:hover{
+  text-decoration: underline;
+}
+
+#content-home ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#topContent{
+  /* overflow: hidden; */
+  width: 100%;
+  margin-bottom: 22px;
+  height: 333px;
+}
+
+#topContent #rotatingBanner{
+  /* width: 630px; */
+  height: 430px;
+  overflow: hidden;
+  /* float: left; */
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 127px;
+  /* z-index: -1; */
+}
+
+#topContent #rotatingBanner ul.banner{
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#topContent #rotatingBanner ul.banner li{
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden;
+  float: left;
+  display: block;
+  padding-top: 50px;
+  /* background-size: cover !important; */
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+}
+
+#topContent #rotatingBanner ul li.first{
+  background: url("/images/home2013/hero-dad-son.jpg") no-repeat;
+}
+
+#topContent #rotatingBanner ul li h1{
+  /*background: url("/images/home2013/spr-home.png") no-repeat top left;*/
+  color: #1a4898;
+  display: block;
+  font-size: 36px;
+  font-weight: normal;
+  margin-bottom: 32px;
+  margin-top: 0;
+  width: 38%;
+  font-family: 'Foco W01 Light', Arial, sans-serif;
+}
+
+#topContent #rotatingBanner ul li.withlinks h1{
+   margin-bottom: 5px;
+}
+
+#topContent #rotatingBanner ul li.withlinks p{
+  width: 330px;
+}
+
+#topContent #rotatingBanner ul li.withlinks a{
+   font-size: 14px;
+}
+
+#topContent #rotatingBanner ul li a.go{
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  background-image: url(../../images/refresh/btn-rptr-pink.png);
+  background-repeat: repeat-x;
+  padding: 14px 20px;
+  font-weight: bold;
+  position: relative;
+  margin-left: 4px;
+}
+
+#topContent #rotatingBanner ul li a.go:before {
+	content: "";
+	display: inline-block;
+	width: 4px;
+	height: 42px;
+	background-image: url(../../images/refresh/btn-lf-pink.png);
+	position: absolute;
+	top:0;
+	left: -4px;
+}
+
+#topContent #rotatingBanner ul li a.go:after {
+	content: "";
+	display: inline-block;
+	width: 4px;
+	height: 42px;
+	background-image: url(../../images/refresh/btn-rt-pink.png);
+	position: absolute;
+	top:0;
+	right: -4px;
+}
+
+#topContent #rotatingBanner #nav{
+  position: absolute;
+  bottom: 106px;
+  right: auto;
+  overflow: hidden;
+  z-index: 11;
+  left: 50%;
+  width: 960px;
+  margin: 0 0 0 -482px;
+}
+
+#topContent #rotatingBanner #nav a{
+  font-family: Arial;
+  font-weight: bold;
+  color: #d41b65;
+  font-size: 18px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  line-height: 33px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 4px;
+  background-image: url(../../images/refresh/btn-step2-off.png);
+  text-indent: -9999px;
+}
+
+
+
+/*  Set corresponding step image number on pagination  */
+
+#topContent #rotatingBanner #nav a.step1 {
+  background-image: url(../../images/refresh/btn-step1-off.png) !important;
+}
+#topContent #rotatingBanner #nav a.step1.activeSlide{
+  background-image: url(../../images/refresh/btn-step1-on.png) !important;
+}
+
+#topContent #rotatingBanner #nav a.step2 {
+  background-image: url(../../images/refresh/btn-step2-off.png) !important;
+}
+#topContent #rotatingBanner #nav a.step2.activeSlide{
+  background-image: url(../../images/refresh/btn-step2-on.png) !important;
+}
+
+#topContent #rotatingBanner #nav a.step3 {
+  background-image: url(../../images/refresh/btn-step3-off.png) !important;
+}
+#topContent #rotatingBanner #nav a.step3.activeSlide{
+  background-image: url(../../images/refresh/btn-step3-on.png) !important;
+}
+
+
+#topContent #findPlans{
+  width: 30.4%;
+  height: 269px;
+  padding: 25px 20px 0;
+  background: #fff;
+  background: rgba(255,255,255,0.9);
+  display: block;
+  float: right;
+  position: relative;
+  z-index: 20;
+  top: 24px;
+  box-shadow: 0 0 7px 1px rgba(212,27,101,0.5);
+  bottom: 45px;
+}
+
+#topContent #findPlans h2{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+#topContent #findPlans p{
+  margin-bottom: 30px;
+  line-height: 21px;
+}
+
+#topContent #findPlans .fields{
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+
+#topContent #findPlans .fields input{
+  float: left;
+  /* margin-right: 10px; */
+  padding: 6px 10px;
+  height: 25px;
+  border: 1px solid transparent;
+
+  font-size: 15px;
+  line-height: 21px;
+  /*color: #69747a;*/
+  background-color: #f1f1f1;
+  -webkit-box-shadow: inset 2px 2px 0 0 rgba(0,0,0,0.3); 
+  box-shadow: inset 2px 2px 0 0 rgba(0,0,0,0.3);
+  text-align: center;
+  width: 39%;
+}
+
+#topContent #findPlans .fields input[name=zip-code]{
+    margin-right: 20px;
+}
+
+#topContent #findPlans .fields input[name=first-name]{
+}
+
+#topContent #findPlans a.findPlans{
+  /* background: url("/images/home2013/spr-home.png") no-repeat -170px -139px; */
+  display: block; color: #FFFFFF; font-size: 14px; text-align: center; text-decoration: none; 
+  background-image: url(../../images/refresh/btn-rptr-pink.png);
+  background-repeat: repeat-x;
+  padding: 14px 0px;
+  font-weight: bold;
+  position: relative;
+  margin-left: 4px;
+  width: 97%;
+}
+
+#topContent #findPlans a.findPlans:before {
+	content: "";
+	display: inline-block;
+	width: 4px;
+	height: 42px;
+	background-image: url(../../images/refresh/btn-lf-pink.png);
+	position: absolute;
+	top:0;
+	left: -4px;
+}
+
+#topContent #findPlans a.findPlans:after {
+	content: "";
+	display: inline-block;
+	width: 4px;
+	height: 42px;
+	background-image: url(../../images/refresh/btn-rt-pink.png);
+	position: absolute;
+	top:0;
+	right: -4px;
+}
+
+#middleContent{
+  position: relative;
+  z-index: 20;
+  background-color: #fff;
+  padding-top: 25px;
+  padding-bottom: 32px;
+}
+
+#middleContent ul{
+  overflow: hidden;
+}
+
+#middleContent ul li:first-child{
+  margin: 0 -1px 0 0;
+  border-right: 1px solid #e7e7e7;
+}
+
+#middleContent ul li{
+  width: 30.2%;
+  padding: 0px 15px 10px 15px;
+  float: left;
+}
+
+#middleContent ul li:last-child{
+  margin: 0 0 0 -1px;
+  border-left: 1px solid #e7e7e7;
+}
+
+#middleContent ul li .icon{
+  background: aliceblue;
+  margin: 0 auto 20px;
+  color: #fff;
+  font-size: 1.5em;
+  display: inline-block;
+  border-radius: 360px;
+}
+
+#middleContent ul li.find .icon{
+  background-position: left -64px;
+}
+
+#middleContent ul li.advice .icon{
+  background-position: -89px -64px;
+}
+
+#middleContent ul li.abc .icon{
+  background-position: -178px -64px;
+}
+
+
+#middleContent ul li h3{
+  margin-bottom: 11px;
+}
+
+#middleContent ul li p{
+  margin-bottom: 25px;
+}
+
+#middleContent ul li a{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#middleContent ul li a.findOut{
+  margin-bottom: 35px;
+}
+
+#middleContent h2 {
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Foco W01 Regular', Arial, sans-serif;
+}
+
+#middleContent ul li h2 a {
+	font-size: 24px;
+  font-weight: bold;
+  
+	font-family: 'Foco W01 Regular', Arial, sans-serif;
+	color: #1a4898;
+	text-decoration: none !important;
+}
+
+#middleContent h2 span {
+  font-weight: 100;
+  display: block;
+  font-family:"Foco W01 Light", Arial, sans-serif;
+}
+
+.bg-widget {
+  background-color: #69747A;
+  padding: 30px 15px;
+  
+  margin-bottom: 16px;
+}
+
+.bg-widget h3 {
+    margin: 0 0 25px 0;
+  
+    font-size: 25px;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Foco W01 Regular', Arial, sans-serif;
+}
+
+#content-home .bg-widget a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  margin-right: 30px;
+}
+
+#content-home .bg-widget a span {
+	background-image: url(../../images/refresh/icn-arrow-white.png);
+}
+
+#content-home .bg-widget a i:after {
+	content: "";
+}
+
+#content-home .bg-widget p  {
+  margin-bottom: 0;
+}
+
+#questions-widget {
+  background-color: #fff; 
+  padding: 25px 15px;
+  margin: 0 0 16px 0;
+  height: 319px;
+}
+
+#questions-widget .pull-left {
+  width: 55%;}
+
+#questions-widget .pull-right {
+  width: 32.2%;
+  border-left: 1px solid #e7e7e7;
+  height: 100%;
+}
+
+.importantLinks {
+  margin-left: 16px;
+  height: 100%;
+}
+
+.importantLinks p {
+  margin-bottom: 15px;
+}
+
+#questions-widget .importantLinks a {
+  margin-bottom: 25px
+}
+
+.importantLinks hr {
+    border: 0px solid #e7e7e7;
+    height: 1px;
+    background-color:  #e7e7e7;
+    margin-bottom: 25px;
+  
+}
+
+#questions-widget ol {
+    margin-left: 0;
+  
+    margin-bottom: 30px;
+}
+
+#questions-widget ol li {
+    color: #1a4898;
+  
+    margin-bottom: 15px;
+    position: relative;
+    float: left;
+    clear: left;
+    cursor: pointer;
+}
+
+#questions-widget ul li {
+	color: #000;
+	float: none;
+	margin-bottom: 5px;
+	list-style: disc;
+	margin-left: 24px;
+}
+
+#questions-widget ol li p {
+	margin-bottom: 0;
+}
+
+.arrow {
+  display: none;
+  width: 0;
+  height: 0;
+  border: 40px solid transparent;
+  border-bottom: 40px solid #e7e7e7;
+  position: absolute;
+  left: 15px;
+  bottom: -33px;
+  z-index: 27;
+  margin-top: -40px;
+}
+
+.arrow:after {
+  content: "";
+  width:0;
+  height: 0;
+  display: block;
+  border: 40px solid transparent;
+  border-bottom: 40px solid #fff;
+  margin: -37px 0 0 -40px;
+}
+
+.active .arrow {
+  display: block;
+}
+
+#questions-widget ol li .answer {
+    display: none;
+    position: absolute;
+    z-index: 26;
+    width: 390px;
+    padding:  35px;
+    height: 330px;
+    border: 2px solid #e7e7e7;
+    bottom: -435px;
+    /* right: -505px; */
+     background-color: #fff;
+    color: #000;
+}
+
+#questions-widget ol li.active .answer {
+   display: block;
+}
+
+.close {
+  width: 37px;
+  height: 37px;
+  background-image:url(../../images/refresh/btn-close-popup.png) ;
+  position: absolute;
+  top: -20px;
+  z-index: 9999;
+  right: -20px;
+  
+}
+
+.answer h5 {
+    font-size: 24px; 
+    font-weight: 100; 
+    margin-bottom: 35px;
+  
+    color: #1a4898;
+    line-height: 1.1;
+}
+
+.answer strong {
+  font-weight: bold;
+}
+
+#questions-widget a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#content-home h4 {
+  color: #17aa9e;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  font-family: 'Foco W01 Regular', Arial, sans-serif;
+}
+
+#bot-widget {
+    background-color: #fff;
+  
+    padding: 30px 15px;
+    margin-bottom: 11px;
+}
+
+#bot-widget .pull-left {
+    width: 63%;
+  
+}
+
+#bot-widget  .pull-right {
+  width: 32.2%;
+  height: 100%;
+}
+
+#bot-widget h5 {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#bot-widget .pull-right p {
+  margin-bottom: 15px;
+}
+
+#bot-widget ul li {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#bot-widget ul {
+   margin-top: 25px;
+   margin-left: 15px;
+}
+
+#bot-widget ul li a {
+  display:block;
+  margin: 10px 0 35px 0;
+}
+
+#importantLinks{
+ 
+}
+
+#importantLinks h3{
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+#importantLinks ul{
+  overflow: hidden;
+  height: 335px;
+}
+
+#importantLinks ul li:first-child{
+  border-left: none;
+  width: 300px;
+}
+
+#importantLinks ul li{
+  width: 299px;
+  /*height: 112px;*/
+  float: left;
+  padding-left: 20px;
+  padding-top: 6px;
+  overflow: visible;
+}
+
+#importantLinks ul li.appeals{
+  border-left: 1px solid #CDCDCD;
+  border-right: 1px solid #CDCDCD;
+}
+
+
+#importantLinks ul li p{
+  margin-bottom: 11px;
+  width: 290px;
+}
+
+#importantLinks ul li ul{
+  /*color: #69747A;*/
+  list-style: disc;
+  margin-bottom: 10px;
+  height: auto;
+}
+
+#importantLinks ul li ul li {
+  margin-left: 15px;
+  width: 250px;
+  border: none;
+  padding: 0;
+  margin-bottom: 10px;
+  height: auto;
+}
+
+#importantLinks ul li ul li:first-child {
+   width: 250px;
+}
+
+#importantLinks ul li.appeals a {
+  padding: 0;
+  margin: 0;
+  background: none;
+  display: inline;
+  font-size: inherit;
+}kCE9Óœ      T‰ÚT‰Ú:˜ýT’ô[   <:http://www.aetnamedicare.com/includes/css/homepages2013.css request-method GET response-head HTTP/1.1 200 OK
+Date: Thu, 11 Dec 2014 17:52:07 GMT
+Accept-Ranges: bytes
+Etag: W/"12741-1412354044000"
+Last-Modified: Fri, 03 Oct 2014 16:34:04 GMT
+Content-Length: 12741
+Content-Type: text/css
+X-Pad: avoid browser bug
+ uncompressed-len 0   1Å

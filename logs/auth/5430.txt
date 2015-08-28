@@ -1,0 +1,1292 @@
+Jul 20 14:41:52 5430 dbus[875]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.46" (uid=3405 pid=3743 comm="reload mdm ") interface="com.ubuntu.Upstart0_6.Instance" member="Reload" error name="(unset)" requested_reply="0" destination="com.ubuntu.Upstart" (uid=0 pid=1 comm="/sbin/init")
+Jul 20 14:45:01 5430 CRON[3759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:45:03 5430 CRON[3759]: pam_unix(cron:session): session closed for user root
+Jul 20 14:50:01 5430 CRON[3820]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:50:09 5430 CRON[3820]: pam_unix(cron:session): session closed for user root
+Jul 20 14:55:01 5430 CRON[3880]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:55:07 5430 CRON[3880]: pam_unix(cron:session): session closed for user root
+Jul 20 15:00:01 5430 CRON[3938]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:00:05 5430 CRON[3938]: pam_unix(cron:session): session closed for user root
+Jul 20 15:05:01 5430 CRON[3999]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:05:07 5430 CRON[3999]: pam_unix(cron:session): session closed for user root
+Jul 20 15:05:56 5430 sshd[4044]: Did not receive identification string from 192.168.106.16
+Jul 20 15:06:36 5430 sshd[4053]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 15:06:36 5430 sshd[4054]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 15:06:38 5430 sshd[4061]: fatal: no hostkey alg [preauth]
+Jul 20 15:06:38 5430 sshd[4063]: fatal: no hostkey alg [preauth]
+Jul 20 15:06:38 5430 sshd[4059]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 15:06:38 5430 sshd[4055]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 15:06:38 5430 sshd[4057]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 15:06:52 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 15:06:52 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 15:10:01 5430 CRON[4098]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:10:11 5430 CRON[4098]: pam_unix(cron:session): session closed for user root
+Jul 20 15:10:55 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 15:15:01 5430 CRON[4160]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:15:07 5430 CRON[4160]: pam_unix(cron:session): session closed for user root
+Jul 20 15:17:01 5430 CRON[4215]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:17:01 5430 CRON[4215]: pam_unix(cron:session): session closed for user root
+Jul 20 15:20:01 5430 CRON[4221]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:20:09 5430 CRON[4221]: pam_unix(cron:session): session closed for user root
+Jul 20 15:25:01 5430 CRON[4279]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:25:04 5430 CRON[4279]: pam_unix(cron:session): session closed for user root
+Jul 20 15:30:01 5430 CRON[4340]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:30:43 5430 CRON[4340]: pam_unix(cron:session): session closed for user root
+Jul 20 15:35:01 5430 CRON[4399]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:35:05 5430 CRON[4399]: pam_unix(cron:session): session closed for user root
+Jul 20 15:36:52 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 15:36:52 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 15:40:01 5430 CRON[4486]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:40:08 5430 CRON[4486]: pam_unix(cron:session): session closed for user root
+Jul 20 15:40:55 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 15:45:01 5430 CRON[4548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:45:09 5430 CRON[4548]: pam_unix(cron:session): session closed for user root
+Jul 20 15:50:01 5430 CRON[4606]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:50:05 5430 CRON[4606]: pam_unix(cron:session): session closed for user root
+Jul 20 15:55:01 5430 CRON[4664]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:55:08 5430 CRON[4664]: pam_unix(cron:session): session closed for user root
+Jul 20 16:00:01 5430 CRON[4724]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:00:03 5430 CRON[4724]: pam_unix(cron:session): session closed for user root
+Jul 20 16:05:02 5430 CRON[4781]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:05:06 5430 CRON[4781]: pam_unix(cron:session): session closed for user root
+Jul 20 16:06:52 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 16:06:52 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 16:10:01 5430 CRON[4868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:10:09 5430 CRON[4868]: pam_unix(cron:session): session closed for user root
+Jul 20 16:10:55 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 16:15:01 5430 CRON[4927]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:15:06 5430 CRON[4927]: pam_unix(cron:session): session closed for user root
+Jul 20 16:17:01 5430 CRON[4983]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:17:01 5430 CRON[4983]: pam_unix(cron:session): session closed for user root
+Jul 20 16:20:01 5430 CRON[4990]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:20:07 5430 CRON[4990]: pam_unix(cron:session): session closed for user root
+Jul 20 16:25:01 5430 CRON[5051]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:25:08 5430 CRON[5051]: pam_unix(cron:session): session closed for user root
+Jul 20 16:30:01 5430 CRON[5110]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:30:03 5430 CRON[5110]: pam_unix(cron:session): session closed for user root
+Jul 20 16:35:01 5430 CRON[5168]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:35:08 5430 CRON[5168]: pam_unix(cron:session): session closed for user root
+Jul 20 16:36:52 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 16:36:52 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 16:39:09 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 16:40:01 5430 CRON[5271]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:40:04 5430 CRON[5271]: pam_unix(cron:session): session closed for user root
+Jul 20 16:45:01 5430 CRON[5330]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:45:08 5430 CRON[5330]: pam_unix(cron:session): session closed for user root
+Jul 20 16:50:01 5430 CRON[5389]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:50:04 5430 CRON[5389]: pam_unix(cron:session): session closed for user root
+Jul 20 16:55:01 5430 CRON[5448]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:55:08 5430 CRON[5448]: pam_unix(cron:session): session closed for user root
+Jul 20 17:00:01 5430 CRON[5508]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:00:04 5430 CRON[5508]: pam_unix(cron:session): session closed for user root
+Jul 20 17:05:01 5430 CRON[5580]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:05:04 5430 CRON[5580]: pam_unix(cron:session): session closed for user root
+Jul 20 17:06:53 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 17:06:53 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 17:10:01 5430 CRON[5669]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:10:13 5430 CRON[5669]: pam_unix(cron:session): session closed for user root
+Jul 20 17:10:55 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 17:15:01 5430 CRON[5732]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:15:03 5430 CRON[5732]: pam_unix(cron:session): session closed for user root
+Jul 20 17:17:01 5430 CRON[5789]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:17:01 5430 CRON[5789]: pam_unix(cron:session): session closed for user root
+Jul 20 17:20:01 5430 CRON[5795]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:20:04 5430 CRON[5795]: pam_unix(cron:session): session closed for user root
+Jul 20 17:25:01 5430 CRON[5853]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:25:05 5430 CRON[5853]: pam_unix(cron:session): session closed for user root
+Jul 20 17:30:01 5430 CRON[5915]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:30:06 5430 CRON[5915]: pam_unix(cron:session): session closed for user root
+Jul 20 17:35:01 5430 CRON[5973]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:35:04 5430 CRON[5973]: pam_unix(cron:session): session closed for user root
+Jul 20 17:36:53 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 17:36:53 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 17:39:07 5430 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost=  user=brrios
+Jul 20 17:39:07 5430 xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost= user=brrios
+Jul 20 17:39:07 5430 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 20 17:40:01 5430 CRON[6064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:40:09 5430 CRON[6064]: pam_unix(cron:session): session closed for user root
+Jul 20 17:40:55 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 17:45:01 5430 CRON[6126]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:45:05 5430 CRON[6126]: pam_unix(cron:session): session closed for user root
+Jul 20 17:50:01 5430 CRON[6186]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:50:05 5430 CRON[6186]: pam_unix(cron:session): session closed for user root
+Jul 20 17:55:01 5430 CRON[6245]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:55:04 5430 CRON[6245]: pam_unix(cron:session): session closed for user root
+Jul 20 18:00:01 5430 CRON[6302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:00:04 5430 CRON[6302]: pam_unix(cron:session): session closed for user root
+Jul 20 18:05:01 5430 CRON[6361]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:05:03 5430 CRON[6361]: pam_unix(cron:session): session closed for user root
+Jul 20 18:06:12 5430 sshd[6414]: Did not receive identification string from 192.168.106.16
+Jul 20 18:06:37 5430 sshd[6416]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 18:06:39 5430 sshd[6417]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 18:06:41 5430 sshd[6424]: fatal: no hostkey alg [preauth]
+Jul 20 18:06:41 5430 sshd[6422]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:06:41 5430 sshd[6420]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:06:41 5430 sshd[6418]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:06:41 5430 sshd[6426]: fatal: no hostkey alg [preauth]
+Jul 20 18:06:53 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 18:06:53 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 18:10:01 5430 CRON[6465]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:10:08 5430 sshd[6464]: Did not receive identification string from 192.168.106.16
+Jul 20 18:10:12 5430 CRON[6465]: pam_unix(cron:session): session closed for user root
+Jul 20 18:10:32 5430 sshd[6520]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 18:10:34 5430 sshd[6527]: fatal: no hostkey alg [preauth]
+Jul 20 18:10:34 5430 sshd[6529]: fatal: no hostkey alg [preauth]
+Jul 20 18:10:34 5430 sshd[6525]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:10:34 5430 sshd[6523]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:10:34 5430 sshd[6521]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:10:36 5430 sshd[6531]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 18:10:56 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 18:15:01 5430 CRON[6539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:15:04 5430 CRON[6539]: pam_unix(cron:session): session closed for user root
+Jul 20 18:17:01 5430 CRON[6594]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:17:01 5430 CRON[6594]: pam_unix(cron:session): session closed for user root
+Jul 20 18:20:01 5430 CRON[6601]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:20:05 5430 CRON[6601]: pam_unix(cron:session): session closed for user root
+Jul 20 18:25:01 5430 CRON[6658]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:25:05 5430 CRON[6658]: pam_unix(cron:session): session closed for user root
+Jul 20 18:30:01 5430 CRON[6725]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:30:04 5430 CRON[6725]: pam_unix(cron:session): session closed for user root
+Jul 20 18:35:01 5430 CRON[6783]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:35:04 5430 CRON[6783]: pam_unix(cron:session): session closed for user root
+Jul 20 18:36:53 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 18:36:53 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 18:40:01 5430 CRON[6904]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:40:08 5430 CRON[6904]: pam_unix(cron:session): session closed for user root
+Jul 20 18:40:55 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 18:43:41 5430 sshd[6963]: Did not receive identification string from 192.168.106.16
+Jul 20 18:44:08 5430 sshd[6967]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 18:44:08 5430 sshd[6968]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 18:44:10 5430 sshd[6975]: fatal: no hostkey alg [preauth]
+Jul 20 18:44:10 5430 sshd[6973]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:44:10 5430 sshd[6971]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:44:10 5430 sshd[6969]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:44:10 5430 sshd[6977]: fatal: no hostkey alg [preauth]
+Jul 20 18:45:01 5430 CRON[6979]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:45:04 5430 CRON[6979]: pam_unix(cron:session): session closed for user root
+Jul 20 18:50:01 5430 CRON[7040]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:50:05 5430 CRON[7040]: pam_unix(cron:session): session closed for user root
+Jul 20 18:55:01 5430 CRON[7154]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:55:03 5430 CRON[7154]: pam_unix(cron:session): session closed for user root
+Jul 20 19:00:01 5430 CRON[7214]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:00:07 5430 CRON[7214]: pam_unix(cron:session): session closed for user root
+Jul 20 19:05:01 5430 CRON[7309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:05:05 5430 CRON[7309]: pam_unix(cron:session): session closed for user root
+Jul 20 19:06:53 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 19:06:53 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 19:10:01 5430 CRON[7431]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:10:08 5430 CRON[7431]: pam_unix(cron:session): session closed for user root
+Jul 20 19:10:56 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 19:15:01 5430 CRON[7495]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:15:04 5430 CRON[7495]: pam_unix(cron:session): session closed for user root
+Jul 20 19:17:02 5430 CRON[7550]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:17:02 5430 CRON[7550]: pam_unix(cron:session): session closed for user root
+Jul 20 19:20:02 5430 CRON[7600]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:20:07 5430 CRON[7600]: pam_unix(cron:session): session closed for user root
+Jul 20 19:25:01 5430 CRON[7667]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:25:08 5430 CRON[7667]: pam_unix(cron:session): session closed for user root
+Jul 20 19:30:01 5430 CRON[7789]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:30:04 5430 CRON[7789]: pam_unix(cron:session): session closed for user root
+Jul 20 19:35:01 5430 CRON[7847]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:35:03 5430 CRON[7847]: pam_unix(cron:session): session closed for user root
+Jul 20 19:36:53 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 19:36:53 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 19:40:01 5430 CRON[7938]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:40:07 5430 CRON[7938]: pam_unix(cron:session): session closed for user root
+Jul 20 19:40:56 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 19:45:01 5430 CRON[8000]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:45:03 5430 CRON[8000]: pam_unix(cron:session): session closed for user root
+Jul 20 19:50:01 5430 CRON[8059]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:50:06 5430 CRON[8059]: pam_unix(cron:session): session closed for user root
+Jul 20 19:55:01 5430 CRON[8116]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:55:04 5430 CRON[8116]: pam_unix(cron:session): session closed for user root
+Jul 20 20:00:01 5430 CRON[8177]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:00:03 5430 CRON[8177]: pam_unix(cron:session): session closed for user root
+Jul 20 20:05:01 5430 CRON[8235]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:05:05 5430 CRON[8235]: pam_unix(cron:session): session closed for user root
+Jul 20 20:06:53 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 20:06:53 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 20:10:01 5430 CRON[8322]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:10:11 5430 CRON[8322]: pam_unix(cron:session): session closed for user root
+Jul 20 20:10:56 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 20:14:02 5430 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost=  user=brrios
+Jul 20 20:14:02 5430 xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost= user=brrios
+Jul 20 20:14:02 5430 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 20 20:15:01 5430 CRON[8389]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:15:06 5430 CRON[8389]: pam_unix(cron:session): session closed for user root
+Jul 20 20:17:01 5430 CRON[8444]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:17:01 5430 CRON[8444]: pam_unix(cron:session): session closed for user root
+Jul 20 20:20:01 5430 CRON[8450]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:20:05 5430 CRON[8450]: pam_unix(cron:session): session closed for user root
+Jul 20 20:25:01 5430 CRON[8507]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:25:04 5430 CRON[8507]: pam_unix(cron:session): session closed for user root
+Jul 20 20:30:01 5430 CRON[8570]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:30:03 5430 CRON[8570]: pam_unix(cron:session): session closed for user root
+Jul 20 20:35:01 5430 CRON[8627]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:35:04 5430 CRON[8627]: pam_unix(cron:session): session closed for user root
+Jul 20 20:36:53 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 20:36:53 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 20:40:01 5430 CRON[8729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:40:10 5430 CRON[8729]: pam_unix(cron:session): session closed for user root
+Jul 20 20:40:56 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 20:45:01 5430 CRON[8791]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:45:03 5430 CRON[8791]: pam_unix(cron:session): session closed for user root
+Jul 20 20:50:01 5430 CRON[8850]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:50:04 5430 CRON[8850]: pam_unix(cron:session): session closed for user root
+Jul 20 20:55:01 5430 CRON[8909]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:55:05 5430 CRON[8909]: pam_unix(cron:session): session closed for user root
+Jul 20 21:00:01 5430 CRON[8967]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:00:03 5430 CRON[8967]: pam_unix(cron:session): session closed for user root
+Jul 20 21:05:01 5430 CRON[9025]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:05:04 5430 CRON[9025]: pam_unix(cron:session): session closed for user root
+Jul 20 21:05:50 5430 sshd[9060]: Did not receive identification string from 192.168.106.16
+Jul 20 21:06:13 5430 sshd[9082]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 21:06:15 5430 sshd[9089]: fatal: no hostkey alg [preauth]
+Jul 20 21:06:15 5430 sshd[9087]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 21:06:15 5430 sshd[9085]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 21:06:15 5430 sshd[9083]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 21:06:15 5430 sshd[9091]: fatal: no hostkey alg [preauth]
+Jul 20 21:06:15 5430 sshd[9093]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 21:06:53 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 21:06:53 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 21:10:01 5430 CRON[9126]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:10:07 5430 CRON[9126]: pam_unix(cron:session): session closed for user root
+Jul 20 21:10:56 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 21:15:01 5430 CRON[9188]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:15:06 5430 CRON[9188]: pam_unix(cron:session): session closed for user root
+Jul 20 21:17:01 5430 CRON[9243]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:17:01 5430 CRON[9243]: pam_unix(cron:session): session closed for user root
+Jul 20 21:20:01 5430 CRON[9250]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:20:04 5430 CRON[9250]: pam_unix(cron:session): session closed for user root
+Jul 20 21:25:01 5430 CRON[9313]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:25:03 5430 CRON[9313]: pam_unix(cron:session): session closed for user root
+Jul 20 21:30:01 5430 CRON[9409]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:30:04 5430 CRON[9409]: pam_unix(cron:session): session closed for user root
+Jul 20 21:32:44 5430 sshd[9473]: Did not receive identification string from 192.168.106.16
+Jul 20 21:33:08 5430 sshd[9478]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 21:33:09 5430 sshd[9479]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 21:33:09 5430 sshd[9485]: fatal: no hostkey alg [preauth]
+Jul 20 21:33:10 5430 sshd[9487]: fatal: no hostkey alg [preauth]
+Jul 20 21:33:10 5430 sshd[9483]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 21:33:10 5430 sshd[9481]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 21:33:11 5430 sshd[9489]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 21:35:01 5430 CRON[9492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:35:04 5430 CRON[9492]: pam_unix(cron:session): session closed for user root
+Jul 20 21:36:54 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 21:36:54 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 21:40:01 5430 CRON[9590]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:40:08 5430 CRON[9590]: pam_unix(cron:session): session closed for user root
+Jul 20 21:40:56 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 21:45:01 5430 CRON[9655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:45:03 5430 CRON[9655]: pam_unix(cron:session): session closed for user root
+Jul 20 21:50:01 5430 CRON[9727]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:50:04 5430 CRON[9727]: pam_unix(cron:session): session closed for user root
+Jul 20 21:55:01 5430 CRON[9798]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:55:05 5430 CRON[9798]: pam_unix(cron:session): session closed for user root
+Jul 20 22:00:01 5430 CRON[9871]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:00:04 5430 CRON[9871]: pam_unix(cron:session): session closed for user root
+Jul 20 22:05:01 5430 CRON[9965]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:05:03 5430 CRON[9965]: pam_unix(cron:session): session closed for user root
+Jul 20 22:06:54 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 22:06:54 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 22:10:01 5430 CRON[10084]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:10:08 5430 CRON[10084]: pam_unix(cron:session): session closed for user root
+Jul 20 22:10:56 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 22:15:01 5430 CRON[10156]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:15:05 5430 CRON[10156]: pam_unix(cron:session): session closed for user root
+Jul 20 22:17:01 5430 CRON[10231]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:17:01 5430 CRON[10231]: pam_unix(cron:session): session closed for user root
+Jul 20 22:20:01 5430 CRON[10284]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:20:07 5430 CRON[10284]: pam_unix(cron:session): session closed for user root
+Jul 20 22:25:01 5430 CRON[10345]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:25:04 5430 CRON[10345]: pam_unix(cron:session): session closed for user root
+Jul 20 22:30:01 5430 CRON[10435]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:30:03 5430 CRON[10435]: pam_unix(cron:session): session closed for user root
+Jul 20 22:35:01 5430 CRON[10513]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:35:04 5430 CRON[10513]: pam_unix(cron:session): session closed for user root
+Jul 20 22:36:54 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 22:36:54 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 22:40:01 5430 CRON[10609]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:40:09 5430 CRON[10609]: pam_unix(cron:session): session closed for user root
+Jul 20 22:40:56 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 22:45:01 5430 CRON[10670]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:45:03 5430 CRON[10670]: pam_unix(cron:session): session closed for user root
+Jul 20 22:50:01 5430 CRON[10729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:50:04 5430 CRON[10729]: pam_unix(cron:session): session closed for user root
+Jul 20 22:55:01 5430 CRON[10830]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:55:06 5430 CRON[10830]: pam_unix(cron:session): session closed for user root
+Jul 20 23:00:01 5430 CRON[10967]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:00:04 5430 CRON[10967]: pam_unix(cron:session): session closed for user root
+Jul 20 23:05:01 5430 CRON[11029]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:05:03 5430 CRON[11029]: pam_unix(cron:session): session closed for user root
+Jul 20 23:06:54 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 20 23:06:54 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 20 23:10:01 5430 CRON[11278]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:10:08 5430 CRON[11278]: pam_unix(cron:session): session closed for user root
+Jul 20 23:10:56 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 20 23:15:01 5430 CRON[11433]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:15:05 5430 CRON[11433]: pam_unix(cron:session): session closed for user root
+Jul 22 13:38:18 5430 systemd-logind[902]: New seat seat0.
+Jul 22 13:38:32 5430 sshd[1337]: Server listening on 0.0.0.0 port 22.
+Jul 22 13:38:32 5430 sshd[1337]: Server listening on :: port 22.
+Jul 22 13:38:33 5430 CRON[1408]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:38:33 5430 CRON[1408]: pam_unix(cron:session): session closed for user root
+Jul 22 13:38:39 5430 mdm[1572]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 22 13:38:39 5430 mdm[1572]: PAM adding faulty module: pam_kwallet.so
+Jul 22 13:38:42 5430 mdm[1572]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "brrios"
+Jul 22 13:38:47 5430 mdm[1572]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=brrios
+Jul 22 13:38:47 5430 mdm[1572]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=brrios
+Jul 22 13:38:47 5430 mdm[1572]: pam_sss(mdm:auth): received for user brrios: 7 (Authentication failure)
+Jul 22 13:38:50 5430 mdm[1572]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 22 13:38:50 5430 mdm[1572]: PAM adding faulty module: pam_kwallet.so
+Jul 22 13:38:53 5430 mdm[1572]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "brrios"
+Jul 22 13:39:01 5430 mdm[1572]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=brrios
+Jul 22 13:39:01 5430 mdm[1572]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=brrios
+Jul 22 13:39:01 5430 mdm[1572]: pam_unix(mdm:session): session opened for user brrios by (uid=0)
+Jul 22 13:39:01 5430 systemd-logind[902]: New session c1 of user brrios.
+Jul 22 13:39:01 5430 systemd-logind[902]: Linked /tmp/.X11-unix/X0 to /run/user/3405/X11-display.
+Jul 22 13:39:01 5430 mdm[1572]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 22 13:39:08 5430 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.18 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 22 13:40:01 5430 CRON[2618]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:40:09 5430 CRON[2618]: pam_unix(cron:session): session closed for user root
+Jul 22 13:43:32 5430 su[2959]: Successful su for nobody by root
+Jul 22 13:43:32 5430 su[2959]: + ??? root:nobody
+Jul 22 13:43:32 5430 su[2959]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 22 13:43:32 5430 systemd-logind[902]: New session c2 of user nobody.
+Jul 22 13:43:32 5430 su[2959]: pam_unix(su:session): session closed for user nobody
+Jul 22 13:43:32 5430 su[2967]: Successful su for nobody by root
+Jul 22 13:43:32 5430 su[2967]: + ??? root:nobody
+Jul 22 13:43:32 5430 su[2967]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 22 13:43:32 5430 systemd-logind[902]: Removed session c2.
+Jul 22 13:43:32 5430 systemd-logind[902]: New session c3 of user nobody.
+Jul 22 13:43:32 5430 su[2967]: pam_unix(su:session): session closed for user nobody
+Jul 22 13:43:32 5430 su[2981]: Successful su for nobody by root
+Jul 22 13:43:32 5430 su[2981]: + ??? root:nobody
+Jul 22 13:43:32 5430 su[2981]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 22 13:43:32 5430 systemd-logind[902]: Removed session c3.
+Jul 22 13:43:32 5430 systemd-logind[902]: New session c4 of user nobody.
+Jul 22 13:43:48 5430 su[2981]: pam_unix(su:session): session closed for user nobody
+Jul 22 13:44:14 5430 dbus[857]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.47" (uid=3405 pid=3057 comm="reload mdm ") interface="com.ubuntu.Upstart0_6.Instance" member="Reload" error name="(unset)" requested_reply="0" destination="com.ubuntu.Upstart" (uid=0 pid=1 comm="/sbin/init")
+Jul 22 13:45:01 5430 CRON[3065]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:45:09 5430 CRON[3065]: pam_unix(cron:session): session closed for user root
+Jul 22 13:50:01 5430 CRON[3126]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:50:03 5430 CRON[3126]: pam_unix(cron:session): session closed for user root
+Jul 22 13:55:01 5430 CRON[3185]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 13:55:08 5430 CRON[3185]: pam_unix(cron:session): session closed for user root
+Jul 22 14:00:01 5430 CRON[3244]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 14:00:07 5430 CRON[3244]: pam_unix(cron:session): session closed for user root
+Jul 22 14:05:01 5430 CRON[3303]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 14:05:09 5430 CRON[3303]: pam_unix(cron:session): session closed for user root
+Jul 22 14:09:13 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 14:09:13 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 14:10:01 5430 CRON[3389]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 14:10:12 5430 CRON[3389]: pam_unix(cron:session): session closed for user root
+Jul 22 14:11:22 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 14:13:53 5430 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost=  user=brrios
+Jul 22 14:13:53 5430 xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost= user=brrios
+Jul 22 14:13:53 5430 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 22 14:15:01 5430 CRON[3459]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 14:15:04 5430 CRON[3459]: pam_unix(cron:session): session closed for user root
+Jul 22 14:17:01 5430 CRON[3513]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 14:17:01 5430 CRON[3513]: pam_unix(cron:session): session closed for user root
+Jul 22 14:20:01 5430 CRON[3524]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 14:20:04 5430 CRON[3524]: pam_unix(cron:session): session closed for user root
+Jul 22 14:25:01 5430 CRON[3583]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 14:25:08 5430 CRON[3583]: pam_unix(cron:session): session closed for user root
+Jul 22 14:30:01 5430 CRON[3641]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 14:30:04 5430 CRON[3641]: pam_unix(cron:session): session closed for user root
+Jul 22 14:35:01 5430 CRON[3699]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 14:35:05 5430 CRON[3699]: pam_unix(cron:session): session closed for user root
+Jul 22 14:39:13 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 14:39:13 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 14:40:01 5430 CRON[3787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 14:40:12 5430 CRON[3787]: pam_unix(cron:session): session closed for user root
+Jul 22 14:43:15 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 14:45:01 5430 CRON[3849]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 14:45:09 5430 CRON[3849]: pam_unix(cron:session): session closed for user root
+Jul 22 14:50:01 5430 CRON[3908]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 14:50:05 5430 CRON[3908]: pam_unix(cron:session): session closed for user root
+Jul 22 14:55:01 5430 CRON[3965]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 14:55:09 5430 CRON[3965]: pam_unix(cron:session): session closed for user root
+Jul 22 15:00:01 5430 CRON[4027]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 15:00:09 5430 CRON[4027]: pam_unix(cron:session): session closed for user root
+Jul 22 15:05:01 5430 CRON[4084]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 15:05:08 5430 CRON[4084]: pam_unix(cron:session): session closed for user root
+Jul 22 15:08:17 5430 sshd[4153]: Did not receive identification string from 192.168.106.16
+Jul 22 15:08:38 5430 sshd[4156]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 22 15:08:39 5430 sshd[4163]: fatal: no hostkey alg [preauth]
+Jul 22 15:08:40 5430 sshd[4165]: fatal: no hostkey alg [preauth]
+Jul 22 15:08:40 5430 sshd[4161]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 15:08:40 5430 sshd[4159]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 15:08:40 5430 sshd[4157]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 15:08:41 5430 sshd[4167]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 22 15:09:13 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 15:09:13 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 15:10:01 5430 CRON[4201]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 15:10:08 5430 CRON[4201]: pam_unix(cron:session): session closed for user root
+Jul 22 15:13:15 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 15:15:01 5430 CRON[4262]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 15:15:06 5430 CRON[4262]: pam_unix(cron:session): session closed for user root
+Jul 22 15:17:01 5430 CRON[4316]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 15:17:01 5430 CRON[4316]: pam_unix(cron:session): session closed for user root
+Jul 22 15:20:01 5430 CRON[4324]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 15:20:03 5430 CRON[4324]: pam_unix(cron:session): session closed for user root
+Jul 22 15:25:01 5430 CRON[4384]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 15:25:06 5430 CRON[4384]: pam_unix(cron:session): session closed for user root
+Jul 22 15:30:01 5430 CRON[4444]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 15:30:07 5430 CRON[4444]: pam_unix(cron:session): session closed for user root
+Jul 22 15:35:01 5430 CRON[4596]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 15:35:09 5430 CRON[4596]: pam_unix(cron:session): session closed for user root
+Jul 22 15:39:13 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 15:39:13 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 15:39:34 5430 sshd[4656]: Did not receive identification string from 192.168.106.16
+Jul 22 15:40:01 5430 CRON[4697]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 15:40:07 5430 CRON[4697]: pam_unix(cron:session): session closed for user root
+Jul 22 15:40:11 5430 sshd[4751]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 22 15:40:11 5430 sshd[4752]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 22 15:40:13 5430 sshd[4759]: fatal: no hostkey alg [preauth]
+Jul 22 15:40:13 5430 sshd[4761]: fatal: no hostkey alg [preauth]
+Jul 22 15:40:13 5430 sshd[4755]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 15:40:13 5430 sshd[4753]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 15:40:13 5430 sshd[4757]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 15:43:16 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 15:45:01 5430 CRON[4770]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 15:45:04 5430 CRON[4770]: pam_unix(cron:session): session closed for user root
+Jul 22 15:50:01 5430 CRON[4831]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 15:50:08 5430 CRON[4831]: pam_unix(cron:session): session closed for user root
+Jul 22 15:55:01 5430 CRON[4889]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 15:55:09 5430 CRON[4889]: pam_unix(cron:session): session closed for user root
+Jul 22 15:55:59 5430 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost=  user=brrios
+Jul 22 15:55:59 5430 xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost= user=brrios
+Jul 22 15:55:59 5430 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 22 16:00:01 5430 CRON[4950]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 16:00:04 5430 CRON[4950]: pam_unix(cron:session): session closed for user root
+Jul 22 16:05:01 5430 CRON[5009]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 16:05:04 5430 CRON[5009]: pam_unix(cron:session): session closed for user root
+Jul 22 16:09:13 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 16:09:13 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 16:10:01 5430 CRON[5095]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 16:10:12 5430 CRON[5095]: pam_unix(cron:session): session closed for user root
+Jul 22 16:13:16 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 16:15:01 5430 CRON[5158]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 16:15:08 5430 CRON[5158]: pam_unix(cron:session): session closed for user root
+Jul 22 16:17:01 5430 CRON[5212]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 16:17:01 5430 CRON[5212]: pam_unix(cron:session): session closed for user root
+Jul 22 16:20:01 5430 CRON[5219]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 16:20:03 5430 CRON[5219]: pam_unix(cron:session): session closed for user root
+Jul 22 16:25:01 5430 CRON[5280]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 16:25:04 5430 CRON[5280]: pam_unix(cron:session): session closed for user root
+Jul 22 16:30:01 5430 CRON[5339]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 16:30:05 5430 CRON[5339]: pam_unix(cron:session): session closed for user root
+Jul 22 16:35:01 5430 CRON[5397]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 16:35:05 5430 CRON[5397]: pam_unix(cron:session): session closed for user root
+Jul 22 16:39:13 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 16:39:13 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 16:40:01 5430 CRON[5537]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 16:40:08 5430 CRON[5537]: pam_unix(cron:session): session closed for user root
+Jul 22 16:41:20 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 16:45:02 5430 CRON[5604]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 16:45:07 5430 CRON[5604]: pam_unix(cron:session): session closed for user root
+Jul 22 16:50:01 5430 CRON[5663]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 16:50:04 5430 CRON[5663]: pam_unix(cron:session): session closed for user root
+Jul 22 16:55:01 5430 CRON[5721]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 16:55:04 5430 CRON[5721]: pam_unix(cron:session): session closed for user root
+Jul 22 17:00:01 5430 CRON[5780]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 17:00:04 5430 CRON[5780]: pam_unix(cron:session): session closed for user root
+Jul 22 17:04:37 5430 sshd[5838]: Did not receive identification string from 192.168.106.16
+Jul 22 17:05:01 5430 CRON[5840]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 17:05:03 5430 CRON[5840]: pam_unix(cron:session): session closed for user root
+Jul 22 17:05:21 5430 sshd[5892]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 22 17:05:22 5430 sshd[5893]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 17:05:23 5430 sshd[5899]: fatal: no hostkey alg [preauth]
+Jul 22 17:05:23 5430 sshd[5901]: fatal: no hostkey alg [preauth]
+Jul 22 17:05:23 5430 sshd[5895]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 17:05:23 5430 sshd[5897]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 17:05:25 5430 sshd[5903]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 22 17:09:13 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 17:09:13 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 17:10:01 5430 CRON[5939]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 17:10:10 5430 CRON[5939]: pam_unix(cron:session): session closed for user root
+Jul 22 17:11:38 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 17:15:01 5430 CRON[6007]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 17:15:04 5430 CRON[6007]: pam_unix(cron:session): session closed for user root
+Jul 22 17:17:01 5430 CRON[6062]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 17:17:01 5430 CRON[6062]: pam_unix(cron:session): session closed for user root
+Jul 22 17:20:01 5430 CRON[6073]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 17:20:03 5430 CRON[6073]: pam_unix(cron:session): session closed for user root
+Jul 22 17:25:01 5430 CRON[6132]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 17:25:04 5430 CRON[6132]: pam_unix(cron:session): session closed for user root
+Jul 22 17:30:01 5430 CRON[6190]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 17:30:04 5430 CRON[6190]: pam_unix(cron:session): session closed for user root
+Jul 22 17:35:01 5430 CRON[6249]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 17:35:04 5430 CRON[6249]: pam_unix(cron:session): session closed for user root
+Jul 22 17:39:13 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 17:39:13 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 17:40:01 5430 CRON[6345]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 17:40:10 5430 CRON[6345]: pam_unix(cron:session): session closed for user root
+Jul 22 17:41:23 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 17:45:01 5430 CRON[6429]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 17:45:06 5430 CRON[6429]: pam_unix(cron:session): session closed for user root
+Jul 22 17:50:01 5430 CRON[6489]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 17:50:03 5430 CRON[6489]: pam_unix(cron:session): session closed for user root
+Jul 22 17:55:01 5430 CRON[6551]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 17:55:03 5430 CRON[6551]: pam_unix(cron:session): session closed for user root
+Jul 22 18:00:01 5430 CRON[6613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 18:00:04 5430 CRON[6613]: pam_unix(cron:session): session closed for user root
+Jul 22 18:05:01 5430 CRON[6671]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 18:05:04 5430 CRON[6671]: pam_unix(cron:session): session closed for user root
+Jul 22 18:08:12 5430 sshd[6725]: Did not receive identification string from 192.168.106.16
+Jul 22 18:08:38 5430 sshd[6729]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 22 18:08:39 5430 sshd[6730]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 22 18:08:40 5430 sshd[6731]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 18:08:41 5430 sshd[6737]: fatal: no hostkey alg [preauth]
+Jul 22 18:08:41 5430 sshd[6739]: fatal: no hostkey alg [preauth]
+Jul 22 18:08:41 5430 sshd[6735]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 18:08:41 5430 sshd[6733]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 18:09:13 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 18:09:13 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 18:10:01 5430 CRON[6772]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 18:10:11 5430 CRON[6772]: pam_unix(cron:session): session closed for user root
+Jul 22 18:11:23 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 18:15:01 5430 CRON[6841]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 18:15:03 5430 CRON[6841]: pam_unix(cron:session): session closed for user root
+Jul 22 18:16:39 5430 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost=  user=brrios
+Jul 22 18:16:39 5430 xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost= user=brrios
+Jul 22 18:16:39 5430 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 22 18:17:01 5430 CRON[6899]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 18:17:01 5430 CRON[6899]: pam_unix(cron:session): session closed for user root
+Jul 22 18:20:01 5430 CRON[6909]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 18:20:03 5430 CRON[6909]: pam_unix(cron:session): session closed for user root
+Jul 22 18:20:31 5430 sshd[6908]: Did not receive identification string from 192.168.106.16
+Jul 22 18:20:52 5430 sshd[6968]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 22 18:20:58 5430 sshd[6969]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 22 18:21:00 5430 sshd[6976]: fatal: no hostkey alg [preauth]
+Jul 22 18:21:00 5430 sshd[6978]: fatal: no hostkey alg [preauth]
+Jul 22 18:21:00 5430 sshd[6974]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 18:21:00 5430 sshd[6970]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 18:21:00 5430 sshd[6972]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 18:25:01 5430 CRON[6985]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 18:25:05 5430 CRON[6985]: pam_unix(cron:session): session closed for user root
+Jul 22 18:30:01 5430 CRON[7044]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 18:30:04 5430 CRON[7044]: pam_unix(cron:session): session closed for user root
+Jul 22 18:35:01 5430 CRON[7101]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 18:35:03 5430 CRON[7101]: pam_unix(cron:session): session closed for user root
+Jul 22 18:36:11 5430 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost=  user=brrios
+Jul 22 18:36:12 5430 xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost= user=brrios
+Jul 22 18:36:12 5430 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 22 18:39:13 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 18:39:13 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 18:40:01 5430 CRON[7189]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 18:40:07 5430 CRON[7189]: pam_unix(cron:session): session closed for user root
+Jul 22 18:41:38 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 18:41:51 5430 sshd[7244]: Did not receive identification string from 192.168.106.16
+Jul 22 18:42:21 5430 sshd[7254]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 22 18:42:21 5430 sshd[7253]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 22 18:42:23 5430 sshd[7261]: fatal: no hostkey alg [preauth]
+Jul 22 18:42:23 5430 sshd[7263]: fatal: no hostkey alg [preauth]
+Jul 22 18:42:23 5430 sshd[7255]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 18:42:23 5430 sshd[7259]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 18:42:23 5430 sshd[7257]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 18:45:01 5430 CRON[7268]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 18:45:07 5430 CRON[7268]: pam_unix(cron:session): session closed for user root
+Jul 22 18:50:01 5430 CRON[7327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 18:50:07 5430 CRON[7327]: pam_unix(cron:session): session closed for user root
+Jul 22 18:55:01 5430 CRON[7386]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 18:55:07 5430 CRON[7386]: pam_unix(cron:session): session closed for user root
+Jul 22 18:55:17 5430 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost=  user=brrios
+Jul 22 18:55:17 5430 xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost= user=brrios
+Jul 22 18:55:17 5430 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 22 19:00:01 5430 CRON[7445]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 19:00:04 5430 CRON[7445]: pam_unix(cron:session): session closed for user root
+Jul 22 19:05:01 5430 CRON[7503]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 19:05:05 5430 CRON[7503]: pam_unix(cron:session): session closed for user root
+Jul 22 19:09:14 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 19:09:14 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 19:10:01 5430 CRON[7656]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 19:10:11 5430 CRON[7656]: pam_unix(cron:session): session closed for user root
+Jul 22 19:11:23 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 19:15:01 5430 CRON[7794]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 19:15:04 5430 CRON[7794]: pam_unix(cron:session): session closed for user root
+Jul 22 19:17:01 5430 CRON[7881]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 19:17:01 5430 CRON[7881]: pam_unix(cron:session): session closed for user root
+Jul 22 19:20:01 5430 CRON[7888]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 19:20:03 5430 CRON[7888]: pam_unix(cron:session): session closed for user root
+Jul 22 19:25:01 5430 CRON[7960]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 19:25:04 5430 CRON[7960]: pam_unix(cron:session): session closed for user root
+Jul 22 19:30:01 5430 CRON[8041]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 19:30:03 5430 CRON[8041]: pam_unix(cron:session): session closed for user root
+Jul 22 19:35:01 5430 CRON[8132]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 19:35:05 5430 CRON[8132]: pam_unix(cron:session): session closed for user root
+Jul 22 19:39:14 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 19:39:14 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 19:40:01 5430 CRON[8263]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 19:40:08 5430 CRON[8263]: pam_unix(cron:session): session closed for user root
+Jul 22 19:43:16 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 19:45:01 5430 CRON[8335]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 19:45:03 5430 CRON[8335]: pam_unix(cron:session): session closed for user root
+Jul 22 19:50:01 5430 CRON[8394]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 19:50:04 5430 CRON[8394]: pam_unix(cron:session): session closed for user root
+Jul 22 19:55:01 5430 CRON[8451]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 19:55:05 5430 CRON[8451]: pam_unix(cron:session): session closed for user root
+Jul 22 20:00:01 5430 CRON[8511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 20:00:04 5430 CRON[8511]: pam_unix(cron:session): session closed for user root
+Jul 22 20:05:01 5430 CRON[8568]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 20:05:04 5430 CRON[8568]: pam_unix(cron:session): session closed for user root
+Jul 22 20:09:14 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 20:09:14 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 20:10:01 5430 CRON[8657]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 20:10:09 5430 CRON[8657]: pam_unix(cron:session): session closed for user root
+Jul 22 20:12:27 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 20:15:01 5430 CRON[8723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 20:15:03 5430 CRON[8723]: pam_unix(cron:session): session closed for user root
+Jul 22 20:17:01 5430 CRON[8778]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 20:17:01 5430 CRON[8778]: pam_unix(cron:session): session closed for user root
+Jul 22 20:20:01 5430 CRON[8785]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 20:20:03 5430 CRON[8785]: pam_unix(cron:session): session closed for user root
+Jul 22 20:25:01 5430 CRON[8847]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 20:25:04 5430 CRON[8847]: pam_unix(cron:session): session closed for user root
+Jul 22 20:30:01 5430 CRON[8906]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 20:30:08 5430 CRON[8906]: pam_unix(cron:session): session closed for user root
+Jul 22 20:35:01 5430 CRON[8965]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 20:35:04 5430 CRON[8965]: pam_unix(cron:session): session closed for user root
+Jul 22 20:39:14 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 20:39:14 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 20:40:01 5430 CRON[9053]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 20:40:07 5430 CRON[9053]: pam_unix(cron:session): session closed for user root
+Jul 22 20:41:24 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 20:45:01 5430 CRON[9120]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 20:45:03 5430 CRON[9120]: pam_unix(cron:session): session closed for user root
+Jul 22 20:50:01 5430 CRON[9179]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 20:50:05 5430 CRON[9179]: pam_unix(cron:session): session closed for user root
+Jul 22 20:55:01 5430 CRON[9237]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 20:55:04 5430 CRON[9237]: pam_unix(cron:session): session closed for user root
+Jul 22 21:00:01 5430 CRON[9296]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 21:00:07 5430 CRON[9296]: pam_unix(cron:session): session closed for user root
+Jul 22 21:05:01 5430 CRON[9355]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 21:05:03 5430 CRON[9355]: pam_unix(cron:session): session closed for user root
+Jul 22 21:07:04 5430 sshd[9409]: Did not receive identification string from 192.168.106.16
+Jul 22 21:07:28 5430 sshd[9411]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 22 21:07:29 5430 sshd[9418]: fatal: no hostkey alg [preauth]
+Jul 22 21:07:29 5430 sshd[9420]: fatal: no hostkey alg [preauth]
+Jul 22 21:07:29 5430 sshd[9416]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 21:07:29 5430 sshd[9412]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 21:07:29 5430 sshd[9414]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 21:07:30 5430 sshd[9422]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 22 21:09:14 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 21:09:14 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 21:10:01 5430 CRON[9455]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 21:10:08 5430 CRON[9455]: pam_unix(cron:session): session closed for user root
+Jul 22 21:11:21 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 21:15:01 5430 CRON[9524]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 21:15:03 5430 CRON[9524]: pam_unix(cron:session): session closed for user root
+Jul 22 21:17:01 5430 CRON[9578]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 21:17:01 5430 CRON[9578]: pam_unix(cron:session): session closed for user root
+Jul 22 21:20:01 5430 CRON[9585]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 21:20:04 5430 CRON[9585]: pam_unix(cron:session): session closed for user root
+Jul 22 21:25:01 5430 CRON[9642]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 21:25:03 5430 CRON[9642]: pam_unix(cron:session): session closed for user root
+Jul 22 21:30:01 5430 CRON[9704]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 21:30:04 5430 CRON[9704]: pam_unix(cron:session): session closed for user root
+Jul 22 21:35:01 5430 CRON[9762]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 21:35:04 5430 CRON[9762]: pam_unix(cron:session): session closed for user root
+Jul 22 21:39:14 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 22 21:39:14 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 21:40:01 5430 CRON[9859]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 21:40:08 5430 CRON[9859]: pam_unix(cron:session): session closed for user root
+Jul 22 21:43:17 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 21:45:01 5430 CRON[9920]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 21:45:03 5430 CRON[9920]: pam_unix(cron:session): session closed for user root
+Jul 22 21:50:01 5430 CRON[9995]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 21:50:04 5430 CRON[9995]: pam_unix(cron:session): session closed for user root
+Jul 22 21:55:01 5430 CRON[10089]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 21:55:03 5430 CRON[10089]: pam_unix(cron:session): session closed for user root
+Jul 22 22:00:01 5430 CRON[10148]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 22:00:04 5430 CRON[10148]: pam_unix(cron:session): session closed for user root
+Jul 22 22:04:20 5430 systemd-logind[902]: Removed session c4.
+Jul 22 22:04:20 5430 systemd-logind[902]: System is powering down.
+Jul 22 22:04:21 5430 systemd-logind[902]: Operation finished.
+Jul 23 14:35:41 5430 systemd-logind[926]: New seat seat0.
+Jul 23 14:35:57 5430 sshd[1344]: Server listening on 0.0.0.0 port 22.
+Jul 23 14:35:57 5430 sshd[1344]: Server listening on :: port 22.
+Jul 23 14:35:57 5430 CRON[1419]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 14:35:57 5430 CRON[1419]: pam_unix(cron:session): session closed for user root
+Jul 23 14:36:04 5430 mdm[1583]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 23 14:36:04 5430 mdm[1583]: PAM adding faulty module: pam_kwallet.so
+Jul 23 14:36:29 5430 mdm[1583]: pam_unix(mdm:auth): check pass; user unknown
+Jul 23 14:36:29 5430 mdm[1583]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Jul 23 14:36:29 5430 mdm[1583]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=brrios1
+Jul 23 14:36:29 5430 mdm[1583]: pam_sss(mdm:auth): received for user brrios1: 10 (User not known to the underlying authentication module)
+Jul 23 14:36:32 5430 mdm[1583]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 23 14:36:32 5430 mdm[1583]: PAM adding faulty module: pam_kwallet.so
+Jul 23 14:36:44 5430 mdm[1583]: pam_unix(mdm:auth): check pass; user unknown
+Jul 23 14:36:44 5430 mdm[1583]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Jul 23 14:36:44 5430 mdm[1583]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=10011993Jri
+Jul 23 14:36:44 5430 mdm[1583]: pam_sss(mdm:auth): received for user 10011993Jri: 10 (User not known to the underlying authentication module)
+Jul 23 14:36:47 5430 mdm[1583]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 23 14:36:47 5430 mdm[1583]: PAM adding faulty module: pam_kwallet.so
+Jul 23 14:36:51 5430 mdm[1583]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "brrios"
+Jul 23 14:36:56 5430 mdm[1583]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=brrios
+Jul 23 14:36:57 5430 mdm[1583]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=brrios
+Jul 23 14:36:57 5430 mdm[1583]: pam_unix(mdm:session): session opened for user brrios by (uid=0)
+Jul 23 14:36:57 5430 systemd-logind[926]: New session c1 of user brrios.
+Jul 23 14:36:57 5430 systemd-logind[926]: Linked /tmp/.X11-unix/X0 to /run/user/3405/X11-display.
+Jul 23 14:36:57 5430 mdm[1583]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 23 14:37:03 5430 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.18 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 23 14:40:01 5430 CRON[2811]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 14:40:08 5430 CRON[2811]: pam_unix(cron:session): session closed for user root
+Jul 23 14:40:57 5430 su[3021]: Successful su for nobody by root
+Jul 23 14:40:57 5430 su[3021]: + ??? root:nobody
+Jul 23 14:40:57 5430 su[3021]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 23 14:40:57 5430 systemd-logind[926]: New session c2 of user nobody.
+Jul 23 14:40:57 5430 su[3021]: pam_unix(su:session): session closed for user nobody
+Jul 23 14:40:57 5430 su[3029]: Successful su for nobody by root
+Jul 23 14:40:57 5430 su[3029]: + ??? root:nobody
+Jul 23 14:40:57 5430 su[3029]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 23 14:40:57 5430 systemd-logind[926]: Removed session c2.
+Jul 23 14:40:57 5430 systemd-logind[926]: New session c3 of user nobody.
+Jul 23 14:40:57 5430 su[3029]: pam_unix(su:session): session closed for user nobody
+Jul 23 14:40:57 5430 su[3043]: Successful su for nobody by root
+Jul 23 14:40:57 5430 su[3043]: + ??? root:nobody
+Jul 23 14:40:57 5430 su[3043]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 23 14:40:57 5430 systemd-logind[926]: Removed session c3.
+Jul 23 14:40:57 5430 systemd-logind[926]: New session c4 of user nobody.
+Jul 23 14:41:14 5430 su[3043]: pam_unix(su:session): session closed for user nobody
+Jul 23 14:42:09 5430 dbus[868]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.44" (uid=3405 pid=3118 comm="reload mdm ") interface="com.ubuntu.Upstart0_6.Instance" member="Reload" error name="(unset)" requested_reply="0" destination="com.ubuntu.Upstart" (uid=0 pid=1 comm="/sbin/init")
+Jul 23 14:45:01 5430 CRON[3129]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 14:45:08 5430 CRON[3129]: pam_unix(cron:session): session closed for user root
+Jul 23 14:50:01 5430 CRON[3194]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 14:50:08 5430 CRON[3194]: pam_unix(cron:session): session closed for user root
+Jul 23 14:55:01 5430 CRON[3251]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 14:55:07 5430 CRON[3251]: pam_unix(cron:session): session closed for user root
+Jul 23 15:00:01 5430 CRON[3309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 15:00:03 5430 CRON[3309]: pam_unix(cron:session): session closed for user root
+Jul 23 15:04:25 5430 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost=  user=brrios
+Jul 23 15:04:25 5430 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost= user=brrios
+Jul 23 15:04:25 5430 xscreensaver: pam_sss(xscreensaver:auth): received for user brrios: 7 (Authentication failure)
+Jul 23 15:04:27 5430 xscreensaver[2196]: FAILED LOGIN 1 ON DISPLAY ":0.0", FOR "brrios"
+Jul 23 15:04:37 5430 xscreensaver[2196]: pam_unix(xscreensaver:auth): authentication failure; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost=  user=brrios
+Jul 23 15:04:37 5430 xscreensaver[2196]: pam_sss(xscreensaver:auth): authentication success; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost= user=brrios
+Jul 23 15:04:37 5430 xscreensaver[2196]: pam_ecryptfs: seteuid error
+Jul 23 15:04:37 5430 xscreensaver[2196]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 23 15:05:01 5430 CRON[3369]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 15:05:04 5430 CRON[3369]: pam_unix(cron:session): session closed for user root
+Jul 23 15:07:08 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 15:07:08 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 15:09:26 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 15:09:48 5430 sshd[3459]: Did not receive identification string from 192.168.106.16
+Jul 23 15:10:01 5430 CRON[3469]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 15:10:04 5430 CRON[3469]: pam_unix(cron:session): session closed for user root
+Jul 23 15:10:14 5430 sshd[3521]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 23 15:10:16 5430 sshd[3522]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 23 15:10:18 5430 sshd[3529]: fatal: no hostkey alg [preauth]
+Jul 23 15:10:18 5430 sshd[3531]: fatal: no hostkey alg [preauth]
+Jul 23 15:10:18 5430 sshd[3523]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 15:10:18 5430 sshd[3527]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 15:10:18 5430 sshd[3525]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 15:15:01 5430 CRON[3539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 15:15:05 5430 CRON[3539]: pam_unix(cron:session): session closed for user root
+Jul 23 15:17:01 5430 CRON[3593]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 15:17:01 5430 CRON[3593]: pam_unix(cron:session): session closed for user root
+Jul 23 15:20:01 5430 CRON[3601]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 15:20:04 5430 CRON[3601]: pam_unix(cron:session): session closed for user root
+Jul 23 15:25:01 5430 CRON[3699]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 15:25:06 5430 CRON[3699]: pam_unix(cron:session): session closed for user root
+Jul 23 15:30:01 5430 CRON[3760]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 15:30:09 5430 CRON[3760]: pam_unix(cron:session): session closed for user root
+Jul 23 15:35:01 5430 CRON[3924]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 15:35:04 5430 CRON[3924]: pam_unix(cron:session): session closed for user root
+Jul 23 15:37:09 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 15:37:09 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 15:39:25 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 15:40:01 5430 CRON[4020]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 15:40:03 5430 CRON[4020]: pam_unix(cron:session): session closed for user root
+Jul 23 15:45:01 5430 CRON[4079]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 15:45:09 5430 CRON[4079]: pam_unix(cron:session): session closed for user root
+Jul 23 15:50:01 5430 CRON[4137]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 15:50:03 5430 CRON[4137]: pam_unix(cron:session): session closed for user root
+Jul 23 15:53:55 5430 sshd[4192]: Did not receive identification string from 192.168.106.16
+Jul 23 15:54:25 5430 sshd[4198]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 23 15:54:26 5430 sshd[4199]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 23 15:54:27 5430 sshd[4202]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 15:54:27 5430 sshd[4200]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 15:54:27 5430 sshd[4206]: fatal: no hostkey alg [preauth]
+Jul 23 15:54:28 5430 sshd[4208]: fatal: no hostkey alg [preauth]
+Jul 23 15:54:28 5430 sshd[4204]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 15:55:01 5430 CRON[4211]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 15:55:04 5430 CRON[4211]: pam_unix(cron:session): session closed for user root
+Jul 23 16:00:01 5430 CRON[4283]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:00:03 5430 CRON[4283]: pam_unix(cron:session): session closed for user root
+Jul 23 16:05:01 5430 CRON[4341]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:05:08 5430 CRON[4341]: pam_unix(cron:session): session closed for user root
+Jul 23 16:07:09 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 16:07:09 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 16:10:01 5430 CRON[4431]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:10:07 5430 CRON[4431]: pam_unix(cron:session): session closed for user root
+Jul 23 16:11:11 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 16:15:01 5430 CRON[4493]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:15:03 5430 CRON[4493]: pam_unix(cron:session): session closed for user root
+Jul 23 16:17:01 5430 CRON[4547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:17:01 5430 CRON[4547]: pam_unix(cron:session): session closed for user root
+Jul 23 16:20:01 5430 CRON[4555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:20:05 5430 CRON[4555]: pam_unix(cron:session): session closed for user root
+Jul 23 16:25:01 5430 CRON[4613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:25:08 5430 CRON[4613]: pam_unix(cron:session): session closed for user root
+Jul 23 16:30:01 5430 CRON[4671]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:30:01 5430 xscreensaver[2196]: pam_unix(xscreensaver:auth): authentication failure; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost=  user=brrios
+Jul 23 16:30:02 5430 xscreensaver[2196]: pam_sss(xscreensaver:auth): authentication success; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost= user=brrios
+Jul 23 16:30:02 5430 xscreensaver[2196]: pam_ecryptfs: seteuid error
+Jul 23 16:30:02 5430 xscreensaver[2196]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 23 16:30:03 5430 CRON[4671]: pam_unix(cron:session): session closed for user root
+Jul 23 16:32:47 5430 systemd-logind[926]: Removed session c4.
+Jul 23 16:32:47 5430 systemd-logind[926]: System is rebooting.
+Jul 23 16:33:14 5430 systemd-logind[918]: New seat seat0.
+Jul 23 16:33:30 5430 sshd[1339]: Server listening on 0.0.0.0 port 22.
+Jul 23 16:33:30 5430 sshd[1339]: Server listening on :: port 22.
+Jul 23 16:33:30 5430 CRON[1432]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:33:30 5430 CRON[1432]: pam_unix(cron:session): session closed for user root
+Jul 23 16:33:36 5430 mdm[1574]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 23 16:33:36 5430 mdm[1574]: PAM adding faulty module: pam_kwallet.so
+Jul 23 16:33:42 5430 mdm[1574]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "brrios"
+Jul 23 16:33:47 5430 mdm[1574]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=brrios
+Jul 23 16:33:47 5430 mdm[1574]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=brrios
+Jul 23 16:33:47 5430 mdm[1574]: pam_sss(mdm:auth): received for user brrios: 7 (Authentication failure)
+Jul 23 16:33:50 5430 mdm[1574]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 23 16:33:50 5430 mdm[1574]: PAM adding faulty module: pam_kwallet.so
+Jul 23 16:33:56 5430 mdm[1574]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "brrios"
+Jul 23 16:34:01 5430 mdm[1574]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=brrios
+Jul 23 16:34:02 5430 mdm[1574]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=brrios
+Jul 23 16:34:02 5430 mdm[1574]: pam_unix(mdm:session): session opened for user brrios by (uid=0)
+Jul 23 16:34:02 5430 systemd-logind[918]: New session c1 of user brrios.
+Jul 23 16:34:02 5430 systemd-logind[918]: Linked /tmp/.X11-unix/X0 to /run/user/3405/X11-display.
+Jul 23 16:34:02 5430 mdm[1574]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 23 16:34:09 5430 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.21 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 23 16:35:01 5430 CRON[2527]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:35:08 5430 CRON[2527]: pam_unix(cron:session): session closed for user root
+Jul 23 16:35:32 5430 mdm[1574]: pam_unix(mdm:session): session closed for user brrios
+Jul 23 16:35:32 5430 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.21, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jul 23 16:35:33 5430 mdm[2760]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 23 16:35:33 5430 mdm[2760]: PAM adding faulty module: pam_kwallet.so
+Jul 23 16:35:36 5430 mdm[2760]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jul 23 16:35:39 5430 mdm[2760]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tech
+Jul 23 16:35:39 5430 mdm[2760]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech
+Jul 23 16:35:39 5430 mdm[2760]: pam_sss(mdm:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Jul 23 16:35:41 5430 mdm[2760]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 23 16:35:41 5430 mdm[2760]: PAM adding faulty module: pam_kwallet.so
+Jul 23 16:35:54 5430 mdm[2760]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jul 23 16:35:57 5430 mdm[2760]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tech
+Jul 23 16:35:57 5430 mdm[2760]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech
+Jul 23 16:35:57 5430 mdm[2760]: pam_sss(mdm:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Jul 23 16:36:01 5430 mdm[2760]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 23 16:36:01 5430 mdm[2760]: PAM adding faulty module: pam_kwallet.so
+Jul 23 16:36:03 5430 mdm[2760]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jul 23 16:36:04 5430 mdm[2760]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jul 23 16:36:04 5430 systemd-logind[918]: Removed session c1.
+Jul 23 16:36:04 5430 systemd-logind[918]: New session c2 of user tech.
+Jul 23 16:36:04 5430 systemd-logind[918]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jul 23 16:36:04 5430 mdm[2760]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 23 16:36:08 5430 polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.52 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 23 16:38:28 5430 mdm[2760]: pam_unix(mdm:session): session closed for user tech
+Jul 23 16:38:28 5430 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.52, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jul 23 16:38:30 5430 mdm[3377]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 23 16:38:30 5430 mdm[3377]: PAM adding faulty module: pam_kwallet.so
+Jul 23 16:38:48 5430 mdm[3377]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "brrios"
+Jul 23 16:38:54 5430 mdm[3377]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=brrios
+Jul 23 16:38:55 5430 mdm[3377]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=brrios
+Jul 23 16:38:55 5430 mdm[3377]: pam_sss(mdm:auth): received for user brrios: 7 (Authentication failure)
+Jul 23 16:38:57 5430 mdm[3377]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 23 16:38:57 5430 mdm[3377]: PAM adding faulty module: pam_kwallet.so
+Jul 23 16:39:18 5430 mdm[3377]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "brrios"
+Jul 23 16:39:23 5430 mdm[3377]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=brrios
+Jul 23 16:39:23 5430 mdm[3377]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=brrios
+Jul 23 16:39:23 5430 mdm[3377]: pam_unix(mdm:session): session opened for user brrios by (uid=0)
+Jul 23 16:39:23 5430 systemd-logind[918]: Removed session c2.
+Jul 23 16:39:23 5430 systemd-logind[918]: New session c3 of user brrios.
+Jul 23 16:39:23 5430 systemd-logind[918]: Linked /tmp/.X11-unix/X0 to /run/user/3405/X11-display.
+Jul 23 16:39:23 5430 mdm[3377]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 23 16:39:26 5430 polkitd(authority=local): Registered Authentication Agent for unix-session:c3 (system bus name :1.74 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 23 16:40:01 5430 CRON[4001]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:40:03 5430 CRON[4001]: pam_unix(cron:session): session closed for user root
+Jul 23 16:45:01 5430 CRON[4227]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:45:03 5430 CRON[4227]: pam_unix(cron:session): session closed for user root
+Jul 23 16:50:01 5430 CRON[4330]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:50:08 5430 CRON[4330]: pam_unix(cron:session): session closed for user root
+Jul 23 16:55:01 5430 CRON[4388]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 16:55:04 5430 CRON[4388]: pam_unix(cron:session): session closed for user root
+Jul 23 17:00:01 5430 CRON[4447]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 17:00:04 5430 CRON[4447]: pam_unix(cron:session): session closed for user root
+Jul 23 17:05:01 5430 CRON[4505]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 17:05:03 5430 CRON[4505]: pam_unix(cron:session): session closed for user root
+Jul 23 17:09:28 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 17:09:28 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 17:10:01 5430 CRON[4591]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 17:10:12 5430 CRON[4591]: pam_unix(cron:session): session closed for user root
+Jul 23 17:13:31 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 17:15:01 5430 CRON[4655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 17:15:07 5430 CRON[4655]: pam_unix(cron:session): session closed for user root
+Jul 23 17:17:01 5430 CRON[4709]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 17:17:01 5430 CRON[4709]: pam_unix(cron:session): session closed for user root
+Jul 23 17:17:24 5430 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost=  user=brrios
+Jul 23 17:17:24 5430 xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost= user=brrios
+Jul 23 17:17:24 5430 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 23 17:20:01 5430 CRON[4717]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 17:20:04 5430 CRON[4717]: pam_unix(cron:session): session closed for user root
+Jul 23 17:25:01 5430 CRON[4775]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 17:25:03 5430 CRON[4775]: pam_unix(cron:session): session closed for user root
+Jul 23 17:30:01 5430 CRON[4833]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 17:30:05 5430 CRON[4833]: pam_unix(cron:session): session closed for user root
+Jul 23 17:35:01 5430 CRON[4891]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 17:35:04 5430 CRON[4891]: pam_unix(cron:session): session closed for user root
+Jul 23 17:39:28 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 17:39:28 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 17:40:01 5430 CRON[5014]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 17:40:06 5430 CRON[5014]: pam_unix(cron:session): session closed for user root
+Jul 23 17:41:34 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 17:45:02 5430 CRON[5148]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 17:45:07 5430 CRON[5148]: pam_unix(cron:session): session closed for user root
+Jul 23 17:50:01 5430 CRON[5207]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 17:50:04 5430 CRON[5207]: pam_unix(cron:session): session closed for user root
+Jul 23 17:55:01 5430 CRON[5266]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 17:55:08 5430 CRON[5266]: pam_unix(cron:session): session closed for user root
+Jul 23 18:00:01 5430 CRON[5324]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 18:00:04 5430 CRON[5324]: pam_unix(cron:session): session closed for user root
+Jul 23 18:05:01 5430 CRON[5385]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 18:05:05 5430 CRON[5385]: pam_unix(cron:session): session closed for user root
+Jul 23 18:09:07 5430 sshd[5440]: Did not receive identification string from 192.168.106.16
+Jul 23 18:09:28 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 18:09:28 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 18:09:35 5430 sshd[5471]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 23 18:09:35 5430 sshd[5472]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 23 18:09:37 5430 sshd[5479]: fatal: no hostkey alg [preauth]
+Jul 23 18:09:37 5430 sshd[5481]: fatal: no hostkey alg [preauth]
+Jul 23 18:09:37 5430 sshd[5477]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 18:09:37 5430 sshd[5473]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 18:09:37 5430 sshd[5475]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 18:10:01 5430 CRON[5484]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 18:10:11 5430 CRON[5484]: pam_unix(cron:session): session closed for user root
+Jul 23 18:13:30 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 18:15:01 5430 CRON[5608]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 18:15:05 5430 CRON[5608]: pam_unix(cron:session): session closed for user root
+Jul 23 18:17:01 5430 CRON[5663]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 18:17:01 5430 CRON[5663]: pam_unix(cron:session): session closed for user root
+Jul 23 18:20:01 5430 CRON[5670]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 18:20:03 5430 CRON[5670]: pam_unix(cron:session): session closed for user root
+Jul 23 18:25:01 5430 CRON[5729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 18:25:05 5430 CRON[5729]: pam_unix(cron:session): session closed for user root
+Jul 23 18:30:01 5430 CRON[5786]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 18:30:08 5430 CRON[5786]: pam_unix(cron:session): session closed for user root
+Jul 23 18:35:01 5430 CRON[5846]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 18:35:04 5430 CRON[5846]: pam_unix(cron:session): session closed for user root
+Jul 23 18:38:30 5430 sshd[5902]: Did not receive identification string from 192.168.106.16
+Jul 23 18:38:56 5430 sshd[5904]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 23 18:39:02 5430 sshd[5905]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 23 18:39:03 5430 sshd[5912]: fatal: no hostkey alg [preauth]
+Jul 23 18:39:03 5430 sshd[5914]: fatal: no hostkey alg [preauth]
+Jul 23 18:39:04 5430 sshd[5906]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 18:39:04 5430 sshd[5908]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 18:39:04 5430 sshd[5910]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 18:39:28 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 18:39:28 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 18:40:01 5430 CRON[5954]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 18:40:08 5430 CRON[5954]: pam_unix(cron:session): session closed for user root
+Jul 23 18:43:31 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 18:45:01 5430 CRON[6017]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 18:45:04 5430 CRON[6017]: pam_unix(cron:session): session closed for user root
+Jul 23 18:50:01 5430 CRON[6077]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 18:50:07 5430 CRON[6077]: pam_unix(cron:session): session closed for user root
+Jul 23 18:55:01 5430 CRON[6135]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 18:55:04 5430 CRON[6135]: pam_unix(cron:session): session closed for user root
+Jul 23 19:00:01 5430 CRON[6194]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 19:00:03 5430 CRON[6194]: pam_unix(cron:session): session closed for user root
+Jul 23 19:05:01 5430 CRON[6262]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 19:05:04 5430 CRON[6262]: pam_unix(cron:session): session closed for user root
+Jul 23 19:09:28 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 19:09:28 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 19:10:01 5430 CRON[6348]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 19:10:09 5430 CRON[6348]: pam_unix(cron:session): session closed for user root
+Jul 23 19:11:38 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 19:12:41 5430 sshd[6411]: Did not receive identification string from 192.168.106.16
+Jul 23 19:13:05 5430 sshd[6413]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 23 19:13:08 5430 sshd[6414]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 23 19:13:09 5430 sshd[6421]: fatal: no hostkey alg [preauth]
+Jul 23 19:13:09 5430 sshd[6423]: fatal: no hostkey alg [preauth]
+Jul 23 19:13:09 5430 sshd[6419]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 19:13:09 5430 sshd[6415]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 19:13:09 5430 sshd[6417]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 19:15:01 5430 CRON[6428]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 19:15:03 5430 CRON[6428]: pam_unix(cron:session): session closed for user root
+Jul 23 19:17:01 5430 CRON[6483]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 19:17:01 5430 CRON[6483]: pam_unix(cron:session): session closed for user root
+Jul 23 19:20:01 5430 CRON[6490]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 19:20:04 5430 CRON[6490]: pam_unix(cron:session): session closed for user root
+Jul 23 19:25:01 5430 CRON[6549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 19:25:04 5430 CRON[6549]: pam_unix(cron:session): session closed for user root
+Jul 23 19:30:01 5430 CRON[6612]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 19:30:03 5430 CRON[6612]: pam_unix(cron:session): session closed for user root
+Jul 23 19:32:11 5430 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost=  user=brrios
+Jul 23 19:32:12 5430 xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=3405 euid=3405 tty=:0.0 ruser= rhost= user=brrios
+Jul 23 19:32:12 5430 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 23 19:35:01 5430 CRON[6670]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 19:35:05 5430 CRON[6670]: pam_unix(cron:session): session closed for user root
+Jul 23 19:39:28 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 19:39:28 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 19:40:01 5430 CRON[6759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 19:40:09 5430 CRON[6759]: pam_unix(cron:session): session closed for user root
+Jul 23 19:41:35 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 19:45:01 5430 CRON[6827]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 19:45:03 5430 CRON[6827]: pam_unix(cron:session): session closed for user root
+Jul 23 19:50:01 5430 CRON[6885]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 19:50:07 5430 CRON[6885]: pam_unix(cron:session): session closed for user root
+Jul 23 19:55:01 5430 CRON[6944]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 19:55:05 5430 CRON[6944]: pam_unix(cron:session): session closed for user root
+Jul 23 20:00:01 5430 CRON[7001]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 20:00:04 5430 CRON[7001]: pam_unix(cron:session): session closed for user root
+Jul 23 20:05:01 5430 CRON[7060]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 20:05:04 5430 CRON[7060]: pam_unix(cron:session): session closed for user root
+Jul 23 20:09:28 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 20:09:28 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 20:10:01 5430 CRON[7148]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 20:10:07 5430 CRON[7148]: pam_unix(cron:session): session closed for user root
+Jul 23 20:11:38 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 20:15:01 5430 CRON[7217]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 20:15:03 5430 CRON[7217]: pam_unix(cron:session): session closed for user root
+Jul 23 20:17:01 5430 CRON[7271]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 20:17:01 5430 CRON[7271]: pam_unix(cron:session): session closed for user root
+Jul 23 20:20:01 5430 CRON[7277]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 20:20:05 5430 CRON[7277]: pam_unix(cron:session): session closed for user root
+Jul 23 20:25:01 5430 CRON[7335]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 20:25:05 5430 CRON[7335]: pam_unix(cron:session): session closed for user root
+Jul 23 20:30:01 5430 CRON[7394]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 20:30:03 5430 CRON[7394]: pam_unix(cron:session): session closed for user root
+Jul 23 20:35:01 5430 CRON[7454]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 20:35:03 5430 CRON[7454]: pam_unix(cron:session): session closed for user root
+Jul 23 20:39:28 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 20:39:28 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 20:40:01 5430 CRON[7555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 20:40:09 5430 CRON[7555]: pam_unix(cron:session): session closed for user root
+Jul 23 20:43:31 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 20:45:01 5430 CRON[7619]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 20:45:03 5430 CRON[7619]: pam_unix(cron:session): session closed for user root
+Jul 23 20:50:01 5430 CRON[7742]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 20:50:05 5430 CRON[7742]: pam_unix(cron:session): session closed for user root
+Jul 23 20:55:01 5430 CRON[7802]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 20:55:06 5430 CRON[7802]: pam_unix(cron:session): session closed for user root
+Jul 23 21:00:01 5430 CRON[7859]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 21:00:04 5430 CRON[7859]: pam_unix(cron:session): session closed for user root
+Jul 23 21:05:01 5430 CRON[7917]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 21:05:03 5430 CRON[7917]: pam_unix(cron:session): session closed for user root
+Jul 23 21:08:29 5430 sshd[8019]: Did not receive identification string from 192.168.106.16
+Jul 23 21:08:57 5430 sshd[8021]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 23 21:08:57 5430 sshd[8022]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 23 21:08:58 5430 sshd[8025]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 21:08:58 5430 sshd[8023]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 21:08:58 5430 sshd[8029]: fatal: no hostkey alg [preauth]
+Jul 23 21:08:59 5430 sshd[8031]: fatal: no hostkey alg [preauth]
+Jul 23 21:08:59 5430 sshd[8027]: Connection closed by 192.168.106.16 [preauth]
+Jul 23 21:09:28 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 21:09:28 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 21:10:01 5430 CRON[8063]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 21:10:09 5430 CRON[8063]: pam_unix(cron:session): session closed for user root
+Jul 23 21:11:38 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 21:15:01 5430 CRON[8136]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 21:15:06 5430 CRON[8136]: pam_unix(cron:session): session closed for user root
+Jul 23 21:17:01 5430 CRON[8190]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 21:17:01 5430 CRON[8190]: pam_unix(cron:session): session closed for user root
+Jul 23 21:20:01 5430 CRON[8197]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 21:20:04 5430 CRON[8197]: pam_unix(cron:session): session closed for user root
+Jul 23 21:25:01 5430 CRON[8256]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 21:25:07 5430 CRON[8256]: pam_unix(cron:session): session closed for user root
+Jul 23 21:30:01 5430 CRON[8321]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 21:30:03 5430 CRON[8321]: pam_unix(cron:session): session closed for user root
+Jul 23 21:35:01 5430 CRON[8380]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 21:35:03 5430 CRON[8380]: pam_unix(cron:session): session closed for user root
+Jul 23 21:39:29 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 21:39:29 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 21:40:01 5430 CRON[8471]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 21:40:09 5430 CRON[8471]: pam_unix(cron:session): session closed for user root
+Jul 23 21:41:31 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 21:45:01 5430 CRON[8533]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 21:45:05 5430 CRON[8533]: pam_unix(cron:session): session closed for user root
+Jul 23 21:50:01 5430 CRON[8639]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 21:50:03 5430 CRON[8639]: pam_unix(cron:session): session closed for user root
+Jul 23 21:55:01 5430 CRON[8697]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 21:55:03 5430 CRON[8697]: pam_unix(cron:session): session closed for user root
+Jul 23 22:00:01 5430 CRON[8758]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 22:00:04 5430 CRON[8758]: pam_unix(cron:session): session closed for user root
+Jul 23 22:05:01 5430 CRON[8817]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 22:05:05 5430 CRON[8817]: pam_unix(cron:session): session closed for user root
+Jul 23 22:09:29 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 22:09:29 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 22:10:01 5430 CRON[8902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 22:10:07 5430 CRON[8902]: pam_unix(cron:session): session closed for user root
+Jul 23 22:11:38 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 22:15:01 5430 CRON[8970]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 22:15:04 5430 CRON[8970]: pam_unix(cron:session): session closed for user root
+Jul 23 22:17:01 5430 CRON[9027]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 22:17:01 5430 CRON[9027]: pam_unix(cron:session): session closed for user root
+Jul 23 22:20:01 5430 CRON[9034]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 22:20:04 5430 CRON[9034]: pam_unix(cron:session): session closed for user root
+Jul 23 22:25:01 5430 CRON[9094]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 22:25:04 5430 CRON[9094]: pam_unix(cron:session): session closed for user root
+Jul 23 22:30:01 5430 CRON[9154]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 22:30:04 5430 CRON[9154]: pam_unix(cron:session): session closed for user root
+Jul 23 22:35:01 5430 CRON[9213]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 22:35:04 5430 CRON[9213]: pam_unix(cron:session): session closed for user root
+Jul 23 22:39:29 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 22:39:29 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 22:40:01 5430 CRON[9311]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 22:40:07 5430 CRON[9311]: pam_unix(cron:session): session closed for user root
+Jul 23 22:41:31 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 22:45:01 5430 CRON[9374]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 22:45:03 5430 CRON[9374]: pam_unix(cron:session): session closed for user root
+Jul 23 22:50:01 5430 CRON[9432]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 22:50:04 5430 CRON[9432]: pam_unix(cron:session): session closed for user root
+Jul 23 22:55:01 5430 CRON[9492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 22:55:04 5430 CRON[9492]: pam_unix(cron:session): session closed for user root
+Jul 23 23:00:01 5430 CRON[9549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 23:00:05 5430 CRON[9549]: pam_unix(cron:session): session closed for user root
+Jul 23 23:05:01 5430 CRON[9632]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 23:05:04 5430 CRON[9632]: pam_unix(cron:session): session closed for user root
+Jul 23 23:09:29 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 23:09:29 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 23:10:01 5430 CRON[9718]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 23:10:08 5430 CRON[9718]: pam_unix(cron:session): session closed for user root
+Jul 23 23:11:31 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 23:15:01 5430 CRON[9780]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 23:15:03 5430 CRON[9780]: pam_unix(cron:session): session closed for user root
+Jul 23 23:17:01 5430 CRON[9835]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 23:17:01 5430 CRON[9835]: pam_unix(cron:session): session closed for user root
+Jul 23 23:20:01 5430 CRON[9842]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 23:20:03 5430 CRON[9842]: pam_unix(cron:session): session closed for user root
+Jul 23 23:25:01 5430 CRON[9901]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 23:25:03 5430 CRON[9901]: pam_unix(cron:session): session closed for user root
+Jul 23 23:30:01 5430 CRON[9959]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 23:30:03 5430 CRON[9959]: pam_unix(cron:session): session closed for user root
+Jul 23 23:35:01 5430 CRON[10017]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 23:35:04 5430 CRON[10017]: pam_unix(cron:session): session closed for user root
+Jul 23 23:39:29 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 23 23:39:29 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 23 23:40:01 5430 CRON[10107]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 23:40:06 5430 CRON[10107]: pam_unix(cron:session): session closed for user root
+Jul 23 23:41:31 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 23 23:45:01 5430 CRON[10170]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 23:45:03 5430 CRON[10170]: pam_unix(cron:session): session closed for user root
+Jul 23 23:50:01 5430 CRON[10227]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 23:50:05 5430 CRON[10227]: pam_unix(cron:session): session closed for user root
+Jul 23 23:55:01 5430 CRON[10286]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 23 23:55:04 5430 CRON[10286]: pam_unix(cron:session): session closed for user root
+Jul 24 00:00:01 5430 CRON[10344]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 00:00:03 5430 CRON[10344]: pam_unix(cron:session): session closed for user root
+Jul 24 00:05:01 5430 CRON[10402]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 00:05:06 5430 CRON[10402]: pam_unix(cron:session): session closed for user root
+Jul 24 00:06:40 5430 sshd[10455]: Did not receive identification string from 192.168.106.16
+Jul 24 00:07:08 5430 sshd[10457]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 24 00:07:10 5430 sshd[10464]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 24 00:07:10 5430 sshd[10465]: fatal: no hostkey alg [preauth]
+Jul 24 00:07:10 5430 sshd[10467]: fatal: no hostkey alg [preauth]
+Jul 24 00:07:10 5430 sshd[10462]: Connection closed by 192.168.106.16 [preauth]
+Jul 24 00:07:10 5430 sshd[10460]: Connection closed by 192.168.106.16 [preauth]
+Jul 24 00:07:10 5430 sshd[10458]: Connection closed by 192.168.106.16 [preauth]
+Jul 24 00:09:29 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 24 00:09:29 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 24 00:10:01 5430 CRON[10504]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 00:10:08 5430 CRON[10504]: pam_unix(cron:session): session closed for user root
+Jul 24 00:11:31 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 24 00:15:01 5430 CRON[10566]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 00:15:03 5430 CRON[10566]: pam_unix(cron:session): session closed for user root
+Jul 24 00:17:01 5430 CRON[10621]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 00:17:01 5430 CRON[10621]: pam_unix(cron:session): session closed for user root
+Jul 24 00:20:01 5430 CRON[10632]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 00:20:04 5430 CRON[10632]: pam_unix(cron:session): session closed for user root
+Jul 24 00:25:01 5430 CRON[10691]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 00:25:03 5430 CRON[10691]: pam_unix(cron:session): session closed for user root
+Jul 24 00:30:01 5430 CRON[10749]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 00:30:03 5430 CRON[10749]: pam_unix(cron:session): session closed for user root
+Jul 24 00:35:01 5430 CRON[10808]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 00:35:03 5430 CRON[10808]: pam_unix(cron:session): session closed for user root
+Jul 24 00:39:29 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 24 00:39:29 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 24 00:40:01 5430 CRON[10902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 00:40:07 5430 CRON[10902]: pam_unix(cron:session): session closed for user root
+Jul 24 00:41:38 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 24 00:45:01 5430 CRON[10969]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 00:45:03 5430 CRON[10969]: pam_unix(cron:session): session closed for user root
+Jul 24 00:50:01 5430 CRON[11028]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 00:50:03 5430 CRON[11028]: pam_unix(cron:session): session closed for user root
+Jul 24 00:55:01 5430 CRON[11087]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 00:55:04 5430 CRON[11087]: pam_unix(cron:session): session closed for user root
+Jul 24 01:00:01 5430 CRON[11144]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 01:00:03 5430 CRON[11144]: pam_unix(cron:session): session closed for user root
+Jul 24 01:05:01 5430 CRON[11203]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 01:05:03 5430 CRON[11203]: pam_unix(cron:session): session closed for user root
+Jul 24 01:09:29 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 24 01:09:29 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 24 01:10:01 5430 CRON[11291]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 01:10:07 5430 CRON[11291]: pam_unix(cron:session): session closed for user root
+Jul 24 01:11:31 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 24 01:15:01 5430 CRON[11354]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 01:15:03 5430 CRON[11354]: pam_unix(cron:session): session closed for user root
+Jul 24 01:17:01 5430 CRON[11408]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 01:17:01 5430 CRON[11408]: pam_unix(cron:session): session closed for user root
+Jul 24 01:20:01 5430 CRON[11415]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 01:20:03 5430 CRON[11415]: pam_unix(cron:session): session closed for user root
+Jul 24 01:25:01 5430 CRON[11474]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 01:25:03 5430 CRON[11474]: pam_unix(cron:session): session closed for user root
+Jul 24 01:30:01 5430 CRON[11533]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 01:30:03 5430 CRON[11533]: pam_unix(cron:session): session closed for user root
+Jul 24 01:35:01 5430 CRON[11591]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 01:35:03 5430 CRON[11591]: pam_unix(cron:session): session closed for user root
+Jul 24 01:39:29 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 24 01:39:29 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 24 01:40:01 5430 CRON[11677]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 01:40:06 5430 CRON[11677]: pam_unix(cron:session): session closed for user root
+Jul 24 01:41:38 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 24 01:45:01 5430 CRON[11745]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 01:45:04 5430 CRON[11745]: pam_unix(cron:session): session closed for user root
+Jul 24 01:50:01 5430 CRON[11803]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 01:50:03 5430 CRON[11803]: pam_unix(cron:session): session closed for user root
+Jul 24 01:55:01 5430 CRON[11862]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 01:55:03 5430 CRON[11862]: pam_unix(cron:session): session closed for user root
+Jul 24 02:00:01 5430 CRON[11920]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 02:00:03 5430 CRON[11920]: pam_unix(cron:session): session closed for user root
+Jul 24 02:05:01 5430 CRON[11978]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 02:05:03 5430 CRON[11978]: pam_unix(cron:session): session closed for user root
+Jul 24 02:09:29 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 24 02:09:29 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 24 02:10:01 5430 CRON[12064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 02:10:06 5430 CRON[12064]: pam_unix(cron:session): session closed for user root
+Jul 24 02:11:38 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 24 02:15:01 5430 CRON[12131]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 02:15:03 5430 CRON[12131]: pam_unix(cron:session): session closed for user root
+Jul 24 02:17:01 5430 CRON[12185]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 02:17:01 5430 CRON[12185]: pam_unix(cron:session): session closed for user root
+Jul 24 02:20:01 5430 CRON[12193]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 02:20:04 5430 CRON[12193]: pam_unix(cron:session): session closed for user root
+Jul 24 02:25:01 5430 CRON[12251]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 02:25:03 5430 CRON[12251]: pam_unix(cron:session): session closed for user root
+Jul 24 02:30:01 5430 CRON[12308]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 02:30:04 5430 CRON[12308]: pam_unix(cron:session): session closed for user root
+Jul 24 02:35:01 5430 CRON[12367]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 02:35:03 5430 CRON[12367]: pam_unix(cron:session): session closed for user root
+Jul 24 02:39:29 5430 sudo:   brrios : TTY=unknown ; PWD=/home/brrios ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 24 02:39:29 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 24 02:40:01 5430 CRON[12471]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 02:40:06 5430 CRON[12471]: pam_unix(cron:session): session closed for user root
+Jul 24 02:41:32 5430 sudo: pam_unix(sudo:session): session closed for user root
+Jul 24 02:45:01 5430 CRON[12534]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 02:45:04 5430 CRON[12534]: pam_unix(cron:session): session closed for user root
+Jul 24 02:50:01 5430 CRON[12592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 02:50:03 5430 CRON[12592]: pam_unix(cron:session): session closed for user root
+Jul 24 02:55:01 5430 CRON[12650]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 02:55:03 5430 CRON[12650]: pam_unix(cron:session): session closed for user root
+Jul 24 03:00:01 5430 CRON[12709]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 03:00:01 5430 CRON[12708]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 24 03:00:01 5430 CRON[12708]: pam_unix(cron:session): session closed for user root
+Jul 24 03:04:17 5430 groupadd[13306]: group added to /etc/group: name=ossec, GID=126
+Jul 24 03:04:17 5430 groupadd[13306]: group added to /etc/gshadow: name=ossec
+Jul 24 03:04:17 5430 groupadd[13306]: new group: name=ossec, GID=126
+Jul 24 03:04:17 5430 useradd[13313]: new user: name=ossec, UID=117, GID=126, home=/home/ossec, shell=/bin/false
+Jul 24 03:04:17 5430 usermod[13318]: change user 'ossec' password
+Jul 24 03:04:18 5430 chage[13323]: changed password expiry for ossec
+Jul 24 03:04:21 5430 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jul 24 03:04:21 5430 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 24 03:04:21 5430 sudo: pam_unix(sudo:session): session closed for user root

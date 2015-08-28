@@ -1,0 +1,516 @@
+Jul  5 07:40:02 C3107 CRON[18188]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 07:40:07 C3107 CRON[18188]: pam_unix(cron:session): session closed for user root
+Jul  5 07:45:01 C3107 CRON[18368]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 07:45:06 C3107 CRON[18368]: pam_unix(cron:session): session closed for user root
+Jul  5 07:50:01 C3107 CRON[18548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 07:50:05 C3107 CRON[18548]: pam_unix(cron:session): session closed for user root
+Jul  5 07:55:01 C3107 CRON[18727]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 07:55:05 C3107 CRON[18727]: pam_unix(cron:session): session closed for user root
+Jul  5 08:00:01 C3107 CRON[18906]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 08:00:06 C3107 CRON[18906]: pam_unix(cron:session): session closed for user root
+Jul  5 08:05:01 C3107 CRON[19087]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 08:05:05 C3107 CRON[19087]: pam_unix(cron:session): session closed for user root
+Jul  5 08:10:01 C3107 CRON[19274]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 08:10:05 C3107 CRON[19274]: pam_unix(cron:session): session closed for user root
+Jul  5 08:15:01 C3107 CRON[19453]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 08:15:08 C3107 CRON[19453]: pam_unix(cron:session): session closed for user root
+Jul  5 08:17:01 C3107 CRON[19629]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 08:17:01 C3107 CRON[19629]: pam_unix(cron:session): session closed for user root
+Jul  5 08:20:01 C3107 CRON[19639]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 08:20:05 C3107 CRON[19639]: pam_unix(cron:session): session closed for user root
+Jul  5 08:25:01 C3107 CRON[19819]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 08:25:06 C3107 CRON[19819]: pam_unix(cron:session): session closed for user root
+Jul  5 08:30:01 C3107 CRON[19998]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 08:30:06 C3107 CRON[19998]: pam_unix(cron:session): session closed for user root
+Jul  5 08:35:01 C3107 CRON[20178]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 08:35:06 C3107 CRON[20178]: pam_unix(cron:session): session closed for user root
+Jul  5 08:40:01 C3107 CRON[20363]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 08:40:05 C3107 CRON[20363]: pam_unix(cron:session): session closed for user root
+Jul  5 08:45:01 C3107 CRON[20542]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 08:45:05 C3107 CRON[20542]: pam_unix(cron:session): session closed for user root
+Jul  5 08:50:01 C3107 CRON[20723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 08:50:08 C3107 CRON[20723]: pam_unix(cron:session): session closed for user root
+Jul  5 08:55:01 C3107 CRON[20900]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 08:55:06 C3107 CRON[20900]: pam_unix(cron:session): session closed for user root
+Jul  5 09:00:01 C3107 CRON[21078]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 09:00:05 C3107 CRON[21078]: pam_unix(cron:session): session closed for user root
+Jul  5 09:05:01 C3107 CRON[21258]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 09:05:05 C3107 CRON[21258]: pam_unix(cron:session): session closed for user root
+Jul  5 09:10:01 C3107 CRON[21438]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 09:10:05 C3107 CRON[21438]: pam_unix(cron:session): session closed for user root
+Jul  5 09:15:02 C3107 CRON[21625]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 09:15:06 C3107 CRON[21625]: pam_unix(cron:session): session closed for user root
+Jul  5 09:17:01 C3107 CRON[21801]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 09:17:01 C3107 CRON[21801]: pam_unix(cron:session): session closed for user root
+Jul  5 09:20:02 C3107 CRON[21807]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 09:20:05 C3107 CRON[21807]: pam_unix(cron:session): session closed for user root
+Jul  5 09:25:01 C3107 CRON[21998]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 09:25:05 C3107 CRON[21998]: pam_unix(cron:session): session closed for user root
+Jul  5 09:26:12 C3107 systemd-logind[758]: New seat seat0.
+Jul  5 09:26:21 C3107 sshd[1272]: Server listening on 0.0.0.0 port 22.
+Jul  5 09:26:21 C3107 sshd[1272]: Server listening on :: port 22.
+Jul  5 09:26:21 C3107 CRON[1402]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 09:26:21 C3107 CRON[1402]: pam_unix(cron:session): session closed for user root
+Jul  5 09:26:22 C3107 dbus[616]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=1285 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=1009 comm="NetworkManager ")
+Jul  5 09:26:26 C3107 mdm[1673]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul  5 09:26:26 C3107 mdm[1673]: PAM adding faulty module: pam_kwallet.so
+Jul  5 09:30:01 C3107 CRON[1973]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 09:30:09 C3107 CRON[1973]: pam_unix(cron:session): session closed for user root
+Jul  5 09:35:01 C3107 CRON[2151]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 09:35:07 C3107 CRON[2151]: pam_unix(cron:session): session closed for user root
+Jul  5 09:40:01 C3107 CRON[2329]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 09:40:05 C3107 CRON[2329]: pam_unix(cron:session): session closed for user root
+Jul  5 09:45:01 C3107 CRON[2506]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 09:45:04 C3107 CRON[2506]: pam_unix(cron:session): session closed for user root
+Jul  5 09:50:01 C3107 CRON[2685]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 09:50:07 C3107 CRON[2685]: pam_unix(cron:session): session closed for user root
+Jul  5 09:55:01 C3107 CRON[2864]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 09:55:08 C3107 CRON[2864]: pam_unix(cron:session): session closed for user root
+Jul  5 10:00:01 C3107 CRON[3043]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 10:00:06 C3107 CRON[3043]: pam_unix(cron:session): session closed for user root
+Jul  5 10:05:01 C3107 CRON[3222]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 10:05:08 C3107 CRON[3222]: pam_unix(cron:session): session closed for user root
+Jul  5 10:10:01 C3107 CRON[3400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 10:10:04 C3107 CRON[3400]: pam_unix(cron:session): session closed for user root
+Jul  5 10:15:01 C3107 CRON[3578]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 10:15:07 C3107 CRON[3578]: pam_unix(cron:session): session closed for user root
+Jul  5 10:17:01 C3107 CRON[3752]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 10:17:01 C3107 CRON[3752]: pam_unix(cron:session): session closed for user root
+Jul  5 10:20:01 C3107 CRON[3759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 10:20:08 C3107 CRON[3759]: pam_unix(cron:session): session closed for user root
+Jul  5 10:25:01 C3107 CRON[3937]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 10:25:05 C3107 CRON[3937]: pam_unix(cron:session): session closed for user root
+Jul  5 10:30:01 C3107 CRON[4113]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 10:30:07 C3107 CRON[4113]: pam_unix(cron:session): session closed for user root
+Jul  5 10:35:01 C3107 CRON[4293]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 10:35:08 C3107 CRON[4293]: pam_unix(cron:session): session closed for user root
+Jul  5 10:40:01 C3107 CRON[4471]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 10:40:08 C3107 CRON[4471]: pam_unix(cron:session): session closed for user root
+Jul  5 10:45:01 C3107 CRON[4650]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 10:45:05 C3107 CRON[4650]: pam_unix(cron:session): session closed for user root
+Jul  5 10:50:01 C3107 CRON[4830]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 10:50:04 C3107 CRON[4830]: pam_unix(cron:session): session closed for user root
+Jul  5 10:55:01 C3107 CRON[5007]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 10:55:04 C3107 CRON[5007]: pam_unix(cron:session): session closed for user root
+Jul  5 11:00:01 C3107 CRON[5185]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 11:00:05 C3107 CRON[5185]: pam_unix(cron:session): session closed for user root
+Jul  5 11:05:01 C3107 CRON[5364]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 11:05:07 C3107 CRON[5364]: pam_unix(cron:session): session closed for user root
+Jul  5 11:10:01 C3107 CRON[5544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 11:10:07 C3107 CRON[5544]: pam_unix(cron:session): session closed for user root
+Jul  5 11:15:01 C3107 CRON[5721]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 11:15:08 C3107 CRON[5721]: pam_unix(cron:session): session closed for user root
+Jul  5 11:17:01 C3107 CRON[5896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 11:17:01 C3107 CRON[5896]: pam_unix(cron:session): session closed for user root
+Jul  5 11:20:01 C3107 CRON[5902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 11:20:04 C3107 CRON[5902]: pam_unix(cron:session): session closed for user root
+Jul  5 11:25:01 C3107 CRON[6081]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 11:25:06 C3107 CRON[6081]: pam_unix(cron:session): session closed for user root
+Jul  5 11:30:01 C3107 CRON[6258]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 11:30:07 C3107 CRON[6258]: pam_unix(cron:session): session closed for user root
+Jul  5 11:35:01 C3107 CRON[6437]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 11:35:06 C3107 CRON[6437]: pam_unix(cron:session): session closed for user root
+Jul  5 11:40:01 C3107 CRON[6615]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 11:40:07 C3107 CRON[6615]: pam_unix(cron:session): session closed for user root
+Jul  5 11:45:01 C3107 CRON[6794]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 11:45:06 C3107 CRON[6794]: pam_unix(cron:session): session closed for user root
+Jul  5 11:50:01 C3107 CRON[6974]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 11:50:06 C3107 CRON[6974]: pam_unix(cron:session): session closed for user root
+Jul  5 11:55:01 C3107 CRON[7153]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 11:55:07 C3107 CRON[7153]: pam_unix(cron:session): session closed for user root
+Jul  5 12:00:01 C3107 CRON[7330]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 12:00:08 C3107 CRON[7330]: pam_unix(cron:session): session closed for user root
+Jul  5 12:05:01 C3107 CRON[7508]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 12:05:04 C3107 CRON[7508]: pam_unix(cron:session): session closed for user root
+Jul  5 12:10:01 C3107 CRON[7685]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 12:10:07 C3107 CRON[7685]: pam_unix(cron:session): session closed for user root
+Jul  5 12:15:01 C3107 CRON[7864]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 12:15:07 C3107 CRON[7864]: pam_unix(cron:session): session closed for user root
+Jul  5 12:17:01 C3107 CRON[8038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 12:17:01 C3107 CRON[8038]: pam_unix(cron:session): session closed for user root
+Jul  5 12:20:01 C3107 CRON[8044]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 12:20:04 C3107 CRON[8044]: pam_unix(cron:session): session closed for user root
+Jul  5 12:25:01 C3107 CRON[8222]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 12:25:05 C3107 CRON[8222]: pam_unix(cron:session): session closed for user root
+Jul  5 12:30:01 C3107 CRON[8402]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 12:30:04 C3107 CRON[8402]: pam_unix(cron:session): session closed for user root
+Jul  5 12:35:01 C3107 CRON[8581]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 12:35:04 C3107 CRON[8581]: pam_unix(cron:session): session closed for user root
+Jul  5 12:40:01 C3107 CRON[8758]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 12:40:07 C3107 CRON[8758]: pam_unix(cron:session): session closed for user root
+Jul  5 12:45:01 C3107 CRON[8939]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 12:45:07 C3107 CRON[8939]: pam_unix(cron:session): session closed for user root
+Jul  5 12:50:01 C3107 CRON[9116]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 12:50:07 C3107 CRON[9116]: pam_unix(cron:session): session closed for user root
+Jul  5 12:55:01 C3107 CRON[9294]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 12:55:05 C3107 CRON[9294]: pam_unix(cron:session): session closed for user root
+Jul  5 13:00:01 C3107 CRON[9473]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 13:00:04 C3107 CRON[9473]: pam_unix(cron:session): session closed for user root
+Jul  5 13:05:01 C3107 CRON[9653]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 13:05:05 C3107 CRON[9653]: pam_unix(cron:session): session closed for user root
+Jul  5 13:10:01 C3107 CRON[9831]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 13:10:05 C3107 CRON[9831]: pam_unix(cron:session): session closed for user root
+Jul  5 13:15:01 C3107 CRON[10007]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 13:15:04 C3107 CRON[10007]: pam_unix(cron:session): session closed for user root
+Jul  5 13:17:01 C3107 CRON[10183]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 13:17:01 C3107 CRON[10183]: pam_unix(cron:session): session closed for user root
+Jul  5 13:20:01 C3107 CRON[10191]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 13:20:07 C3107 CRON[10191]: pam_unix(cron:session): session closed for user root
+Jul  5 13:25:01 C3107 CRON[10369]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 13:25:06 C3107 CRON[10369]: pam_unix(cron:session): session closed for user root
+Jul  5 13:30:01 C3107 CRON[10548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 13:30:07 C3107 CRON[10548]: pam_unix(cron:session): session closed for user root
+Jul  5 13:35:01 C3107 CRON[10726]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 13:35:06 C3107 CRON[10726]: pam_unix(cron:session): session closed for user root
+Jul  5 13:40:01 C3107 CRON[10902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 13:40:07 C3107 CRON[10902]: pam_unix(cron:session): session closed for user root
+Jul  5 13:45:01 C3107 CRON[11078]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 13:45:05 C3107 CRON[11078]: pam_unix(cron:session): session closed for user root
+Jul  5 13:50:01 C3107 CRON[11257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 13:50:06 C3107 CRON[11257]: pam_unix(cron:session): session closed for user root
+Jul  5 13:55:01 C3107 CRON[11435]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 13:55:04 C3107 CRON[11435]: pam_unix(cron:session): session closed for user root
+Jul  5 14:00:01 C3107 CRON[11614]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 14:00:08 C3107 CRON[11614]: pam_unix(cron:session): session closed for user root
+Jul  5 14:05:01 C3107 CRON[11792]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 14:05:04 C3107 CRON[11792]: pam_unix(cron:session): session closed for user root
+Jul  5 14:10:01 C3107 CRON[11969]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 14:10:04 C3107 CRON[11969]: pam_unix(cron:session): session closed for user root
+Jul  5 14:15:01 C3107 CRON[12147]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 14:15:04 C3107 CRON[12147]: pam_unix(cron:session): session closed for user root
+Jul  5 14:17:01 C3107 CRON[12320]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 14:17:01 C3107 CRON[12320]: pam_unix(cron:session): session closed for user root
+Jul  5 14:20:01 C3107 CRON[12327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 14:20:04 C3107 CRON[12327]: pam_unix(cron:session): session closed for user root
+Jul  5 14:25:01 C3107 CRON[12506]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 14:25:07 C3107 CRON[12506]: pam_unix(cron:session): session closed for user root
+Jul  5 14:30:01 C3107 CRON[12683]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 14:30:04 C3107 CRON[12683]: pam_unix(cron:session): session closed for user root
+Jul  5 14:35:01 C3107 CRON[12863]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 14:35:04 C3107 CRON[12863]: pam_unix(cron:session): session closed for user root
+Jul  5 14:40:01 C3107 CRON[13042]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 14:40:04 C3107 CRON[13042]: pam_unix(cron:session): session closed for user root
+Jul  5 14:45:01 C3107 CRON[13220]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 14:45:04 C3107 CRON[13220]: pam_unix(cron:session): session closed for user root
+Jul  5 14:50:01 C3107 CRON[13399]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 14:50:04 C3107 CRON[13399]: pam_unix(cron:session): session closed for user root
+Jul  5 14:55:01 C3107 CRON[13577]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 14:55:07 C3107 CRON[13577]: pam_unix(cron:session): session closed for user root
+Jul  5 15:00:01 C3107 CRON[13756]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 15:00:04 C3107 CRON[13756]: pam_unix(cron:session): session closed for user root
+Jul  5 15:05:01 C3107 CRON[13934]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 15:05:05 C3107 CRON[13934]: pam_unix(cron:session): session closed for user root
+Jul  5 15:10:01 C3107 CRON[14111]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 15:10:04 C3107 CRON[14111]: pam_unix(cron:session): session closed for user root
+Jul  5 15:15:01 C3107 CRON[14290]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 15:15:05 C3107 CRON[14290]: pam_unix(cron:session): session closed for user root
+Jul  5 15:17:01 C3107 CRON[14464]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 15:17:01 C3107 CRON[14464]: pam_unix(cron:session): session closed for user root
+Jul  5 15:20:01 C3107 CRON[14471]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 15:20:04 C3107 CRON[14471]: pam_unix(cron:session): session closed for user root
+Jul  5 15:25:01 C3107 CRON[14650]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 15:25:04 C3107 CRON[14650]: pam_unix(cron:session): session closed for user root
+Jul  5 15:30:01 C3107 CRON[14830]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 15:30:04 C3107 CRON[14830]: pam_unix(cron:session): session closed for user root
+Jul  5 15:35:01 C3107 CRON[15008]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 15:35:05 C3107 CRON[15008]: pam_unix(cron:session): session closed for user root
+Jul  5 15:40:01 C3107 CRON[15187]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 15:40:07 C3107 CRON[15187]: pam_unix(cron:session): session closed for user root
+Jul  5 15:45:01 C3107 CRON[15367]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 15:45:04 C3107 CRON[15367]: pam_unix(cron:session): session closed for user root
+Jul  5 15:50:01 C3107 CRON[15544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 15:50:04 C3107 CRON[15544]: pam_unix(cron:session): session closed for user root
+Jul  5 15:55:01 C3107 CRON[15723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 15:55:04 C3107 CRON[15723]: pam_unix(cron:session): session closed for user root
+Jul  5 16:00:01 C3107 CRON[15901]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 16:00:04 C3107 CRON[15901]: pam_unix(cron:session): session closed for user root
+Jul  5 16:05:01 C3107 CRON[16079]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 16:05:04 C3107 CRON[16079]: pam_unix(cron:session): session closed for user root
+Jul  5 16:10:01 C3107 CRON[16258]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 16:10:05 C3107 CRON[16258]: pam_unix(cron:session): session closed for user root
+Jul  5 16:15:01 C3107 CRON[16438]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 16:15:05 C3107 CRON[16438]: pam_unix(cron:session): session closed for user root
+Jul  5 16:17:01 C3107 CRON[16611]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 16:17:01 C3107 CRON[16611]: pam_unix(cron:session): session closed for user root
+Jul  5 16:20:01 C3107 CRON[16618]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 16:20:04 C3107 CRON[16618]: pam_unix(cron:session): session closed for user root
+Jul  5 16:25:01 C3107 CRON[16796]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 16:25:04 C3107 CRON[16796]: pam_unix(cron:session): session closed for user root
+Jul  5 16:30:01 C3107 CRON[16976]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 16:30:04 C3107 CRON[16976]: pam_unix(cron:session): session closed for user root
+Jul  5 16:35:01 C3107 CRON[17155]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 16:35:05 C3107 CRON[17155]: pam_unix(cron:session): session closed for user root
+Jul  5 16:40:01 C3107 CRON[17332]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 16:40:04 C3107 CRON[17332]: pam_unix(cron:session): session closed for user root
+Jul  5 16:45:01 C3107 CRON[17509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 16:45:04 C3107 CRON[17509]: pam_unix(cron:session): session closed for user root
+Jul  5 16:50:01 C3107 CRON[17688]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 16:50:04 C3107 CRON[17688]: pam_unix(cron:session): session closed for user root
+Jul  5 16:55:01 C3107 CRON[17866]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 16:55:04 C3107 CRON[17866]: pam_unix(cron:session): session closed for user root
+Jul  5 17:00:01 C3107 CRON[18044]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 17:00:04 C3107 CRON[18044]: pam_unix(cron:session): session closed for user root
+Jul  5 17:05:01 C3107 CRON[18223]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 17:05:05 C3107 CRON[18223]: pam_unix(cron:session): session closed for user root
+Jul  5 17:10:02 C3107 CRON[18400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 17:10:07 C3107 CRON[18400]: pam_unix(cron:session): session closed for user root
+Jul  5 17:15:01 C3107 CRON[18578]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 17:15:04 C3107 CRON[18578]: pam_unix(cron:session): session closed for user root
+Jul  5 17:17:01 C3107 CRON[18754]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 17:17:01 C3107 CRON[18754]: pam_unix(cron:session): session closed for user root
+Jul  5 17:20:01 C3107 CRON[18761]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 17:20:04 C3107 CRON[18761]: pam_unix(cron:session): session closed for user root
+Jul  5 17:25:01 C3107 CRON[18938]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 17:25:04 C3107 CRON[18938]: pam_unix(cron:session): session closed for user root
+Jul  5 17:30:01 C3107 CRON[19116]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 17:30:04 C3107 CRON[19116]: pam_unix(cron:session): session closed for user root
+Jul  5 17:35:01 C3107 CRON[19293]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 17:35:04 C3107 CRON[19293]: pam_unix(cron:session): session closed for user root
+Jul  5 17:40:01 C3107 CRON[19471]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 17:40:04 C3107 CRON[19471]: pam_unix(cron:session): session closed for user root
+Jul  5 17:45:01 C3107 CRON[19648]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 17:45:04 C3107 CRON[19648]: pam_unix(cron:session): session closed for user root
+Jul  5 17:50:01 C3107 CRON[19824]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 17:50:05 C3107 CRON[19824]: pam_unix(cron:session): session closed for user root
+Jul  5 17:55:01 C3107 CRON[20004]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 17:55:04 C3107 CRON[20004]: pam_unix(cron:session): session closed for user root
+Jul  5 18:00:01 C3107 CRON[20183]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 18:00:03 C3107 CRON[20183]: pam_unix(cron:session): session closed for user root
+Jul  5 18:05:01 C3107 CRON[20364]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 18:05:06 C3107 CRON[20364]: pam_unix(cron:session): session closed for user root
+Jul  5 18:10:01 C3107 CRON[20544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 18:10:04 C3107 CRON[20544]: pam_unix(cron:session): session closed for user root
+Jul  5 18:15:01 C3107 CRON[20722]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 18:15:04 C3107 CRON[20722]: pam_unix(cron:session): session closed for user root
+Jul  5 18:17:01 C3107 CRON[20896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 18:17:01 C3107 CRON[20896]: pam_unix(cron:session): session closed for user root
+Jul  5 18:20:01 C3107 CRON[20903]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 18:20:05 C3107 CRON[20903]: pam_unix(cron:session): session closed for user root
+Jul  5 18:25:01 C3107 CRON[21080]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 18:25:04 C3107 CRON[21080]: pam_unix(cron:session): session closed for user root
+Jul  5 18:30:01 C3107 CRON[21257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 18:30:04 C3107 CRON[21257]: pam_unix(cron:session): session closed for user root
+Jul  5 18:35:01 C3107 CRON[21435]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 18:35:04 C3107 CRON[21435]: pam_unix(cron:session): session closed for user root
+Jul  5 18:40:01 C3107 CRON[21613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 18:40:05 C3107 CRON[21613]: pam_unix(cron:session): session closed for user root
+Jul  5 18:45:01 C3107 CRON[21791]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 18:45:04 C3107 CRON[21791]: pam_unix(cron:session): session closed for user root
+Jul  5 18:50:01 C3107 CRON[21968]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 18:50:04 C3107 CRON[21968]: pam_unix(cron:session): session closed for user root
+Jul  5 18:55:01 C3107 CRON[22145]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 18:55:04 C3107 CRON[22145]: pam_unix(cron:session): session closed for user root
+Jul  5 19:00:01 C3107 CRON[22324]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 19:00:04 C3107 CRON[22324]: pam_unix(cron:session): session closed for user root
+Jul  5 19:05:01 C3107 CRON[22503]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 19:05:04 C3107 CRON[22503]: pam_unix(cron:session): session closed for user root
+Jul  5 19:10:01 C3107 CRON[22680]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 19:10:04 C3107 CRON[22680]: pam_unix(cron:session): session closed for user root
+Jul  5 19:15:01 C3107 CRON[22861]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 19:15:04 C3107 CRON[22861]: pam_unix(cron:session): session closed for user root
+Jul  5 19:17:01 C3107 CRON[23035]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 19:17:01 C3107 CRON[23035]: pam_unix(cron:session): session closed for user root
+Jul  5 19:20:01 C3107 CRON[23042]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 19:20:04 C3107 CRON[23042]: pam_unix(cron:session): session closed for user root
+Jul  5 19:25:01 C3107 CRON[23221]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 19:25:05 C3107 CRON[23221]: pam_unix(cron:session): session closed for user root
+Jul  5 19:30:01 C3107 CRON[23399]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 19:30:04 C3107 CRON[23399]: pam_unix(cron:session): session closed for user root
+Jul  5 19:35:01 C3107 CRON[23577]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 19:35:04 C3107 CRON[23577]: pam_unix(cron:session): session closed for user root
+Jul  5 19:40:01 C3107 CRON[23755]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 19:40:04 C3107 CRON[23755]: pam_unix(cron:session): session closed for user root
+Jul  5 19:45:01 C3107 CRON[23933]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 19:45:04 C3107 CRON[23933]: pam_unix(cron:session): session closed for user root
+Jul  5 19:50:01 C3107 CRON[24112]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 19:50:04 C3107 CRON[24112]: pam_unix(cron:session): session closed for user root
+Jul  5 19:55:01 C3107 CRON[24292]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 19:55:04 C3107 CRON[24292]: pam_unix(cron:session): session closed for user root
+Jul  5 20:00:01 C3107 CRON[24471]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 20:00:04 C3107 CRON[24471]: pam_unix(cron:session): session closed for user root
+Jul  5 20:05:01 C3107 CRON[24651]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 20:05:04 C3107 CRON[24651]: pam_unix(cron:session): session closed for user root
+Jul  5 20:10:01 C3107 CRON[24828]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 20:10:04 C3107 CRON[24828]: pam_unix(cron:session): session closed for user root
+Jul  5 20:15:01 C3107 CRON[25005]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 20:15:04 C3107 CRON[25005]: pam_unix(cron:session): session closed for user root
+Jul  5 20:17:01 C3107 CRON[25179]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 20:17:01 C3107 CRON[25179]: pam_unix(cron:session): session closed for user root
+Jul  5 20:20:01 C3107 CRON[25186]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 20:20:04 C3107 CRON[25186]: pam_unix(cron:session): session closed for user root
+Jul  5 20:25:01 C3107 CRON[25363]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 20:25:05 C3107 CRON[25363]: pam_unix(cron:session): session closed for user root
+Jul  5 20:30:01 C3107 CRON[25544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 20:30:04 C3107 CRON[25544]: pam_unix(cron:session): session closed for user root
+Jul  5 20:35:01 C3107 CRON[25721]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 20:35:04 C3107 CRON[25721]: pam_unix(cron:session): session closed for user root
+Jul  5 20:40:01 C3107 CRON[25899]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 20:40:04 C3107 CRON[25899]: pam_unix(cron:session): session closed for user root
+Jul  5 20:45:01 C3107 CRON[26079]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 20:45:04 C3107 CRON[26079]: pam_unix(cron:session): session closed for user root
+Jul  5 20:50:01 C3107 CRON[26260]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 20:50:04 C3107 CRON[26260]: pam_unix(cron:session): session closed for user root
+Jul  5 20:55:01 C3107 CRON[26440]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 20:55:04 C3107 CRON[26440]: pam_unix(cron:session): session closed for user root
+Jul  5 21:00:01 C3107 CRON[26618]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 21:00:05 C3107 CRON[26618]: pam_unix(cron:session): session closed for user root
+Jul  5 21:05:01 C3107 CRON[26796]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 21:05:04 C3107 CRON[26796]: pam_unix(cron:session): session closed for user root
+Jul  5 21:10:01 C3107 CRON[26976]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 21:10:04 C3107 CRON[26976]: pam_unix(cron:session): session closed for user root
+Jul  5 21:15:01 C3107 CRON[27154]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 21:15:04 C3107 CRON[27154]: pam_unix(cron:session): session closed for user root
+Jul  5 21:17:01 C3107 CRON[27328]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 21:17:01 C3107 CRON[27328]: pam_unix(cron:session): session closed for user root
+Jul  5 21:20:01 C3107 CRON[27334]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 21:20:04 C3107 CRON[27334]: pam_unix(cron:session): session closed for user root
+Jul  5 21:25:01 C3107 CRON[27512]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 21:25:04 C3107 CRON[27512]: pam_unix(cron:session): session closed for user root
+Jul  5 21:30:01 C3107 CRON[27691]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 21:30:04 C3107 CRON[27691]: pam_unix(cron:session): session closed for user root
+Jul  5 21:35:01 C3107 CRON[27869]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 21:35:05 C3107 CRON[27869]: pam_unix(cron:session): session closed for user root
+Jul  5 21:40:01 C3107 CRON[28048]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 21:40:04 C3107 CRON[28048]: pam_unix(cron:session): session closed for user root
+Jul  5 21:45:01 C3107 CRON[28225]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 21:45:04 C3107 CRON[28225]: pam_unix(cron:session): session closed for user root
+Jul  5 21:50:01 C3107 CRON[28404]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 21:50:04 C3107 CRON[28404]: pam_unix(cron:session): session closed for user root
+Jul  5 21:55:01 C3107 CRON[28582]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 21:55:04 C3107 CRON[28582]: pam_unix(cron:session): session closed for user root
+Jul  5 22:00:01 C3107 CRON[28759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 22:00:04 C3107 CRON[28759]: pam_unix(cron:session): session closed for user root
+Jul  5 22:05:01 C3107 CRON[28937]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 22:05:04 C3107 CRON[28937]: pam_unix(cron:session): session closed for user root
+Jul  5 22:10:01 C3107 CRON[29114]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 22:10:04 C3107 CRON[29114]: pam_unix(cron:session): session closed for user root
+Jul  5 22:15:01 C3107 CRON[29293]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 22:15:04 C3107 CRON[29293]: pam_unix(cron:session): session closed for user root
+Jul  5 22:17:01 C3107 CRON[29467]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 22:17:01 C3107 CRON[29467]: pam_unix(cron:session): session closed for user root
+Jul  5 22:20:01 C3107 CRON[29473]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 22:20:03 C3107 CRON[29473]: pam_unix(cron:session): session closed for user root
+Jul  5 22:25:01 C3107 CRON[29652]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 22:25:05 C3107 CRON[29652]: pam_unix(cron:session): session closed for user root
+Jul  5 22:30:01 C3107 CRON[29834]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 22:30:03 C3107 CRON[29834]: pam_unix(cron:session): session closed for user root
+Jul  5 22:35:01 C3107 CRON[30011]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 22:35:05 C3107 CRON[30011]: pam_unix(cron:session): session closed for user root
+Jul  5 22:40:01 C3107 CRON[30190]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 22:40:04 C3107 CRON[30190]: pam_unix(cron:session): session closed for user root
+Jul  5 22:45:01 C3107 CRON[30368]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 22:45:04 C3107 CRON[30368]: pam_unix(cron:session): session closed for user root
+Jul  5 22:50:01 C3107 CRON[30543]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 22:50:04 C3107 CRON[30543]: pam_unix(cron:session): session closed for user root
+Jul  5 22:55:01 C3107 CRON[30722]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 22:55:04 C3107 CRON[30722]: pam_unix(cron:session): session closed for user root
+Jul  5 23:00:01 C3107 CRON[30901]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 23:00:04 C3107 CRON[30901]: pam_unix(cron:session): session closed for user root
+Jul  5 23:05:01 C3107 CRON[31077]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 23:05:03 C3107 CRON[31077]: pam_unix(cron:session): session closed for user root
+Jul  5 23:10:01 C3107 CRON[31257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 23:10:04 C3107 CRON[31257]: pam_unix(cron:session): session closed for user root
+Jul  5 23:15:01 C3107 CRON[31437]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 23:15:04 C3107 CRON[31437]: pam_unix(cron:session): session closed for user root
+Jul  5 23:17:01 C3107 CRON[31612]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 23:17:01 C3107 CRON[31612]: pam_unix(cron:session): session closed for user root
+Jul  5 23:20:01 C3107 CRON[31618]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 23:20:04 C3107 CRON[31618]: pam_unix(cron:session): session closed for user root
+Jul  5 23:25:01 C3107 CRON[31797]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 23:25:04 C3107 CRON[31797]: pam_unix(cron:session): session closed for user root
+Jul  5 23:30:01 C3107 CRON[31977]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 23:30:04 C3107 CRON[31977]: pam_unix(cron:session): session closed for user root
+Jul  5 23:35:01 C3107 CRON[32154]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 23:35:04 C3107 CRON[32154]: pam_unix(cron:session): session closed for user root
+Jul  5 23:40:01 C3107 CRON[32330]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 23:40:03 C3107 CRON[32330]: pam_unix(cron:session): session closed for user root
+Jul  5 23:45:01 C3107 CRON[32509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 23:45:04 C3107 CRON[32509]: pam_unix(cron:session): session closed for user root
+Jul  5 23:50:01 C3107 CRON[32687]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 23:50:04 C3107 CRON[32687]: pam_unix(cron:session): session closed for user root
+Jul  5 23:55:01 C3107 CRON[402]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  5 23:55:04 C3107 CRON[402]: pam_unix(cron:session): session closed for user root
+Jul  6 00:00:01 C3107 CRON[588]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 00:00:04 C3107 CRON[588]: pam_unix(cron:session): session closed for user root
+Jul  6 00:05:01 C3107 CRON[778]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 00:05:04 C3107 CRON[778]: pam_unix(cron:session): session closed for user root
+Jul  6 00:10:01 C3107 CRON[962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 00:10:04 C3107 CRON[962]: pam_unix(cron:session): session closed for user root
+Jul  6 00:15:01 C3107 CRON[1152]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 00:15:04 C3107 CRON[1152]: pam_unix(cron:session): session closed for user root
+Jul  6 00:17:01 C3107 CRON[1337]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 00:17:01 C3107 CRON[1337]: pam_unix(cron:session): session closed for user root
+Jul  6 00:20:01 C3107 CRON[1343]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 00:20:04 C3107 CRON[1343]: pam_unix(cron:session): session closed for user root
+Jul  6 00:25:01 C3107 CRON[1525]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 00:25:04 C3107 CRON[1525]: pam_unix(cron:session): session closed for user root
+Jul  6 00:30:01 C3107 CRON[1708]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 00:30:04 C3107 CRON[1708]: pam_unix(cron:session): session closed for user root
+Jul  6 00:35:01 C3107 CRON[1896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 00:35:04 C3107 CRON[1896]: pam_unix(cron:session): session closed for user root
+Jul  6 00:40:01 C3107 CRON[2076]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 00:40:04 C3107 CRON[2076]: pam_unix(cron:session): session closed for user root
+Jul  6 00:45:01 C3107 CRON[2256]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 00:45:04 C3107 CRON[2256]: pam_unix(cron:session): session closed for user root
+Jul  6 00:50:01 C3107 CRON[2435]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 00:50:03 C3107 CRON[2435]: pam_unix(cron:session): session closed for user root
+Jul  6 00:55:01 C3107 CRON[2613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 00:55:04 C3107 CRON[2613]: pam_unix(cron:session): session closed for user root
+Jul  6 01:00:01 C3107 CRON[2792]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 01:00:04 C3107 CRON[2792]: pam_unix(cron:session): session closed for user root
+Jul  6 01:05:01 C3107 CRON[2971]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 01:05:04 C3107 CRON[2971]: pam_unix(cron:session): session closed for user root
+Jul  6 01:10:01 C3107 CRON[3148]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 01:10:04 C3107 CRON[3148]: pam_unix(cron:session): session closed for user root
+Jul  6 01:15:01 C3107 CRON[3326]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 01:15:04 C3107 CRON[3326]: pam_unix(cron:session): session closed for user root
+Jul  6 01:17:01 C3107 CRON[3501]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 01:17:01 C3107 CRON[3501]: pam_unix(cron:session): session closed for user root
+Jul  6 01:20:01 C3107 CRON[3507]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 01:20:04 C3107 CRON[3507]: pam_unix(cron:session): session closed for user root
+Jul  6 01:25:01 C3107 CRON[3686]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 01:25:04 C3107 CRON[3686]: pam_unix(cron:session): session closed for user root
+Jul  6 01:30:01 C3107 CRON[3864]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 01:30:04 C3107 CRON[3864]: pam_unix(cron:session): session closed for user root
+Jul  6 01:35:01 C3107 CRON[4043]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 01:35:04 C3107 CRON[4043]: pam_unix(cron:session): session closed for user root
+Jul  6 01:40:01 C3107 CRON[4220]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 01:40:04 C3107 CRON[4220]: pam_unix(cron:session): session closed for user root
+Jul  6 01:45:01 C3107 CRON[4399]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 01:45:04 C3107 CRON[4399]: pam_unix(cron:session): session closed for user root
+Jul  6 01:50:01 C3107 CRON[4577]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 01:50:04 C3107 CRON[4577]: pam_unix(cron:session): session closed for user root
+Jul  6 01:55:01 C3107 CRON[4756]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 01:55:04 C3107 CRON[4756]: pam_unix(cron:session): session closed for user root
+Jul  6 02:00:01 C3107 CRON[4933]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 02:00:04 C3107 CRON[4933]: pam_unix(cron:session): session closed for user root
+Jul  6 02:05:01 C3107 CRON[5111]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 02:05:04 C3107 CRON[5111]: pam_unix(cron:session): session closed for user root
+Jul  6 02:10:01 C3107 CRON[5290]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 02:10:04 C3107 CRON[5290]: pam_unix(cron:session): session closed for user root
+Jul  6 02:15:01 C3107 CRON[5469]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 02:15:03 C3107 CRON[5469]: pam_unix(cron:session): session closed for user root
+Jul  6 02:17:01 C3107 CRON[5643]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 02:17:01 C3107 CRON[5643]: pam_unix(cron:session): session closed for user root
+Jul  6 02:20:02 C3107 CRON[5649]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 02:20:04 C3107 CRON[5649]: pam_unix(cron:session): session closed for user root
+Jul  6 02:25:01 C3107 CRON[5828]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 02:25:04 C3107 CRON[5828]: pam_unix(cron:session): session closed for user root
+Jul  6 02:30:01 C3107 CRON[6005]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 02:30:04 C3107 CRON[6005]: pam_unix(cron:session): session closed for user root
+Jul  6 02:35:01 C3107 CRON[6185]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 02:35:04 C3107 CRON[6185]: pam_unix(cron:session): session closed for user root
+Jul  6 02:40:01 C3107 CRON[6362]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 02:40:04 C3107 CRON[6362]: pam_unix(cron:session): session closed for user root
+Jul  6 02:45:01 C3107 CRON[6539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 02:45:04 C3107 CRON[6539]: pam_unix(cron:session): session closed for user root
+Jul  6 02:50:01 C3107 CRON[6718]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 02:50:04 C3107 CRON[6718]: pam_unix(cron:session): session closed for user root
+Jul  6 02:55:01 C3107 CRON[6896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 02:55:04 C3107 CRON[6896]: pam_unix(cron:session): session closed for user root
+Jul  6 03:00:01 C3107 CRON[7076]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 03:00:01 C3107 CRON[7077]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  6 03:00:06 C3107 CRON[7076]: pam_unix(cron:session): session closed for user root
+Jul  6 03:00:06 C3107 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jul  6 03:00:06 C3107 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  6 03:00:06 C3107 sudo: pam_unix(sudo:session): session closed for user root

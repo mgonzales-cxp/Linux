@@ -1,0 +1,296 @@
+Apr  6 07:42:19 tech systemd-logind[665]: New seat seat0.
+Apr  6 07:42:35 tech dbus[505]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=992 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=843 comm="NetworkManager ")
+Apr  6 07:43:02 tech mdm[1549]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  6 07:43:02 tech mdm[1549]: PAM adding faulty module: pam_kwallet.so
+Apr  6 07:43:07 tech mdm[1549]: pam_nologin(mdm:auth): cannot determine username
+Apr  6 07:43:07 tech mdm[1549]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  6 07:43:07 tech mdm[1549]: PAM adding faulty module: pam_kwallet.so
+Apr  6 07:43:07 tech mdm[1549]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  6 07:43:09 tech mdm[1549]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tech
+Apr  6 07:43:12 tech mdm[1549]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  6 07:43:12 tech mdm[1549]: PAM adding faulty module: pam_kwallet.so
+Apr  6 07:43:12 tech mdm[1549]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  6 07:43:16 tech mdm[1549]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr  6 07:43:16 tech systemd-logind[665]: New session c1 of user tech.
+Apr  6 07:43:16 tech systemd-logind[665]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr  6 07:43:16 tech mdm[1549]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  6 07:43:24 tech polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.24 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  6 07:44:27 tech sudo:     tech : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod +x initial_setup.sh
+Apr  6 07:44:27 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 07:44:27 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 07:44:31 tech su[2647]: Successful su for root by tech
+Apr  6 07:44:31 tech su[2647]: + /dev/pts/2 tech:root
+Apr  6 07:44:31 tech su[2647]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr  6 07:47:38 tech su[5284]: Successful su for nobody by root
+Apr  6 07:47:38 tech su[5284]: + ??? root:nobody
+Apr  6 07:47:38 tech su[5284]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  6 07:47:38 tech systemd-logind[665]: New session c2 of user nobody.
+Apr  6 07:47:39 tech su[5284]: pam_unix(su:session): session closed for user nobody
+Apr  6 07:47:39 tech su[5298]: Successful su for nobody by root
+Apr  6 07:47:39 tech su[5298]: + ??? root:nobody
+Apr  6 07:47:39 tech su[5298]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  6 07:47:39 tech systemd-logind[665]: Removed session c2.
+Apr  6 07:47:39 tech systemd-logind[665]: New session c3 of user nobody.
+Apr  6 07:47:39 tech su[5298]: pam_unix(su:session): session closed for user nobody
+Apr  6 07:47:39 tech su[5321]: Successful su for nobody by root
+Apr  6 07:47:39 tech su[5321]: + ??? root:nobody
+Apr  6 07:47:39 tech su[5321]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  6 07:47:39 tech systemd-logind[665]: Removed session c3.
+Apr  6 07:47:39 tech systemd-logind[665]: New session c4 of user nobody.
+Apr  6 07:48:16 tech su[5321]: pam_unix(su:session): session closed for user nobody
+Apr  6 08:01:37 tech systemd-logind[12681]: New seat seat0.
+Apr  6 08:01:37 tech systemd-logind[12681]: New session c1 of user tech.
+Apr  6 08:01:37 tech systemd-logind[12681]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr  6 08:03:46 tech groupadd[26800]: group added to /etc/group: name=clamav, GID=125
+Apr  6 08:03:46 tech groupadd[26800]: group added to /etc/gshadow: name=clamav
+Apr  6 08:03:46 tech groupadd[26800]: new group: name=clamav, GID=125
+Apr  6 08:03:46 tech useradd[26804]: new user: name=clamav, UID=115, GID=125, home=/var/lib/clamav, shell=/bin/false
+Apr  6 08:03:47 tech chage[26809]: changed password expiry for clamav
+Apr  6 08:03:51 tech useradd[27082]: new user: name=sshd, UID=116, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Apr  6 08:03:51 tech usermod[27087]: change user 'sshd' password
+Apr  6 08:03:51 tech chage[27092]: changed password expiry for sshd
+Apr  6 08:03:52 tech sshd[27147]: Server listening on 0.0.0.0 port 22.
+Apr  6 08:03:52 tech sshd[27147]: Server listening on :: port 22.
+Apr  6 08:13:32 tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  6 08:13:32 tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  6 08:13:50 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:14:15 tech groupadd[30220]: group added to /etc/group: name=ossec, GID=1001
+Apr  6 08:14:15 tech groupadd[30220]: group added to /etc/gshadow: name=ossec
+Apr  6 08:14:15 tech groupadd[30220]: new group: name=ossec, GID=1001
+Apr  6 08:14:15 tech useradd[30226]: new user: name=ossec, UID=1001, GID=1001, home=/var/ossec, shell=/bin/false
+Apr  6 08:14:45 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  6 08:14:45 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:14:45 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:14:45 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.9-x86.msi /usr/share/wine/gecko/
+Apr  6 08:14:45 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:14:45 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:14:50 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  6 08:14:50 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:14:50 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:14:50 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86.msi /usr/share/wine/gecko/
+Apr  6 08:14:50 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:14:50 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:15:25 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  6 08:15:25 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:15:25 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:15:25 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86.msi /usr/share/wine/gecko/
+Apr  6 08:15:25 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:15:25 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:15:32 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  6 08:15:32 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:15:32 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:15:32 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86.msi /usr/share/wine/gecko/
+Apr  6 08:15:32 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:15:32 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:16:22 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  6 08:16:22 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:16:22 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:16:22 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86_64.msi /usr/share/wine/gecko/
+Apr  6 08:16:22 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:16:22 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:16:28 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  6 08:16:28 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:16:28 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:16:28 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86_64.msi /usr/share/wine/gecko/
+Apr  6 08:16:28 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:16:28 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:16:43 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  6 08:16:43 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:16:43 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:16:43 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.6-x86_64.msi /usr/share/wine/gecko/
+Apr  6 08:16:43 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:16:43 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:16:48 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  6 08:16:48 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:16:48 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:16:48 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.5-x86_64.msi /usr/share/wine/gecko/
+Apr  6 08:16:48 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:16:48 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:17:01 tech CRON[30452]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  6 08:17:01 tech CRON[30452]: pam_unix(cron:session): session closed for user root
+Apr  6 08:17:04 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  6 08:17:04 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:17:04 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:17:04 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86_64.msi /usr/share/wine/gecko/
+Apr  6 08:17:04 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:17:04 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:17:08 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  6 08:17:08 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:17:08 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:17:08 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.3-x86_64.msi /usr/share/wine/gecko/
+Apr  6 08:17:08 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:17:08 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:17:26 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Apr  6 08:17:26 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:17:26 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:17:26 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.4.msi /usr/share/wine/mono
+Apr  6 08:17:26 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:17:26 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:17:41 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Apr  6 08:17:41 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:17:41 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:17:41 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.8.msi /usr/share/wine/mono
+Apr  6 08:17:41 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 08:17:41 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 08:21:39 Ctech sshd[1508]: Server listening on 0.0.0.0 port 22.
+Apr  6 08:21:39 Ctech sshd[1508]: Server listening on :: port 22.
+Apr  6 08:21:41 Ctech CRON[1607]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  6 08:21:47 Ctech CRON[1607]: pam_unix(cron:session): session closed for user root
+Apr  6 08:21:50 Ctech mdm[1730]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  6 08:21:50 Ctech mdm[1730]: PAM adding faulty module: pam_kwallet.so
+Apr  6 08:21:56 Ctech mdm[1730]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  6 08:22:03 Ctech mdm[1730]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr  6 08:22:03 Ctech mdm[1730]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  6 08:22:13 Ctech polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.24 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  6 08:26:40 Ctech sshd[1490]: Server listening on 0.0.0.0 port 22.
+Apr  6 08:26:40 Ctech sshd[1490]: Server listening on :: port 22.
+Apr  6 08:26:41 Ctech CRON[1565]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  6 08:26:42 Ctech CRON[1565]: pam_unix(cron:session): session closed for user root
+Apr  6 08:26:44 Ctech mdm[1783]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  6 08:26:44 Ctech mdm[1783]: PAM adding faulty module: pam_kwallet.so
+Apr  6 08:27:06 Ctech mdm[1783]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  6 08:27:09 Ctech mdm[1783]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr  6 08:27:09 Ctech mdm[1783]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  6 08:27:14 Ctech polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  6 08:28:00 Ctech polkitd(authority=local): Operator of unix-session:c1 FAILED to authenticate to gain authorization for action com.ubuntu.pkexec.synaptic for unix-process:2985:9405 [/bin/sh -c pkexec /usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 48234527 -o Synaptic::closeZvt=true --progress-str "Please wait, this can take some time" --finish-str "Update is complete" --set-selections-file /tmp/tmp9HMWKu] (owned by unix-user:tech)
+Apr  6 08:28:00 Ctech pkexec[2986]: tech: Error executing command as another user: Request dismissed [USER=root] [TTY=unknown] [CWD=/home/tech] [COMMAND=/usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 48234527 -o Synaptic::closeZvt=true --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmp9HMWKu]
+Apr  6 08:28:13 Ctech polkit-agent-helper-1[3633]: pam_unix(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=tech rhost=  user=tech
+Apr  6 08:28:13 Ctech polkit-agent-helper-1[3633]: pam_sss(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=tech rhost= user=tech
+Apr  6 08:28:13 Ctech polkit-agent-helper-1[3633]: pam_sss(polkit-1:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr  6 08:28:18 Ctech polkit-agent-helper-1[3634]: pam_ecryptfs: pam_sm_authenticate: /home/tech is already mounted
+Apr  6 08:28:18 Ctech polkitd(authority=local): Operator of unix-session:c1 successfully authenticated as unix-user:tech to gain ONE-SHOT authorization for action com.ubuntu.pkexec.synaptic for unix-process:3630:12305 [/bin/sh -c pkexec /usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 48234527 -o Synaptic::closeZvt=true --progress-str "Please wait, this can take some time" --finish-str "Update is complete" --set-selections-file /tmp/tmpeQElH5] (owned by unix-user:tech)
+Apr  6 08:28:18 Ctech pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr  6 08:28:18 Ctech pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Apr  6 08:28:18 Ctech pkexec[3631]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/home/tech] [COMMAND=/usr/sbin/synaptic --hide-main-window --non-interactive --parent-window-id 48234527 -o Synaptic::closeZvt=true --progress-str Please wait, this can take some time --finish-str Update is complete --set-selections-file /tmp/tmpeQElH5]
+Apr  6 09:47:31 Ctech sshd[1497]: Server listening on 0.0.0.0 port 22.
+Apr  6 09:47:31 Ctech sshd[1497]: Server listening on :: port 22.
+Apr  6 09:47:32 Ctech CRON[1584]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  6 09:47:33 Ctech CRON[1584]: pam_unix(cron:session): session closed for user root
+Apr  6 09:47:35 Ctech mdm[1786]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  6 09:47:35 Ctech mdm[1786]: PAM adding faulty module: pam_kwallet.so
+Apr  6 09:48:12 Ctech mdm[1786]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  6 09:48:14 Ctech mdm[1786]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr  6 09:48:14 Ctech mdm[1786]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  6 09:48:19 Ctech polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  6 09:58:26 Ctech sshd[1495]: Server listening on 0.0.0.0 port 22.
+Apr  6 09:58:26 Ctech sshd[1495]: Server listening on :: port 22.
+Apr  6 09:58:27 Ctech CRON[1549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  6 09:58:28 Ctech CRON[1549]: pam_unix(cron:session): session closed for user root
+Apr  6 09:58:30 Ctech mdm[1786]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  6 09:58:30 Ctech mdm[1786]: PAM adding faulty module: pam_kwallet.so
+Apr  6 09:58:38 Ctech mdm[1786]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  6 09:58:40 Ctech mdm[1786]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr  6 09:58:40 Ctech mdm[1786]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  6 09:58:46 Ctech polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  6 10:09:06 Ctech su[3140]: Successful su for root by tech
+Apr  6 10:09:06 Ctech su[3140]: + /dev/pts/0 tech:root
+Apr  6 10:09:06 Ctech su[3140]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr  6 10:17:01 Ctech CRON[3533]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  6 10:17:01 Ctech CRON[3533]: pam_unix(cron:session): session closed for user root
+Apr  6 10:28:45 Ctech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  6 10:28:45 Ctech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  6 10:28:56 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 10:39:11 Ctech xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr  6 10:58:45 Ctech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  6 10:58:45 Ctech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  6 10:58:55 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 11:17:01 Ctech CRON[3808]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  6 11:17:01 Ctech CRON[3808]: pam_unix(cron:session): session closed for user root
+Apr  6 11:28:45 Ctech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  6 11:28:45 Ctech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  6 11:28:56 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 11:58:45 Ctech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  6 11:58:45 Ctech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  6 11:58:55 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 12:17:01 Ctech CRON[3975]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  6 12:17:01 Ctech CRON[3975]: pam_unix(cron:session): session closed for user root
+Apr  6 12:17:20 Ctech sshd[3973]: Did not receive identification string from 192.168.1.9
+Apr  6 12:18:24 Ctech sshd[3980]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Apr  6 12:18:26 Ctech sshd[3987]: fatal: no hostkey alg [preauth]
+Apr  6 12:18:26 Ctech sshd[3989]: fatal: no hostkey alg [preauth]
+Apr  6 12:18:26 Ctech sshd[3981]: Connection closed by 192.168.1.9 [preauth]
+Apr  6 12:18:26 Ctech sshd[3985]: Connection closed by 192.168.1.9 [preauth]
+Apr  6 12:18:26 Ctech sshd[3983]: Connection closed by 192.168.1.9 [preauth]
+Apr  6 12:19:43 Ctech sshd[3994]: Protocol major versions differ for 192.168.1.9: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Apr  6 12:28:45 Ctech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  6 12:28:45 Ctech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  6 12:28:55 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 12:58:45 Ctech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  6 12:58:45 Ctech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  6 12:58:55 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:16:07 Ctech xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr  6 13:17:01 Ctech CRON[4168]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  6 13:17:01 Ctech CRON[4168]: pam_unix(cron:session): session closed for user root
+Apr  6 13:27:36 Ctech xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr  6 13:28:45 Ctech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  6 13:28:45 Ctech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  6 13:28:55 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:39:36 Ctech sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/initial_setup.sh
+Apr  6 13:39:36 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:39:36 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:39:48 Ctech sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/preferences/blacklist_update.sh
+Apr  6 13:39:48 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:39:53 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:39:56 Ctech sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/satdns.sh
+Apr  6 13:39:56 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:39:56 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:40:05 Ctech sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/cron/reboot.sh
+Apr  6 13:40:05 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:40:05 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:40:07 Ctech sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/cron/reboot.sh
+Apr  6 13:40:07 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:40:07 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:40:07 Ctech sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/cron/reboot.sh
+Apr  6 13:40:07 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:40:07 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:41:58 Ctech sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/var/ossec/bin/manage_agents
+Apr  6 13:41:58 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:42:01 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:42:01 Ctech sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/var/ossec/bin/ossec-control restart
+Apr  6 13:42:01 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:42:02 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:47:37 Ctech sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_on.sh - Linux Config Menu
+Apr  6 13:47:37 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:47:37 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:47:42 Ctech sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_off.sh - Linux Config Menu
+Apr  6 13:47:42 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:47:42 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:47:47 Ctech su[3140]: pam_unix(su:session): session closed for user root
+Apr  6 13:48:07 Ctech sudo: pam_unix(sudo:auth): authentication failure; logname=tech uid=1000 euid=0 tty=/dev/pts/0 ruser=tech rhost=  user=tech
+Apr  6 13:48:07 Ctech sudo: pam_sss(sudo:auth): authentication failure; logname=tech uid=1000 euid=0 tty=/dev/pts/0 ruser=tech rhost= user=tech
+Apr  6 13:48:07 Ctech sudo: pam_sss(sudo:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr  6 13:48:12 Ctech sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_off.sh - Linux Config Menu
+Apr  6 13:48:12 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:48:12 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:51:43 Ctech sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/satdns.sh
+Apr  6 13:51:43 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:51:43 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:52:16 Ctech sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_on.sh - Linux Config Menu
+Apr  6 13:52:16 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:52:17 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:52:19 Ctech sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_off.sh - Linux Config Menu
+Apr  6 13:52:19 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:52:19 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:52:34 Ctech sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_on.sh - Linux Config Menu
+Apr  6 13:52:34 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:52:34 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:52:36 Ctech sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_on.sh - Linux Config Menu
+Apr  6 13:52:36 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:52:36 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:52:36 Ctech sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_on.sh - Linux Config Menu
+Apr  6 13:52:36 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:52:36 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:52:37 Ctech sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_on.sh - Linux Config Menu
+Apr  6 13:52:37 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:52:37 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:52:37 Ctech sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_on.sh - Linux Config Menu
+Apr  6 13:52:37 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:52:37 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:52:38 Ctech sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_on.sh - Linux Config Menu
+Apr  6 13:52:38 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:52:38 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:52:38 Ctech sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_on.sh - Linux Config Menu
+Apr  6 13:52:38 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  6 13:52:38 Ctech sudo: pam_unix(sudo:session): session closed for user root
+Apr  6 13:52:39 Ctech sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_off.sh - Linux Config Menu
+Apr  6 13:52:39 Ctech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)

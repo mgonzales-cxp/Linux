@@ -1,0 +1,774 @@
+Apr  9 14:51:40 tech-Latitude-E6400 systemd-logind[744]: New seat seat0.
+Apr  9 14:51:49 tech-Latitude-E6400 dbus[641]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.10" (uid=0 pid=935 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=769 comm="NetworkManager ")
+Apr  9 14:52:13 tech-Latitude-E6400 mdm[1568]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 14:52:13 tech-Latitude-E6400 mdm[1568]: PAM adding faulty module: pam_kwallet.so
+Apr  9 14:52:36 tech-Latitude-E6400 mdm[1568]: pam_unix(mdm:auth): check pass; user unknown
+Apr  9 14:52:36 tech-Latitude-E6400 mdm[1568]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Apr  9 14:52:39 tech-Latitude-E6400 mdm[1568]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 14:52:39 tech-Latitude-E6400 mdm[1568]: PAM adding faulty module: pam_kwallet.so
+Apr  9 14:52:43 tech-Latitude-E6400 mdm[1568]: pam_nologin(mdm:auth): cannot determine username
+Apr  9 14:52:43 tech-Latitude-E6400 mdm[1568]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 14:52:43 tech-Latitude-E6400 mdm[1568]: PAM adding faulty module: pam_kwallet.so
+Apr  9 14:52:43 tech-Latitude-E6400 mdm[1568]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  9 14:52:48 tech-Latitude-E6400 mdm[1568]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr  9 14:52:48 tech-Latitude-E6400 systemd-logind[744]: New session c1 of user tech.
+Apr  9 14:52:48 tech-Latitude-E6400 systemd-logind[744]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr  9 14:52:48 tech-Latitude-E6400 mdm[1568]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  9 14:52:54 tech-Latitude-E6400 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  9 14:56:24 tech-Latitude-E6400 sudo:     tech : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod +x config.sh
+Apr  9 14:56:24 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 14:56:24 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 14:57:28 tech-Latitude-E6400 sudo:     tech : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod +x config.sh
+Apr  9 14:57:28 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 14:57:28 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 14:57:34 tech-Latitude-E6400 su[2835]: Successful su for root by tech
+Apr  9 14:57:34 tech-Latitude-E6400 su[2835]: + /dev/pts/2 tech:root
+Apr  9 14:57:34 tech-Latitude-E6400 su[2835]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr  9 14:57:46 tech-Latitude-E6400 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /usr/src/IT_Files
+Apr  9 14:57:46 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 14:57:46 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 14:57:46 tech-Latitude-E6400 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/sed -i /IT_Files/d /etc/fstab
+Apr  9 14:57:46 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 14:57:46 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 14:57:46 tech-Latitude-E6400 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo //hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8  0  0
+Apr  9 14:57:46 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 14:57:46 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 14:57:46 tech-Latitude-E6400 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mount -a
+Apr  9 14:57:46 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 14:57:48 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 14:57:53 tech-Latitude-E6400 sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/initial_setup.sh
+Apr  9 14:57:53 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:07:21 tech-Latitude-E6400 su[4068]: Successful su for nobody by root
+Apr  9 15:07:21 tech-Latitude-E6400 su[4068]: + ??? root:nobody
+Apr  9 15:07:21 tech-Latitude-E6400 su[4068]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  9 15:07:21 tech-Latitude-E6400 su[4068]: pam_systemd(su:session): Failed to create session: The permission of the setuid helper is not correct
+Apr  9 15:07:21 tech-Latitude-E6400 su[4068]: pam_unix(su:session): session closed for user nobody
+Apr  9 15:07:21 tech-Latitude-E6400 su[4078]: Successful su for nobody by root
+Apr  9 15:07:21 tech-Latitude-E6400 su[4078]: + ??? root:nobody
+Apr  9 15:07:21 tech-Latitude-E6400 su[4078]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  9 15:07:21 tech-Latitude-E6400 su[4078]: pam_systemd(su:session): Failed to create session: The permission of the setuid helper is not correct
+Apr  9 15:07:21 tech-Latitude-E6400 su[4078]: pam_unix(su:session): session closed for user nobody
+Apr  9 15:07:21 tech-Latitude-E6400 su[4097]: Successful su for nobody by root
+Apr  9 15:07:21 tech-Latitude-E6400 su[4097]: + ??? root:nobody
+Apr  9 15:07:21 tech-Latitude-E6400 su[4097]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  9 15:07:21 tech-Latitude-E6400 su[4097]: pam_systemd(su:session): Failed to create session: The permission of the setuid helper is not correct
+Apr  9 15:08:51 tech-Latitude-E6400 su[4097]: pam_unix(su:session): session closed for user nobody
+Apr  9 15:13:33 tech-Latitude-E6400 dbus[641]: [system] Rejected send message, 8 matched rules; type="method_call", sender=":1.23" (uid=1000 pid=2050 comm="xfce4-power-manager ") interface="org.freedesktop.NetworkManager" member="Sleep" error name="(unset)" requested_reply="0" destination="org.freedesktop.NetworkManager" (uid=0 pid=769 comm="NetworkManager ")
+Apr  9 15:14:39 tech-Latitude-E6400 dbus[641]: [system] Rejected send message, 8 matched rules; type="method_call", sender=":1.23" (uid=1000 pid=2050 comm="xfce4-power-manager ") interface="org.freedesktop.NetworkManager" member="Sleep" error name="(unset)" requested_reply="0" destination="org.freedesktop.NetworkManager" (uid=0 pid=769 comm="NetworkManager ")
+Apr  9 15:14:42 tech-Latitude-E6400 systemd-logind[16758]: New seat seat0.
+Apr  9 15:14:42 tech-Latitude-E6400 systemd-logind[16758]: New session c1 of user tech.
+Apr  9 15:14:42 tech-Latitude-E6400 systemd-logind[16758]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr  9 15:14:56 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:14:56 tech-Latitude-E6400 su[2835]: pam_unix(su:session): session closed for user root
+Apr  9 15:15:06 tech-Latitude-E6400 su[17584]: Successful su for root by tech
+Apr  9 15:15:06 tech-Latitude-E6400 su[17584]: + /dev/pts/4 tech:root
+Apr  9 15:15:06 tech-Latitude-E6400 su[17584]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr  9 15:15:36 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod +x config.sh
+Apr  9 15:15:36 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:15:36 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:15:49 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /usr/src/IT_Files
+Apr  9 15:15:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:15:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:15:49 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/sed -i /IT_Files/d /etc/fstab
+Apr  9 15:15:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:15:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:15:49 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo //hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8  0  0
+Apr  9 15:15:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:15:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:15:49 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mount -a
+Apr  9 15:15:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:15:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:15:54 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/initial_setup.sh
+Apr  9 15:15:54 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:17:01 tech-Latitude-E6400 CRON[28900]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 15:17:01 tech-Latitude-E6400 CRON[28900]: pam_unix(cron:session): session closed for user root
+Apr  9 15:17:45 tech-Latitude-E6400 groupadd[31026]: group added to /etc/group: name=clamav, GID=125
+Apr  9 15:17:45 tech-Latitude-E6400 groupadd[31026]: group added to /etc/gshadow: name=clamav
+Apr  9 15:17:45 tech-Latitude-E6400 groupadd[31026]: new group: name=clamav, GID=125
+Apr  9 15:17:45 tech-Latitude-E6400 useradd[31030]: new user: name=clamav, UID=115, GID=125, home=/var/lib/clamav, shell=/bin/false
+Apr  9 15:17:46 tech-Latitude-E6400 chage[31035]: changed password expiry for clamav
+Apr  9 15:17:49 tech-Latitude-E6400 useradd[31291]: new user: name=sshd, UID=116, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Apr  9 15:17:50 tech-Latitude-E6400 usermod[31296]: change user 'sshd' password
+Apr  9 15:17:50 tech-Latitude-E6400 chage[31301]: changed password expiry for sshd
+Apr  9 15:17:50 tech-Latitude-E6400 sshd[31356]: Server listening on 0.0.0.0 port 22.
+Apr  9 15:17:50 tech-Latitude-E6400 sshd[31356]: Server listening on :: port 22.
+Apr  9 15:23:57 tech-Latitude-E6400 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 15:23:57 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 15:24:09 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:24:43 tech-Latitude-E6400 groupadd[2147]: group added to /etc/group: name=ossec, GID=1001
+Apr  9 15:24:43 tech-Latitude-E6400 groupadd[2147]: group added to /etc/gshadow: name=ossec
+Apr  9 15:24:43 tech-Latitude-E6400 groupadd[2147]: new group: name=ossec, GID=1001
+Apr  9 15:24:43 tech-Latitude-E6400 useradd[2153]: new user: name=ossec, UID=1001, GID=1001, home=/var/ossec, shell=/bin/false
+Apr  9 15:26:36 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  9 15:26:36 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:26:36 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:26:36 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.9-x86.msi /usr/share/wine/gecko/
+Apr  9 15:26:36 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:26:36 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:26:52 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  9 15:26:52 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:26:52 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:26:52 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86.msi /usr/share/wine/gecko/
+Apr  9 15:26:52 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:26:52 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:26:58 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  9 15:26:58 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:26:58 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:26:58 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86.msi /usr/share/wine/gecko/
+Apr  9 15:26:58 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:26:58 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:27:16 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  9 15:27:16 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:27:16 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:27:16 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86.msi /usr/share/wine/gecko/
+Apr  9 15:27:16 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:27:16 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:27:20 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  9 15:27:20 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:27:20 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:27:20 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86_64.msi /usr/share/wine/gecko/
+Apr  9 15:27:20 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:27:20 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:27:27 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  9 15:27:27 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:27:27 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:27:27 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86_64.msi /usr/share/wine/gecko/
+Apr  9 15:27:27 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:27:27 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:27:33 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  9 15:27:33 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:27:33 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:27:33 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.6-x86_64.msi /usr/share/wine/gecko/
+Apr  9 15:27:33 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:27:33 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:27:49 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  9 15:27:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:27:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:27:49 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.5-x86_64.msi /usr/share/wine/gecko/
+Apr  9 15:27:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:27:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:27:57 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  9 15:27:57 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:27:57 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:27:57 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86_64.msi /usr/share/wine/gecko/
+Apr  9 15:27:57 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:27:57 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:28:05 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  9 15:28:05 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:28:05 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:28:05 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.3-x86_64.msi /usr/share/wine/gecko/
+Apr  9 15:28:05 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:28:05 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:28:19 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Apr  9 15:28:19 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:28:19 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:28:19 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.4.msi /usr/share/wine/mono
+Apr  9 15:28:19 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:28:19 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:28:33 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Apr  9 15:28:33 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:28:33 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:28:33 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.8.msi /usr/share/wine/mono
+Apr  9 15:28:33 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:28:34 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:34:36 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/missing.sh
+Apr  9 15:34:36 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:34:59 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /etc/univention
+Apr  9 15:34:59 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:34:59 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:34:59 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /tmp/key/
+Apr  9 15:34:59 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:34:59 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:34:59 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo -----BEGIN RSA PRIVATE
+Apr  9 15:34:59 tech-Latitude-E6400 sudo:     root : (command continued) KEY-----#012MIIEowIBAAKCAQEAxxxfc/xj8etUnFZq/2y+dNGAxVaIHjym166+fb5bsNWgt4yt#012XbZ/6PlDXfO5qQ/3lZpX+5045BcQrvKpeN1a5pQA+RpuWW+qrqcDx8yr3WxaJTI4#012K6UDEgee7Cnzz2vSM0+bil3DmsBzUFDY56r8LAvyE30AaYum0ppZItXhFC4xP9gi#0125nsCE7E+5wiV3ZmFJhZPGVUlsKSIfXtHNgo6TIax4fwYJk5qtjayvAcnTuAzI0ih#012+xmPPQUuvnAf/Jdyx8Oa2eSbDJGCdCwZpFU9Yl0UakUZtPJBjwpksa+7CvMGzprr#012+bKTVuT7MOuBQ8uxGJeqiQOdySdESYu+1ZY+9wIDAQABAoIBACdunAzJWDXJ6EjJ#0126IjLTXCvKPRr7asnUdd3GOyoLVp5BEo1hwP/J5fI/al2ojc0HVE4buI6wdCSLNCo#0126B0yoVT2zLaIoH//2GqcUuhXxVWlprilGHC0TkZc0gFtUYarkMZuppwhc6KLKIso#012Z7yBpU1H1Fo9sD421QPyY2K9vsSTA0QRTgCl6Ytj0L+xmAe5/rxuCg0GBNEzsSot#012TLrx2ozpkexNVlLS+UkXZbAx2fW8lZn3N2pk/YQ1nb8vHMKLeYF+arS2Dl8yJRN8#0122/xtlDtglx5rn9mtBRGCHbw0nWAagERagVbkFocu3nnlobzAP1w+ZlpvzDrn7P4f#0129Ev/BjECgYEA/r2356Hc3iAoW5iOq1dbXhPdo7u696FX0mht9MUJ3WNN0qXOrbrm#012GMEU9HqkgwJu2++rB4Bub6h+b7OG/VXE/8mNHZt87jKfP2G0iR52OeEaPM9dCdlc#0124mipV62hzP2Ww9ekDKGsPvANoJruOqN/8BPWqXoXrtiHd3bBRwzEQLkCgYEAyBhG#012VlSdn7HdqN
+Apr  9 15:34:59 tech-Latitude-E6400 sudo:     root : (command continued) QdAcOvJJvevojywwYclyLIl8rTKF/zsMC1a3WpJ2m69qzDzPvH#012tP8Cdre2LwpXag9V+A2KQPvhSvSQU31pq1yi8Mmc5JpmEwcEx2G5udUpxNqcz70t#012UTQjVe9THCnb/RtLz5rR9IRWLJ+OB9ZNhtXAxS8CgYBY5S/GH1AKG8K5pBU1abiy#012rdAMkTh/rcgN3u9wGUqF/V9tAPuM2MnvHYIIhrveE/1Htu1CIulnAa+Nn2KeCU5D#012zLv39wizvuqfnaL4rq6nKAyV5+8ZvsaRI+Dkfe0Wse/oy9mtpsWK+Q5oW2iDAgdl#012aibg4YBePaWYZNKxzpy10QKBgQCqfpSgRuUwB3xZwoEFhPdaY4S+6tl2/HXt2y1N#012UmQdgsM9qdSZDPsIn28MmDioqzkDVp4qCQfuZEcl+efWBU85V0Awcu7a0VyQ51G8#012o+hqxz+aQj0rhVV7FjgMsicvBx+KmyUcBhL9zDjCzKAYIMQOF1tCv+g1iZaZ8u6I#012L2ZcHQKBgFYQ/D8wIJeKKuEsilqzpyhhFvh3Yc0/3DlKZp75TQqZLtVKQAUsFzkA#01208c5TN2e6cyC3vQjqNC6UrADa8d1zdGcRlKoc0qn5rF1RhOTFCdcLHg6+il2gwrc#012QO/7FvsDTADiEYQ/qy5AvS0iTK20Ihu2tfCUG4qBa8eM+RZ7sxeo#012-----END RSA PRIVATE KEY-----
+Apr  9 15:34:59 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:34:59 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:35:04 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod 600 /tmp/key/keys
+Apr  9 15:35:04 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:35:04 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:35:10 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo master_ip=192.168.128.239
+Apr  9 15:35:10 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:35:10 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:35:10 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod 660 /etc/univention/ucr_master
+Apr  9 15:35:10 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:35:10 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:35:10 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /etc/univention/ssl/ucsCA/
+Apr  9 15:35:10 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:35:10 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:35:10 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/bin/wget -O /etc/univention/ssl/ucsCA/CAcert.pem http://ucs-main.connexionpoint.local/ucs-root-ca.crt
+Apr  9 15:35:10 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:35:10 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:35:20 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/bin/printf %s 8x41PFOSB6jYRfWn4AYU
+Apr  9 15:35:20 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:35:20 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:35:20 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod 0400 /etc/ldap.secret
+Apr  9 15:35:20 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:35:20 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:35:25 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/cat
+Apr  9 15:35:25 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:35:25 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:35:25 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get -y install sssd
+Apr  9 15:35:25 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:35:50 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:35:55 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get install -qq libnss-sss libpam-sss libsss-sudo
+Apr  9 15:35:55 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:36:04 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:36:14 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:36:14 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/cat
+Apr  9 15:36:14 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:36:14 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:36:19 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:36:19 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod 600 /etc/sssd/sssd.conf
+Apr  9 15:36:19 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:36:19 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:36:19 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:36:19 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get -y install auth-client-config
+Apr  9 15:36:19 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:36:23 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:36:33 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:36:33 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/cat
+Apr  9 15:36:33 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:36:33 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:36:38 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:36:38 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/sbin/auth-client-config -a -p sss
+Apr  9 15:36:38 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:36:39 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:36:44 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:36:44 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/sbin/restart sssd
+Apr  9 15:36:44 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:36:44 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:36:49 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:36:49 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/cat
+Apr  9 15:36:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:36:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:36:49 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:36:49 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/sbin/pam-auth-update --force
+Apr  9 15:36:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:36:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:36:49 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:36:49 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo Configuring user groups...
+Apr  9 15:36:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:36:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:36:49 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:36:49 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo *;*;*;Al0000-2400;audio,cdrom,dialout,floppy,plugdev,adm
+Apr  9 15:36:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:36:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:36:49 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:36:49 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/cat
+Apr  9 15:36:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:36:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:36:49 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:36:49 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/sbin/pam-auth-update --force
+Apr  9 15:36:49 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:36:50 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:36:50 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:36:50 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get install -y heimdal-clients
+Apr  9 15:36:50 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:37:02 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:37:02 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:37:02 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/cat
+Apr  9 15:37:02 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:37:02 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:37:02 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:37:02 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/sbin/stop avahi-daemon
+Apr  9 15:37:02 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:37:02 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:37:07 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:37:07 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/sbin/ntpdate -bu ucs-main.connexionpoint.local
+Apr  9 15:37:07 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:37:12 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:37:12 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:37:12 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/rm -f /tmp/key/keys
+Apr  9 15:37:12 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:37:12 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:37:12 tech-Latitude-E6400 sudo:     root : problem with defaults entries ; TTY=pts/4 ; PWD=/home/tech/Desktop ; 
+Apr  9 15:37:12 tech-Latitude-E6400 sudo:     root : TTY=pts/4 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/rmdir /tmp/key/
+Apr  9 15:37:12 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:37:12 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:39:22 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:41:02 tech-Latitude-E6400 sshd[1421]: Server listening on 0.0.0.0 port 22.
+Apr  9 15:41:02 tech-Latitude-E6400 sshd[1421]: Server listening on :: port 22.
+Apr  9 15:41:02 tech-Latitude-E6400 CRON[1538]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 15:41:02 tech-Latitude-E6400 CRON[1538]: pam_unix(cron:session): session closed for user root
+Apr  9 15:41:16 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:16 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:17 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  9 15:41:23 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:23 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tech]
+Apr  9 15:41:23 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech
+Apr  9 15:41:23 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr  9 15:41:23 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:23 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:24 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-Latitude-E6400$"
+Apr  9 15:41:25 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:25 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tech-Latitude-E6400$]
+Apr  9 15:41:25 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech-Latitude-E6400$
+Apr  9 15:41:25 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech-Latitude-E6400$: 7 (Authentication failure)
+Apr  9 15:41:25 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:25 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:25 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-OptiPlex-755$"
+Apr  9 15:41:25 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:25 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tech-OptiPlex-755$]
+Apr  9 15:41:25 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech-OptiPlex-755$
+Apr  9 15:41:25 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech-OptiPlex-755$: 7 (Authentication failure)
+Apr  9 15:41:25 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:25 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:26 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-OptiPlex-780$"
+Apr  9 15:41:27 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:27 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tech-OptiPlex-780$]
+Apr  9 15:41:27 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech-OptiPlex-780$
+Apr  9 15:41:27 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech-OptiPlex-780$: 7 (Authentication failure)
+Apr  9 15:41:27 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:27 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:27 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tereed"
+Apr  9 15:41:28 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:28 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tereed]
+Apr  9 15:41:29 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tereed
+Apr  9 15:41:29 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tereed: 7 (Authentication failure)
+Apr  9 15:41:29 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:29 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:29 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "termartinez"
+Apr  9 15:41:29 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:29 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [termartinez]
+Apr  9 15:41:30 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=termartinez
+Apr  9 15:41:30 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user termartinez: 7 (Authentication failure)
+Apr  9 15:41:30 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:30 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:30 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "thhernandez"
+Apr  9 15:41:30 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:30 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [thhernandez]
+Apr  9 15:41:30 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=thhernandez
+Apr  9 15:41:30 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user thhernandez: 7 (Authentication failure)
+Apr  9 15:41:31 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:31 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:31 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "thhernandez"
+Apr  9 15:41:31 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:31 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [thhernandez]
+Apr  9 15:41:31 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=thhernandez
+Apr  9 15:41:31 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user thhernandez: 7 (Authentication failure)
+Apr  9 15:41:31 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:31 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:31 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tylfulton"
+Apr  9 15:41:31 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:31 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tylfulton]
+Apr  9 15:41:32 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tylfulton
+Apr  9 15:41:32 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tylfulton: 7 (Authentication failure)
+Apr  9 15:41:32 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:32 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:32 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ucs-fs$"
+Apr  9 15:41:32 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:32 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [ucs-fs$]
+Apr  9 15:41:32 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=ucs-fs$
+Apr  9 15:41:32 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user ucs-fs$: 7 (Authentication failure)
+Apr  9 15:41:32 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:32 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:33 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ucs-main$"
+Apr  9 15:41:33 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:33 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [ucs-main$]
+Apr  9 15:41:34 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=ucs-main$
+Apr  9 15:41:34 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user ucs-main$: 7 (Authentication failure)
+Apr  9 15:41:34 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:34 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:34 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wasnoddy"
+Apr  9 15:41:34 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:34 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [wasnoddy]
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=wasnoddy
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user wasnoddy: 7 (Authentication failure)
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ucs-main$"
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [ucs-main$]
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=ucs-main$
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user ucs-main$: 7 (Authentication failure)
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ucs-fs$"
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [ucs-fs$]
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=ucs-fs$
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user ucs-fs$: 7 (Authentication failure)
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:35 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tylfulton"
+Apr  9 15:41:36 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:36 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tylfulton]
+Apr  9 15:41:36 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tylfulton
+Apr  9 15:41:36 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tylfulton: 7 (Authentication failure)
+Apr  9 15:41:36 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:36 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:36 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tperson"
+Apr  9 15:41:41 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:41 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tperson]
+Apr  9 15:41:41 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tperson
+Apr  9 15:41:41 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tperson: 7 (Authentication failure)
+Apr  9 15:41:41 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:41 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:41 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tylfulton"
+Apr  9 15:41:42 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:42 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tylfulton]
+Apr  9 15:41:42 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tylfulton
+Apr  9 15:41:42 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tylfulton: 7 (Authentication failure)
+Apr  9 15:41:42 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:42 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:42 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ucs-fs$"
+Apr  9 15:41:42 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:42 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [ucs-fs$]
+Apr  9 15:41:42 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=ucs-fs$
+Apr  9 15:41:42 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user ucs-fs$: 7 (Authentication failure)
+Apr  9 15:41:42 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:42 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:42 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ucs-main$"
+Apr  9 15:41:42 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:42 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [ucs-main$]
+Apr  9 15:41:43 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=ucs-main$
+Apr  9 15:41:43 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user ucs-main$: 7 (Authentication failure)
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "ucs-main$"
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [ucs-main$]
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=ucs-main$
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user ucs-main$: 7 (Authentication failure)
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "xaorosco"
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [xaorosco]
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=xaorosco
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user xaorosco: 7 (Authentication failure)
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "Administrator"
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:44 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [Administrator]
+Apr  9 15:41:45 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=Administrator
+Apr  9 15:41:45 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user Administrator: 7 (Authentication failure)
+Apr  9 15:41:46 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:46 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:46 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "Administrator"
+Apr  9 15:41:46 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:46 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [Administrator]
+Apr  9 15:41:46 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=Administrator
+Apr  9 15:41:46 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user Administrator: 7 (Authentication failure)
+Apr  9 15:41:46 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:46 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:46 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "C4002$"
+Apr  9 15:41:46 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:46 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [C4002$]
+Apr  9 15:41:46 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=C4002$
+Apr  9 15:41:46 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user C4002$: 7 (Authentication failure)
+Apr  9 15:41:46 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:46 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:47 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "C4022$"
+Apr  9 15:41:47 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:47 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [C4022$]
+Apr  9 15:41:47 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=C4022$
+Apr  9 15:41:47 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user C4022$: 7 (Authentication failure)
+Apr  9 15:41:48 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:48 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:48 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "C4022$"
+Apr  9 15:41:48 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:48 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [C4022$]
+Apr  9 15:41:48 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=C4022$
+Apr  9 15:41:48 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user C4022$: 7 (Authentication failure)
+Apr  9 15:41:48 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:48 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:48 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "C4024$"
+Apr  9 15:41:48 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:48 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [C4024$]
+Apr  9 15:41:49 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=C4024$
+Apr  9 15:41:49 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user C4024$: 7 (Authentication failure)
+Apr  9 15:41:49 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:49 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:49 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "C4027$"
+Apr  9 15:41:49 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:41:49 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [C4027$]
+Apr  9 15:41:49 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=C4027$
+Apr  9 15:41:49 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user C4027$: 7 (Authentication failure)
+Apr  9 15:41:49 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:49 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:49 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "C4061$"
+Apr  9 15:41:49 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=C4061$
+Apr  9 15:41:50 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=C4061$
+Apr  9 15:41:50 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user C4061$: 7 (Authentication failure)
+Apr  9 15:41:52 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:52 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:52 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "C4061$"
+Apr  9 15:41:52 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=C4061$
+Apr  9 15:41:52 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=C4061$
+Apr  9 15:41:52 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user C4061$: 7 (Authentication failure)
+Apr  9 15:41:56 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:56 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:41:56 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "C4061$"
+Apr  9 15:41:56 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=C4061$
+Apr  9 15:41:56 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=C4061$
+Apr  9 15:41:56 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user C4061$: 7 (Authentication failure)
+Apr  9 15:41:59 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:41:59 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:42:01 tech-Latitude-E6400 mdm[1668]: pam_nologin(mdm:auth): cannot determine username
+Apr  9 15:42:01 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:42:01 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:42:01 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "yvramones"
+Apr  9 15:42:24 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:42:24 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [yvramones]
+Apr  9 15:42:25 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=yvramones
+Apr  9 15:42:25 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user yvramones: 7 (Authentication failure)
+Apr  9 15:42:25 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:42:25 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:42:25 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "xaorosco"
+Apr  9 15:42:25 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:42:25 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [xaorosco]
+Apr  9 15:42:25 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=xaorosco
+Apr  9 15:42:25 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user xaorosco: 7 (Authentication failure)
+Apr  9 15:42:25 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:42:25 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:42:25 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wizinchini"
+Apr  9 15:42:25 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:42:25 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [wizinchini]
+Apr  9 15:42:26 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=wizinchini
+Apr  9 15:42:26 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user wizinchini: 7 (Authentication failure)
+Apr  9 15:42:26 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:42:26 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:42:26 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wijohnson"
+Apr  9 15:42:26 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:42:26 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [wijohnson]
+Apr  9 15:42:26 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=wijohnson
+Apr  9 15:42:26 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user wijohnson: 7 (Authentication failure)
+Apr  9 15:42:26 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:42:26 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:42:26 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wefoster"
+Apr  9 15:42:26 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:42:26 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [wefoster]
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=wefoster
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user wefoster: 7 (Authentication failure)
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wefoster"
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [wefoster]
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=wefoster
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user wefoster: 7 (Authentication failure)
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wasnoddy"
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [wasnoddy]
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=wasnoddy
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user wasnoddy: 7 (Authentication failure)
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wasnoddy"
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [wasnoddy]
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=wasnoddy
+Apr  9 15:42:27 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user wasnoddy: 7 (Authentication failure)
+Apr  9 15:42:28 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:42:28 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:42:28 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wasnoddy"
+Apr  9 15:42:28 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:42:28 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [wasnoddy]
+Apr  9 15:42:28 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=wasnoddy
+Apr  9 15:42:28 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user wasnoddy: 7 (Authentication failure)
+Apr  9 15:42:28 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:42:28 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:42:28 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tobolles"
+Apr  9 15:42:28 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:42:28 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tobolles]
+Apr  9 15:42:28 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tobolles
+Apr  9 15:42:28 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tobolles: 7 (Authentication failure)
+Apr  9 15:42:30 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:42:30 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:42:30 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tobolles"
+Apr  9 15:43:42 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:43:42 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tobolles]
+Apr  9 15:43:42 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tobolles
+Apr  9 15:43:42 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tobolles: 7 (Authentication failure)
+Apr  9 15:43:42 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:43:42 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:43:42 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tinoell"
+Apr  9 15:43:50 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:43:50 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tinoell]
+Apr  9 15:43:50 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tinoell
+Apr  9 15:43:50 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tinoell: 7 (Authentication failure)
+Apr  9 15:43:50 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:43:50 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:43:50 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "thhernandez"
+Apr  9 15:43:50 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:43:50 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [thhernandez]
+Apr  9 15:43:51 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=thhernandez
+Apr  9 15:43:51 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user thhernandez: 7 (Authentication failure)
+Apr  9 15:43:51 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:43:51 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:43:51 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "termartinez"
+Apr  9 15:43:52 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:43:52 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [termartinez]
+Apr  9 15:43:52 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=termartinez
+Apr  9 15:43:52 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user termartinez: 7 (Authentication failure)
+Apr  9 15:43:52 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:43:52 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:43:52 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tereed"
+Apr  9 15:43:52 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:43:52 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tereed]
+Apr  9 15:43:53 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tereed
+Apr  9 15:43:53 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tereed: 7 (Authentication failure)
+Apr  9 15:43:53 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:43:53 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:43:53 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-OptiPlex-780$"
+Apr  9 15:43:53 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:43:53 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tech-OptiPlex-780$]
+Apr  9 15:43:53 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech-OptiPlex-780$
+Apr  9 15:43:53 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech-OptiPlex-780$: 7 (Authentication failure)
+Apr  9 15:43:53 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:43:53 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:43:53 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-OptiPlex-755$"
+Apr  9 15:43:55 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:43:55 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tech-OptiPlex-755$]
+Apr  9 15:43:55 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech-OptiPlex-755$
+Apr  9 15:43:55 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech-OptiPlex-755$: 7 (Authentication failure)
+Apr  9 15:43:55 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:43:55 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:43:55 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-OptiPlex-780$"
+Apr  9 15:43:56 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:43:56 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tech-OptiPlex-780$]
+Apr  9 15:43:56 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech-OptiPlex-780$
+Apr  9 15:43:56 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech-OptiPlex-780$: 7 (Authentication failure)
+Apr  9 15:43:56 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:43:56 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:43:56 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-OptiPlex-755$"
+Apr  9 15:43:57 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:43:57 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tech-OptiPlex-755$]
+Apr  9 15:43:57 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech-OptiPlex-755$
+Apr  9 15:43:57 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech-OptiPlex-755$: 7 (Authentication failure)
+Apr  9 15:43:57 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:43:57 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:43:57 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-Latitude-E6400$"
+Apr  9 15:43:58 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:43:58 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tech-Latitude-E6400$]
+Apr  9 15:43:58 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech-Latitude-E6400$
+Apr  9 15:43:58 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech-Latitude-E6400$: 7 (Authentication failure)
+Apr  9 15:43:58 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:43:58 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:43:58 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  9 15:44:00 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:44:00 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tech]
+Apr  9 15:44:00 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech
+Apr  9 15:44:00 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr  9 15:44:00 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:44:00 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:44:00 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tebrand"
+Apr  9 15:44:00 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:44:00 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tebrand]
+Apr  9 15:44:01 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tebrand
+Apr  9 15:44:01 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tebrand: 7 (Authentication failure)
+Apr  9 15:44:01 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:44:01 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:44:01 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent2"
+Apr  9 15:44:03 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:44:03 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tagent2]
+Apr  9 15:44:03 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tagent2
+Apr  9 15:44:03 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tagent2: 7 (Authentication failure)
+Apr  9 15:44:03 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:44:03 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:44:03 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tebrand"
+Apr  9 15:44:10 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:44:10 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tebrand]
+Apr  9 15:44:11 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tebrand
+Apr  9 15:44:11 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tebrand: 7 (Authentication failure)
+Apr  9 15:44:11 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:44:11 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:44:11 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  9 15:44:11 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:44:11 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tech]
+Apr  9 15:44:11 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech
+Apr  9 15:44:11 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr  9 15:44:11 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:44:11 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:44:11 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-Latitude-E6400$"
+Apr  9 15:44:17 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tech-Latitude-E6400$
+Apr  9 15:44:18 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech-Latitude-E6400$
+Apr  9 15:44:18 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech-Latitude-E6400$: 4 (System error)
+Apr  9 15:44:21 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:44:21 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:44:21 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-Latitude-E6400$"
+Apr  9 15:44:24 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:44:24 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tech-Latitude-E6400$]
+Apr  9 15:44:24 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech-Latitude-E6400$
+Apr  9 15:44:24 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech-Latitude-E6400$: 7 (Authentication failure)
+Apr  9 15:44:24 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:44:24 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:44:24 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-OptiPlex-755$"
+Apr  9 15:44:29 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tech-OptiPlex-755$
+Apr  9 15:44:29 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech-OptiPlex-755$
+Apr  9 15:44:29 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech-OptiPlex-755$: 4 (System error)
+Apr  9 15:44:32 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:44:32 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:44:32 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-OptiPlex-755$"
+Apr  9 15:44:33 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:44:33 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tech-OptiPlex-755$]
+Apr  9 15:44:33 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech-OptiPlex-755$
+Apr  9 15:44:33 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech-OptiPlex-755$: 7 (Authentication failure)
+Apr  9 15:44:34 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:44:34 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:44:34 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-OptiPlex-780$"
+Apr  9 15:44:38 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tech-OptiPlex-780$
+Apr  9 15:44:38 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech-OptiPlex-780$
+Apr  9 15:44:38 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech-OptiPlex-780$: 4 (System error)
+Apr  9 15:44:41 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:44:41 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:44:41 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-OptiPlex-780$"
+Apr  9 15:44:44 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:44:44 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tech-OptiPlex-780$]
+Apr  9 15:44:45 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech-OptiPlex-780$
+Apr  9 15:44:45 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech-OptiPlex-780$: 7 (Authentication failure)
+Apr  9 15:44:45 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:44:45 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:44:45 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-OptiPlex-755$"
+Apr  9 15:44:45 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:44:45 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tech-OptiPlex-755$]
+Apr  9 15:44:46 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech-OptiPlex-755$
+Apr  9 15:44:46 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech-OptiPlex-755$: 7 (Authentication failure)
+Apr  9 15:44:46 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:44:46 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:44:46 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech-Latitude-E6400$"
+Apr  9 15:44:46 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): conversation failed
+Apr  9 15:44:46 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:auth): auth could not identify password for [tech-Latitude-E6400$]
+Apr  9 15:44:47 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tech-Latitude-E6400$
+Apr  9 15:44:47 tech-Latitude-E6400 mdm[1668]: pam_sss(mdm:auth): received for user tech-Latitude-E6400$: 7 (Authentication failure)
+Apr  9 15:44:47 tech-Latitude-E6400 mdm[1668]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 15:44:47 tech-Latitude-E6400 mdm[1668]: PAM adding faulty module: pam_kwallet.so
+Apr  9 15:44:47 tech-Latitude-E6400 mdm[1668]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  9 15:44:53 tech-Latitude-E6400 mdm[1668]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr  9 15:44:53 tech-Latitude-E6400 mdm[1668]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  9 15:45:00 tech-Latitude-E6400 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  9 15:45:46 tech-Latitude-E6400 sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod +x config.sh
+Apr  9 15:45:46 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:45:46 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:45:58 tech-Latitude-E6400 sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod +x config.sh
+Apr  9 15:45:58 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:45:58 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:46:16 tech-Latitude-E6400 sudo: pam_unix(sudo:auth): conversation failed
+Apr  9 15:46:16 tech-Latitude-E6400 sudo: pam_unix(sudo:auth): auth could not identify password for [tech]
+Apr  9 15:46:16 tech-Latitude-E6400 sudo: pam_sss(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=tech rhost= user=tech
+Apr  9 15:46:16 tech-Latitude-E6400 sudo: pam_sss(sudo:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr  9 15:46:23 tech-Latitude-E6400 su[2778]: Successful su for root by tech
+Apr  9 15:46:23 tech-Latitude-E6400 su[2778]: + /dev/pts/0 tech:root
+Apr  9 15:46:23 tech-Latitude-E6400 su[2778]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr  9 15:46:41 tech-Latitude-E6400 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod +x config.sh
+Apr  9 15:46:41 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:46:41 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:47:23 tech-Latitude-E6400 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /usr/src/IT_Files
+Apr  9 15:47:23 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:47:23 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:47:23 tech-Latitude-E6400 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/sed -i /IT_Files/d /etc/fstab
+Apr  9 15:47:23 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:47:23 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:47:23 tech-Latitude-E6400 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo //hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8  0  0
+Apr  9 15:47:23 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:47:23 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:47:23 tech-Latitude-E6400 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mount -a
+Apr  9 15:47:23 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 15:47:23 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:47:28 tech-Latitude-E6400 sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/initial_setup.sh
+Apr  9 15:47:28 tech-Latitude-E6400 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)

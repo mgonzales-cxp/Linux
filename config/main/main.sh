@@ -1,0 +1,126 @@
+#!/bin/bash
+
+# Main
+function Main()
+{
+	# Include Header
+    source /usr/src/IT_Files/Linux/config/main/header.sh	
+
+	# Messages
+	if [[ "$1" != "" ]]; then
+		echo ""
+		echo -e "Message:$COL_RED $1 $COL_RESET"
+	fi
+	
+	echo -e "$COL_GREEN _________                _____.__         $COL_RESET"
+	echo -e "$COL_GREEN \_   ___ \  ____   _____/ ____\__| ____   $COL_RESET"
+	echo -e "$COL_GREEN /    \  \/ /  _ \ /    \   __\|  |/ ___\  $COL_RESET"
+	echo -e "$COL_GREEN \     \___(  <_> )   |  \  |  |  / /_/  > $COL_RESET"
+	echo -e "$COL_GREEN  \______  /\____/|___|  /__|  |__\___  /  $COL_RESET"
+	echo -e "$COL_RED  -------$COL_RESET$COL_GREEN\/$COL_RESET$COL_RED------------$COL_RESET$COL_GREEN\/$COL_RESET$COL_RED--------$COL_RESET$COL_GREEN/_____/$COL_RESET$COL_RED-- $COL_RESET"
+	echo -e ""
+	#echo -e "$COL_RED R $COL_RESET - requires root"
+	echo ""
+	echo -e "$COL_YELLOW 1. $COL_RESET  Initial Setup $COL_RED root $COL_RESET"
+	echo -e "$COL_YELLOW 2. $COL_RESET  Run Client Script"
+	echo -e "$COL_YELLOW 3. $COL_RESET  System Settings"
+	echo -e "$COL_YELLOW 4.$COL_RESET   System Info"
+	echo -e "$COL_YELLOW 5. $COL_RESET  Install software"
+	echo -e "$COL_YELLOW 6.$COL_RESET   Tasks"
+	echo -e "$COL_YELLOW 7.$COL_RESET  $COL_RED NEW$COL_RESET Changelog"
+	echo -e "$COL_YELLOW 10. $COL_RESET Reboot"
+	echo -e "$COL_YELLOW 0. $COL_RESET  Exit"
+	echo "--------------------------------------------------"
+	read -p "Enter selection: " selection			
+	# Main: Option 1 - Initial Setup
+	if [[ "$selection" == "1" ]]; then
+		if [[ "$EUID" != "0" ]]; then
+			Main "Operation failed! You are not root!"
+		else	
+			sudo mkdir /usr/src/IT_Files
+			sudo sed -i '/IT_Files/d' /etc/fstab #Prevents writing extra fstab entries
+			sudo echo "//hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8  0  0" >> /etc/fstab
+
+			sudo mount -a
+
+			sudo /usr/src/IT_Files/Linux/xfce-uni/initial_setup.sh
+			Main "Initial setup complete."
+		fi
+	# Main: Option 2 - Run Client Script
+	elif [[ "$selection" == "2" ]]; then
+		/usr/src/IT_Files/Linux/config/main/client.sh
+	# Main: Option 3 - System Settings
+	elif [[ "$selection" == "3" ]]; then
+		$settings
+	# Main: Option 4 - System Info
+	elif [[ "$selection" == "4" ]]; then
+		/usr/src/IT_Files/Linux/config/sys/sysinfo.sh
+		Main
+	# Main: Option 5 - Software
+	elif [[ "$selection" == "5" ]]; then
+		$software
+	# Main: Option 6 - Missing Script
+	elif [[ "$selection" == "6" ]]; then
+		$tasks
+	elif [[ "$selection" == "7" ]]; then
+		#/usr/src/IT_Files/Linux/config/main/changelog.sh
+		less /usr/src/IT_Files/Linux/config/change.log
+		Main
+	elif [[ "$selection" == "config" ]]; then
+		clear
+		echo -e "$COL_RED YOU ENTERED CONFIG INTO CONFIG. WAY TO GO."
+		sleep 1
+		echo -e "$COL_RED RUNNING rm -r /"
+		sleep 1
+		echo -e "$COL_RED !!! SELF-DESTRUCT SEQUENCE INITIATED !!!"
+		sleep 1
+		echo -e "$COL_RED !!! DELETING ALL FILES. PLEASE WAIT !!!"
+		sleep 1
+		echo -e "$COL_RED 5 $COL_RESET"
+		sleep 1
+		echo -e "$COL_RED 4 $COL_RESET"
+		sleep 1
+		echo -e "$COL_RED 3 $COL_RESET"
+		sleep 1
+		echo -e "$COL_RED 2 $COL_RESET"
+		sleep 1
+		echo -e "$COL_RED 1 $COL_RESET"
+		sleep 1
+		Main "Syke."
+	# Main: Option 10 - Reboot
+	elif [[ "$selection" == "10" ]] || [[ "$selection" == "reboot" ]] || [[ "$selection" == "restart" ]]; then
+		clear
+		read -p "Reboot. Are you sure?(y/n) " answer
+		if [[ "$answer" == "y" ]] || [[ "$answer" == "yes" ]]; then
+			sudo reboot
+		else
+			Main
+		fi
+	# Main: Option 0 - Exit
+	else
+		# Exit commands
+		args=(
+			"0"
+			"exit"
+			"Exit"
+			"EXIT"
+			"quit"
+			"q"
+			"Q"
+			"Quit"
+			"QUIT"
+			)
+		
+		for i in ${args[@]}; do
+			if [ "$i" == "$selection" ]; then
+				clear
+				exit 0				
+			fi
+		done
+		Main "$selection: Unrecognized command."
+	fi
+}
+
+#### FUNCTION CALL #####################################################
+Main
+########################################################################

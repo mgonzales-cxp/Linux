@@ -1,0 +1,1087 @@
+Apr  7 14:27:30 tech dbus[498]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1390 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=840 comm="NetworkManager ")
+Apr  7 14:27:43 tech mdm[1370]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  7 14:27:43 tech mdm[1370]: PAM adding faulty module: pam_kwallet.so
+Apr  7 14:27:45 tech mdm[1370]: pam_nologin(mdm:auth): cannot determine username
+Apr  7 14:27:45 tech mdm[1370]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  7 14:27:45 tech mdm[1370]: PAM adding faulty module: pam_kwallet.so
+Apr  7 14:27:45 tech mdm[1370]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  7 14:27:49 tech mdm[1370]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr  7 14:27:49 tech mdm[1370]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  7 14:27:54 tech polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  7 14:28:49 tech sudo:     tech : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod +x config.sh
+Apr  7 14:28:49 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 14:28:49 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 14:28:53 tech su[2669]: Successful su for root by tech
+Apr  7 14:28:53 tech su[2669]: + /dev/pts/2 tech:root
+Apr  7 14:28:53 tech su[2669]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr  7 14:28:58 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /usr/src/IT_Files
+Apr  7 14:28:58 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 14:28:58 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 14:28:58 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/sed -i /IT_Files/d /etc/fstab
+Apr  7 14:28:58 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 14:28:58 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 14:28:58 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo //hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8  0  0
+Apr  7 14:28:58 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 14:28:58 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 14:28:58 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mount -a
+Apr  7 14:28:58 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 14:28:58 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 14:29:03 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/initial_setup.sh
+Apr  7 14:29:03 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 14:32:28 tech su[5414]: Successful su for nobody by root
+Apr  7 14:32:28 tech su[5414]: + ??? root:nobody
+Apr  7 14:32:28 tech su[5414]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  7 14:32:28 tech su[5414]: pam_unix(su:session): session closed for user nobody
+Apr  7 14:32:28 tech su[5429]: Successful su for nobody by root
+Apr  7 14:32:28 tech su[5429]: + ??? root:nobody
+Apr  7 14:32:28 tech su[5429]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  7 14:32:28 tech su[5429]: pam_unix(su:session): session closed for user nobody
+Apr  7 14:32:28 tech su[5451]: Successful su for nobody by root
+Apr  7 14:32:28 tech su[5451]: + ??? root:nobody
+Apr  7 14:32:28 tech su[5451]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  7 14:32:40 tech su[5451]: pam_unix(su:session): session closed for user nobody
+Apr  7 14:44:17 tech systemd-logind[14285]: New seat seat0.
+Apr  7 14:44:17 tech systemd-logind[14285]: New session c1 of user tech.
+Apr  7 14:44:17 tech systemd-logind[14285]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr  7 14:46:59 tech groupadd[28533]: group added to /etc/group: name=clamav, GID=125
+Apr  7 14:46:59 tech groupadd[28533]: group added to /etc/gshadow: name=clamav
+Apr  7 14:46:59 tech groupadd[28533]: new group: name=clamav, GID=125
+Apr  7 14:46:59 tech useradd[28537]: new user: name=clamav, UID=115, GID=125, home=/var/lib/clamav, shell=/bin/false
+Apr  7 14:46:59 tech chage[28542]: changed password expiry for clamav
+Apr  7 14:47:03 tech useradd[28798]: new user: name=sshd, UID=116, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Apr  7 14:47:03 tech usermod[28803]: change user 'sshd' password
+Apr  7 14:47:03 tech chage[28808]: changed password expiry for sshd
+Apr  7 14:47:04 tech sshd[28878]: Server listening on 0.0.0.0 port 22.
+Apr  7 14:47:04 tech sshd[28878]: Server listening on :: port 22.
+Apr  7 14:57:55 tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 14:57:55 tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 14:58:07 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:17:01 tech CRON[30461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 15:17:01 tech CRON[30461]: pam_unix(cron:session): session closed for user root
+Apr  7 15:27:55 tech sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 15:27:55 tech sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 15:28:03 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:32:32 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:32:43 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/preferences/blacklist_update.sh
+Apr  7 15:32:43 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:33:04 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:33:11 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /usr/src/IT_Files
+Apr  7 15:33:11 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:33:11 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:33:11 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/sed -i /IT_Files/d /etc/fstab
+Apr  7 15:33:11 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:33:11 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:33:11 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo //hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8  0  0
+Apr  7 15:33:11 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:33:11 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:33:11 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mount -a
+Apr  7 15:33:11 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:33:11 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:33:17 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/initial_setup.sh
+Apr  7 15:33:17 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:35:10 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  7 15:35:10 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:35:10 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:35:10 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.9-x86.msi /usr/share/wine/gecko/
+Apr  7 15:35:10 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:35:10 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:35:18 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  7 15:35:18 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:35:18 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:35:18 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86.msi /usr/share/wine/gecko/
+Apr  7 15:35:18 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:35:18 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:35:37 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  7 15:35:37 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:35:37 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:35:37 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86.msi /usr/share/wine/gecko/
+Apr  7 15:35:37 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:35:37 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:36:26 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Apr  7 15:36:26 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:36:26 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:36:26 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86.msi /usr/share/wine/gecko/
+Apr  7 15:36:26 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:36:26 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:36:48 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Apr  7 15:36:48 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:36:48 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:36:48 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.4.msi /usr/share/wine/mono
+Apr  7 15:36:48 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:36:49 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:37:10 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+Apr  7 15:37:10 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:37:10 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:37:10 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.8.msi /usr/share/wine/mono
+Apr  7 15:37:10 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:37:10 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:39:18 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /etc/univention
+Apr  7 15:39:18 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:39:18 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:39:18 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /tmp/key/
+Apr  7 15:39:18 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:39:18 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:39:18 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo -----BEGIN RSA PRIVATE
+Apr  7 15:39:18 tech sudo:     root : (command continued) KEY-----#012MIIEowIBAAKCAQEAxxxfc/xj8etUnFZq/2y+dNGAxVaIHjym166+fb5bsNWgt4yt#012XbZ/6PlDXfO5qQ/3lZpX+5045BcQrvKpeN1a5pQA+RpuWW+qrqcDx8yr3WxaJTI4#012K6UDEgee7Cnzz2vSM0+bil3DmsBzUFDY56r8LAvyE30AaYum0ppZItXhFC4xP9gi#0125nsCE7E+5wiV3ZmFJhZPGVUlsKSIfXtHNgo6TIax4fwYJk5qtjayvAcnTuAzI0ih#012+xmPPQUuvnAf/Jdyx8Oa2eSbDJGCdCwZpFU9Yl0UakUZtPJBjwpksa+7CvMGzprr#012+bKTVuT7MOuBQ8uxGJeqiQOdySdESYu+1ZY+9wIDAQABAoIBACdunAzJWDXJ6EjJ#0126IjLTXCvKPRr7asnUdd3GOyoLVp5BEo1hwP/J5fI/al2ojc0HVE4buI6wdCSLNCo#0126B0yoVT2zLaIoH//2GqcUuhXxVWlprilGHC0TkZc0gFtUYarkMZuppwhc6KLKIso#012Z7yBpU1H1Fo9sD421QPyY2K9vsSTA0QRTgCl6Ytj0L+xmAe5/rxuCg0GBNEzsSot#012TLrx2ozpkexNVlLS+UkXZbAx2fW8lZn3N2pk/YQ1nb8vHMKLeYF+arS2Dl8yJRN8#0122/xtlDtglx5rn9mtBRGCHbw0nWAagERagVbkFocu3nnlobzAP1w+ZlpvzDrn7P4f#0129Ev/BjECgYEA/r2356Hc3iAoW5iOq1dbXhPdo7u696FX0mht9MUJ3WNN0qXOrbrm#012GMEU9HqkgwJu2++rB4Bub6h+b7OG/VXE/8mNHZt87jKfP2G0iR52OeEaPM9dCdlc#0124mipV62hzP2Ww9ekDKGsPvANoJruOqN/8BPWqXoXrtiHd3bBRwzEQLkCgYEAyBhG#012VlSdn7HdqN
+Apr  7 15:39:18 tech sudo:     root : (command continued) QdAcOvJJvevojywwYclyLIl8rTKF/zsMC1a3WpJ2m69qzDzPvH#012tP8Cdre2LwpXag9V+A2KQPvhSvSQU31pq1yi8Mmc5JpmEwcEx2G5udUpxNqcz70t#012UTQjVe9THCnb/RtLz5rR9IRWLJ+OB9ZNhtXAxS8CgYBY5S/GH1AKG8K5pBU1abiy#012rdAMkTh/rcgN3u9wGUqF/V9tAPuM2MnvHYIIhrveE/1Htu1CIulnAa+Nn2KeCU5D#012zLv39wizvuqfnaL4rq6nKAyV5+8ZvsaRI+Dkfe0Wse/oy9mtpsWK+Q5oW2iDAgdl#012aibg4YBePaWYZNKxzpy10QKBgQCqfpSgRuUwB3xZwoEFhPdaY4S+6tl2/HXt2y1N#012UmQdgsM9qdSZDPsIn28MmDioqzkDVp4qCQfuZEcl+efWBU85V0Awcu7a0VyQ51G8#012o+hqxz+aQj0rhVV7FjgMsicvBx+KmyUcBhL9zDjCzKAYIMQOF1tCv+g1iZaZ8u6I#012L2ZcHQKBgFYQ/D8wIJeKKuEsilqzpyhhFvh3Yc0/3DlKZp75TQqZLtVKQAUsFzkA#01208c5TN2e6cyC3vQjqNC6UrADa8d1zdGcRlKoc0qn5rF1RhOTFCdcLHg6+il2gwrc#012QO/7FvsDTADiEYQ/qy5AvS0iTK20Ihu2tfCUG4qBa8eM+RZ7sxeo#012-----END RSA PRIVATE KEY-----
+Apr  7 15:39:18 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:39:18 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:39:23 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod 600 /tmp/key/keys
+Apr  7 15:39:23 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:39:23 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:39:29 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo master_ip=192.168.128.239
+Apr  7 15:39:29 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:39:29 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:39:29 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod 660 /etc/univention/ucr_master
+Apr  7 15:39:29 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:39:29 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:39:29 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /etc/univention/ssl/ucsCA/
+Apr  7 15:39:29 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:39:29 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:39:29 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/bin/wget -O /etc/univention/ssl/ucsCA/CAcert.pem http://ucs-main.connexionpoint.local/ucs-root-ca.crt
+Apr  7 15:39:29 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:39:29 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:39:40 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/bin/printf %s cE76CuHvd26fHluHIWGn
+Apr  7 15:39:40 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:39:40 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:39:40 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod 0400 /etc/ldap.secret
+Apr  7 15:39:40 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:39:40 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:39:45 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/cat
+Apr  7 15:39:45 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:39:45 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:39:45 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get -y install sssd
+Apr  7 15:39:45 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:40:11 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:40:16 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get install -qq libnss-sss libpam-sss libsss-sudo
+Apr  7 15:40:16 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:40:25 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:40:35 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:40:35 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/cat
+Apr  7 15:40:35 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:40:35 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:40:40 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:40:40 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod 600 /etc/sssd/sssd.conf
+Apr  7 15:40:40 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:40:40 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:40:40 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:40:40 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get -y install auth-client-config
+Apr  7 15:40:40 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:40:44 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:40:54 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:40:54 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/cat
+Apr  7 15:40:54 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:40:54 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:40:59 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:40:59 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/sbin/auth-client-config -a -p sss
+Apr  7 15:40:59 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:40:59 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:41:04 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:41:04 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/sbin/restart sssd
+Apr  7 15:41:04 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:41:04 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:41:09 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:41:09 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/cat
+Apr  7 15:41:09 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:41:09 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:41:09 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:41:09 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/sbin/pam-auth-update --force
+Apr  7 15:41:09 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:41:10 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:41:10 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:41:10 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo Configuring user groups...
+Apr  7 15:41:10 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:41:10 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:41:10 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:41:10 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo *;*;*;Al0000-2400;audio,cdrom,dialout,floppy,plugdev,adm
+Apr  7 15:41:10 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:41:10 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:41:10 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:41:10 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/cat
+Apr  7 15:41:10 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:41:10 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:41:10 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:41:10 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/sbin/pam-auth-update --force
+Apr  7 15:41:10 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:41:10 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:41:10 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:41:10 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get install -y heimdal-clients
+Apr  7 15:41:10 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:41:24 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:41:24 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:41:24 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/cat
+Apr  7 15:41:24 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:41:24 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:41:24 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:41:24 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/sbin/stop avahi-daemon
+Apr  7 15:41:24 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:41:25 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:41:30 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:41:30 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/sbin/ntpdate -bu ucs-main.connexionpoint.local
+Apr  7 15:41:30 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:41:35 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:41:35 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:41:35 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/rm -f /tmp/key/keys
+Apr  7 15:41:35 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:41:35 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:41:35 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:41:35 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/rmdir /tmp/key/
+Apr  7 15:41:35 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:41:35 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:41:58 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:42:53 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:42:53 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /usr/src/IT_Files
+Apr  7 15:42:53 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:42:53 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:42:53 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:42:53 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/sed -i /IT_Files/d /etc/fstab
+Apr  7 15:42:53 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:42:53 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:42:53 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:42:53 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo //hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8  0  0
+Apr  7 15:42:53 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:42:53 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:42:53 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:42:53 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mount -a
+Apr  7 15:42:53 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:42:53 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:42:58 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:42:58 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/initial_setup.sh
+Apr  7 15:42:58 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:43:48 tech sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 15:43:52 tech sudo:     root : problem with defaults entries ; TTY=pts/2 ; PWD=/home/tech/Desktop ; 
+Apr  7 15:43:52 tech sudo:     root : TTY=pts/2 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/sbin/reboot
+Apr  7 15:43:52 tech sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 15:44:36 Chqtestbeatht2 sshd[1464]: Server listening on 0.0.0.0 port 22.
+Apr  7 15:44:36 Chqtestbeatht2 sshd[1464]: Server listening on :: port 22.
+Apr  7 15:44:37 Chqtestbeatht2 CRON[1592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 15:44:40 Chqtestbeatht2 mdm[1701]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  7 15:44:40 Chqtestbeatht2 mdm[1701]: PAM adding faulty module: pam_kwallet.so
+Apr  7 15:44:42 Chqtestbeatht2 CRON[1592]: pam_unix(cron:session): session closed for user root
+Apr  7 15:44:50 Chqtestbeatht2 mdm[1701]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  7 15:44:53 Chqtestbeatht2 mdm[1701]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr  7 15:44:53 Chqtestbeatht2 mdm[1701]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  7 15:44:56 Chqtestbeatht2 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  7 16:14:57 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 16:14:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 16:17:01 Chqtestbeatht2 CRON[2820]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 16:17:01 Chqtestbeatht2 CRON[2820]: pam_unix(cron:session): session closed for user root
+Apr  7 16:19:03 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 16:28:24 Chqtestbeatht2 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr  7 16:44:57 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 16:44:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 16:45:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 17:14:57 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 17:14:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 17:15:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 17:17:01 Chqtestbeatht2 CRON[3712]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 17:17:01 Chqtestbeatht2 CRON[3712]: pam_unix(cron:session): session closed for user root
+Apr  7 17:44:57 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 17:44:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 17:45:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 18:14:57 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 18:14:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 18:15:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 18:17:01 Chqtestbeatht2 CRON[3903]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 18:17:01 Chqtestbeatht2 CRON[3903]: pam_unix(cron:session): session closed for user root
+Apr  7 18:44:57 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 18:44:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 18:45:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 19:14:57 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 19:14:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 19:15:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 19:17:01 Chqtestbeatht2 CRON[4105]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 19:17:01 Chqtestbeatht2 CRON[4105]: pam_unix(cron:session): session closed for user root
+Apr  7 19:44:57 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 19:44:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 19:45:07 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 20:14:57 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 20:14:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 20:15:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 20:17:01 Chqtestbeatht2 CRON[4288]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 20:17:01 Chqtestbeatht2 CRON[4288]: pam_unix(cron:session): session closed for user root
+Apr  7 20:44:58 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 20:44:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 20:45:25 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 21:14:58 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 21:14:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 21:15:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 21:17:01 Chqtestbeatht2 CRON[4488]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 21:17:01 Chqtestbeatht2 CRON[4488]: pam_unix(cron:session): session closed for user root
+Apr  7 21:44:58 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 21:44:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 21:45:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 22:14:58 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 22:14:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 22:15:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 22:17:01 Chqtestbeatht2 CRON[4670]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 22:17:01 Chqtestbeatht2 CRON[4670]: pam_unix(cron:session): session closed for user root
+Apr  7 22:44:58 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 22:44:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 22:45:10 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 23:14:58 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 23:14:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 23:15:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 23:17:01 Chqtestbeatht2 CRON[4874]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 23:17:01 Chqtestbeatht2 CRON[4874]: pam_unix(cron:session): session closed for user root
+Apr  7 23:44:58 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 23:44:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 23:45:10 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 00:14:58 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 00:14:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 00:15:06 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 00:17:01 Chqtestbeatht2 CRON[5057]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 00:17:01 Chqtestbeatht2 CRON[5057]: pam_unix(cron:session): session closed for user root
+Apr  8 00:44:58 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 00:44:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 00:45:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 01:14:58 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 01:14:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 01:15:06 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 01:17:01 Chqtestbeatht2 CRON[5249]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 01:17:01 Chqtestbeatht2 CRON[5249]: pam_unix(cron:session): session closed for user root
+Apr  8 01:44:58 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 01:44:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 01:45:06 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 02:14:58 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 02:14:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 02:15:06 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 02:17:01 Chqtestbeatht2 CRON[5437]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 02:17:01 Chqtestbeatht2 CRON[5437]: pam_unix(cron:session): session closed for user root
+Apr  8 02:44:59 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 02:44:59 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 02:45:06 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 03:00:01 Chqtestbeatht2 CRON[5566]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 03:12:35 Chqtestbeatht2 CRON[5566]: pam_unix(cron:session): session closed for user root
+Apr  8 03:13:15 Chqtestbeatht2 sshd[1453]: Server listening on 0.0.0.0 port 22.
+Apr  8 03:13:15 Chqtestbeatht2 sshd[1453]: Server listening on :: port 22.
+Apr  8 03:13:15 Chqtestbeatht2 CRON[1477]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 03:13:16 Chqtestbeatht2 mdm[1667]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  8 03:13:16 Chqtestbeatht2 mdm[1667]: PAM adding faulty module: pam_kwallet.so
+Apr  8 03:13:20 Chqtestbeatht2 CRON[1477]: pam_unix(cron:session): session closed for user root
+Apr  8 03:17:01 Chqtestbeatht2 CRON[1958]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 03:17:01 Chqtestbeatht2 CRON[1958]: pam_unix(cron:session): session closed for user root
+Apr  8 03:18:16 Chqtestbeatht2 su[2117]: Successful su for nobody by root
+Apr  8 03:18:16 Chqtestbeatht2 su[2117]: + ??? root:nobody
+Apr  8 03:18:16 Chqtestbeatht2 su[2117]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  8 03:18:16 Chqtestbeatht2 su[2117]: pam_unix(su:session): session closed for user nobody
+Apr  8 03:18:16 Chqtestbeatht2 su[2192]: Successful su for nobody by root
+Apr  8 03:18:16 Chqtestbeatht2 su[2192]: + ??? root:nobody
+Apr  8 03:18:16 Chqtestbeatht2 su[2192]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  8 03:18:16 Chqtestbeatht2 su[2192]: pam_unix(su:session): session closed for user nobody
+Apr  8 03:18:16 Chqtestbeatht2 su[2206]: Successful su for nobody by root
+Apr  8 03:18:16 Chqtestbeatht2 su[2206]: + ??? root:nobody
+Apr  8 03:18:16 Chqtestbeatht2 su[2206]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  8 03:18:27 Chqtestbeatht2 su[2206]: pam_unix(su:session): session closed for user nobody
+Apr  8 04:17:01 Chqtestbeatht2 CRON[2857]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 04:17:01 Chqtestbeatht2 CRON[2857]: pam_unix(cron:session): session closed for user root
+Apr  8 05:17:01 Chqtestbeatht2 CRON[2939]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 05:17:01 Chqtestbeatht2 CRON[2939]: pam_unix(cron:session): session closed for user root
+Apr  8 06:17:01 Chqtestbeatht2 CRON[3025]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 06:17:01 Chqtestbeatht2 CRON[3025]: pam_unix(cron:session): session closed for user root
+Apr  8 06:25:01 Chqtestbeatht2 CRON[3036]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 06:25:01 Chqtestbeatht2 CRON[3036]: pam_unix(cron:session): session closed for user root
+Apr  8 07:17:01 Chqtestbeatht2 CRON[3106]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 07:17:01 Chqtestbeatht2 CRON[3106]: pam_unix(cron:session): session closed for user root
+Apr  8 07:20:16 Chqtestbeatht2 login[3113]: pam_ecryptfs: Passphrase file wrapped
+Apr  8 07:20:17 Chqtestbeatht2 login[1427]: pam_unix(login:session): session opened for user tech by LOGIN(uid=0)
+Apr  8 07:20:48 Chqtestbeatht2 login[1427]: pam_unix(login:session): session closed for user tech
+Apr  8 07:30:01 Chqtestbeatht2 CRON[3187]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 07:30:01 Chqtestbeatht2 CRON[3187]: pam_unix(cron:session): session closed for user root
+Apr  8 07:34:05 Chqtestbeatht2 mdm[1667]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  8 07:34:07 Chqtestbeatht2 mdm[1667]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr  8 07:34:07 Chqtestbeatht2 mdm[1667]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  8 07:34:09 Chqtestbeatht2 polkitd(authority=local): Registered Authentication Agent for unix-session:c5 (system bus name :1.63 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  8 07:34:28 Chqtestbeatht2 sudo:     tech : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cp -a /usr/src/IT_Files/Linux/software/ctxusb_2.4.285639_amd64.deb /usr/src/IT_Files/Linux/software/ctxusb_2.4.285639_i386.deb /usr/src/IT_Files/Linux/software/google-chrome-stable_41.0.2272.101-1_i386.deb /usr/src/IT_Files/Linux/software/google-chrome-stable_current_i386.deb /usr/src/IT_Files/Linux/software/icaclient_13.1.0.285639_amd64.deb /usr/src/IT_Files/Linux/software/icaclient_13.1.0.285639_i386.deb /usr/src/IT_Files/Linux/software/Zoiper_3.3_Linux_Free_32Bit.run /home/tech/Downloads
+Apr  8 07:34:28 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 07:34:40 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 08:04:10 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 08:04:10 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 08:04:21 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 08:17:01 Chqtestbeatht2 CRON[4089]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 08:17:01 Chqtestbeatht2 CRON[4089]: pam_unix(cron:session): session closed for user root
+Apr  8 08:34:10 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 08:34:10 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 08:34:18 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 09:04:10 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 09:04:10 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 09:04:18 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 09:17:01 Chqtestbeatht2 CRON[4250]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 09:17:01 Chqtestbeatht2 CRON[4250]: pam_unix(cron:session): session closed for user root
+Apr  8 09:34:10 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 09:34:10 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 09:34:18 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:00:18 Chqtestbeatht2 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Apr  8 10:00:18 Chqtestbeatht2 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Apr  8 10:00:18 Chqtestbeatht2 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr  8 10:00:18 Chqtestbeatht2 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr  8 10:04:10 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 10:04:10 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 10:04:18 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:07:55 Chqtestbeatht2 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Apr  8 10:07:55 Chqtestbeatht2 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Apr  8 10:07:55 Chqtestbeatht2 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr  8 10:07:55 Chqtestbeatht2 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr  8 10:09:08 Chqtestbeatht2 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr  8 10:09:34 Chqtestbeatht2 su[4411]: Successful su for root by tech
+Apr  8 10:09:34 Chqtestbeatht2 su[4411]: + /dev/pts/2 tech:root
+Apr  8 10:09:34 Chqtestbeatht2 su[4411]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr  8 10:10:15 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mkdir /usr/src/IT_Files
+Apr  8 10:10:15 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:10:15 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:10:15 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/sed -i /IT_Files/d /etc/fstab
+Apr  8 10:10:15 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:10:15 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:10:15 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo //hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8  0  0
+Apr  8 10:10:15 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:10:15 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:10:15 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mount -a
+Apr  8 10:10:15 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:10:15 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:10:20 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/initial_setup.sh
+Apr  8 10:10:20 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:11:04 Chqtestbeatht2 systemd-logind[6285]: New seat seat0.
+Apr  8 10:11:04 Chqtestbeatht2 systemd-logind[6285]: New session c5 of user tech.
+Apr  8 10:11:04 Chqtestbeatht2 systemd-logind[6285]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr  8 10:17:01 Chqtestbeatht2 CRON[16390]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 10:17:01 Chqtestbeatht2 CRON[16390]: pam_unix(cron:session): session closed for user root
+Apr  8 10:19:19 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mkdir /etc/univention
+Apr  8 10:19:19 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:19:19 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:19:19 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mkdir /tmp/key/
+Apr  8 10:19:19 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:19:19 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:19:19 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo -----BEGIN RSA PRIVATE
+Apr  8 10:19:19 Chqtestbeatht2 sudo:     root : (command continued) KEY-----#012MIIEowIBAAKCAQEAxxxfc/xj8etUnFZq/2y+dNGAxVaIHjym166+fb5bsNWgt4yt#012XbZ/6PlDXfO5qQ/3lZpX+5045BcQrvKpeN1a5pQA+RpuWW+qrqcDx8yr3WxaJTI4#012K6UDEgee7Cnzz2vSM0+bil3DmsBzUFDY56r8LAvyE30AaYum0ppZItXhFC4xP9gi#0125nsCE7E+5wiV3ZmFJhZPGVUlsKSIfXtHNgo6TIax4fwYJk5qtjayvAcnTuAzI0ih#012+xmPPQUuvnAf/Jdyx8Oa2eSbDJGCdCwZpFU9Yl0UakUZtPJBjwpksa+7CvMGzprr#012+bKTVuT7MOuBQ8uxGJeqiQOdySdESYu+1ZY+9wIDAQABAoIBACdunAzJWDXJ6EjJ#0126IjLTXCvKPRr7asnUdd3GOyoLVp5BEo1hwP/J5fI/al2ojc0HVE4buI6wdCSLNCo#0126B0yoVT2zLaIoH//2GqcUuhXxVWlprilGHC0TkZc0gFtUYarkMZuppwhc6KLKIso#012Z7yBpU1H1Fo9sD421QPyY2K9vsSTA0QRTgCl6Ytj0L+xmAe5/rxuCg0GBNEzsSot#012TLrx2ozpkexNVlLS+UkXZbAx2fW8lZn3N2pk/YQ1nb8vHMKLeYF+arS2Dl8yJRN8#0122/xtlDtglx5rn9mtBRGCHbw0nWAagERagVbkFocu3nnlobzAP1w+ZlpvzDrn7P4f#0129Ev/BjECgYEA/r2356Hc3iAoW5iOq1dbXhPdo7u696FX0mht9MUJ3WNN0qXOrbrm#012GMEU9HqkgwJu2++rB4Bub6h+b7OG/VXE/8mNHZt87jKfP2G0iR52OeEaPM9dCdlc#0124mipV62hzP2Ww9ekDKGsPvANoJruOqN/8BPWqXoXrtiHd3bBRwzEQLkCgYEAyBhG#012VlSdn7HdqN
+Apr  8 10:19:19 Chqtestbeatht2 sudo:     root : (command continued) QdAcOvJJvevojywwYclyLIl8rTKF/zsMC1a3WpJ2m69qzDzPvH#012tP8Cdre2LwpXag9V+A2KQPvhSvSQU31pq1yi8Mmc5JpmEwcEx2G5udUpxNqcz70t#012UTQjVe9THCnb/RtLz5rR9IRWLJ+OB9ZNhtXAxS8CgYBY5S/GH1AKG8K5pBU1abiy#012rdAMkTh/rcgN3u9wGUqF/V9tAPuM2MnvHYIIhrveE/1Htu1CIulnAa+Nn2KeCU5D#012zLv39wizvuqfnaL4rq6nKAyV5+8ZvsaRI+Dkfe0Wse/oy9mtpsWK+Q5oW2iDAgdl#012aibg4YBePaWYZNKxzpy10QKBgQCqfpSgRuUwB3xZwoEFhPdaY4S+6tl2/HXt2y1N#012UmQdgsM9qdSZDPsIn28MmDioqzkDVp4qCQfuZEcl+efWBU85V0Awcu7a0VyQ51G8#012o+hqxz+aQj0rhVV7FjgMsicvBx+KmyUcBhL9zDjCzKAYIMQOF1tCv+g1iZaZ8u6I#012L2ZcHQKBgFYQ/D8wIJeKKuEsilqzpyhhFvh3Yc0/3DlKZp75TQqZLtVKQAUsFzkA#01208c5TN2e6cyC3vQjqNC6UrADa8d1zdGcRlKoc0qn5rF1RhOTFCdcLHg6+il2gwrc#012QO/7FvsDTADiEYQ/qy5AvS0iTK20Ihu2tfCUG4qBa8eM+RZ7sxeo#012-----END RSA PRIVATE KEY-----
+Apr  8 10:19:19 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:19:19 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:19:24 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/chmod 600 /tmp/key/keys
+Apr  8 10:19:24 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:19:24 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:19:30 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo master_ip=192.168.128.239
+Apr  8 10:19:30 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:19:30 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:19:30 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/chmod 660 /etc/univention/ucr_master
+Apr  8 10:19:30 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:19:30 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:19:30 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mkdir -p /etc/univention/ssl/ucsCA/
+Apr  8 10:19:30 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:19:30 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:19:30 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/wget -O /etc/univention/ssl/ucsCA/CAcert.pem http://ucs-main.connexionpoint.local/ucs-root-ca.crt
+Apr  8 10:19:30 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:19:30 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:19:41 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/printf %s IpUsWOi9h3QxIh1Pxcvh
+Apr  8 10:19:41 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:19:41 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:19:41 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/chmod 0400 /etc/ldap.secret
+Apr  8 10:19:41 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:19:41 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:19:46 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cat
+Apr  8 10:19:46 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:19:46 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:19:46 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get -y install sssd
+Apr  8 10:19:46 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:19:47 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:19:52 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get install -qq libnss-sss libpam-sss libsss-sudo
+Apr  8 10:19:52 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:19:53 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:03 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cat
+Apr  8 10:20:03 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:03 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:08 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/chmod 600 /etc/sssd/sssd.conf
+Apr  8 10:20:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:08 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get -y install auth-client-config
+Apr  8 10:20:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:18 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cat
+Apr  8 10:20:18 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:18 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:23 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/sbin/auth-client-config -a -p sss
+Apr  8 10:20:23 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:23 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:28 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/restart sssd
+Apr  8 10:20:28 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:28 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:34 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cat
+Apr  8 10:20:34 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:34 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:34 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/sbin/pam-auth-update --force
+Apr  8 10:20:34 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:34 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:34 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo Configuring user groups...
+Apr  8 10:20:34 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:34 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:34 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo *;*;*;Al0000-2400;audio,cdrom,dialout,floppy,plugdev,adm
+Apr  8 10:20:34 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:34 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:34 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cat
+Apr  8 10:20:34 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:34 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:34 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/sbin/pam-auth-update --force
+Apr  8 10:20:34 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:35 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:35 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get install -y heimdal-clients
+Apr  8 10:20:35 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:35 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:35 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cat
+Apr  8 10:20:35 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:35 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:35 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/stop avahi-daemon
+Apr  8 10:20:35 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:35 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:40 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/sbin/ntpdate -bu ucs-main.connexionpoint.local
+Apr  8 10:20:40 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:47 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:47 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/rm -f /tmp/key/keys
+Apr  8 10:20:47 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:47 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:20:47 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/rmdir /tmp/key/
+Apr  8 10:20:47 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:20:47 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:21:19 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:23:41 Chqtestbeatht2 sudo:     root : TTY=pts/2 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/reboot
+Apr  8 10:23:41 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:24:18 Chqtestbeatht2 sshd[1456]: Server listening on 0.0.0.0 port 22.
+Apr  8 10:24:18 Chqtestbeatht2 sshd[1456]: Server listening on :: port 22.
+Apr  8 10:24:18 Chqtestbeatht2 CRON[1477]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 10:24:20 Chqtestbeatht2 mdm[1699]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  8 10:24:20 Chqtestbeatht2 mdm[1699]: PAM adding faulty module: pam_kwallet.so
+Apr  8 10:24:24 Chqtestbeatht2 CRON[1477]: pam_unix(cron:session): session closed for user root
+Apr  8 10:24:27 Chqtestbeatht2 mdm[1699]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tperson"
+Apr  8 10:24:29 Chqtestbeatht2 mdm[1699]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tperson
+Apr  8 10:24:29 Chqtestbeatht2 mdm[1699]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tperson
+Apr  8 10:24:29 Chqtestbeatht2 mdm[1699]: pam_sss(mdm:auth): received for user tperson: 6 (Permission denied)
+Apr  8 10:24:32 Chqtestbeatht2 mdm[1699]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  8 10:24:32 Chqtestbeatht2 mdm[1699]: PAM adding faulty module: pam_kwallet.so
+Apr  8 10:24:34 Chqtestbeatht2 mdm[1699]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tperson"
+Apr  8 10:24:36 Chqtestbeatht2 mdm[1699]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tperson
+Apr  8 10:24:36 Chqtestbeatht2 mdm[1699]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tperson
+Apr  8 10:24:36 Chqtestbeatht2 mdm[1699]: pam_sss(mdm:auth): received for user tperson: 6 (Permission denied)
+Apr  8 10:24:39 Chqtestbeatht2 mdm[1699]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  8 10:24:39 Chqtestbeatht2 mdm[1699]: PAM adding faulty module: pam_kwallet.so
+Apr  8 10:24:40 Chqtestbeatht2 mdm[1699]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent2"
+Apr  8 10:24:44 Chqtestbeatht2 mdm[1699]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tagent2
+Apr  8 10:24:44 Chqtestbeatht2 mdm[1699]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tagent2
+Apr  8 10:24:44 Chqtestbeatht2 mdm[1699]: pam_sss(mdm:auth): received for user tagent2: 6 (Permission denied)
+Apr  8 10:24:47 Chqtestbeatht2 mdm[1699]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  8 10:24:47 Chqtestbeatht2 mdm[1699]: PAM adding faulty module: pam_kwallet.so
+Apr  8 10:24:52 Chqtestbeatht2 mdm[1699]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent2"
+Apr  8 10:24:54 Chqtestbeatht2 mdm[1699]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tagent2
+Apr  8 10:24:54 Chqtestbeatht2 mdm[1699]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tagent2
+Apr  8 10:24:54 Chqtestbeatht2 mdm[1699]: pam_sss(mdm:auth): received for user tagent2: 6 (Permission denied)
+Apr  8 10:24:57 Chqtestbeatht2 mdm[1699]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  8 10:24:57 Chqtestbeatht2 mdm[1699]: PAM adding faulty module: pam_kwallet.so
+Apr  8 10:25:30 Chqtestbeatht2 mdm[1699]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent"
+Apr  8 10:25:36 Chqtestbeatht2 mdm[1699]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tagent
+Apr  8 10:25:36 Chqtestbeatht2 mdm[1699]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tagent
+Apr  8 10:25:36 Chqtestbeatht2 mdm[1699]: pam_sss(mdm:auth): received for user tagent: 6 (Permission denied)
+Apr  8 10:25:40 Chqtestbeatht2 mdm[1699]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  8 10:25:40 Chqtestbeatht2 mdm[1699]: PAM adding faulty module: pam_kwallet.so
+Apr  8 10:25:41 Chqtestbeatht2 mdm[1699]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent2"
+Apr  8 10:25:43 Chqtestbeatht2 mdm[1699]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tagent2
+Apr  8 10:25:43 Chqtestbeatht2 mdm[1699]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tagent2
+Apr  8 10:25:43 Chqtestbeatht2 mdm[1699]: pam_sss(mdm:auth): received for user tagent2: 6 (Permission denied)
+Apr  8 10:25:46 Chqtestbeatht2 mdm[1699]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  8 10:25:46 Chqtestbeatht2 mdm[1699]: PAM adding faulty module: pam_kwallet.so
+Apr  8 10:25:48 Chqtestbeatht2 mdm[1699]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  8 10:25:50 Chqtestbeatht2 mdm[1699]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr  8 10:25:50 Chqtestbeatht2 mdm[1699]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  8 10:25:52 Chqtestbeatht2 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.22 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  8 10:26:54 Chqtestbeatht2 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/univentionClientScript2.sh
+Apr  8 10:26:54 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:26:54 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mkdir /etc/univention
+Apr  8 10:26:54 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:26:54 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:26:55 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mkdir /tmp/key/
+Apr  8 10:26:55 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:26:55 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:26:55 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo -----BEGIN RSA PRIVATE
+Apr  8 10:26:55 Chqtestbeatht2 sudo:     root : (command continued) KEY-----#012MIIEowIBAAKCAQEAxxxfc/xj8etUnFZq/2y+dNGAxVaIHjym166+fb5bsNWgt4yt#012XbZ/6PlDXfO5qQ/3lZpX+5045BcQrvKpeN1a5pQA+RpuWW+qrqcDx8yr3WxaJTI4#012K6UDEgee7Cnzz2vSM0+bil3DmsBzUFDY56r8LAvyE30AaYum0ppZItXhFC4xP9gi#0125nsCE7E+5wiV3ZmFJhZPGVUlsKSIfXtHNgo6TIax4fwYJk5qtjayvAcnTuAzI0ih#012+xmPPQUuvnAf/Jdyx8Oa2eSbDJGCdCwZpFU9Yl0UakUZtPJBjwpksa+7CvMGzprr#012+bKTVuT7MOuBQ8uxGJeqiQOdySdESYu+1ZY+9wIDAQABAoIBACdunAzJWDXJ6EjJ#0126IjLTXCvKPRr7asnUdd3GOyoLVp5BEo1hwP/J5fI/al2ojc0HVE4buI6wdCSLNCo#0126B0yoVT2zLaIoH//2GqcUuhXxVWlprilGHC0TkZc0gFtUYarkMZuppwhc6KLKIso#012Z7yBpU1H1Fo9sD421QPyY2K9vsSTA0QRTgCl6Ytj0L+xmAe5/rxuCg0GBNEzsSot#012TLrx2ozpkexNVlLS+UkXZbAx2fW8lZn3N2pk/YQ1nb8vHMKLeYF+arS2Dl8yJRN8#0122/xtlDtglx5rn9mtBRGCHbw0nWAagERagVbkFocu3nnlobzAP1w+ZlpvzDrn7P4f#0129Ev/BjECgYEA/r2356Hc3iAoW5iOq1dbXhPdo7u696FX0mht9MUJ3WNN0qXOrbrm#012GMEU9HqkgwJu2++rB4Bub6h+b7OG/VXE/8mNHZt87jKfP2G0iR52OeEaPM9dCdlc#0124mipV62hzP2Ww9ekDKGsPvANoJruOqN/8BPWqXoXrtiHd3bBRwzEQLkCgYEAyBhG#012VlSdn7HdqN
+Apr  8 10:26:55 Chqtestbeatht2 sudo:     root : (command continued) QdAcOvJJvevojywwYclyLIl8rTKF/zsMC1a3WpJ2m69qzDzPvH#012tP8Cdre2LwpXag9V+A2KQPvhSvSQU31pq1yi8Mmc5JpmEwcEx2G5udUpxNqcz70t#012UTQjVe9THCnb/RtLz5rR9IRWLJ+OB9ZNhtXAxS8CgYBY5S/GH1AKG8K5pBU1abiy#012rdAMkTh/rcgN3u9wGUqF/V9tAPuM2MnvHYIIhrveE/1Htu1CIulnAa+Nn2KeCU5D#012zLv39wizvuqfnaL4rq6nKAyV5+8ZvsaRI+Dkfe0Wse/oy9mtpsWK+Q5oW2iDAgdl#012aibg4YBePaWYZNKxzpy10QKBgQCqfpSgRuUwB3xZwoEFhPdaY4S+6tl2/HXt2y1N#012UmQdgsM9qdSZDPsIn28MmDioqzkDVp4qCQfuZEcl+efWBU85V0Awcu7a0VyQ51G8#012o+hqxz+aQj0rhVV7FjgMsicvBx+KmyUcBhL9zDjCzKAYIMQOF1tCv+g1iZaZ8u6I#012L2ZcHQKBgFYQ/D8wIJeKKuEsilqzpyhhFvh3Yc0/3DlKZp75TQqZLtVKQAUsFzkA#01208c5TN2e6cyC3vQjqNC6UrADa8d1zdGcRlKoc0qn5rF1RhOTFCdcLHg6+il2gwrc#012QO/7FvsDTADiEYQ/qy5AvS0iTK20Ihu2tfCUG4qBa8eM+RZ7sxeo#012-----END RSA PRIVATE KEY-----
+Apr  8 10:26:55 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:26:55 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:27:00 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/chmod 600 /tmp/key/keys
+Apr  8 10:27:00 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:27:00 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:27:05 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo master_ip=192.168.128.239
+Apr  8 10:27:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:27:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:27:05 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/chmod 660 /etc/univention/ucr_master
+Apr  8 10:27:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:27:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:27:05 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/mkdir -p /etc/univention/ssl/ucsCA/
+Apr  8 10:27:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:27:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:27:05 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/wget -O /etc/univention/ssl/ucsCA/CAcert.pem http://ucs-main.connexionpoint.local/ucs-root-ca.crt
+Apr  8 10:27:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:27:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:27:16 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/printf %s iN4SmQKjS_YBmYCajIWA
+Apr  8 10:27:16 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:27:16 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:27:16 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/chmod 0400 /etc/ldap.secret
+Apr  8 10:27:16 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:27:16 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:27:21 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cat
+Apr  8 10:27:21 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:27:21 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:27:21 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get -y install sssd
+Apr  8 10:27:21 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:27:22 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:27:27 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get install -qq libnss-sss libpam-sss libsss-sudo
+Apr  8 10:27:27 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:27:27 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:27:37 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cat
+Apr  8 10:27:37 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:27:37 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:27:42 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/chmod 600 /etc/sssd/sssd.conf
+Apr  8 10:27:42 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:27:42 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:27:42 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get -y install auth-client-config
+Apr  8 10:27:42 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:27:43 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:27:53 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cat
+Apr  8 10:27:53 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:27:53 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:27:58 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/sbin/auth-client-config -a -p sss
+Apr  8 10:27:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:27:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:28:03 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/restart sssd
+Apr  8 10:28:03 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:28:03 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:28:08 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cat
+Apr  8 10:28:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:28:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:28:08 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/sbin/pam-auth-update --force
+Apr  8 10:28:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:28:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:28:08 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo Configuring user groups...
+Apr  8 10:28:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:28:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:28:08 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo *;*;*;Al0000-2400;audio,cdrom,dialout,floppy,plugdev,adm
+Apr  8 10:28:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:28:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:28:09 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cat
+Apr  8 10:28:09 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:28:09 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:28:09 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/sbin/pam-auth-update --force
+Apr  8 10:28:09 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:28:09 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:28:09 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; ENV=DEBIAN_FRONTEND=noninteractive ; COMMAND=/usr/bin/apt-get install -y heimdal-clients
+Apr  8 10:28:09 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:28:09 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:28:09 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/cat
+Apr  8 10:28:09 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:28:09 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:28:09 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/stop avahi-daemon
+Apr  8 10:28:09 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:28:09 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:28:14 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/sbin/ntpdate -bu ucs-main.connexionpoint.local
+Apr  8 10:28:14 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:28:22 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:28:22 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/rm -f /tmp/key/keys
+Apr  8 10:28:22 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:28:22 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:28:22 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/rmdir /tmp/key/
+Apr  8 10:28:22 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:28:22 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:28:22 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:28:46 Chqtestbeatht2 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/sbin/reboot
+Apr  8 10:28:46 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 10:28:46 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:29:23 Chqtestbeatht2 sshd[1460]: Server listening on 0.0.0.0 port 22.
+Apr  8 10:29:23 Chqtestbeatht2 sshd[1460]: Server listening on :: port 22.
+Apr  8 10:29:23 Chqtestbeatht2 CRON[1535]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 10:29:24 Chqtestbeatht2 mdm[1682]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  8 10:29:24 Chqtestbeatht2 mdm[1682]: PAM adding faulty module: pam_kwallet.so
+Apr  8 10:29:29 Chqtestbeatht2 CRON[1535]: pam_unix(cron:session): session closed for user root
+Apr  8 10:30:02 Chqtestbeatht2 mdm[1682]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tagent2"
+Apr  8 10:30:04 Chqtestbeatht2 mdm[1682]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=tagent2
+Apr  8 10:30:05 Chqtestbeatht2 mdm[1682]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=tagent2
+Apr  8 10:30:06 Chqtestbeatht2 mdm[1682]: pam_unix(mdm:session): session opened for user tagent2 by (uid=0)
+Apr  8 10:30:06 Chqtestbeatht2 mdm[1682]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  8 10:30:08 Chqtestbeatht2 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  8 10:31:01 Chqtestbeatht2 su[2829]: Successful su for root by tagent2
+Apr  8 10:31:01 Chqtestbeatht2 su[2829]: + /dev/pts/0 tagent2:root
+Apr  8 10:31:01 Chqtestbeatht2 su[2829]: pam_unix(su:session): session opened for user root by tagent2(uid=2230)
+Apr  8 10:31:25 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tagent2 ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/aet.sh tagent2
+Apr  8 10:31:25 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tagent2(uid=0)
+Apr  8 10:33:13 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 10:33:51 Chqtestbeatht2 sshd[1520]: Server listening on 0.0.0.0 port 22.
+Apr  8 10:33:51 Chqtestbeatht2 sshd[1520]: Server listening on :: port 22.
+Apr  8 10:33:51 Chqtestbeatht2 CRON[1537]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 10:33:52 Chqtestbeatht2 mdm[1754]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  8 10:33:52 Chqtestbeatht2 mdm[1754]: PAM adding faulty module: pam_kwallet.so
+Apr  8 10:33:56 Chqtestbeatht2 CRON[1537]: pam_unix(cron:session): session closed for user root
+Apr  8 11:17:01 Chqtestbeatht2 CRON[2071]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 11:17:01 Chqtestbeatht2 CRON[2071]: pam_unix(cron:session): session closed for user root
+Apr  8 12:17:01 Chqtestbeatht2 CRON[2156]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 12:17:01 Chqtestbeatht2 CRON[2156]: pam_unix(cron:session): session closed for user root
+Apr  8 13:17:01 Chqtestbeatht2 CRON[2241]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 13:17:01 Chqtestbeatht2 CRON[2241]: pam_unix(cron:session): session closed for user root
+Apr  8 14:17:01 Chqtestbeatht2 CRON[2326]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 14:17:01 Chqtestbeatht2 CRON[2326]: pam_unix(cron:session): session closed for user root
+Apr  8 14:35:04 Chqtestbeatht2 mdm[1754]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  8 14:35:06 Chqtestbeatht2 mdm[1754]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr  8 14:35:06 Chqtestbeatht2 mdm[1754]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  8 14:35:08 Chqtestbeatht2 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  8 14:35:15 Chqtestbeatht2 su[3219]: Successful su for root by tech
+Apr  8 14:35:15 Chqtestbeatht2 su[3219]: + /dev/pts/0 tech:root
+Apr  8 14:35:15 Chqtestbeatht2 su[3219]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Apr  8 14:35:19 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/ossec-hids-2.8.1/install.sh
+Apr  8 14:35:19 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 14:35:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 14:37:17 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/ossec-hids-2.8.1/install.sh
+Apr  8 14:37:17 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 14:37:27 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 14:37:28 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/ossec-hids-2.8.1/install.sh
+Apr  8 14:37:28 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 14:38:03 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 14:44:46 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/ossec-hids-2.8.1/install.sh
+Apr  8 14:44:46 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 14:45:17 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 14:45:23 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/ossec-hids-2.8.1/install.sh
+Apr  8 14:45:23 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  8 14:45:55 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 14:50:01 Chqtestbeatht2 su[3219]: pam_unix(su:session): session closed for user root
+Apr  8 15:05:09 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 15:05:09 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 15:05:17 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 15:17:01 Chqtestbeatht2 CRON[5121]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 15:17:01 Chqtestbeatht2 CRON[5121]: pam_unix(cron:session): session closed for user root
+Apr  8 15:35:10 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 15:35:10 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 15:35:21 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 15:37:30 Chqtestbeatht2 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr  8 15:38:20 Chqtestbeatht2 mdm[1754]: pam_unix(mdm:session): session closed for user tech
+Apr  8 15:38:20 Chqtestbeatht2 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr  8 15:38:21 Chqtestbeatht2 mdm[5279]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  8 15:38:21 Chqtestbeatht2 mdm[5279]: PAM adding faulty module: pam_kwallet.so
+Apr  8 15:38:27 Chqtestbeatht2 mdm[5279]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+Apr  8 15:38:28 Chqtestbeatht2 mdm[5279]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+Apr  8 15:38:29 Chqtestbeatht2 mdm[5279]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+Apr  8 15:38:29 Chqtestbeatht2 mdm[5279]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+Apr  8 15:38:29 Chqtestbeatht2 mdm[5279]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  8 15:38:31 Chqtestbeatht2 polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.74 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  8 15:38:41 Chqtestbeatht2 su[5976]: Successful su for root by mgonzales
+Apr  8 15:38:41 Chqtestbeatht2 su[5976]: + /dev/pts/0 mgonzales:root
+Apr  8 15:38:41 Chqtestbeatht2 su[5976]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+Apr  8 15:38:48 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/aet.sh mgonzales
+Apr  8 15:38:48 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Apr  8 15:48:42 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 15:49:22 Chqtestbeatht2 sshd[1510]: Server listening on 0.0.0.0 port 22.
+Apr  8 15:49:22 Chqtestbeatht2 sshd[1510]: Server listening on :: port 22.
+Apr  8 15:49:22 Chqtestbeatht2 CRON[1594]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 15:49:23 Chqtestbeatht2 mdm[1748]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  8 15:49:23 Chqtestbeatht2 mdm[1748]: PAM adding faulty module: pam_kwallet.so
+Apr  8 15:49:27 Chqtestbeatht2 CRON[1594]: pam_unix(cron:session): session closed for user root
+Apr  8 15:52:50 Chqtestbeatht2 mdm[1748]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "mgonzales"
+Apr  8 15:52:52 Chqtestbeatht2 mdm[1748]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=mgonzales
+Apr  8 15:52:53 Chqtestbeatht2 mdm[1748]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=mgonzales
+Apr  8 15:52:53 Chqtestbeatht2 mdm[1748]: pam_unix(mdm:session): session opened for user mgonzales by (uid=0)
+Apr  8 15:52:53 Chqtestbeatht2 mdm[1748]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  8 15:52:55 Chqtestbeatht2 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.23 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  8 15:53:06 Chqtestbeatht2 su[2911]: pam_unix(su:auth): authentication failure; logname=mgonzales uid=2009 euid=0 tty=/dev/pts/0 ruser=mgonzales rhost=  user=root
+Apr  8 15:53:07 Chqtestbeatht2 su[2911]: pam_authenticate: Authentication failure
+Apr  8 15:53:07 Chqtestbeatht2 su[2911]: FAILED su for root by mgonzales
+Apr  8 15:53:07 Chqtestbeatht2 su[2911]: - /dev/pts/0 mgonzales:root
+Apr  8 15:57:41 Chqtestbeatht2 su[3022]: Successful su for root by mgonzales
+Apr  8 15:57:41 Chqtestbeatht2 su[3022]: + /dev/pts/0 mgonzales:root
+Apr  8 15:57:41 Chqtestbeatht2 su[3022]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+Apr  8 15:58:46 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/bin/echo [Desktop Entry]#012#011Version=1.0#012#011Type=Application#012#011Name=LivePerson#012#011Comment=Launch LivePerson#012#011Exec=wine "/home/mgonzales/.wine/drive_c/Program Files (x86)/LivePersonAgent/LivePerson.exe"#012#011Icon=/usr/src/IT_Files/Linux/xfce-uni/preferences/DesktopShortcut.png#012#011Path=/home/mgonzales/.wine/dosdevices/c:/Program Files (x86)/LivePersonAgent/#012#011Terminal=false#012#011StartupNotify=true
+Apr  8 15:58:46 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Apr  8 15:58:46 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 15:58:46 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/bin/chmod +x /home/mgonzales/Desktop/LivePerson.desktop
+Apr  8 15:58:46 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Apr  8 15:58:46 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 15:59:54 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/bin/echo [Desktop Entry]#012#011Version=1.0#012#011Type=Application#012#011Name=LivePerson#012#011Comment=Launch LivePerson#012#011Exec=wine "/home/mgonzales/.wine/drive_c/Program Files (x86)/LivePersonAgent/LivePerson.exe"#012#011Icon=/usr/src/IT_Files/Linux/xfce-uni/preferences/DesktopShortcut.png#012#011Path=/home/mgonzales/.wine/dosdevices/c:/Program Files (x86)/LivePersonAgent/#012#011Terminal=false#012#011StartupNotify=true
+Apr  8 15:59:54 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Apr  8 15:59:54 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 15:59:54 Chqtestbeatht2 sudo:     root : TTY=pts/0 ; PWD=/home/mgonzales ; USER=root ; COMMAND=/bin/chmod +x /home/mgonzales/Desktop/LivePerson.desktop
+Apr  8 15:59:54 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by mgonzales(uid=0)
+Apr  8 15:59:54 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:00:23 Chqtestbeatht2 su[3216]: Successful su for root by mgonzales
+Apr  8 16:00:23 Chqtestbeatht2 su[3216]: + /dev/pts/2 mgonzales:root
+Apr  8 16:00:23 Chqtestbeatht2 su[3216]: pam_unix(su:session): session opened for user root by mgonzales(uid=2009)
+Apr  8 16:01:34 Chqtestbeatht2 su[3216]: pam_unix(su:session): session closed for user root
+Apr  8 16:10:36 Chqtestbeatht2 mdm[3430]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  8 16:10:36 Chqtestbeatht2 mdm[3430]: PAM adding faulty module: pam_kwallet.so
+Apr  8 16:17:01 Chqtestbeatht2 CRON[3461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 16:17:01 Chqtestbeatht2 CRON[3461]: pam_unix(cron:session): session closed for user root
+Apr  8 16:22:57 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 16:22:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 16:23:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 16:52:57 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 16:52:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 16:53:06 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 17:17:01 Chqtestbeatht2 CRON[3629]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 17:17:01 Chqtestbeatht2 CRON[3629]: pam_unix(cron:session): session closed for user root
+Apr  8 17:22:57 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 17:22:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 17:23:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 17:52:57 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 17:52:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 17:53:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 18:17:01 Chqtestbeatht2 CRON[3790]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 18:17:01 Chqtestbeatht2 CRON[3790]: pam_unix(cron:session): session closed for user root
+Apr  8 18:22:57 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 18:22:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 18:23:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 18:52:57 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 18:52:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 18:53:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 19:17:01 Chqtestbeatht2 CRON[3952]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 19:17:01 Chqtestbeatht2 CRON[3952]: pam_unix(cron:session): session closed for user root
+Apr  8 19:22:57 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 19:22:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 19:23:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 19:52:57 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 19:52:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 19:53:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 20:17:01 Chqtestbeatht2 CRON[4113]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 20:17:01 Chqtestbeatht2 CRON[4113]: pam_unix(cron:session): session closed for user root
+Apr  8 20:22:57 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 20:22:57 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 20:23:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 20:52:58 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 20:52:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 20:53:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 21:17:01 Chqtestbeatht2 CRON[4280]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 21:17:01 Chqtestbeatht2 CRON[4280]: pam_unix(cron:session): session closed for user root
+Apr  8 21:22:58 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 21:22:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 21:23:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 21:52:58 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 21:52:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 21:53:05 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 22:17:01 Chqtestbeatht2 CRON[4441]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 22:17:01 Chqtestbeatht2 CRON[4441]: pam_unix(cron:session): session closed for user root
+Apr  8 22:22:58 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 22:22:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 22:23:09 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 22:52:58 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 22:52:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 22:53:10 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 23:17:01 Chqtestbeatht2 CRON[4600]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 23:17:01 Chqtestbeatht2 CRON[4600]: pam_unix(cron:session): session closed for user root
+Apr  8 23:22:58 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 23:22:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 23:23:08 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 23:52:58 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  8 23:52:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 23:53:06 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 00:17:01 Chqtestbeatht2 CRON[4764]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 00:17:01 Chqtestbeatht2 CRON[4764]: pam_unix(cron:session): session closed for user root
+Apr  9 00:22:58 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 00:22:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 00:23:09 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 00:52:58 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 00:52:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 00:57:53 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 01:17:01 Chqtestbeatht2 CRON[4922]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 01:17:01 Chqtestbeatht2 CRON[4922]: pam_unix(cron:session): session closed for user root
+Apr  9 01:22:58 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 01:22:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 01:23:06 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 01:52:58 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 01:52:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 01:53:06 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 02:17:01 Chqtestbeatht2 CRON[5083]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 02:17:01 Chqtestbeatht2 CRON[5083]: pam_unix(cron:session): session closed for user root
+Apr  9 02:22:58 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 02:22:58 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 02:23:09 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 02:52:59 Chqtestbeatht2 sudo: mgonzales : TTY=unknown ; PWD=/home/mgonzales ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 02:52:59 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 02:53:06 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 03:00:01 Chqtestbeatht2 CRON[5223]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 03:00:01 Chqtestbeatht2 CRON[5224]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 03:12:14 Chqtestbeatht2 sshd[1509]: Server listening on 0.0.0.0 port 22.
+Apr  9 03:12:14 Chqtestbeatht2 sshd[1509]: Server listening on :: port 22.
+Apr  9 03:12:14 Chqtestbeatht2 CRON[1524]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 03:12:15 Chqtestbeatht2 mdm[1748]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  9 03:12:15 Chqtestbeatht2 mdm[1748]: PAM adding faulty module: pam_kwallet.so
+Apr  9 03:12:19 Chqtestbeatht2 CRON[1524]: pam_unix(cron:session): session closed for user root
+Apr  9 03:17:01 Chqtestbeatht2 CRON[2013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 03:17:01 Chqtestbeatht2 CRON[2013]: pam_unix(cron:session): session closed for user root
+Apr  9 03:17:15 Chqtestbeatht2 su[2161]: Successful su for nobody by root
+Apr  9 03:17:15 Chqtestbeatht2 su[2161]: + ??? root:nobody
+Apr  9 03:17:15 Chqtestbeatht2 su[2161]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  9 03:17:15 Chqtestbeatht2 su[2161]: pam_unix(su:session): session closed for user nobody
+Apr  9 03:17:15 Chqtestbeatht2 su[2236]: Successful su for nobody by root
+Apr  9 03:17:15 Chqtestbeatht2 su[2236]: + ??? root:nobody
+Apr  9 03:17:15 Chqtestbeatht2 su[2236]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  9 03:17:16 Chqtestbeatht2 su[2236]: pam_unix(su:session): session closed for user nobody
+Apr  9 03:17:16 Chqtestbeatht2 su[2249]: Successful su for nobody by root
+Apr  9 03:17:16 Chqtestbeatht2 su[2249]: + ??? root:nobody
+Apr  9 03:17:16 Chqtestbeatht2 su[2249]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  9 03:17:26 Chqtestbeatht2 su[2249]: pam_unix(su:session): session closed for user nobody
+Apr  9 04:17:01 Chqtestbeatht2 CRON[2405]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 04:17:01 Chqtestbeatht2 CRON[2405]: pam_unix(cron:session): session closed for user root
+Apr  9 05:17:01 Chqtestbeatht2 CRON[2486]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 05:17:01 Chqtestbeatht2 CRON[2486]: pam_unix(cron:session): session closed for user root
+Apr  9 06:17:01 Chqtestbeatht2 CRON[2576]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 06:17:01 Chqtestbeatht2 CRON[2576]: pam_unix(cron:session): session closed for user root
+Apr  9 06:25:01 Chqtestbeatht2 CRON[2588]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 06:25:01 Chqtestbeatht2 CRON[2588]: pam_unix(cron:session): session closed for user root
+Apr  9 07:17:01 Chqtestbeatht2 CRON[2659]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 07:17:01 Chqtestbeatht2 CRON[2659]: pam_unix(cron:session): session closed for user root
+Apr  9 07:30:01 Chqtestbeatht2 CRON[2683]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 07:30:01 Chqtestbeatht2 CRON[2683]: pam_unix(cron:session): session closed for user root
+Apr  9 08:17:01 Chqtestbeatht2 CRON[2756]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 08:17:01 Chqtestbeatht2 CRON[2756]: pam_unix(cron:session): session closed for user root
+Apr  9 08:44:42 Chqtestbeatht2 login[2797]: pam_ecryptfs: Passphrase file wrapped
+Apr  9 08:44:43 Chqtestbeatht2 login[1479]: pam_unix(login:session): session opened for user tech by LOGIN(uid=0)
+Apr  9 09:17:01 Chqtestbeatht2 CRON[2906]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 09:17:01 Chqtestbeatht2 CRON[2906]: pam_unix(cron:session): session closed for user root
+Apr  9 10:17:01 Chqtestbeatht2 CRON[2989]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 10:17:01 Chqtestbeatht2 CRON[2989]: pam_unix(cron:session): session closed for user root
+Apr  9 11:17:01 Chqtestbeatht2 CRON[3068]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 11:17:01 Chqtestbeatht2 CRON[3068]: pam_unix(cron:session): session closed for user root
+Apr  9 12:17:01 Chqtestbeatht2 CRON[3145]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 12:17:01 Chqtestbeatht2 CRON[3145]: pam_unix(cron:session): session closed for user root
+Apr  9 12:40:31 Chqtestbeatht2 mdm[1748]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  9 12:40:32 Chqtestbeatht2 mdm[1748]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr  9 12:40:32 Chqtestbeatht2 mdm[1748]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  9 12:40:35 Chqtestbeatht2 polkitd(authority=local): Registered Authentication Agent for unix-session:c5 (system bus name :1.82 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  9 12:41:42 Chqtestbeatht2 sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/ossec-hids-2.8.1/install.sh
+Apr  9 12:41:42 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  9 12:46:53 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 13:10:36 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 13:10:36 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 13:10:45 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 13:17:01 Chqtestbeatht2 CRON[4490]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 13:17:01 Chqtestbeatht2 CRON[4490]: pam_unix(cron:session): session closed for user root
+Apr  9 13:35:17 Chqtestbeatht2 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Apr  9 13:35:17 Chqtestbeatht2 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Apr  9 13:35:17 Chqtestbeatht2 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr  9 13:35:17 Chqtestbeatht2 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr  9 13:40:36 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 13:40:36 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 13:40:46 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 13:54:23 Chqtestbeatht2 unix_chkpwd[4583]: password check failed for user (tech)
+Apr  9 13:54:23 Chqtestbeatht2 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost=  user=tech
+Apr  9 13:54:23 Chqtestbeatht2 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr  9 13:54:23 Chqtestbeatht2 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr  9 13:54:25 Chqtestbeatht2 xscreensaver[3450]: FAILED LOGIN 1 ON DISPLAY ":0.0", FOR "tech"
+Apr  9 14:10:36 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 14:10:36 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 14:10:44 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 14:17:01 Chqtestbeatht2 CRON[4654]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 14:17:01 Chqtestbeatht2 CRON[4654]: pam_unix(cron:session): session closed for user root
+Apr  9 14:26:35 Chqtestbeatht2 xscreensaver[3450]: pam_ecryptfs: seteuid error
+Apr  9 14:26:35 Chqtestbeatht2 xscreensaver[3450]: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Apr  9 14:40:36 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 14:40:36 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 14:40:44 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:10:36 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 15:10:36 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 15:10:44 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 15:17:01 Chqtestbeatht2 CRON[4834]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 15:17:01 Chqtestbeatht2 CRON[4834]: pam_unix(cron:session): session closed for user root
+Apr  9 15:40:36 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 15:40:36 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 15:40:44 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 16:02:17 Chqtestbeatht2 xscreensaver[3450]: pam_unix(xscreensaver:auth): conversation failed
+Apr  9 16:02:17 Chqtestbeatht2 xscreensaver[3450]: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Apr  9 16:02:17 Chqtestbeatht2 xscreensaver[3450]: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr  9 16:02:17 Chqtestbeatht2 xscreensaver[3450]: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr  9 16:05:39 Chqtestbeatht2 xscreensaver[3450]: pam_unix(xscreensaver:auth): conversation failed
+Apr  9 16:05:39 Chqtestbeatht2 xscreensaver[3450]: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Apr  9 16:05:39 Chqtestbeatht2 xscreensaver[3450]: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr  9 16:05:39 Chqtestbeatht2 xscreensaver[3450]: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr  9 16:10:36 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 16:10:36 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 16:10:44 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 16:17:01 Chqtestbeatht2 CRON[5003]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 16:17:01 Chqtestbeatht2 CRON[5003]: pam_unix(cron:session): session closed for user root
+Apr  9 16:40:36 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 16:40:36 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 16:40:44 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 17:10:36 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 17:10:36 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 17:10:46 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 17:17:01 Chqtestbeatht2 CRON[5164]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 17:17:01 Chqtestbeatht2 CRON[5164]: pam_unix(cron:session): session closed for user root
+Apr  9 17:30:38 Chqtestbeatht2 xscreensaver[3450]: pam_unix(xscreensaver:auth): conversation failed
+Apr  9 17:30:38 Chqtestbeatht2 xscreensaver[3450]: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Apr  9 17:30:38 Chqtestbeatht2 xscreensaver[3450]: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Apr  9 17:30:38 Chqtestbeatht2 xscreensaver[3450]: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Apr  9 17:40:36 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 17:40:36 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 17:40:44 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 18:10:37 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 18:10:37 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 18:10:47 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 18:17:01 Chqtestbeatht2 CRON[5326]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 18:17:01 Chqtestbeatht2 CRON[5326]: pam_unix(cron:session): session closed for user root
+Apr  9 18:40:37 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 18:40:37 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 18:40:44 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 19:10:37 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 19:10:37 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 19:10:44 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 19:17:01 Chqtestbeatht2 CRON[5493]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 19:17:01 Chqtestbeatht2 CRON[5493]: pam_unix(cron:session): session closed for user root
+Apr  9 19:40:37 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 19:40:37 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 19:40:45 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 20:10:37 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 20:10:37 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 20:10:45 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 20:17:01 Chqtestbeatht2 CRON[5653]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 20:17:01 Chqtestbeatht2 CRON[5653]: pam_unix(cron:session): session closed for user root
+Apr  9 20:40:37 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 20:40:37 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 20:40:47 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 21:10:37 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 21:10:37 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 21:10:45 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 21:17:01 Chqtestbeatht2 CRON[5814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 21:17:01 Chqtestbeatht2 CRON[5814]: pam_unix(cron:session): session closed for user root
+Apr  9 21:40:37 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 21:40:37 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 21:40:46 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 22:10:37 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 22:10:37 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 22:10:45 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 22:17:01 Chqtestbeatht2 CRON[5978]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 22:17:01 Chqtestbeatht2 CRON[5978]: pam_unix(cron:session): session closed for user root
+Apr  9 22:40:37 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 22:40:37 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 22:40:45 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 23:10:38 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 23:10:38 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 23:10:45 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 23:17:01 Chqtestbeatht2 CRON[6140]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  9 23:17:01 Chqtestbeatht2 CRON[6140]: pam_unix(cron:session): session closed for user root
+Apr  9 23:40:38 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  9 23:40:38 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 23:40:48 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr 10 00:10:38 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 10 00:10:38 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 10 00:10:45 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr 10 00:17:01 Chqtestbeatht2 CRON[6301]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 10 00:17:01 Chqtestbeatht2 CRON[6301]: pam_unix(cron:session): session closed for user root
+Apr 10 00:40:38 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 10 00:40:38 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 10 00:40:47 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr 10 01:10:38 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 10 01:10:38 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 10 01:10:46 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr 10 01:17:01 Chqtestbeatht2 CRON[6466]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 10 01:17:01 Chqtestbeatht2 CRON[6466]: pam_unix(cron:session): session closed for user root
+Apr 10 01:40:38 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 10 01:40:38 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 10 01:40:46 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr 10 02:10:38 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 10 02:10:38 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 10 02:10:46 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr 10 02:17:01 Chqtestbeatht2 CRON[6628]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 10 02:17:01 Chqtestbeatht2 CRON[6628]: pam_unix(cron:session): session closed for user root
+Apr 10 02:40:38 Chqtestbeatht2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr 10 02:40:38 Chqtestbeatht2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 10 02:40:47 Chqtestbeatht2 sudo: pam_unix(sudo:session): session closed for user root
+Apr 10 03:00:01 Chqtestbeatht2 CRON[6729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 10 03:00:01 Chqtestbeatht2 CRON[6730]: pam_unix(cron:session): session opened for user root by (uid=0)

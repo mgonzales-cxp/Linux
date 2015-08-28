@@ -1,0 +1,140 @@
+Mar 20 14:26:14 mint login[1811]: pam_unix(login:session): session opened for user mint by (uid=0)
+Mar 20 14:26:14 mint login[1813]: pam_unix(login:session): session opened for user mint by (uid=0)
+Mar 20 14:26:14 mint login[1835]: pam_unix(login:session): session opened for user mint by (uid=0)
+Mar 20 14:26:14 mint login[1839]: pam_unix(login:session): session opened for user mint by (uid=0)
+Mar 20 14:26:14 mint login[1909]: pam_unix(login:session): session opened for user mint by (uid=0)
+Mar 20 14:26:15 mint login[2257]: pam_unix(login:session): session opened for user mint by (uid=0)
+Mar 20 14:26:16 mint mdm[2209]: pam_unix(mdm-autologin:session): session opened for user mint by (uid=0)
+Mar 20 14:26:16 mint mdm[2209]: pam_ck_connector(mdm-autologin:session): nox11 mode, ignoring PAM_TTY :0
+Mar 20 14:26:20 mint polkitd(authority=local): Registered Authentication Agent for unix-session:c7 (system bus name :1.35 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 20 14:26:25 mint dbus[1122]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.56" (uid=0 pid=3347 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=1535 comm="NetworkManager ")
+Mar 20 14:26:44 mint smbd[3591]: pam_unix(samba:session): session closed for user nobody
+Mar 20 14:29:16 mint smbd[3652]: pam_unix(samba:session): session closed for user nobody
+Mar 20 14:30:02 mint smbd[3663]: pam_unix(samba:session): session closed for user nobody
+Mar 20 14:32:29 mint sudo:     mint : TTY=pts/2 ; PWD=/home/mint/Desktop ; USER=root ; COMMAND=/bin/chmod +x initial_setup.sh
+Mar 20 14:32:29 mint sudo: pam_unix(sudo:session): session opened for user root by mint(uid=0)
+Mar 20 14:32:29 mint sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 14:32:32 mint smbd[4158]: pam_unix(samba:session): session closed for user nobody
+Mar 20 14:33:45 mint sudo:     mint : TTY=pts/2 ; PWD=/home/mint/Desktop ; USER=root ; COMMAND=/bin/chmod +x initial_setup.sh
+Mar 20 14:33:45 mint sudo: pam_unix(sudo:session): session opened for user root by mint(uid=0)
+Mar 20 14:33:45 mint sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 14:33:56 mint smbd[4184]: pam_unix(samba:session): session closed for user nobody
+Mar 20 14:34:03 mint sudo:     mint : TTY=pts/2 ; PWD=/home/mint/Desktop ; USER=root ; COMMAND=./initial_setup.sh
+Mar 20 14:34:03 mint sudo: pam_unix(sudo:session): session opened for user root by mint(uid=0)
+Mar 20 14:36:16 mint smbd[6540]: pam_unix(samba:session): session closed for user nobody
+Mar 20 14:37:31 mint sudo:     mint : TTY=unknown ; PWD=/home/mint ; USER=mint ; COMMAND=/usr/bin/gsettings set org.cinnamon.desktop.screensaver lock-enabled false
+Mar 20 14:37:31 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:37:31 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:37:31 mint sudo:     mint : TTY=unknown ; PWD=/home/mint ; USER=mint ; COMMAND=/usr/bin/gsettings set org.mate.screensaver lock-enabled false
+Mar 20 14:37:31 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:37:31 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:37:31 mint pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=999)
+Mar 20 14:37:31 mint pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Mar 20 14:37:31 mint pkexec[6546]: mint: Executing command [USER=root] [TTY=unknown] [CWD=/home/mint] [COMMAND=/usr/bin/ubiquity gtk_ui]
+Mar 20 14:37:31 mint sudo:     root : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings set org.cinnamon.desktop.screensaver lock-enabled false
+Mar 20 14:37:31 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:37:31 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:37:31 mint sudo:     root : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings set org.mate.screensaver lock-enabled false
+Mar 20 14:37:31 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:37:31 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:37:36 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings get org.gnome.nautilus.desktop volumes-visible
+Mar 20 14:37:36 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:37:36 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:37:36 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings get org.gnome.desktop.media-handling automount
+Mar 20 14:37:36 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:37:36 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:37:36 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings set org.gnome.desktop.media-handling automount false
+Mar 20 14:37:36 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:37:36 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:37:36 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings get org.gnome.desktop.media-handling automount-open
+Mar 20 14:37:36 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:37:36 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:37:36 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings set org.gnome.desktop.media-handling automount-open false
+Mar 20 14:37:36 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:37:36 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:37:37 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings get org.gnome.desktop.media-handling autorun-never
+Mar 20 14:37:37 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:37:37 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:37:37 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings set org.gnome.desktop.media-handling autorun-never true
+Mar 20 14:37:37 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:37:37 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:37:37 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings get org.gnome.desktop.screensaver idle-activation-enabled
+Mar 20 14:37:37 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:37:37 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:37:37 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings set org.gnome.desktop.screensaver idle-activation-enabled false
+Mar 20 14:37:37 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:37:37 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:37:37 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings get org.gnome.settings-daemon.plugins.power active
+Mar 20 14:37:37 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:37:37 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:37:37 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings set org.gnome.settings-daemon.plugins.power active false
+Mar 20 14:37:37 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:37:37 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:38:02 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings get com.canonical.indicator.session suppress-logout-menuitem
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:38:02 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings set com.canonical.indicator.session suppress-logout-menuitem true
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:38:02 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings get com.canonical.indicator.session suppress-logout-restart-shutdown
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:38:02 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings set com.canonical.indicator.session suppress-logout-restart-shutdown true
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:38:02 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings get com.canonical.indicator.session suppress-restart-menuitem
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:38:02 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings set com.canonical.indicator.session suppress-restart-menuitem true
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:38:02 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings get com.canonical.indicator.session suppress-shutdown-menuitem
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:38:02 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings set com.canonical.indicator.session suppress-shutdown-menuitem true
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:38:02 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings get org.gnome.desktop.lockdown disable-user-switching
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:38:02 mint sudo:     mint : TTY=unknown ; PWD=/root ; USER=mint ; COMMAND=/usr/bin/gsettings set org.gnome.desktop.lockdown disable-user-switching true
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session opened for user mint by (uid=0)
+Mar 20 14:38:02 mint sudo: pam_unix(sudo:session): session closed for user mint
+Mar 20 14:38:36 mint smbd[13186]: pam_unix(samba:session): session closed for user nobody
+Mar 20 14:38:42 mint sudo:     root : TTY=unknown ; PWD=/home/mint/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 20 14:38:42 mint sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 14:38:42 mint sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 14:38:42 mint sudo:     root : TTY=unknown ; PWD=/home/mint/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.9-x86.msi /usr/share/wine/gecko/
+Mar 20 14:38:42 mint sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 14:38:42 mint sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 14:39:04 mint sudo:     root : TTY=unknown ; PWD=/home/mint/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 20 14:39:04 mint sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 14:39:04 mint sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 14:39:04 mint sudo:     root : TTY=unknown ; PWD=/home/mint/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86.msi /usr/share/wine/gecko/
+Mar 20 14:39:04 mint sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 14:39:04 mint sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 14:39:21 mint sudo:     root : TTY=unknown ; PWD=/home/mint/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 20 14:39:21 mint sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 14:39:21 mint sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 14:39:21 mint sudo:     root : TTY=unknown ; PWD=/home/mint/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86.msi /usr/share/wine/gecko/
+Mar 20 14:39:21 mint sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 14:39:21 mint sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 14:39:32 mint sudo:     root : TTY=unknown ; PWD=/home/mint/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 20 14:39:32 mint sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 14:39:32 mint sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 14:39:32 mint sudo:     root : TTY=unknown ; PWD=/home/mint/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86.msi /usr/share/wine/gecko/
+Mar 20 14:39:32 mint sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 14:39:32 mint sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 14:39:40 mint sudo:     root : TTY=unknown ; PWD=/home/mint/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 20 14:39:40 mint sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 14:39:40 mint sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 14:39:40 mint sudo:     root : TTY=unknown ; PWD=/home/mint/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86_64.msi /usr/share/wine/gecko/
+Mar 20 14:39:40 mint sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 14:39:40 mint sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 14:39:50 mint sudo:     root : TTY=unknown ; PWD=/home/mint/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+Mar 20 14:39:50 mint sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 14:39:50 mint sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 14:39:50 mint sudo:     root : TTY=unknown ; PWD=/home/mint/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86_64.msi /usr/share/wine/gecko/
+Mar 20 14:39:50 mint sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 20 14:39:50 mint sudo: pam_unix(sudo:session): session closed for user root
+Mar 20 14:39:54 mint smbd[14893]: pam_unix(samba:session): session closed for user nobody

@@ -1,0 +1,144 @@
+                              -CONFIG CHANGE LOG-
+                               Press 'q' to exit
+--------------------------------------------------------------------------------
+August 21, 2015
+-----------------------
+# Updated bash.bashrc with the following aliases:
+  #linux        - Changes directory to /usr/src/IT_Files/Linux.
+  #it           - Changes directory to /usr/src/IT_Files.
+  #run_nao      - Run the 5-minute cron script manually.
+  #run_nightly  - Run the nighly cron script manually.
+  #update       - sudo apt-get update
+  #upgrade      - sudo apt-get upgrade
+  #dist-upgrade - sudo apt-get dist-upgrade
+  #reboot       - sudo reboot
+
+  #Bash can be updated through nightly or manually via settings in config.
+
+# As previously threatened, Coventry_Files has been removed from 
+  the system info screen.
+
+# Hosts files are now written to instead of copied with 
+  Linux/xfce-uni/preferences/rewrite_hosts.sh $(hostname) since Kaspersky keeps
+  wiping them. This has also been added to blacklist_update.sh
+
+August 20, 2015
+-----------------------
+# Created Linux/cron/mem_youtube.sh to allow Memphis to access YouTube by
+  editing the host file. Also can use Linux/cron/mem_youtube_exts.txt
+  to target certain extensions.
+
+# Created Linux/xfce-uni/preferences/rewrite_hosts.sh to write directly to
+  /etc/hosts as Kaspersky keeps destroying our hosts seed. It can be ran
+  via cron continuously and it's easy to add new entries.
+
+# When re-profiling to a different client, each client script will remove 
+  the other client's folders in /usr/src/.
+
+August 18, 2015
+-------------------------
+# SAT is now running the stagger script locally at 11PM, then 
+  calling nightly on the file server.
+
+# All called functions are now passed through CheckDate() for 
+  scheduling purposes.
+
+# Re-compiled update_tech_password.sh.x to be able to run on any 
+  computer with  the same OS.
+
+# Added change to root password in update_tech_password.sh.x.
+
+# Fixed issue with config reading the new password.
+
+August 17, 2015
+-------------------------
+# Created a compiled bash script called update_tech_password.sh.x in the 
+  Linux/cron folder. This will update the password on the local tech 
+  account to the new tech password.
+
+# Added script variable $update_tech_password in nightly_functions.sh
+
+# Added call to $update_tech_password in Nightly().
+
+# Created a tbt.sh file on the file server (hal2).  Floor techs can now use a 
+  local profile called aetna-training on the production machines and run this
+  script for TBT training.
+
+# Fixed an issue where the Aetna profile script wasn't creating the 
+  DRx Scraper flag (hal2).
+	# Code added to line 118 in aet.sh:
+		touch /var/log/drx_scraper.flag
+
+August 5, 2015
+---------------------
+# Adjusted stagger times for nightly.sh
+# Rebuilt nightly.sh which now consists of three scripts in 
+  /usr/src/IT_Files/Linux/cron:
+    # stagger_nightly.sh
+    # nightly_functions.sh
+    # nightly.sh
+
+    # New functions, changes and scripts calls should be added to 
+      nighty_functions.sh then
+    # called in nightly.sh!
+# Added "Cron duration" field in the System Info page.
+
+August 4, 2015
+---------------------
+
+# Nightly cron is now staggered so that every workstation will 
+  run the cron at a different time.
+# Improved and fixed issue with the way config.sh made IT_Files 
+  mount when copied and ran locally.
+
+July 17, 2015
+-------------
+
+# Improved functionality of training_pictures.sh to include:
+      # Making a local backup of the PNG.
+      # Rename files without extensions in Pictures folder to .png
+      # Rename files with .PNG to .PNG in Pictures folder.
+      # Move .png files to screenshots folder on file server.
+
+# Added the 107 octet to the sites array in training_pictures.sh for the tower.
+  Anything on 107 wasn't getting the new folders and the PNG moves/copies.
+
+# Created a new header script that only includes colors, paths, hostname and
+  logname
+
+# Added Aetna SS extensions 5430 - 5443 to exts2.txt for launcher_slc.sh
+
+# Updated blacklist_update.sh to prepend a 'C' or a 'T' depending on if they're
+  production(C) or training(T). Otherwise, it will give a warning and ask if 
+  it's a production or training machine. If it is, it will write the appropriate
+  flags and update the hostname with the appropriate leading character.
+  Otherwise, it updates without a character prepended.
+ 	
+  The script now also checks to see if the computer name is tech or Ctech and 
+  state whether it may be a default name and needs to be updated at least once.
+  If it's not tech or Ctech, it states that the hostname may have already been
+  updated and asks if the user would like to update.
+
+July 16, 2015
+-------------
+
+# Created script training_pictures.sh to automatically copy PNGs from
+  the pictures folder for training. These are moved into:
+  /usr/src/IT_Files/Linux/screenshots/[site_specific_folder]
+
+  NOC - Please email these as requested and move them into the 'emailed'
+  folder when they've been sent to a trainer.
+
+July 8, 2015
+------------
+
+# Updated file structure.
+
+# Added array for various different exit commands in main.sh
+
+July 7, 2015
+------------
+
+# Added this here page!
+
+# Config no longer requires a password if root. Yay!

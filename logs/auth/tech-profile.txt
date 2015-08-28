@@ -1,0 +1,195 @@
+May 21 02:23:13 tech-profile systemd-logind[774]: New seat seat0.
+May 21 02:23:56 tech-profile mdm[1433]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May 21 02:23:56 tech-profile mdm[1433]: PAM adding faulty module: pam_kwallet.so
+May 21 02:24:00 tech-profile mdm[1433]: pam_nologin(mdm:auth): cannot determine username
+May 21 02:24:00 tech-profile mdm[1433]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May 21 02:24:00 tech-profile mdm[1433]: PAM adding faulty module: pam_kwallet.so
+May 21 02:24:00 tech-profile mdm[1433]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May 27 00:56:25 tech-profile systemd-logind[795]: New seat seat0.
+May 27 00:56:38 tech-profile mdm[1387]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May 27 00:56:38 tech-profile mdm[1387]: PAM adding faulty module: pam_kwallet.so
+May 27 00:56:45 tech-profile dbus[728]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1508 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=808 comm="NetworkManager ")
+May 27 07:56:54 tech-profile mdm[1387]: pam_unix(mdm:auth): check pass; user unknown
+May 27 07:56:54 tech-profile mdm[1387]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+May 27 07:56:57 tech-profile mdm[1387]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May 27 07:56:57 tech-profile mdm[1387]: PAM adding faulty module: pam_kwallet.so
+May 27 07:57:03 tech-profile mdm[1387]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May 27 07:57:08 tech-profile mdm[1387]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May 27 07:57:08 tech-profile systemd-logind[795]: New session c1 of user tech.
+May 27 07:57:08 tech-profile systemd-logind[795]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+May 27 07:57:08 tech-profile mdm[1387]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May 27 07:57:21 tech-profile polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.22 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 27 07:58:01 tech-profile su[2635]: Successful su for root by tech
+May 27 07:58:01 tech-profile su[2635]: + /dev/pts/2 tech:root
+May 27 07:58:01 tech-profile su[2635]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May 27 07:58:18 tech-profile su[2635]: pam_unix(su:session): session closed for user root
+May 27 07:58:29 tech-profile smbd[2658]: pam_unix(samba:session): session closed for user nobody
+May 27 07:58:29 tech-profile smbd[2659]: pam_unix(samba:session): session closed for user nobody
+May 27 07:59:16 tech-profile dbus[728]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1508 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=808 comm="NetworkManager ")
+May 27 07:59:17 tech-profile gnome-keyring-daemon[2735]: couldn't access control socket: /run/user/1000/keyring-AkwonS/control: No such file or directory
+May 27 07:59:17 tech-profile gnome-keyring-daemon[2735]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+May 27 07:59:17 tech-profile gnome-keyring-daemon[2735]: keyring alias directory: /home/tech/.local/share/keyrings
+May 27 07:59:18 tech-profile dbus[728]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1508 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=808 comm="NetworkManager ")
+May 27 07:59:23 tech-profile systemd-logind[795]: System is rebooting.
+May 27 07:59:23 tech-profile systemd-logind[795]: Operation finished.
+May 27 08:00:07 tech-profile systemd-logind[811]: New seat seat0.
+May 27 08:00:19 tech-profile dbus[626]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.8" (uid=0 pid=967 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=837 comm="NetworkManager ")
+May 27 08:00:23 tech-profile mdm[1431]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+May 27 08:00:23 tech-profile mdm[1431]: PAM adding faulty module: pam_kwallet.so
+May 27 08:00:23 tech-profile mdm[1431]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+May 27 08:05:24 tech-profile su[1805]: Successful su for nobody by root
+May 27 08:05:24 tech-profile su[1805]: + ??? root:nobody
+May 27 08:05:25 tech-profile su[1805]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May 27 08:05:25 tech-profile systemd-logind[811]: New session c1 of user nobody.
+May 27 08:05:25 tech-profile su[1805]: pam_unix(su:session): session closed for user nobody
+May 27 08:05:25 tech-profile su[1880]: Successful su for nobody by root
+May 27 08:05:25 tech-profile su[1880]: + ??? root:nobody
+May 27 08:05:25 tech-profile su[1880]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May 27 08:05:25 tech-profile systemd-logind[811]: Removed session c1.
+May 27 08:05:25 tech-profile systemd-logind[811]: New session c2 of user nobody.
+May 27 08:05:25 tech-profile su[1880]: pam_unix(su:session): session closed for user nobody
+May 27 08:05:25 tech-profile su[1894]: Successful su for nobody by root
+May 27 08:05:25 tech-profile su[1894]: + ??? root:nobody
+May 27 08:05:25 tech-profile su[1894]: pam_unix(su:session): session opened for user nobody by (uid=0)
+May 27 08:05:25 tech-profile systemd-logind[811]: Removed session c2.
+May 27 08:05:25 tech-profile systemd-logind[811]: New session c3 of user nobody.
+May 27 08:06:35 tech-profile smbd[1911]: pam_unix(samba:session): session closed for user nobody
+May 27 08:06:35 tech-profile smbd[1912]: pam_unix(samba:session): session closed for user nobody
+May 27 08:06:36 tech-profile su[1894]: pam_unix(su:session): session closed for user nobody
+May 27 08:06:58 tech-profile smbd[1961]: pam_unix(samba:session): session closed for user nobody
+May 27 08:06:58 tech-profile smbd[1962]: pam_unix(samba:session): session closed for user nobody
+May 27 08:06:59 tech-profile smbd[1963]: pam_unix(samba:session): session closed for user nobody
+May 27 08:07:04 tech-profile smbd[1964]: pam_unix(samba:session): session closed for user nobody
+May 27 08:07:23 tech-profile mdm[1431]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+May 27 08:07:23 tech-profile systemd-logind[811]: Removed session c3.
+May 27 08:07:23 tech-profile systemd-logind[811]: New session c4 of user tech.
+May 27 08:07:23 tech-profile systemd-logind[811]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+May 27 08:07:23 tech-profile mdm[1431]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+May 27 08:07:31 tech-profile polkitd(authority=local): Registered Authentication Agent for unix-session:c4 (system bus name :1.29 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 27 08:07:48 tech-profile su[2706]: Successful su for root by tech
+May 27 08:07:48 tech-profile su[2706]: + /dev/pts/1 tech:root
+May 27 08:07:48 tech-profile su[2706]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May 27 08:07:54 tech-profile su[2706]: pam_unix(su:session): session closed for user root
+May 27 08:09:07 tech-profile sudo:     tech : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/chmod +x config.sh
+May 27 08:09:07 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:09:07 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:09:16 tech-profile su[2809]: Successful su for root by tech
+May 27 08:09:16 tech-profile su[2809]: + /dev/pts/1 tech:root
+May 27 08:09:16 tech-profile su[2809]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+May 27 08:09:38 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /usr/src/IT_Files
+May 27 08:09:38 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:09:38 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:09:38 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/sed -i /IT_Files/d /etc/fstab
+May 27 08:09:38 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:09:38 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:09:38 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo //hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8,nobootwait  0  0
+May 27 08:09:38 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:09:38 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:09:38 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mount -a
+May 27 08:09:38 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:09:39 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:09:44 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/initial_setup.sh
+May 27 08:09:44 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:17:01 tech-profile CRON[5504]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 27 08:17:01 tech-profile CRON[5504]: pam_unix(cron:session): session closed for user root
+May 27 08:28:21 tech-profile systemd-logind[17395]: New seat seat0.
+May 27 08:28:21 tech-profile systemd-logind[17395]: New session c4 of user tech.
+May 27 08:28:21 tech-profile systemd-logind[17395]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+May 27 08:30:51 tech-profile groupadd[31566]: group added to /etc/group: name=clamav, GID=125
+May 27 08:30:51 tech-profile groupadd[31566]: group added to /etc/gshadow: name=clamav
+May 27 08:30:51 tech-profile groupadd[31566]: new group: name=clamav, GID=125
+May 27 08:30:51 tech-profile useradd[31570]: new user: name=clamav, UID=115, GID=125, home=/var/lib/clamav, shell=/bin/false
+May 27 08:30:51 tech-profile chage[31575]: changed password expiry for clamav
+May 27 08:30:54 tech-profile useradd[31806]: new user: name=sshd, UID=116, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+May 27 08:30:54 tech-profile usermod[31811]: change user 'sshd' password
+May 27 08:30:54 tech-profile chage[31816]: changed password expiry for sshd
+May 27 08:30:55 tech-profile sshd[31871]: Server listening on 0.0.0.0 port 22.
+May 27 08:30:55 tech-profile sshd[31871]: Server listening on :: port 22.
+May 27 08:30:56 tech-profile smbd[29721]: pam_unix(samba:session): session closed for user nobody
+May 27 08:30:56 tech-profile smbd[30601]: pam_unix(samba:session): session closed for user nobody
+May 27 08:31:23 tech-profile smbd[31959]: pam_unix(samba:session): session closed for user nobody
+May 27 08:37:36 tech-profile sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+May 27 08:37:36 tech-profile sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+May 27 08:37:49 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:38:47 tech-profile smbd[32006]: pam_unix(samba:session): session closed for user nobody
+May 27 08:38:47 tech-profile smbd[32007]: pam_unix(samba:session): session closed for user nobody
+May 27 08:39:04 tech-profile smbd[32008]: pam_unix(samba:session): session closed for user nobody
+May 27 08:39:04 tech-profile smbd[32009]: pam_unix(samba:session): session closed for user nobody
+May 27 08:41:48 tech-profile smbd[32012]: pam_unix(samba:session): session closed for user nobody
+May 27 08:41:48 tech-profile smbd[32011]: pam_unix(samba:session): session closed for user nobody
+May 27 08:47:13 tech-profile smbd[896]: pam_unix(samba:session): session closed for user nobody
+May 27 08:47:13 tech-profile smbd[897]: pam_unix(samba:session): session closed for user nobody
+May 27 08:47:50 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+May 27 08:47:50 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:47:50 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:47:50 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.9-x86.msi /usr/share/wine/gecko/
+May 27 08:47:50 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:47:50 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:48:06 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+May 27 08:48:06 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:48:06 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:48:06 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86.msi /usr/share/wine/gecko/
+May 27 08:48:06 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:48:06 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:48:16 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+May 27 08:48:16 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:48:16 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:48:16 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86.msi /usr/share/wine/gecko/
+May 27 08:48:16 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:48:16 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:48:24 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+May 27 08:48:24 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:48:24 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:48:24 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86.msi /usr/share/wine/gecko/
+May 27 08:48:24 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:48:24 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:48:33 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+May 27 08:48:33 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:48:33 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:48:33 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.8-x86_64.msi /usr/share/wine/gecko/
+May 27 08:48:33 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:48:33 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:48:47 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+May 27 08:48:47 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:48:47 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:48:47 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.7-x86_64.msi /usr/share/wine/gecko/
+May 27 08:48:47 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:48:47 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:49:06 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+May 27 08:49:06 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:49:06 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:49:06 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.6-x86_64.msi /usr/share/wine/gecko/
+May 27 08:49:06 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:49:06 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:49:33 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+May 27 08:49:33 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:49:33 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:49:33 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.5-x86_64.msi /usr/share/wine/gecko/
+May 27 08:49:33 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:49:33 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:49:40 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+May 27 08:49:40 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:49:40 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:49:40 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.4-x86_64.msi /usr/share/wine/gecko/
+May 27 08:49:40 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:49:40 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:49:48 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/gecko
+May 27 08:49:48 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:49:48 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:49:48 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine_gecko-1.3-x86_64.msi /usr/share/wine/gecko/
+May 27 08:49:48 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:49:48 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:49:58 tech-profile smbd[1589]: pam_unix(samba:session): session closed for user nobody
+May 27 08:50:03 tech-profile smbd[1590]: pam_unix(samba:session): session closed for user nobody
+May 27 08:50:08 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+May 27 08:50:08 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:50:08 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:50:09 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.4.msi /usr/share/wine/mono
+May 27 08:50:09 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:50:09 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:50:27 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir -p /usr/share/wine/mono
+May 27 08:50:27 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:50:27 tech-profile sudo: pam_unix(sudo:session): session closed for user root
+May 27 08:50:27 tech-profile sudo:     root : TTY=pts/1 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mv wine-mono-0.0.8.msi /usr/share/wine/mono
+May 27 08:50:27 tech-profile sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+May 27 08:50:27 tech-profile sudo: pam_unix(sudo:session): session closed for user root

@@ -1,0 +1,151 @@
+Jun 12 15:16:29 C8001 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jun 12 15:16:38 C8001 su[2790]: Successful su for root by tech
+Jun 12 15:16:38 C8001 su[2790]: + /dev/pts/0 tech:root
+Jun 12 15:16:38 C8001 su[2790]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jun 12 15:16:38 C8001 systemd-logind[719]: Removed session c4.
+Jun 12 15:16:45 C8001 su[2790]: pam_unix(su:session): session closed for user root
+Jun 12 15:17:01 C8001 CRON[2835]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 15:17:01 C8001 CRON[2835]: pam_unix(cron:session): session closed for user root
+Jun 12 15:17:37 C8001 gnome-keyring-daemon[2841]: couldn't access control socket: /run/user/1000/keyring-m9AuWS/control: No such file or directory
+Jun 12 15:17:37 C8001 gnome-keyring-daemon[2841]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Jun 12 15:17:37 C8001 gnome-keyring-daemon[2841]: keyring alias directory: /home/tech/.local/share/keyrings
+Jun 12 15:17:54 C8001 su[2882]: Successful su for root by tech
+Jun 12 15:17:54 C8001 su[2882]: + /dev/pts/0 tech:root
+Jun 12 15:17:54 C8001 su[2882]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jun 12 15:21:36 C8001 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 15:21:36 C8001 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 15:21:38 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 15:22:28 C8001 su[2882]: pam_unix(su:session): session closed for user root
+Jun 12 15:23:30 C8001 dbus[564]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.89" (uid=0 pid=3201 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=947 comm="NetworkManager ")
+Jun 12 15:25:17 C8001 su[3400]: Successful su for root by tech
+Jun 12 15:25:17 C8001 su[3400]: + /dev/pts/0 tech:root
+Jun 12 15:25:17 C8001 su[3400]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jun 12 15:25:34 C8001 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/preferences/blacklist_update.sh
+Jun 12 15:25:34 C8001 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 12 15:25:48 C8001 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 15:26:30 C8005 systemd-logind[780]: New seat seat0.
+Jun 12 15:27:12 C8005 sshd[1269]: Server listening on 0.0.0.0 port 22.
+Jun 12 15:27:12 C8005 sshd[1269]: Server listening on :: port 22.
+Jun 12 15:27:13 C8005 CRON[1353]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 15:27:13 C8005 CRON[1353]: pam_unix(cron:session): session closed for user root
+Jun 12 15:27:16 C8005 mdm[1480]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jun 12 15:27:16 C8005 mdm[1480]: PAM adding faulty module: pam_kwallet.so
+Jun 12 15:27:19 C8005 mdm[1480]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Jun 12 15:27:22 C8005 mdm[1480]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Jun 12 15:27:22 C8005 systemd-logind[780]: New session c1 of user tech.
+Jun 12 15:27:22 C8005 systemd-logind[780]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Jun 12 15:27:22 C8005 mdm[1480]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jun 12 15:27:33 C8005 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.20 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 12 15:28:03 C8005 dbus[677]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.41" (uid=0 pid=2248 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=899 comm="NetworkManager ")
+Jun 12 15:28:17 C8005 su[2453]: Successful su for root by tech
+Jun 12 15:28:17 C8005 su[2453]: + /dev/pts/0 tech:root
+Jun 12 15:28:17 C8005 su[2453]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jun 12 15:28:40 C8005 su[2453]: pam_unix(su:session): session closed for user root
+Jun 12 15:29:46 C8005 su[2674]: Successful su for root by tech
+Jun 12 15:29:46 C8005 su[2674]: + /dev/pts/0 tech:root
+Jun 12 15:29:46 C8005 su[2674]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jun 12 15:30:01 C8005 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/usr/bin/apt-get remove network-manager -y
+Jun 12 15:30:01 C8005 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 12 15:30:10 C8005 dbus[677]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.41" (uid=0 pid=2248 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=899 comm="NetworkManager ")
+Jun 12 15:30:30 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 15:30:39 C8005 sudo:     root : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/echo # interfaces(5) file used by ifup(8) and ifdown(8)#012#012auto lo#012auto eth0#012#012iface lo inet loopback#012iface eth0 inet static#012#011#011address 192.168.208.5#012#011#011netmask 255.255.252.0#012#011#011gateway 192.168.210.1
+Jun 12 15:30:39 C8005 sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Jun 12 15:30:39 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 15:30:45 C8005 sshd[1269]: Received signal 15; terminating.
+Jun 12 15:30:45 C8005 sshd[3482]: Server listening on 0.0.0.0 port 22.
+Jun 12 15:30:45 C8005 sshd[3482]: Server listening on :: port 22.
+Jun 12 15:57:41 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 15:57:41 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 15:57:57 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 16:17:01 C8005 CRON[3605]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 16:17:01 C8005 CRON[3605]: pam_unix(cron:session): session closed for user root
+Jun 12 16:27:41 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 16:27:41 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 16:29:53 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 16:57:41 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 16:57:41 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 16:57:55 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 17:17:01 C8005 CRON[3758]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 17:17:01 C8005 CRON[3758]: pam_unix(cron:session): session closed for user root
+Jun 12 17:27:42 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 17:27:42 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 17:27:58 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 17:57:42 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 17:57:42 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 17:57:55 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 18:17:01 C8005 CRON[3919]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 18:17:01 C8005 CRON[3919]: pam_unix(cron:session): session closed for user root
+Jun 12 18:27:42 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 18:27:42 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 18:27:56 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 18:57:42 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 18:57:42 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 18:57:56 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 19:17:01 C8005 CRON[4079]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 19:17:01 C8005 CRON[4079]: pam_unix(cron:session): session closed for user root
+Jun 12 19:27:42 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 19:27:42 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 19:27:56 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 19:57:42 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 19:57:42 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 19:57:59 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 20:17:01 C8005 CRON[4240]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 20:17:01 C8005 CRON[4240]: pam_unix(cron:session): session closed for user root
+Jun 12 20:27:42 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 20:27:42 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 20:27:56 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 20:57:42 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 20:57:42 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 20:57:56 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 21:17:01 C8005 CRON[4403]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 21:17:01 C8005 CRON[4403]: pam_unix(cron:session): session closed for user root
+Jun 12 21:27:43 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 21:27:43 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 21:27:56 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 21:57:43 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 21:57:43 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 21:57:57 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 22:17:01 C8005 CRON[4565]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 22:17:01 C8005 CRON[4565]: pam_unix(cron:session): session closed for user root
+Jun 12 22:27:43 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 22:27:43 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 22:28:00 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 22:57:43 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 22:57:43 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 22:57:57 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 23:17:01 C8005 CRON[4723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 12 23:17:01 C8005 CRON[4723]: pam_unix(cron:session): session closed for user root
+Jun 12 23:27:43 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 23:27:43 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 23:28:00 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 12 23:57:43 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 12 23:57:43 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 12 23:57:57 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 00:17:01 C8005 CRON[4885]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 13 00:17:01 C8005 CRON[4885]: pam_unix(cron:session): session closed for user root
+Jun 13 00:27:43 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 13 00:27:43 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 13 00:27:57 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 00:57:43 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 13 00:57:43 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 13 00:57:57 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 01:17:01 C8005 CRON[5044]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 13 01:17:01 C8005 CRON[5044]: pam_unix(cron:session): session closed for user root
+Jun 13 01:27:43 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 13 01:27:43 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 13 01:28:00 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 01:57:44 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 13 01:57:44 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 13 01:58:01 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 02:17:01 C8005 CRON[5204]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 13 02:17:01 C8005 CRON[5204]: pam_unix(cron:session): session closed for user root
+Jun 13 02:27:44 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 13 02:27:44 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 13 02:27:57 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 02:57:44 C8005 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jun 13 02:57:44 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 13 02:58:01 C8005 sudo: pam_unix(sudo:session): session closed for user root
+Jun 13 03:00:01 C8005 CRON[5343]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 13 03:00:04 C8005 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jun 13 03:00:04 C8005 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 13 03:00:04 C8005 sudo: pam_unix(sudo:session): session closed for user root

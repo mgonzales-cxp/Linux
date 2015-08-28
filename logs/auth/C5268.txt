@@ -1,0 +1,688 @@
+Jul 27 05:55:01 C5268 CRON[2639]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 05:55:04 C5268 CRON[2639]: pam_unix(cron:session): session closed for user root
+Jul 27 06:00:01 C5268 CRON[2824]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 06:00:06 C5268 CRON[2824]: pam_unix(cron:session): session closed for user root
+Jul 27 06:05:01 C5268 CRON[3028]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 06:05:01 C5268 CRON[3028]: pam_unix(cron:session): session closed for user root
+Jul 27 06:10:01 C5268 CRON[3213]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 06:10:03 C5268 CRON[3213]: pam_unix(cron:session): session closed for user root
+Jul 27 06:15:01 C5268 CRON[3398]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 06:15:04 C5268 CRON[3398]: pam_unix(cron:session): session closed for user root
+Jul 27 06:15:41 C5268 sshd[3580]: pam_ecryptfs: Passphrase file wrapped
+Jul 27 06:15:42 C5268 sshd[3578]: Accepted password for tech from 192.168.1.102 port 51198 ssh2
+Jul 27 06:15:42 C5268 sshd[3578]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Jul 27 06:15:42 C5268 systemd-logind[893]: Removed session c3.
+Jul 27 06:15:42 C5268 systemd-logind[893]: New session 1 of user tech.
+Jul 27 06:15:48 C5268 su[3620]: Successful su for root by tech
+Jul 27 06:15:48 C5268 su[3620]: + /dev/pts/0 tech:root
+Jul 27 06:15:48 C5268 su[3620]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jul 27 06:16:50 C5268 systemd-logind[910]: New seat seat0.
+Jul 27 06:16:58 C5268 sshd[1487]: Server listening on 0.0.0.0 port 22.
+Jul 27 06:16:58 C5268 sshd[1487]: Server listening on :: port 22.
+Jul 27 06:16:58 C5268 CRON[1612]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 06:17:00 C5268 CRON[1612]: pam_unix(cron:session): session closed for user root
+Jul 27 06:17:00 C5268 CRON[1893]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 06:17:00 C5268 CRON[1893]: pam_unix(cron:session): session closed for user root
+Jul 27 06:17:05 C5268 mdm[1779]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 27 06:17:05 C5268 mdm[1779]: PAM adding faulty module: pam_kwallet.so
+Jul 27 06:17:28 C5268 sshd[2026]: pam_ecryptfs: Passphrase file wrapped
+Jul 27 06:17:29 C5268 sshd[2024]: Accepted password for tech from 192.168.1.102 port 51210 ssh2
+Jul 27 06:17:29 C5268 sshd[2024]: pam_unix(sshd:session): session opened for user tech by (uid=0)
+Jul 27 06:17:29 C5268 systemd-logind[910]: New session 1 of user tech.
+Jul 27 06:17:43 C5268 su[2137]: Successful su for root by tech
+Jul 27 06:17:43 C5268 su[2137]: + /dev/pts/0 tech:root
+Jul 27 06:17:43 C5268 su[2137]: pam_unix(su:session): session opened for user root by tech(uid=1000)
+Jul 27 06:17:52 C5268 mdm[1779]: pam_unix(mdm:auth): check pass; user unknown
+Jul 27 06:17:52 C5268 mdm[1779]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+Jul 27 06:17:52 C5268 mdm[1779]: pam_sss(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=sgrudzinskas
+Jul 27 06:17:52 C5268 mdm[1779]: pam_sss(mdm:auth): received for user sgrudzinskas: 10 (User not known to the underlying authentication module)
+Jul 27 06:17:55 C5268 mdm[1779]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 27 06:17:55 C5268 mdm[1779]: PAM adding faulty module: pam_kwallet.so
+Jul 27 06:18:03 C5268 su[2137]: pam_unix(su:session): session closed for user root
+Jul 27 06:18:03 C5268 sshd[2024]: pam_unix(sshd:session): session closed for user tech
+Jul 27 06:18:07 C5268 mdm[1779]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "stgrudzinskas"
+Jul 27 06:18:13 C5268 mdm[1779]: pam_unix(mdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=stgrudzinskas
+Jul 27 06:18:14 C5268 mdm[1779]: pam_sss(mdm:auth): authentication success; logname= uid=0 euid=0 tty=:0 ruser= rhost= user=stgrudzinskas
+Jul 27 06:18:14 C5268 mdm[1779]: pam_unix(mdm:session): session opened for user stgrudzinskas by (uid=0)
+Jul 27 06:18:14 C5268 systemd-logind[910]: New session c1 of user stgrudzinskas.
+Jul 27 06:18:14 C5268 systemd-logind[910]: Linked /tmp/.X11-unix/X0 to /run/user/2911/X11-display.
+Jul 27 06:18:14 C5268 mdm[1779]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Jul 27 06:18:28 C5268 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 27 06:20:01 C5268 CRON[3055]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 06:20:03 C5268 CRON[3055]: pam_unix(cron:session): session closed for user root
+Jul 27 06:25:01 C5268 CRON[3241]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 06:25:01 C5268 CRON[3242]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 06:25:01 C5268 CRON[3242]: pam_unix(cron:session): session closed for user root
+Jul 27 06:25:06 C5268 CRON[3241]: pam_unix(cron:session): session closed for user root
+Jul 27 06:30:01 C5268 CRON[3431]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 06:30:05 C5268 CRON[3431]: pam_unix(cron:session): session closed for user root
+Jul 27 06:35:01 C5268 CRON[3846]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 06:35:01 C5268 CRON[3846]: pam_unix(cron:session): session closed for user root
+Jul 27 06:40:01 C5268 CRON[4048]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 06:40:06 C5268 CRON[4048]: pam_unix(cron:session): session closed for user root
+Jul 27 06:45:01 C5268 CRON[4273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 06:45:06 C5268 CRON[4273]: pam_unix(cron:session): session closed for user root
+Jul 27 06:48:37 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 06:48:37 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 06:48:50 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 06:50:01 C5268 CRON[4499]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 06:50:06 C5268 CRON[4499]: pam_unix(cron:session): session closed for user root
+Jul 27 06:55:01 C5268 CRON[4694]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 06:55:06 C5268 CRON[4694]: pam_unix(cron:session): session closed for user root
+Jul 27 07:00:01 C5268 CRON[4882]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:00:05 C5268 CRON[4882]: pam_unix(cron:session): session closed for user root
+Jul 27 07:05:01 C5268 CRON[5115]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:05:05 C5268 CRON[5115]: pam_unix(cron:session): session closed for user root
+Jul 27 07:10:01 C5268 CRON[5303]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:10:04 C5268 CRON[5303]: pam_unix(cron:session): session closed for user root
+Jul 27 07:14:47 C5268 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2911 euid=2911 tty=:0.0 ruser= rhost=  user=stgrudzinskas
+Jul 27 07:14:48 C5268 xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=2911 euid=2911 tty=:0.0 ruser= rhost= user=stgrudzinskas
+Jul 27 07:14:48 C5268 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 27 07:15:01 C5268 CRON[5490]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:15:05 C5268 CRON[5490]: pam_unix(cron:session): session closed for user root
+Jul 27 07:17:01 C5268 CRON[5674]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:17:01 C5268 CRON[5674]: pam_unix(cron:session): session closed for user root
+Jul 27 07:18:37 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 07:18:37 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 07:18:49 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 07:20:01 C5268 CRON[5720]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:20:05 C5268 CRON[5720]: pam_unix(cron:session): session closed for user root
+Jul 27 07:25:01 C5268 CRON[5911]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:25:04 C5268 CRON[5911]: pam_unix(cron:session): session closed for user root
+Jul 27 07:30:01 C5268 CRON[6100]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:30:01 C5268 CRON[6099]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:30:01 C5268 CRON[6100]: pam_unix(cron:session): session closed for user root
+Jul 27 07:30:06 C5268 CRON[6099]: pam_unix(cron:session): session closed for user root
+Jul 27 07:35:01 C5268 CRON[6294]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:35:06 C5268 CRON[6294]: pam_unix(cron:session): session closed for user root
+Jul 27 07:40:01 C5268 CRON[6507]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:40:06 C5268 CRON[6507]: pam_unix(cron:session): session closed for user root
+Jul 27 07:45:01 C5268 CRON[6694]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:45:05 C5268 CRON[6694]: pam_unix(cron:session): session closed for user root
+Jul 27 07:48:37 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 07:48:37 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 07:48:49 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 07:50:01 C5268 CRON[6921]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:50:05 C5268 CRON[6921]: pam_unix(cron:session): session closed for user root
+Jul 27 07:55:01 C5268 CRON[7109]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 07:55:06 C5268 CRON[7109]: pam_unix(cron:session): session closed for user root
+Jul 27 08:00:01 C5268 CRON[7300]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:00:05 C5268 CRON[7300]: pam_unix(cron:session): session closed for user root
+Jul 27 08:05:01 C5268 CRON[7488]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:05:06 C5268 CRON[7488]: pam_unix(cron:session): session closed for user root
+Jul 27 08:10:01 C5268 CRON[7711]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:10:04 C5268 CRON[7711]: pam_unix(cron:session): session closed for user root
+Jul 27 08:15:01 C5268 CRON[7901]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:15:05 C5268 CRON[7901]: pam_unix(cron:session): session closed for user root
+Jul 27 08:17:01 C5268 CRON[8122]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:17:01 C5268 CRON[8122]: pam_unix(cron:session): session closed for user root
+Jul 27 08:18:37 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 08:18:37 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 08:20:01 C5268 CRON[8165]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:20:05 C5268 CRON[8165]: pam_unix(cron:session): session closed for user root
+Jul 27 08:20:46 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 08:25:01 C5268 CRON[8396]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:25:05 C5268 CRON[8396]: pam_unix(cron:session): session closed for user root
+Jul 27 08:30:01 C5268 CRON[8587]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:30:05 C5268 CRON[8587]: pam_unix(cron:session): session closed for user root
+Jul 27 08:35:01 C5268 CRON[8783]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:35:04 C5268 CRON[8783]: pam_unix(cron:session): session closed for user root
+Jul 27 08:40:01 C5268 CRON[8976]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:40:07 C5268 CRON[8976]: pam_unix(cron:session): session closed for user root
+Jul 27 08:45:01 C5268 CRON[9235]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:45:06 C5268 CRON[9235]: pam_unix(cron:session): session closed for user root
+Jul 27 08:48:38 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 08:48:38 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 08:50:01 C5268 CRON[9461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:50:05 C5268 CRON[9461]: pam_unix(cron:session): session closed for user root
+Jul 27 08:50:46 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 08:55:01 C5268 CRON[9660]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 08:55:07 C5268 CRON[9660]: pam_unix(cron:session): session closed for user root
+Jul 27 09:00:01 C5268 CRON[9846]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:00:06 C5268 CRON[9846]: pam_unix(cron:session): session closed for user root
+Jul 27 09:05:01 C5268 CRON[10034]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:05:07 C5268 CRON[10034]: pam_unix(cron:session): session closed for user root
+Jul 27 09:10:01 C5268 CRON[10224]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:10:06 C5268 CRON[10224]: pam_unix(cron:session): session closed for user root
+Jul 27 09:15:01 C5268 CRON[10408]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:15:04 C5268 CRON[10408]: pam_unix(cron:session): session closed for user root
+Jul 27 09:17:01 C5268 CRON[10590]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:17:01 C5268 CRON[10590]: pam_unix(cron:session): session closed for user root
+Jul 27 09:18:38 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 09:18:38 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 09:18:49 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:20:01 C5268 CRON[10704]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:20:08 C5268 CRON[10704]: pam_unix(cron:session): session closed for user root
+Jul 27 09:25:02 C5268 CRON[10928]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:25:04 C5268 CRON[10928]: pam_unix(cron:session): session closed for user root
+Jul 27 09:30:01 C5268 CRON[11121]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:30:06 C5268 CRON[11121]: pam_unix(cron:session): session closed for user root
+Jul 27 09:35:01 C5268 CRON[11362]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:35:07 C5268 CRON[11362]: pam_unix(cron:session): session closed for user root
+Jul 27 09:40:01 C5268 CRON[11571]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:40:04 C5268 CRON[11571]: pam_unix(cron:session): session closed for user root
+Jul 27 09:45:01 C5268 CRON[11759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:45:06 C5268 CRON[11759]: pam_unix(cron:session): session closed for user root
+Jul 27 09:48:38 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 09:48:38 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 09:48:50 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 09:50:01 C5268 CRON[11986]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:50:06 C5268 CRON[11986]: pam_unix(cron:session): session closed for user root
+Jul 27 09:55:01 C5268 CRON[12172]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 09:55:06 C5268 CRON[12172]: pam_unix(cron:session): session closed for user root
+Jul 27 10:00:01 C5268 CRON[12365]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:00:06 C5268 CRON[12365]: pam_unix(cron:session): session closed for user root
+Jul 27 10:05:01 C5268 CRON[12626]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:05:07 C5268 CRON[12626]: pam_unix(cron:session): session closed for user root
+Jul 27 10:10:01 C5268 CRON[12829]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:10:08 C5268 CRON[12829]: pam_unix(cron:session): session closed for user root
+Jul 27 10:15:01 C5268 CRON[13020]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:15:05 C5268 CRON[13020]: pam_unix(cron:session): session closed for user root
+Jul 27 10:17:01 C5268 CRON[13204]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:17:01 C5268 CRON[13204]: pam_unix(cron:session): session closed for user root
+Jul 27 10:18:38 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 10:18:38 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 10:20:01 C5268 CRON[13243]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:20:06 C5268 CRON[13243]: pam_unix(cron:session): session closed for user root
+Jul 27 10:20:47 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:25:01 C5268 CRON[13440]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:25:07 C5268 CRON[13440]: pam_unix(cron:session): session closed for user root
+Jul 27 10:30:01 C5268 CRON[13630]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:30:06 C5268 CRON[13630]: pam_unix(cron:session): session closed for user root
+Jul 27 10:35:01 C5268 CRON[13827]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:35:05 C5268 CRON[13827]: pam_unix(cron:session): session closed for user root
+Jul 27 10:40:01 C5268 CRON[14043]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:40:05 C5268 CRON[14043]: pam_unix(cron:session): session closed for user root
+Jul 27 10:45:01 C5268 CRON[14232]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:45:05 C5268 CRON[14232]: pam_unix(cron:session): session closed for user root
+Jul 27 10:48:38 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 10:48:38 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 10:50:01 C5268 CRON[14483]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:50:06 C5268 CRON[14483]: pam_unix(cron:session): session closed for user root
+Jul 27 10:52:46 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 10:55:01 C5268 CRON[14675]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 10:55:06 C5268 CRON[14675]: pam_unix(cron:session): session closed for user root
+Jul 27 11:00:01 C5268 CRON[14868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:00:07 C5268 CRON[14868]: pam_unix(cron:session): session closed for user root
+Jul 27 11:05:01 C5268 CRON[15056]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:05:05 C5268 CRON[15056]: pam_unix(cron:session): session closed for user root
+Jul 27 11:10:01 C5268 CRON[15247]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:10:06 C5268 CRON[15247]: pam_unix(cron:session): session closed for user root
+Jul 27 11:15:01 C5268 CRON[15511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:15:07 C5268 CRON[15511]: pam_unix(cron:session): session closed for user root
+Jul 27 11:17:01 C5268 CRON[15706]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:17:01 C5268 CRON[15706]: pam_unix(cron:session): session closed for user root
+Jul 27 11:18:38 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 11:18:38 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 11:20:01 C5268 CRON[15755]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:20:05 C5268 CRON[15755]: pam_unix(cron:session): session closed for user root
+Jul 27 11:22:46 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:25:01 C5268 CRON[15948]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:25:05 C5268 CRON[15948]: pam_unix(cron:session): session closed for user root
+Jul 27 11:30:01 C5268 CRON[16161]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:30:05 C5268 CRON[16161]: pam_unix(cron:session): session closed for user root
+Jul 27 11:35:01 C5268 CRON[16368]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:35:06 C5268 CRON[16368]: pam_unix(cron:session): session closed for user root
+Jul 27 11:40:01 C5268 CRON[16560]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:40:05 C5268 CRON[16560]: pam_unix(cron:session): session closed for user root
+Jul 27 11:45:01 C5268 CRON[16749]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:45:06 C5268 CRON[16749]: pam_unix(cron:session): session closed for user root
+Jul 27 11:48:38 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 11:48:38 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 11:50:01 C5268 CRON[16962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:50:06 C5268 CRON[16962]: pam_unix(cron:session): session closed for user root
+Jul 27 11:52:46 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 11:55:01 C5268 CRON[17155]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 11:55:06 C5268 CRON[17155]: pam_unix(cron:session): session closed for user root
+Jul 27 12:00:01 C5268 CRON[17348]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:00:06 C5268 CRON[17348]: pam_unix(cron:session): session closed for user root
+Jul 27 12:05:01 C5268 CRON[17537]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:05:04 C5268 CRON[17537]: pam_unix(cron:session): session closed for user root
+Jul 27 12:09:02 C5268 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2911 euid=2911 tty=:0.0 ruser= rhost=  user=stgrudzinskas
+Jul 27 12:09:03 C5268 xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=2911 euid=2911 tty=:0.0 ruser= rhost= user=stgrudzinskas
+Jul 27 12:09:03 C5268 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 27 12:10:01 C5268 CRON[17758]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:10:06 C5268 CRON[17758]: pam_unix(cron:session): session closed for user root
+Jul 27 12:15:01 C5268 CRON[17946]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:15:06 C5268 CRON[17946]: pam_unix(cron:session): session closed for user root
+Jul 27 12:17:01 C5268 CRON[18127]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:17:01 C5268 CRON[18127]: pam_unix(cron:session): session closed for user root
+Jul 27 12:18:38 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 12:18:38 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 12:20:01 C5268 CRON[18162]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:20:05 C5268 CRON[18162]: pam_unix(cron:session): session closed for user root
+Jul 27 12:22:46 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 12:25:01 C5268 CRON[18354]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:25:05 C5268 CRON[18354]: pam_unix(cron:session): session closed for user root
+Jul 27 12:30:01 C5268 CRON[18542]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:30:04 C5268 CRON[18542]: pam_unix(cron:session): session closed for user root
+Jul 27 12:35:01 C5268 CRON[18751]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:35:03 C5268 CRON[18751]: pam_unix(cron:session): session closed for user root
+Jul 27 12:36:30 C5268 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2911 euid=2911 tty=:0.0 ruser= rhost=  user=stgrudzinskas
+Jul 27 12:36:31 C5268 xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=2911 euid=2911 tty=:0.0 ruser= rhost= user=stgrudzinskas
+Jul 27 12:36:31 C5268 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 27 12:40:01 C5268 CRON[18943]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:40:07 C5268 CRON[18943]: pam_unix(cron:session): session closed for user root
+Jul 27 12:45:01 C5268 CRON[19136]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:45:06 C5268 CRON[19136]: pam_unix(cron:session): session closed for user root
+Jul 27 12:48:38 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 12:48:38 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 12:50:01 C5268 CRON[19355]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:50:05 C5268 CRON[19355]: pam_unix(cron:session): session closed for user root
+Jul 27 12:52:46 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 12:55:01 C5268 CRON[19548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 12:55:04 C5268 CRON[19548]: pam_unix(cron:session): session closed for user root
+Jul 27 13:00:01 C5268 CRON[19740]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:00:04 C5268 CRON[19740]: pam_unix(cron:session): session closed for user root
+Jul 27 13:05:01 C5268 CRON[19928]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:05:06 C5268 CRON[19928]: pam_unix(cron:session): session closed for user root
+Jul 27 13:07:02 C5268 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2911 euid=2911 tty=:0.0 ruser= rhost=  user=stgrudzinskas
+Jul 27 13:07:03 C5268 xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=2911 euid=2911 tty=:0.0 ruser= rhost= user=stgrudzinskas
+Jul 27 13:07:03 C5268 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 27 13:10:01 C5268 CRON[20118]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:10:04 C5268 CRON[20118]: pam_unix(cron:session): session closed for user root
+Jul 27 13:15:01 C5268 CRON[20306]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:15:05 C5268 CRON[20306]: pam_unix(cron:session): session closed for user root
+Jul 27 13:17:01 C5268 CRON[20490]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:17:01 C5268 CRON[20490]: pam_unix(cron:session): session closed for user root
+Jul 27 13:18:38 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 13:18:38 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 13:20:01 C5268 CRON[20525]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:20:03 C5268 CRON[20525]: pam_unix(cron:session): session closed for user root
+Jul 27 13:22:46 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 13:25:01 C5268 CRON[20831]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:25:08 C5268 CRON[20831]: pam_unix(cron:session): session closed for user root
+Jul 27 13:30:01 C5268 CRON[21021]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:30:04 C5268 CRON[21021]: pam_unix(cron:session): session closed for user root
+Jul 27 13:35:01 C5268 CRON[21208]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:35:06 C5268 CRON[21208]: pam_unix(cron:session): session closed for user root
+Jul 27 13:40:01 C5268 CRON[21402]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:40:05 C5268 CRON[21402]: pam_unix(cron:session): session closed for user root
+Jul 27 13:45:01 C5268 CRON[21591]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:45:06 C5268 CRON[21591]: pam_unix(cron:session): session closed for user root
+Jul 27 13:48:39 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 13:48:39 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 13:50:01 C5268 CRON[21808]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:50:05 C5268 CRON[21808]: pam_unix(cron:session): session closed for user root
+Jul 27 13:52:47 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 13:55:01 C5268 CRON[22005]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 13:55:05 C5268 CRON[22005]: pam_unix(cron:session): session closed for user root
+Jul 27 14:00:01 C5268 CRON[22204]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:00:06 C5268 CRON[22204]: pam_unix(cron:session): session closed for user root
+Jul 27 14:05:01 C5268 CRON[22391]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:05:04 C5268 CRON[22391]: pam_unix(cron:session): session closed for user root
+Jul 27 14:10:01 C5268 CRON[22580]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:10:05 C5268 CRON[22580]: pam_unix(cron:session): session closed for user root
+Jul 27 14:15:01 C5268 CRON[22787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:15:05 C5268 CRON[22787]: pam_unix(cron:session): session closed for user root
+Jul 27 14:17:01 C5268 CRON[22972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:17:01 C5268 CRON[22972]: pam_unix(cron:session): session closed for user root
+Jul 27 14:18:39 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 14:18:39 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 14:20:01 C5268 CRON[23013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:20:06 C5268 CRON[23013]: pam_unix(cron:session): session closed for user root
+Jul 27 14:20:47 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 14:25:01 C5268 CRON[23203]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:25:05 C5268 CRON[23203]: pam_unix(cron:session): session closed for user root
+Jul 27 14:26:53 C5268 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2911 euid=2911 tty=:0.0 ruser= rhost=  user=stgrudzinskas
+Jul 27 14:26:54 C5268 xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=2911 euid=2911 tty=:0.0 ruser= rhost= user=stgrudzinskas
+Jul 27 14:26:54 C5268 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 27 14:30:01 C5268 CRON[23394]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:30:04 C5268 CRON[23394]: pam_unix(cron:session): session closed for user root
+Jul 27 14:35:01 C5268 CRON[23591]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:35:04 C5268 CRON[23591]: pam_unix(cron:session): session closed for user root
+Jul 27 14:40:01 C5268 CRON[23778]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:40:05 C5268 CRON[23778]: pam_unix(cron:session): session closed for user root
+Jul 27 14:45:02 C5268 CRON[23997]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:45:05 C5268 CRON[23997]: pam_unix(cron:session): session closed for user root
+Jul 27 14:48:39 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 14:48:39 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 14:50:01 C5268 CRON[24210]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:50:06 C5268 CRON[24210]: pam_unix(cron:session): session closed for user root
+Jul 27 14:52:47 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 14:55:01 C5268 CRON[24401]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 14:55:05 C5268 CRON[24401]: pam_unix(cron:session): session closed for user root
+Jul 27 15:00:01 C5268 CRON[24595]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:00:05 C5268 CRON[24595]: pam_unix(cron:session): session closed for user root
+Jul 27 15:02:42 C5268 xscreensaver: pam_unix(xscreensaver:auth): authentication failure; logname= uid=2911 euid=2911 tty=:0.0 ruser= rhost=  user=stgrudzinskas
+Jul 27 15:02:43 C5268 xscreensaver: pam_sss(xscreensaver:auth): authentication success; logname= uid=2911 euid=2911 tty=:0.0 ruser= rhost= user=stgrudzinskas
+Jul 27 15:02:43 C5268 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul 27 15:05:01 C5268 CRON[24782]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:05:04 C5268 CRON[24782]: pam_unix(cron:session): session closed for user root
+Jul 27 15:10:01 C5268 CRON[24973]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:10:03 C5268 CRON[24973]: pam_unix(cron:session): session closed for user root
+Jul 27 15:15:01 C5268 CRON[25165]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:15:05 C5268 CRON[25165]: pam_unix(cron:session): session closed for user root
+Jul 27 15:17:01 C5268 CRON[25351]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:17:01 C5268 CRON[25351]: pam_unix(cron:session): session closed for user root
+Jul 27 15:18:39 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 15:18:39 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 15:20:01 C5268 CRON[25394]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:20:04 C5268 CRON[25394]: pam_unix(cron:session): session closed for user root
+Jul 27 15:20:48 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 15:25:01 C5268 CRON[25595]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:25:05 C5268 CRON[25595]: pam_unix(cron:session): session closed for user root
+Jul 27 15:30:01 C5268 CRON[25788]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:30:05 C5268 CRON[25788]: pam_unix(cron:session): session closed for user root
+Jul 27 15:35:01 C5268 CRON[25977]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:35:04 C5268 CRON[25977]: pam_unix(cron:session): session closed for user root
+Jul 27 15:40:01 C5268 CRON[26166]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:40:04 C5268 CRON[26166]: pam_unix(cron:session): session closed for user root
+Jul 27 15:45:01 C5268 CRON[26354]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:45:06 C5268 CRON[26354]: pam_unix(cron:session): session closed for user root
+Jul 27 15:48:39 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 15:48:39 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 15:50:01 C5268 CRON[26598]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:50:05 C5268 CRON[26598]: pam_unix(cron:session): session closed for user root
+Jul 27 15:52:48 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 15:55:01 C5268 CRON[26789]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 15:55:05 C5268 CRON[26789]: pam_unix(cron:session): session closed for user root
+Jul 27 16:00:01 C5268 CRON[26981]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:00:05 C5268 CRON[26981]: pam_unix(cron:session): session closed for user root
+Jul 27 16:05:01 C5268 CRON[27175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:05:04 C5268 CRON[27175]: pam_unix(cron:session): session closed for user root
+Jul 27 16:10:01 C5268 CRON[27366]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:10:04 C5268 CRON[27366]: pam_unix(cron:session): session closed for user root
+Jul 27 16:15:01 C5268 CRON[27554]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:15:05 C5268 CRON[27554]: pam_unix(cron:session): session closed for user root
+Jul 27 16:17:01 C5268 CRON[27737]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:17:01 C5268 CRON[27737]: pam_unix(cron:session): session closed for user root
+Jul 27 16:18:39 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 16:18:39 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 16:20:01 C5268 CRON[27774]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:20:05 C5268 CRON[27774]: pam_unix(cron:session): session closed for user root
+Jul 27 16:22:48 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 16:25:01 C5268 CRON[27965]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:25:03 C5268 CRON[27965]: pam_unix(cron:session): session closed for user root
+Jul 27 16:30:01 C5268 CRON[28152]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:30:05 C5268 CRON[28152]: pam_unix(cron:session): session closed for user root
+Jul 27 16:35:01 C5268 CRON[28354]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:35:04 C5268 CRON[28354]: pam_unix(cron:session): session closed for user root
+Jul 27 16:40:01 C5268 CRON[28548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:40:05 C5268 CRON[28548]: pam_unix(cron:session): session closed for user root
+Jul 27 16:45:01 C5268 CRON[28750]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:45:04 C5268 CRON[28750]: pam_unix(cron:session): session closed for user root
+Jul 27 16:48:39 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 16:48:39 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 16:50:01 C5268 CRON[29005]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:50:05 C5268 CRON[29005]: pam_unix(cron:session): session closed for user root
+Jul 27 16:52:48 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 16:55:01 C5268 CRON[29199]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 16:55:04 C5268 CRON[29199]: pam_unix(cron:session): session closed for user root
+Jul 27 17:00:01 C5268 CRON[29387]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:00:05 C5268 CRON[29387]: pam_unix(cron:session): session closed for user root
+Jul 27 17:05:01 C5268 CRON[29585]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:05:04 C5268 CRON[29585]: pam_unix(cron:session): session closed for user root
+Jul 27 17:10:01 C5268 CRON[29773]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:10:04 C5268 CRON[29773]: pam_unix(cron:session): session closed for user root
+Jul 27 17:15:01 C5268 CRON[29986]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:15:05 C5268 CRON[29986]: pam_unix(cron:session): session closed for user root
+Jul 27 17:17:01 C5268 CRON[30171]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:17:01 C5268 CRON[30171]: pam_unix(cron:session): session closed for user root
+Jul 27 17:18:39 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 17:18:39 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 17:20:01 C5268 CRON[30209]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:20:05 C5268 CRON[30209]: pam_unix(cron:session): session closed for user root
+Jul 27 17:23:05 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 17:25:01 C5268 CRON[30404]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:25:04 C5268 CRON[30404]: pam_unix(cron:session): session closed for user root
+Jul 27 17:30:01 C5268 CRON[30608]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:30:04 C5268 CRON[30608]: pam_unix(cron:session): session closed for user root
+Jul 27 17:35:01 C5268 CRON[30827]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:35:05 C5268 CRON[30827]: pam_unix(cron:session): session closed for user root
+Jul 27 17:40:01 C5268 CRON[31018]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:40:05 C5268 CRON[31018]: pam_unix(cron:session): session closed for user root
+Jul 27 17:45:01 C5268 CRON[31210]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:45:03 C5268 CRON[31210]: pam_unix(cron:session): session closed for user root
+Jul 27 17:48:39 C5268 sudo: stgrudzinskas : TTY=unknown ; PWD=/home/stgrudzinskas ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul 27 17:48:39 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 27 17:50:01 C5268 CRON[31429]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:50:05 C5268 CRON[31429]: pam_unix(cron:session): session closed for user root
+Jul 27 17:52:48 C5268 sudo: pam_unix(sudo:session): session closed for user root
+Jul 27 17:55:01 C5268 CRON[31624]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 17:55:03 C5268 CRON[31624]: pam_unix(cron:session): session closed for user root
+Jul 27 18:00:01 C5268 CRON[31982]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:00:04 C5268 CRON[31982]: pam_unix(cron:session): session closed for user root
+Jul 27 18:01:20 C5268 mdm[1779]: pam_unix(mdm:session): session closed for user stgrudzinskas
+Jul 27 18:01:20 C5268 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.27, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jul 27 18:01:20 C5268 systemd-logind[910]: Removed session 1.
+Jul 27 18:01:22 C5268 mdm[32190]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 27 18:01:22 C5268 mdm[32190]: PAM adding faulty module: pam_kwallet.so
+Jul 27 18:05:01 C5268 CRON[32214]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:05:03 C5268 CRON[32214]: pam_unix(cron:session): session closed for user root
+Jul 27 18:10:01 C5268 CRON[32403]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:10:05 C5268 CRON[32403]: pam_unix(cron:session): session closed for user root
+Jul 27 18:15:01 C5268 CRON[32588]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:15:05 C5268 CRON[32588]: pam_unix(cron:session): session closed for user root
+Jul 27 18:17:01 C5268 CRON[302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:17:01 C5268 CRON[302]: pam_unix(cron:session): session closed for user root
+Jul 27 18:20:01 C5268 CRON[311]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:20:03 C5268 CRON[311]: pam_unix(cron:session): session closed for user root
+Jul 27 18:25:01 C5268 CRON[499]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:25:03 C5268 CRON[499]: pam_unix(cron:session): session closed for user root
+Jul 27 18:30:01 C5268 CRON[689]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:30:03 C5268 CRON[689]: pam_unix(cron:session): session closed for user root
+Jul 27 18:35:01 C5268 CRON[887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:35:04 C5268 CRON[887]: pam_unix(cron:session): session closed for user root
+Jul 27 18:40:01 C5268 CRON[1088]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:40:04 C5268 CRON[1088]: pam_unix(cron:session): session closed for user root
+Jul 27 18:45:01 C5268 CRON[1276]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:45:04 C5268 CRON[1276]: pam_unix(cron:session): session closed for user root
+Jul 27 18:50:01 C5268 CRON[1467]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:50:04 C5268 CRON[1467]: pam_unix(cron:session): session closed for user root
+Jul 27 18:55:01 C5268 CRON[1657]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 18:55:05 C5268 CRON[1657]: pam_unix(cron:session): session closed for user root
+Jul 27 19:00:01 C5268 CRON[1845]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:00:03 C5268 CRON[1845]: pam_unix(cron:session): session closed for user root
+Jul 27 19:05:01 C5268 CRON[2039]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:05:04 C5268 CRON[2039]: pam_unix(cron:session): session closed for user root
+Jul 27 19:10:01 C5268 CRON[2291]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:10:04 C5268 CRON[2291]: pam_unix(cron:session): session closed for user root
+Jul 27 19:15:01 C5268 CRON[2476]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:15:03 C5268 CRON[2476]: pam_unix(cron:session): session closed for user root
+Jul 27 19:17:01 C5268 CRON[2662]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:17:01 C5268 CRON[2662]: pam_unix(cron:session): session closed for user root
+Jul 27 19:20:01 C5268 CRON[2673]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:20:04 C5268 CRON[2673]: pam_unix(cron:session): session closed for user root
+Jul 27 19:25:01 C5268 CRON[2857]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:25:03 C5268 CRON[2857]: pam_unix(cron:session): session closed for user root
+Jul 27 19:30:01 C5268 CRON[3051]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:30:03 C5268 CRON[3051]: pam_unix(cron:session): session closed for user root
+Jul 27 19:35:01 C5268 CRON[3236]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:35:02 C5268 CRON[3236]: pam_unix(cron:session): session closed for user root
+Jul 27 19:40:01 C5268 CRON[3422]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:40:03 C5268 CRON[3422]: pam_unix(cron:session): session closed for user root
+Jul 27 19:45:01 C5268 CRON[3610]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:45:02 C5268 CRON[3610]: pam_unix(cron:session): session closed for user root
+Jul 27 19:50:01 C5268 CRON[3795]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:50:03 C5268 CRON[3795]: pam_unix(cron:session): session closed for user root
+Jul 27 19:55:01 C5268 CRON[3981]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 19:55:02 C5268 CRON[3981]: pam_unix(cron:session): session closed for user root
+Jul 27 20:00:01 C5268 CRON[4167]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:00:03 C5268 CRON[4167]: pam_unix(cron:session): session closed for user root
+Jul 27 20:05:01 C5268 CRON[4351]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:05:02 C5268 CRON[4351]: pam_unix(cron:session): session closed for user root
+Jul 27 20:10:01 C5268 CRON[4539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:10:01 C5268 CRON[4539]: pam_unix(cron:session): session closed for user root
+Jul 27 20:15:01 C5268 CRON[4723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:15:02 C5268 CRON[4723]: pam_unix(cron:session): session closed for user root
+Jul 27 20:17:01 C5268 CRON[4904]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:17:01 C5268 CRON[4904]: pam_unix(cron:session): session closed for user root
+Jul 27 20:20:01 C5268 CRON[4911]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:20:02 C5268 CRON[4911]: pam_unix(cron:session): session closed for user root
+Jul 27 20:25:01 C5268 CRON[5098]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:25:02 C5268 CRON[5098]: pam_unix(cron:session): session closed for user root
+Jul 27 20:30:01 C5268 CRON[5285]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:30:02 C5268 CRON[5285]: pam_unix(cron:session): session closed for user root
+Jul 27 20:35:01 C5268 CRON[5469]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:35:02 C5268 CRON[5469]: pam_unix(cron:session): session closed for user root
+Jul 27 20:40:01 C5268 CRON[5655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:40:02 C5268 CRON[5655]: pam_unix(cron:session): session closed for user root
+Jul 27 20:45:01 C5268 CRON[5839]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:45:02 C5268 CRON[5839]: pam_unix(cron:session): session closed for user root
+Jul 27 20:50:01 C5268 CRON[6027]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:50:02 C5268 CRON[6027]: pam_unix(cron:session): session closed for user root
+Jul 27 20:55:01 C5268 CRON[6211]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 20:55:02 C5268 CRON[6211]: pam_unix(cron:session): session closed for user root
+Jul 27 21:00:01 C5268 CRON[6396]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:00:02 C5268 CRON[6396]: pam_unix(cron:session): session closed for user root
+Jul 27 21:05:01 C5268 CRON[6581]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:05:02 C5268 CRON[6581]: pam_unix(cron:session): session closed for user root
+Jul 27 21:10:01 C5268 CRON[6767]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:10:02 C5268 CRON[6767]: pam_unix(cron:session): session closed for user root
+Jul 27 21:15:01 C5268 CRON[6953]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:15:02 C5268 CRON[6953]: pam_unix(cron:session): session closed for user root
+Jul 27 21:17:01 C5268 CRON[7134]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:17:01 C5268 CRON[7134]: pam_unix(cron:session): session closed for user root
+Jul 27 21:20:01 C5268 CRON[7141]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:20:02 C5268 CRON[7141]: pam_unix(cron:session): session closed for user root
+Jul 27 21:25:01 C5268 CRON[7326]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:25:02 C5268 CRON[7326]: pam_unix(cron:session): session closed for user root
+Jul 27 21:30:01 C5268 CRON[7513]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:30:02 C5268 CRON[7513]: pam_unix(cron:session): session closed for user root
+Jul 27 21:35:01 C5268 CRON[7699]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:35:02 C5268 CRON[7699]: pam_unix(cron:session): session closed for user root
+Jul 27 21:40:01 C5268 CRON[7884]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:40:02 C5268 CRON[7884]: pam_unix(cron:session): session closed for user root
+Jul 27 21:45:01 C5268 CRON[8070]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:45:02 C5268 CRON[8070]: pam_unix(cron:session): session closed for user root
+Jul 27 21:50:01 C5268 CRON[8256]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:50:02 C5268 CRON[8256]: pam_unix(cron:session): session closed for user root
+Jul 27 21:55:01 C5268 CRON[8442]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 21:55:01 C5268 CRON[8442]: pam_unix(cron:session): session closed for user root
+Jul 27 22:00:01 C5268 CRON[8627]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:00:02 C5268 CRON[8627]: pam_unix(cron:session): session closed for user root
+Jul 27 22:05:01 C5268 CRON[8814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:05:02 C5268 CRON[8814]: pam_unix(cron:session): session closed for user root
+Jul 27 22:10:01 C5268 CRON[9002]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:10:01 C5268 CRON[9002]: pam_unix(cron:session): session closed for user root
+Jul 27 22:15:01 C5268 CRON[9187]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:15:02 C5268 CRON[9187]: pam_unix(cron:session): session closed for user root
+Jul 27 22:17:01 C5268 CRON[9369]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:17:01 C5268 CRON[9369]: pam_unix(cron:session): session closed for user root
+Jul 27 22:20:01 C5268 CRON[9378]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:20:02 C5268 CRON[9378]: pam_unix(cron:session): session closed for user root
+Jul 27 22:25:01 C5268 CRON[9564]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:25:02 C5268 CRON[9564]: pam_unix(cron:session): session closed for user root
+Jul 27 22:30:01 C5268 CRON[9751]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:30:02 C5268 CRON[9751]: pam_unix(cron:session): session closed for user root
+Jul 27 22:35:01 C5268 CRON[9939]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:35:02 C5268 CRON[9939]: pam_unix(cron:session): session closed for user root
+Jul 27 22:40:01 C5268 CRON[10125]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:40:02 C5268 CRON[10125]: pam_unix(cron:session): session closed for user root
+Jul 27 22:45:01 C5268 CRON[10309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:45:02 C5268 CRON[10309]: pam_unix(cron:session): session closed for user root
+Jul 27 22:50:01 C5268 CRON[10495]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:50:01 C5268 CRON[10495]: pam_unix(cron:session): session closed for user root
+Jul 27 22:55:01 C5268 CRON[10679]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 22:55:02 C5268 CRON[10679]: pam_unix(cron:session): session closed for user root
+Jul 27 23:00:01 C5268 CRON[10867]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:00:02 C5268 CRON[10867]: pam_unix(cron:session): session closed for user root
+Jul 27 23:05:01 C5268 CRON[11053]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:05:01 C5268 CRON[11053]: pam_unix(cron:session): session closed for user root
+Jul 27 23:10:01 C5268 CRON[11239]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:10:02 C5268 CRON[11239]: pam_unix(cron:session): session closed for user root
+Jul 27 23:15:01 C5268 CRON[11425]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:15:02 C5268 CRON[11425]: pam_unix(cron:session): session closed for user root
+Jul 27 23:17:01 C5268 CRON[11607]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:17:01 C5268 CRON[11607]: pam_unix(cron:session): session closed for user root
+Jul 27 23:20:01 C5268 CRON[11614]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:20:02 C5268 CRON[11614]: pam_unix(cron:session): session closed for user root
+Jul 27 23:25:01 C5268 CRON[11799]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:25:02 C5268 CRON[11799]: pam_unix(cron:session): session closed for user root
+Jul 27 23:30:01 C5268 CRON[11986]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:30:02 C5268 CRON[11986]: pam_unix(cron:session): session closed for user root
+Jul 27 23:35:01 C5268 CRON[12172]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:35:02 C5268 CRON[12172]: pam_unix(cron:session): session closed for user root
+Jul 27 23:40:01 C5268 CRON[12359]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:40:01 C5268 CRON[12359]: pam_unix(cron:session): session closed for user root
+Jul 27 23:45:01 C5268 CRON[12544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:45:02 C5268 CRON[12544]: pam_unix(cron:session): session closed for user root
+Jul 27 23:50:01 C5268 CRON[12731]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:50:02 C5268 CRON[12731]: pam_unix(cron:session): session closed for user root
+Jul 27 23:55:01 C5268 CRON[12916]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 27 23:55:02 C5268 CRON[12916]: pam_unix(cron:session): session closed for user root
+Jul 28 00:00:01 C5268 CRON[13103]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:00:01 C5268 CRON[13103]: pam_unix(cron:session): session closed for user root
+Jul 28 00:05:01 C5268 CRON[13288]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:05:02 C5268 CRON[13288]: pam_unix(cron:session): session closed for user root
+Jul 28 00:10:01 C5268 CRON[13474]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:10:01 C5268 CRON[13474]: pam_unix(cron:session): session closed for user root
+Jul 28 00:15:01 C5268 CRON[13659]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:15:02 C5268 CRON[13659]: pam_unix(cron:session): session closed for user root
+Jul 28 00:17:01 C5268 CRON[13842]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:17:01 C5268 CRON[13842]: pam_unix(cron:session): session closed for user root
+Jul 28 00:20:01 C5268 CRON[13849]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:20:01 C5268 CRON[13849]: pam_unix(cron:session): session closed for user root
+Jul 28 00:25:01 C5268 CRON[14035]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:25:02 C5268 CRON[14035]: pam_unix(cron:session): session closed for user root
+Jul 28 00:30:01 C5268 CRON[14221]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:30:02 C5268 CRON[14221]: pam_unix(cron:session): session closed for user root
+Jul 28 00:35:01 C5268 CRON[14405]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:35:01 C5268 CRON[14405]: pam_unix(cron:session): session closed for user root
+Jul 28 00:40:01 C5268 CRON[14593]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:40:02 C5268 CRON[14593]: pam_unix(cron:session): session closed for user root
+Jul 28 00:45:01 C5268 CRON[14780]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:45:02 C5268 CRON[14780]: pam_unix(cron:session): session closed for user root
+Jul 28 00:50:01 C5268 CRON[14965]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:50:02 C5268 CRON[14965]: pam_unix(cron:session): session closed for user root
+Jul 28 00:55:01 C5268 CRON[15150]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 00:55:01 C5268 CRON[15150]: pam_unix(cron:session): session closed for user root
+Jul 28 01:00:01 C5268 CRON[15338]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:00:02 C5268 CRON[15338]: pam_unix(cron:session): session closed for user root
+Jul 28 01:05:01 C5268 CRON[15523]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:05:01 C5268 CRON[15523]: pam_unix(cron:session): session closed for user root
+Jul 28 01:10:01 C5268 CRON[15710]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:10:02 C5268 CRON[15710]: pam_unix(cron:session): session closed for user root
+Jul 28 01:15:01 C5268 CRON[15895]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:15:02 C5268 CRON[15895]: pam_unix(cron:session): session closed for user root
+Jul 28 01:17:01 C5268 CRON[16078]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:17:01 C5268 CRON[16078]: pam_unix(cron:session): session closed for user root
+Jul 28 01:20:01 C5268 CRON[16086]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:20:02 C5268 CRON[16086]: pam_unix(cron:session): session closed for user root
+Jul 28 01:25:01 C5268 CRON[16271]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:25:01 C5268 CRON[16271]: pam_unix(cron:session): session closed for user root
+Jul 28 01:30:01 C5268 CRON[16458]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:30:02 C5268 CRON[16458]: pam_unix(cron:session): session closed for user root
+Jul 28 01:35:01 C5268 CRON[16643]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:35:01 C5268 CRON[16643]: pam_unix(cron:session): session closed for user root
+Jul 28 01:40:01 C5268 CRON[16828]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:40:02 C5268 CRON[16828]: pam_unix(cron:session): session closed for user root
+Jul 28 01:45:01 C5268 CRON[17013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:45:01 C5268 CRON[17013]: pam_unix(cron:session): session closed for user root
+Jul 28 01:50:01 C5268 CRON[17202]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:50:02 C5268 CRON[17202]: pam_unix(cron:session): session closed for user root
+Jul 28 01:55:01 C5268 CRON[17387]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 01:55:01 C5268 CRON[17387]: pam_unix(cron:session): session closed for user root
+Jul 28 02:00:01 C5268 CRON[17572]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:00:02 C5268 CRON[17572]: pam_unix(cron:session): session closed for user root
+Jul 28 02:05:01 C5268 CRON[17759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:05:01 C5268 CRON[17759]: pam_unix(cron:session): session closed for user root
+Jul 28 02:10:01 C5268 CRON[17944]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:10:02 C5268 CRON[17944]: pam_unix(cron:session): session closed for user root
+Jul 28 02:15:01 C5268 CRON[18130]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:15:01 C5268 CRON[18130]: pam_unix(cron:session): session closed for user root
+Jul 28 02:17:01 C5268 CRON[18311]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:17:01 C5268 CRON[18311]: pam_unix(cron:session): session closed for user root
+Jul 28 02:20:01 C5268 CRON[18318]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:20:02 C5268 CRON[18318]: pam_unix(cron:session): session closed for user root
+Jul 28 02:25:01 C5268 CRON[18504]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:25:01 C5268 CRON[18504]: pam_unix(cron:session): session closed for user root
+Jul 28 02:30:01 C5268 CRON[18692]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:30:02 C5268 CRON[18692]: pam_unix(cron:session): session closed for user root
+Jul 28 02:35:01 C5268 CRON[18880]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:35:01 C5268 CRON[18880]: pam_unix(cron:session): session closed for user root
+Jul 28 02:40:01 C5268 CRON[19068]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:40:02 C5268 CRON[19068]: pam_unix(cron:session): session closed for user root
+Jul 28 02:45:01 C5268 CRON[19252]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:45:01 C5268 CRON[19252]: pam_unix(cron:session): session closed for user root
+Jul 28 02:50:01 C5268 CRON[19438]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:50:02 C5268 CRON[19438]: pam_unix(cron:session): session closed for user root
+Jul 28 02:55:01 C5268 CRON[19623]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 02:55:02 C5268 CRON[19623]: pam_unix(cron:session): session closed for user root
+Jul 28 03:00:01 C5268 CRON[19808]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 03:00:01 C5268 CRON[19809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 28 03:00:04 C5268 CRON[19809]: pam_unix(cron:session): session closed for user root
+Jul 28 03:00:04 C5268 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jul 28 03:00:04 C5268 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 28 03:00:04 C5268 sudo: pam_unix(sudo:session): session closed for user root

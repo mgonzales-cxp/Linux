@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=vnc
+Exec=lxterminal -e /usr/bin/vnc.sh
+Terminal=True
+X-MultipleArgs=false
+Type=Application
+Icon=chromium
+StartupNotify=true

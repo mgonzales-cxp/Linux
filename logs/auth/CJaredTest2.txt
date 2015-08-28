@@ -1,0 +1,487 @@
+Jul  8 13:25:01 CJaredTest2 CRON[25238]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 13:25:03 CJaredTest2 CRON[25238]: pam_unix(cron:session): session closed for user root
+Jul  8 13:30:01 CJaredTest2 CRON[25425]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 13:30:04 CJaredTest2 CRON[25425]: pam_unix(cron:session): session closed for user root
+Jul  8 13:35:02 CJaredTest2 CRON[25604]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 13:35:05 CJaredTest2 CRON[25604]: pam_unix(cron:session): session closed for user root
+Jul  8 13:39:45 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 13:39:45 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 13:40:01 CJaredTest2 CRON[25825]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 13:40:09 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 13:40:14 CJaredTest2 CRON[25825]: pam_unix(cron:session): session closed for user root
+Jul  8 13:45:01 CJaredTest2 CRON[26010]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 13:45:04 CJaredTest2 CRON[26010]: pam_unix(cron:session): session closed for user root
+Jul  8 13:50:01 CJaredTest2 CRON[26190]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 13:50:03 CJaredTest2 CRON[26190]: pam_unix(cron:session): session closed for user root
+Jul  8 13:55:01 CJaredTest2 CRON[26372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 13:55:05 CJaredTest2 CRON[26372]: pam_unix(cron:session): session closed for user root
+Jul  8 14:00:01 CJaredTest2 CRON[26551]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 14:00:03 CJaredTest2 CRON[26551]: pam_unix(cron:session): session closed for user root
+Jul  8 14:05:01 CJaredTest2 CRON[26736]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 14:05:06 CJaredTest2 CRON[26736]: pam_unix(cron:session): session closed for user root
+Jul  8 14:09:45 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 14:09:45 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 14:10:01 CJaredTest2 CRON[26952]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 14:10:14 CJaredTest2 CRON[26952]: pam_unix(cron:session): session closed for user root
+Jul  8 14:10:14 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 14:15:01 CJaredTest2 CRON[27134]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 14:15:03 CJaredTest2 CRON[27134]: pam_unix(cron:session): session closed for user root
+Jul  8 14:17:02 CJaredTest2 CRON[27310]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 14:17:02 CJaredTest2 CRON[27310]: pam_unix(cron:session): session closed for user root
+Jul  8 14:20:01 CJaredTest2 CRON[27316]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 14:20:03 CJaredTest2 CRON[27316]: pam_unix(cron:session): session closed for user root
+Jul  8 14:21:46 CJaredTest2 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul  8 14:22:13 CJaredTest2 gnome-keyring-daemon[27530]: couldn't access control socket: /run/user/1000/keyring-INRqG5/control: No such file or directory
+Jul  8 14:22:13 CJaredTest2 gnome-keyring-daemon[27530]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Jul  8 14:22:13 CJaredTest2 gnome-keyring-daemon[27530]: keyring alias directory: /home/tech/.local/share/keyrings
+Jul  8 14:25:01 CJaredTest2 CRON[27569]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 14:25:06 CJaredTest2 CRON[27569]: pam_unix(cron:session): session closed for user root
+Jul  8 14:30:01 CJaredTest2 CRON[27824]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 14:30:04 CJaredTest2 CRON[27824]: pam_unix(cron:session): session closed for user root
+Jul  8 14:35:01 CJaredTest2 CRON[28026]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 14:35:04 CJaredTest2 CRON[28026]: pam_unix(cron:session): session closed for user root
+Jul  8 14:39:45 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 14:39:45 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 14:40:01 CJaredTest2 CRON[28243]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 14:40:29 CJaredTest2 CRON[28243]: pam_unix(cron:session): session closed for user root
+Jul  8 14:40:31 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 14:45:01 CJaredTest2 CRON[28438]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 14:45:04 CJaredTest2 CRON[28438]: pam_unix(cron:session): session closed for user root
+Jul  8 14:50:01 CJaredTest2 CRON[28622]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 14:50:04 CJaredTest2 CRON[28622]: pam_unix(cron:session): session closed for user root
+Jul  8 14:55:01 CJaredTest2 CRON[28839]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 14:55:03 CJaredTest2 CRON[28839]: pam_unix(cron:session): session closed for user root
+Jul  8 15:00:01 CJaredTest2 CRON[29070]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 15:00:05 CJaredTest2 CRON[29070]: pam_unix(cron:session): session closed for user root
+Jul  8 15:05:01 CJaredTest2 CRON[29373]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 15:05:03 CJaredTest2 CRON[29373]: pam_unix(cron:session): session closed for user root
+Jul  8 15:09:45 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 15:09:45 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 15:10:01 CJaredTest2 CRON[29595]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 15:10:12 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 15:10:13 CJaredTest2 CRON[29595]: pam_unix(cron:session): session closed for user root
+Jul  8 15:15:01 CJaredTest2 CRON[29787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 15:15:06 CJaredTest2 CRON[29787]: pam_unix(cron:session): session closed for user root
+Jul  8 15:17:01 CJaredTest2 CRON[29964]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 15:17:01 CJaredTest2 CRON[29964]: pam_unix(cron:session): session closed for user root
+Jul  8 15:17:18 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Jul  8 15:17:18 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Jul  8 15:17:18 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Jul  8 15:17:18 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Jul  8 15:20:01 CJaredTest2 CRON[29974]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 15:20:03 CJaredTest2 CRON[29974]: pam_unix(cron:session): session closed for user root
+Jul  8 15:25:01 CJaredTest2 CRON[30157]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 15:25:04 CJaredTest2 CRON[30157]: pam_unix(cron:session): session closed for user root
+Jul  8 15:30:01 CJaredTest2 CRON[30338]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 15:30:04 CJaredTest2 CRON[30338]: pam_unix(cron:session): session closed for user root
+Jul  8 15:35:01 CJaredTest2 CRON[30525]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 15:35:05 CJaredTest2 CRON[30525]: pam_unix(cron:session): session closed for user root
+Jul  8 15:38:11 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Jul  8 15:38:11 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Jul  8 15:38:11 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Jul  8 15:38:11 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Jul  8 15:39:45 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 15:39:45 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 15:40:01 CJaredTest2 CRON[30744]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 15:40:11 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 15:40:14 CJaredTest2 CRON[30744]: pam_unix(cron:session): session closed for user root
+Jul  8 15:44:41 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Jul  8 15:44:41 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Jul  8 15:44:41 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Jul  8 15:44:41 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Jul  8 15:45:01 CJaredTest2 CRON[30929]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 15:45:06 CJaredTest2 CRON[30929]: pam_unix(cron:session): session closed for user root
+Jul  8 15:49:54 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Jul  8 15:49:54 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Jul  8 15:49:54 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Jul  8 15:49:54 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Jul  8 15:50:01 CJaredTest2 CRON[31113]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 15:50:06 CJaredTest2 CRON[31113]: pam_unix(cron:session): session closed for user root
+Jul  8 15:55:01 CJaredTest2 CRON[31295]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 15:55:03 CJaredTest2 CRON[31295]: pam_unix(cron:session): session closed for user root
+Jul  8 16:00:01 CJaredTest2 CRON[31478]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 16:00:04 CJaredTest2 CRON[31478]: pam_unix(cron:session): session closed for user root
+Jul  8 16:05:01 CJaredTest2 CRON[31661]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 16:05:04 CJaredTest2 CRON[31661]: pam_unix(cron:session): session closed for user root
+Jul  8 16:05:29 CJaredTest2 xscreensaver: pam_group(xscreensaver:setcred): unable to set the group membership for user: Operation not permitted
+Jul  8 16:07:19 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Jul  8 16:07:19 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Jul  8 16:07:19 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Jul  8 16:07:19 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Jul  8 16:09:19 CJaredTest2 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul  8 16:09:19 CJaredTest2 systemd-logind[744]: Removed session c8.
+Jul  8 16:09:19 CJaredTest2 pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul  8 16:09:19 CJaredTest2 pkexec[31990]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 2]
+Jul  8 16:09:46 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 16:09:46 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 16:10:01 CJaredTest2 CRON[32032]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 16:10:08 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 16:10:14 CJaredTest2 CRON[32032]: pam_unix(cron:session): session closed for user root
+Jul  8 16:15:01 CJaredTest2 CRON[32224]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 16:15:05 CJaredTest2 CRON[32224]: pam_unix(cron:session): session closed for user root
+Jul  8 16:17:01 CJaredTest2 CRON[32403]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 16:17:01 CJaredTest2 CRON[32403]: pam_unix(cron:session): session closed for user root
+Jul  8 16:20:01 CJaredTest2 CRON[32416]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 16:20:03 CJaredTest2 CRON[32416]: pam_unix(cron:session): session closed for user root
+Jul  8 16:25:01 CJaredTest2 CRON[32608]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 16:25:04 CJaredTest2 CRON[32608]: pam_unix(cron:session): session closed for user root
+Jul  8 16:29:25 CJaredTest2 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul  8 16:29:25 CJaredTest2 pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul  8 16:29:25 CJaredTest2 pkexec[329]: tech: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/sbin/xfpm-power-backlight-helper --set-brightness 10]
+Jul  8 16:30:01 CJaredTest2 CRON[489]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 16:30:04 CJaredTest2 CRON[489]: pam_unix(cron:session): session closed for user root
+Jul  8 16:30:34 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Jul  8 16:30:34 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Jul  8 16:30:34 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Jul  8 16:30:34 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Jul  8 16:31:09 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Jul  8 16:31:09 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Jul  8 16:31:09 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Jul  8 16:31:09 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Jul  8 16:35:01 CJaredTest2 CRON[685]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 16:35:03 CJaredTest2 CRON[685]: pam_unix(cron:session): session closed for user root
+Jul  8 16:39:46 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 16:39:46 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 16:40:01 CJaredTest2 CRON[921]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 16:40:07 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 16:40:14 CJaredTest2 CRON[921]: pam_unix(cron:session): session closed for user root
+Jul  8 16:45:01 CJaredTest2 CRON[1130]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 16:45:03 CJaredTest2 CRON[1130]: pam_unix(cron:session): session closed for user root
+Jul  8 16:50:01 CJaredTest2 CRON[1319]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 16:50:04 CJaredTest2 CRON[1319]: pam_unix(cron:session): session closed for user root
+Jul  8 16:55:01 CJaredTest2 CRON[1510]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 16:55:03 CJaredTest2 CRON[1510]: pam_unix(cron:session): session closed for user root
+Jul  8 17:00:01 CJaredTest2 CRON[1697]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 17:00:04 CJaredTest2 CRON[1697]: pam_unix(cron:session): session closed for user root
+Jul  8 17:05:01 CJaredTest2 CRON[1891]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 17:05:03 CJaredTest2 CRON[1891]: pam_unix(cron:session): session closed for user root
+Jul  8 17:09:46 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 17:09:46 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 17:10:01 CJaredTest2 CRON[2180]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 17:10:07 CJaredTest2 CRON[2180]: pam_unix(cron:session): session closed for user root
+Jul  8 17:10:07 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 17:15:01 CJaredTest2 CRON[2381]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 17:15:03 CJaredTest2 CRON[2381]: pam_unix(cron:session): session closed for user root
+Jul  8 17:17:02 CJaredTest2 CRON[2560]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 17:17:02 CJaredTest2 CRON[2560]: pam_unix(cron:session): session closed for user root
+Jul  8 17:20:01 CJaredTest2 CRON[2568]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 17:20:03 CJaredTest2 CRON[2568]: pam_unix(cron:session): session closed for user root
+Jul  8 17:25:01 CJaredTest2 CRON[2757]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 17:25:04 CJaredTest2 CRON[2757]: pam_unix(cron:session): session closed for user root
+Jul  8 17:30:01 CJaredTest2 CRON[2939]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 17:30:03 CJaredTest2 CRON[2939]: pam_unix(cron:session): session closed for user root
+Jul  8 17:35:01 CJaredTest2 CRON[3121]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 17:35:04 CJaredTest2 CRON[3121]: pam_unix(cron:session): session closed for user root
+Jul  8 17:39:46 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 17:39:46 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 17:40:01 CJaredTest2 CRON[3341]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 17:40:08 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 17:40:12 CJaredTest2 CRON[3341]: pam_unix(cron:session): session closed for user root
+Jul  8 17:42:04 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Jul  8 17:42:04 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Jul  8 17:42:04 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Jul  8 17:42:04 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Jul  8 17:45:01 CJaredTest2 CRON[3531]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 17:45:04 CJaredTest2 CRON[3531]: pam_unix(cron:session): session closed for user root
+Jul  8 17:50:01 CJaredTest2 CRON[3715]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 17:50:03 CJaredTest2 CRON[3715]: pam_unix(cron:session): session closed for user root
+Jul  8 17:55:01 CJaredTest2 CRON[3897]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 17:55:04 CJaredTest2 CRON[3897]: pam_unix(cron:session): session closed for user root
+Jul  8 18:00:01 CJaredTest2 CRON[4079]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 18:00:03 CJaredTest2 CRON[4079]: pam_unix(cron:session): session closed for user root
+Jul  8 18:05:01 CJaredTest2 CRON[4264]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 18:05:04 CJaredTest2 CRON[4264]: pam_unix(cron:session): session closed for user root
+Jul  8 18:09:46 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 18:09:46 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 18:10:01 CJaredTest2 CRON[4485]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 18:10:10 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 18:10:13 CJaredTest2 CRON[4485]: pam_unix(cron:session): session closed for user root
+Jul  8 18:15:01 CJaredTest2 CRON[4677]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 18:15:04 CJaredTest2 CRON[4677]: pam_unix(cron:session): session closed for user root
+Jul  8 18:17:01 CJaredTest2 CRON[4856]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 18:17:01 CJaredTest2 CRON[4856]: pam_unix(cron:session): session closed for user root
+Jul  8 18:20:01 CJaredTest2 CRON[4865]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 18:20:03 CJaredTest2 CRON[4865]: pam_unix(cron:session): session closed for user root
+Jul  8 18:25:01 CJaredTest2 CRON[5054]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 18:25:04 CJaredTest2 CRON[5054]: pam_unix(cron:session): session closed for user root
+Jul  8 18:30:01 CJaredTest2 CRON[5236]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 18:30:03 CJaredTest2 CRON[5236]: pam_unix(cron:session): session closed for user root
+Jul  8 18:35:01 CJaredTest2 CRON[5421]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 18:35:04 CJaredTest2 CRON[5421]: pam_unix(cron:session): session closed for user root
+Jul  8 18:39:46 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 18:39:46 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 18:40:01 CJaredTest2 CRON[5641]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 18:40:10 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 18:40:12 CJaredTest2 CRON[5641]: pam_unix(cron:session): session closed for user root
+Jul  8 18:45:01 CJaredTest2 CRON[5824]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 18:45:04 CJaredTest2 CRON[5824]: pam_unix(cron:session): session closed for user root
+Jul  8 18:50:01 CJaredTest2 CRON[6007]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 18:50:03 CJaredTest2 CRON[6007]: pam_unix(cron:session): session closed for user root
+Jul  8 18:55:01 CJaredTest2 CRON[6190]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 18:55:04 CJaredTest2 CRON[6190]: pam_unix(cron:session): session closed for user root
+Jul  8 19:00:01 CJaredTest2 CRON[6372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 19:00:04 CJaredTest2 CRON[6372]: pam_unix(cron:session): session closed for user root
+Jul  8 19:05:01 CJaredTest2 CRON[6557]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 19:05:03 CJaredTest2 CRON[6557]: pam_unix(cron:session): session closed for user root
+Jul  8 19:09:46 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 19:09:46 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 19:10:01 CJaredTest2 CRON[6780]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 19:10:07 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 19:10:07 CJaredTest2 CRON[6780]: pam_unix(cron:session): session closed for user root
+Jul  8 19:15:01 CJaredTest2 CRON[6978]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 19:15:04 CJaredTest2 CRON[6978]: pam_unix(cron:session): session closed for user root
+Jul  8 19:17:01 CJaredTest2 CRON[7153]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 19:17:01 CJaredTest2 CRON[7153]: pam_unix(cron:session): session closed for user root
+Jul  8 19:20:01 CJaredTest2 CRON[7162]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 19:20:04 CJaredTest2 CRON[7162]: pam_unix(cron:session): session closed for user root
+Jul  8 19:25:01 CJaredTest2 CRON[7345]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 19:25:03 CJaredTest2 CRON[7345]: pam_unix(cron:session): session closed for user root
+Jul  8 19:30:01 CJaredTest2 CRON[7529]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 19:30:04 CJaredTest2 CRON[7529]: pam_unix(cron:session): session closed for user root
+Jul  8 19:35:01 CJaredTest2 CRON[7713]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 19:35:03 CJaredTest2 CRON[7713]: pam_unix(cron:session): session closed for user root
+Jul  8 19:39:46 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 19:39:46 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 19:40:01 CJaredTest2 CRON[7931]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 19:40:09 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 19:40:14 CJaredTest2 CRON[7931]: pam_unix(cron:session): session closed for user root
+Jul  8 19:45:01 CJaredTest2 CRON[8113]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 19:45:03 CJaredTest2 CRON[8113]: pam_unix(cron:session): session closed for user root
+Jul  8 19:50:01 CJaredTest2 CRON[8296]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 19:50:04 CJaredTest2 CRON[8296]: pam_unix(cron:session): session closed for user root
+Jul  8 19:55:01 CJaredTest2 CRON[8480]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 19:55:03 CJaredTest2 CRON[8480]: pam_unix(cron:session): session closed for user root
+Jul  8 20:00:01 CJaredTest2 CRON[8661]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 20:00:04 CJaredTest2 CRON[8661]: pam_unix(cron:session): session closed for user root
+Jul  8 20:05:01 CJaredTest2 CRON[8845]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 20:05:03 CJaredTest2 CRON[8845]: pam_unix(cron:session): session closed for user root
+Jul  8 20:09:46 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 20:09:46 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 20:10:01 CJaredTest2 CRON[9066]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 20:10:07 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 20:10:13 CJaredTest2 CRON[9066]: pam_unix(cron:session): session closed for user root
+Jul  8 20:15:01 CJaredTest2 CRON[9250]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 20:15:04 CJaredTest2 CRON[9250]: pam_unix(cron:session): session closed for user root
+Jul  8 20:17:01 CJaredTest2 CRON[9427]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 20:17:01 CJaredTest2 CRON[9427]: pam_unix(cron:session): session closed for user root
+Jul  8 20:20:01 CJaredTest2 CRON[9436]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 20:20:03 CJaredTest2 CRON[9436]: pam_unix(cron:session): session closed for user root
+Jul  8 20:25:01 CJaredTest2 CRON[9618]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 20:25:04 CJaredTest2 CRON[9618]: pam_unix(cron:session): session closed for user root
+Jul  8 20:30:01 CJaredTest2 CRON[9801]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 20:30:04 CJaredTest2 CRON[9801]: pam_unix(cron:session): session closed for user root
+Jul  8 20:35:02 CJaredTest2 CRON[9985]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 20:35:04 CJaredTest2 CRON[9985]: pam_unix(cron:session): session closed for user root
+Jul  8 20:39:47 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 20:39:47 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 20:40:01 CJaredTest2 CRON[10204]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 20:40:10 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 20:40:13 CJaredTest2 CRON[10204]: pam_unix(cron:session): session closed for user root
+Jul  8 20:45:01 CJaredTest2 CRON[10388]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 20:45:03 CJaredTest2 CRON[10388]: pam_unix(cron:session): session closed for user root
+Jul  8 20:50:01 CJaredTest2 CRON[10571]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 20:50:04 CJaredTest2 CRON[10571]: pam_unix(cron:session): session closed for user root
+Jul  8 20:55:01 CJaredTest2 CRON[10755]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 20:55:03 CJaredTest2 CRON[10755]: pam_unix(cron:session): session closed for user root
+Jul  8 21:00:01 CJaredTest2 CRON[10941]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 21:00:04 CJaredTest2 CRON[10941]: pam_unix(cron:session): session closed for user root
+Jul  8 21:00:32 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): conversation failed
+Jul  8 21:00:32 CJaredTest2 xscreensaver: pam_unix(xscreensaver:auth): auth could not identify password for [tech]
+Jul  8 21:00:32 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): authentication failure; logname= uid=1000 euid=1000 tty=:0.0 ruser= rhost= user=tech
+Jul  8 21:00:32 CJaredTest2 xscreensaver: pam_sss(xscreensaver:auth): received for user tech: 10 (User not known to the underlying authentication module)
+Jul  8 21:05:01 CJaredTest2 CRON[11123]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 21:05:04 CJaredTest2 CRON[11123]: pam_unix(cron:session): session closed for user root
+Jul  8 21:09:47 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 21:09:47 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 21:10:01 CJaredTest2 CRON[11340]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 21:10:07 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 21:10:13 CJaredTest2 CRON[11340]: pam_unix(cron:session): session closed for user root
+Jul  8 21:15:01 CJaredTest2 CRON[11536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 21:15:04 CJaredTest2 CRON[11536]: pam_unix(cron:session): session closed for user root
+Jul  8 21:17:01 CJaredTest2 CRON[11713]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 21:17:01 CJaredTest2 CRON[11713]: pam_unix(cron:session): session closed for user root
+Jul  8 21:20:01 CJaredTest2 CRON[11721]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 21:20:03 CJaredTest2 CRON[11721]: pam_unix(cron:session): session closed for user root
+Jul  8 21:25:01 CJaredTest2 CRON[11904]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 21:25:04 CJaredTest2 CRON[11904]: pam_unix(cron:session): session closed for user root
+Jul  8 21:30:01 CJaredTest2 CRON[12084]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 21:30:03 CJaredTest2 CRON[12084]: pam_unix(cron:session): session closed for user root
+Jul  8 21:35:01 CJaredTest2 CRON[12267]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 21:35:04 CJaredTest2 CRON[12267]: pam_unix(cron:session): session closed for user root
+Jul  8 21:39:47 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 21:39:47 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 21:40:01 CJaredTest2 CRON[12488]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 21:40:08 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 21:40:12 CJaredTest2 CRON[12488]: pam_unix(cron:session): session closed for user root
+Jul  8 21:45:01 CJaredTest2 CRON[12670]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 21:45:04 CJaredTest2 CRON[12670]: pam_unix(cron:session): session closed for user root
+Jul  8 21:50:01 CJaredTest2 CRON[12855]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 21:50:04 CJaredTest2 CRON[12855]: pam_unix(cron:session): session closed for user root
+Jul  8 21:55:01 CJaredTest2 CRON[13038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 21:55:03 CJaredTest2 CRON[13038]: pam_unix(cron:session): session closed for user root
+Jul  8 22:00:01 CJaredTest2 CRON[13219]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 22:00:04 CJaredTest2 CRON[13219]: pam_unix(cron:session): session closed for user root
+Jul  8 22:05:01 CJaredTest2 CRON[13402]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 22:05:03 CJaredTest2 CRON[13402]: pam_unix(cron:session): session closed for user root
+Jul  8 22:09:47 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 22:09:47 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 22:10:01 CJaredTest2 CRON[13619]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 22:10:13 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 22:10:13 CJaredTest2 CRON[13619]: pam_unix(cron:session): session closed for user root
+Jul  8 22:15:01 CJaredTest2 CRON[13801]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 22:15:04 CJaredTest2 CRON[13801]: pam_unix(cron:session): session closed for user root
+Jul  8 22:17:01 CJaredTest2 CRON[13982]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 22:17:01 CJaredTest2 CRON[13982]: pam_unix(cron:session): session closed for user root
+Jul  8 22:20:01 CJaredTest2 CRON[13989]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 22:20:03 CJaredTest2 CRON[13989]: pam_unix(cron:session): session closed for user root
+Jul  8 22:25:01 CJaredTest2 CRON[14170]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 22:25:04 CJaredTest2 CRON[14170]: pam_unix(cron:session): session closed for user root
+Jul  8 22:30:01 CJaredTest2 CRON[14353]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 22:30:03 CJaredTest2 CRON[14353]: pam_unix(cron:session): session closed for user root
+Jul  8 22:35:01 CJaredTest2 CRON[14536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 22:35:04 CJaredTest2 CRON[14536]: pam_unix(cron:session): session closed for user root
+Jul  8 22:39:47 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 22:39:47 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 22:40:01 CJaredTest2 CRON[14753]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 22:40:06 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 22:40:13 CJaredTest2 CRON[14753]: pam_unix(cron:session): session closed for user root
+Jul  8 22:45:01 CJaredTest2 CRON[14939]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 22:45:03 CJaredTest2 CRON[14939]: pam_unix(cron:session): session closed for user root
+Jul  8 22:50:01 CJaredTest2 CRON[15122]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 22:50:04 CJaredTest2 CRON[15122]: pam_unix(cron:session): session closed for user root
+Jul  8 22:55:01 CJaredTest2 CRON[15305]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 22:55:03 CJaredTest2 CRON[15305]: pam_unix(cron:session): session closed for user root
+Jul  8 23:00:01 CJaredTest2 CRON[15487]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 23:00:04 CJaredTest2 CRON[15487]: pam_unix(cron:session): session closed for user root
+Jul  8 23:05:01 CJaredTest2 CRON[15668]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 23:05:03 CJaredTest2 CRON[15668]: pam_unix(cron:session): session closed for user root
+Jul  8 23:09:47 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 23:09:47 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 23:10:01 CJaredTest2 CRON[15887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 23:10:08 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 23:10:13 CJaredTest2 CRON[15887]: pam_unix(cron:session): session closed for user root
+Jul  8 23:15:01 CJaredTest2 CRON[16079]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 23:15:03 CJaredTest2 CRON[16079]: pam_unix(cron:session): session closed for user root
+Jul  8 23:17:01 CJaredTest2 CRON[16256]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 23:17:01 CJaredTest2 CRON[16256]: pam_unix(cron:session): session closed for user root
+Jul  8 23:20:01 CJaredTest2 CRON[16264]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 23:20:04 CJaredTest2 CRON[16264]: pam_unix(cron:session): session closed for user root
+Jul  8 23:25:01 CJaredTest2 CRON[16448]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 23:25:03 CJaredTest2 CRON[16448]: pam_unix(cron:session): session closed for user root
+Jul  8 23:30:01 CJaredTest2 CRON[16630]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 23:30:04 CJaredTest2 CRON[16630]: pam_unix(cron:session): session closed for user root
+Jul  8 23:35:01 CJaredTest2 CRON[16813]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 23:35:03 CJaredTest2 CRON[16813]: pam_unix(cron:session): session closed for user root
+Jul  8 23:39:47 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  8 23:39:47 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  8 23:40:01 CJaredTest2 CRON[17033]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 23:40:09 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  8 23:40:13 CJaredTest2 CRON[17033]: pam_unix(cron:session): session closed for user root
+Jul  8 23:45:01 CJaredTest2 CRON[17216]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 23:45:03 CJaredTest2 CRON[17216]: pam_unix(cron:session): session closed for user root
+Jul  8 23:50:01 CJaredTest2 CRON[17404]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 23:50:04 CJaredTest2 CRON[17404]: pam_unix(cron:session): session closed for user root
+Jul  8 23:55:01 CJaredTest2 CRON[17586]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  8 23:55:03 CJaredTest2 CRON[17586]: pam_unix(cron:session): session closed for user root
+Jul  9 00:00:01 CJaredTest2 CRON[17770]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 00:00:04 CJaredTest2 CRON[17770]: pam_unix(cron:session): session closed for user root
+Jul  9 00:05:01 CJaredTest2 CRON[17951]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 00:05:03 CJaredTest2 CRON[17951]: pam_unix(cron:session): session closed for user root
+Jul  9 00:09:47 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  9 00:09:47 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 00:10:01 CJaredTest2 CRON[18171]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 00:10:11 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 00:10:13 CJaredTest2 CRON[18171]: pam_unix(cron:session): session closed for user root
+Jul  9 00:15:01 CJaredTest2 CRON[18353]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 00:15:03 CJaredTest2 CRON[18353]: pam_unix(cron:session): session closed for user root
+Jul  9 00:17:01 CJaredTest2 CRON[18528]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 00:17:01 CJaredTest2 CRON[18528]: pam_unix(cron:session): session closed for user root
+Jul  9 00:20:01 CJaredTest2 CRON[18539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 00:20:04 CJaredTest2 CRON[18539]: pam_unix(cron:session): session closed for user root
+Jul  9 00:25:01 CJaredTest2 CRON[18721]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 00:25:03 CJaredTest2 CRON[18721]: pam_unix(cron:session): session closed for user root
+Jul  9 00:30:01 CJaredTest2 CRON[18903]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 00:30:04 CJaredTest2 CRON[18903]: pam_unix(cron:session): session closed for user root
+Jul  9 00:35:01 CJaredTest2 CRON[19090]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 00:35:03 CJaredTest2 CRON[19090]: pam_unix(cron:session): session closed for user root
+Jul  9 00:39:47 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  9 00:39:47 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 00:40:01 CJaredTest2 CRON[19304]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 00:40:13 CJaredTest2 CRON[19304]: pam_unix(cron:session): session closed for user root
+Jul  9 00:40:23 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 00:45:01 CJaredTest2 CRON[19492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 00:45:03 CJaredTest2 CRON[19492]: pam_unix(cron:session): session closed for user root
+Jul  9 00:50:01 CJaredTest2 CRON[19674]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 00:50:04 CJaredTest2 CRON[19674]: pam_unix(cron:session): session closed for user root
+Jul  9 00:55:01 CJaredTest2 CRON[19856]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 00:55:03 CJaredTest2 CRON[19856]: pam_unix(cron:session): session closed for user root
+Jul  9 01:00:01 CJaredTest2 CRON[20037]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 01:00:04 CJaredTest2 CRON[20037]: pam_unix(cron:session): session closed for user root
+Jul  9 01:05:01 CJaredTest2 CRON[20218]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 01:05:03 CJaredTest2 CRON[20218]: pam_unix(cron:session): session closed for user root
+Jul  9 01:09:47 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  9 01:09:47 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 01:10:01 CJaredTest2 CRON[20436]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 01:10:09 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 01:10:13 CJaredTest2 CRON[20436]: pam_unix(cron:session): session closed for user root
+Jul  9 01:15:01 CJaredTest2 CRON[20633]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 01:15:03 CJaredTest2 CRON[20633]: pam_unix(cron:session): session closed for user root
+Jul  9 01:17:01 CJaredTest2 CRON[20809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 01:17:01 CJaredTest2 CRON[20809]: pam_unix(cron:session): session closed for user root
+Jul  9 01:20:01 CJaredTest2 CRON[20818]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 01:20:04 CJaredTest2 CRON[20818]: pam_unix(cron:session): session closed for user root
+Jul  9 01:25:01 CJaredTest2 CRON[21002]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 01:25:03 CJaredTest2 CRON[21002]: pam_unix(cron:session): session closed for user root
+Jul  9 01:30:01 CJaredTest2 CRON[21184]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 01:30:04 CJaredTest2 CRON[21184]: pam_unix(cron:session): session closed for user root
+Jul  9 01:35:01 CJaredTest2 CRON[21368]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 01:35:03 CJaredTest2 CRON[21368]: pam_unix(cron:session): session closed for user root
+Jul  9 01:39:47 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  9 01:39:47 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 01:40:01 CJaredTest2 CRON[21584]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 01:40:14 CJaredTest2 CRON[21584]: pam_unix(cron:session): session closed for user root
+Jul  9 01:40:16 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 01:45:01 CJaredTest2 CRON[21767]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 01:45:04 CJaredTest2 CRON[21767]: pam_unix(cron:session): session closed for user root
+Jul  9 01:50:01 CJaredTest2 CRON[21948]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 01:50:03 CJaredTest2 CRON[21948]: pam_unix(cron:session): session closed for user root
+Jul  9 01:55:01 CJaredTest2 CRON[22131]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 01:55:04 CJaredTest2 CRON[22131]: pam_unix(cron:session): session closed for user root
+Jul  9 02:00:01 CJaredTest2 CRON[22313]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 02:00:03 CJaredTest2 CRON[22313]: pam_unix(cron:session): session closed for user root
+Jul  9 02:05:01 CJaredTest2 CRON[22494]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 02:05:04 CJaredTest2 CRON[22494]: pam_unix(cron:session): session closed for user root
+Jul  9 02:09:48 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  9 02:09:48 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 02:10:01 CJaredTest2 CRON[22712]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 02:10:10 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 02:10:12 CJaredTest2 CRON[22712]: pam_unix(cron:session): session closed for user root
+Jul  9 02:15:01 CJaredTest2 CRON[22896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 02:15:03 CJaredTest2 CRON[22896]: pam_unix(cron:session): session closed for user root
+Jul  9 02:17:01 CJaredTest2 CRON[23075]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 02:17:01 CJaredTest2 CRON[23075]: pam_unix(cron:session): session closed for user root
+Jul  9 02:20:01 CJaredTest2 CRON[23084]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 02:20:04 CJaredTest2 CRON[23084]: pam_unix(cron:session): session closed for user root
+Jul  9 02:25:01 CJaredTest2 CRON[23332]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 02:25:03 CJaredTest2 CRON[23332]: pam_unix(cron:session): session closed for user root
+Jul  9 02:30:01 CJaredTest2 CRON[23561]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 02:30:04 CJaredTest2 CRON[23561]: pam_unix(cron:session): session closed for user root
+Jul  9 02:35:01 CJaredTest2 CRON[23764]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 02:35:03 CJaredTest2 CRON[23764]: pam_unix(cron:session): session closed for user root
+Jul  9 02:39:48 CJaredTest2 sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Jul  9 02:39:48 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 02:40:01 CJaredTest2 CRON[23983]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 02:40:08 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 02:40:14 CJaredTest2 CRON[23983]: pam_unix(cron:session): session closed for user root
+Jul  9 02:45:01 CJaredTest2 CRON[24165]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 02:45:04 CJaredTest2 CRON[24165]: pam_unix(cron:session): session closed for user root
+Jul  9 02:50:01 CJaredTest2 CRON[24349]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 02:50:03 CJaredTest2 CRON[24349]: pam_unix(cron:session): session closed for user root
+Jul  9 02:55:01 CJaredTest2 CRON[24531]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 02:55:03 CJaredTest2 CRON[24531]: pam_unix(cron:session): session closed for user root
+Jul  9 03:00:01 CJaredTest2 CRON[24711]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 03:00:01 CJaredTest2 CRON[24712]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul  9 03:00:02 CJaredTest2 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jul  9 03:00:02 CJaredTest2 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul  9 03:00:02 CJaredTest2 sudo: pam_unix(sudo:session): session closed for user root
+Jul  9 03:00:04 CJaredTest2 CRON[24711]: pam_unix(cron:session): session closed for user root

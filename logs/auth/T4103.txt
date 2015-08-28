@@ -1,0 +1,6 @@
+Aug 25 21:00:01 T4103 CRON[25683]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 21:00:02 T4103 CRON[25683]: pam_unix(cron:session): session closed for user root
+Aug 25 21:05:01 T4103 CRON[6929]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 25 21:05:03 T4103 CRON[6929]: pam_unix(cron:session): session closed for user root
+Aug 25 21:05:36 T4103 sudo:     root : TTY=pts/1 ; PWD=/home/anthem-training/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/usb_on.sh - Linux Config Menu
+Aug 25 21:05:36 T4103 sudo: pam_unix(sudo:session): session opened for user root by anthem-training(uid=0)

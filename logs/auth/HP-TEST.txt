@@ -1,0 +1,98 @@
+Apr  7 11:25:00 HP-Test systemd-logind[824]: New seat seat0.
+Apr  7 11:25:11 HP-Test dbus[700]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1094 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=900 comm="NetworkManager ")
+Apr  7 11:25:32 HP-Test mdm[1696]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  7 11:25:32 HP-Test mdm[1696]: PAM adding faulty module: pam_kwallet.so
+Apr  7 11:26:57 HP-Test mdm[1696]: pam_nologin(mdm:auth): cannot determine username
+Apr  7 11:26:57 HP-Test mdm[1696]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Apr  7 11:26:57 HP-Test mdm[1696]: PAM adding faulty module: pam_kwallet.so
+Apr  7 11:26:57 HP-Test mdm[1696]: pam_succeed_if(mdm:auth): requirement "user ingroup nopasswdlogin" not met by user "tech"
+Apr  7 11:27:00 HP-Test mdm[1696]: pam_unix(mdm:session): session opened for user tech by (uid=0)
+Apr  7 11:27:00 HP-Test systemd-logind[824]: New session c1 of user tech.
+Apr  7 11:27:00 HP-Test systemd-logind[824]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr  7 11:27:00 HP-Test mdm[1696]: pam_ck_connector(mdm:session): nox11 mode, ignoring PAM_TTY :0
+Apr  7 11:27:05 HP-Test polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.24 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  7 11:30:18 HP-Test su[2965]: Successful su for nobody by root
+Apr  7 11:30:18 HP-Test su[2965]: + ??? root:nobody
+Apr  7 11:30:18 HP-Test su[2965]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  7 11:30:18 HP-Test systemd-logind[824]: New session c2 of user nobody.
+Apr  7 11:30:18 HP-Test su[2965]: pam_unix(su:session): session closed for user nobody
+Apr  7 11:30:18 HP-Test su[2978]: Successful su for nobody by root
+Apr  7 11:30:18 HP-Test su[2978]: + ??? root:nobody
+Apr  7 11:30:18 HP-Test su[2978]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  7 11:30:18 HP-Test systemd-logind[824]: Removed session c2.
+Apr  7 11:30:18 HP-Test systemd-logind[824]: New session c3 of user nobody.
+Apr  7 11:30:18 HP-Test su[2978]: pam_unix(su:session): session closed for user nobody
+Apr  7 11:30:18 HP-Test su[2999]: Successful su for nobody by root
+Apr  7 11:30:18 HP-Test su[2999]: + ??? root:nobody
+Apr  7 11:30:18 HP-Test su[2999]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Apr  7 11:30:18 HP-Test systemd-logind[824]: Removed session c3.
+Apr  7 11:30:18 HP-Test systemd-logind[824]: New session c4 of user nobody.
+Apr  7 11:30:41 HP-Test su[2999]: pam_unix(su:session): session closed for user nobody
+Apr  7 11:34:02 HP-Test sudo:     tech : TTY=pts/0 ; PWD=/home/tech ; USER=root ; COMMAND=/bin/chmod +x /home/tech/Desktop/config.sh
+Apr  7 11:34:02 HP-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 11:34:02 HP-Test sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 11:34:24 HP-Test sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=./config.sh
+Apr  7 11:34:24 HP-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 11:34:43 HP-Test sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /usr/src/IT_Files
+Apr  7 11:34:43 HP-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 11:34:43 HP-Test sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 11:34:43 HP-Test sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/sed -i /IT_Files/d /etc/fstab
+Apr  7 11:34:43 HP-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 11:34:43 HP-Test sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 11:34:43 HP-Test sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo //hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8  0  0
+Apr  7 11:34:43 HP-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 11:34:43 HP-Test sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 11:34:43 HP-Test sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mount -a
+Apr  7 11:34:43 HP-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 11:34:43 HP-Test sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 11:34:48 HP-Test sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/initial_setup.sh
+Apr  7 11:34:48 HP-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 11:34:55 HP-Test sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 11:34:59 HP-Test sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 11:35:02 HP-Test sudo:     tech : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/su
+Apr  7 11:35:02 HP-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 11:35:02 HP-Test su[3214]: Successful su for root by root
+Apr  7 11:35:02 HP-Test su[3214]: + /dev/pts/0 root:root
+Apr  7 11:35:02 HP-Test su[3214]: pam_unix(su:session): session opened for user root by tech(uid=0)
+Apr  7 11:35:02 HP-Test systemd-logind[824]: Removed session c4.
+Apr  7 11:35:11 HP-Test sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mkdir /usr/src/IT_Files
+Apr  7 11:35:11 HP-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 11:35:11 HP-Test sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 11:35:11 HP-Test sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/sed -i /IT_Files/d /etc/fstab
+Apr  7 11:35:11 HP-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 11:35:11 HP-Test sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 11:35:11 HP-Test sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/echo //hal2.connexionpoint.com/IT_Files /usr/src/IT_Files cifs guest,uid=1000,iocharset=utf8  0  0
+Apr  7 11:35:11 HP-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 11:35:11 HP-Test sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 11:35:11 HP-Test sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/bin/mount -a
+Apr  7 11:35:11 HP-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 11:35:11 HP-Test sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 11:35:16 HP-Test sudo:     root : TTY=pts/0 ; PWD=/home/tech/Desktop ; USER=root ; COMMAND=/usr/src/IT_Files/Linux/xfce-uni/initial_setup.sh
+Apr  7 11:35:16 HP-Test sudo: pam_unix(sudo:session): session opened for user root by tech(uid=0)
+Apr  7 11:43:34 HP-Test dbus[700]: [system] Rejected send message, 3 matched rules; type="error", sender=":1.37" (uid=1000 pid=2223 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.2" (uid=0 pid=853 comm="/usr/sbin/bluetoothd ")
+Apr  7 11:43:34 HP-Test dbus[700]: message repeated 3 times: [ [system] Rejected send message, 3 matched rules; type="error", sender=":1.37" (uid=1000 pid=2223 comm="/usr/bin/pulseaudio --start --log-target=syslog ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.2" (uid=0 pid=853 comm="/usr/sbin/bluetoothd ")]
+Apr  7 11:49:45 HP-Test systemd-logind[12401]: New seat seat0.
+Apr  7 11:49:45 HP-Test systemd-logind[12401]: New session c1 of user tech.
+Apr  7 11:49:45 HP-Test systemd-logind[12401]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Apr  7 11:51:56 HP-Test groupadd[26496]: group added to /etc/group: name=clamav, GID=125
+Apr  7 11:51:56 HP-Test groupadd[26496]: group added to /etc/gshadow: name=clamav
+Apr  7 11:51:56 HP-Test groupadd[26496]: new group: name=clamav, GID=125
+Apr  7 11:51:57 HP-Test useradd[26500]: new user: name=clamav, UID=115, GID=125, home=/var/lib/clamav, shell=/bin/false
+Apr  7 11:51:57 HP-Test chage[26505]: changed password expiry for clamav
+Apr  7 11:52:00 HP-Test useradd[26761]: new user: name=sshd, UID=116, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Apr  7 11:52:01 HP-Test usermod[26766]: change user 'sshd' password
+Apr  7 11:52:01 HP-Test chage[26771]: changed password expiry for sshd
+Apr  7 11:52:01 HP-Test sshd[26826]: Server listening on 0.0.0.0 port 22.
+Apr  7 11:52:01 HP-Test sshd[26826]: Server listening on :: port 22.
+Apr  7 11:57:10 HP-Test sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 11:57:10 HP-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 11:57:21 HP-Test sudo: pam_unix(sudo:session): session closed for user root
+Apr  7 12:17:01 HP-Test CRON[29090]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  7 12:17:01 HP-Test CRON[29090]: pam_unix(cron:session): session closed for user root
+Apr  7 12:20:03 HP-Test groupadd[29989]: group added to /etc/group: name=ossec, GID=1001
+Apr  7 12:20:03 HP-Test groupadd[29989]: group added to /etc/gshadow: name=ossec
+Apr  7 12:20:03 HP-Test groupadd[29989]: new group: name=ossec, GID=1001
+Apr  7 12:20:03 HP-Test useradd[29995]: new user: name=ossec, UID=1001, GID=1001, home=/var/ossec, shell=/bin/false
+Apr  7 12:27:10 HP-Test sudo:     tech : TTY=unknown ; PWD=/home/tech ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/checkAPT.py
+Apr  7 12:27:10 HP-Test sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  7 12:27:18 HP-Test sudo: pam_unix(sudo:session): session closed for user root

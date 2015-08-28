@@ -1,0 +1,19 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "jquery-2.1.3.min.js", "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "jquery-2.1.3.min.js", "noconflict.js", "content.js" ],
+      "matches": [ "*://*.destinationrx.com/*", "*://cvty-web1.callproxe.com/cti/agents/call.html", "*://cvty-web2.callproxe.com/cti/agents/call.html", "*://cvty-web3.callproxe.com/cti/agents/call.html", "*://cvty-web4.callproxe.com/cti/agents/call.html", "*://cvty-web5.callproxe.com/cti/agents/call.html" ]
+   } ],
+   "description": "Connexion Point DRX Scraper",
+   "icons": {
+      "64": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw81g2Xe3DJuJLmaOw0vlGpHijCb54JnTcXxDUYj26gJg71pZTOvGi+DGJltjM8wy+mRMa+7zqvdplDZAOXBQoAn94HZ8bZ+f/qNQEjAo9wl87uEaTTdHspj9V2Tx7LUf3u7ROKnKF+g4f/AjI+PDspLtCjMF4Hh3eXnV9hD3UwkynFD3xzdOMKpHDy6qlc8LoxNs3GO9b4rMMVZyFAGSisCBBUHkdSW70wMSfc/BtHhrVHS/SIA0rBJef472c5dZ9jzXbtnWrkAMtx/BHAKG3VqJfzbRA/WfVa+fTrGEqLky+VMMcFZA9FN7Ml7LOKJsjEKF/1WchOPBWBi8+2eafwIDAQAB",
+   "manifest_version": 2,
+   "name": "Connexion Point DRX Scraper",
+   "permissions": [ "tabs", "https://micro.cxpxe.net/", "https://cvty-web1.callproxe.com/cti/agents/call.html", "https://cvty-web2.callproxe.com/cti/agents/call.html", "https://cvty-web3.callproxe.com/cti/agents/call.html", "https://cvty-web4.callproxe.com/cti/agents/call.html", "https://cvty-web5.callproxe.com/cti/agents/call.html" ],
+   "version": "1.0"
+}

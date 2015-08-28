@@ -1,0 +1,549 @@
+@charset "utf-8";
+/* AetnaMedicare.com redesign June 6, 2008 :: agency: G2 direct and digital  */
+/* For regular ul in body copy */
+
+.text  {
+	margin-left:0px;
+	margin-top:7px;
+	margin-bottom:7px;	
+	list-style:square;
+	padding-left:40px;
+}
+
+.text li {
+	line-height:19px;
+	margin-bottom:10px;
+}
+ .text  ul{
+	margin-left:0px;
+	list-style:square;
+	padding-left:60px;
+}
+.text  ul.text{
+	margin-left:0px;
+	list-style:square;
+	padding-left:60px;
+}
+.table_text {
+	margin-top:7px;
+	margin-bottom:7px;
+	margin-left:0px;
+	padding-left:60px;
+}
+.table_text li {
+	line-height:17px;
+}
+ol .text {
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:40px;
+	padding: 0px;
+}
+ol .text ul{
+	margin-left:40px;
+}
+ol {
+	margin-top:10px;
+	margin-left:40px;
+	padding:0px;
+}
+ol li {
+	line-height:19px;
+	margin-bottom:10px;
+}
+.no_bull {
+	list-style:none;
+	margin-top:0px;
+}
+.no_bull li {
+	line-height:15px;
+}
+.forty {
+	margin-left:40px;
+}
+
+/* Main body text*/
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #000000;
+}
+
+/* Text size tool  */
+#resize #fourteen {
+	text-decoration:underline;
+}
+
+/* Main content area + default para */
+p {	
+	font-size:14px;
+	padding: 0px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	line-height:19px;
+}
+
+h3+p,
+h3+ol,
+h3+ul
+ {	
+	margin-top: 5px;
+}
+
+h3.intro_head+p,
+h3.intro_head+ol,
+h3.intro_head+ul
+ {	
+	margin-top: 15px;
+}
+
+
+/*sup {font-size: smaller; vertical-align: baseline;position: relative;bottom: 0.33em;}*/
+sup {
+	vertical-align:top;
+	font-size:x-small;	
+	position: relative;
+    top: -3px;
+	}
+.sm {
+/*	font-size:7px;*/
+	font-size:x-small;
+	vertical-align:top;
+	}
+/*  legalize */
+#legal {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.legal, #legal {
+	line-height:15px;
+	padding-bottom:15px;
+}
+
+#legal .disclaimer {
+	color:gray;
+}
+
+.legal p, #legal p{
+	line-height:15px;
+	margin:10px 0px 0px;
+}
+.legal h3+p, #legal h3+p{
+	line-height:15px;
+	margin:0px;
+}
+a {
+	/*outline:none;*/
+}
+.legal h3, #legal h3{
+	line-height:15px;
+	margin:10px 0px 0px;
+	font-size:12px;
+}
+#legal ul{
+	line-height:15px;
+	margin-left:30px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+	list-style-type: square;
+}
+#legal li{
+	text-indent:0px;
+}
+
+/* Sitewide regular links (same as Glossary) */
+#poper p a:link, 
+#definition p a:link, 
+#plan_find a:link,  
+#update_one a:link, 
+#update_two a:link, 
+#legal a:link, 
+#main_content a:link, 
+#one_col a:link, 
+#right_col a:link, 
+#three_col a:link,
+.homepage a:link  {	
+	color:#075CAC;
+}
+/* Sitewide regular links visited */
+#poper p a:visited, 
+#definition p a:visited, 
+#plan_find a:visited, 
+#update_one a:visited, 
+#update_two a:visited, 
+#legal a:visited, 
+#main_content a:visited, 
+#one_col a:visited, 
+#right_col a:visited, 
+#three_col a:visited , 
+.homepage a:visited  {	
+	color:#cc3399;
+}
+/* Sitewide regular links mouse over */
+#poper p a:hover, 
+#definition p a:hover, 
+#plan_find a:hover, 
+#update_one a:hover, 
+#update_two a:hover, 
+#legal a:hover, 
+#main_content a:hover, 
+#one_col a:hover, 
+#right_col a:hover, 
+#three_col a:hover, 
+.homepage a:hover  {	
+	color:#000000;
+}
+
+
+
+/* Sitewide regular links (same as Glossary) */
+#plan_find a:link sup ,  #update_one a:link sup , #update_two a:link sup , #legal a:link sup , #main_content a:link sup , #one_col a:link sup , #right_col a:link sup , #three_col a:link  sup  {	
+	text-decoration: none;
+}
+
+
+
+/* For Back to top links, set class on <a> tag */
+.back {
+	color:#017d88;
+	margin-top: 10px;
+	margin-bottom: 35px;
+	display: block;
+	outline:none;
+	width:70px;
+}
+
+
+/* Sitewide headers :: All sections use these IDs  :: Use class for section font color */
+
+/* Main Page header :: use class for color */
+#main_content h1, #one_col h1, #right_col h1, #three_col h1 {
+	font-size: 25px;
+	margin-top: -2px;
+	margin-bottom: 16px;
+	line-height: 31px;
+}
+
+/* Subheaders  :: use class for color */
+#main_content h2, #send_email h2, #one_col h2, #right_col h2, #three_col h2 {
+	font-weight:normal;
+	font-size:20px;
+	padding:0px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+h3 {
+	margin-bottom:0px;
+	margin-top:20px;
+	font-size:14px;
+}
+h5 {
+	font-size:12px;
+}
+
+h3+p {
+	margin-top:0px;
+}
+ul+p {
+	margin-top:0px;
+} 
+
+ol+p {
+	margin-top:0px;
+}
+/* Intro Headers :: black */
+#main_content h3.intro_head, #one_col h3.intro_head, #right_col h3.intro_head, #three_col h3.intro_head {
+	font-size:16px;
+	font-weight:normal;
+	color: #000000;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}	
+
+
+#h_one {
+	font-size:14px;
+	vertical-align:text-top
+}
+
+
+/*Sitewide / Email to a Friend :: Header / Subhead color: #0097a5 :: Background color: #cde9eb */
+
+/* Class for Main Site Header color :: apply class="main" to containing div */
+#main_content.main h1, #one_col.main h1,  #right_col.main h1, #three_col.main h1 { 
+	color:#0097a5;
+}
+/* Class for SubHeader color :: apply class="main" to containing div */
+#send_email h2, #main_content.main h2, #one_col.main h2, #right_col.main h2, #three_col.main h2 {
+	color:#0097a5;
+}	
+.main_backgound {
+	background-color:#cde9eb;
+} 
+
+
+
+
+
+/*DRX Section :: Header / Subhead color: #0097a5 :: Background color: #cce8fb */
+
+/* Class for  DRX Section Header color :: apply class="drx" to containing div */
+#main_content.drx h1, #one_col.drx h1,  #right_col.drx h1, #three_col.drx h1 { 
+	color:#0097a5;
+}
+
+/* Class for DRX SubHeader color :: apply class="drx" to containing div */
+#main_content.drx h2, #one_col.drx h2, #right_col.drx h2, #three_col.drx h2 {
+	color:#0097a5;
+}	
+.drx_backgound {
+	background-color:#cce8fb;
+} 
+
+
+
+
+
+
+/* DocFind / I Just Want To Know Sections :: Header / Subhead color: #89ab3d :: Background color: #e1eace */
+
+/* Class for DocFind / I Just Want To Know: Section Header color :: apply class="docfind" to containing div */
+#main_content.docfind h1, #one_col.docfind h1,  #right_col.docfind h1, #three_col.docfind h1 { 
+	color:#669900;
+}
+/* Class for DocFind SubHeader color :: apply class="docfind" to containing div */
+#main_content.docfind h2, #one_col.docfind h2, #right_col.docfind h2, #three_col.docfind h2 {
+	color:#669900;
+}
+.docfind_backgound {
+	background-color:#e1eace;
+} 
+
+
+
+
+
+/* Group Section  :: Header / Subhead color: #b81237 :: Background color: #f0d4bf*/
+
+/* Class for Group Section Header color :: apply class="group" to containing div */
+#main_content.group h1, #one_col.group h1,  #right_col.group h1, #three_col.group h1 { 
+	color:#b81237;
+}
+/* Class for DocFind SubHeader color :: apply class="docfind" to containing div */
+#main_content.group h2, #one_col.group h2, #right_col.group h2, #three_col.group h2 {
+	color:#b81237;
+}
+.group_backgound {
+	background-color:#f0d4bf;
+} 
+
+
+
+
+
+/* Age In (New to Medicare) Section :: Header / Subhead color: #693a77 :: Background color: #d9cddd */
+
+/* Class for Age In Section Header color :: apply class="age" to containing div */
+#main_content.age h1, #one_col.age h1, #right_col.age h1, #three_col.age h1 { 
+	color:#693a77;
+}
+#one_col.age  #zee_index h1 { 
+	color:#693a77;
+}
+#one_col.age h1 { 
+	color:#693a77;
+}
+#main_content.age h2, #one_col.age h2, #right_col.age h2, #three_col.age h2 {
+	color:#693a77 ;
+}
+.age_backgound {
+	background-color:#d9cddd;
+} 
+
+
+
+
+
+/* Security Info with padlock graphic */
+.security {
+	color:#B0006F;
+	font-size:12px;
+	margin-top: 7px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width:510px;
+	background-image: url(../../images/lock.jpg);
+	background-repeat: no-repeat;
+	background-position: -10px -8px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 40px;
+}
+.plan_comparison {
+	background-color:#CCE9FB;
+}
+
+
+
+
+/* Forms */
+
+/* Gets rid of default formating for fieldset */
+fieldset {
+	border:none;
+	padding:0px;
+	margin:0px;
+}
+
+/* Input field widths vary from page to page so not set here :: do your own thing */
+
+
+/* Styles text input box */
+input.txt {
+	margin-top:4px;
+	margin-bottom:4px;
+	border:solid;
+	border-color:#999999;
+	border-width:1px;
+	font-size:14px;
+	padding:5px;
+}
+
+td.txt input {
+	margin-top:4px;
+	margin-bottom:4px;
+	border:solid;
+	border-color:#999999;
+	border-width:1px;
+	font-size:14px;
+	padding:5px;
+}
+
+
+/* Styles textarea box */
+textarea {
+	margin-left:0px;
+	font-family:Arial, Helvetica, sans-serif; font-size:12px;
+	margin-left:0px;
+	margin-top:4px;
+	margin-bottom:4px;
+	border:solid;
+	border-color:#999999;
+	border-width:1px;
+	padding:3px;
+	font-size:14px;
+	}
+select {
+	border:solid;
+	border-color:#999999;
+	border-width:1px;
+	font-size:14px;
+}
+
+/* Error para*/
+/* Red text for error msg */
+.error  {
+	color:#ae0f32;
+}
+/* For asterisk * symbol used in forms, enlarges and drops in line with rest of text in para */
+.required {
+	color:#cc3333;
+}
+p span.asterisk {
+	font-size:30px;
+	vertical-align: baseline;
+	position: relative;
+	bottom: -12px;
+	color:#cc3333;
+}
+/*  For asterisk * symbol used in forms, enlarges and drops in line with input */
+.asterisk {
+	font-size:30px;
+/*	vertical-align: baseline;
+	position: relative;
+	bottom: -6px;*/
+	color:#cc3333;
+}
+.asterisk_grey {
+	font-size:30px;
+/*	vertical-align: baseline;
+	position: relative;
+	bottom: -6px;*/
+	color:#cccccc;
+}
+
+/*.asterisk {
+	font-size:30px;
+	vertical-align: baseline;
+	position: relative;
+	bottom: -6px;
+	color:#cc3333;
+}*/
+
+.white {
+	color:#FFFFFF;
+}
+#cms {
+	padding-top:30px;
+	font-size:14px;
+}
+#adobe p{
+
+}
+
+#adobe_pic {
+	float: right;
+	margin-left:10px;
+}
+address {
+	margin-left:80px;
+	font-style:normal !important;
+}
+li address {
+	margin-left:40px;
+}
+input.error {
+	background-color:#FFFFCC;
+	color:#000000;
+	border-color:#ae0f32 !important;
+	border-width:2px !important;
+}
+select.error {
+	background-color:#FFFFCC;
+	color:#000000;
+	border-color:#ae0f32;
+	border-width:2px !important;
+}
+
+
+/* doesn't work */
+#stripes-txt {
+	margin-top:4px;
+	margin-bottom:4px;
+	border:solid;
+	border-color:#999999;
+	border-width:1px;
+	font-size:14px;
+	padding:5px;
+}
+
+/*#legal-number{
+	padding-top:30px;
+	font-size:12px;
+}
+
+#legal-number p{
+	margin-bottom: 20px;
+}*/'Hÿ³«Ë      T‰ÚT‰Ú:˜ýT½ÁÛ   9:http://www.aetnamedicare.com/includes/css/global_txt.css request-method GET response-head HTTP/1.1 200 OK
+Date: Thu, 11 Dec 2014 17:52:07 GMT
+Accept-Ranges: bytes
+Etag: W/"9829-1384302845000"
+Last-Modified: Wed, 13 Nov 2013 00:34:05 GMT
+Content-Length: 9829
+Content-Type: text/css
+X-Pad: avoid browser bug
+ uncompressed-len 0   &e

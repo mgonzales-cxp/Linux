@@ -1,0 +1,1537 @@
+Jul 20 03:30:01 C9031 CRON[2511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 03:30:10 C9031 CRON[2511]: pam_unix(cron:session): session closed for user root
+Jul 20 03:32:29 C9031 sshd[2715]: Did not receive identification string from 192.168.106.16
+Jul 20 03:32:51 C9031 sshd[2729]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 03:32:52 C9031 sshd[2736]: fatal: no hostkey alg [preauth]
+Jul 20 03:32:53 C9031 sshd[2738]: fatal: no hostkey alg [preauth]
+Jul 20 03:32:53 C9031 sshd[2730]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 03:32:53 C9031 sshd[2732]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 03:32:53 C9031 sshd[2734]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 03:32:55 C9031 sshd[2740]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 03:35:01 C9031 CRON[3191]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 03:35:10 C9031 CRON[3191]: pam_unix(cron:session): session closed for user root
+Jul 20 03:40:01 C9031 CRON[3695]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 03:40:06 C9031 CRON[3695]: pam_unix(cron:session): session closed for user root
+Jul 20 03:45:01 C9031 CRON[3986]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 03:45:09 C9031 CRON[3986]: pam_unix(cron:session): session closed for user root
+Jul 20 03:50:01 C9031 CRON[4185]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 03:50:08 C9031 CRON[4185]: pam_unix(cron:session): session closed for user root
+Jul 20 03:55:01 C9031 CRON[4391]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 03:55:06 C9031 CRON[4391]: pam_unix(cron:session): session closed for user root
+Jul 20 04:00:01 C9031 CRON[4598]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 04:00:05 C9031 CRON[4598]: pam_unix(cron:session): session closed for user root
+Jul 20 04:05:01 C9031 CRON[4805]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 04:05:08 C9031 CRON[4805]: pam_unix(cron:session): session closed for user root
+Jul 20 04:10:01 C9031 CRON[5011]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 04:10:08 C9031 CRON[5011]: pam_unix(cron:session): session closed for user root
+Jul 20 04:15:01 C9031 CRON[5217]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 04:15:06 C9031 CRON[5217]: pam_unix(cron:session): session closed for user root
+Jul 20 04:17:01 C9031 CRON[5409]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 04:17:01 C9031 CRON[5409]: pam_unix(cron:session): session closed for user root
+Jul 20 04:20:01 C9031 CRON[5415]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 04:20:04 C9031 CRON[5415]: pam_unix(cron:session): session closed for user root
+Jul 20 04:25:01 C9031 CRON[5624]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 04:25:08 C9031 CRON[5624]: pam_unix(cron:session): session closed for user root
+Jul 20 04:30:01 C9031 CRON[5831]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 04:30:08 C9031 CRON[5831]: pam_unix(cron:session): session closed for user root
+Jul 20 04:35:01 C9031 CRON[6036]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 04:35:04 C9031 CRON[6036]: pam_unix(cron:session): session closed for user root
+Jul 20 04:40:01 C9031 CRON[6243]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 04:40:04 C9031 CRON[6243]: pam_unix(cron:session): session closed for user root
+Jul 20 04:45:01 C9031 CRON[6448]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 04:45:08 C9031 CRON[6448]: pam_unix(cron:session): session closed for user root
+Jul 20 04:50:01 C9031 CRON[6645]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 04:50:05 C9031 CRON[6645]: pam_unix(cron:session): session closed for user root
+Jul 20 04:55:01 C9031 CRON[6852]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 04:55:04 C9031 CRON[6852]: pam_unix(cron:session): session closed for user root
+Jul 20 05:00:01 C9031 CRON[7058]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 05:00:06 C9031 CRON[7058]: pam_unix(cron:session): session closed for user root
+Jul 20 05:05:01 C9031 CRON[7265]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 05:05:03 C9031 CRON[7265]: pam_unix(cron:session): session closed for user root
+Jul 20 05:10:01 C9031 CRON[7470]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 05:10:08 C9031 CRON[7470]: pam_unix(cron:session): session closed for user root
+Jul 20 05:15:01 C9031 CRON[7676]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 05:15:06 C9031 CRON[7676]: pam_unix(cron:session): session closed for user root
+Jul 20 05:17:01 C9031 CRON[7870]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 05:17:01 C9031 CRON[7870]: pam_unix(cron:session): session closed for user root
+Jul 20 05:20:01 C9031 CRON[7877]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 05:20:05 C9031 CRON[7877]: pam_unix(cron:session): session closed for user root
+Jul 20 05:25:01 C9031 CRON[8081]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 05:25:03 C9031 CRON[8081]: pam_unix(cron:session): session closed for user root
+Jul 20 05:30:01 C9031 CRON[8289]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 05:30:09 C9031 CRON[8289]: pam_unix(cron:session): session closed for user root
+Jul 20 05:35:01 C9031 CRON[8493]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 05:35:08 C9031 CRON[8493]: pam_unix(cron:session): session closed for user root
+Jul 20 05:40:01 C9031 CRON[8700]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 05:40:08 C9031 CRON[8700]: pam_unix(cron:session): session closed for user root
+Jul 20 05:45:01 C9031 CRON[8900]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 05:45:03 C9031 CRON[8900]: pam_unix(cron:session): session closed for user root
+Jul 20 05:50:01 C9031 CRON[9104]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 05:50:09 C9031 CRON[9104]: pam_unix(cron:session): session closed for user root
+Jul 20 05:55:01 C9031 CRON[9309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 05:55:07 C9031 CRON[9309]: pam_unix(cron:session): session closed for user root
+Jul 20 06:00:01 C9031 CRON[9517]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 06:00:07 C9031 CRON[9517]: pam_unix(cron:session): session closed for user root
+Jul 20 06:05:01 C9031 CRON[9723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 06:05:04 C9031 CRON[9723]: pam_unix(cron:session): session closed for user root
+Jul 20 06:10:01 C9031 CRON[9930]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 06:10:03 C9031 CRON[9930]: pam_unix(cron:session): session closed for user root
+Jul 20 06:15:01 C9031 CRON[10126]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 06:15:03 C9031 CRON[10126]: pam_unix(cron:session): session closed for user root
+Jul 20 06:17:01 C9031 CRON[10327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 06:17:01 C9031 CRON[10327]: pam_unix(cron:session): session closed for user root
+Jul 20 06:20:01 C9031 CRON[10333]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 06:20:04 C9031 CRON[10333]: pam_unix(cron:session): session closed for user root
+Jul 20 06:25:01 C9031 CRON[10541]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 06:25:01 C9031 CRON[10542]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 06:25:01 C9031 CRON[10542]: pam_unix(cron:session): session closed for user root
+Jul 20 06:25:08 C9031 CRON[10541]: pam_unix(cron:session): session closed for user root
+Jul 20 06:30:01 C9031 CRON[10738]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 06:30:04 C9031 CRON[10738]: pam_unix(cron:session): session closed for user root
+Jul 20 06:35:01 C9031 CRON[10935]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 06:35:07 C9031 CRON[10935]: pam_unix(cron:session): session closed for user root
+Jul 20 06:40:01 C9031 CRON[11130]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 06:40:03 C9031 CRON[11130]: pam_unix(cron:session): session closed for user root
+Jul 20 06:45:01 C9031 CRON[11317]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 06:45:04 C9031 CRON[11317]: pam_unix(cron:session): session closed for user root
+Jul 20 06:50:01 C9031 CRON[11514]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 06:50:04 C9031 CRON[11514]: pam_unix(cron:session): session closed for user root
+Jul 20 06:55:01 C9031 CRON[11708]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 06:55:05 C9031 CRON[11708]: pam_unix(cron:session): session closed for user root
+Jul 20 07:00:01 C9031 CRON[11915]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 07:00:04 C9031 CRON[11915]: pam_unix(cron:session): session closed for user root
+Jul 20 07:05:01 C9031 CRON[12120]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 07:05:04 C9031 CRON[12120]: pam_unix(cron:session): session closed for user root
+Jul 20 07:10:01 C9031 CRON[12325]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 07:10:03 C9031 CRON[12325]: pam_unix(cron:session): session closed for user root
+Jul 20 07:15:01 C9031 CRON[12522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 07:15:04 C9031 CRON[12522]: pam_unix(cron:session): session closed for user root
+Jul 20 07:17:01 C9031 CRON[12723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 07:17:01 C9031 CRON[12723]: pam_unix(cron:session): session closed for user root
+Jul 20 07:20:01 C9031 CRON[12729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 07:20:04 C9031 CRON[12729]: pam_unix(cron:session): session closed for user root
+Jul 20 07:25:01 C9031 CRON[12935]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 07:25:05 C9031 CRON[12935]: pam_unix(cron:session): session closed for user root
+Jul 20 07:30:01 C9031 CRON[13141]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 07:30:01 C9031 CRON[13142]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 07:30:01 C9031 CRON[13142]: pam_unix(cron:session): session closed for user root
+Jul 20 07:30:03 C9031 CRON[13141]: pam_unix(cron:session): session closed for user root
+Jul 20 07:35:01 C9031 CRON[13357]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 07:35:04 C9031 CRON[13357]: pam_unix(cron:session): session closed for user root
+Jul 20 07:40:01 C9031 CRON[13563]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 07:40:05 C9031 CRON[13563]: pam_unix(cron:session): session closed for user root
+Jul 20 07:45:01 C9031 CRON[13759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 07:45:06 C9031 CRON[13759]: pam_unix(cron:session): session closed for user root
+Jul 20 07:50:01 C9031 CRON[13964]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 07:50:08 C9031 CRON[13964]: pam_unix(cron:session): session closed for user root
+Jul 20 07:55:01 C9031 CRON[14168]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 07:55:03 C9031 CRON[14168]: pam_unix(cron:session): session closed for user root
+Jul 20 08:00:01 C9031 CRON[14372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:00:05 C9031 CRON[14372]: pam_unix(cron:session): session closed for user root
+Jul 20 08:05:01 C9031 CRON[14578]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:05:03 C9031 CRON[14578]: pam_unix(cron:session): session closed for user root
+Jul 20 08:10:01 C9031 CRON[14784]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:10:04 C9031 CRON[14784]: pam_unix(cron:session): session closed for user root
+Jul 20 08:15:01 C9031 CRON[14981]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:15:04 C9031 CRON[14981]: pam_unix(cron:session): session closed for user root
+Jul 20 08:17:01 C9031 CRON[15184]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:17:01 C9031 CRON[15184]: pam_unix(cron:session): session closed for user root
+Jul 20 08:20:01 C9031 CRON[15191]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:20:03 C9031 CRON[15191]: pam_unix(cron:session): session closed for user root
+Jul 20 08:25:01 C9031 CRON[15397]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:25:17 C9031 CRON[15397]: pam_unix(cron:session): session closed for user root
+Jul 20 08:30:01 C9031 CRON[15602]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:30:05 C9031 CRON[15602]: pam_unix(cron:session): session closed for user root
+Jul 20 08:35:01 C9031 CRON[15810]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:35:05 C9031 CRON[15810]: pam_unix(cron:session): session closed for user root
+Jul 20 08:40:01 C9031 CRON[16008]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:40:04 C9031 CRON[16008]: pam_unix(cron:session): session closed for user root
+Jul 20 08:45:01 C9031 CRON[16211]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:45:04 C9031 CRON[16211]: pam_unix(cron:session): session closed for user root
+Jul 20 08:50:01 C9031 CRON[16417]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:50:05 C9031 CRON[16417]: pam_unix(cron:session): session closed for user root
+Jul 20 08:55:01 C9031 CRON[16623]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 08:55:05 C9031 CRON[16623]: pam_unix(cron:session): session closed for user root
+Jul 20 09:00:01 C9031 CRON[16830]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:00:05 C9031 CRON[16830]: pam_unix(cron:session): session closed for user root
+Jul 20 09:05:01 C9031 CRON[17038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:05:04 C9031 CRON[17038]: pam_unix(cron:session): session closed for user root
+Jul 20 09:05:55 C9031 sshd[17037]: Did not receive identification string from 192.168.106.16
+Jul 20 09:06:18 C9031 sshd[17230]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 09:06:22 C9031 sshd[17231]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 09:06:23 C9031 sshd[17234]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 09:06:23 C9031 sshd[17232]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 09:06:23 C9031 sshd[17238]: fatal: no hostkey alg [preauth]
+Jul 20 09:06:24 C9031 sshd[17240]: fatal: no hostkey alg [preauth]
+Jul 20 09:06:24 C9031 sshd[17236]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 09:10:01 C9031 CRON[17246]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:10:04 C9031 CRON[17246]: pam_unix(cron:session): session closed for user root
+Jul 20 09:15:01 C9031 CRON[17453]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:15:04 C9031 CRON[17453]: pam_unix(cron:session): session closed for user root
+Jul 20 09:17:01 C9031 CRON[17655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:17:01 C9031 CRON[17655]: pam_unix(cron:session): session closed for user root
+Jul 20 09:20:01 C9031 CRON[17661]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:20:04 C9031 CRON[17661]: pam_unix(cron:session): session closed for user root
+Jul 20 09:25:01 C9031 CRON[17867]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:25:04 C9031 CRON[17867]: pam_unix(cron:session): session closed for user root
+Jul 20 09:30:01 C9031 CRON[18075]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:30:03 C9031 CRON[18075]: pam_unix(cron:session): session closed for user root
+Jul 20 09:35:02 C9031 CRON[18279]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:35:06 C9031 CRON[18279]: pam_unix(cron:session): session closed for user root
+Jul 20 09:40:01 C9031 CRON[18477]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:40:04 C9031 CRON[18477]: pam_unix(cron:session): session closed for user root
+Jul 20 09:45:01 C9031 CRON[18682]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:45:04 C9031 CRON[18682]: pam_unix(cron:session): session closed for user root
+Jul 20 09:50:01 C9031 CRON[18887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:50:04 C9031 CRON[18887]: pam_unix(cron:session): session closed for user root
+Jul 20 09:54:54 C9031 sshd[19093]: Did not receive identification string from 192.168.106.16
+Jul 20 09:55:01 C9031 CRON[19095]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 09:55:04 C9031 CRON[19095]: pam_unix(cron:session): session closed for user root
+Jul 20 09:55:25 C9031 sshd[19287]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 09:55:26 C9031 sshd[19294]: fatal: no hostkey alg [preauth]
+Jul 20 09:55:26 C9031 sshd[19292]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 09:55:26 C9031 sshd[19290]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 09:55:26 C9031 sshd[19288]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 09:55:26 C9031 sshd[19296]: fatal: no hostkey alg [preauth]
+Jul 20 09:55:29 C9031 sshd[19298]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 10:00:01 C9031 CRON[19312]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:00:04 C9031 CRON[19312]: pam_unix(cron:session): session closed for user root
+Jul 20 10:05:01 C9031 CRON[19517]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:05:05 C9031 CRON[19517]: pam_unix(cron:session): session closed for user root
+Jul 20 10:10:01 C9031 CRON[19713]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:10:04 C9031 CRON[19713]: pam_unix(cron:session): session closed for user root
+Jul 20 10:15:01 C9031 CRON[19920]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:15:04 C9031 CRON[19920]: pam_unix(cron:session): session closed for user root
+Jul 20 10:17:01 C9031 CRON[20123]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:17:01 C9031 CRON[20123]: pam_unix(cron:session): session closed for user root
+Jul 20 10:20:01 C9031 CRON[20129]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:20:03 C9031 CRON[20129]: pam_unix(cron:session): session closed for user root
+Jul 20 10:25:01 C9031 CRON[20333]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:25:05 C9031 CRON[20333]: pam_unix(cron:session): session closed for user root
+Jul 20 10:30:01 C9031 CRON[20540]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:30:03 C9031 CRON[20540]: pam_unix(cron:session): session closed for user root
+Jul 20 10:35:01 C9031 CRON[20747]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:35:25 C9031 CRON[20747]: pam_unix(cron:session): session closed for user root
+Jul 20 10:40:01 C9031 CRON[20942]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:40:37 C9031 CRON[20942]: pam_unix(cron:session): session closed for user root
+Jul 20 10:45:01 C9031 CRON[21148]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:45:05 C9031 CRON[21148]: pam_unix(cron:session): session closed for user root
+Jul 20 10:50:01 C9031 CRON[21354]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:50:03 C9031 CRON[21354]: pam_unix(cron:session): session closed for user root
+Jul 20 10:55:01 C9031 CRON[21559]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 10:55:04 C9031 CRON[21559]: pam_unix(cron:session): session closed for user root
+Jul 20 11:00:01 C9031 CRON[21764]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:00:04 C9031 CRON[21764]: pam_unix(cron:session): session closed for user root
+Jul 20 11:05:01 C9031 CRON[21969]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:05:05 C9031 CRON[21969]: pam_unix(cron:session): session closed for user root
+Jul 20 11:10:01 C9031 CRON[22165]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:10:07 C9031 CRON[22165]: pam_unix(cron:session): session closed for user root
+Jul 20 11:15:01 C9031 CRON[22371]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:15:03 C9031 CRON[22371]: pam_unix(cron:session): session closed for user root
+Jul 20 11:17:01 C9031 CRON[22574]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:17:01 C9031 CRON[22574]: pam_unix(cron:session): session closed for user root
+Jul 20 11:20:01 C9031 CRON[22580]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:20:05 C9031 CRON[22580]: pam_unix(cron:session): session closed for user root
+Jul 20 11:25:01 C9031 CRON[22787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:25:04 C9031 CRON[22787]: pam_unix(cron:session): session closed for user root
+Jul 20 11:30:01 C9031 CRON[22992]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:30:04 C9031 CRON[22992]: pam_unix(cron:session): session closed for user root
+Jul 20 11:35:01 C9031 CRON[23191]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:35:03 C9031 CRON[23191]: pam_unix(cron:session): session closed for user root
+Jul 20 11:40:01 C9031 CRON[23396]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:40:06 C9031 CRON[23396]: pam_unix(cron:session): session closed for user root
+Jul 20 11:45:01 C9031 CRON[23602]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:45:04 C9031 CRON[23602]: pam_unix(cron:session): session closed for user root
+Jul 20 11:50:01 C9031 CRON[23809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:50:05 C9031 CRON[23809]: pam_unix(cron:session): session closed for user root
+Jul 20 11:55:01 C9031 CRON[24013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 11:55:04 C9031 CRON[24013]: pam_unix(cron:session): session closed for user root
+Jul 20 12:00:01 C9031 CRON[24219]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:00:03 C9031 CRON[24219]: pam_unix(cron:session): session closed for user root
+Jul 20 12:05:01 C9031 CRON[24418]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:05:04 C9031 CRON[24418]: pam_unix(cron:session): session closed for user root
+Jul 20 12:05:41 C9031 sshd[24417]: Did not receive identification string from 192.168.106.16
+Jul 20 12:06:12 C9031 sshd[24618]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 12:06:12 C9031 sshd[24619]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 12:06:14 C9031 sshd[24626]: fatal: no hostkey alg [preauth]
+Jul 20 12:06:14 C9031 sshd[24624]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 12:06:14 C9031 sshd[24622]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 12:06:14 C9031 sshd[24620]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 12:06:14 C9031 sshd[24628]: fatal: no hostkey alg [preauth]
+Jul 20 12:10:01 C9031 CRON[24634]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:10:03 C9031 CRON[24634]: pam_unix(cron:session): session closed for user root
+Jul 20 12:15:01 C9031 CRON[24840]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:15:05 C9031 CRON[24840]: pam_unix(cron:session): session closed for user root
+Jul 20 12:17:01 C9031 CRON[25033]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:17:01 C9031 CRON[25033]: pam_unix(cron:session): session closed for user root
+Jul 20 12:20:01 C9031 CRON[25048]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:20:04 C9031 CRON[25048]: pam_unix(cron:session): session closed for user root
+Jul 20 12:25:01 C9031 CRON[25253]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:25:04 C9031 CRON[25253]: pam_unix(cron:session): session closed for user root
+Jul 20 12:30:01 C9031 CRON[25461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:30:03 C9031 CRON[25461]: pam_unix(cron:session): session closed for user root
+Jul 20 12:35:01 C9031 CRON[25657]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:35:04 C9031 CRON[25657]: pam_unix(cron:session): session closed for user root
+Jul 20 12:40:01 C9031 CRON[25863]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:40:04 C9031 CRON[25863]: pam_unix(cron:session): session closed for user root
+Jul 20 12:45:01 C9031 CRON[26069]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:45:04 C9031 CRON[26069]: pam_unix(cron:session): session closed for user root
+Jul 20 12:50:01 C9031 CRON[26273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:50:04 C9031 CRON[26273]: pam_unix(cron:session): session closed for user root
+Jul 20 12:55:01 C9031 CRON[26480]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 12:55:03 C9031 CRON[26480]: pam_unix(cron:session): session closed for user root
+Jul 20 13:00:01 C9031 CRON[26685]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:00:03 C9031 CRON[26685]: pam_unix(cron:session): session closed for user root
+Jul 20 13:05:01 C9031 CRON[26883]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:05:04 C9031 CRON[26883]: pam_unix(cron:session): session closed for user root
+Jul 20 13:10:01 C9031 CRON[27090]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:10:04 C9031 CRON[27090]: pam_unix(cron:session): session closed for user root
+Jul 20 13:15:01 C9031 CRON[27294]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:15:05 C9031 CRON[27294]: pam_unix(cron:session): session closed for user root
+Jul 20 13:17:01 C9031 CRON[27489]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:17:01 C9031 CRON[27489]: pam_unix(cron:session): session closed for user root
+Jul 20 13:20:01 C9031 CRON[27505]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:20:04 C9031 CRON[27505]: pam_unix(cron:session): session closed for user root
+Jul 20 13:25:01 C9031 CRON[27709]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:25:03 C9031 CRON[27709]: pam_unix(cron:session): session closed for user root
+Jul 20 13:30:01 C9031 CRON[27915]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:30:04 C9031 CRON[27915]: pam_unix(cron:session): session closed for user root
+Jul 20 13:35:01 C9031 CRON[28113]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:35:04 C9031 CRON[28113]: pam_unix(cron:session): session closed for user root
+Jul 20 13:40:01 C9031 CRON[28318]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:40:05 C9031 CRON[28318]: pam_unix(cron:session): session closed for user root
+Jul 20 13:45:01 C9031 CRON[28525]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:45:05 C9031 CRON[28525]: pam_unix(cron:session): session closed for user root
+Jul 20 13:50:01 C9031 CRON[28732]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:50:03 C9031 CRON[28732]: pam_unix(cron:session): session closed for user root
+Jul 20 13:55:01 C9031 CRON[28938]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 13:55:04 C9031 CRON[28938]: pam_unix(cron:session): session closed for user root
+Jul 20 14:00:01 C9031 CRON[29144]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:00:05 C9031 CRON[29144]: pam_unix(cron:session): session closed for user root
+Jul 20 14:05:01 C9031 CRON[29340]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:05:05 C9031 CRON[29340]: pam_unix(cron:session): session closed for user root
+Jul 20 14:10:01 C9031 CRON[29548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:10:03 C9031 CRON[29548]: pam_unix(cron:session): session closed for user root
+Jul 20 14:11:21 C9031 sshd[29738]: Did not receive identification string from 192.168.106.16
+Jul 20 14:12:00 C9031 sshd[29752]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 14:12:01 C9031 sshd[29753]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 14:12:03 C9031 sshd[29760]: fatal: no hostkey alg [preauth]
+Jul 20 14:12:03 C9031 sshd[29762]: fatal: no hostkey alg [preauth]
+Jul 20 14:12:03 C9031 sshd[29756]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 14:12:03 C9031 sshd[29754]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 14:12:03 C9031 sshd[29758]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 14:15:01 C9031 CRON[29768]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:15:04 C9031 CRON[29768]: pam_unix(cron:session): session closed for user root
+Jul 20 14:17:01 C9031 CRON[29962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:17:01 C9031 CRON[29962]: pam_unix(cron:session): session closed for user root
+Jul 20 14:20:01 C9031 CRON[29977]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:20:04 C9031 CRON[29977]: pam_unix(cron:session): session closed for user root
+Jul 20 14:25:01 C9031 CRON[30184]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:25:05 C9031 CRON[30184]: pam_unix(cron:session): session closed for user root
+Jul 20 14:30:01 C9031 CRON[30390]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:30:03 C9031 CRON[30390]: pam_unix(cron:session): session closed for user root
+Jul 20 14:35:01 C9031 CRON[30585]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:35:03 C9031 CRON[30585]: pam_unix(cron:session): session closed for user root
+Jul 20 14:40:01 C9031 CRON[30792]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:40:03 C9031 CRON[30792]: pam_unix(cron:session): session closed for user root
+Jul 20 14:45:01 C9031 CRON[30997]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:45:04 C9031 CRON[30997]: pam_unix(cron:session): session closed for user root
+Jul 20 14:50:01 C9031 CRON[31205]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:50:04 C9031 CRON[31205]: pam_unix(cron:session): session closed for user root
+Jul 20 14:55:01 C9031 CRON[31410]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 14:55:05 C9031 CRON[31410]: pam_unix(cron:session): session closed for user root
+Jul 20 15:00:01 C9031 CRON[31609]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:00:03 C9031 CRON[31609]: pam_unix(cron:session): session closed for user root
+Jul 20 15:05:01 C9031 CRON[31814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:05:04 C9031 CRON[31814]: pam_unix(cron:session): session closed for user root
+Jul 20 15:05:57 C9031 sshd[31813]: Did not receive identification string from 192.168.106.16
+Jul 20 15:06:36 C9031 sshd[32016]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 15:06:37 C9031 sshd[32018]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 15:06:38 C9031 sshd[32024]: fatal: no hostkey alg [preauth]
+Jul 20 15:06:38 C9031 sshd[32026]: fatal: no hostkey alg [preauth]
+Jul 20 15:06:38 C9031 sshd[32017]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 15:06:38 C9031 sshd[32020]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 15:06:38 C9031 sshd[32022]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 15:10:01 C9031 CRON[32032]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:10:04 C9031 CRON[32032]: pam_unix(cron:session): session closed for user root
+Jul 20 15:15:01 C9031 CRON[32240]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:15:04 C9031 CRON[32240]: pam_unix(cron:session): session closed for user root
+Jul 20 15:17:01 C9031 CRON[32434]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:17:01 C9031 CRON[32434]: pam_unix(cron:session): session closed for user root
+Jul 20 15:20:01 C9031 CRON[32449]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:20:05 C9031 CRON[32449]: pam_unix(cron:session): session closed for user root
+Jul 20 15:25:01 C9031 CRON[32655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:25:05 C9031 CRON[32655]: pam_unix(cron:session): session closed for user root
+Jul 20 15:30:01 C9031 CRON[388]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:30:42 C9031 CRON[388]: pam_unix(cron:session): session closed for user root
+Jul 20 15:35:01 C9031 CRON[598]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:35:04 C9031 CRON[598]: pam_unix(cron:session): session closed for user root
+Jul 20 15:40:01 C9031 CRON[806]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:40:03 C9031 CRON[806]: pam_unix(cron:session): session closed for user root
+Jul 20 15:45:01 C9031 CRON[1031]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:45:03 C9031 CRON[1031]: pam_unix(cron:session): session closed for user root
+Jul 20 15:50:01 C9031 CRON[1240]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:50:03 C9031 CRON[1240]: pam_unix(cron:session): session closed for user root
+Jul 20 15:55:01 C9031 CRON[1455]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 15:55:03 C9031 CRON[1455]: pam_unix(cron:session): session closed for user root
+Jul 20 16:00:01 C9031 CRON[1664]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:00:04 C9031 CRON[1664]: pam_unix(cron:session): session closed for user root
+Jul 20 16:05:01 C9031 CRON[1884]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:05:04 C9031 CRON[1884]: pam_unix(cron:session): session closed for user root
+Jul 20 16:10:01 C9031 CRON[2159]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:10:04 C9031 CRON[2159]: pam_unix(cron:session): session closed for user root
+Jul 20 16:15:01 C9031 CRON[2366]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:15:03 C9031 CRON[2366]: pam_unix(cron:session): session closed for user root
+Jul 20 16:17:01 C9031 CRON[2561]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:17:01 C9031 CRON[2561]: pam_unix(cron:session): session closed for user root
+Jul 20 16:20:01 C9031 CRON[2576]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:20:04 C9031 CRON[2576]: pam_unix(cron:session): session closed for user root
+Jul 20 16:25:01 C9031 CRON[2784]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:25:03 C9031 CRON[2784]: pam_unix(cron:session): session closed for user root
+Jul 20 16:30:01 C9031 CRON[2981]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:30:04 C9031 CRON[2981]: pam_unix(cron:session): session closed for user root
+Jul 20 16:35:01 C9031 CRON[3189]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:35:03 C9031 CRON[3189]: pam_unix(cron:session): session closed for user root
+Jul 20 16:40:01 C9031 CRON[3395]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:40:03 C9031 CRON[3395]: pam_unix(cron:session): session closed for user root
+Jul 20 16:45:02 C9031 CRON[3601]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:45:04 C9031 CRON[3601]: pam_unix(cron:session): session closed for user root
+Jul 20 16:50:01 C9031 CRON[3808]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:50:03 C9031 CRON[3808]: pam_unix(cron:session): session closed for user root
+Jul 20 16:55:01 C9031 CRON[4014]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 16:55:03 C9031 CRON[4014]: pam_unix(cron:session): session closed for user root
+Jul 20 17:00:01 C9031 CRON[4211]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:00:03 C9031 CRON[4211]: pam_unix(cron:session): session closed for user root
+Jul 20 17:05:01 C9031 CRON[4415]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:05:04 C9031 CRON[4415]: pam_unix(cron:session): session closed for user root
+Jul 20 17:10:01 C9031 CRON[4622]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:10:03 C9031 CRON[4622]: pam_unix(cron:session): session closed for user root
+Jul 20 17:15:01 C9031 CRON[4829]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:15:03 C9031 CRON[4829]: pam_unix(cron:session): session closed for user root
+Jul 20 17:17:01 C9031 CRON[5023]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:17:01 C9031 CRON[5023]: pam_unix(cron:session): session closed for user root
+Jul 20 17:20:01 C9031 CRON[5038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:20:04 C9031 CRON[5038]: pam_unix(cron:session): session closed for user root
+Jul 20 17:25:01 C9031 CRON[5242]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:25:03 C9031 CRON[5242]: pam_unix(cron:session): session closed for user root
+Jul 20 17:30:01 C9031 CRON[5440]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:30:04 C9031 CRON[5440]: pam_unix(cron:session): session closed for user root
+Jul 20 17:35:01 C9031 CRON[5646]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:35:03 C9031 CRON[5646]: pam_unix(cron:session): session closed for user root
+Jul 20 17:40:01 C9031 CRON[5852]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:40:04 C9031 CRON[5852]: pam_unix(cron:session): session closed for user root
+Jul 20 17:45:01 C9031 CRON[6058]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:45:03 C9031 CRON[6058]: pam_unix(cron:session): session closed for user root
+Jul 20 17:50:01 C9031 CRON[6264]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:50:03 C9031 CRON[6264]: pam_unix(cron:session): session closed for user root
+Jul 20 17:55:01 C9031 CRON[6462]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 17:55:03 C9031 CRON[6462]: pam_unix(cron:session): session closed for user root
+Jul 20 18:00:01 C9031 CRON[6667]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:00:03 C9031 CRON[6667]: pam_unix(cron:session): session closed for user root
+Jul 20 18:05:01 C9031 CRON[6873]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:05:03 C9031 CRON[6873]: pam_unix(cron:session): session closed for user root
+Jul 20 18:06:13 C9031 sshd[7066]: Did not receive identification string from 192.168.106.16
+Jul 20 18:06:39 C9031 sshd[7069]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 18:06:40 C9031 sshd[7076]: fatal: no hostkey alg [preauth]
+Jul 20 18:06:40 C9031 sshd[7078]: fatal: no hostkey alg [preauth]
+Jul 20 18:06:40 C9031 sshd[7070]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:06:40 C9031 sshd[7074]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:06:40 C9031 sshd[7072]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:06:41 C9031 sshd[7080]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 18:10:01 C9031 CRON[7095]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:10:04 C9031 CRON[7095]: pam_unix(cron:session): session closed for user root
+Jul 20 18:10:10 C9031 sshd[7093]: Did not receive identification string from 192.168.106.16
+Jul 20 18:10:36 C9031 sshd[7286]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 18:10:37 C9031 sshd[7293]: fatal: no hostkey alg [preauth]
+Jul 20 18:10:38 C9031 sshd[7295]: fatal: no hostkey alg [preauth]
+Jul 20 18:10:38 C9031 sshd[7289]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:10:38 C9031 sshd[7291]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:10:38 C9031 sshd[7287]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:10:42 C9031 sshd[7297]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 18:15:01 C9031 CRON[7311]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:15:03 C9031 CRON[7311]: pam_unix(cron:session): session closed for user root
+Jul 20 18:17:01 C9031 CRON[7504]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:17:01 C9031 CRON[7504]: pam_unix(cron:session): session closed for user root
+Jul 20 18:20:01 C9031 CRON[7520]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:20:03 C9031 CRON[7520]: pam_unix(cron:session): session closed for user root
+Jul 20 18:25:01 C9031 CRON[7716]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:25:03 C9031 CRON[7716]: pam_unix(cron:session): session closed for user root
+Jul 20 18:30:01 C9031 CRON[7921]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:30:03 C9031 CRON[7921]: pam_unix(cron:session): session closed for user root
+Jul 20 18:35:01 C9031 CRON[8128]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:35:03 C9031 CRON[8128]: pam_unix(cron:session): session closed for user root
+Jul 20 18:40:01 C9031 CRON[8335]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:40:05 C9031 CRON[8335]: pam_unix(cron:session): session closed for user root
+Jul 20 18:43:43 C9031 sshd[8530]: Did not receive identification string from 192.168.106.16
+Jul 20 18:44:11 C9031 sshd[8542]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 18:44:12 C9031 sshd[8549]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 18:44:12 C9031 sshd[8550]: fatal: no hostkey alg [preauth]
+Jul 20 18:44:13 C9031 sshd[8552]: fatal: no hostkey alg [preauth]
+Jul 20 18:44:13 C9031 sshd[8547]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:44:13 C9031 sshd[8545]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:44:13 C9031 sshd[8543]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 18:45:01 C9031 CRON[8555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:45:03 C9031 CRON[8555]: pam_unix(cron:session): session closed for user root
+Jul 20 18:50:01 C9031 CRON[8760]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:50:03 C9031 CRON[8760]: pam_unix(cron:session): session closed for user root
+Jul 20 18:55:01 C9031 CRON[8957]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 18:55:03 C9031 CRON[8957]: pam_unix(cron:session): session closed for user root
+Jul 20 19:00:01 C9031 CRON[9163]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:00:03 C9031 CRON[9163]: pam_unix(cron:session): session closed for user root
+Jul 20 19:05:01 C9031 CRON[9367]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:05:04 C9031 CRON[9367]: pam_unix(cron:session): session closed for user root
+Jul 20 19:10:01 C9031 CRON[9575]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:10:03 C9031 CRON[9575]: pam_unix(cron:session): session closed for user root
+Jul 20 19:15:01 C9031 CRON[9779]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:15:03 C9031 CRON[9779]: pam_unix(cron:session): session closed for user root
+Jul 20 19:17:01 C9031 CRON[9974]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:17:01 C9031 CRON[9974]: pam_unix(cron:session): session closed for user root
+Jul 20 19:20:01 C9031 CRON[9989]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:20:03 C9031 CRON[9989]: pam_unix(cron:session): session closed for user root
+Jul 20 19:25:01 C9031 CRON[10187]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:25:03 C9031 CRON[10187]: pam_unix(cron:session): session closed for user root
+Jul 20 19:30:01 C9031 CRON[10391]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:30:04 C9031 CRON[10391]: pam_unix(cron:session): session closed for user root
+Jul 20 19:35:01 C9031 CRON[10597]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:35:03 C9031 CRON[10597]: pam_unix(cron:session): session closed for user root
+Jul 20 19:40:01 C9031 CRON[10802]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:40:03 C9031 CRON[10802]: pam_unix(cron:session): session closed for user root
+Jul 20 19:45:01 C9031 CRON[11007]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:45:03 C9031 CRON[11007]: pam_unix(cron:session): session closed for user root
+Jul 20 19:50:01 C9031 CRON[11212]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:50:03 C9031 CRON[11212]: pam_unix(cron:session): session closed for user root
+Jul 20 19:55:01 C9031 CRON[11407]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 19:55:03 C9031 CRON[11407]: pam_unix(cron:session): session closed for user root
+Jul 20 20:00:02 C9031 CRON[11613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:00:04 C9031 CRON[11613]: pam_unix(cron:session): session closed for user root
+Jul 20 20:05:01 C9031 CRON[11821]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:05:03 C9031 CRON[11821]: pam_unix(cron:session): session closed for user root
+Jul 20 20:10:01 C9031 CRON[12028]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:10:03 C9031 CRON[12028]: pam_unix(cron:session): session closed for user root
+Jul 20 20:15:01 C9031 CRON[12235]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:15:03 C9031 CRON[12235]: pam_unix(cron:session): session closed for user root
+Jul 20 20:17:01 C9031 CRON[12427]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:17:01 C9031 CRON[12427]: pam_unix(cron:session): session closed for user root
+Jul 20 20:20:01 C9031 CRON[12442]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:20:03 C9031 CRON[12442]: pam_unix(cron:session): session closed for user root
+Jul 20 20:25:01 C9031 CRON[12639]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:25:03 C9031 CRON[12639]: pam_unix(cron:session): session closed for user root
+Jul 20 20:30:01 C9031 CRON[12847]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:30:04 C9031 CRON[12847]: pam_unix(cron:session): session closed for user root
+Jul 20 20:35:01 C9031 CRON[13052]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:35:03 C9031 CRON[13052]: pam_unix(cron:session): session closed for user root
+Jul 20 20:40:01 C9031 CRON[13256]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:40:03 C9031 CRON[13256]: pam_unix(cron:session): session closed for user root
+Jul 20 20:45:01 C9031 CRON[13463]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:45:03 C9031 CRON[13463]: pam_unix(cron:session): session closed for user root
+Jul 20 20:50:01 C9031 CRON[13670]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:50:03 C9031 CRON[13670]: pam_unix(cron:session): session closed for user root
+Jul 20 20:55:01 C9031 CRON[13867]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 20:55:03 C9031 CRON[13867]: pam_unix(cron:session): session closed for user root
+Jul 20 21:00:01 C9031 CRON[14071]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:00:04 C9031 CRON[14071]: pam_unix(cron:session): session closed for user root
+Jul 20 21:05:01 C9031 CRON[14277]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:05:03 C9031 CRON[14277]: pam_unix(cron:session): session closed for user root
+Jul 20 21:05:52 C9031 sshd[14276]: Did not receive identification string from 192.168.106.16
+Jul 20 21:06:17 C9031 sshd[14471]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 21:06:20 C9031 sshd[14472]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 21:06:21 C9031 sshd[14479]: fatal: no hostkey alg [preauth]
+Jul 20 21:06:21 C9031 sshd[14477]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 21:06:21 C9031 sshd[14475]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 21:06:21 C9031 sshd[14473]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 21:06:21 C9031 sshd[14481]: fatal: no hostkey alg [preauth]
+Jul 20 21:10:01 C9031 CRON[14497]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:10:03 C9031 CRON[14497]: pam_unix(cron:session): session closed for user root
+Jul 20 21:15:01 C9031 CRON[14702]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:15:04 C9031 CRON[14702]: pam_unix(cron:session): session closed for user root
+Jul 20 21:17:01 C9031 CRON[14894]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:17:01 C9031 CRON[14894]: pam_unix(cron:session): session closed for user root
+Jul 20 21:20:01 C9031 CRON[14902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:20:03 C9031 CRON[14902]: pam_unix(cron:session): session closed for user root
+Jul 20 21:25:01 C9031 CRON[15108]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:25:03 C9031 CRON[15108]: pam_unix(cron:session): session closed for user root
+Jul 20 21:30:01 C9031 CRON[15313]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:30:03 C9031 CRON[15313]: pam_unix(cron:session): session closed for user root
+Jul 20 21:32:46 C9031 sshd[15504]: Did not receive identification string from 192.168.106.16
+Jul 20 21:33:16 C9031 sshd[15517]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 20 21:33:17 C9031 sshd[15524]: fatal: no hostkey alg [preauth]
+Jul 20 21:33:17 C9031 sshd[15526]: fatal: no hostkey alg [preauth]
+Jul 20 21:33:17 C9031 sshd[15520]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 21:33:17 C9031 sshd[15522]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 21:33:17 C9031 sshd[15518]: Connection closed by 192.168.106.16 [preauth]
+Jul 20 21:33:18 C9031 sshd[15528]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 20 21:35:01 C9031 CRON[15531]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:35:03 C9031 CRON[15531]: pam_unix(cron:session): session closed for user root
+Jul 20 21:40:01 C9031 CRON[15737]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:40:03 C9031 CRON[15737]: pam_unix(cron:session): session closed for user root
+Jul 20 21:45:01 C9031 CRON[15942]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:45:03 C9031 CRON[15942]: pam_unix(cron:session): session closed for user root
+Jul 20 21:50:01 C9031 CRON[16138]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:50:03 C9031 CRON[16138]: pam_unix(cron:session): session closed for user root
+Jul 20 21:55:01 C9031 CRON[16343]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 21:55:04 C9031 CRON[16343]: pam_unix(cron:session): session closed for user root
+Jul 20 22:00:01 C9031 CRON[16551]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:00:03 C9031 CRON[16551]: pam_unix(cron:session): session closed for user root
+Jul 20 22:05:01 C9031 CRON[16756]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:05:03 C9031 CRON[16756]: pam_unix(cron:session): session closed for user root
+Jul 20 22:10:01 C9031 CRON[16963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:10:03 C9031 CRON[16963]: pam_unix(cron:session): session closed for user root
+Jul 20 22:15:01 C9031 CRON[17169]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:15:03 C9031 CRON[17169]: pam_unix(cron:session): session closed for user root
+Jul 20 22:17:01 C9031 CRON[17362]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:17:01 C9031 CRON[17362]: pam_unix(cron:session): session closed for user root
+Jul 20 22:20:01 C9031 CRON[17368]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:20:03 C9031 CRON[17368]: pam_unix(cron:session): session closed for user root
+Jul 20 22:25:01 C9031 CRON[17574]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:25:03 C9031 CRON[17574]: pam_unix(cron:session): session closed for user root
+Jul 20 22:30:01 C9031 CRON[17780]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:30:04 C9031 CRON[17780]: pam_unix(cron:session): session closed for user root
+Jul 20 22:35:01 C9031 CRON[17984]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:35:03 C9031 CRON[17984]: pam_unix(cron:session): session closed for user root
+Jul 20 22:40:01 C9031 CRON[18192]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:40:03 C9031 CRON[18192]: pam_unix(cron:session): session closed for user root
+Jul 20 22:45:01 C9031 CRON[18397]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:45:03 C9031 CRON[18397]: pam_unix(cron:session): session closed for user root
+Jul 20 22:50:01 C9031 CRON[18592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:50:03 C9031 CRON[18592]: pam_unix(cron:session): session closed for user root
+Jul 20 22:55:01 C9031 CRON[18798]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 22:55:03 C9031 CRON[18798]: pam_unix(cron:session): session closed for user root
+Jul 20 23:00:01 C9031 CRON[19002]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:00:04 C9031 CRON[19002]: pam_unix(cron:session): session closed for user root
+Jul 20 23:05:01 C9031 CRON[19208]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:05:03 C9031 CRON[19208]: pam_unix(cron:session): session closed for user root
+Jul 20 23:10:01 C9031 CRON[19412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:10:03 C9031 CRON[19412]: pam_unix(cron:session): session closed for user root
+Jul 20 23:15:01 C9031 CRON[19621]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:15:03 C9031 CRON[19621]: pam_unix(cron:session): session closed for user root
+Jul 20 23:17:01 C9031 CRON[19815]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:17:01 C9031 CRON[19815]: pam_unix(cron:session): session closed for user root
+Jul 20 23:20:01 C9031 CRON[19821]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:20:03 C9031 CRON[19821]: pam_unix(cron:session): session closed for user root
+Jul 20 23:25:01 C9031 CRON[20026]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:25:03 C9031 CRON[20026]: pam_unix(cron:session): session closed for user root
+Jul 20 23:30:01 C9031 CRON[20232]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:30:04 C9031 CRON[20232]: pam_unix(cron:session): session closed for user root
+Jul 20 23:35:01 C9031 CRON[20438]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:35:03 C9031 CRON[20438]: pam_unix(cron:session): session closed for user root
+Jul 20 23:40:01 C9031 CRON[20642]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:40:03 C9031 CRON[20642]: pam_unix(cron:session): session closed for user root
+Jul 20 23:45:01 C9031 CRON[20848]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:45:03 C9031 CRON[20848]: pam_unix(cron:session): session closed for user root
+Jul 20 23:50:01 C9031 CRON[21686]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:50:04 C9031 CRON[21686]: pam_unix(cron:session): session closed for user root
+Jul 20 23:55:01 C9031 CRON[22074]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 20 23:55:03 C9031 CRON[22074]: pam_unix(cron:session): session closed for user root
+Jul 21 00:00:01 C9031 CRON[22279]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:00:03 C9031 CRON[22279]: pam_unix(cron:session): session closed for user root
+Jul 21 00:05:01 C9031 CRON[22485]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:05:03 C9031 CRON[22485]: pam_unix(cron:session): session closed for user root
+Jul 21 00:05:52 C9031 sshd[22483]: Did not receive identification string from 192.168.106.16
+Jul 21 00:06:19 C9031 sshd[22676]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 00:06:23 C9031 sshd[22677]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 00:06:24 C9031 sshd[22684]: fatal: no hostkey alg [preauth]
+Jul 21 00:06:24 C9031 sshd[22686]: fatal: no hostkey alg [preauth]
+Jul 21 00:06:24 C9031 sshd[22680]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 00:06:24 C9031 sshd[22678]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 00:06:24 C9031 sshd[22682]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 00:10:01 C9031 CRON[22702]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:10:03 C9031 CRON[22702]: pam_unix(cron:session): session closed for user root
+Jul 21 00:15:01 C9031 CRON[22899]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:15:03 C9031 CRON[22899]: pam_unix(cron:session): session closed for user root
+Jul 21 00:17:01 C9031 CRON[23098]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:17:01 C9031 CRON[23098]: pam_unix(cron:session): session closed for user root
+Jul 21 00:20:01 C9031 CRON[23104]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:20:03 C9031 CRON[23104]: pam_unix(cron:session): session closed for user root
+Jul 21 00:25:01 C9031 CRON[23311]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:25:04 C9031 CRON[23311]: pam_unix(cron:session): session closed for user root
+Jul 21 00:30:01 C9031 CRON[23516]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:30:03 C9031 CRON[23516]: pam_unix(cron:session): session closed for user root
+Jul 21 00:35:01 C9031 CRON[23721]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:35:03 C9031 CRON[23721]: pam_unix(cron:session): session closed for user root
+Jul 21 00:40:01 C9031 CRON[23925]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:40:03 C9031 CRON[23925]: pam_unix(cron:session): session closed for user root
+Jul 21 00:45:01 C9031 CRON[24122]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:45:03 C9031 CRON[24122]: pam_unix(cron:session): session closed for user root
+Jul 21 00:50:01 C9031 CRON[24328]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:50:04 C9031 CRON[24328]: pam_unix(cron:session): session closed for user root
+Jul 21 00:55:01 C9031 CRON[24534]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 00:55:03 C9031 CRON[24534]: pam_unix(cron:session): session closed for user root
+Jul 21 01:00:01 C9031 CRON[24738]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:00:03 C9031 CRON[24738]: pam_unix(cron:session): session closed for user root
+Jul 21 01:05:01 C9031 CRON[24943]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:05:03 C9031 CRON[24943]: pam_unix(cron:session): session closed for user root
+Jul 21 01:10:01 C9031 CRON[25148]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:10:03 C9031 CRON[25148]: pam_unix(cron:session): session closed for user root
+Jul 21 01:15:01 C9031 CRON[25346]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:15:04 C9031 CRON[25346]: pam_unix(cron:session): session closed for user root
+Jul 21 01:17:01 C9031 CRON[25549]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:17:01 C9031 CRON[25549]: pam_unix(cron:session): session closed for user root
+Jul 21 01:20:01 C9031 CRON[25555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:20:03 C9031 CRON[25555]: pam_unix(cron:session): session closed for user root
+Jul 21 01:25:01 C9031 CRON[25762]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:25:03 C9031 CRON[25762]: pam_unix(cron:session): session closed for user root
+Jul 21 01:30:01 C9031 CRON[25970]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:30:03 C9031 CRON[25970]: pam_unix(cron:session): session closed for user root
+Jul 21 01:35:01 C9031 CRON[26176]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:35:03 C9031 CRON[26176]: pam_unix(cron:session): session closed for user root
+Jul 21 01:40:01 C9031 CRON[26381]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:40:03 C9031 CRON[26381]: pam_unix(cron:session): session closed for user root
+Jul 21 01:45:01 C9031 CRON[26577]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:45:04 C9031 CRON[26577]: pam_unix(cron:session): session closed for user root
+Jul 21 01:50:01 C9031 CRON[26783]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:50:03 C9031 CRON[26783]: pam_unix(cron:session): session closed for user root
+Jul 21 01:55:01 C9031 CRON[26988]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 01:55:03 C9031 CRON[26988]: pam_unix(cron:session): session closed for user root
+Jul 21 02:00:01 C9031 CRON[27192]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:00:03 C9031 CRON[27192]: pam_unix(cron:session): session closed for user root
+Jul 21 02:05:01 C9031 CRON[27397]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:05:03 C9031 CRON[27397]: pam_unix(cron:session): session closed for user root
+Jul 21 02:10:01 C9031 CRON[27605]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:10:03 C9031 CRON[27605]: pam_unix(cron:session): session closed for user root
+Jul 21 02:15:01 C9031 CRON[27800]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:15:03 C9031 CRON[27800]: pam_unix(cron:session): session closed for user root
+Jul 21 02:17:01 C9031 CRON[28004]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:17:01 C9031 CRON[28004]: pam_unix(cron:session): session closed for user root
+Jul 21 02:20:01 C9031 CRON[28011]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:20:04 C9031 CRON[28011]: pam_unix(cron:session): session closed for user root
+Jul 21 02:25:01 C9031 CRON[28217]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:25:03 C9031 CRON[28217]: pam_unix(cron:session): session closed for user root
+Jul 21 02:30:01 C9031 CRON[28421]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:30:03 C9031 CRON[28421]: pam_unix(cron:session): session closed for user root
+Jul 21 02:35:01 C9031 CRON[28627]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:35:03 C9031 CRON[28627]: pam_unix(cron:session): session closed for user root
+Jul 21 02:40:01 C9031 CRON[28832]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:40:03 C9031 CRON[28832]: pam_unix(cron:session): session closed for user root
+Jul 21 02:45:01 C9031 CRON[29030]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:45:03 C9031 CRON[29030]: pam_unix(cron:session): session closed for user root
+Jul 21 02:50:01 C9031 CRON[29235]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:50:03 C9031 CRON[29235]: pam_unix(cron:session): session closed for user root
+Jul 21 02:55:01 C9031 CRON[29442]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 02:55:03 C9031 CRON[29442]: pam_unix(cron:session): session closed for user root
+Jul 21 03:00:01 C9031 CRON[29649]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:00:01 C9031 CRON[29650]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:00:02 C9031 CRON[29650]: pam_unix(cron:session): session closed for user root
+Jul 21 03:00:03 C9031 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jul 21 03:00:03 C9031 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 21 03:00:03 C9031 sudo: pam_unix(sudo:session): session closed for user root
+Jul 21 03:05:01 C9031 CRON[30020]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:05:05 C9031 CRON[30020]: pam_unix(cron:session): session closed for user root
+Jul 21 03:06:16 C9031 sshd[30201]: Did not receive identification string from 192.168.106.16
+Jul 21 03:06:43 C9031 sshd[30216]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 03:06:44 C9031 sshd[30223]: fatal: no hostkey alg [preauth]
+Jul 21 03:06:44 C9031 sshd[30225]: fatal: no hostkey alg [preauth]
+Jul 21 03:06:44 C9031 sshd[30217]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 03:06:44 C9031 sshd[30219]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 03:06:44 C9031 sshd[30221]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 03:06:45 C9031 sshd[30227]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 03:10:02 C9031 CRON[30235]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:10:08 C9031 CRON[30235]: pam_unix(cron:session): session closed for user root
+Jul 21 03:15:01 C9031 CRON[30445]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:15:07 C9031 CRON[30445]: pam_unix(cron:session): session closed for user root
+Jul 21 03:17:01 C9031 CRON[30650]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:17:01 C9031 CRON[30650]: pam_unix(cron:session): session closed for user root
+Jul 21 03:19:21 C9031 systemd-logind[874]: New seat seat0.
+Jul 21 03:19:38 C9031 sshd[1371]: Server listening on 0.0.0.0 port 22.
+Jul 21 03:19:38 C9031 sshd[1371]: Server listening on :: port 22.
+Jul 21 03:19:43 C9031 mdm[1607]: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jul 21 03:19:43 C9031 mdm[1607]: PAM adding faulty module: pam_kwallet.so
+Jul 21 03:20:01 C9031 CRON[1822]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:20:18 C9031 CRON[1822]: pam_unix(cron:session): session closed for user root
+Jul 21 03:24:41 C9031 su[2171]: Successful su for nobody by root
+Jul 21 03:24:41 C9031 su[2171]: + ??? root:nobody
+Jul 21 03:24:41 C9031 su[2171]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 21 03:24:41 C9031 systemd-logind[874]: New session c1 of user nobody.
+Jul 21 03:24:42 C9031 su[2171]: pam_unix(su:session): session closed for user nobody
+Jul 21 03:24:42 C9031 su[2250]: Successful su for nobody by root
+Jul 21 03:24:42 C9031 su[2250]: + ??? root:nobody
+Jul 21 03:24:42 C9031 su[2250]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 21 03:24:42 C9031 systemd-logind[874]: Removed session c1.
+Jul 21 03:24:42 C9031 systemd-logind[874]: New session c2 of user nobody.
+Jul 21 03:24:42 C9031 su[2250]: pam_unix(su:session): session closed for user nobody
+Jul 21 03:24:42 C9031 su[2264]: Successful su for nobody by root
+Jul 21 03:24:42 C9031 su[2264]: + ??? root:nobody
+Jul 21 03:24:42 C9031 su[2264]: pam_unix(su:session): session opened for user nobody by (uid=0)
+Jul 21 03:24:42 C9031 systemd-logind[874]: Removed session c2.
+Jul 21 03:24:42 C9031 systemd-logind[874]: New session c3 of user nobody.
+Jul 21 03:25:01 C9031 CRON[2279]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:25:09 C9031 CRON[2279]: pam_unix(cron:session): session closed for user root
+Jul 21 03:25:30 C9031 su[2264]: pam_unix(su:session): session closed for user nobody
+Jul 21 03:29:58 C9031 sshd[2543]: Did not receive identification string from 192.168.106.16
+Jul 21 03:30:01 C9031 CRON[2544]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:30:07 C9031 CRON[2544]: pam_unix(cron:session): session closed for user root
+Jul 21 03:30:12 C9031 sshd[2736]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 03:30:13 C9031 sshd[2743]: fatal: no hostkey alg [preauth]
+Jul 21 03:30:13 C9031 sshd[2745]: fatal: no hostkey alg [preauth]
+Jul 21 03:30:13 C9031 sshd[2739]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 03:30:13 C9031 sshd[2741]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 03:30:13 C9031 sshd[2737]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 03:30:14 C9031 sshd[2747]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 03:35:01 C9031 CRON[3236]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:35:11 C9031 CRON[3236]: pam_unix(cron:session): session closed for user root
+Jul 21 03:40:01 C9031 CRON[3739]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:40:06 C9031 CRON[3739]: pam_unix(cron:session): session closed for user root
+Jul 21 03:45:01 C9031 CRON[4000]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:45:06 C9031 CRON[4000]: pam_unix(cron:session): session closed for user root
+Jul 21 03:50:01 C9031 CRON[4196]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:50:05 C9031 CRON[4196]: pam_unix(cron:session): session closed for user root
+Jul 21 03:55:01 C9031 CRON[4402]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 03:55:10 C9031 CRON[4402]: pam_unix(cron:session): session closed for user root
+Jul 21 04:00:01 C9031 CRON[4610]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:00:09 C9031 CRON[4610]: pam_unix(cron:session): session closed for user root
+Jul 21 04:05:01 C9031 CRON[4814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:05:06 C9031 CRON[4814]: pam_unix(cron:session): session closed for user root
+Jul 21 04:10:01 C9031 CRON[5021]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:10:05 C9031 CRON[5021]: pam_unix(cron:session): session closed for user root
+Jul 21 04:15:01 C9031 CRON[5226]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:15:09 C9031 CRON[5226]: pam_unix(cron:session): session closed for user root
+Jul 21 04:17:01 C9031 CRON[5419]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:17:01 C9031 CRON[5419]: pam_unix(cron:session): session closed for user root
+Jul 21 04:20:01 C9031 CRON[5425]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:20:06 C9031 CRON[5425]: pam_unix(cron:session): session closed for user root
+Jul 21 04:25:01 C9031 CRON[5631]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:25:07 C9031 CRON[5631]: pam_unix(cron:session): session closed for user root
+Jul 21 04:30:01 C9031 CRON[5837]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:30:05 C9031 CRON[5837]: pam_unix(cron:session): session closed for user root
+Jul 21 04:35:01 C9031 CRON[6042]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:35:03 C9031 CRON[6042]: pam_unix(cron:session): session closed for user root
+Jul 21 04:40:01 C9031 CRON[6249]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:40:06 C9031 CRON[6249]: pam_unix(cron:session): session closed for user root
+Jul 21 04:45:01 C9031 CRON[6454]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:45:08 C9031 CRON[6454]: pam_unix(cron:session): session closed for user root
+Jul 21 04:50:01 C9031 CRON[6652]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:50:08 C9031 CRON[6652]: pam_unix(cron:session): session closed for user root
+Jul 21 04:55:01 C9031 CRON[6861]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 04:55:09 C9031 CRON[6861]: pam_unix(cron:session): session closed for user root
+Jul 21 05:00:01 C9031 CRON[7067]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:00:09 C9031 CRON[7067]: pam_unix(cron:session): session closed for user root
+Jul 21 05:05:01 C9031 CRON[7274]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:05:10 C9031 CRON[7274]: pam_unix(cron:session): session closed for user root
+Jul 21 05:10:01 C9031 CRON[7480]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:10:04 C9031 CRON[7480]: pam_unix(cron:session): session closed for user root
+Jul 21 05:15:01 C9031 CRON[7684]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:15:04 C9031 CRON[7684]: pam_unix(cron:session): session closed for user root
+Jul 21 05:17:01 C9031 CRON[7879]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:17:01 C9031 CRON[7879]: pam_unix(cron:session): session closed for user root
+Jul 21 05:20:01 C9031 CRON[7885]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:20:03 C9031 CRON[7885]: pam_unix(cron:session): session closed for user root
+Jul 21 05:25:01 C9031 CRON[8090]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:25:09 C9031 CRON[8090]: pam_unix(cron:session): session closed for user root
+Jul 21 05:30:01 C9031 CRON[8298]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:30:04 C9031 CRON[8298]: pam_unix(cron:session): session closed for user root
+Jul 21 05:35:01 C9031 CRON[8503]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:35:04 C9031 CRON[8503]: pam_unix(cron:session): session closed for user root
+Jul 21 05:40:01 C9031 CRON[8710]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:40:09 C9031 CRON[8710]: pam_unix(cron:session): session closed for user root
+Jul 21 05:45:01 C9031 CRON[8918]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:45:07 C9031 CRON[8918]: pam_unix(cron:session): session closed for user root
+Jul 21 05:50:01 C9031 CRON[9114]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:50:10 C9031 CRON[9114]: pam_unix(cron:session): session closed for user root
+Jul 21 05:55:01 C9031 CRON[9319]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 05:55:11 C9031 CRON[9319]: pam_unix(cron:session): session closed for user root
+Jul 21 06:00:01 C9031 CRON[9526]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:00:04 C9031 CRON[9526]: pam_unix(cron:session): session closed for user root
+Jul 21 06:04:52 C9031 sshd[9729]: Did not receive identification string from 192.168.106.16
+Jul 21 06:05:01 C9031 CRON[9732]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:05:06 C9031 CRON[9732]: pam_unix(cron:session): session closed for user root
+Jul 21 06:05:16 C9031 sshd[9924]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 06:05:18 C9031 sshd[9931]: fatal: no hostkey alg [preauth]
+Jul 21 06:05:18 C9031 sshd[9933]: fatal: no hostkey alg [preauth]
+Jul 21 06:05:18 C9031 sshd[9927]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:05:18 C9031 sshd[9929]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:05:18 C9031 sshd[9925]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:05:22 C9031 sshd[9935]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 06:10:01 C9031 CRON[9951]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:10:10 C9031 CRON[9951]: pam_unix(cron:session): session closed for user root
+Jul 21 06:15:01 C9031 CRON[10157]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:15:04 C9031 CRON[10157]: pam_unix(cron:session): session closed for user root
+Jul 21 06:17:01 C9031 CRON[10351]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:17:01 C9031 CRON[10351]: pam_unix(cron:session): session closed for user root
+Jul 21 06:20:01 C9031 CRON[10357]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:20:03 C9031 CRON[10357]: pam_unix(cron:session): session closed for user root
+Jul 21 06:25:01 C9031 CRON[10565]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:25:01 C9031 CRON[10566]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:25:01 C9031 CRON[10566]: pam_unix(cron:session): session closed for user root
+Jul 21 06:25:09 C9031 sshd[10563]: Did not receive identification string from 192.168.106.16
+Jul 21 06:25:09 C9031 CRON[10565]: pam_unix(cron:session): session closed for user root
+Jul 21 06:25:33 C9031 sshd[10758]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 06:25:35 C9031 sshd[10766]: fatal: no hostkey alg [preauth]
+Jul 21 06:25:35 C9031 sshd[10768]: fatal: no hostkey alg [preauth]
+Jul 21 06:25:35 C9031 sshd[10762]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:25:35 C9031 sshd[10759]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:25:35 C9031 sshd[10764]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 06:25:37 C9031 sshd[10770]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 06:30:01 C9031 CRON[10784]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:30:07 C9031 CRON[10784]: pam_unix(cron:session): session closed for user root
+Jul 21 06:35:01 C9031 CRON[10990]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:35:05 C9031 CRON[10990]: pam_unix(cron:session): session closed for user root
+Jul 21 06:40:01 C9031 CRON[11197]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:40:06 C9031 CRON[11197]: pam_unix(cron:session): session closed for user root
+Jul 21 06:45:01 C9031 CRON[11393]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:45:05 C9031 CRON[11393]: pam_unix(cron:session): session closed for user root
+Jul 21 06:50:01 C9031 CRON[11598]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:50:10 C9031 CRON[11598]: pam_unix(cron:session): session closed for user root
+Jul 21 06:55:01 C9031 CRON[11802]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 06:55:04 C9031 CRON[11802]: pam_unix(cron:session): session closed for user root
+Jul 21 07:00:01 C9031 CRON[12009]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:00:03 C9031 CRON[12009]: pam_unix(cron:session): session closed for user root
+Jul 21 07:05:01 C9031 CRON[12214]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:05:05 C9031 CRON[12214]: pam_unix(cron:session): session closed for user root
+Jul 21 07:10:01 C9031 CRON[12419]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:10:04 C9031 CRON[12419]: pam_unix(cron:session): session closed for user root
+Jul 21 07:15:01 C9031 CRON[12618]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:15:04 C9031 CRON[12618]: pam_unix(cron:session): session closed for user root
+Jul 21 07:17:01 C9031 CRON[12820]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:17:01 C9031 CRON[12820]: pam_unix(cron:session): session closed for user root
+Jul 21 07:20:01 C9031 CRON[12826]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:20:03 C9031 CRON[12826]: pam_unix(cron:session): session closed for user root
+Jul 21 07:25:01 C9031 CRON[13031]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:25:10 C9031 CRON[13031]: pam_unix(cron:session): session closed for user root
+Jul 21 07:30:01 C9031 CRON[13239]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:30:01 C9031 CRON[13238]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:30:01 C9031 CRON[13239]: pam_unix(cron:session): session closed for user root
+Jul 21 07:30:05 C9031 CRON[13238]: pam_unix(cron:session): session closed for user root
+Jul 21 07:35:01 C9031 CRON[13451]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:35:03 C9031 CRON[13451]: pam_unix(cron:session): session closed for user root
+Jul 21 07:40:01 C9031 CRON[13658]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:40:05 C9031 CRON[13658]: pam_unix(cron:session): session closed for user root
+Jul 21 07:45:01 C9031 CRON[13854]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:45:03 C9031 CRON[13854]: pam_unix(cron:session): session closed for user root
+Jul 21 07:50:01 C9031 CRON[14059]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:50:03 C9031 CRON[14059]: pam_unix(cron:session): session closed for user root
+Jul 21 07:55:01 C9031 CRON[14267]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 07:55:19 C9031 CRON[14267]: pam_unix(cron:session): session closed for user root
+Jul 21 08:00:01 C9031 CRON[14472]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:00:03 C9031 CRON[14472]: pam_unix(cron:session): session closed for user root
+Jul 21 08:05:01 C9031 CRON[14679]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:05:04 C9031 CRON[14679]: pam_unix(cron:session): session closed for user root
+Jul 21 08:10:01 C9031 CRON[14885]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:10:03 C9031 CRON[14885]: pam_unix(cron:session): session closed for user root
+Jul 21 08:15:01 C9031 CRON[15080]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:15:05 C9031 CRON[15080]: pam_unix(cron:session): session closed for user root
+Jul 21 08:17:01 C9031 CRON[15282]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:17:01 C9031 CRON[15282]: pam_unix(cron:session): session closed for user root
+Jul 21 08:20:01 C9031 CRON[15289]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:20:03 C9031 CRON[15289]: pam_unix(cron:session): session closed for user root
+Jul 21 08:25:01 C9031 CRON[15495]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:25:04 C9031 CRON[15495]: pam_unix(cron:session): session closed for user root
+Jul 21 08:30:01 C9031 CRON[15699]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:30:07 C9031 CRON[15699]: pam_unix(cron:session): session closed for user root
+Jul 21 08:35:01 C9031 CRON[15906]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:35:04 C9031 CRON[15906]: pam_unix(cron:session): session closed for user root
+Jul 21 08:40:01 C9031 CRON[16111]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:40:05 C9031 CRON[16111]: pam_unix(cron:session): session closed for user root
+Jul 21 08:45:01 C9031 CRON[16307]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:45:03 C9031 CRON[16307]: pam_unix(cron:session): session closed for user root
+Jul 21 08:50:01 C9031 CRON[16512]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:50:03 C9031 CRON[16512]: pam_unix(cron:session): session closed for user root
+Jul 21 08:55:01 C9031 CRON[16718]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 08:55:05 C9031 CRON[16718]: pam_unix(cron:session): session closed for user root
+Jul 21 09:00:01 C9031 CRON[16925]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:00:03 C9031 CRON[16925]: pam_unix(cron:session): session closed for user root
+Jul 21 09:05:01 C9031 CRON[17132]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:05:04 C9031 CRON[17132]: pam_unix(cron:session): session closed for user root
+Jul 21 09:05:18 C9031 sshd[17130]: Did not receive identification string from 192.168.106.16
+Jul 21 09:05:45 C9031 sshd[17323]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 09:05:46 C9031 sshd[17328]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:05:46 C9031 sshd[17326]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:05:46 C9031 sshd[17324]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:05:46 C9031 sshd[17330]: fatal: no hostkey alg [preauth]
+Jul 21 09:05:47 C9031 sshd[17332]: fatal: no hostkey alg [preauth]
+Jul 21 09:05:49 C9031 sshd[17334]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 09:10:01 C9031 CRON[17348]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:10:04 C9031 CRON[17348]: pam_unix(cron:session): session closed for user root
+Jul 21 09:15:01 C9031 CRON[17547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:15:06 C9031 CRON[17547]: pam_unix(cron:session): session closed for user root
+Jul 21 09:17:01 C9031 CRON[17750]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:17:01 C9031 CRON[17750]: pam_unix(cron:session): session closed for user root
+Jul 21 09:20:01 C9031 CRON[17757]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:20:04 C9031 sshd[17755]: Did not receive identification string from 192.168.106.16
+Jul 21 09:20:05 C9031 CRON[17757]: pam_unix(cron:session): session closed for user root
+Jul 21 09:20:31 C9031 sshd[17949]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 09:20:38 C9031 sshd[17950]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 09:20:39 C9031 sshd[17955]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:20:39 C9031 sshd[17953]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:20:39 C9031 sshd[17951]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 09:20:39 C9031 sshd[17957]: fatal: no hostkey alg [preauth]
+Jul 21 09:20:40 C9031 sshd[17959]: fatal: no hostkey alg [preauth]
+Jul 21 09:25:01 C9031 CRON[17976]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:25:04 C9031 CRON[17976]: pam_unix(cron:session): session closed for user root
+Jul 21 09:30:01 C9031 CRON[18182]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:30:03 C9031 CRON[18182]: pam_unix(cron:session): session closed for user root
+Jul 21 09:35:01 C9031 CRON[18386]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:35:03 C9031 CRON[18386]: pam_unix(cron:session): session closed for user root
+Jul 21 09:40:01 C9031 CRON[18584]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:40:05 C9031 CRON[18584]: pam_unix(cron:session): session closed for user root
+Jul 21 09:45:01 C9031 CRON[18789]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:45:04 C9031 CRON[18789]: pam_unix(cron:session): session closed for user root
+Jul 21 09:50:01 C9031 CRON[18997]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:50:05 C9031 CRON[18997]: pam_unix(cron:session): session closed for user root
+Jul 21 09:55:01 C9031 CRON[19201]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 09:55:05 C9031 CRON[19201]: pam_unix(cron:session): session closed for user root
+Jul 21 10:00:01 C9031 CRON[19406]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:00:05 C9031 CRON[19406]: pam_unix(cron:session): session closed for user root
+Jul 21 10:05:01 C9031 CRON[19612]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:05:03 C9031 CRON[19612]: pam_unix(cron:session): session closed for user root
+Jul 21 10:10:01 C9031 CRON[19808]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:10:04 C9031 CRON[19808]: pam_unix(cron:session): session closed for user root
+Jul 21 10:15:01 C9031 CRON[20013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:15:05 C9031 CRON[20013]: pam_unix(cron:session): session closed for user root
+Jul 21 10:17:01 C9031 CRON[20215]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:17:01 C9031 CRON[20215]: pam_unix(cron:session): session closed for user root
+Jul 21 10:20:01 C9031 CRON[20221]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:20:03 C9031 CRON[20221]: pam_unix(cron:session): session closed for user root
+Jul 21 10:25:01 C9031 CRON[20427]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:25:04 C9031 CRON[20427]: pam_unix(cron:session): session closed for user root
+Jul 21 10:30:01 C9031 CRON[20632]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:30:04 C9031 CRON[20632]: pam_unix(cron:session): session closed for user root
+Jul 21 10:35:01 C9031 CRON[20836]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:35:05 C9031 CRON[20836]: pam_unix(cron:session): session closed for user root
+Jul 21 10:40:01 C9031 CRON[21032]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:40:05 C9031 CRON[21032]: pam_unix(cron:session): session closed for user root
+Jul 21 10:45:01 C9031 CRON[21239]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:45:05 C9031 CRON[21239]: pam_unix(cron:session): session closed for user root
+Jul 21 10:50:01 C9031 CRON[21444]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:50:06 C9031 CRON[21444]: pam_unix(cron:session): session closed for user root
+Jul 21 10:55:01 C9031 CRON[21651]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 10:55:04 C9031 CRON[21651]: pam_unix(cron:session): session closed for user root
+Jul 21 11:00:01 C9031 CRON[21856]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:00:04 C9031 CRON[21856]: pam_unix(cron:session): session closed for user root
+Jul 21 11:03:53 C9031 sshd[22049]: Did not receive identification string from 192.168.106.16
+Jul 21 11:04:27 C9031 sshd[22052]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 11:04:27 C9031 sshd[22053]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 11:04:29 C9031 sshd[22060]: fatal: no hostkey alg [preauth]
+Jul 21 11:04:29 C9031 sshd[22062]: fatal: no hostkey alg [preauth]
+Jul 21 11:04:29 C9031 sshd[22058]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 11:04:29 C9031 sshd[22054]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 11:04:29 C9031 sshd[22056]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 11:05:01 C9031 CRON[22074]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:05:04 C9031 CRON[22074]: pam_unix(cron:session): session closed for user root
+Jul 21 11:10:01 C9031 CRON[22273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:10:04 C9031 CRON[22273]: pam_unix(cron:session): session closed for user root
+Jul 21 11:15:01 C9031 CRON[22479]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:15:04 C9031 CRON[22479]: pam_unix(cron:session): session closed for user root
+Jul 21 11:17:01 C9031 CRON[22681]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:17:01 C9031 CRON[22681]: pam_unix(cron:session): session closed for user root
+Jul 21 11:20:01 C9031 CRON[22687]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:20:03 C9031 CRON[22687]: pam_unix(cron:session): session closed for user root
+Jul 21 11:25:01 C9031 CRON[22894]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:25:04 C9031 CRON[22894]: pam_unix(cron:session): session closed for user root
+Jul 21 11:30:01 C9031 CRON[23100]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:30:05 C9031 CRON[23100]: pam_unix(cron:session): session closed for user root
+Jul 21 11:35:01 C9031 CRON[23308]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:35:03 C9031 CRON[23308]: pam_unix(cron:session): session closed for user root
+Jul 21 11:40:01 C9031 CRON[23505]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:40:04 C9031 CRON[23505]: pam_unix(cron:session): session closed for user root
+Jul 21 11:45:01 C9031 CRON[23711]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:45:05 C9031 CRON[23711]: pam_unix(cron:session): session closed for user root
+Jul 21 11:50:01 C9031 CRON[23916]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:50:04 C9031 CRON[23916]: pam_unix(cron:session): session closed for user root
+Jul 21 11:55:01 C9031 CRON[24121]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 11:55:03 C9031 CRON[24121]: pam_unix(cron:session): session closed for user root
+Jul 21 12:00:01 C9031 CRON[24329]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:00:04 C9031 CRON[24329]: pam_unix(cron:session): session closed for user root
+Jul 21 12:05:01 C9031 CRON[24537]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:05:03 C9031 CRON[24537]: pam_unix(cron:session): session closed for user root
+Jul 21 12:06:11 C9031 sshd[24536]: Did not receive identification string from 192.168.106.16
+Jul 21 12:06:43 C9031 sshd[24728]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 12:06:51 C9031 sshd[24729]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 12:06:52 C9031 sshd[24736]: fatal: no hostkey alg [preauth]
+Jul 21 12:06:53 C9031 sshd[24739]: fatal: no hostkey alg [preauth]
+Jul 21 12:06:53 C9031 sshd[24734]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 12:06:53 C9031 sshd[24732]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 12:06:53 C9031 sshd[24730]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 12:10:01 C9031 CRON[24744]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:10:04 C9031 CRON[24744]: pam_unix(cron:session): session closed for user root
+Jul 21 12:15:01 C9031 CRON[24951]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:15:06 C9031 CRON[24951]: pam_unix(cron:session): session closed for user root
+Jul 21 12:17:01 C9031 CRON[25154]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:17:01 C9031 CRON[25154]: pam_unix(cron:session): session closed for user root
+Jul 21 12:20:01 C9031 CRON[25160]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:20:03 C9031 CRON[25160]: pam_unix(cron:session): session closed for user root
+Jul 21 12:25:01 C9031 CRON[25364]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:25:06 C9031 CRON[25364]: pam_unix(cron:session): session closed for user root
+Jul 21 12:30:01 C9031 CRON[25570]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:30:05 C9031 CRON[25570]: pam_unix(cron:session): session closed for user root
+Jul 21 12:35:01 C9031 CRON[25767]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:35:06 C9031 CRON[25767]: pam_unix(cron:session): session closed for user root
+Jul 21 12:40:01 C9031 CRON[25974]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:40:05 C9031 CRON[25974]: pam_unix(cron:session): session closed for user root
+Jul 21 12:45:01 C9031 CRON[26178]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:45:06 C9031 CRON[26178]: pam_unix(cron:session): session closed for user root
+Jul 21 12:50:01 C9031 CRON[26382]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:50:05 C9031 CRON[26382]: pam_unix(cron:session): session closed for user root
+Jul 21 12:55:01 C9031 CRON[26589]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 12:55:04 C9031 CRON[26589]: pam_unix(cron:session): session closed for user root
+Jul 21 13:00:01 C9031 CRON[26795]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:00:06 C9031 CRON[26795]: pam_unix(cron:session): session closed for user root
+Jul 21 13:05:01 C9031 CRON[26993]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:05:04 C9031 CRON[26993]: pam_unix(cron:session): session closed for user root
+Jul 21 13:10:01 C9031 CRON[27199]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:10:03 C9031 CRON[27199]: pam_unix(cron:session): session closed for user root
+Jul 21 13:15:01 C9031 CRON[27404]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:15:05 C9031 CRON[27404]: pam_unix(cron:session): session closed for user root
+Jul 21 13:17:01 C9031 CRON[27599]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:17:01 C9031 CRON[27599]: pam_unix(cron:session): session closed for user root
+Jul 21 13:20:01 C9031 CRON[27615]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:20:03 C9031 CRON[27615]: pam_unix(cron:session): session closed for user root
+Jul 21 13:25:01 C9031 CRON[27819]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:25:05 C9031 CRON[27819]: pam_unix(cron:session): session closed for user root
+Jul 21 13:30:01 C9031 CRON[28024]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:30:03 C9031 CRON[28024]: pam_unix(cron:session): session closed for user root
+Jul 21 13:35:01 C9031 CRON[28222]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:35:04 C9031 CRON[28222]: pam_unix(cron:session): session closed for user root
+Jul 21 13:40:01 C9031 CRON[28427]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:40:04 C9031 CRON[28427]: pam_unix(cron:session): session closed for user root
+Jul 21 13:45:01 C9031 CRON[28633]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:45:06 C9031 CRON[28633]: pam_unix(cron:session): session closed for user root
+Jul 21 13:50:01 C9031 CRON[28837]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:50:06 C9031 CRON[28837]: pam_unix(cron:session): session closed for user root
+Jul 21 13:55:01 C9031 CRON[29045]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 13:55:03 C9031 CRON[29045]: pam_unix(cron:session): session closed for user root
+Jul 21 14:00:01 C9031 CRON[29252]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:00:05 C9031 CRON[29252]: pam_unix(cron:session): session closed for user root
+Jul 21 14:05:01 C9031 CRON[29448]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:05:04 C9031 CRON[29448]: pam_unix(cron:session): session closed for user root
+Jul 21 14:10:01 C9031 CRON[29654]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:10:04 C9031 CRON[29654]: pam_unix(cron:session): session closed for user root
+Jul 21 14:15:01 C9031 CRON[29859]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:15:03 C9031 CRON[29859]: pam_unix(cron:session): session closed for user root
+Jul 21 14:17:01 C9031 CRON[30051]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:17:01 C9031 CRON[30051]: pam_unix(cron:session): session closed for user root
+Jul 21 14:20:01 C9031 CRON[30066]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:20:05 C9031 CRON[30066]: pam_unix(cron:session): session closed for user root
+Jul 21 14:25:01 C9031 CRON[30272]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:25:03 C9031 CRON[30272]: pam_unix(cron:session): session closed for user root
+Jul 21 14:30:01 C9031 CRON[30476]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:30:04 C9031 CRON[30476]: pam_unix(cron:session): session closed for user root
+Jul 21 14:35:01 C9031 CRON[30673]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:35:04 C9031 CRON[30673]: pam_unix(cron:session): session closed for user root
+Jul 21 14:40:01 C9031 CRON[30879]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:40:03 C9031 CRON[30879]: pam_unix(cron:session): session closed for user root
+Jul 21 14:45:01 C9031 CRON[31084]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:45:04 C9031 CRON[31084]: pam_unix(cron:session): session closed for user root
+Jul 21 14:50:01 C9031 CRON[31288]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:50:03 C9031 CRON[31288]: pam_unix(cron:session): session closed for user root
+Jul 21 14:55:01 C9031 CRON[31493]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 14:55:05 C9031 CRON[31493]: pam_unix(cron:session): session closed for user root
+Jul 21 15:00:01 C9031 CRON[31698]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:00:03 C9031 CRON[31698]: pam_unix(cron:session): session closed for user root
+Jul 21 15:05:01 C9031 CRON[31896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:05:03 C9031 CRON[31896]: pam_unix(cron:session): session closed for user root
+Jul 21 15:06:32 C9031 sshd[32088]: Did not receive identification string from 192.168.106.16
+Jul 21 15:07:15 C9031 sshd[32100]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 15:07:16 C9031 sshd[32107]: fatal: no hostkey alg [preauth]
+Jul 21 15:07:17 C9031 sshd[32109]: fatal: no hostkey alg [preauth]
+Jul 21 15:07:17 C9031 sshd[32105]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 15:07:17 C9031 sshd[32103]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 15:07:17 C9031 sshd[32101]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 15:07:19 C9031 sshd[32111]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 15:10:01 C9031 CRON[32114]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:10:06 C9031 CRON[32114]: pam_unix(cron:session): session closed for user root
+Jul 21 15:15:01 C9031 CRON[32320]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:15:04 C9031 CRON[32320]: pam_unix(cron:session): session closed for user root
+Jul 21 15:17:01 C9031 CRON[32514]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:17:01 C9031 CRON[32514]: pam_unix(cron:session): session closed for user root
+Jul 21 15:20:01 C9031 CRON[32529]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:20:03 C9031 CRON[32529]: pam_unix(cron:session): session closed for user root
+Jul 21 15:25:01 C9031 CRON[32733]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:25:04 C9031 CRON[32733]: pam_unix(cron:session): session closed for user root
+Jul 21 15:30:01 C9031 CRON[478]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:30:03 C9031 CRON[478]: pam_unix(cron:session): session closed for user root
+Jul 21 15:31:07 C9031 sshd[468]: Did not receive identification string from 192.168.106.16
+Jul 21 15:31:42 C9031 sshd[673]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 15:31:43 C9031 sshd[676]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 15:31:43 C9031 sshd[674]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 15:31:43 C9031 sshd[680]: fatal: no hostkey alg [preauth]
+Jul 21 15:31:44 C9031 sshd[682]: fatal: no hostkey alg [preauth]
+Jul 21 15:31:44 C9031 sshd[678]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 15:31:50 C9031 sshd[684]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 15:35:01 C9031 CRON[688]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:35:03 C9031 CRON[688]: pam_unix(cron:session): session closed for user root
+Jul 21 15:40:01 C9031 CRON[917]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:40:03 C9031 CRON[917]: pam_unix(cron:session): session closed for user root
+Jul 21 15:45:01 C9031 CRON[1126]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:45:03 C9031 CRON[1126]: pam_unix(cron:session): session closed for user root
+Jul 21 15:50:01 C9031 CRON[1335]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:50:04 C9031 CRON[1335]: pam_unix(cron:session): session closed for user root
+Jul 21 15:55:01 C9031 CRON[1550]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 15:55:03 C9031 CRON[1550]: pam_unix(cron:session): session closed for user root
+Jul 21 16:00:01 C9031 CRON[1770]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:00:04 C9031 CRON[1770]: pam_unix(cron:session): session closed for user root
+Jul 21 16:05:01 C9031 CRON[1975]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:05:04 C9031 CRON[1975]: pam_unix(cron:session): session closed for user root
+Jul 21 16:10:01 C9031 CRON[2251]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:10:04 C9031 CRON[2251]: pam_unix(cron:session): session closed for user root
+Jul 21 16:15:01 C9031 CRON[2456]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:15:03 C9031 CRON[2456]: pam_unix(cron:session): session closed for user root
+Jul 21 16:17:01 C9031 CRON[2650]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:17:01 C9031 CRON[2650]: pam_unix(cron:session): session closed for user root
+Jul 21 16:20:01 C9031 CRON[2665]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:20:04 C9031 CRON[2665]: pam_unix(cron:session): session closed for user root
+Jul 21 16:21:31 C9031 sshd[2858]: Did not receive identification string from 192.168.106.16
+Jul 21 16:22:00 C9031 sshd[2860]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 16:22:00 C9031 sshd[2863]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 16:22:01 C9031 sshd[2868]: fatal: no hostkey alg [preauth]
+Jul 21 16:22:01 C9031 sshd[2870]: fatal: no hostkey alg [preauth]
+Jul 21 16:22:01 C9031 sshd[2861]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 16:22:01 C9031 sshd[2866]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 16:22:01 C9031 sshd[2864]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 16:25:01 C9031 CRON[2884]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:25:03 C9031 CRON[2884]: pam_unix(cron:session): session closed for user root
+Jul 21 16:30:01 C9031 CRON[3081]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:30:05 C9031 CRON[3081]: pam_unix(cron:session): session closed for user root
+Jul 21 16:35:01 C9031 CRON[3287]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:35:03 C9031 CRON[3287]: pam_unix(cron:session): session closed for user root
+Jul 21 16:40:01 C9031 CRON[3494]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:40:03 C9031 CRON[3494]: pam_unix(cron:session): session closed for user root
+Jul 21 16:45:01 C9031 CRON[3699]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:45:04 C9031 CRON[3699]: pam_unix(cron:session): session closed for user root
+Jul 21 16:50:01 C9031 CRON[3905]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:50:03 C9031 CRON[3905]: pam_unix(cron:session): session closed for user root
+Jul 21 16:53:31 C9031 sshd[4099]: Did not receive identification string from 192.168.106.16
+Jul 21 16:53:56 C9031 sshd[4101]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 16:53:57 C9031 sshd[4102]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 16:53:58 C9031 sshd[4108]: fatal: no hostkey alg [preauth]
+Jul 21 16:53:58 C9031 sshd[4110]: fatal: no hostkey alg [preauth]
+Jul 21 16:53:58 C9031 sshd[4106]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 16:53:58 C9031 sshd[4104]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 16:53:59 C9031 sshd[4112]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 16:55:01 C9031 CRON[4123]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 16:55:03 C9031 CRON[4123]: pam_unix(cron:session): session closed for user root
+Jul 21 17:00:01 C9031 CRON[4321]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:00:03 C9031 CRON[4321]: pam_unix(cron:session): session closed for user root
+Jul 21 17:05:01 C9031 CRON[4526]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:05:04 C9031 CRON[4526]: pam_unix(cron:session): session closed for user root
+Jul 21 17:10:01 C9031 CRON[4731]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:10:03 C9031 CRON[4731]: pam_unix(cron:session): session closed for user root
+Jul 21 17:15:01 C9031 CRON[4937]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:15:05 C9031 CRON[4937]: pam_unix(cron:session): session closed for user root
+Jul 21 17:17:01 C9031 CRON[5130]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:17:01 C9031 CRON[5130]: pam_unix(cron:session): session closed for user root
+Jul 21 17:20:01 C9031 CRON[5145]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:20:03 C9031 CRON[5145]: pam_unix(cron:session): session closed for user root
+Jul 21 17:22:24 C9031 sshd[5340]: Did not receive identification string from 192.168.106.16
+Jul 21 17:22:48 C9031 sshd[5342]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 17:22:50 C9031 sshd[5349]: fatal: no hostkey alg [preauth]
+Jul 21 17:22:50 C9031 sshd[5351]: fatal: no hostkey alg [preauth]
+Jul 21 17:22:50 C9031 sshd[5343]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 17:22:50 C9031 sshd[5347]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 17:22:50 C9031 sshd[5345]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 17:22:56 C9031 sshd[5353]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 17:25:01 C9031 CRON[5366]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:25:06 C9031 CRON[5366]: pam_unix(cron:session): session closed for user root
+Jul 21 17:29:50 C9031 sshd[5562]: Did not receive identification string from 192.168.106.16
+Jul 21 17:30:01 C9031 CRON[5564]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:30:03 C9031 CRON[5564]: pam_unix(cron:session): session closed for user root
+Jul 21 17:31:38 C9031 sshd[5765]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 17:31:40 C9031 sshd[5772]: fatal: no hostkey alg [preauth]
+Jul 21 17:31:40 C9031 sshd[5774]: fatal: no hostkey alg [preauth]
+Jul 21 17:31:40 C9031 sshd[5766]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 17:31:40 C9031 sshd[5768]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 17:31:40 C9031 sshd[5776]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 17:31:40 C9031 sshd[5770]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 17:35:01 C9031 CRON[5781]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:35:03 C9031 CRON[5781]: pam_unix(cron:session): session closed for user root
+Jul 21 17:36:31 C9031 sshd[5973]: Did not receive identification string from 192.168.106.16
+Jul 21 17:37:07 C9031 sshd[5984]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 17:37:10 C9031 sshd[5986]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 17:37:12 C9031 sshd[5993]: fatal: no hostkey alg [preauth]
+Jul 21 17:37:12 C9031 sshd[5995]: fatal: no hostkey alg [preauth]
+Jul 21 17:37:12 C9031 sshd[5991]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 17:37:12 C9031 sshd[5987]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 17:37:12 C9031 sshd[5989]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 17:40:01 C9031 CRON[6000]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:40:03 C9031 CRON[6000]: pam_unix(cron:session): session closed for user root
+Jul 21 17:45:01 C9031 CRON[6205]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:45:04 C9031 CRON[6205]: pam_unix(cron:session): session closed for user root
+Jul 21 17:50:01 C9031 CRON[6410]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:50:03 C9031 CRON[6410]: pam_unix(cron:session): session closed for user root
+Jul 21 17:55:01 C9031 CRON[6617]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 17:55:04 C9031 CRON[6617]: pam_unix(cron:session): session closed for user root
+Jul 21 18:00:01 C9031 CRON[6814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:00:03 C9031 CRON[6814]: pam_unix(cron:session): session closed for user root
+Jul 21 18:05:01 C9031 CRON[7019]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:05:03 C9031 CRON[7019]: pam_unix(cron:session): session closed for user root
+Jul 21 18:06:38 C9031 sshd[7210]: Did not receive identification string from 192.168.106.16
+Jul 21 18:07:00 C9031 sshd[7221]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 18:07:01 C9031 sshd[7226]: error: buffer_get_bignum2_ret: negative numbers not supported [preauth]
+Jul 21 18:07:01 C9031 sshd[7226]: fatal: buffer_get_bignum2: buffer error [preauth]
+Jul 21 18:07:01 C9031 sshd[7222]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 18:07:01 C9031 sshd[7224]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 18:07:07 C9031 sshd[7228]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 18:10:01 C9031 CRON[7233]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:10:04 C9031 CRON[7233]: pam_unix(cron:session): session closed for user root
+Jul 21 18:15:01 C9031 CRON[7438]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:15:03 C9031 CRON[7438]: pam_unix(cron:session): session closed for user root
+Jul 21 18:17:01 C9031 CRON[7631]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:17:01 C9031 CRON[7631]: pam_unix(cron:session): session closed for user root
+Jul 21 18:20:01 C9031 CRON[7647]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:20:03 C9031 CRON[7647]: pam_unix(cron:session): session closed for user root
+Jul 21 18:25:01 C9031 CRON[7852]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:25:03 C9031 CRON[7852]: pam_unix(cron:session): session closed for user root
+Jul 21 18:30:01 C9031 CRON[8048]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:30:04 C9031 CRON[8048]: pam_unix(cron:session): session closed for user root
+Jul 21 18:35:01 C9031 CRON[8254]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:35:03 C9031 CRON[8254]: pam_unix(cron:session): session closed for user root
+Jul 21 18:40:01 C9031 CRON[8459]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:40:03 C9031 CRON[8459]: pam_unix(cron:session): session closed for user root
+Jul 21 18:41:32 C9031 sshd[8653]: Did not receive identification string from 192.168.106.16
+Jul 21 18:41:54 C9031 sshd[8655]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 18:41:59 C9031 sshd[8656]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 18:42:01 C9031 sshd[8663]: fatal: no hostkey alg [preauth]
+Jul 21 18:42:01 C9031 sshd[8665]: fatal: no hostkey alg [preauth]
+Jul 21 18:42:01 C9031 sshd[8661]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 18:42:01 C9031 sshd[8657]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 18:42:01 C9031 sshd[8659]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 18:45:01 C9031 CRON[8680]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:45:03 C9031 CRON[8680]: pam_unix(cron:session): session closed for user root
+Jul 21 18:50:01 C9031 CRON[8886]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:50:03 C9031 CRON[8886]: pam_unix(cron:session): session closed for user root
+Jul 21 18:55:01 C9031 CRON[9082]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 18:55:03 C9031 CRON[9082]: pam_unix(cron:session): session closed for user root
+Jul 21 19:00:01 C9031 CRON[9288]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:00:04 C9031 CRON[9288]: pam_unix(cron:session): session closed for user root
+Jul 21 19:05:01 C9031 CRON[9495]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:05:03 C9031 CRON[9495]: pam_unix(cron:session): session closed for user root
+Jul 21 19:10:01 C9031 CRON[9701]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:10:04 C9031 CRON[9701]: pam_unix(cron:session): session closed for user root
+Jul 21 19:15:01 C9031 CRON[9906]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:15:03 C9031 CRON[9906]: pam_unix(cron:session): session closed for user root
+Jul 21 19:17:01 C9031 CRON[10099]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:17:01 C9031 CRON[10099]: pam_unix(cron:session): session closed for user root
+Jul 21 19:20:01 C9031 CRON[10115]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:20:03 C9031 CRON[10115]: pam_unix(cron:session): session closed for user root
+Jul 21 19:25:01 C9031 CRON[10312]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:25:03 C9031 CRON[10312]: pam_unix(cron:session): session closed for user root
+Jul 21 19:30:01 C9031 CRON[10517]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:30:04 C9031 CRON[10517]: pam_unix(cron:session): session closed for user root
+Jul 21 19:35:01 C9031 CRON[10723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:35:03 C9031 CRON[10723]: pam_unix(cron:session): session closed for user root
+Jul 21 19:40:01 C9031 CRON[10928]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:40:03 C9031 CRON[10928]: pam_unix(cron:session): session closed for user root
+Jul 21 19:45:01 C9031 CRON[11133]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:45:03 C9031 CRON[11133]: pam_unix(cron:session): session closed for user root
+Jul 21 19:50:01 C9031 CRON[11340]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:50:03 C9031 CRON[11340]: pam_unix(cron:session): session closed for user root
+Jul 21 19:55:01 C9031 CRON[11537]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 19:55:03 C9031 CRON[11537]: pam_unix(cron:session): session closed for user root
+Jul 21 20:00:01 C9031 CRON[11743]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:00:03 C9031 CRON[11743]: pam_unix(cron:session): session closed for user root
+Jul 21 20:05:01 C9031 CRON[11948]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:05:03 C9031 CRON[11948]: pam_unix(cron:session): session closed for user root
+Jul 21 20:10:01 C9031 CRON[12154]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:10:04 C9031 CRON[12154]: pam_unix(cron:session): session closed for user root
+Jul 21 20:12:11 C9031 sshd[12347]: Did not receive identification string from 192.168.106.16
+Jul 21 20:12:41 C9031 sshd[12350]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 20:12:44 C9031 sshd[12351]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 20:12:46 C9031 sshd[12358]: fatal: no hostkey alg [preauth]
+Jul 21 20:12:46 C9031 sshd[12360]: fatal: no hostkey alg [preauth]
+Jul 21 20:12:46 C9031 sshd[12352]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 20:12:46 C9031 sshd[12356]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 20:12:46 C9031 sshd[12354]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 20:15:01 C9031 CRON[12374]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:15:03 C9031 CRON[12374]: pam_unix(cron:session): session closed for user root
+Jul 21 20:17:01 C9031 CRON[12566]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:17:01 C9031 CRON[12566]: pam_unix(cron:session): session closed for user root
+Jul 21 20:20:01 C9031 CRON[12581]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:20:03 C9031 CRON[12581]: pam_unix(cron:session): session closed for user root
+Jul 21 20:25:01 C9031 CRON[12779]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:25:03 C9031 CRON[12779]: pam_unix(cron:session): session closed for user root
+Jul 21 20:30:01 C9031 CRON[12986]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:30:03 C9031 CRON[12986]: pam_unix(cron:session): session closed for user root
+Jul 21 20:35:01 C9031 CRON[13191]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:35:04 C9031 CRON[13191]: pam_unix(cron:session): session closed for user root
+Jul 21 20:40:01 C9031 CRON[13397]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:40:03 C9031 CRON[13397]: pam_unix(cron:session): session closed for user root
+Jul 21 20:45:01 C9031 CRON[13602]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:45:03 C9031 CRON[13602]: pam_unix(cron:session): session closed for user root
+Jul 21 20:50:01 C9031 CRON[13809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:50:03 C9031 CRON[13809]: pam_unix(cron:session): session closed for user root
+Jul 21 20:51:58 C9031 sshd[14005]: Did not receive identification string from 192.168.106.16
+Jul 21 20:52:24 C9031 sshd[14008]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 20:52:25 C9031 sshd[14015]: fatal: no hostkey alg [preauth]
+Jul 21 20:52:25 C9031 sshd[14017]: fatal: no hostkey alg [preauth]
+Jul 21 20:52:25 C9031 sshd[14011]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 20:52:25 C9031 sshd[14009]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 20:52:25 C9031 sshd[14013]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 20:52:26 C9031 sshd[14019]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 20:55:01 C9031 CRON[14023]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 20:55:03 C9031 CRON[14023]: pam_unix(cron:session): session closed for user root
+Jul 21 21:00:01 C9031 CRON[14228]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:00:03 C9031 CRON[14228]: pam_unix(cron:session): session closed for user root
+Jul 21 21:05:01 C9031 CRON[14433]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:05:03 C9031 CRON[14433]: pam_unix(cron:session): session closed for user root
+Jul 21 21:06:26 C9031 sshd[14625]: Did not receive identification string from 192.168.106.16
+Jul 21 21:06:50 C9031 sshd[14629]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 21 21:06:58 C9031 sshd[14630]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 21 21:06:59 C9031 sshd[14637]: fatal: no hostkey alg [preauth]
+Jul 21 21:07:00 C9031 sshd[14639]: fatal: no hostkey alg [preauth]
+Jul 21 21:07:00 C9031 sshd[14631]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 21:07:00 C9031 sshd[14633]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 21:07:00 C9031 sshd[14635]: Connection closed by 192.168.106.16 [preauth]
+Jul 21 21:10:01 C9031 CRON[14654]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:10:04 C9031 CRON[14654]: pam_unix(cron:session): session closed for user root
+Jul 21 21:15:01 C9031 CRON[14858]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:15:03 C9031 CRON[14858]: pam_unix(cron:session): session closed for user root
+Jul 21 21:17:01 C9031 CRON[15051]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:17:01 C9031 CRON[15051]: pam_unix(cron:session): session closed for user root
+Jul 21 21:20:01 C9031 CRON[15068]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:20:03 C9031 CRON[15068]: pam_unix(cron:session): session closed for user root
+Jul 21 21:25:02 C9031 CRON[15266]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:25:04 C9031 CRON[15266]: pam_unix(cron:session): session closed for user root
+Jul 21 21:30:01 C9031 CRON[15471]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:30:03 C9031 CRON[15471]: pam_unix(cron:session): session closed for user root
+Jul 21 21:35:01 C9031 CRON[15677]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:35:03 C9031 CRON[15677]: pam_unix(cron:session): session closed for user root
+Jul 21 21:40:01 C9031 CRON[15883]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:40:03 C9031 CRON[15883]: pam_unix(cron:session): session closed for user root
+Jul 21 21:45:01 C9031 CRON[16087]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:45:03 C9031 CRON[16087]: pam_unix(cron:session): session closed for user root
+Jul 21 21:50:01 C9031 CRON[16293]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:50:04 C9031 CRON[16293]: pam_unix(cron:session): session closed for user root
+Jul 21 21:55:01 C9031 CRON[16492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 21:55:03 C9031 CRON[16492]: pam_unix(cron:session): session closed for user root
+Jul 21 22:00:01 C9031 CRON[16697]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:00:03 C9031 CRON[16697]: pam_unix(cron:session): session closed for user root
+Jul 21 22:05:01 C9031 CRON[16902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:05:03 C9031 CRON[16902]: pam_unix(cron:session): session closed for user root
+Jul 21 22:10:01 C9031 CRON[17107]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:10:03 C9031 CRON[17107]: pam_unix(cron:session): session closed for user root
+Jul 21 22:15:01 C9031 CRON[17312]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:15:03 C9031 CRON[17312]: pam_unix(cron:session): session closed for user root
+Jul 21 22:17:01 C9031 CRON[17505]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:17:01 C9031 CRON[17505]: pam_unix(cron:session): session closed for user root
+Jul 21 22:20:01 C9031 CRON[17511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:20:04 C9031 CRON[17511]: pam_unix(cron:session): session closed for user root
+Jul 21 22:25:01 C9031 CRON[17717]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:25:03 C9031 CRON[17717]: pam_unix(cron:session): session closed for user root
+Jul 21 22:30:01 C9031 CRON[17922]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:30:03 C9031 CRON[17922]: pam_unix(cron:session): session closed for user root
+Jul 21 22:35:01 C9031 CRON[18126]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:35:03 C9031 CRON[18126]: pam_unix(cron:session): session closed for user root
+Jul 21 22:40:01 C9031 CRON[18331]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:40:03 C9031 CRON[18331]: pam_unix(cron:session): session closed for user root
+Jul 21 22:45:01 C9031 CRON[18538]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:45:03 C9031 CRON[18538]: pam_unix(cron:session): session closed for user root
+Jul 21 22:50:01 C9031 CRON[18734]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:50:04 C9031 CRON[18734]: pam_unix(cron:session): session closed for user root
+Jul 21 22:55:01 C9031 CRON[18941]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 22:55:03 C9031 CRON[18941]: pam_unix(cron:session): session closed for user root
+Jul 21 23:00:01 C9031 CRON[19147]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:00:03 C9031 CRON[19147]: pam_unix(cron:session): session closed for user root
+Jul 21 23:05:01 C9031 CRON[19352]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:05:03 C9031 CRON[19352]: pam_unix(cron:session): session closed for user root
+Jul 21 23:10:01 C9031 CRON[19559]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:10:03 C9031 CRON[19559]: pam_unix(cron:session): session closed for user root
+Jul 21 23:15:01 C9031 CRON[19764]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:15:03 C9031 CRON[19764]: pam_unix(cron:session): session closed for user root
+Jul 21 23:17:01 C9031 CRON[19958]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:17:01 C9031 CRON[19958]: pam_unix(cron:session): session closed for user root
+Jul 21 23:20:02 C9031 CRON[19964]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:20:04 C9031 CRON[19964]: pam_unix(cron:session): session closed for user root
+Jul 21 23:25:01 C9031 CRON[20168]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:25:03 C9031 CRON[20168]: pam_unix(cron:session): session closed for user root
+Jul 21 23:30:01 C9031 CRON[20376]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:30:03 C9031 CRON[20376]: pam_unix(cron:session): session closed for user root
+Jul 21 23:35:01 C9031 CRON[20580]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:35:03 C9031 CRON[20580]: pam_unix(cron:session): session closed for user root
+Jul 21 23:40:01 C9031 CRON[20785]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:40:03 C9031 CRON[20785]: pam_unix(cron:session): session closed for user root
+Jul 21 23:45:01 C9031 CRON[20993]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:45:04 C9031 CRON[20993]: pam_unix(cron:session): session closed for user root
+Jul 21 23:50:01 C9031 CRON[21860]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:50:03 C9031 CRON[21860]: pam_unix(cron:session): session closed for user root
+Jul 21 23:55:01 C9031 CRON[22223]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 21 23:55:03 C9031 CRON[22223]: pam_unix(cron:session): session closed for user root
+Jul 22 00:00:01 C9031 CRON[22429]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:00:03 C9031 CRON[22429]: pam_unix(cron:session): session closed for user root
+Jul 22 00:05:01 C9031 CRON[22635]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:05:03 C9031 CRON[22635]: pam_unix(cron:session): session closed for user root
+Jul 22 00:06:17 C9031 sshd[22825]: Did not receive identification string from 192.168.106.16
+Jul 22 00:06:43 C9031 sshd[22828]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jul 22 00:06:44 C9031 sshd[22835]: fatal: no hostkey alg [preauth]
+Jul 22 00:06:44 C9031 sshd[22837]: fatal: no hostkey alg [preauth]
+Jul 22 00:06:44 C9031 sshd[22829]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 00:06:44 C9031 sshd[22833]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 00:06:44 C9031 sshd[22831]: Connection closed by 192.168.106.16 [preauth]
+Jul 22 00:06:50 C9031 sshd[22839]: Protocol major versions differ for 192.168.106.16: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2 vs. SSH-1.5-NmapNSE_1.0
+Jul 22 00:10:01 C9031 CRON[22854]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:10:03 C9031 CRON[22854]: pam_unix(cron:session): session closed for user root
+Jul 22 00:15:01 C9031 CRON[23058]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:15:04 C9031 CRON[23058]: pam_unix(cron:session): session closed for user root
+Jul 22 00:17:01 C9031 CRON[23250]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:17:01 C9031 CRON[23250]: pam_unix(cron:session): session closed for user root
+Jul 22 00:20:01 C9031 CRON[23256]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:20:03 C9031 CRON[23256]: pam_unix(cron:session): session closed for user root
+Jul 22 00:25:01 C9031 CRON[23461]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:25:03 C9031 CRON[23461]: pam_unix(cron:session): session closed for user root
+Jul 22 00:30:01 C9031 CRON[23669]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:30:03 C9031 CRON[23669]: pam_unix(cron:session): session closed for user root
+Jul 22 00:35:01 C9031 CRON[23876]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:35:04 C9031 CRON[23876]: pam_unix(cron:session): session closed for user root
+Jul 22 00:40:01 C9031 CRON[24080]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:40:03 C9031 CRON[24080]: pam_unix(cron:session): session closed for user root
+Jul 22 00:45:01 C9031 CRON[24284]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:45:03 C9031 CRON[24284]: pam_unix(cron:session): session closed for user root
+Jul 22 00:50:01 C9031 CRON[24481]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:50:03 C9031 CRON[24481]: pam_unix(cron:session): session closed for user root
+Jul 22 00:55:01 C9031 CRON[24686]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 00:55:03 C9031 CRON[24686]: pam_unix(cron:session): session closed for user root
+Jul 22 01:00:01 C9031 CRON[24892]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:00:03 C9031 CRON[24892]: pam_unix(cron:session): session closed for user root
+Jul 22 01:05:01 C9031 CRON[25099]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:05:04 C9031 CRON[25099]: pam_unix(cron:session): session closed for user root
+Jul 22 01:10:01 C9031 CRON[25304]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:10:03 C9031 CRON[25304]: pam_unix(cron:session): session closed for user root
+Jul 22 01:15:01 C9031 CRON[25501]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:15:03 C9031 CRON[25501]: pam_unix(cron:session): session closed for user root
+Jul 22 01:17:01 C9031 CRON[25703]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:17:01 C9031 CRON[25703]: pam_unix(cron:session): session closed for user root
+Jul 22 01:20:01 C9031 CRON[25709]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:20:03 C9031 CRON[25709]: pam_unix(cron:session): session closed for user root
+Jul 22 01:25:01 C9031 CRON[25914]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:25:04 C9031 CRON[25914]: pam_unix(cron:session): session closed for user root
+Jul 22 01:30:01 C9031 CRON[26120]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:30:03 C9031 CRON[26120]: pam_unix(cron:session): session closed for user root
+Jul 22 01:35:01 C9031 CRON[26327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:35:03 C9031 CRON[26327]: pam_unix(cron:session): session closed for user root
+Jul 22 01:40:01 C9031 CRON[26534]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:40:03 C9031 CRON[26534]: pam_unix(cron:session): session closed for user root
+Jul 22 01:45:01 C9031 CRON[26729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:45:03 C9031 CRON[26729]: pam_unix(cron:session): session closed for user root
+Jul 22 01:50:01 C9031 CRON[26934]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:50:04 C9031 CRON[26934]: pam_unix(cron:session): session closed for user root
+Jul 22 01:55:01 C9031 CRON[27142]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 01:55:03 C9031 CRON[27142]: pam_unix(cron:session): session closed for user root
+Jul 22 02:00:01 C9031 CRON[27346]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:00:03 C9031 CRON[27346]: pam_unix(cron:session): session closed for user root
+Jul 22 02:05:01 C9031 CRON[27552]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:05:03 C9031 CRON[27552]: pam_unix(cron:session): session closed for user root
+Jul 22 02:10:01 C9031 CRON[27757]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:10:03 C9031 CRON[27757]: pam_unix(cron:session): session closed for user root
+Jul 22 02:15:01 C9031 CRON[27954]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:15:03 C9031 CRON[27954]: pam_unix(cron:session): session closed for user root
+Jul 22 02:17:01 C9031 CRON[28156]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:17:01 C9031 CRON[28156]: pam_unix(cron:session): session closed for user root
+Jul 22 02:20:01 C9031 CRON[28164]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:20:03 C9031 CRON[28164]: pam_unix(cron:session): session closed for user root
+Jul 22 02:25:01 C9031 CRON[28371]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:25:03 C9031 CRON[28371]: pam_unix(cron:session): session closed for user root
+Jul 22 02:30:01 C9031 CRON[28576]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:30:04 C9031 CRON[28576]: pam_unix(cron:session): session closed for user root
+Jul 22 02:35:01 C9031 CRON[28781]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:35:03 C9031 CRON[28781]: pam_unix(cron:session): session closed for user root
+Jul 22 02:40:01 C9031 CRON[28985]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:40:03 C9031 CRON[28985]: pam_unix(cron:session): session closed for user root
+Jul 22 02:45:01 C9031 CRON[29182]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:45:03 C9031 CRON[29182]: pam_unix(cron:session): session closed for user root
+Jul 22 02:50:01 C9031 CRON[29387]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:50:03 C9031 CRON[29387]: pam_unix(cron:session): session closed for user root
+Jul 22 02:55:01 C9031 CRON[29591]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 02:55:03 C9031 CRON[29591]: pam_unix(cron:session): session closed for user root
+Jul 22 03:00:01 C9031 CRON[29798]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 03:00:01 C9031 CRON[29799]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 22 03:00:02 C9031 sudo:     root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rm /usr/share/applications/xscreensaver-properties.desktop
+Jul 22 03:00:02 C9031 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 22 03:00:02 C9031 sudo: pam_unix(sudo:session): session closed for user root
+Jul 22 03:00:04 C9031 CRON[29799]: pam_unix(cron:session): session closed for user root
