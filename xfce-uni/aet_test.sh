@@ -11,7 +11,7 @@ if [ ! -d /home/$1/.config/autostart ]; then
     cp /usr/src/IT_Files/Linux/xfce-uni/startup/update.desktop /home/$1/.config/autostart
     cp /home/$1/Desktop/Zoiper.desktop /home/$1/.config/autostart/
     #/usr/src/IT_Files/Linux/update.sh
-    reboot
+    service mdm force-reload
 fi
 
 sleep 5

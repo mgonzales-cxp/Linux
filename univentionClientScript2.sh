@@ -258,6 +258,7 @@ sudo rm -f /tmp/key/keys
 sudo rmdir /tmp/key/
 
 touch /var/log/uni.log
+touch /var/log/uni.flag
 
 echo "Installation is complete. Reboot now!"
 
