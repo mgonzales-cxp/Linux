@@ -12,6 +12,7 @@ if [ ! -d /home/$1/.config/autostart ]; then
     cp /home/$1/Desktop/Zoiper.desktop /home/$1/.config/autostart/
     #/usr/src/IT_Files/Linux/update.sh
     service mdm force-reload
+    exit 0
 fi
 
 sleep 5
